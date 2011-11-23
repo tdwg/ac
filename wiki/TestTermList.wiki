@@ -1,0 +1,646 @@
+[edit]Management Vocabulary
+
+|| *Term:* dcterms:identifier ||
+|| *Normative URI:* || http://purl.org/dc/terms/identifier ||
+|| *Label:* || Identifier ||
+|| || *Layer:* Core - *Required:* ‘Yes’ for media collections, ‘No’ for media resources (but preferred if available) — *Repeatable: * Yes | ||
+|| *Definition:* || An arbitrary code that is unique for the resource, with the resource being either a provider, collection, or media item. || 
+|| *Details:* || dcterms:identifier || 
+
+
+|| *Term:* dcterms:type ||
+|| *Normative URI:* || http://purl.org/dc/terms/type ||
+|| *Label:* || Type ||
+|| || *Layer:* Core - *Required:* Yes — *Repeatable: * No | ||
+|| *Definition:* || Any dcmi type term from http://dublincore.org/documents/dcmi-type-vocabulary/ may be used. Recommended terms are Collection, StillImage, Sound, MovingImage, InteractiveResource, Text. Also recommended are PanAndZoomImage , 3DStillImage, and 3DMovingImage. || 
+|| *Details:* || dcterms:type || 
+
+
+|| *Term:* subtype ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/subtype ||
+|| *Label:* || Subtype ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Any of Drawing, Painting, Logo, Icon, Illustration, Graphic, Photograph, Animation, Film, SlideShow, DesignPlan, Diagram, Map, MusicalNotation, IdentificationKey, ScannedText, RecordedText, RecordedOrganism, TaxonPage, MultimediaLearningObject, VirtualRealityEnvironment, GlossaryPage. These values may either be used in their literal form, or with their full namespace, e. g. http://rs.tdwg.org/ac/terms/identificationKey || 
+|| *Details:* || || 
+
+
+|| *Term:* dcterms:title ||
+|| *Normative URI:* || http://purl.org/dc/terms/title ||
+|| *Label:* || Title ||
+|| || *Layer:* Core - *Required:* Yes — *Repeatable: * No | ||
+|| *Definition:* || Concise title, name, or brief descriptive label of institution, resource collection, or individual resource. This field should include the complete title with all the subtitles, if any. || 
+|| *Details:* || dcterms:title || 
+
+
+|| *Term:* dcterms:modified ||
+|| *Normative URI:* || http://purl.org/dc/terms/modified ||
+|| *Label:* || Modified ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Date that the media resource was altered. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. || 
+|| *Details:* || dcterms:modified || 
+
+
+|| *Term:* xmp:MetadataDate ||
+|| *Normative URI:* || http://ns.adobe.com/xap/1.0/MetadataDate ||
+|| *Label:* || Metadata Date ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || Point in time recording when the last modification to metadata (not necessarily the media object itself) occurred. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. || 
+|| *Details:* || Terms for Adobe XMP have URIs that are not resolvable. Instead, visit , XMP Specification Part 1, Sec 8.4 for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF. || 
+
+
+|| *Term:* metadataLanguage ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/metadataLanguage ||
+|| *Label:* || Metadata Language ||
+|| || *Layer:* Core - *Required:* Yes — *Repeatable: * No | ||
+|| *Definition:* || Language of description and other metadata (but not necessarily of the image itself) represented in ISO639-1 or -3. || 
+|| *Details:* || || 
+
+
+|| *Term:* providerManagedID ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/providerManagedID ||
+|| *Label:* || Provider-managed ID ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || A free-form identifier (a simple number, an alphanumeric code, a URL, etc.) that is unique and meaningful primarily for the data provider. || 
+|| *Details:* || || 
+
+
+|| *Term:* xmp:Rating ||
+|| *Normative URI:* || http://ns.adobe.com/xap/1.0/Rating ||
+|| *Label:* || Rating ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || A rating of the media resources, provided by users or editors, with -1 defining “rejected”, “0” defining “unrated”, and “1” (worst) to “5” (best). || 
+|| *Details:* || Terms for Adobe XMP have URIs that are not resolvable. Instead, visit , XMP Specification Part 1, Sec 8.4 for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF., which contains "A user-assigned rating for this file. The value shall be -1 or in the range [0..5], where -1 indicates “rejected” and 0 indicates “unrated”. If xmp:Rating is not present, a value of 0 may be assumed. NOTE Anticipated usage is for a typical “star rating” UI, with the addition of a notion of rejection." Values may be decimal numbers in the permitted range. || 
+
+
+|| *Term:* comments ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/comments ||
+|| *Label:* || Comments ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Any comment provided on the media resource, as free-form text. Best practice would also identify the commenter. || 
+|| *Details:* || || 
+
+
+|| *Term:* reviewer ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/reviewer ||
+|| *Label:* || Reviewer ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || If present, then resource is peer-reviewed, even if Reviewers Comments are lacking. The notation of whether an expert in the subject featured in the media has reviewed the media item or collection and approved its metadata description. Must display a name or the literal "anonymous" (= anonymously reviewed). || 
+|| *Details:* || || 
+
+
+|| *Term:* reviewerComments ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/reviewerComments ||
+|| *Label:* || Reviewer Comments ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Any comment provided by a reviewer with expertise in the subject, as free-form text. || 
+|| *Details:* || || 
+
+
+|| *Term:* dcterms:available ||
+|| *Normative URI:* || http://purl.org/dc/terms/available ||
+|| *Label:* || Date Available ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || The date (often a range) that the resource became or will become available. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. || 
+|| *Details:* || dcterms:available || 
+
+
+
+[edit]Attribution Vocabulary
+
+|| *Term:* dcterms:rights ||
+|| *Normative URI:* || http://purl.org/dc/terms/rights ||
+|| *Label:* || Copyright Statement ||
+|| || *Layer:* Core - *Required:* Yes — *Repeatable: * No | ||
+|| *Definition:* || Information about rights held in and over the resource. A full-text, readable copyright statement, as required by the national legislation of the copyright holder. On collections, this applies to all contained objects, unless the object itself has a different statement. Examples: “Copyright XY 2008, all rights reserved”, “© 2008 XY Museum” , "Public Domain.", "Copyright unknown" Do not place just the name of the copyright holder(s) here! That belongs in a list in the xmpRights:Owner field, which should be supplied if dcterms:rights is not 'Public Domain', appropriate only if the resource is known to be not under copyright. || 
+|| *Details:* || dcterms:rights || 
+
+
+|| *Term:* xmpRights:Owner ||
+|| *Normative URI:* || http://ns.adobe.com/xap/1.0/rights/Owner ||
+|| *Label:* || Copyright Owner ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || A list of the names of the owners of the copyright. 'Unknown' is an acceptable value, but 'Public Domain' is not. See the Comments below for this term. || 
+|| *Details:* || Terms for Adobe XMP have URIs that are not resolvable. Instead, visit , XMP Specification Part 1, Sec 8.5 for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF. || 
+
+
+|| *Term:* xmpRights:UsageTerms ||
+|| *Normative URI:* || http://ns.adobe.com/xap/1.0/rights/UsageTerms ||
+|| *Label:* || License Terms ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || The license statement defining how resources may be used. Information on a collection applies to all contained objects unless the object has a different statement. || 
+|| *Details:* || Terms for Adobe XMP have URIs that are not resolvable. Instead, visit , XMP Specification Part 1, Sec 8.5 for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF. || 
+
+
+|| *Term:* xmpRights:WebStatement ||
+|| *Normative URI:* || http://ns.adobe.com/xap/1.0/rights/WebStatement ||
+|| *Label:* || License URL ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || A URL defining or further elaborating on the license statement (e. g., a web page explaining the precise terms of use). || 
+|| *Details:* || Terms for Adobe XMP have URIs that are not resolvable. Instead, visit , XMP Specification Part 1, Sec 8.5 for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF. || 
+
+
+|| *Term:* licenseLogoURL ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/licenseLogoURL ||
+|| *Label:* || License Logo URL ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || A URL providing access to a logo that symbolizes the License. || 
+|| *Details:* || || 
+
+
+|| *Term:* Iptc4xmpExt:CreditLine ||
+|| *Normative URI:* || http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/CreditLine ||
+|| *Label:* || Attribution Statement ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || free text for "please cite this as…" || 
+|| *Details:* || IPTC terms for Adobe XMP have URIs that are not resolvable. Instead, visit IPTC Standard Photo Metadata (July 2010) for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF. || 
+
+
+|| *Term:* attributionLogoURL ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/attributionLogoURL ||
+|| *Label:* || Attribution URL ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || The URL of icon or logo image to appear in source attribution. || 
+|| *Details:* || || 
+
+
+|| *Term:* attributionLinkURL ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/attributionLinkURL ||
+|| *Label:* || Attribution Link URL ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || The URL where information about ownership, attribution, etc. of the resource may be found. || 
+|| *Details:* || || 
+
+
+|| *Term:* dcterms:source ||
+|| *Normative URI:* || http://purl.org/dc/terms/source ||
+|| *Label:* || Published Source ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || An identifiable source from which the described resources was derived. || 
+|| *Details:* || dcterms:source || 
+
+
+
+[edit]Agents Vocabulary
+
+|| *Term:* dcterms:creator ||
+|| *Normative URI:* || http://purl.org/dc/terms/creator ||
+|| *Label:* || Creator ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || The person or organization responsible for creating the media resource || 
+|| *Details:* || dcterms:creator || 
+
+
+|| *Term:* provider ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/provider ||
+|| *Label:* || Provider ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || Person or organization responsible for presenting the media resource. If no separate Metadata Provider is attributed, this attributes also the metadata. || 
+|| *Details:* || || 
+
+
+|| *Term:* metadataProvider ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/metadataProvider ||
+|| *Label:* || Metadata Provider ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Person or organization originally responsible for compiling and presenting providing the resource metadata record. || 
+|| *Details:* || || 
+
+
+|| *Term:* metadataCreator ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/metadataCreator ||
+|| *Label:* || Metadata Creator ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Person or organization originally creating the resource metadata record. || 
+|| *Details:* || || 
+
+
+
+[edit]Content Coverage Vocabulary
+
+|| *Term:* dcterms:description ||
+|| *Normative URI:* || http://purl.org/dc/terms/description ||
+|| *Label:* || Description ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || Description of collection or individual resource, containing the Who, What, When, Where and Why as free-form text. This normative document is silent on the nature of formatting in the text. It is the role of implementers of an AC concrete representation (e.g. an XML Schema, an RDF representation, etc.) to decide and document how formatting advice will be represented in Descriptions serialized according to such representations. || 
+|| *Details:* || dcterms:description || 
+
+
+|| *Term:* caption ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/caption ||
+|| *Label:* || Caption ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || As alternative or in addition to description, a caption is free-form text to be displayed together with (rather than instead of) a resource that is suitable for captions (especially images). || 
+|| *Details:* || || 
+
+
+|| *Term:* dcterms:language ||
+|| *Normative URI:* || http://purl.org/dc/terms/language ||
+|| *Label:* || Language ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Language(s) of resource itself represented in ISO639-1 or -3 || 
+|| *Details:* || dcterms:language || 
+
+
+
+[edit] Geography Vocabulary
+
+Location created and Location shown are separated in the current version of IPTC, and the metadata working group (MWG 2010)[1] also recommends this. We will follow this, to support the expected future increase of automatic GPS based coordinate recording in recording devices. As a special case, the AC group recommends to change the semantics of location shown in the case of biodiversity specimens, where the original location may differ from the current location at which the specimen is held in a collection. In this case, LocationShown should exclusively refer to the location where a specimen was originally collected (gathering or sampling location). Use LocationCreated to express the location where the media was created (a specimen was digitized).
+All geography terms from the DarwinCore version of 12 09 2009 are deemed included in the Core Layer. Specifically, this includes exactly those which are declared by DarwinCore to be in DarwinCore Class Location. Note that dwc:locality may be used, but as applied to media this term may be ambiguous as to whether it applies to the location depicted or the location at which the media was created. When disambiguating information is available, it is better to use the terms Location Shown and Location Acquired
+|| *Term:* Iptc4xmpExt:LocationShown ||
+|| *Normative URI:* || http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/LocationShown ||
+|| *Label:* || Location Shown ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || The location that is shown or the place of the media content, irrespective of the location from which the resource has been created. || 
+|| *Details:* || IPTC terms for Adobe XMP have URIs that are not resolvable. Instead, visit IPTC Standard Photo Metadata (July 2010) for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF. || 
+
+
+|| *Term:* Iptc4xmpExt:WorldRegion ||
+|| *Normative URI:* || http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/WorldRegion ||
+|| *Label:* || World Region ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Name of a world region in some high level classification, such as names for continents, waterbodies, or island groups, whichever is most appropriate. The terms preferably are derived from a controlled vocabulary (to be defined). || 
+|| *Details:* || IPTC terms for Adobe XMP have URIs that are not resolvable. Instead, visit IPTC Standard Photo Metadata (July 2010) for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF. || 
+
+
+|| *Term:* Iptc4xmpExt:CountryCode ||
+|| *Normative URI:* || http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/CountryCode ||
+|| *Label:* || Country Code ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || The geographic location of the specific entity(ies) documented by the media item, expressed through a constrained vocabulary of countries using 2-letter ISO country code (e. g. "it, si"). || 
+|| *Details:* || IPTC terms for Adobe XMP have URIs that are not resolvable. Instead, visit IPTC Standard Photo Metadata (July 2010) for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF. || 
+
+
+|| *Term:* Iptc4xmpExt:CountryName ||
+|| *Normative URI:* || http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/CountryName ||
+|| *Label:* || Country Name ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || This field can be free text, but where possible, the use of http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/CountryCode is preferred. || 
+|| *Details:* || IPTC terms for Adobe XMP have URIs that are not resolvable. Instead, visit IPTC Standard Photo Metadata (July 2010) for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF. || 
+
+
+|| *Term:* Iptc4xmpExt:ProvinceState ||
+|| *Normative URI:* || http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/ProvinceState ||
+|| *Label:* || Province or State ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Optionally, the geographic unit immediately below the country level (individual states in federal countries, provinces, or other administrative units) in which the subject of the media resource (e. g., species, habitats, or events) were located (if such information is available in separate fields). || 
+|| *Details:* || IPTC terms for Adobe XMP have URIs that are not resolvable. Instead, visit IPTC Standard Photo Metadata (July 2010) for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF. || 
+
+
+|| *Term:* Iptc4xmpExt:City ||
+|| *Normative URI:* || http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/City ||
+|| *Label:* || City or Place Name ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Optionally, the name of a city or place commonly found in gazetteers (such as a mountain or national park) in which the subjects (e. g., species, habitats, or events) were located. || 
+|| *Details:* || IPTC terms for Adobe XMP have URIs that are not resolvable. Instead, visit IPTC Standard Photo Metadata (July 2010) for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF. || 
+
+
+|| *Term:* Iptc4xmpExt:Sublocation ||
+|| *Normative URI:* || http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/Sublocation ||
+|| *Label:* || Sublocation ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Free-form text location details of the location of the subjects, down to the village, forest, or geographic feature etc., below the city or other place name, especially information that could not be found in a gazetteer. || 
+|| *Details:* || IPTC terms for Adobe XMP have URIs that are not resolvable. Instead, visit IPTC Standard Photo Metadata (July 2010) for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF. || 
+
+
+
+[edit]Temporal Coverage Vocabulary
+
+|| *Term:* dcterms:temporal ||
+|| *Normative URI:* || http://purl.org/dc/terms/temporal ||
+|| *Label:* || Temporal Coverage ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || The coverage (extent or scope) of the content of the resource. Temporal coverage will typically include temporal period (a period label, date, or date range) to which the subjects of the media or media collection relate. If dates are mentioned, they should follow ISO 8601. When the resource is a Collection, this refers to the temporal coverage of the collection. || 
+|| *Details:* || dcterms:temporal || 
+
+
+|| *Term:* xmp:CreateDate ||
+|| *Normative URI:* || http://ns.adobe.com/xap/1.0/CreateDate ||
+|| *Label:* || Original Date and Time ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || The date of the creation for the original resource from which the digital media was derived or created. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. || 
+|| *Details:* || Terms for Adobe XMP have URIs that are not resolvable. Instead, visit , XMP Specification Part 1, Sec 8.4 for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF. || 
+
+
+|| *Term:* timeOfDay ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/timeOfDay ||
+|| *Label:* || Time of Day ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || Free text information beyond exact clock times. || 
+|| *Details:* || || 
+
+
+
+[edit]Subject of Resource Vocabulary
+
+|| *Term:* physicalSetting ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/physicalSetting ||
+|| *Label:* || Physical Setting ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || The Setting of the content represented in a medium like images, sounds, movies. Constrained vocabulary of: "Natural" = Unmodified object in a natural setting of unmodified object (e. g. living organisms in their natural environment); "Artificial" = Unmodified object in artificial setting of (e. g. living organisms in artificial environment: Zoo, Garden, Greenhouse, Laboratory; photographic background or background sound suppression). "Irrelevant" (e. g. background of Museum shots). || 
+|| *Details:* || || 
+
+
+|| *Term:* Iptc4xmpExt:CVterm ||
+|| *Normative URI:* || http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/CVterm ||
+|| *Label:* || Subject Category ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Controlled vocabulary of subjects to support broad classification of media items. Terms from various controlled vocabularies may be used. AC-recommended vocabularies are preferred and may be unqualified literals (without a URI). For terms from other vocabularies either a precise URI should be used, or, when providing unqualified terms, to provide the source vocabulary in Subject Category Vocabulary. || 
+|| *Details:* || IPTC terms for Adobe XMP have URIs that are not resolvable. Instead, visit IPTC Standard Photo Metadata (July 2010) for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF. || 
+
+
+|| *Term:* subjectCategoryVocabulary ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/subjectCategoryVocabulary ||
+|| *Label:* || Subject Category Vocabulary ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Any vocabulary or formal classification from which terms in Subject Category have been drawn. || 
+|| *Details:* || || 
+
+
+|| *Term:* tag ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/tag ||
+|| *Label:* || Tag ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || General keywords or tags. || 
+|| *Details:* || || 
+
+
+
+[edit]Taxonomic Coverage Vocabulary
+
+|| *Term:* ncd:taxonCoverage ||
+|| *Normative URI:* || http://rs.tdwg.org/ontology/voc/CollectiontaxonCoverage ||
+|| *Label:* || Taxon Coverage ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || A higher taxon (e. g., a genus, family, or order) at the level of the genus or higher, that covers all taxa that are the primary subject of the resource (which may be a media item or a collection). || 
+|| *Details:* || || 
+
+
+|| *Term:* dwc:scientificName ||
+|| *Normative URI:* || http://rs.tdwg.org/dwc/terms/scientificName ||
+|| *Label:* || Taxon Name ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Taxon names of organisms represented in the media resource (with date and authorship information if available) of the lowest level taxonomic rank that can be applied. || 
+|| *Details:* || dwc:scientificName || 
+
+
+|| *Term:* dwc:identificationQualifier ||
+|| *Normative URI:* || http://rs.tdwg.org/dwc/terms/identificationQualifier ||
+|| *Label:* || Identification Qualifier ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || A brief phrase or a standard abbreviation ("cf. genus", "cf. species", "cf. var.", "aff. species", etc.) to express the determiner's doubts with respect to a specified taxonomic rank about the identification given in Scientific Name. || 
+|| *Details:* || dwc:identificationQualifier || 
+
+
+|| *Term:* dwc:vernacularName ||
+|| *Normative URI:* || http://rs.tdwg.org/dwc/terms/vernacularName ||
+|| *Label:* || Common Name ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Common (= vernacular) names of the subject in one or several languages. The ISO language name should be given in parentheses after the name if not all names are in Metadata Language. || 
+|| *Details:* || dwc:vernacularName || 
+
+
+|| *Term:* dwc:nameAccordingTo ||
+|| *Normative URI:* || http://rs.tdwg.org/dwc/terms/nameAccordingTo ||
+|| *Label:* || Name According To ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || The taxonomic authority used to apply the name to the taxon, e. g., a book or web service from which the name comes from. || 
+|| *Details:* || dwc:nameAccordingTo || 
+
+
+|| *Term:* dwc:taxonID ||
+|| *Normative URI:* || http://rs.tdwg.org/dwc/terms/taxonID ||
+|| *Label:* || Scientific Name GUID ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Equivalent to Scientific Name, but using GUIDs such as http URIs or LSIDs to refer to the taxon names or concepts. || 
+|| *Details:* || dwc:taxonID || 
+
+
+|| *Term:* scientificNameSynonym ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/scientificNameSynonym ||
+|| *Label:* || Scientific Name Synonym ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || One or several scientific names that are synonyms to the Scientific Name may be provided here. || 
+|| *Details:* || || 
+
+
+|| *Term:* dwc:identifiedBy ||
+|| *Normative URI:* || http://rs.tdwg.org/dwc/terms/identifiedBy ||
+|| *Label:* || Identified By ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || The name(s) of the person(s) who applied the Scientific Name to the sample. || 
+|| *Details:* || dwc:identifiedBy || 
+
+
+|| *Term:* dwc:dateIdentified ||
+|| *Normative URI:* || http://rs.tdwg.org/dwc/terms/dateIdentified ||
+|| *Label:* || Date Identified ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || The date on which the person(s) given under Identfied By applied a Scientific Name to the resource. || 
+|| *Details:* || dwc:dateIndentified || 
+
+
+|| *Term:* taxonCount ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/taxonCount ||
+|| *Label:* || Taxon Count ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || An exact or estimated number of taxa at the lowest applicable taxon rank (usually species or infraspecific) represented by the media resource (item or collection). || 
+|| *Details:* || || 
+
+
+|| *Term:* subjectPart ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/subjectPart ||
+|| *Label:* || Subject Part ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || The portion of the organism, environment, etc. shown or particularly well illustrated. || 
+|| *Details:* || || 
+
+
+|| *Term:* dwc:sex ||
+|| *Normative URI:* || http://rs.tdwg.org/dwc/terms/sex ||
+|| *Label:* || Subject Sex ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || A description of the sex of any organisms featured within the media, when relevant to the subject of the media, e. g., male, female, hermaphrodite, dioecious. || 
+|| *Details:* || || 
+
+
+|| *Term:* dwc:lifeStage ||
+|| *Normative URI:* || http://rs.tdwg.org/dwc/terms/lifeStage ||
+|| *Label:* || Subject Life Stage ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || A description of the life-cycle stage of any organisms featured within the media, when relevant to the subject of the media, e. g., larvae, juvenile, adult. || 
+|| *Details:* || dwc:lifeStage || 
+
+
+|| *Term:* subjectOrientation ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/subjectOrientation ||
+|| *Label:* || Subject Orientation ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Specific orientiation (= direction, view angle) of the subject represented in the media resource with respect to the acquisition device. || 
+|| *Details:* || || 
+
+
+
+[edit]Resource Creation Vocabulary
+
+|| *Term:* Iptc4xmpExt:LocationCreated ||
+|| *Normative URI:* || http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/LocationCreated ||
+|| *Label:* || Location Created ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || The location at which the media recording instrument was placed when the media was created. || 
+|| *Details:* || IPTC terms for Adobe XMP have URIs that are not resolvable. Instead, visit IPTC Standard Photo Metadata (July 2010) for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF. || 
+
+
+|| *Term:* digitizationDate ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/digitizationDate ||
+|| *Label:* || Date and Time Digitized ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || Date the first digital version was created, where different Date and Time Original (e. g. where photographic prints have been scanned). The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. || 
+|| *Details:* || || 
+
+
+|| *Term:* captureDevice ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/captureDevice ||
+|| *Label:* || Capture Device ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || Free form text describing the device or devices used to create the resource. || 
+|| *Details:* || || 
+
+
+|| *Term:* resourceCreationTechnique ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/resourceCreationTechnique ||
+|| *Label:* || Resource Creation Technique ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || Information about technical aspects of the creation and digitization process of the resource. This includes modification steps ("retouching") after the initial resource capture. || 
+|| *Details:* || || 
+
+
+
+[edit]Related Resources Vocabulary
+
+|| *Term:* IDofContainingCollection ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/IDofContainingCollection ||
+|| *Label:* || ID of Containing Collection ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || If the resource is contained in a Collection, this field identifies that Collection uniquely. Its form is not specified by this normative document, but is left to implementers of specific implementations. || 
+|| *Details:* || || 
+
+
+|| *Term:* relatedResourceID ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/relatedResourceID ||
+|| *Label:* || Related Resource ID ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Resource related in ways not specified through a collection.
+Before-after images
+Time-lapse series
+Different orientations/angles of view || 
+|| *Details:* || || 
+
+
+|| *Term:* providerID ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/providerID ||
+|| *Label:* || Provider ID ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || A globally unique ID of the provider of the current AC metadata record. || 
+|| *Details:* || || 
+
+
+|| *Term:* derivedFrom ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/derivedFrom ||
+|| *Label:* || Derived From ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || A reference to an original resource from which the current one is derived. || 
+|| *Details:* || || 
+
+
+|| *Term:* associatedSpecimenReference ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/associatedSpecimenReference ||
+|| *Label:* || Associated Specimen Reference ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || a reference to a specimen associated with this resource. || 
+|| *Details:* || || 
+
+
+|| *Term:* associatedObservationReference ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/associatedObservationReference ||
+|| *Label:* || Associated Observation Reference ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || A reference to an observation associated with this resource. || 
+|| *Details:* || || 
+
+
+
+[edit]Service Access Point Vocabulary
+
+[edit] Service Access Point Class
+|| *Term:* serviceAccessPoint ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/serviceAccessPoint ||
+|| *Label:* || Service Access Point ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || Reference to an object (the "access point") of a class describing network access to the media resource, or related resource, that the AC metadata describes. What constitutes a class and objects therein is dependent on the representation (e.g., XML Schema, RDF, etc.), but for full compliance such a representation must provide for the application to the access point of each of the terms in the Service Access Point Properties section below. || 
+|| *Details:* || serviceAccessPoint is an attribute of the media being described, as are all other AC terms except those in the following section, which are attributes of the access point class. Depending on the specific model used, the value of serviceAccessPoint may be implemented through some form of nesting objects inside other objects, or through a unique identifier pointing to an access point object. || 
+
+
+
+[edit]Service Access Point Properties
+|| *Term:* accessURI ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/accessURI ||
+|| *Label:* || Access URI ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || URI of the resource itself. If this resource can be acquired by an http request, its http URL should be given. If not, but it has some URI in another URI scheme, that may be given here. || 
+|| *Details:* || || 
+
+
+|| *Term:* dcterms:format ||
+|| *Normative URI:* || http://purl.org/dc/terms/format ||
+|| *Label:* || Format ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || The technical format of the resource (file format or physical medium). || 
+|| *Details:* || dcterms:format || 
+
+
+|| *Term:* variant ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/variant ||
+|| *Label:* || Variant ||
+|| || *Layer:* Core - *Required:* No — *Repeatable: * Yes | ||
+|| *Definition:* || What this ServiceAccessPoint provides. Suggested values are "Thumbnail", "Trailer", "Lower Quality", "Medium Quality", "Good Quality", "Best Quality", "Offline" || 
+|| *Details:* || || 
+
+
+|| *Term:* dcterms:extent ||
+|| *Normative URI:* || http://purl.org/dc/terms/extent ||
+|| *Label:* || Extent ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || The size, dimensions, or duration of the variant of the media resource. || 
+|| *Details:* || dcterms:extent || 
+
+
+|| *Term:* furtherInformationURL ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/furtherInformationURL ||
+|| *Label:* || Further Information URL ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || The URL of a Web site that provides additional information about (this version of) the media resource || 
+|| *Details:* || || 
+
+
+|| *Term:* licensingException ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/licensingException ||
+|| *Label:* || Licensing Exception Statement ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || The licensing statement for this variant of the media resource if different from that given in the “License Statement” property of the resource || 
+|| *Details:* || || 
+
+
+|| *Term:* serviceExpectation ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/serviceExpectation ||
+|| *Label:* || Service Expectation ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || A term that describes what service expectations users may have of the accessURL. Recommended terms include online (denotes that the URL is expected to deliver the resource), authenticate (denotes that the URL delivers a login or other authentication interface requiring completion before delivery of the resource) published(non digital) (denotes that the URL is the identifier of a non-digital published work, for example a doi.) Communities should develop their own controlled vocabularies for Service Expectations. || 
+|| *Details:* || || 
+
+
+|| *Term:* variantDescription ||
+|| *Normative URI:* || http://rs.tdwg.org/ac/terms/variantDescription ||
+|| *Label:* || Variant Description ||
+|| || *Layer:* Extended - *Required:* No — *Repeatable: * No | ||
+|| *Definition:* || Text that describes this Service Access Point variant || 
+|| *Details:* || || 
