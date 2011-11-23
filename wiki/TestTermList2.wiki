@@ -1,0 +1,487 @@
+#summary One-sentence summary of this page.
+
+<table class="wikitable">
+
+
+
+<tr>
+<td id="dcterms:identifier" colspan="2" style="background:#EEE; border: 5px solid #ccc">Term: dcterms:identifier</td>
+</tr>
+<tr>
+<td id="dcterms:identifier" colspan="2" style="vertical-align:bottom; background:#EEE; border: 1px solid #ccc; border-bottom: 1px solid #CCC;  padding:0.5em;padding-top:1.1em; font-size:100%; font-weight:bold;">Term: dcterms:identifier</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Normative URI:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">http://purl.org/dc/terms/identifier</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Label</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Identifier</td></tr>
+<tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">&#160;</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><b>Layer:</b> Core — <b>Required: </b>  ‘Yes’ for media collections, ‘No’ for media resources (but preferred if available) — <b>Repeatable: </b> Yes</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Definition:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">An arbitrary code that is unique for the resource, with the resource being either a provider, collection, or media item.</td>
+</tr>
+
+
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Details</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/#terms-identifier">dcterms:identifier</a></td></tr>
+<tr>
+</tr><tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Comments:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Using multiple identifiers implies that they have a same-as relationship, i.e. they all identify the same object (e. g. an object may have an http-URL, and lsid-URI, and a GUID-number).</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Crosswalk:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">   <b><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/">DublinCore:</a></b> dcterms:identifier — <b><a target="_blank" class="external text" href="http://www.adobe.com/devnet/xmp/">XMP:</a></b>  — <b><a target="_blank" class="external text" href="http://rs.tdwg.org/dwc/terms/index.htm">DarwinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.tdwg.org/activities/ncd/">NCD:</a></b> ncd:collectionId — <b><a target="_blank" class="external text" href="http://www.morphbank.net/Help/Documents/">Morphbank:</a></b> URL with id — <b><a target="_blank" class="external text" href="http://life.nbii.gov/">LIFE:</a></b> System ID — <b><a target="_blank" class="external text" href="http://www.keytonature.eu/wiki/Resource_Metadata_Exchange_Agreement">K2N:</a></b> k2n:Resource_ID — <b><a target="_blank" class="external text" href="http://www.loc.gov/standards/mix/mix20/mix20.xsd">MIX2.0:</a></b> mix2:<a target="_blank" class="external text" href="http://www.loc.gov/standards/mix/mix20/mix20.xsd">BasicDigitalObjectInformation/ObjectIdentifier</a><sup id="cite_ref-mix2_0-0" class="reference"><a href="#cite_note-mix2-0">[1]</a></sup></td>
+</tr>  
+
+
+
+
+
+
+
+
+
+
+<tr id="Type">
+<td id="dcterms:type" colspan="2" style="vertical-align:bottom;background:#EEE;border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;padding-top:1.1em;font-size:100%;font-weight:bold;">Term: dcterms:type</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Normative URI:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">http://purl.org/dc/terms/type</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Label</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Type</td></tr>
+<tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">&#160;</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><b>Layer:</b> Core — <b>Required: </b>  Yes — <b>Repeatable: </b> No</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Definition:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Any dcmi type term from <a target="_blank" class="external free" href="http://dublincore.org/documents/dcmi-type-vocabulary/">http://dublincore.org/documents/dcmi-type-vocabulary/</a> may be used. Recommended terms are <i>Collection</i>, <i>StillImage</i>, <i>Sound</i>, <i>MovingImage</i>, <i>InteractiveResource</i>, <i>Text</i>. Also recommended are <i>PanAndZoomImage</i> , <i>3DStillImage</i>, and <i>3DMovingImage</i>.</td>
+</tr>
+
+
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Details</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/#terms-type">dcterms:type</a></td></tr>
+<tr>
+</tr><tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Comments:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">A Collection should be given type <a target="_blank" class="external free" href="http://purl.org/dc/dcmitype/Collection">http://purl.org/dc/dcmitype/Collection</a>. If the resource is a Collection, this item does <i>not</i> identify what types of objects it may contain. Following the DC recommendations at <a target="_blank" class="external free" href="http://purl.org/dc/dcmitype/Text">http://purl.org/dc/dcmitype/Text</a>, images of text should be marked as <i>Text</i>.</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Crosswalk:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">   <b><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/">DublinCore:</a></b> dcterms:type — <b><a target="_blank" class="external text" href="http://www.adobe.com/devnet/xmp/">XMP:</a></b>  — <b><a target="_blank" class="external text" href="http://rs.tdwg.org/dwc/terms/index.htm">DarwinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.tdwg.org/activities/ncd/">NCD:</a></b> ncd:CollectionType — <b><a target="_blank" class="external text" href="http://www.morphbank.net/Help/Documents/">Morphbank:</a></b>  — <b><a target="_blank" class="external text" href="http://life.nbii.gov/">LIFE:</a></b> Type — <b><a target="_blank" class="external text" href="http://www.keytonature.eu/wiki/Resource_Metadata_Exchange_Agreement">K2N:</a></b> k2n:Type pro parte — <b><a target="_blank" class="external text" href="http://www.loc.gov/standards/mix/mix20/mix20.xsd">MIX2.0:</a></b> </td>
+</tr>  
+
+
+
+
+
+
+
+
+
+
+<tr id="Subtype">
+<td id="subtype" colspan="2" style="vertical-align:bottom;background:#EEE;border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;padding-top:1.1em;font-size:100%;font-weight:bold;">Term: subtype</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Normative URI:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">http://rs.tdwg.org/ac/terms/subtype</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Label</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Subtype</td></tr>
+<tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">&#160;</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><b>Layer:</b> Core — <b>Required: </b>  No — <b>Repeatable: </b> Yes</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Definition:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Any of Drawing, Painting, Logo, Icon, Illustration, Graphic, Photograph, Animation, Film, SlideShow, DesignPlan, Diagram, Map, MusicalNotation, IdentificationKey, ScannedText, RecordedText, RecordedOrganism, TaxonPage, MultimediaLearningObject, VirtualRealityEnvironment, GlossaryPage. 
+These values may either be used in their literal form, or with their full namespace, e. g. http://rs.tdwg.org/ac/terms/identificationKey</td>
+</tr>
+
+
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Details</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"></td></tr>
+<tr>
+</tr><tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Comments:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">This does not apply to Collection objects. The vocabulary may be extended by users provided they identify the term by a URI which is not in the ac namespace (for example, using &quot;http://my.inst.org/namespace/metadata/subtype/repair-manual&quot;. Conforming applications may choose to ignore these.</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Crosswalk:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">   <b><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/">DublinCore:</a></b> dcterms:type — <b><a target="_blank" class="external text" href="http://www.adobe.com/devnet/xmp/">XMP:</a></b>  — <b><a target="_blank" class="external text" href="http://rs.tdwg.org/dwc/terms/index.htm">DarwinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.tdwg.org/activities/ncd/">NCD:</a></b> Collection-&gt;collectionType — <b><a target="_blank" class="external text" href="http://www.morphbank.net/Help/Documents/">Morphbank:</a></b>  — <b><a target="_blank" class="external text" href="http://life.nbii.gov/">LIFE:</a></b> Type Details — <b><a target="_blank" class="external text" href="http://www.keytonature.eu/wiki/Resource_Metadata_Exchange_Agreement">K2N:</a></b> k2n:Type pro parte — <b><a target="_blank" class="external text" href="http://www.loc.gov/standards/mix/mix20/mix20.xsd">MIX2.0:</a></b> </td>
+</tr>  
+
+
+
+
+
+
+
+
+
+
+<tr id="Title">
+<td id="dcterms:title" colspan="2" style="vertical-align:bottom;background:#EEE;border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;padding-top:1.1em;font-size:100%;font-weight:bold;">Term: dcterms:title</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Normative URI:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">http://purl.org/dc/terms/title</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Label</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Title</td></tr>
+<tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">&#160;</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><b>Layer:</b> Core — <b>Required: </b>  Yes — <b>Repeatable: </b> No</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Definition:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Concise title, name, or brief descriptive label of institution, resource collection, or individual resource. This field should include the complete title with all the subtitles, if any.</td>
+</tr>
+
+
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Details</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/#terms-title">dcterms:title</a></td></tr>
+<tr>
+</tr><tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Comments:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">The title facilitates interactions with humans: e.g. the title could be used as display text of hyperlinks or to provide a choice of images in a pick list. The title is therefore highly useful and an effort should be made to provide it, where not already available. When the resource is a collection without an institutional or official name, but with a thematic content, a descriptive title, e. g. “Urban Ants of New England” would be suitable. In individual media resources depicting taxa, the scientific name or names of taxa often form a good title. Common names in addition to or instead of scientific names are also acceptable. Indications of action or roles captured by the media resource, such as predatory acts, are desirable (“Rattlesnake eating deer mouse”, “Pollinators of California Native Plants”).</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Crosswalk:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">   <b><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/">DublinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.adobe.com/devnet/xmp/">XMP:</a></b>  — <b><a target="_blank" class="external text" href="http://rs.tdwg.org/dwc/terms/index.htm">DarwinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.tdwg.org/activities/ncd/">NCD:</a></b> dcterms:title — <b><a target="_blank" class="external text" href="http://www.morphbank.net/Help/Documents/">Morphbank:</a></b>  — <b><a target="_blank" class="external text" href="http://life.nbii.gov/">LIFE:</a></b> Title for media resource, or Collection Title for a collection, for Provider or institution it matches the Name/Roles pair combination — <b><a target="_blank" class="external text" href="http://www.keytonature.eu/wiki/Resource_Metadata_Exchange_Agreement">K2N:</a></b> k2n:Title — <b><a target="_blank" class="external text" href="http://www.loc.gov/standards/mix/mix20/mix20.xsd">MIX2.0:</a></b> </td>
+</tr>  
+
+
+
+
+
+
+
+
+
+
+
+<tr id="Modified">
+<td id="dcterms:modified" colspan="2" style="vertical-align:bottom;background:#EEE;border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;padding-top:1.1em;font-size:100%;font-weight:bold;">Term: dcterms:modified</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Normative URI:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">http://purl.org/dc/terms/modified</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Label</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Modified</td></tr>
+<tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">&#160;</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><b>Layer:</b> Extended — <b>Required: </b>  No — <b>Repeatable: </b> Yes</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Definition:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Date that the media resource was altered. The date and time must comply with the World Wide Web Consortium (<a target="_blank" class="external text" href="http://www.w3.org">W3C</a>) <a target="_blank" class="external text" href="http://www.w3.org/TR/NOTE-datetime">datetime practice</a>, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with <a target="_blank" class="external text" href="http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=40874">8601:2004</a>. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also  the <a target="_blank" class="external text" href="http://en.wikipedia.org/wiki/ISO_8601">wikipedia IS0 8601 entry</a> for further explanation and examples.</td>
+</tr>
+
+
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Details</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/#terms-modified">dcterms:modified</a></td></tr>
+<tr>
+</tr><tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Comments:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">dcterms:modified permits all modification dates to be recorded, or if only one is recorded, it is assumed to be the latest.</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Crosswalk:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">   <b><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/">DublinCore:</a></b> Same as dcterms:modified — <b><a target="_blank" class="external text" href="http://www.adobe.com/devnet/xmp/">XMP:</a></b> http://ns.adobe.com/xap/1.0/ModifyDate — <b><a target="_blank" class="external text" href="http://rs.tdwg.org/dwc/terms/index.htm">DarwinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.tdwg.org/activities/ncd/">NCD:</a></b> dcterms:modified — <b><a target="_blank" class="external text" href="http://www.morphbank.net/Help/Documents/">Morphbank:</a></b>  — <b><a target="_blank" class="external text" href="http://life.nbii.gov/">LIFE:</a></b> Date Modified — <b><a target="_blank" class="external text" href="http://www.keytonature.eu/wiki/Resource_Metadata_Exchange_Agreement">K2N:</a></b> k2n:Modified — <b><a target="_blank" class="external text" href="http://www.loc.gov/standards/mix/mix20/mix20.xsd">MIX2.0:</a></b> mix2:<a target="_blank" class="external text" href="http://www.loc.gov/standards/mix/mix20/mix20.xsd">ChangeHistory/ImageProcessing/dateTimeProcessed</a><sup id="cite_ref-mix2_0-1" class="reference"><a href="#cite_note-mix2-0">[1]</a></sup></td>
+</tr>  
+
+
+
+
+
+
+
+
+
+
+
+<tr id="Metadata_Date">
+<td id="xmp:MetadataDate" colspan="2" style="vertical-align:bottom;background:#EEE;border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;padding-top:1.1em;font-size:100%;font-weight:bold;">Term: xmp:MetadataDate</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Normative URI:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">http://ns.adobe.com/xap/1.0/MetadataDate</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Label</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Metadata Date</td></tr>
+<tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">&#160;</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><b>Layer:</b> Core — <b>Required: </b>  No — <b>Repeatable: </b> No</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Definition:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Point in time recording when the last modification to metadata (not necessarily the media object itself) occurred. The date and time must comply with the World Wide Web Consortium (<a target="_blank" class="external text" href="http://www.w3.org">W3C</a>) <a target="_blank" class="external text" href="http://www.w3.org/TR/NOTE-datetime">datetime practice</a>, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with <a target="_blank" class="external text" href="http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=40874">8601:2004</a>. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also  the <a target="_blank" class="external text" href="http://en.wikipedia.org/wiki/ISO_8601">wikipedia IS0 8601 entry</a> for further explanation and examples.</td>
+</tr>
+
+
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Details</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Terms for Adobe XMP have URIs that are not resolvable. Instead, visit  <a target="_blank" class="external text" href="http://www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/XMPSpecificationPart1.pdf">, XMP Specification Part 1, Sec  8.4 </a>  for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF.</td></tr>
+<tr>
+</tr><tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Comments:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">This is not dcterms:modified, which refers to the resource itself rather than its metadata. A use case is incremental harvesting: the holder of metadata who also holds the resources may be receiving metadata more frequently than the underlying resources; thus this date information may help a user harvesting the metadata to decide whether updating is necessary.</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Crosswalk:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">   <b><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/">DublinCore:</a></b> dcterms:modified referring to a "metadata resource". — <b><a target="_blank" class="external text" href="http://www.adobe.com/devnet/xmp/">XMP:</a></b> http://ns.adobe.com/xap/1.0/MetadataDate. IPTC Extension 1.0 also provides IPTC Metadata Last Edited = 
+http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/IptcLastEdited - which, however, seem to be limited to modifications of IPTC fields alone. — <b><a target="_blank" class="external text" href="http://rs.tdwg.org/dwc/terms/index.htm">DarwinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.tdwg.org/activities/ncd/">NCD:</a></b> dcterms:modified Collection-&gt;formationPeriod? — <b><a target="_blank" class="external text" href="http://www.morphbank.net/Help/Documents/">Morphbank:</a></b> BaseObject.dateModified — <b><a target="_blank" class="external text" href="http://life.nbii.gov/">LIFE:</a></b> Date Record Modified — <b><a target="_blank" class="external text" href="http://www.keytonature.eu/wiki/Resource_Metadata_Exchange_Agreement">K2N:</a></b> k2n:Metadata_Modified — <b><a target="_blank" class="external text" href="http://www.loc.gov/standards/mix/mix20/mix20.xsd">MIX2.0:</a></b> </td>
+</tr>  
+
+
+
+
+
+
+
+
+
+
+
+<tr id="Metadata_Language">
+<td id="metadataLanguage" colspan="2" style="vertical-align:bottom;background:#EEE;border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;padding-top:1.1em;font-size:100%;font-weight:bold;">Term: metadataLanguage</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Normative URI:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">http://rs.tdwg.org/ac/terms/metadataLanguage</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Label</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Metadata Language</td></tr>
+<tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">&#160;</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><b>Layer:</b> Core — <b>Required: </b>  Yes — <b>Repeatable: </b> No</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Definition:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Language of description and other metadata (but not necessarily of the image itself) represented in ISO639-1 or -3.</td>
+</tr>
+
+
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Details</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"></td></tr>
+<tr>
+</tr><tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Comments:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">This is NOT dcterms:language, which is about the resource, not the metadata. This is deliberately single-valued, imposing a requirement that multi-lingual metadata be represented as separate, complete, metadata records in which also the language-neutral items appear. Consumers can re-combine records by identity of multimedia Resource IDs (which are highly recommended to supply). In the face of metadata records of several languages for the same resource, this normative document offers no guidance as to how to disambiguate what language applies to what metadata. To disambiguate this, the metadata provider can provide a separate AC object for each different MetadataLanguage, each such AC object referring to the same multimedia resource Identifier. This comes at a cost of repeated data for the "language neutral" metadata items, but the alternative is to have a complex hierarchical structure for an AC object. Nothing in this document would prevent an implementer, e. g. of an XML-Schema representation, from providing a fully hierarchical schema and disambiguating that way. Users of particular implementation should consult documentation specific for that implementation on this point, but it should always be correct, if convenient, to provide one metadata record per language.</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Crosswalk:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">   <b><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/">DublinCore:</a></b> dcterms:language referring to a "metadata resource". — <b><a target="_blank" class="external text" href="http://www.adobe.com/devnet/xmp/">XMP:</a></b>  — <b><a target="_blank" class="external text" href="http://rs.tdwg.org/dwc/terms/index.htm">DarwinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.tdwg.org/activities/ncd/">NCD:</a></b>  — <b><a target="_blank" class="external text" href="http://www.morphbank.net/Help/Documents/">Morphbank:</a></b> "English" — <b><a target="_blank" class="external text" href="http://life.nbii.gov/">LIFE:</a></b> Language of Cataloging — <b><a target="_blank" class="external text" href="http://www.keytonature.eu/wiki/Resource_Metadata_Exchange_Agreement">K2N:</a></b> k2n:Metadata_Language — <b><a target="_blank" class="external text" href="http://www.loc.gov/standards/mix/mix20/mix20.xsd">MIX2.0:</a></b> </td>
+</tr>  
+
+
+
+
+
+
+
+
+
+
+<tr id="Provider-managed_ID">
+<td id="providerManagedID" colspan="2" style="vertical-align:bottom;background:#EEE;border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;padding-top:1.1em;font-size:100%;font-weight:bold;">Term: providerManagedID</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Normative URI:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">http://rs.tdwg.org/ac/terms/providerManagedID</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Label</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Provider-managed ID</td></tr>
+<tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">&#160;</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><b>Layer:</b> Extended — <b>Required: </b>  No — <b>Repeatable: </b> No</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Definition:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">A free-form identifier (a simple number, an alphanumeric code, a URL, etc.) that is unique and meaningful primarily for the data provider.</td>
+</tr>
+
+
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Details</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"></td></tr>
+<tr>
+</tr><tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Comments:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Ideally, this would be a globally unique identifier (GUID), but the provider is encouraged to supply any form of identifier that simplifies communications on resources within the project and help to locate individual data items in the provider's data repositories. It is the provider's decision whether to expose this value or not.</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Crosswalk:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">   <b><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/">DublinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.adobe.com/devnet/xmp/">XMP:</a></b>  — <b><a target="_blank" class="external text" href="http://rs.tdwg.org/dwc/terms/index.htm">DarwinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.tdwg.org/activities/ncd/">NCD:</a></b> ncd:collectionId — <b><a target="_blank" class="external text" href="http://www.morphbank.net/Help/Documents/">Morphbank:</a></b> id — <b><a target="_blank" class="external text" href="http://life.nbii.gov/">LIFE:</a></b> NA — <b><a target="_blank" class="external text" href="http://www.keytonature.eu/wiki/Resource_Metadata_Exchange_Agreement">K2N:</a></b> k2n:Resource_ID — <b><a target="_blank" class="external text" href="http://www.loc.gov/standards/mix/mix20/mix20.xsd">MIX2.0:</a></b> </td>
+</tr>  
+
+
+
+
+
+
+
+
+
+
+<tr id="Rating">
+<td id="xmp:Rating" colspan="2" style="vertical-align:bottom;background:#EEE;border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;padding-top:1.1em;font-size:100%;font-weight:bold;">Term: xmp:Rating</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Normative URI:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">http://ns.adobe.com/xap/1.0/Rating</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Label</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Rating</td></tr>
+<tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">&#160;</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><b>Layer:</b> Core — <b>Required: </b>  No — <b>Repeatable: </b> No</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Definition:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">A rating of the media resources, provided by users or editors, with -1 defining “rejected”, “0” defining “unrated”, and “1” (worst) to “5” (best).</td>
+</tr>
+
+
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Details</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Terms for Adobe XMP have URIs that are not resolvable. Instead, visit  <a target="_blank" class="external text" href="http://www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/XMPSpecificationPart1.pdf">, XMP Specification Part 1, Sec  8.4 </a>  for further documentation. Note that XMP does not have an explicit XML-Schema. Rather, an "XMP Schema" is actually defined in RDF., which contains "A user-assigned rating for this file. The value shall be -1 or in the 
+<p>range [0..5], where -1 indicates “rejected” and 0 indicates “unrated”. 
+If xmp:Rating is not present, a value of 0 may be assumed.
+NOTE   Anticipated usage is for a typical “star rating” UI, with the addition of 
+</p>
+a notion of rejection." Values may be decimal numbers in the permitted range.</td></tr>
+<tr>
+</tr><tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Comments:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">The origin of the rating is not communicated. It may, e. g., be based on user feedback or on editorial ratings. If Rating is not present, a value of 0 may be assumed.</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Crosswalk:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">   <b><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/">DublinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.adobe.com/devnet/xmp/">XMP:</a></b> http://ns.adobe.com/xap/1.0/Rating — <b><a target="_blank" class="external text" href="http://rs.tdwg.org/dwc/terms/index.htm">DarwinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.tdwg.org/activities/ncd/">NCD:</a></b>  — <b><a target="_blank" class="external text" href="http://www.morphbank.net/Help/Documents/">Morphbank:</a></b>  — <b><a target="_blank" class="external text" href="http://life.nbii.gov/">LIFE:</a></b> NA — <b><a target="_blank" class="external text" href="http://www.keytonature.eu/wiki/Resource_Metadata_Exchange_Agreement">K2N:</a></b> k2n:Rating — <b><a target="_blank" class="external text" href="http://www.loc.gov/standards/mix/mix20/mix20.xsd">MIX2.0:</a></b> </td>
+</tr>  
+
+
+
+
+
+
+
+
+
+
+
+<tr id="Comments">
+<td id="comments" colspan="2" style="vertical-align:bottom;background:#EEE;border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;padding-top:1.1em;font-size:100%;font-weight:bold;">Term: comments</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Normative URI:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">http://rs.tdwg.org/ac/terms/comments</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Label</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Comments</td></tr>
+<tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">&#160;</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><b>Layer:</b> Extended — <b>Required: </b>  No — <b>Repeatable: </b> Yes</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Definition:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Any comment provided on the media resource, as free-form text. Best practice would also identify the commenter.</td>
+</tr>
+
+
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Details</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"></td></tr>
+<tr>
+</tr><tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Comments:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Comments may refer to the resource itself (e. g., asserting a taxon name or location of a biological subject in an image), or to the relation between resource and associated metadata (e. g., asserting that the taxon name given in metadata is false, without asserting a positive identification). There is a separate item for reviewer comments, which is defined more as an expert-level review.</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Crosswalk:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">   <b><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/">DublinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.adobe.com/devnet/xmp/">XMP:</a></b>  — <b><a target="_blank" class="external text" href="http://rs.tdwg.org/dwc/terms/index.htm">DarwinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.tdwg.org/activities/ncd/">NCD:</a></b> ncd:note — <b><a target="_blank" class="external text" href="http://www.morphbank.net/Help/Documents/">Morphbank:</a></b>  — <b><a target="_blank" class="external text" href="http://life.nbii.gov/">LIFE:</a></b> Outside Comments — <b><a target="_blank" class="external text" href="http://www.keytonature.eu/wiki/Resource_Metadata_Exchange_Agreement">K2N:</a></b> not available — <b><a target="_blank" class="external text" href="http://www.loc.gov/standards/mix/mix20/mix20.xsd">MIX2.0:</a></b> </td>
+</tr>  
+
+
+
+
+
+
+
+
+
+
+<tr id="Reviewer">
+<td id="reviewer" colspan="2" style="vertical-align:bottom;background:#EEE;border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;padding-top:1.1em;font-size:100%;font-weight:bold;">Term: reviewer</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Normative URI:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">http://rs.tdwg.org/ac/terms/reviewer</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Label</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Reviewer</td></tr>
+<tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">&#160;</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><b>Layer:</b> Extended — <b>Required: </b>  No — <b>Repeatable: </b> Yes</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Definition:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">If present, then resource is peer-reviewed, even if Reviewers Comments are lacking. The notation of whether an expert in the subject featured in the media has reviewed the media item or collection and approved its metadata description. Must display a name or the literal "anonymous" (= anonymously reviewed).</td>
+</tr>
+
+
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Details</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"></td></tr>
+<tr>
+</tr><tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Comments:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Provider is asserting they accept this review as competent.</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Crosswalk:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">   <b><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/">DublinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.adobe.com/devnet/xmp/">XMP:</a></b>  — <b><a target="_blank" class="external text" href="http://rs.tdwg.org/dwc/terms/index.htm">DarwinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.tdwg.org/activities/ncd/">NCD:</a></b>  — <b><a target="_blank" class="external text" href="http://www.morphbank.net/Help/Documents/">Morphbank:</a></b>  — <b><a target="_blank" class="external text" href="http://life.nbii.gov/">LIFE:</a></b> Peer Reviewed (may change our item name to Reviewer) — <b><a target="_blank" class="external text" href="http://www.keytonature.eu/wiki/Resource_Metadata_Exchange_Agreement">K2N:</a></b> k2n:Reviewer_Names — <b><a target="_blank" class="external text" href="http://www.loc.gov/standards/mix/mix20/mix20.xsd">MIX2.0:</a></b> </td>
+</tr>  
+
+
+
+
+
+
+
+
+
+
+<tr id="Reviewer_Comments">
+<td id="reviewerComments" colspan="2" style="vertical-align:bottom;background:#EEE;border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;padding-top:1.1em;font-size:100%;font-weight:bold;">Term: reviewerComments</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Normative URI:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">http://rs.tdwg.org/ac/terms/reviewerComments</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Label</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Reviewer Comments</td></tr>
+<tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">&#160;</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><b>Layer:</b> Extended — <b>Required: </b>  No — <b>Repeatable: </b> Yes</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Definition:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Any comment provided by a reviewer with expertise in the subject, as free-form text.</td>
+</tr>
+
+
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Details</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"></td></tr>
+<tr>
+</tr><tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Comments:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Reviewer Comments may refer to the resource itself (e. g., asserting a taxon name or location of a biological subject in an image), or to the relation between resource and associated metadata (e. g., asserting that the taxon name given in metadata is false, without asserting a positive identification). There is a separate item “Comments” for text from commenters of unrecorded expertise.</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Crosswalk:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">   <b><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/">DublinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.adobe.com/devnet/xmp/">XMP:</a></b>  — <b><a target="_blank" class="external text" href="http://rs.tdwg.org/dwc/terms/index.htm">DarwinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.tdwg.org/activities/ncd/">NCD:</a></b>  — <b><a target="_blank" class="external text" href="http://www.morphbank.net/Help/Documents/">Morphbank:</a></b>  — <b><a target="_blank" class="external text" href="http://life.nbii.gov/">LIFE:</a></b> PeerReviewerComments — <b><a target="_blank" class="external text" href="http://www.keytonature.eu/wiki/Resource_Metadata_Exchange_Agreement">K2N:</a></b> k2n:Reviewer_Comments — <b><a target="_blank" class="external text" href="http://www.loc.gov/standards/mix/mix20/mix20.xsd">MIX2.0:</a></b> </td>
+</tr>  
+
+
+
+
+
+
+
+
+
+
+
+<tr id="Date_Available">
+<td id="dcterms:available" colspan="2" style="vertical-align:bottom;background:#EEE;border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;padding-top:1.1em;font-size:100%;font-weight:bold;">Term: dcterms:available</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Normative URI:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">http://purl.org/dc/terms/available</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Label</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Date Available</td></tr>
+<tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">&#160;</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><b>Layer:</b> Extended — <b>Required: </b>  No — <b>Repeatable: </b> No</td>
+</tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Definition:</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">The date (often a range) that the resource became or will become available. The date and time must comply with the World Wide Web Consortium (<a target="_blank" class="external text" href="http://www.w3.org">W3C</a>) <a target="_blank" class="external text" href="http://www.w3.org/TR/NOTE-datetime">datetime practice</a>, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with <a target="_blank" class="external text" href="http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=40874">8601:2004</a>. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also  the <a target="_blank" class="external text" href="http://en.wikipedia.org/wiki/ISO_8601">wikipedia IS0 8601 entry</a> for further explanation and examples.</td>
+</tr>
+
+
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Details</td>
+<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;"><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/#terms-available">dcterms:available</a></td></tr>
+<tr>
+</tr><tr><td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Comments:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">A use case is, for example, that metadata, potentially including occurrence records, are published before even before the media are available, which are pending a formal publication elsewhere.</td></tr>
+<tr>
+<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Crosswalk:</td><td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">   <b><a target="_blank" class="external text" href="http://dublincore.org/documents/dcmi-terms/">DublinCore:</a></b> same as dcterms:available — <b><a target="_blank" class="external text" href="http://www.adobe.com/devnet/xmp/">XMP:</a></b>  — <b><a target="_blank" class="external text" href="http://rs.tdwg.org/dwc/terms/index.htm">DarwinCore:</a></b>  — <b><a target="_blank" class="external text" href="http://www.tdwg.org/activities/ncd/">NCD:</a></b>  — <b><a target="_blank" class="external text" href="http://www.morphbank.net/Help/Documents/">Morphbank:</a></b> dateToPublish — <b><a target="_blank" class="external text" href="http://life.nbii.gov/">LIFE:</a></b> Date Published — <b><a target="_blank" class="external text" href="http://www.keytonature.eu/wiki/Resource_Metadata_Exchange_Agreement">K2N:</a></b> (not supported) — <b><a target="_blank" class="external text" href="http://www.loc.gov/standards/mix/mix20/mix20.xsd">MIX2.0:</a></b> </td>
+</tr>  
+
+
+
+
+
+
+
+</table>
