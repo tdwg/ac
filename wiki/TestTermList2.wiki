@@ -3,14 +3,13 @@
 
 
 <tr>
-<td id="dcterms:identifier" border="3px" >Term: dcterms:identifier</td>
+
+<tr>
+<td id="dcterms:identifier" colspan="2"  border="3px">Term: dcterms:identifier</td>
 </tr>
 <tr>
-<td id="dcterms:identifier" colspan="2"  border="3px" so>Term: dcterms:identifier</td>
-</tr>
-<tr>
-<td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Normative URI:</td>
-<td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">http://purl.org/dc/terms/identifier</td></tr>
+<td  border="3px">Normative URI:</td>
+<td border="3px" padding="0.5em "> http://purl.org/dc/terms/identifier</td></tr>
 <tr>
 <td style="text-align:right;vertical-align:top;background:#EEE;border-right:1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em; font-family:Verdana,Arial,sans-serif;">Label</td>
 <td style="border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding:0.5em;">Identifier</td></tr>
