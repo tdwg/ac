@@ -2,7 +2,7 @@
  * [ManagementVocabulary Management Vocabulary]
  * [AttributionVocabulary Attribution Vocabulary]
  * [AgentsVocabulary Agents Vocabulary]
- * [ContentCoverageVocabulary]
+ * [ContentCoverageVocabulary Content Coverage Vocabulary]
  * [GeographyVocabulary Geography Vocabulary]
  * [TemporalCoverageVocabulary Temporal Coverage Vocabulary]
  * [SubjectOfResourceVocabulary Subject of Resource Vocabulary]
