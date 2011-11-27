@@ -1,6 +1,6 @@
 #sidebar TableOfContents
 ====Info====
-[AcFoo Index to terms; info about comments]
+[ACVocabularyHome Index to terms; info about comments]
 ====Vocabularies====
  * [ManagementVocabulary Management Vocabulary]
  * [AttributionVocabulary Attribution Vocabulary]
