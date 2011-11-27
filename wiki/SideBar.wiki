@@ -1,14 +1,14 @@
 #sidebar TableOfContents
  * [ManagementVocabulary Management Vocabulary]
  * [AttributionVocabulary Attribution Vocabulary]
- * Agents Vocabulary
- * Content Coverage Vocabulary
- * Geography Vocabulary
- * Temporal Coverage Vocabulary
- * Subject of Resource Vocabulary
- * Taxonomic Coverage Vocabulary
- * Resource Creation Vocabulary
- * Related Resources Vocabulary
- * Service Access Point Vocabulary
- ** Service Access Point Class
- ** Service Access Point Properties
+ * [Agents Vocabulary]
+ * [Content Coverage Vocabulary]
+ * [Geography Vocabulary]
+ * [Temporal Coverage Vocabulary]
+ * [Subject of Resource Vocabulary]
+ * [Taxonomic Coverage Vocabulary]
+ * [Resource Creation Vocabulary]
+ * [Related Resources Vocabulary]
+ * [Service Access Point Vocabulary]
+ ** [Service Access Point Class]
+ ** [Service Access Point Properties]
