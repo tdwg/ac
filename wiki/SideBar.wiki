@@ -1,5 +1,5 @@
 #sidebar TableOfContents
-===Vocabularies===
+====Vocabularies====
  * [ManagementVocabulary Management Vocabulary]
  * [AttributionVocabulary Attribution Vocabulary]
  * [AgentsVocabulary Agents Vocabulary]
