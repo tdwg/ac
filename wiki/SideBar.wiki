@@ -10,5 +10,3 @@
  * [ResourceCreationVocabulary Resource Creation Vocabulary]
  * [RelatedResourcesVocabulary Related Resources Vocabulary]
  * [ServiceAccessPointVocabulary Service Access Point Vocabulary]
- ** [ServiceAccessPointClass Service Access Point Class]
- ** [ServiceAccessPointProperties Service Access Point Properties]
