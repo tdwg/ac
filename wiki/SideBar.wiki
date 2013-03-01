@@ -1,6 +1,6 @@
 #sidebar Links of Interest
 
-*[ACVocabularyHome info about commenting]*
+*[AboutIssueTracker info about commenting]*
 
 *[http://terms.gbif.org/wiki/Audubon_Core_(1.0_normative) Normative Technical Introduction to the Term List]*
 
