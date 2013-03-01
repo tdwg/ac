@@ -1,15 +1,7 @@
-#sidebar TableOfContents
-====Info====
-[ACVocabularyHome Index to terms; info about comments]
-====Vocabularies====
- * [ManagementVocabulary Management Vocabulary]
- * [AttributionVocabulary Attribution Vocabulary]
- * [AgentsVocabulary Agents Vocabulary]
- * [ContentCoverageVocabulary Content Coverage Vocabulary]
- * [GeographyVocabulary Geography Vocabulary]
- * [TemporalCoverageVocabulary Temporal Coverage Vocabulary]
- * [SubjectOfResourceVocabulary Subject of Resource Vocabulary]
- * [TaxonomicCoverageVocabulary Taxonomic Coverage Vocabulary]
- * [ResourceCreationVocabulary Resource Creation Vocabulary]
- * [RelatedResourcesVocabulary Related Resources Vocabulary]
- * [ServiceAccessPointVocabulary Service Access Point Vocabulary]
+#sidebar Links of Interest
+
+*[ACVocabularyHome info about commenting]*
+
+*[http://terms.gbif.org/wiki/Audubon_Core_(1.0_normative) Normative Technical Introduction to the Term List]*
+
+*[http://terms.gbif.org/wiki/Audubon_Core_Term_List_(1.0_normative) Proposed Normative Term List]*
