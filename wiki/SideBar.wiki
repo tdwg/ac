@@ -1,7 +1,13 @@
-#sidebar Links of Interest
 
-*[AboutIssueTracker info about commenting]*
+===Links of Interest===
+
+==On this Site==
+*[AboutIssueTracker About commenting on the Issue Tracker]*
+
+==Normative Documents==
+
+Normative documents are on the [http://terms.gbif.org/wiki GBIF Terminology Platform]:
 
 *[http://terms.gbif.org/wiki/Audubon_Core_(1.0_normative) Normative Technical Introduction to the Term List]*
 
-*[http://terms.gbif.org/wiki/Audubon_Core_Term_List_(1.0_normative) Proposed Normative Term List]*
+*[http://terms.gbif.org/wiki/Audubon_Core_Term_List_(1.0_normative) Normative Term List]*
