@@ -2,7 +2,7 @@
 TBW
 
 =Instructions for Commenting=
-TBW
+To comment on the proposed TDWG Audubon Core Multimedia Metadata Standard, please use the Issue Tracker by clicking on the Issues tab above, or simply clicking [http://code.google.com/p/auduboncore/issues/list here]
 
 =Maybe term index=
 TBW
