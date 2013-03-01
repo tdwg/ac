@@ -1,8 +1,19 @@
 =Intro=
-TBW
+Audubon Core (AC) is a proposal to the *[http://tdwg.org Biodiversity Standards (TDWG) ]* standards body. It is designed to provide a controlled vocabulary to address the management, acquisition, and content descriptions of biodiversity multimedia. An important goal is support of assessment, before acquisition of the media, of its fitness for the intended use. The proposal is an effort of the joint *[http://tdwg.org TDWG]/[http://gbif.org GBIF]* Multimedia Resources Task Group (MRTG).
+
+About half of the terms are borrowed from other standards, particularly the *[http://dublincore.org/documents/dcmi-terms/ Dublin Core]*, the *[http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf Adobe XMP representation of the  IPTC Standard Photo Metadata].* Because parts of these vocabularies are already in wide use for tagging and describing biodiversity media, many users and applications will have little effort using AC, all the more because only four of its 72 terms are mandatory.
+
+The emphasis of Version 1.0 is support for media that document the occurrence of species or higher level taxa, but AC is not limited to that. The authors welcome comments about gaps related to other kinds of biodiversity media, and expect that the TDWG community will propose extensions or alternatives to AC to address those comments. We also recognize that the proposal may lack sufficient richness to cover some aspects of temporal media such as video and audio files, and welcome discussion of these issues, particularly with reference to existing standards.
+
+Finally, please note that the current proposal is only for a representation-neutral controlled vocabulary. Proposed representations for serialization using XML, RDF, and other serialization forms will be developed after adoption of the current proposal, and we do not expect that will be a lengthy process.
+
+The proposal has gone through extensive internal review and response, for which we thank the anonymous reviewers as well as the Review Manager, Dr. Steven Baskauf.  Now we welcome public comment in preparation for a final submission to the TDWG Executive Committee for adoption as a TDWG Standard.  Robert A. Morris(Convenor), Vijay Barve, Mihail Carausu, Vishwas Chavan, Jose Cuadra, Chris Freeland, Gregor Hagedorn, Patrick Leary, Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage.
 
 =Instructions for Commenting=
-To comment on the proposed TDWG Audubon Core Multimedia Metadata Standard, please use the Issue Tracker by clicking on the Issues tab above, or simply clicking [http://code.google.com/p/auduboncore/issues/list here]
+If you are unfamiliar with AC, please first read the brief *[http://terms.gbif.org/wiki/Audubon_Core_(1.0_normative) normative introduction to the]* normative *[http://terms.gbif.org/wiki/Audubon_Core_Term_List_(1.0_normative) AC Term List].* This is especially important for developers, but if you are impatient or not a developer, you might bravely proceed right to the *[[http://terms.gbif.org/wiki/Audubon_Core_Term_List_(1.0_normative) Term List].* Comments are welcome on both the introduction and the Term List.
 
-=Maybe term index=
-TBW
+To comment on the proposed TDWG Audubon Core Multimedia Metadata Standard, please use the Issue Tracker by clicking on the Issues tab above, or simply clicking *[http://code.google.com/p/auduboncore/issues/list here].* Please read the existing issues to see whether you can comment on one of them rather than add a new issue. 
+
+To comment on an issue or add a new one will you require to sign in to the wiki using a Google account name. If you don't have one, you will be able to create one. Alternatively, you can send email with your comments to tdwg-content@lists.tdwg.org with a subject that starts with "AC Comment".  You need not be a TDWG member to participate in TDWG mailing lists. 
+
+Finally, the Issue tracker provide for many tags that classify Issues in several different ways, e.g. the priority, the impact on other Issues, etc. You are welcome to choose those values if you think your choices are helpful, but the MRTG is likely to edit them to fit its workflow once the comment period closes and perhaps earlier. So don't worry too much about them.
