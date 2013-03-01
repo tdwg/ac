@@ -14,6 +14,6 @@ If you are unfamiliar with AC, please first read the brief *[http://terms.gbif.o
 
 To comment on the proposed TDWG Audubon Core Multimedia Metadata Standard, please use the Issue Tracker by clicking on the Issues tab above, or simply clicking *[http://code.google.com/p/auduboncore/issues/list here].* Please read the existing issues to see whether you can comment on one of them rather than add a new issue. 
 
-To comment on an issue or add a new one will you require to sign in to the wiki using a Google account name. If you don't have one, you will be able to create one. Alternatively, you can send email with your comments to tdwg-content@lists.tdwg.org with a subject that starts with "AC Comment".  You need not be a TDWG member to participate in TDWG mailing lists. 
+To comment on an issue or add a new one will  require you to sign in to the wiki using a Google account name. If you don't have one, you will be able to create one. Alternatively, you can send email with your comments to tdwg-content@lists.tdwg.org with a subject that starts with "AC Comment". We will put it into the Issue Tracker with attribution.  You need not be a TDWG member to participate in TDWG mailing lists. 
 
 Finally, the Issue tracker provides for many tags that classify Issues in several different ways, e.g. the priority, the impact on other Issues, etc. You are welcome to choose those values if you think your choices are helpful, but the MRTG is likely to edit them to fit its workflow once the comment period closes and perhaps earlier. So don't worry too much about them.
