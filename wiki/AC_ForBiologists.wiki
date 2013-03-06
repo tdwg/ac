@@ -1,4 +1,4 @@
-*If you are also a programmer, you might prefer to start at [AboutIssueTracker this page about the Issue Tracker]*
+*If you are also a programmer, you might prefer to start at [AboutIssueTracker the page about the Issue Tracker]*
 
 1. What is the Audubon Core Multimedia Metadata specification (AC)?
  * It's a controlled vocabulary to help computers exchange information about the content and management of multimedia, such as images, audio, and video.
