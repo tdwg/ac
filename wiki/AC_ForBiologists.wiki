@@ -1,3 +1,5 @@
+*If you are also a programmer, you might prefer to start at [AboutIssueTracker this page about the Issue Tracker]*
+
 1. What is the Audubon Core Multimedia Metadata specification (AC)?
  * It's a controlled vocabulary to help computers exchange information about the content and management of multimedia, such as images, audio, and video.
  * It also specifies recommended English labels for its use in web, desktop, and mobile applications about biodiversity. Labels in other languages, or other English labels can easily be specified by communities of biologists and developers.
