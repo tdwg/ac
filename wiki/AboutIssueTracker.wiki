@@ -10,7 +10,7 @@ Finally, please note that the current proposal is only for a representation-neut
 The proposal has gone through extensive internal review and response, for which we thank the anonymous reviewers as well as the Review Manager, Dr. Steven Baskauf.  Now we welcome public comment in preparation for a final submission to the TDWG Executive Committee for adoption as a TDWG Standard.  <br/>Robert A. Morris(Convenor), Vijay Barve, Mihail Carausu, Vishwas Chavan, Jose Cuadra, Chris Freeland, Gregor Hagedorn, Patrick Leary, Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage.
 
 =Instructions for Commenting=
-(If you find these instructions too geeky, try instead the page [AC_ForBiologists AC For Biologists]).
+_*(If you find these instructions too geeky, try instead the page [AC_ForBiologists AC For Biologists]).*_
 If you are unfamiliar with AC, please first read the brief *[http://terms.gbif.org/wiki/Audubon_Core_(1.0_normative) normative introduction]* to the normative *[http://terms.gbif.org/wiki/Audubon_Core_Term_List_(1.0_normative) AC Term List].* This is especially important for developers, but if you are impatient or not a developer, you might bravely proceed right to the *[http://terms.gbif.org/wiki/Audubon_Core_Term_List_(1.0_normative) Term List].* Comments are welcome on both the introduction and the Term List.
 
 To comment on the proposed TDWG Audubon Core Multimedia Metadata Standard, please use the Issue Tracker by clicking on the Issues tab above, or simply clicking *[http://code.google.com/p/auduboncore/issues/list here].* Please read the existing issues to see whether you can comment on one of them rather than add a new issue. 
