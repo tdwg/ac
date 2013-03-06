@@ -15,7 +15,7 @@
 ||pic1.jpg||Dictyophora indusiata||Veiled lady||William Haber||
  
 7. That's it?
- * Not quite. In this thought exercise (or real exercise if you prefer) ask yourself first for a given term are the Label, the Definition, and the Notes reasonably clear? At the end, ask yourself whether all of the concerns you might wish to record in your imaginary spreadsheet addressed in the term list? If the answer to any of these is "No", let us know why in as much detail as you can bear.  You can do that by sending email with your comments to tdwg-content@lists.tdwg.org or comment on this web site following the instructions at 
+ * Not quite. In this thought exercise (or real exercise if you prefer) ask yourself first for a given term are the Label, the Definition, and the Notes reasonably clear? At the end, ask yourself whether all of the concerns you might wish to record in your imaginary spreadsheet addressed in the term list? If the answer to any of these is "No", let us know why in as much detail as you can bear.  You can do that by sending email with your comments to tdwg-content@lists.tdwg.org or comment on this web site following the instructions at [AboutIssueTracker] 
 
 8. Why did you leave the filename column header empty?
  * Instead of a direct answer, I offer this suggestion: Find a programmer who works on biodiversity information systems. Ask her the question. While she is pondering it, say knowingly "Was it something to do with globally unique identifiers?"  She will run away.  But seriously, there's lots of stuff in AC that only the programmers need to discuss, even those who double as biologists. If that doesn't include you, we still hope to get your opinions.
