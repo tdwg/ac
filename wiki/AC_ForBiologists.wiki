@@ -17,8 +17,8 @@ Here is an example I might produce with just a few of the terms to document a [h
 || ||Scientific Taxon Name|| Common Name || Identified By || 
 ||pic1.jpg||Dictyophora indusiata||Veiled lady||William Haber||
 
-7. Wait, there's very little about georeferencing? How can I use pictures do document species ranges? Georeferencing is critical for some applications.
- *Yes, it's so important that AC delegates most of the subject to the [http://rs.tdwg.org/dwc/2009-12-07/terms/#dcterms:Location Darwin Core Location] vocabulary.  You can use any of those the same way you can use the terms defined in the [http://terms.gbif.org/wiki/Audubon_Core_Term_List_(1.0_normative) Term List]
+7. Wait, there's very little about georeferencing? How can I use pictures to document species ranges? Georeferencing is critical for some applications.
+ * Yes, it's so important that AC delegates most of the subject to the [http://rs.tdwg.org/dwc/2009-12-07/terms/#dcterms:Location Darwin Core Location] vocabulary.  You can use any of those the same way you can use the terms defined in the [http://terms.gbif.org/wiki/Audubon_Core_Term_List_(1.0_normative) Term List]
 
 8. That's it?
  * Not quite. In this thought exercise (or real exercise if you prefer) ask yourself first for a given term did you find that the Label, the Definition, and the Notes reasonably clear? At the end, ask yourself whether all of the biological concerns that you might wish to record in your imaginary spreadsheet addressed in the term list ? If the answer to any of these is "No", let us know why in as much detail as you can bear to write down, perhaps making suggestions for addition or clarification.  You can do that by sending email with your comments to tdwg-content@lists.tdwg.org or comment on this web site following the instructions at [AboutIssueTracker] 
