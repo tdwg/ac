@@ -8,6 +8,8 @@ This site is primarily devoted to issue tracking for the Audubon Core:
 
 *[AC_ForBiologists For biologists who are not also programmers]*
 
+*[FAQ]*
+
 ==Normative Documents==
 Normative documents are on the [http://terms.gbif.org/wiki GBIF Terminology Platform]:
 
