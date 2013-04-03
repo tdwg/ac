@@ -7,6 +7,6 @@ This page is experimental
 
 ==Answers==
 
-==FooAnswerAnchor==
+=FooAnswerAnchor=
 
 Foo Answer answer text.
