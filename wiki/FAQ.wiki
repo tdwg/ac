@@ -2,10 +2,10 @@
 This page is experimental
 ==Questions==
 
- #Q  [#A1 The question text]
+ #Q  [#FooAnswerAnchor Question about Foo]
 
 
 ==Answers==
 
-====A1====
-The answer
+====FooAnswerAncher====
+Foo Answer answer text.
