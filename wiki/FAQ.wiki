@@ -7,5 +7,5 @@ This page is experimental
 
 ==Answers==
 
-===About_Foo===
+===About Foo===
 Foo Answer answer text.
