@@ -7,5 +7,5 @@ This page is experimental
 
 ==Answers==
 
-====FooAnswerAncher====
+====FooAnswerAnchor====
 Foo Answer answer text.
