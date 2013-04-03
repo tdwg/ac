@@ -2,10 +2,10 @@
 This page is experimental
 ==Questions==
 
- #Q  [FAQ#AboutFoo Question about Foo]
+ #Q  [FAQ#About_Foo Question about Foo]
 
 
 ==Answers==
 
-===AboutFoo===
+===About_Foo===
 Foo Answer answer text.
