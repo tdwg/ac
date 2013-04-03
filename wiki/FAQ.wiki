@@ -2,7 +2,7 @@
 This page is experimental
 ==Questions==
 
- #Q  [#FooAnswerAnchor Question about Foo]
+ #Q  [FooAnswerAnchor Question about Foo]
 
 
 ==Answers==
