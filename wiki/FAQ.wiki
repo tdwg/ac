@@ -2,7 +2,7 @@
 This page is experimental
 ==Questions==
 
- #Q  [FAQ#About Question about Foo]
+ #Q  [FAQ#AboutFoo Question about Foo]
 
 
 ==Answers==
