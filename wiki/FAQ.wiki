@@ -1,11 +1,1 @@
-=Frequently Asked Questions About Audubon Core=
-This page is experimental
-==Questions==
-
- #Q  [FAQ#About_Foo Question about Foo]
-
-
-==Answers==
-
-===About Foo===
-Foo Answer answer text.
+See http://terms.gbif.org/wiki/Audubon_Core_FAQ
