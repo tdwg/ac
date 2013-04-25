@@ -154,17 +154,7 @@ P.O. Box 116200, 334 Larsen Hall, Gainesville, FL 32611-6200
 Tel: (352) 846-2466    Fax: (352) 392-5040
 
 ----------------------------------------
--------- Original Message -------- 
-Subject: 	[Fwd: Re: [lpig] reminder about the Audubon Core public review (ending April 1)]
-Date: 	Fri, 05 Apr 2013 21:43:53 -0500
-From: 	Steve Baskauf <steve.baskauf@vanderbilt.edu>
-Organization: 	Vanderbilt University Dept. of Biological Sciences
-To: 	Alexey Zinovjev <azinovjev@fastmail.fm>
-CC: 	Alexey Zinovjev <webmaster@salicicola.com>, Bob Morris <morris.bob@gmail.com>
 
-
-Alexey,
-Thanks for taking the time to write these detailed comments while you were traveling.  I'm sorry it's taken me so long to respond to them.  As you can see from the comments below, I've opened issues for some of the items you brought up.  The authors may have responses to the others.
 
 -------- Original Message -------- 
 Subject: 	Re: [lpig] reminder about the Audubon Core public review (ending April 1)
@@ -281,9 +271,7 @@ References: 	<514D93C6.4030705@vanderbilt.edu>
 
 
 Dear Steve,
-
-Unfortunately I've become sick and did forget to send you this email. Please accept my apologies 
-for the delay. I hope you can forward these comments nevertheless.
+. . .
 
 We have discussed the GBIF - Audubon Core TDWG Multimedia Resources Metadata Schema in our 
 department and with our colleagues involved in the development of ABCD and would like to send 
@@ -447,18 +435,7 @@ To: 	Joyce Gross <joyceg@berkeley.edu>
 CC: 	Bob Morris <morris.bob@gmail.com>, John Wieczorek <tuco@berkeley.edu>
 References: 	<5130F200.3000908@vanderbilt.edu> <5130F743.3000302@berkeley.edu> <51615568.1050409@vanderbilt.edu> <51631EB8.1000103@berkeley.edu>
 
-Joyce,
-I'm glad you were able to spend some time looking at Audubon Core with 
-all of the things you have to juggle.  Thanks!  I'm familiar with 
-CalPhotos but not with who was working on it, so that's good to know. 
 
-I'm going to jump down into the body of your text and make some 
-responses.  I'm copying Bob Morris, the lead author for Audubon Core so 
-he will know how I responded and can clarify as necessary.  I'm also 
-copying John Wieczorek with reference to your item 2 below since my 
-response mentions the associatedTaxa term of Darwin Core. 
-
-Steve
 
 Joyce Gross wrote:
 > Hi Steve,
@@ -591,7 +568,7 @@ AC recommneds the use of the term taxonCoverage from the Natural Collections Des
 
 The NCD is currently orphaned in its ratification process and none of the TDWG Ontology has any standing as a standard whatsoever. Because of the state of NCD, Darwin Core created terms for ratification under its namespace that were proposed in NCD but had no standing (collectionCode, collectionID, institutionCode, institutionID, and ownerInstitutionCode). Rather than get mired in the dubious state of NCD and the TDWG Ontology, I propose that Audubon Core create a new term for taxonCoverage. Failing that, perhaps propose it for Darwin Core where it has a chance to be ratified more quickly than sorting out NCD, which currently has no champion.
 
-[Action: I asked John to post this issue to the tdwg-content email list for discussion.  Here is the text of his email:
+ I asked John to post this issue to the tdwg-content email list for discussion.  Here is the text of his email:
 -------- Original Message -------- 
 Subject: 	[tdwg-content] (no subject)
 Date: 	Mon, 15 Apr 2013 12:45:33 -0300
