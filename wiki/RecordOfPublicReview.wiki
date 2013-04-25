@@ -1,0 +1,886 @@
+#summary Record of comments and actions during public comment
+
+Public comment period opened 2013 March 1
+
+Subject: 	Re: [Taxacom] Public Review of Audubon Core
+Date: 	Mon, 4 Mar 2013 11:15:46 -0500
+From: 	David Campbell <pleuronaia@gmail.com>
+To: 	Steve Baskauf <steve.baskauf@vanderbilt.edu>
+References: 	<5130E10B.9050806@vanderbilt.edu>
+
+As a potential producer and consumer of biodiversity data, as far as I
+can see the document focuses on what information the computer programs
+need to have to communicate with each other.  This is a vital effort,
+but I'm not certain how I, as a taxonomist, can tell how these data
+types relate to actual biodiversity data and the pieces of information
+that I want to see when I am looking for biodiversity data online.
+
+Action: responded with copy to Bob Morris and offered to post the comment on tdwg-content.  The author said he wanted information and Bob was going to email him.
+
+-------------------------------
+Subject: 	Audubon Core Review [1]
+Date: 	Sun, 24 Mar 2013 11:04:46 -0700
+From: 	<azinovjev@fastmail.fm>
+To: 	<steve.baskauf@vanderbilt.edu>
+CC: 	<webmaster@salicicola.com>
+
+Steve,
+
+… The immediate question:
+How would I record most of my sawfly photos:  which are usually not
+sawflies [adults or larvae] themselves but their galls, mines, 'holes in
+leaves' (sometimes, by their shape, I can precisely identify species
+produced it), etc., etc.  People will photograph nests, animal's traces,
+record bird songs, but how such media would be tracked?  It seems to be
+a very common situation.
+
+Maybe I was a bit too tired (it's nearly midnight here) and did not read
+list of terms carefully but I did not notice anything for such "product"
+instead of animal itself. I should have seen a generic term somewhere
+but don't remember neither the English or Latin word nor where could I
+see it. 
+
+Not sure, but perhaps next time I'll try to test web tracker.
+
+Alexey
+
+
+-- 
+  
+  azinovjev@fastmail.fm
+
+Action: posted to tdwg-content list.  In combination with email from Rob Stevenson I opened Issue 46.
+
+-------- Original Message -------- 
+Subject: 	Re: [tdwg-content] reminder about the Audubon Core public review (ending April 1)
+Date: 	Sun, 24 Mar 2013 16:51:24 -0400
+From: 	Rob Stevenson <rdstevenson10@gmail.com>
+To: 	Steve Baskauf <steve.baskauf@vanderbilt.edu>
+CC: 	Bob Morris <morris.bob@gmail.com>
+References: 	<514D93C6.4030705@vanderbilt.edu>
+
+Steve,
+
+Some comments on Audubon Core
+
+Rather than have Term Name: associatedSpecimenReference as a place for phylocode and a DNA barcode, should the standard support specific fields for a phylocode and a DNA barcode?  These seem to be independent approaches that might help anchor or tie together multimedia observations.  I can image people taking a picture of an insect and getting a DNA barcode but not having a Taxon Name or a set of characters completed. It seems that molecular data are becoming more and more important and their collection is becoming more and more automated.  For microbes, molecular characterization seems to be the main approach uses
+
+Consider adding A Controlled Vocabulary for LTER Datasets to Notes of the Term Name: Iptc4xmpExt:CVterm 
+
+Last comment: Let's say I have a picture of a leaf with holes in it.  Is there a way to specify the taxon of the leaf and the taxon of the insect that made the holes.  Caterpillar species A eats Plant leaf Species B? If I know that caterpillar only made that shape hole when it was parasitized can I also specify the taxon of the parasite?  Another leaf example would be lichens and liverworts that colonize leaves.  One might be over growing another?
+
+In general I would like to specific multiple taxa and relationships among the taxa in the image or movie, etc,
+
+Thanks for all the work. We need standards such as these to make the semantic web work!
+
+Best wishes
+
+Rob Stevenson
+
+Actions:
+1. Opened Issue 45 in response to the suggestion about including the LTER Datasets vocabulary.
+2. Included comments about leaf holes and multiple taxa relationships in Issue 46 (combined with Alexey's comment).
+3. Posted comment about phylocode and DNA barcode to tdwg-content list with a comment that this issue is probably beyond the scope of AC:
+
+I have not opened an issue for this item because although it is an 
+important issue, I'm not sure it is in scope for Audubon Core.  AC 
+imports terms from other vocabularies when possible (notably Darwin 
+Core), but generally only mints terms when they deal specifically with 
+multimedia and when existing vocabularies don't already provide such a 
+term.  The issue that Rob raises is a general one that needs to be 
+discussed in the context of how vocabularies such as Darwin Core (which 
+are currently designed primarily to facilitate "flat", specimen-oriented 
+databases) can be adapted for use in more normalized databases which 
+integrate information about many kinds of resources (e.g. specimens, DNA 
+sequences, images, etc. ).  This is a topic that is the subject of 
+ongoing discussions with groups such as BiSciCol, RCN4GSC, and the TDWG 
+RDF task group.  But it may be too much for Audubon Core to take on at 
+this point in time. 
+
+Opinions?
+Steve
+
+----------------------------
+-------- Original Message -------- 
+Subject: 	Thanks for your comment on Audubon Core
+Date: 	Wed, 03 Apr 2013 14:02:18 -0500
+From: 	Steve Baskauf <steve.baskauf@vanderbilt.edu>
+Organization: 	Vanderbilt University Dept. of Biological Sciences
+To: 	John Wieczorek <tuco@berkeley.edu>
+CC: 	Bob Morris <morris.bob@gmail.com>
+
+John,
+Thanks for your comment on Audubon Core regarding broadening the scope 
+of depiction.  The issue 
+http://code.google.com/p/auduboncore/issues/detail?id=47 has been 
+accepted and is under consideration by the authors.
+Steve
+
+Actions:
+Issue 47 Accepted. Query to Dan Brinkley (of FOAF) about scope of foaf:depiction .
+
+----------------------------
+-------- Original Message -------- 
+Subject: 	Audubon Core 1.0 Call For Public Review
+Date: 	Wed, 27 Mar 2013 11:26:43 -0400
+From: 	Andréa Matsunaga <ammatsun@acis.ufl.edu>
+
+To: 	Steve Baskauf <steve.baskauf@vanderbilt.edu>
+
+
+
+Steve Baskauf.
+
+    I would like to ask some questions about AC 1.0 to clarify my understanding of it and see if AC can be improved:
+
+a) AC is defined as "a set of vocabularies designed to represent metadata for biodiversity multimedia resources and collections". While many terms have some guidance on how the term applies (or not) to a "multimedia resource" vs. "multimedia collections", not all terms display that guidance (e.g., xmp:CreateDate). I imagine that the larger a collection becomes, the harder it is to have a single value for most of the terms (e.g., dcterms:rights, ac:captureDevice, ac:providerID). Would it be possible for each term to display information on its applicability to "multimedia resource" vs. "multimedia collections", e.g. when to use repeatability of terms for describing collections?
+
+[Action: Open Issue 48 http://code.google.com/p/auduboncore/issues/detail?id=48 ]
+
+b) An AC record is considered to contain "at least the four mandatory terms... One of these, the value of Identifier is a Globally Unique IDentifier (GUID)". However, the identifier term is further defined as "Required: Yes for media collections, No for media resources (but preferred if available)." What is the reasoning for not requiring a (GUID) identifier for media resources?
+
+[Action: refer to authors for clarification]
+
+c) It is suggested that the dcterms:extent term be used for multiple purposes (e.g., image size in pixels as well as file size). However, the term is not repeatable. Wouldn't it be more appropriate to have a specific term for the object size in bytes? Having this information readily available in the metadata can help estimate the needed storage before getting the actual object.
+
+[Action: there is an existing Issue 29 regarding the dcterms:extent term.  I'm going to add this to that issue as a comment.  http://code.google.com/p/auduboncore/issues/detail?id=29 ]
+
+d) When using the ac:variant "Offline", would it be appropriate to store an offline local file path to the resource in accessURI in the form "file://"?
+
+[Action: this is a technical issue that I don't understand well-enough to triage.  I'm going to refer it to the authors who can decide if this question can simply be answered as clarification or if it actually needs to be addressed in the documentation (and therefore needs to be tracked as an issue)]
+
+e) In iDigBio (http://tinyurl.com/MISC-Media), some people have expressed the desire to have information about the magnification being used (to have a rough idea of the size of the object, potentially from data that is automatically retrieved from the capturing device) as well as the real world size depicted by a pixel (for the purposes of allowing one to make measurements on the image; this would require one to have a scale on an image and perform some arithmetic). Would it be possible to add such terms?
+
+[Action: in an earlier version of Audubon Core I believe that there were terms from the mix: namespace (http://www.loc.gov/mix/v20 ) which addressed such things as pixel dimensions but they were dropped in favor of the more generic dcterms:extent term.  The MIX vocabulary (http://www.loc.gov/standards/mix/ ) has terms in its SpatialMetrics terms (section 9.1) that address this issue.  Whether they are within the scope of Audubon Core may depend on how many users need such terms.  I'm going to paste this item as a comment in Issue 29, but I think perhaps it should also be put up for comment on the email list to get some feedback from other potential users.]
+
+Note: posted to tdwg-content and Live Plant Image Group: 
+****
+This subject came up as part of a comment on Audubon Core from Andréa Matsunaga: 
+
+"In iDigBio (http://tinyurl.com/MISC-Media), some people have expressed the desire to have information about the magnification being used (to have a rough idea of the size of the object, potentially from data that is automatically retrieved from the capturing device) as well as the real world size depicted by a pixel (for the purposes of allowing one to make measurements on the image; this would require one to have a scale on an image and perform some arithmetic). Would it be possible to add such terms?" 
+
+There are terms in the SpatialMetrics terms (section 9.1) of the MIX vocabulary (http://www.loc.gov/standards/mix/ ) that can encode this kind of information.  However, I would be interested in opinions about whether expressing this kind of information is a narrow need that is outside the scope of a fairly broad standard like Audubon Core or if the need for such terms is perceived as widespread.
+****
+
+f) Another important term for iDigBio is MD5 checksum for each variant. This allows users retrieving an object to automatically verify the integrity of the object. Would it be possible to add such a term for each access point?
+
+[Action: Opened Issue 49: http://code.google.com/p/auduboncore/issues/detail?id=49 ]
+
+g) A couple of auxiliary terms also identified in iDigBio, are terms to capture the funding source of the digitization effort. Would it be possible to add such terms?
+
+[Action: Opened Issue 50: http://code.google.com/p/auduboncore/issues/detail?id=50 ]
+
+Thank you,
+--am
+Andréa Matsunaga
+Research Assistant Professor, Advanced Computing and Information Systems (ACIS) Laboratory
+Department of Electrical and Computer Engineering, University of Florida
+P.O. Box 116200, 334 Larsen Hall, Gainesville, FL 32611-6200
+Tel: (352) 846-2466    Fax: (352) 392-5040
+
+----------------------------------------
+-------- Original Message -------- 
+Subject: 	[Fwd: Re: [lpig] reminder about the Audubon Core public review (ending April 1)]
+Date: 	Fri, 05 Apr 2013 21:43:53 -0500
+From: 	Steve Baskauf <steve.baskauf@vanderbilt.edu>
+Organization: 	Vanderbilt University Dept. of Biological Sciences
+To: 	Alexey Zinovjev <azinovjev@fastmail.fm>
+CC: 	Alexey Zinovjev <webmaster@salicicola.com>, Bob Morris <morris.bob@gmail.com>
+
+
+Alexey,
+Thanks for taking the time to write these detailed comments while you were traveling.  I'm sorry it's taken me so long to respond to them.  As you can see from the comments below, I've opened issues for some of the items you brought up.  The authors may have responses to the others.
+
+Bob,
+I'm going to go through them and try to suggest what I think is an appropriate action for each one.  I'll put the action item inline with the comments.
+
+Steve
+-------- Original Message -------- 
+Subject: 	Re: [lpig] reminder about the Audubon Core public review (ending April 1)
+Date: 	Sun, 31 Mar 2013 09:57:23 -0700
+From: 	<azinovjev@fastmail.fm>
+
+To: 	Steve Baskauf <steve.baskauf@vanderbilt.edu>
+
+CC: 	<webmaster@salicicola.com>
+
+References: 	<514D949F.9040809@vanderbilt.edu>
+
+
+Dear Steve,
+
+I'm too busy these days (leaving SPb on Wednesday, I still have too much
+to do) but I made a printout and managed to read the printed  copy of
+the Audubon Term List while on the train even twice.
+
+Introduction part (Borrowed Vocabulary): 
+  -- I would suggest adding here the namespaces, not only commonly used
+  prefixes and abbreviations. These are namespaces that I (if  being a
+  data provider) would like to see first and then copy and paste.
+[Action: The namespaces are provided in a somewhat indirect way since the normative URIs are unabbreviated and one could figure out how they are abbreviated by comparison with the abbreviated term name.  I'm not going to open an issue on this one, but the authors can consider the suggestion.]
+xmp:Rating
+  -- I do not understand the meaning of the first sentence in the Notes:
+  "The origin of the rating is not communicated".
+[Action:  The authors can consider rewording the sentence.  I'd actually recommend rewording the first two sentences since the "e.g." is a bit awkwardly placed.]
+[ac]:comments: "Best practice would also identify the commenter"
+  -- Agree, but how would you suggest to identify the commenter, by
+  asking him to add his/her name into the comment's body? 
+  -- I did not find the field 'commenter'. Could it exist, it might be
+  difficult to implement this idea in a flat model (when having more
+  than a single comment, though in XML format it could be done easily by
+  using commenter as an attribute of a comment, e.g. <comment
+  commenter="{name}"></comment>)
+[Action:  Opened Issue 51 http://code.google.com/p/auduboncore/issues/detail?id=51 ]
+dcterms:available: 
+  -- According to Notes, it could be particularly useful when metadata
+  exists without media itself. Correct? 
+  -- I did not check the links, and don't know how it could be done
+  (when media will never be available). -- I would suggest giving an
+  example.
+[Action: There is the general issue of describing resources that will never be available online (e.g. media in print or on film).  Does dcterms:available apply to these resources?  ac:variant has "Offline" as a suggested value - how does that interface with dcterms:available="never"?  I'm going to open Issue 52 on this general topic. http://code.google.com/p/auduboncore/issues/detail?id=52 ]
+[ac]:hasServiceAccessPoint
+  -- When start reading the entry, I thought (erroneously?) that this
+  will be a Boolean field (yes/no). -- Did I understand it correctly
+  that this is a field with child nodes? Of course I know that in some
+  languages, it could be interpreted as 'true' but I doubt that using
+  the name starting with 'has...' is a good choice for non Boolean field
+  in a usual sense. In any case, perhaps this is one of the most
+  important parts where examples(S) are needed.
+[Action: I think the answer to this is that ac:hasServiceAccessPoint is effectively an object property that is used to link an instance of a media item (as an abstract thing) to an instance of a specific (usually retrievable) form of the media item.  Bob may have more to say about this.  But I agree that an example would be very helpful here.  It may be that such an example is something for a wiki page containing examples or maybe specifically for subsequent guides that would be added to the standard at some point in the future (text guide, XML guide, RDF guide as was done in Darwin Core).  Bob, do you think this should be opened as an issue to be resolved now or put off as something for the future?  ]
+Geography Vocabulary
+  -- This is the MOST confusing part. When reading List for the first
+  time, I was wondering why there are so few fields. -- Particularly
+  when reading the introduction with index -- What happens with all
+  other commonly used terms? -- And only when reading CAREFULLY the
+  introduction part to the Geography part, I noticed that 'all
+  geographic terms from DarwincCore are included' 
+  -- You should NOT do it in that hidden way. Ideally to list all
+  'included' terms, or maybe to create a special entry.
+[Action: I know that the current state of affairs (including all the location terms from DwC) is the result of an extended discussion that was pretty much settled and which we probably don't want to revisit.  I think that as a technical limitation related to the way the wiki is generated, it probably isn't possible for the statement that "all geographic terms from Darwin Core are included" to be part of the index.  Am I right about that, Bob?  It may just be that people will have to read carefully...]
+Iptc4xmpExt:City, which is actually could be nearly ANY place name. 
+ -- I don't understand why field should be called City if it is NOT (at
+ least in most situation).
+I think that people will just ignore this term as being laughable. 
+I also did not understand why Audubon Core terms should rely on IPTC
+terms at all.
+Could it be up to me to decide, I would add the missing terms as AC
+ones, and in this particular case would name it 'PlaceName' or
+something.
+[Action: The use if the Iptc4xmpExt: terms is another issue that has been discussed earlier in the standards development process.  I think that this might be an appropriate thing to cover on the FAQ page (i.e. "Where do the Iptc4xmpExt: terms come from and why are they included?").  I think the creators of the Iptc4xmpExt: vocabulary will have to bear responsibility for their choice of term name, whereas MRTG could simply explain the rationale for choosing to include Iptc4xmpExt: terms in the standard.] 
+ncd:taxonCoverage
+  -- I did not think about it thoroughly but 'this somewhat expands the
+  usage of ncd:taxonCoverage' raise a question, why not using
+  ac:taxonCoverage, i.e., to put it into ac namespace.
+[Action: I never noticed that.  I suppose it could be problematic to use a term in a manner different than the way it was defined.  A problem here is that the NCD standard has never finished the ratification process so it's definition isn't actually "official" yet and may never be.  I'll raise this as Issue 53 although I don't know if it can actually be settled.  http://code.google.com/p/auduboncore/issues/detail?id=53 ]
+ac:accessURI
+  -- Are you sure that this should not be repeatable? I have a feeling
+  that just this is a case when you could have more than a single URI
+  leading to the same resource. The most common example on the web is a
+  'www' prefix, which frequently could be omitted. And how about
+  mirroring? 
+[Action: I have opened Issue 54 on this. http://code.google.com/p/auduboncore/issues/detail?id=54 ]
+dcterms:extent
+  -- This is not AC term, but I personally have a feeling that using the
+  same term for essentially different things like size of the file (on a
+  disk) and pixel size is hardly acceptable.
+[Action: I'm going to add this as an additional comment on the existing Issue 29 regarding dcterms:extent http://code.google.com/p/auduboncore/issues/detail?id=29 ]
+I have some more generic questions (or doubts) but this would need much
+more time to write it down and I don't have it (time). -- Perhaps I'll
+have it only at the end of the week or during the next one.
+
+I'm sending this as an email but on re-reading it, I may try to submit
+SOME of these comments via tracker (during the next hour or two, at
+most).
+
+That's it for now,
+Alexey
+19:50 31.03.2013
+-- 
+  
+  azinovjev@fastmail.fm
+
+
+-------- Original Message --------
+Subject: 	[Fwd: RE: [tdwg-content] reminder about the Audubon Core public review (ending April 1)]
+Date: 	Sat, 06 Apr 2013 07:56:32 -0500
+From: 	Steve Baskauf <steve.baskauf@vanderbilt.edu>
+Organization: 	Vanderbilt University Dept. of Biological Sciences
+To: 	"Dröge, Gabriele" <g.droege@BGBM.ORG>
+CC: 	Bob Morris <morris.bob@gmail.com>
+
+
+Gabi,
+Please pass on my thanks to your group for discussing and commenting on Audubon Core.  I am copying this response to the lead author.  I have indicated the actions that I've taken on your suggestions inline with the text below. 
+Steve
+
+-------- Original Message --------
+Subject: 	RE: [tdwg-content] reminder about the Audubon Core public review (ending April 1)
+Date: 	Thu, 4 Apr 2013 09:24:29 +0200
+From: 	"Dröge, Gabriele" <g.droege@BGBM.ORG>
+To: 	Steve Baskauf <steve.baskauf@vanderbilt.edu>
+References: 	<514D93C6.4030705@vanderbilt.edu>
+
+
+Dear Steve,
+
+Unfortunately I've become sick and did forget to send you this email. Please accept my apologies 
+for the delay. I hope you can forward these comments nevertheless.
+
+We have discussed the GBIF - Audubon Core TDWG Multimedia Resources Metadata Schema in our 
+department and with our colleagues involved in the development of ABCD and would like to send 
+you some feedback.
+At first we agree that a Multimedia standard is definitely required. Please find below our 
+comments:
+
+Why are detailed technical facts about a multimedia item are not part of the standard, e.g. 
+color space, chromaticities, width, height, resolution, lens aperture, exposure time, compression 
+scheme, saturation, modified date, manipulated etc. ?
+
+[Action: I am taking this as a question rather than a suggestion that numerous terms should be added to the standard.  I reviewed the Motivation and Rationale section of the non-normative document and I think the answer may be that providing all of these metadata properties is beyond the scope of what Audubon Core seeks to accomplish.  In other words, I think that AC intends to facilitate the discovery and aggregation of metadata about media items and to enable the assessment of its fitness-for-use prior to fetching the resource, but does not necessarily intend to facilitate providing all of the metadata that a user might want to know about the media item.  What I'm going to do is to open an issue requesting the authors to clarify in their documentation what they consider the limits to be for AC, i.e. what kind of metadata properties are outside of the scope of the standard?  Issue 55 http://code.google.com/p/auduboncore/issues/detail?id=55 .  I am also going to paste this comment into Issue 29 which regards the insufficiency of dcterms:extent http://code.google.com/p/auduboncore/issues/detail?id=29 Also, I'll note that the term dcterms:modified is included in the standard to indicate the date the item was last modified and the term ac:resourceCreationTechnique allows the provider to describe modifications that were made to the resource when it was created.  ]
+
+It seems as some important IPR facts are missing, e.g. TermsOfUse, Disclaimer, Copyright Statement 
+URI, etc. In ABCD we included detailed IPR statements. Maybe you should have a look at it: 
+http://www.bgbm.org/tdwg/codata/schema/ABCD_2.06/HTML/ABCD_2.06.html#element_IPR_Link0315B6C8
+
+[Action: In some respects, this comment is related to the previous question.  The Attribution Vocabulary component of AC does describe terms that can be used to express aspects of the IPR characteristics of the media item (e.g. dcterms:rights, xmpRights:UsageTerms, photoshop:Credit).  It does not include every IPR statement that is possible.  I think the authors can consider this as part of Issue 55 ]
+
+Additionally to locality, country etc. GPS data would be useful.
+
+[Action: The inclusion of all Darwin Core location terms covers this.  The GPS data can be expressed using the DwC terms dwc:decimalLatitude, dwc:decimalLongitude, and dwc:geodeticDatum having a value of "EPSG:4326" which is the recommended controlled value for the WGS84 datum used by GPS.]
+
+We would furthermore suggest following parameters: Relation to other multimedia units, sequence 
+and position in sequence, reference/link to antecessor and successor of this unit
+
+[Action: I'm not entirely sure that I'm understanding this suggestion.  I think it is suggesting that there should be terms to describe the details of how a media item is related to other media items.  Audubon Core does provide the term ac:relatedResourceID which says that it can be used to link to a "resource related in ways not specified through a collection, e.g., before-after images; time-lapse series; different orientations/angles of view".  AC also provides the term ac:derivedFrom which can provide a reference to an original resource from which the subject resource is derived.  However, if AC intends to communicate the nature of the relationship of the related resource, it is not clear to me how this is to be accomplished.  I am going to open Issue 56 about this. http://code.google.com/p/auduboncore/issues/detail?id=56 ]
+
+Page 2, footnotes:          Links 1 and 2 are outdated, better to publish the new GBIF urls
+
+[Action: Opened Issue 57 http://code.google.com/p/auduboncore/issues/detail?id=57 ]
+
+Page 4, figure 1:               we know that this figure is based on another figure that's part 
+of the NCD document, but nevertheless would suggest some changes; molecular DNA is much more 
+than GenBank only; we would prefer to either delete "(GenBank)" or to complete the figure with 
+the following:
+Sequence data have multimedia items (Pherograms), DNA samples have multimedia items (gel images), 
+tissue samples have multimedia items (microscope photographs, REM etc.)
+
+Sequence data
+(GenBank/EMBL/DDBJ)
+  Is defined from
+       |
+DNA samples
+(Global Genome Biodiversity Network)
+  Is extracted from
+      |
+Tissue samples
+(Global Genome Biodiversity Network)
+Is taken from
+      |
+specimens 
+(Global Biodiversity Information Facility)
+
+[Action: In addition to the points you made, this image is outdated in several other ways.  NBII is no longer being funded, BCI is supposedly being subsumed by another organization, and I'm not sure what the status is of KeyToNature.  Given the long life we hope Audubon Core will have, it would probably be best to remove the references to particular organizations in the diagram.  I think the point of the diagram is to show how multimedia resources are an integral part of documenting many other kinds of biodiversity resources.  In that context when revising the diagram the authors may want to include your examples of pherograms, gel images, microscope images to further make their point.  Opened Issue 58 http://code.google.com/p/auduboncore/issues/detail?id=58 ]
+
+We hope this feedback and thoughts might help you. Please don't hesitate to contact us if you 
+have any further questions.
+Best regards
+Gabi
+
+-----------------------------------------------------------------
+Gabriele Droege
+Coordinator - DNA Bank Network
+Global Genome Biodiversity Network (GGBN)
+Berlin-Dahlem DNA Bank
+Deputy Women's Officer ZE BGBM
+
+Botanic Garden and Botanical Museum Berlin-Dahlem
+Freie Universität Berlin
+Koenigin-Luise-Str. 6-8
+14195 Berlin
+Germany
+
++49 30 838 50 139
+
+www.dnabank-network.org 
+www.ggbn.org 
+www.bgbm.org 
+
+-------- Original Message --------
+Subject: 	RE: [lpig] magnification/extent of objects present in images
+Date: 	Fri, 5 Apr 2013 20:27:54 +0000
+From: 	Boyce Tankersley <btankers@chicagobotanic.org>
+To: 	steve.baskauf@vanderbilt.edu <steve.baskauf@vanderbilt.edu>, TDWG Content Mailing List <tdwg-content@lists.tdwg.org>
+References: 	<515C9790.3040507@vanderbilt.edu>
+For those living specimens where measurements are critical we include a scale next to the plant part in the image.  
+We currently have 25 photographers using their own cameras and I am not sure how we would be able to determine and/or document magnification levels without the use of a scale.  
+If we were working with a single make and model of a camera attached to a microscope I think the issue of magnification of the raw image would be easier to determine.
+Boyce Tankersley
+Director of Living Plant Documentation
+Chicago Botanic Garden
+
+-----Original Message-----
+From: live-plant-image-group@googlegroups.com [mailto:live-plant-image-group@googlegroups.com] On Behalf Of Steve Baskauf
+Sent: Wednesday, April 03, 2013 3:57 PM
+To: TDWG Content Mailing List
+Cc: live-plant-image-group@googlegroups.com
+Subject: [lpig] magnification/extent of objects present in images
+I am cross-posting this to the Live Plant Image email list in addition to tdwg-content because this is a subject that was previously discussed there.  However, as this is part of the public review of the draft Audubon Core TDWG standard, I would request that you reply only to the tdwg-content list, so that any additional discussion will take place there for the record.  If you aren't on that list and would like to reply, please send your responses to steve.baskauf@vanderbilt.edu and I will post it for you.
+This subject came up as part of a comment on Audubon Core from Andréa Matsunaga:
+"In iDigBio (http://tinyurl.com/MISC-Media), some people have expressed the desire to have information about the magnification being used (to have a rough idea of the size of the object, potentially from data that is automatically retrieved from the capturing device) as well as the real world size depicted by a pixel (for the purposes of allowing one to make measurements on the image; this would require one to have a scale on an image and perform some arithmetic). Would it be possible to add such terms?"
+There are terms in the SpatialMetrics terms (section 9.1) of the MIX vocabulary (http://www.loc.gov/standards/mix/ ) that can encode this kind of information.  However, I would be interested in opinions about whether expressing this kind of information is a narrow need that is outside the scope of a fairly broad standard like Audubon Core or if the need for such terms is perceived as widespread.
+Steve
+
+[No action taken as of 2013-04-06, we'll see if there are more comments about this.]
+
+-------- Original Message -------- 
+Subject: 	Re: Comments on Audubon Core
+Date: 	Sat, 06 Apr 2013 17:09:06 -0500
+From: 	Steve Baskauf <steve.baskauf@vanderbilt.edu>
+Organization: 	Vanderbilt University Dept. of Biological Sciences
+To: 	Paul Flemons <Paul.Flemons@austmus.gov.au>
+CC: 	Morris, Robert (SAM) <Robert.Morris@samuseum.sa.gov.au>, Aaron Wilton (WiltonA@landcareresearch.co.nz) <WiltonA@landcareresearch.co.nz>, Bob Morris <morris.bob@gmail.com>
+References: 	<0D6CDDF65AE0F546A7D53B9E56D9A5589638D762@AMMAIL3.austmus.gov.au>
+
+
+Paul,
+Thank you very much taking the time to respond and for compiling this list of comments.  I'm forwarding them to the lead author along with the actions which I've taken inserted inline.
+Steve
+
+Paul Flemons wrote: 
+Steve,
+Please find below a very rough assemblage of comments from members of the Museum and Herbaria communities in Australia. 
+ 
+It does seem very image-orientated as most of the examples are concerned with images. My concern would be that perhaps they have not concentrated sufficiently on multimedia like soundfiles, so I am not confident that they haven’t left anything out. For example, they have a term photoshop:credit in the Attribution vocabulary, but there doesn’t seem to be an equivalent for soundfile editing. I know that our soundfiles have/will be been chopped up, enhanced, etc. using various editing techniques by a variety of people who perhaps should be credited.
+[Action: Although the term photoshop:credit has a namespace abbreviation that insinuates that it is applicable primarily to images, there doesn't seem to be anything in the definition of the term itself that implies that its use should be restricted to any particular media type.  In fact, in the description of the history of the IPTC metadata standard, the origin of the standard was "by design, media-type agnostic" even though it has primarily been applied to images.  So as far as I can see, there isn't anything wrong with using photoshop:credit to provide the credit line for people who have edited soundfiles.  
+
+Having said this, I think there is a recognition by the authors that there may be useful terms that could be added to Audubon Core to facilitate describing multimedia resources other than images but which have not been identified because there hasn't been sufficient feedback from providers serving non-image resources to know what those terms are.  The authors have described a sustainability plan which allows for terms to be added to Audubon Core as the need arises.  Presumably when it becomes clear that there is a need for additional terms relating to non-image media types, those terms can be added.  So I don't think that any action needs to be taken at this point unless there are suggestions of particular terms that should be included.  See also the action for your comment #4 below.]
+
+ 
+Which leads me to ask: why didn’t they make the few genuinely different terms of the Audubon Core simply an extension of the Darwin Core? I assume because the multimedia they are considering are not necessarily specific, registerable, collection objects relating to (observations of) species occurrences?
+[Action: I am going to ask the authors to provide an answer to this question.  If they think it warrants, they may wish to add it to the FAQ list they are assembling.]
+
+ 
+physicalSetting – this definition appears ambiguous and possibly unnecessarily restrictive, only applying to “Unmodified” objects  (definition of unmodified?) in either natural setting of the unmodified object or the artificial setting.  What about an organism that occurs in an unnaturallsetting, or a “natural” setting that has been slightly modified by weeds or other disturbance? It is useful to be able to express these type of properties, and suspect this is confounding two factors in the definition (removing reference to the state of the object being photographed would be a good start).
+[Action: opened Issue 59 http://code.google.com/p/auduboncore/issues/detail?id=59 ]
+
+ 
+Excuse me if I’ve missed something, but I wonder whether the mandatory terms (outlined in this document) should include the equivalent of institutionCode to aid discoverability of the resource? This schema is intended to make multimedia resources more discoverable, including non-digital resources, which means that the potential user meeds a path to track back to the owner/publisher/holder of that resource – which is not always the creator or copyright holder. The recommendation might be to suggest provider as a mandatory field?
+[Action: I think that this brings up an important point.  In the Motivation and Rationale section of the non-normative document, an AC record is intended to provide enough information to identify and locate a media resource.  Yet an identifier is not even required for individual media items and even if a globally unique identifier were provided for the media item it would not guarantee that the resource could be located unless it were dereferenceable.  The Motivation and Rationale section also indicates that the standard enables the aggregation of resources from many sources.  If metadata from many sources were aggregated, either a dereferenceable GUID or a locally unique identifier+identifier for the holding institution would be needed to locate the resource.  Opened Issue 61 http://code.google.com/p/auduboncore/issues/detail?id=61 ]
+
+ 
+The only ‘desirable’ but not essential element that might be good from our perspective is something like ‘attributionText’ – with our goal of pushing all multimedia resources out with open licences to encourage re-use, it’d be great to supply the required attribution so that people don’t need to chase us for it when it is to be used, but I think we can orchestrate that through careful use of the suggested AC fields rights and credit, and as we get better at publishing our stuff online ourselves, attributionLinkURL.
+[Action: I think that what you want here is the term photoshop:Credit based on the definition of it in the IPTC guide.  I have opened Issue 62 requesting that the definition of photoshop:Credit be clarified.  See http://code.google.com/p/auduboncore/issues/detail?id=62 ]
+
+ 
+Any response to these would be appreciated as a means of our communities understanding Audubon Core better, if not for improving it from your perspective.
+ 
+Regards
+Paul 
+ 
+ 
+Paul K J Flemons
+Manager, Collection Informatics 
+Team Lead, Atlas of Living Australia Biodiversity Volunteer Portal
+Biodiversity Information Standards (TDWG) Representative for Oceania
+Australian Museum 6 College Street Sydney NSW 2010 Australia
+t 61 2 9320 6343 m 0413458649  f 61 2 9320 6021
+Visit: http://www.australianmuseum.net.au
+Like: http://www.facebook.com/australianmuseum
+Follow: http://www.twitter.com/austmus
+Watch: http://www.youtube.com/austmus 
+
+
+Inspiring the exploration of nature and cultures 
+ 
+
+-------- Original Message -------- 
+Subject: 	Re: Public Review of Audubon Core
+Date: 	Mon, 08 Apr 2013 20:39:17 -0500
+From: 	Steve Baskauf <steve.baskauf@vanderbilt.edu>
+Organization: 	Vanderbilt University Dept. of Biological Sciences
+To: 	Joyce Gross <joyceg@berkeley.edu>
+CC: 	Bob Morris <morris.bob@gmail.com>, John Wieczorek <tuco@berkeley.edu>
+References: 	<5130F200.3000908@vanderbilt.edu> <5130F743.3000302@berkeley.edu> <51615568.1050409@vanderbilt.edu> <51631EB8.1000103@berkeley.edu>
+
+Joyce,
+I'm glad you were able to spend some time looking at Audubon Core with 
+all of the things you have to juggle.  Thanks!  I'm familiar with 
+CalPhotos but not with who was working on it, so that's good to know. 
+
+I'm going to jump down into the body of your text and make some 
+responses.  I'm copying Bob Morris, the lead author for Audubon Core so 
+he will know how I responded and can clarify as necessary.  I'm also 
+copying John Wieczorek with reference to your item 2 below since my 
+response mentions the associatedTaxa term of Darwin Core. 
+
+Steve
+
+Joyce Gross wrote:
+> Hi Steve,
+>
+> I have a couple of things you can maybe help with -- but I'm not sure 
+> if this helps the Audubon Core review or not.
+>
+> First fyi -- I'm more or less the only person who works on CalPhotos, 
+> and I work on 12 other projects as well. So that gives you an idea of 
+> how much time I can spend on CalPhotos.
+>
+> In one of my other projects we are connecting media from Artos (Museum 
+> of Vertebrate Zoology) with CalPhotos, and trying to come up with a 
+> list of matches between CalPhotos fields and some standard fields, 
+> whether from Darwin Core, Dublin Core, or Audubon Core.
+>
+> I've been stumped on a few fields. If you have any suggestions for 
+> where they might fit into the Audubon Core, let me know. I still have 
+> the feeling I haven't spent enough time pouring over the Dublin Core 
+> and Audubon Core standards -- and that I am missing things that may be 
+> obvious to others. But so far MVZ folks have not been able to fill in 
+> the gaps either.
+>
+> 1) contact: CalPhotos has a field with this name that contains both 
+> the name of the person/organization to contact for permission to use 
+> an image or for acquiring high res images, etc. The contact name/email 
+> is not necessarily that of the photographer or organization providing 
+> the images. I did not see such a field in the AC or anywhere else. Any 
+> suggestions, or is it something that could be added?
+
+This is a good question.  I think maybe the Audubon Core term 
+ac:provider comes closest to what you are wanting, although I'm not sure 
+whether that term is exactly what you need.  I think that perhaps the 
+term ac:provider could be combined with xmpRights:UsageTerms to do the 
+job, i.e. use xmpRights:UsageTerms to describe how the image can be used 
+(contact the provider for permission) and then populate ac:provider with 
+the name/institution to contact.  But I'm not entirely sure that this is 
+right.  The other thing is that you can consider there to be separate 
+Service Access Points (versions of the image that are different sizes or 
+forms).  Those S.A.P.s can then have different licensing terms (e.g. the 
+lowres are freely available, while the highres need permission).  The 
+problem with the S.A.P. approach is that it's difficult (impossible?) to 
+have a single flat database table for everything.  The main image table 
+would have references to multiple SAP's for the various sizes of images 
+which would be in a different table. 
+
+I'm not sure that the answer I've given here is exactly right.  Bob may 
+be able to straighten it out if I haven't given you an accurate answer.  
+One thing that I'm hoping will be a part of the documentation (at least 
+eventually) will be some examples.  The circumstance that you've 
+described would be one that image aggregators would be likely to 
+encounter.  I'm going to take the following action:
+
+[Action: Opened issue 63: 
+http://code.google.com/p/auduboncore/issues/detail?id=63 suggesting that 
+some examples be provided for the use of AC terms in common situations.]
+
+>
+> 2) additional taxa: CalPhotos has a field where one can list 
+> additional taxa that appear in an image, comma separated. Ie, a list 
+> of scientific names. (Of course there are also fields for scientific 
+> name, family, order, class, phylum -- for the primary taxon. Most 
+> CalPhotos images have one primary taxon, but we like to be able to 
+> informally list additional taxa if there are any.)
+
+I'm looking at the Audubon Core list and the closest thing I can come up 
+with is ncd:taxonCoverage .  But that doesn't really do what you want.  
+On the Darwin Core term list there is dwc:associatedTaxa which seems to 
+be more applicable in your circumstance.  The thing I'm not sure of is 
+whether it's right to use this term as a property of an image.  There 
+isn't any technical reason (e.g. domain declaration) why you couldn't, 
+but the definition "a list (concatenated and separated) of identifiers 
+or names of taxa and their associations with the Occurrence" seems to 
+indicate that the term should be used as the property of an Occurrence.  
+I take a rather broad view of what can qualify as an Occurrence, but I'm 
+suspicious that this term was probably intended to be used primarily 
+with specimens.  John, do you want to weigh in on this?
+
+>
+> To keep this short I'm going to stop now. There are a few other 
+> CalPhotos fields I haven't matched with a "Core" field yet, but they 
+> are more quirky and can likely be squeezed into some existing field 
+> somehow, or else they are just too quirky for anyone else to bother 
+> thinking about!
+>
+> Thanks for any suggestions about the above two fields, and maybe with 
+> some luck this is helpful for the review too.
+>
+> Joyce
+>
+>
+> On 4/7/2013 4:15 AM, Steve Baskauf wrote:
+>> Joyce,
+>>
+>> I was wondering if you or somebody else at CalPhotos were still
+>> interested in commenting on Audubon Core.  The minimum 30 days for the
+>> public comment period has passed now, but I haven't officially closed it
+>> because there are still several people I haven't heard from who said
+>> they might comment.
+>>
+>> If you want to submit comments, it's fine to just email them to me.  I
+>> can post them to the Issue Tracker if that's warranted.
+>>
+>> Steve
+
+-------- Original Message --------
+Subject: 	Re: Public Review of Audubon Core
+Date: 	Tue, 09 Apr 2013 05:58:32 -0500
+From: 	Steve Baskauf <steve.baskauf@vanderbilt.edu>
+Organization: 	Vanderbilt University Dept. of Biological Sciences
+To: 	Joyce Gross <joyceg@berkeley.edu>
+CC: 	Bob Morris <morris.bob@gmail.com>, John Wieczorek <tuco@berkeley.edu>
+References: 	<5130F200.3000908@vanderbilt.edu> <5130F743.3000302@berkeley.edu> <51615568.1050409@vanderbilt.edu> <51631EB8.1000103@berkeley.edu> <51637145.4090704@vanderbilt.edu> <5163AEDB.7070302@berkeley.edu>
+
+
+Joyce,
+OK, I'm glad that associatedTaxa seems to work for you in the situation 
+you have to deal with.  There is still the problem for images in general 
+of describing situations where there are several taxa in the same image, 
+so I think it's probably worth trying to address the question of how to 
+include that information in the metadata. 
+
+Your last sentence brings up an important issue that I've had to deal 
+with myself, namely, how does one handle a situation where use of an 
+image requires permission but the copyright holder has died and has no 
+known successor?  I don't think this is necessarily a problem that 
+Audubon Core has to deal with but it is relevant if we take the long 
+view on image repositories.  I am thinking in the case of the collection 
+I manage (Bioimages) of having contributors agree to a fallback license 
+of CC BY if they are known to have died but haven't provided a contact 
+for a successor.  I've already had to deal with this once and it is 
+likely to happen more often as time goes on.
+
+I'm going to paste in your last paragraph as a comment for Issue 61 
+http://code.google.com/p/auduboncore/issues/detail?id=61 which deals 
+with the question of how media resources are to be located. 
+
+Steve
+
+Joyce Gross wrote:
+> Hi Steve,
+>
+> I think the associatedTaxa field will be a close enough match for 
+> CalPhotos. Thanks. I use the field in a stricter sense specimen 
+> databases I work on -- where we have separate "associationType" fields 
+> to go with the "associatedTaxa" fields. The CalPhotos value just needs 
+> to be a comma-separated list of (additional) taxa appearing in the 
+> photo so I think I rejected the associatedTaxa field at first. But now 
+> I think it's close enough.
+>
+> I don't think CalPhotos has to worry about S.A.P.'s because we only 
+> store one size photo and it's not that large (~800 pixels). 
+> Photographers/providers handle anything larger, separately from 
+> CalPhotos.
+>
+> Let me know what you come up with regarding the contact name/email. I 
+> may consider concatenating a couple of other fields as you suggest -- 
+> though I do not want more text in the field than just name/email due 
+> to the current way CalPhotos already handles usage text, combining 
+> license and copyright information that are in other fields.
+>
+> One of the most common questions sent to CalPhotos is "How do I get 
+> permission to use this photo?" It's very handy to have a contact name 
+> and email in the database with every single photo, especially if the 
+> image does not have a CC license. (The contact/email is displayed next 
+> to every photo, but many people don't read the text.) The contact name 
+> can be an organization, the photographer, a photographer's relative 
+> (the photographer has died), etc.
+>
+> Joyce
+
+-------- Original Message -------- 
+Subject: 	RE: Public Review of Audubon Core
+Date: 	Mon, 8 Apr 2013 22:06:10 +0000
+From: 	Moore, Gerry - NRCS, Greensboro, NC <Gerry.Moore@gnb.usda.gov>
+To: 	Steve Baskauf <steve.baskauf@vanderbilt.edu>
+References: 	<5130E94B.4040302@vanderbilt.edu> <2379CA27CD42644B8E68CB6F45D2B9981FFF09@001FSN2MPN1-031.001f.mgd2.msft.net> <51615577.2060107@vanderbilt.edu> <2379CA27CD42644B8E68CB6F45D2B998261585@001FSN2MPN1-032.001f.mgd2.msft.net> <516219FB.5090504@vanderbilt.edu>
+
+
+
+Hi Steve,
+ 
+  See attached. My comments focused on the taxonomy section, and represent issues that we have struggled with here at PLANTS. Cheers, Gerry
+
+[Note from Steve: I've put the actions I've taken inline with the comments.]
+
+Label Scientific Taxon Name 
+It is recommended to provide author citation to scientific names, to avoid ambiguities in the presence of homonyms (the same name created by different authors for different taxa).
+It should be noted that there are different classes of homonyms when talking about nomenclature of all living things.
+Some are perfectly legitimate and unavoidable when the names are governed by different Codes of nomenclature. For example there is a beetle genus Tribolium and a grass genus Tribolium. However,  homonyms governed by the same Code of nomenclature cannot be in use. Thus,  Rhynchospora pallida M.A.Curtis and Rhynchopsora pallida Steud. cannot both be used as the latter is an illegitimate later homonym that is not be taken up. 
+Also citation of the author names would help in avoiding ambiguities but it would not solve the problem as sometimes the same author published the same name for different taxa. Linnaeus did it, for example: Mimosa cinera L. (Sp. Pl.: 517. 1753) and Mimosa cinera L. (Sp. Pl.: 520. 1753). Thus, homonyms are defined not as the same name published by different authors, but the same name with different types. Homonyms are usually published by different authors but not always.
+[Action: I recognize that these are somewhat vexing problems.  What I'm not sure about is whether fixing them is in scope for Audubon Core.  For example, in the case where aggregation results in the inclusion of media bearing an illegitimate homonym, I think one could use the term dwc:acceptedNameUsage to note the currently accepted homonym.  However, it seems unlikely that this would be done often enough to consider it to be a term that AC would suggest for general use by media providers. 
+
+In the case of the issues where two different taxa are identified by the same generic epithet or where two homonyms have identical name strings and authors, it seems like an identifier for the name would be needed to completely disambiguate the homonyms.  This could be done using a term such as dwc:scientificNameID, but again, use of this term may be uncommon enough that it would not warrant placing it among the terms selected for inclusion in  Audubon Core.  I'm not going to open a new issue on this comment, but rather add it as a comment to the existing Issue 55 regarding clarifying the limits to the scope of Audubon Core http://code.google.com/p/auduboncore/issues/detail?id=55 ) ]
+Label Identification Qualifier  
+The following is given: Examples: 1) For the determinations “cf. Quercus agrifolia var. oxyadenia”, “Quercus cf. agrifolia var. oxyadenia”, “Quercus agrifolia cf. var. oxyadenia”, Scientific Taxon Name would always be “Quercus agrifolia var. oxyadenia”, with Identification Qualifier “cf. genus”, “cf. species” and “cf. var.”, respectively.
+These examples seem odd.  For example “cf. Quercus agrifolia var. oxyadenia” implies that it is not clear if the entity in question is properly identified to belong to the genus Quercus but is confidently placed in the species and variety. But how can this be since the species and variety identification is contingent upon the proper generic placement? 
+[Action: opened Issue 64 http://code.google.com/p/auduboncore/issues/detail?id=64 ]
+Label Name According To
+The following is stated: “Definition: The taxonomic authority used to apply the name to the taxon, e. g., a book or web service from which the name comes. Notes: Examples are ‘ITIS’, ‘Catalogue of Life’, ‘Peterson Field Guide to Birds of North America’.”
+The examples cited are not primary sources for taxonomic names. The names certainly did not come (originate) from there but came from somewhere else. The sources cited – assuming they provide a complete synonymy – may provide a concept for the taxon that goes by the name provided. However, even in those cases the concept likely originated from another source, such as a taxonomic treatment or a regional flora. 
+[Action: The commenter has correctly distinguished between what this term actually means (the sensu or secundum reference which defines or implies how the taxon is circumscribed) and something else (maybe dwc:namePublishedIn?) that the AC definition implies.  If necessary, one could refer to section 8 of the TDWG Taxon Concept Schema (TCS) Standard User Guide.  It might be best to give as examples only sensu references which give at least some indication how the taxon is circumscribed, i.e. I'm not sure that the ITIS website does that.  Opened Issue 65 http://code.google.com/p/auduboncore/issues/detail?id=65]
+Label Scientific Name Synonym
+“The primary purpose of this is in support of resource discovery, not developing a taxonomic synonymy. Misidentification or misspellings may thus be of interest.”
+Primary purpose aside, I don’t like conflating true synonyms with other things, such as orthographic variants and misapplications/misidentifications.
+True synonyms are of two types, nomenclatural (objective) and taxonomic (subjective), the former being objective because they are based on the same type, such as Scirpus maritimus L. and Schoenoplectus maritimus ( L. ) Lye, and the latter being subjective because they are based on different types and are deemed to be the same (taxonomically) based on the subjective judgment of a taxonomist.  
+Spelling variants of the same name are not really synonyms as they are merely variations of the same name. Misapplications of a name to a taxon is in some ways the opposite of a synonym as the name’s type is not considered the same as the taxon it has oftentimes been associated.
+By “lumping” these different attributes under “synonymy” confusion is oftentimes generated. PLANTS  is guilty of this too but it promotes confusion. For example one will oftentimes see an earlier Linnaean name as a synonym of a later name published by a post-Linnaean author.  However, the rules of nomenclature make clear that an earlier name is generally not to be the synonym of a later accepted name. Currently PLANTS is working on establishing a separate category for misapplied names and orthographic variants so they appear in fields separate from bona fide synonyms. 
+[Action: I think the problem here is not with what Audubon Core is trying to do with this term (support resource discovery), but rather with the choice of term name.  I think the intention of AC here was to allow the listing of different names that have been used (synonyms) and to indicate that the list include only scientific names and not vernacular names.  However, "synonym" has a technical meaning in the taxonomy community and using "synonym" in this term name/label may lead taxonomically-oriented users to believe that the term is intended for use in a way other than the authors intended.  I would suggest using another term name that doesn't contain "synonym".  The kind of disambiguation that the commenter is trying to implement is desirable, but is perhaps beyond the scope of Audubon Core and may require a more specialized vocabulary to handle it.  Opened Issue 66 http://code.google.com/p/auduboncore/issues/detail?id=66 ]
+
+------------------------
+The following is from the comment #2 for Issue 55 of the Issue Tracker .  It includes quotes from several emails sent during the public comment.  
+
+Comment from Andréa Matsunaga <ammatsun@acis.ufl.edu> during public review: 
+
+"e) In iDigBio (http://tinyurl.com/MISC-Media), some people have expressed the desire to have information about the magnification being used (to have a rough idea of the size of the object, potentially from data that is automatically retrieved from the capturing device) as well as the real world size depicted by a pixel (for the purposes of allowing one to make measurements on the image; this would require one to have a scale on an image and perform some arithmetic). Would it be possible to add such terms?"
+
+Comment from Steve: I put out a request for discussion on this issue to the tdwg-content list and Live Plant Imaging Group list and received only one reply from Boyce Tankersley <btankers@chicagobotanic.org>: 
+
+"For those living specimens where measurements are critical we include a scale next to the plant part in the image.  
+
+We currently have 25 photographers using their own cameras and I am not sure how we would be able to determine and/or document magnification levels without the use of a scale.  
+
+If we were working with a single make and model of a camera attached to a microscope I think the issue of magnification of the raw image would be easier to determine."
+
+[Action: From the lack of discussion about this issue, it is unclear to me how critical it is to the community to include terms for more detailed metadata about image extent, pixel dimensions, etc. of the sort that are included in the SpatialMetrics terms (section 9.1) of the MIX vocabulary (http://www.loc.gov/standards/mix/ ).  So I'm including these comments in this issue because it is relevant to the question of what terms should be considered part of Audubon Core.  
+
+Unlike Darwin Core, which mints most of the terms in its vocabulary, Audubon Core adopts many terms from other vocabularies.  What is the criterion that determines the need to include terms from other vocabularies?  In Darwin Core, there is the informal criterion that "at least two people need to want the term" before considering adding it to the vocabulary.  However, since in many cases AC doesn't actually have to mint terms which users want, how is the decision made to include terms defined outside of the AC namespace?  In order to satisfy potential users who want to provide metadata for things like the size of a pixel, one could simply say that all MIX 2.0 terms are incorporated into AC (in a manner similar to the way all Darwin Core Location terms are included).  But if we go down this road, why not just say that metadata providers can use any terms from any vocabularies in an "Audubon Core record".  
+
+So what I'm getting at here is that the scope of Audubon Core could conceivably range from the expectation that Audubon Core records contain only the required terms, to the expectation that Audubon Core records contain any possible media-related terms that anybody can think of.  The obvious answer is that Audubon Core records contain terms that are on the Audubon Core term list.  But there are already more terms on the AC list than most providers are likely to use, so what is the criterion by which a decision is made whether or not to add additional non-AC-defined terms to the list, given that using the non-required terms is optional anyway?
+
+Because this is really related to what was raised in Issue 55 http://code.google.com/p/auduboncore/issues/detail?id=55, I added this as a comment rather than taking the action of creating a new issue.]
+----------------------------------------
+Text from Issue Tracker Issue 67 http://code.google.com/p/auduboncore/issues/detail?id=67
+
+Reported by gtuco.btuco, Apr 12 (6 days ago) 
+1. Provide an ac Term Name or Label. A link to the Normative Term List is
+also helpful. This can be easily done at one of the <a ref="http://terms.gb
+if.org/wiki/Audubon_Core_Term_List_(DRAFT_of_1.0_normative)#Vocabulary_Indi
+ces" Vocabulary Indices</a>
+
+ncd:taxonCoverage
+
+http://terms.gbif.org/wiki/Audubon_Core_Term_List_%281.0_normative%29#ncd:taxonCoverage
+
+
+2. Describe the defect or lack of clarity you find in the term. If you have
+an opinion for a change, please add it here, perhaps with pros and cons.
+
+AC recommneds the use of the term taxonCoverage from the Natural Collections Description draft standard, which in turn adopts it from the TDWG Ontology work (http://rs.tdwg.org/ontology/voc/Collection#taxonCoverage
+). 
+
+The NCD is currently orphaned in its ratification process and none of the TDWG Ontology has any standing as a standard whatsoever. Because of the state of NCD, Darwin Core created terms for ratification under its namespace that were proposed in NCD but had no standing (collectionCode, collectionID, institutionCode, institutionID, and ownerInstitutionCode). Rather than get mired in the dubious state of NCD and the TDWG Ontology, I propose that Audubon Core create a new term for taxonCoverage. Failing that, perhaps propose it for Darwin Core where it has a chance to be ratified more quickly than sorting out NCD, which currently has no champion.
+
+[Action: I asked John to post this issue to the tdwg-content email list for discussion.  Here is the text of his email:
+-------- Original Message -------- 
+Subject: 	[tdwg-content] (no subject)
+Date: 	Mon, 15 Apr 2013 12:45:33 -0300
+From: 	John Wieczorek <tuco@berkeley.edu>
+Reply-To: 	<tuco@berkeley.edu>
+To: 	TDWG Content Mailing List <tdwg-content@lists.tdwg.org>
+
+Dear all,
+
+I have been asked to cross-post here from a comment on the GBIF Community site discussion of "The Management of TDWG Ontologies and Darwin Core" (http://community.gbif.org/pg/forum/topic/29426/discussion-of-management-of-the-tdwg-ontologies-and-darwin-core/). Given the subject matter, I feel like the whole discussion should take place in the broader audience reached by this list.
+
+While managing the Darwin Core, I advocated not to re-use any term that had no status as a standard. It was partially for this reason that geo:lat and geo:long were rejected (see http://code.google.com/p/darwincore/issues/detail?id=82). It worries me a little to see a non-standard term (ncd:taxonCoverage, adopted in turn from the TDWG Ontology, also not a standard, see http://rs.tdwg.org/ontology/voc/Collection#taxonCoverage) being proposed for adoption into the Audubon Core (see http://terms.gbif.org/wiki/Audubon_Core_Term_List_%281.0_normative%29#ncd:taxonCoverage). Does that bother anyone else? The alternative, sadly, is to make up a new term for ratification with the new standard. 
+
+So, questions. If Audubon Core is ratified with the Natural Collections Descriptions (NCD) term in it, does that one term from NCD become a standard term? Under what governance? What about the rest of the NCD namespace? What about the TDWG Ontology. A lot of work went into both of those, but each lost its champions and they remain incompletely reviewed, especially in the context of all that has come to pass since they were active. I know that people refer to the TDWG Ontology fairly often in discussions, and that activity is still fomenting around that work with the imminent publication of the RDF Guide for Darwin Core. But what about NCD. What should we do with it? Does more than one person, group, or project still want to use it? If not, there isn't a lot of reason to go to the trouble of creating a data sharing standard if no one will use it to share. But if its need is still alive and active, who can take up the standard and promote its completion, review, and ratification?
+
+Cheers,
+
+John
+------
+There were several responses, but none of them directly spoke to the issue.  The status of unratified standards that have languished in limbo for years is an issue that the Vocabulary Management Task Group (VoMaG) has taken up.  See http://community.gbif.org/pg/forum/topic/29426/discussion-of-management-of-the-tdwg-ontologies-and-darwin-core/ 
+
+I think that the solution to this problem may be to do nothing at the moment.  If it appears that the NCD draft standard is either killed or if its ratification begins to move forward again, then we may have a clearer idea of where to go on this.  If it remains stalled, then perhaps the best course of action is to propose that the term be defined under the AC namespace.  If NCD goes ahead, then it can adopt the AC term.]
+
+-------- Original Message -------- 
+Subject: 	Comments on Audubon Core
+Date: 	Wed, 24 Apr 2013 16:41:12 -0400
+From: 	Cynthia Parr <parrc@si.edu>
+
+To: 	Steve Baskauf <steve.baskauf@vanderbilt.edu>
+
+CC: 	Katja Schulz <schulzk@si.edu>
+
+. . .
+So, here are my comments.  Many are just suggestions to clarify notes.
+ In general, while I'm sure one could really go crazy with even more
+detail I think you must stop somewhere and I don't see any really
+fatal flaws.
+
+Re Subtypes: Any of Drawing, Painting, Logo, Icon, Illustration,
+Graphic, Photograph, Animation, Film, SlideShow, DesignPlan, Diagram,
+Map, MusicalNotation, IdentificationKey, ScannedText, RecordedText,
+RecordedOrganism, TaxonPage, MultimediaLearningObject,
+VirtualRealityEnvironment, GlossaryPage.
+
+Are there definitions for these suggested values anywhere?  
+[Action: This is a good point. I suppose one is supposed to figure out what the definition of the controlled value term is from its name, but it probably would be better to have a definition list somewhere.  As a more general issue, I suspect there will be a move on the part of the Vocabulary Management Group (VoMaG) to suggest that controlled values actually have assigned URIs (as is the case for the DCMI and DwC type vocabularies).  I don't know what the authors have in mind for this.  I'm creating Issue 68 (http://code.google.com/p/auduboncore/issues/detail?id=68 ) to address this question.]
+
+What does
+"This does not apply to Collection objects" mean.
+[Action: Good question.  I suppose this means that objects in collections (e.g. specimens) shouldn't have subtype properties.  But maybe it means that media collections themselves shouldn't have subtype properties.  This needs to be clarified.   Opened Issue 69 http://code.google.com/p/auduboncore/issues/detail?id=69 ]
+
+Re comments
+Any comment provided on the media resource, as free-form text. Best
+practice would also identify the commenter.
+any recommendation for how to identify the commenter?
+[Action: This issue was identified by a previous person who commented on it.  I'm going to add your comment to Issue 51 http://code.google.com/p/auduboncore/issues/detail?id=51 which is the one I had opened previously about it.]
+
+Re: License Terms
+EOL uses the same URI to hold a URL pointer to a CC license such as
+(see http://eol.org/schema/media_extension.xml). In the AC notes, you
+seems to conflate the license itself and the text to display about the
+license. Would be best to clarify in the notes -- if both are
+acceptable, then show examples of both.
+[Action:  This question is really touching on a broader issue that Audubon Core is currently dodging, namely whether the values given for some terms should be "non-literal value surrogate value strings" (sensu DCMI Abstract model, see http://code.google.com/p/tdwg-rdf/wiki/DublinCore#1.1.4.2._Structure_of_DCAM_non-literal_value_surrogates ) or URI references to a non-literal resource.  The definitions of dcterms:type, dcterms:rights, dcterms:source, dcterms:creator, dcterms:language, dcterms:temporal, and dcterms:format are all declared by DCMI to have non-literal values, which according to the DCMI Abstract Model (DCAM) means that their values should be represented by zero to one value URIs and zero or more value strings.  As a practical matter, as far as I know RDF is the only representation of the DCAM that anybody uses.  In the RDF representation of the DCAM, the object of terms with non-literal values is either a URI-reference or a blank node, but NOT a string literal (DCAM handles the value strings in a somewhat odd manner).  
+
+So this issue to some extent boils down to a problem that will come up when Audubon Core tries to create an RDF guide for the standard.  In some of the cases of dcterms: terms incorporated into Audubon Core (e.g. dcterms:language), there are well-recognized controlled value strings that people will probably just use and won't care about URIs.  They will just use the terms (incorrectly) with the strings as AC recommends.  But in several cases (dcterms:rights, dcterms:source, and dcterms:creator) there will be some people who might actually want to use URIs rather than strings, or perhaps even both.  So how will Audubon Core handle that?  In the case of something like dcterms:creator, one could fall back on dc:creator for the string version ("Steven J. Baskauf") and use dcterms:creator for the URI (http://viaf.org/viaf/63557389 ).  But not all of the dcterms: terms have dc: analogues.  In any case, the AC documentation tells people to use strings for dcterms: terms that probably should have URI-reference values according to DCMI.  
+
+In the particular case of xmpRights:UsageTerms, the situation is really messy.  Since the xmpRights: terms don't dereference to RDF, I don't know how to see how it is defined in RDF, but the pdf normative document says that its value type is not text but rather "Language Alternative" which section 8.2.2.4 shows to be a complex RDF beast involving one of the horrid RDF Container classes.  In contrast, xmpRights:WebStatement, which I would expect to be a URI is declared to have a value type of "text" because of "historical usage".  This seems to be completely backwards to me.  If I were advising EOL, I would say to use xmpRights:UsageTerms for a (possibly xml language coded) string literal describing the licensing terms and xmpRights:WebStatement for the URI version of the license with that URI as a URI-reference rather than a string literal if represented in RDF.  That is practically the opposite of what the normative documentation says to do but pretty close to what the AC guidelines suggest.  
+
+Basically, I think that there are two options here for the authors.  Dig in and figure out a rigorous solution to the string vs. URI problem now, or leave things as ambiguous as they are now and then struggle with it at some future point when they try to write an RDF guide.  TDWG does not have any requirement that vocabularies have an RDF guide, but I suspect people will be wanting one sooner or later.  Opened Issue 70 http://code.google.com/p/auduboncore/issues/detail?id=70 ]
+
+Re: dcterms:source
+We have trouble  explaining this one to our providers. In many if not
+most cases, the published source is the provider's own page (e.g. if
+the image is original to a particular website, we want the URL of the
+web page which provides the context in which it first appeared).   So
+an example like this in the Notes would be helpful.
+[Action: I agree that examples both for dcterms:source and ac:derivedFrom would be useful.  I am not sure whether it is appropriate to put more in the notes section or if it would be better to just include this in examples given in an informational (Type 3) guide that isn't actually included in the standard.  I am going to add this comment to existing Issue 63   http://code.google.com/p/auduboncore/issues/detail?id=63 which involves providing examples and also  cross-reference Issue 63 from Issue 36 http://code.google.com/p/auduboncore/issues/detail?id=36 which involves ac:derivedFrom ]
+
+Agents vocabulary
+EOL has a richer agents extension available here:
+http://eol.org/schema/agent_extension.xml
+While I don't think it accounts for metadataCreators, it does account
+for some other roles that may be relevant. Is there any chance of
+borrowing from this?
+[Action: It seems to me that this question falls under Issue 55 http://code.google.com/p/auduboncore/issues/detail?id=55 , which involves clarifying the limits to the scope of Audubon Core, and I've added this to the comments there.  When I looked at the properties listed in the agent_extension.xml file, most of them seem to be foaf: properties.  As was noted in Issue 55, there isn't anything that would stop any metadata provider from elaborating on the details of their metadata using FOAF or any other well-known vocabulary.  The question here is whether those properties would be considered "core" enough for AC to recommend that they be part of an "Audubon Core record".  
+
+The second issue raised here is that there are two property terms here that EOL defines that aren't in the FOAF vocabulary, eol:agentRole and eol:organization .  I did a quick look through the Dublin Core and BIBO vocabularies and didn't find anything like them.  I prowled through http://dublincore.org/documents/profile-guidelines/ and there were references leading me to  to some roles and terms to link to roles at http://metadataregistry.org/schemaprop/list/schema_id/4.html but I don't know how often these terms are actually used by anybody.  
+
+So I guess the second question boils down to whether users other than EOL have a need for terms like eol:agentRole and eol:organization and therefore AC should mint them for community use.   I'm going to do this: raise it as Issue 71 http://code.google.com/p/auduboncore/issues/detail?id=71 and let the authors consider adding these two terms to AC.  If they feel that they need some feedback from the community, they can raise it on the tdwg-content list or elsewhere.  I'm not going to raise it myself because I'm going to close off the public comment period now and don't want to drag that on any longer.]
+
+If the resource has been assigned a GUID or is also associated with an
+identifier issued by a previous agent or project, where would that go?
+[Action: My understanding is that the identifier as a string could be a value of dcterms:identifier .  Since dcterms:identifier is a repeatable term, the current GUID could be given as well as any previous ones.  ac:providerManagedID is also a possibility.  As far as I know, there isn't any way to indicate that a certain identifier is preferred by the provider and that other identifiers are not.  Hopefully if there is an existing GUID, an aggregator will reuse it rather than minting a new one anyway.  Bob can elaborate on this further if he wants or if I have gotten it wrong.  I don't think any other action is required on this one, although it could fall under possible things to illustrate in an "examples" document.  I will paste it in as a comment on Issue 63 (regarding providing examples) http://code.google.com/p/auduboncore/issues/detail?id=63 ]
+
+I hope this is helpful.  Sorry it has taken me so long to get to it.
+I've had to do everything by multitasking lately and this kind of
+review just won't work like that.
+
+Best of luck in the rest of the process,
+Cyndy
+
+Cynthia Sims Parr
+Chief Scientist and Director, Species Pages Group
+Encyclopedia of Life http://www.eol.org
+Office: 202.633.9513, Fax: 202.633.8742
+Room W118
+
+Mailing address:
+National Museum of Natural History
+Smithsonian Institution
+P.O. Box 37012, MRC 106
+Washington, DC 20013-7012
+
+Public comment period closed 2013 April 25
