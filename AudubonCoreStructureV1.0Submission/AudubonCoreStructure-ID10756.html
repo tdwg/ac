@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html dir="ltr" class="client-js" version="HTML+RDFa 1.0" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Audubon Core Structure - GBIF-Terms</title>
+<meta charset="UTF-8">
+<meta name="generator" content="MediaWiki 1.20.7">
+<meta name="robots" content="noindex,follow">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="http://terms.gbif.org/w/index.php?title=Audubon_Core_Structure&amp;action=edit">
+<link rel="edit" title="Edit" href="http://terms.gbif.org/w/index.php?title=Audubon_Core_Structure&amp;action=edit">
+<link rel="shortcut icon" href="http://species-id.net/s/media/b/ba/GBIF_logo_trans135x120.png">
+<link rel="search" type="application/opensearchdescription+xml" href="http://terms.gbif.org/w/opensearch_desc.php" title="GBIF-Terms (en)">
+<link rel="EditURI" type="application/rsd+xml" href="http://terms.gbif.org/w/api.php?action=rsd">
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/">
+<link rel="alternate" type="application/atom+xml" title="GBIF-Terms Atom feed" href="http://terms.gbif.org/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="stylesheet" href="AudubonCoreStructure-ID10756_files/load.css">
+<style>.mw-collapsible-toggle{float:right} li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+/* cache key: gbif_kos:resourceloader:filter:minify-css:7:4250852ed2349a0d4d0fc6509a3e7d4c */.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:none;z-index:1099;padding:0;margin:-1px -1px 0 0} html > body .suggestions{margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0}.suggestions-result{color:black;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left}.suggestions-result-current{background-color:#4C59A6;color:white}.suggestions-special .special-label{color:gray;text-align:left}.suggestions-special .special-query{color:black;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:silver}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:white}.autoellipsis-matched,.highlight{font-weight:bold}
+/* cache key: gbif_kos:resourceloader:filter:minify-css:7:9780324491b653a3780e2d029bdc140c */#mw-panel.collapsible-nav .portal{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAAABCAMAAAA7MLYKAAAAS1BMVEXb29vy8vLv7+/c3NzZ2dni4uLr6+vt7e3s7Ozw8PDn5+fj4+Ph4eHd3d3f39/o6Ojl5eXp6enx8fHa2trg4ODq6urk5OTz8/PY2NjolWftAAAAO0lEQVR4XrXAhwGAMAgEQB5I71X3n9QpPHqAGZidt2e02G8yedciQkv1/YPqIpFSdzbp9tjGsd4xhwl8yuMKHhkJhm8AAAAASUVORK5CYII=) left top no-repeat;background:url(http://terms.gbif.org/w/extensions/Vector/modules/images/portal-break.png?2012-11-09T11:03:20Z) left top no-repeat!ie;padding:0.25em 0 !important;margin:-11px 9px 10px 11px}#mw-panel.collapsible-nav .portal h5{color:#4D4D4D;font-weight:normal;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAD1BMVEX////d3d2ampqxsbF5eXmCtCYvAAAAAXRSTlMAQObYZgAAADBJREFUeF6dzNEJACAMA1HdINQJCp1Ebv+ZlLYLaD4f4cbnDNi6MAO8KCHJ+7X02j3mzgMQe93HcQAAAABJRU5ErkJggg==) left center no-repeat;background:url(http://terms.gbif.org/w/extensions/Vector/modules/images/open.png?2012-11-09T11:03:20Z) left center no-repeat!ie;padding:4px 0 3px 1.5em;margin-bottom:0}#mw-panel.collapsible-nav .portal h5:hover{cursor:pointer;text-decoration:none}#mw-panel.collapsible-nav .portal h5 a{color:#4D4D4D;text-decoration:none}#mw-panel.collapsible-nav .portal .body{background:none !important;padding-top:0;display:none}#mw-panel.collapsible-nav .portal .body ul li{padding:0.25em 0} #mw-panel.collapsible-nav .portal.first h5{display:none}#mw-panel.collapsible-nav .portal.first{background-image:none;margin-top:0} #mw-panel.collapsible-nav .portal.persistent .body{display:block}#mw-panel.collapsible-nav .portal.persistent h5{background:none !important;padding-left:0.7em;cursor:default}#mw-panel.collapsible-nav .portal.persistent .body{margin-left:0.5em} #mw-panel.collapsible-nav .portal.collapsed h5{color:#0645AD;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAADFBMVEX///95eXnd3d2dnZ3aAo3QAAAAAXRSTlMAQObYZgAAADFJREFUeF5dyzEKACAMA0CXolNe2Id09Kl5igZahWY4AiGjZwmIuS9GEcJfY63Ix88Bol4EYP1O7JMAAAAASUVORK5CYII=) left center no-repeat;background:url(http://terms.gbif.org/w/extensions/Vector/modules/images/closed-ltr.png?2012-11-09T11:03:20Z) left center no-repeat!ie;margin-bottom:0}#mw-panel.collapsible-nav .portal.collapsed h5 a{color:#0645AD}#mw-panel.collapsible-nav .portal.collapsed h5:hover{text-decoration:underline}
+/* cache key: gbif_kos:resourceloader:filter:minify-css:7:976cacf7229d75d30eb88090c01db235 */</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="AudubonCoreStructure-ID10756_files/load_002.css">
+
+<script src="AudubonCoreStructure-ID10756_files/ga.js" async="" type="text/javascript"></script><script src="AudubonCoreStructure-ID10756_files/load_006.php"></script><script src="AudubonCoreStructure-ID10756_files/load_003.php"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Audubon_Core_Structure","wgTitle":"Audubon Core Structure","wgCurRevisionId":10756,"wgArticleId":696,"wgIsArticle":true,"wgAction":"view","wgUserName":"BobMorris","wgUserGroups":["bureaucrat","sysop","widgeteditor","*","user","autoconfirmed"],"wgCategories":["Audubon Core"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Audubon_Core_Structure","wgRestrictionEdit":[],"wgRestrictionMove":[],"sfgAutocompleteValues":[],"sfgAutocompleteOnAllChars":false,"sfgFieldProperties":[],"sfgDependentFields":[],"sfgShowOnSelect":[],"sfgScriptPath":"/w/extensions/SemanticForms","sdgDownArrowImage":"/w/extensions/SemanticDrilldown/skins/down-arrow.png","sdgRightArrowImage":"/w/extensions/SemanticDrilldown/skins/right-arrow.png","wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":false,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":"1","previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":"1","rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":true,"watchcreations":1,"watchdefault":1,"watchdeletion":0,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":1,"wllimit":250,"vector-simplesearch":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":0,"useeditwarning":1,"upwiz_deflicense":"default","upwiz_def3rdparty":"default","upwiz_deflicensetype":"default","openid-hide":0,"openid-update-on-login-nickname":false,"openid-update-on-login-email":false,"openid-update-on-login-fullname":false,"openid-update-on-login-language":false,"openid-update-on-login-timezone":false,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs102":false,"searchNs103":false,"searchNs106"
+:false,"searchNs107":false,"searchNs108":false,"searchNs109":false,"searchNs170":false,"searchNs171":false,"searchNs198":false,"searchNs199":false,"searchNs200":true,"searchNs201":false,"searchNs202":true,"searchNs203":false,"searchNs204":true,"searchNs205":false,"searchNs206":true,"searchNs207":false,"searchNs208":true,"searchNs209":false,"nickname":"","timecorrection":"Offset|-300","watchlisttoken":"38afa5b0fcd4f17a39ce0d347429c2f232102d48"});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"64674f42a5317da0a663b6e9b06bb1e1+\\","watchToken":"53ae1d49ee8aa9ade797ff5bfd1977a7+\\"});;},{},{});
+/* cache key: gbif_kos:resourceloader:filter:minify-js:7:3e051e52e81d340d162e11a061082537 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script><script type="text/javascript" src="AudubonCoreStructure-ID10756_files/load_004.php"></script>
+		<link rel="alternate" type="application/rdf+xml" title="Audubon Core Structure" href="http://terms.gbif.org/w/index.php?title=Special:ExportRDF/Audubon_Core_Structure&amp;xmlmime=rdf">
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Audubon_Core_Structure skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading"><span dir="auto">Audubon Core Structure</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From GBIF-Terms</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" dir="ltr" class="mw-content-ltr" lang="en"><p><br>
+<b>Title:</b> Audubon Core
+</p><p><b>Date:</b> 23 October, 2013.
+</p><p><b>Abstract:</b> The Audubon Core is a set of vocabularies 
+designed to represent metadata for biodiversity multimedia resources and
+ collections. These vocabularies aim to represent information that will 
+help to determine whether a particular resource or collection will be 
+fit for some particular biodiversity science application before 
+acquiring the media. Among others, the vocabularies address such 
+concerns as the management of the media and collections, descriptions of
+ their content, their taxonomic, geographic, and temporal coverage, and 
+the appropriate ways to retrieve, attribute and reproduce them. This 
+document contains material introductory to the <b><a href="http://terms.gbif.org/wiki/Audubon_Core_Term_List" title="Audubon Core Term List">Audubon Core Term List</a></b>
+</p><p><b>Contributors:</b> Robert A. Morris, Vijay Barve, Mihail 
+Carausu, Vishwas Chavan, Jose Cuadra, Chris Freeland, Gregor Hagedorn, 
+Patrick Leary, Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan 
+Teage
+</p><p><b>Legal:</b> This document is governed by the standard legal, 
+copyright, licensing provisions and disclaimers issued by the Taxonomic 
+Databases Working Group.
+</p><p><b>Part of TDWG Standard:</b> <a target="_blank" class="external free" href="http://www.tdwg.org/standards/638/">http://www.tdwg.org/standards/638/</a>.
+</p><p><b>Document Status:</b> This document is a <a target="_blank" class="external text" href="http://www.tdwg.org/fileadmin/tdwg_std_drafts/tdwg_standards_documentation_specification.html#a_3">TDWG Type 1 Normative Document</a>.
+</p><p>Release 1.0 of this document has wiki revision 10756 with a permalink <a target="_blank" class="external free" href="http://terms.gbif.org/w/index.php?oldid=10756">http://terms.gbif.org/w/index.php?oldid=10756</a>.<br>
+This document has wiki revision ID 10756 with a permalink <a target="_blank" class="external free" href="http://terms.gbif.org/w/index.php?oldid=10756">http://terms.gbif.org/w/index.php?oldid=10756</a>.
+</p>
+<table id="toc" class="toc"><tbody><tr><td><div id="toctitle"><h2>Contents</h2><span class="toctoggle">&nbsp;[<a href="#" class="internal" id="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Terminology_of_this_specification"><span class="tocnumber">1</span> <span class="toctext">Terminology of this specification</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Multiplicity.2FCardinality"><span class="tocnumber">2</span> <span class="toctext">Multiplicity/Cardinality</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Lists_of_plain_text_values"><span class="tocnumber">3</span> <span class="toctext">Lists of plain text values</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Term_List"><span class="tocnumber">4</span> <span class="toctext">Term List</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Non-normative_documents"><span class="tocnumber">5</span> <span class="toctext">Non-normative documents</span></a></li>
+</ul>
+</td></tr></tbody></table>
+<p><br>
+</p><p>This is the normative documentation for the <a target="_blank" class="external text" href="http://tdwg.org/">TDWG</a>
+ Audubon Core Multimedia Resources Metadata Standard (Audubon Core, or 
+simply AC), During development, it was colloquially known as MRTG, after
+ its developers, the GBIF-TDWG Joint Multimedia Resources Metadata Task 
+Group. Please see the brief <b><a href="http://terms.gbif.org/wiki/Audubon_Core" title="Audubon Core">Audubon Core</a></b> non normative document and also <b><a target="_blank" class="external text" href="http://www.keytonature.eu/wiki/MRTG_Development_History">MRTG Development History</a></b> for the development history in detail. 
+</p><p><b>If you are unfamiliar with the Audubon Core, <i>please</i> read the <a href="http://terms.gbif.org/wiki/Audubon_Core" title="Audubon Core">Audubon Core</a> introduction before reading this page.</b>
+ It lays out why there is perceived a need for a biodiversity media 
+resource metadata schema, and how the standard attempts to use existing 
+metadata standards where possible.
+</p>
+<h2> <span class="mw-headline" id="Terminology_of_this_specification"><span class="mw-headline-number">1</span> Terminology of this specification</span></h2>
+<p>There are many ways to organize metadata specifications, particularly
+ as to the nomenclature of the constituents of the metadata. Note the 
+following as they apply to the Audubon Core:
+</p>
+<ul><li> A <i>Multimedia Resource</i> is anything that a provider identifies as belonging to one of the possible values of the AC <i>Type</i> term and optionally one or more of the <i>Subtype</i>
+ term values. A mechanism is provided by which providers can supply a 
+privately defined subtype that will not collide with the AC defined 
+Subtype values.
+</li><li> An AC <i>record</i> is a set of terms with any values 
+conforming to this document, and which contain at least the four 
+mandatory terms described in the <a href="http://terms.gbif.org/wiki/Audubon_Core_Term_List" title="Audubon Core Term List"> Audubon Core Core Term List</a>, and which describes a single multimedia resource (possibly including a Collection). One of these, the value of <i>Identifier</i>
+ is a Globally Unique IDentifier (GUID), which may have been assigned to
+ the resource by an external authority or by the provider of the 
+metadata record.
+</li><li> AC terms are divided into two <i>Layers</i>. Those characterized as in  <i>Layer 1</i>,
+ including the four mandatory terms, should be meaningfully handled by 
+all consuming client applications. Only wholly complete consuming 
+applications need handle those in the <i>Layer 2.</i> What is meant by 
+"meaningfully handle" is up to implementers of this normative 
+specification.  It could be as simple as "gracefully ignore". 
+</li></ul>
+<p>In the <a href="http://terms.gbif.org/wiki/Audubon_Core_Term_List" title="Audubon Core Term List"> Audubon Core Term List</a>, every AC term has a <i>term name</i> following a table entry <i>"Term:"</i>, a <i>URI</i>, a plain text normative <i>Definition</i>, a recommended English <i>Label</i>,  an optional <i>Notes</i>
+ attribute. In addition, a term has an attribute telling whether it is 
+mandatory, one telling whether it is repeatable, and one telling whether
+ it is in Layer 1 or 2. Layer 2 comprises terms likely to only occur for
+ certain media. For example, the term <i>DateAvailable</i> will apply 
+only to media that are embargoed, but for which the provider is prepared
+ to make the metadata immediately available. 
+</p><p>AC metadata can describe either individual multimedia resources 
+or collections of resources. A few, but not many, of the AC properties 
+have different values for collections than for individual media. If no 
+such distinction is mentioned, AC does not assume one.
+</p><p>Term Names for terms borrowed from other vocabularies are those 
+in use for the corresponding term in those vocabularies. Term Names are 
+intended principally for navigation in the AC documentation. Term Labels
+ are suggestions for English labels in applications.  They are 
+recommendations only and are offered only in English, with the added 
+expectation that they may clarify intended usage of the term.  
+Communities may wish to promulgate recommendations for Labels in other 
+languages, or even alternative English Labels for specialized audiences,
+ e.g. school children.  Labels are may be used for navigation within the
+ Term List, and are often used within the Term List itself when a term 
+is mentioned within the documentation of another term. The Term List 
+provides indices both by name and label.
+</p><p>URI's for terms conform to the http URI scheme (See <a target="_blank" class="external free" href="http://en.wikipedia.org/wiki/URI_scheme">http://en.wikipedia.org/wiki/URI_scheme</a>, <a target="_blank" class="external free" href="http://www.w3.org/TR/uri-clarification/">http://www.w3.org/TR/uri-clarification/</a>, or <a target="_blank" class="external free" href="http://www.ietf.org/rfc/rfc2396.txt">http://www.ietf.org/rfc/rfc2396.txt</a>.)
+ Informally, one may understand this as follows: an http URI has the 
+syntax of an http URL, but there is no expectation that putting it in a 
+web browser will result in any information being returned to the 
+browser, and if there is, it may have no relevance. This conformance 
+requirement applies only to the URIs that identify AC terms. A few AC 
+terms permit <b>values</b> to be taken from another controlled 
+vocabulary chosen by the user. In this case, those values may involve 
+URIs conforming to a scheme given by that external vocabulary, and AC is
+ silent on what that scheme is. 
+</p><p>The Notes field of a term's documentation points to further 
+information, if any exists, about the term. In particular, for terms 
+borrowed from other vocabularies, this field generally carries a link to
+ the originating vocabulary's documentation for that term.
+</p>
+<h2> <span class="mw-headline" id="Multiplicity.2FCardinality"><span class="mw-headline-number">2</span> Multiplicity/Cardinality</span></h2>
+<p>A number of terms are repeatable. How to implement repeatability in a
+ given serialization is not defined by Audubon Core. The following 
+section gives advice on some best practices in the context of 
+repeatability.
+</p><p>The simplest case is a single repeatable term (e.g., 
+dcterms:identifier). In representations based on an XML Schema that 
+permits elements to be repeated such a term may simply be repeated (e.g.
+ 
+"...&lt;dcterms:identifier&gt;http://example.com/123&lt;/dcterms:identifier&gt;&lt;dcterms:identifier&gt;http://example.com/456&lt;/dcterms:identifier&gt;...").
+ In serializations that do not easily lend themselves to repeatable 
+elements (e.g. "flat" schemata with all elements occurring only a single
+ time in an otherwise unstructured record) it is possible to define 
+separators to support a list of values within a single element (e.g. 
+"...&lt;dcterms:identifier&gt;http://example.com/123; 
+http://example.com/456&lt;/dcterms:identifier&gt;...").
+</p><p>In certain cases pairs or tuples of properties are repeated. In 
+Audubon Core this situation occurs, for example, in the following cases:
+</p>
+<ul><li> The language-dependent metadata like title, description, etc. 
+need to be associated with ac:metadataLanguage. One approach here is to 
+use complete Audubon Core records together with the <a href="http://terms.gbif.org/wiki/Audubon_Core_Term_List#ac:metadataLanguage" title="Audubon Core Term List"> Metadata Language</a> property; see there for further detail.
+</li><li> The values of properties about a Service Access Point must 
+remain associated with that Service Access Point even if there are 
+multiple Service Access Points. See <a href="http://terms.gbif.org/wiki/Audubon_Core_Term_List#ac:hasServiceAccessPoint" title="Audubon Core Term List">hasServiceAccessPoint</a> for further details.
+</li><li> The terms dwc:scientificName and dwc:identificationQualifier may optionally be structured into pairs. (See the notes on <a href="http://terms.gbif.org/wiki/Audubon_Core_Term_List#dwc:identificationQualifier" title="Audubon Core Term List"> dwc:identificationQualifier</a>.)
+</li><li> The terms <a href="http://terms.gbif.org/wiki/Audubon_Core_Term_List#ac:Reviewer" title="Audubon Core Term List"> Reviewer</a>, being the name of an individual providing some expert review of a resource, and the review text itself in <a href="http://terms.gbif.org/wiki/Audubon_Core_Term_List#ac:Reviewer_Comments" title="Audubon Core Term List"> Reviewer Comments</a> are desirable to store as pairs.
+</li></ul>
+<p>Many serialization languages provide sufficiently structured forms to
+ deal with repeated terms unambiguously.  For example, in XML might 
+define a container element and use a nesting structure something like 
+this:
+</p>
+<pre>&lt;MEDIA_METADATA_CONTAINER&gt;
+  &lt;dcterms:identifier&gt;http//:example.com/pictures/thePicture.jpg&lt;/dcterms:identifier&gt;
+  ...
+  &lt;ac:hasServiceAccessPoint&gt;
+    &lt;dcterms:format&gt;jpg&lt;/dcterms:format&gt;
+    &lt;ac:accessURI&gt;http://example.com/fullres/thePicture.jpg&lt;/ac:accessURI&gt;
+    ...
+  &lt;/ac:hasServiceAccessPoint&gt;
+  &lt;ac:hasServiceAccessPoint&gt;
+    ...
+  &lt;/ac:hasServiceAccessPoint&gt;
+&lt;MEDIA_METADATA_CONTAINER&gt;
+</pre>
+<p>Another example may reference access points by identifier:
+</p>
+<pre>&lt;MEDIA_METADATA_CONTAINER&gt;
+  &lt;dcterms:identifier&gt;http://example.com/pictures/thePicture.jpg&lt;/dcterms:identifier&gt;
+  ...
+  &lt;ac:hasServiceAccessPoint&gt;http://example.com/pictures/thePicture.jpg#ac0001&lt;/ac:hasServiceAccessPoint&gt;
+  &lt;ac:hasServiceAccessPoint&gt;http://example.com/pictures/thePicture.jpg#ac0002&lt;/ac:hasServiceAccessPoint&gt;
+  &lt;ac-classes:ServiceAccessPoint id="http://example.com/pictures/thePicture.jpg#ac0001"&gt;
+    &lt;dcterms:format&gt;jpg&lt;/dcterms:format&gt;
+    &lt;ac:accessURI&gt;http://example.com/fullres/thePicture.jpg&lt;/ac:accessURI&gt;
+    ...
+  &lt;/ac-classes:ServiceAccessPoint&gt;
+  ...
+&lt;MEDIA_METADATA_CONTAINER&gt;
+</pre>
+<p>Note: ac-classes:ServiceAccessPoint a prefix of an illustrative 
+namespace.  Namespace recommendations will be made when the normative 
+documents are approved.
+</p><p>Where such structure is impossible or undesirable, an alternative
+ solution is to to permit only one access point per 
+MEDIA_METADATA_CONTAINER, but to repeat the main 
+MEDIA_METADATA_CONTAINER for a single media resource. This is similar to
+ one of the options discussed for multilingual metadata (see <a href="http://terms.gbif.org/wiki/Audubon_Core_Term_List#ac:metadataLanguage" title="Audubon Core Term List"> Metadata Language</a>). An example in XML for this:
+</p>
+<pre>&lt;MEDIA_METADATA_CONTAINER&gt;
+  &lt;dcterms:identifier&gt;http//:example.com/pictures/thePicture.jpg&lt;/dcterms:identifier&gt;
+  &lt;dcterms:title&gt;A red beech leaf&lt;/dcterms:title&gt;
+  &lt;dcterms:format&gt;jpg&lt;/dcterms:format&gt;
+  &lt;ac:accessURI&gt;http://example.com/fullres/thePicture.jpg&lt;/ac:accessURI&gt;
+  ...
+&lt;MEDIA_METADATA_CONTAINER&gt;
+&lt;MEDIA_METADATA_CONTAINER&gt;
+  &lt;dcterms:identifier&gt;http://example.com/pictures/thePicture.jpg&lt;/dcterms:identifier&gt;
+  &lt;dcterms:format&gt;png&lt;/dcterms:format&gt;
+  &lt;ac:accessURI&gt;http://example.com/fullres/thePicture-hires.png&lt;/ac:accessURI&gt;
+  ...
+&lt;MEDIA_METADATA_CONTAINER&gt;
+</pre>
+<p>The same example as a spreadsheet-like table:
+</p>
+<table class="wikitable">
+<tbody><tr><td><b>dcterms:identifier</b></td><td><b>dcterms:title</b></td><td><b>ac:variant</b></td><td><b>dcterms:format</b></td><td><b>ac:accessURI</b></td></tr>
+<tr><td>http://example.com/pictures/thePicture.jpg</td><td>A red beech leaf</td><td>Best Quality</td><td>jpg</td><td>http://example.com/fullres/thePicture.jpg</td></tr>
+<tr><td>http://example.com/pictures/thePicture.jpg</td><td></td><td>Best Quality</td><td>png</td><td>http://example.com/fullres/thePicture-hires.png</td></tr>
+<tr><td>http://example.com/pictures/thePicture.jpg</td><td></td><td>Thumbnail</td><td>png</td><td>http://example.com/thumbs/thePicture-thumb.png</td></tr>
+</tbody></table>
+<p>In the example above, only the required identifier is repeated, but 
+not the title field. Whether to repeat all fields or whether to provide 
+all fields only in the first record, limiting later records to the 
+identifier and the service access point properties, is left to specific 
+implementations. In the example, hasAccessPoint property is suppressed 
+as unnecessary. Another approach reduces the need for the property 
+when flattening the ac  structure. It is based on introducing new terms 
+exploiting values of the <a href="http://terms.gbif.org/wiki/Audubon_Core_Term_List#ac:variantLiteral_ac:variantLiteral" title="Audubon Core Term List">Audubon_Core_Term_List#ac:variantLiteral ac:variantLiteral</a>:
+ "Thumbnail", "Trailer", "Lower Quality", "Medium Quality", "Good 
+Quality", "Best Quality", "Offline", as prefixes for additional 
+properties in a new namespace, say acf (Audubon Core Flat):
+</p>
+<table class="wikitable">
+<tbody><tr><td><b>dcterms:identifier</b></td><td><b>dcterms:title</b></td><td><b>acf:thumbnailAccessURI</b></td><td><b>acf:thumbnailFormat</b></td><td><b>acf:thumbnailImageWidth</b></td><td><b>acf:thumbnailImageHeight</b></td><td><b>acf:goodQualityAccessURI</b></td><td><b>acf:goodQualityFormat</b></td><td><b>acf:goodQualityImageWidth</b></td><td><b>acf:goodQualityImageHeight</b></td><td><b>acf:bestQualityAccessURI</b></td><td><b>acf:bestQualityFormat</b></td><td><b>acf:bestQualityImageWidth</b></td><td><b>acf:bestQualityImageHeight</b>
+</td></tr>
+<tr><td>http://ex.com/pictures/thePicture.jpg</td><td>A red beech leaf</td><td>http://example.com/thumb/thePic.jpg</td><td>image/jpeg</td><td>100</td><td>100</td><td>http://ex.com/img/thePic.jpg</td><td>image/jpeg</td><td>1000</td><td>1000</td><td>http://ex.com/hr/thePic.png</td><td>image/png&lt;/nowiki&gt;</td><td>10000</td><td>10000</td>
+</tr>
+</tbody></table>
+<h2> <span class="mw-headline" id="Lists_of_plain_text_values"><span class="mw-headline-number">3</span> Lists of plain text values</span></h2>
+<p>Some AC terms permit values that are lists to be represented as plain
+ text. The choice of how to separate list items is ultimately left to 
+the implementers of AC. Typical usage is to choose a punctuation mark 
+such as ",", ";", or "|". In these cases a special escape syntax needs 
+to be defined for cases in which the separator is part of the metadata 
+value. Unfortunately, even for standard list formats like CSV, different
+ software packages choose different escape methods, hindering 
+interchange. In the absence of an implementation-specific choice we 
+recommend to use "|" as separator and "\|" as an escaped vertical bar.
+</p>
+<h2> <span class="mw-headline" id="Term_List"><span class="mw-headline-number">4</span> Term List</span></h2>
+<p>See: <a href="http://terms.gbif.org/wiki/Audubon_Core_Term_List" title="Audubon Core Term List">Audubon Core Term List</a>
+</p>
+<h2> <span class="mw-headline" id="Non-normative_documents"><span class="mw-headline-number">5</span> Non-normative documents</span></h2>
+<p>See: <a href="http://terms.gbif.org/wiki/Audubon_Core" title="Audubon Core">Audubon Core</a> introduction; <a href="http://terms.gbif.org/wiki/Audubon_Core_Offline_Non_Normative_Document" title="Audubon Core Offline Non Normative Document">Audubon Core Offline Non Normative Document</a>
+</p>
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 230/2000000
+Preprocessor generated node count: 496/1000000
+Post‐expand include size: 0/8388608 bytes
+Template argument size: 0/8388608 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/700
+-->
+
+<!-- Saved in parser cache with key gbif_kos:pcache:idhash:696-0!*!0!1!en!*!* and timestamp 20131023004523 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="http://terms.gbif.org/w/index.php?title=Audubon_Core_Structure&amp;oldid=10756">http://terms.gbif.org/w/index.php?title=Audubon_Core_Structure&amp;oldid=10756</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id="catlinks" class="catlinks"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://terms.gbif.org/wiki/Special:Categories" title="Special:Categories">Class</a>: <ul><li><a href="http://terms.gbif.org/wiki/Class:Audubon_Core" title="Class:Audubon Core">Audubon Core</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-userpage"><a href="http://terms.gbif.org/wiki/User:BobMorris" title="Your user page [alt-shift-.]" accesskey=".">BobMorris</a></li>
+		<li id="pt-mytalk"><a href="http://terms.gbif.org/wiki/User_talk:BobMorris" class="new" title="Your talk page [alt-shift-n]" accesskey="n">Talk</a></li>
+		<li id="pt-preferences"><a href="http://terms.gbif.org/wiki/Special:Preferences" title="Your preferences">Preferences</a></li>
+		<li id="pt-watchlist"><a href="http://terms.gbif.org/wiki/Special:Watchlist" title="A list of pages you are monitoring for changes [alt-shift-l]" accesskey="l">Watchlist</a></li>
+		<li id="pt-mycontris"><a href="http://terms.gbif.org/wiki/Special:Contributions/BobMorris" title="A list of your contributions [alt-shift-y]" accesskey="y">Contributions</a></li>
+		<li id="pt-logout"><a href="http://terms.gbif.org/w/index.php?title=Special:UserLogout&amp;returnto=Audubon+Core+Structure&amp;returntoquery=printable%3Dyes" title="Log out">Log out</a></li>
+	</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li id="ca-nstab-main" class="selected"><span><a href="http://terms.gbif.org/wiki/Audubon_Core_Structure" title="View the content page [alt-shift-c]" accesskey="c">Page</a></span></li>
+					<li id="ca-talk"><span><a href="http://terms.gbif.org/wiki/Talk:Audubon_Core_Structure" title="Discussion about the content page [alt-shift-t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="http://terms.gbif.org/wiki/Audubon_Core_Structure">Read</a></span></li>
+					<li id="ca-form_edit" class="collapsible"><span><a href="http://terms.gbif.org/w/index.php?title=Audubon_Core_Structure&amp;action=formedit">Edit with form</a></span></li>
+					<li id="ca-edit"><span><a href="http://terms.gbif.org/w/index.php?title=Audubon_Core_Structure&amp;action=edit" title="You can edit this page. Please use the preview button before saving [alt-shift-e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="http://terms.gbif.org/w/index.php?title=Audubon_Core_Structure&amp;action=history" title="Past revisions of this page [alt-shift-h]" accesskey="h">View history</a></span></li>
+					<li id="ca-unwatch" class="icon"><span><a href="http://terms.gbif.org/w/index.php?title=Audubon_Core_Structure&amp;action=unwatch&amp;token=9d7aa022b8ea0200dbe5c6ae98ba21b6%2B%5C" title="Remove this page from your watchlist [alt-shift-w]" accesskey="w">Unwatch</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+							<li id="ca-delete"><a href="http://terms.gbif.org/w/index.php?title=Audubon_Core_Structure&amp;action=delete" title="Delete this page [alt-shift-d]" accesskey="d">Delete</a></li>
+							<li id="ca-move"><a href="http://terms.gbif.org/wiki/Special:MovePage/Audubon_Core_Structure" title="Move this page [alt-shift-m]" accesskey="m">Move</a></li>
+							<li id="ca-protect"><a href="http://terms.gbif.org/w/index.php?title=Audubon_Core_Structure&amp;action=protect" title="Protect this page [alt-shift-=]" accesskey="=">Protect</a></li>
+							<li id="ca-purge"><a href="http://terms.gbif.org/w/index.php?title=Audubon_Core_Structure&amp;action=purge">Refresh</a></li>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input placeholder="Search" autocomplete="off" tabindex="1" name="search" title="Search GBIF-Terms [alt-shift-f]" accesskey="f" id="searchInput">						<button name="button" title="Search the pages for this text" id="searchButton" width="12" height="13"><img src="AudubonCoreStructure-ID10756_files/search-ltr.png" alt="Search"></button>								<input name="title" value="Special:Search" type="hidden">
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint collapsible-nav">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(http://species-id.net/s/media/b/ba/GBIF_logo_trans135x120.png);" href="http://terms.gbif.org/wiki/Main_Page" title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- Terminology Platform -->
+<div class="portal first persistent" id="p-Terminology_Platform">
+	<h5>Terminology Platform</h5>
+	<div class="body">
+		<ul>
+			<li id="n-Terminology-Platform"><a href="http://terms.gbif.org/wiki/Main_Page">Terminology Platform</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Terminology Platform -->
+
+<!-- navigation -->
+<div class="portal expanded" id="p-navigation">
+	<h5 tabindex="2"><a href="#">Navigation</a></h5>
+	<div style="display: block;" class="body">
+		<ul>
+			<li id="n-recentchanges"><a href="http://terms.gbif.org/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [alt-shift-r]" accesskey="r">Recent changes</a></li>
+			<li id="n-help"><a href="http://terms.gbif.org/wiki/Help:Contents" title="The place to find out">Help</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- TOOLBOX -->
+<div class="portal expanded" id="p-tb">
+	<h5 tabindex="3"><a href="#">Toolbox</a></h5>
+	<div style="display: block;" class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="http://terms.gbif.org/wiki/Special:WhatLinksHere/Audubon_Core_Structure" title="A list of all wiki pages that link here [alt-shift-j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="http://terms.gbif.org/wiki/Special:RecentChangesLinked/Audubon_Core_Structure" title="Recent changes in pages linked from this page [alt-shift-k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="http://species-id.net/openmedia/Special:Upload" title="Upload files [alt-shift-u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="http://terms.gbif.org/wiki/Special:SpecialPages" title="A list of all special pages [alt-shift-q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="http://terms.gbif.org/w/index.php?title=Audubon_Core_Structure&amp;oldid=10756" title="Permanent link to this revision of the page">Permanent link</a></li>
+<li id="t-smwbrowselink"><a href="http://terms.gbif.org/wiki/Special:Browse/Audubon_Core_Structure" title="Special:Browse/Audubon Core Structure">Browse properties</a></li><li id="t-cite"><a href="http://terms.gbif.org/w/index.php?title=Special:Cite&amp;page=Audubon_Core_Structure&amp;id=10756" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+
+<!-- coll-print_export -->
+<div class="portal expanded" id="p-coll-print_export">
+	<h5 tabindex="4"><a href="#">Print/export</a></h5>
+	<div style="display: block;" class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="http://terms.gbif.org/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Audubon+Core+Structure" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="http://terms.gbif.org/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Audubon+Core+Structure&amp;oldid=10756&amp;writer=rl" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id="footer">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 22 October 2013, at 19:35.</li>
+											<li id="footer-info-copyright">Text is available under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution/Share-Alike License</a>;
+additional terms may apply.
+See <a href="http://terms.gbif.org/wiki/Species-ID:Terms_of_Use">Terms of Use</a> for details.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://terms.gbif.org/wiki/GBIF-Terms:Privacy_policy" title="GBIF-Terms:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="http://terms.gbif.org/wiki/GBIF-Terms:About" title="GBIF-Terms:About">About GBIF-Terms</a></li>
+											<li id="footer-places-disclaimer"><a href="http://terms.gbif.org/wiki/GBIF-Terms:General_disclaimer" title="GBIF-Terms:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://creativecommons.org/licenses/by-sa/3.0/"><img src="AudubonCoreStructure-ID10756_files/CC-BY-SA_3_icon_88x31.png" alt="Creative Commons Attribution-Share Alike 3.0 Unported" height="31" width="88"></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://biowikifarm.net/"><img src="AudubonCoreStructure-ID10756_files/Servedby_biowikifarm_88x31.png" alt="Served by Plazi Biowikifarm.net" height="31" width="88"></a>
+						<a href="http://www.mediawiki.org/"><img src="AudubonCoreStructure-ID10756_files/Poweredby_mediawiki_64x31.png" alt="Powered by MediaWiki" height="31" width="64"></a>
+						<a href="http://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="AudubonCoreStructure-ID10756_files/smw_button.png" alt="Powered by Semantic MediaWiki" height="31" width="88"></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"loading","user.groups":"loading"});
+}</script>
+<script src="AudubonCoreStructure-ID10756_files/load.php"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.page.watch.ajax","mediawiki.searchSuggest","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning"], null, true);
+}</script><script type="text/javascript" src="AudubonCoreStructure-ID10756_files/load_007.php"></script><script type="text/javascript" src="AudubonCoreStructure-ID10756_files/load_002.php"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27110487-1']);
+  _gaq.push(['_setDomainName', 'terms.gbif.org']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_gat._anonymizeIp']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+  _gaq.push(['b._setAccount', 'UA-27110487-1']);
+  _gaq.push(['b._setDomainName', 'terms.gbif.org']);
+  _gaq.push(['b._setAllowLinker', true]);
+  _gaq.push(['b._gat._anonymizeIp']);
+  _gaq.push(['b._trackPageview']);
+  _gaq.push(['b._trackPageLoadTime']);
+  setTimeout('_gaq.push([\'_trackEvent\', \'NoBounce\', \'Over 10 seconds\'])',10000);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="AudubonCoreStructure-ID10756_files/load_005.php"></script>
+<script>if(window.mw){
+mw.loader.state({"user":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.state({"user.groups":"ready"});
+}</script>
+<!-- Served in 0.064 secs. -->
+	
+
+<div class="suggestions" style="display: none; font-size: 13.3333px;"><div class="suggestions-results"></div><div class="suggestions-special"></div></div></body></html>
