@@ -3,6 +3,7 @@
 * **Download**: [Download](AudubonCoreStructureV1.0Submission.zip)
 * **Status**: TDWG draft standard
 * **Category**: Technical specification
+* **Permanent URL**: http://www.tdwg.org/standards/638
 * **TDWG task group**: Multimedia Resources Task Group
 * **Date submitted**: 2010-02-27
 * **Date published**: 2012-12-06
