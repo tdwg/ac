@@ -1,6 +1,6 @@
 # Audubon Core Multimedia Resources Metadata Schema
 
-* **Download**: [Download](AudubonCoreStructureV1.0Submission.zip)
+* **Download**: [Download](AudubonCoreStructureV1.0Submission)
 * **Status**: TDWG draft standard
 * **Category**: Technical specification
 * **Permanent URL**: http://www.tdwg.org/standards/638
