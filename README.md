@@ -17,4 +17,8 @@ Multimedia Resources are digital or physical artifacts which normally comprise m
 
 Multimedia descriptions are digital records that document underlying multimedia resources. Audubon Core is focused on biodiversity-related multimedia resources. It shares terminology and concerns with many well known and important standards for describing access to resources such as Dublin Core(DC), Darwin Core (DwC), the Adobe Extensible Metadata Platform (XMP), the International Press and Telecommunications Council (IPTC) the Metadata Working Group (MWG) schema, the Natural Collections Schema (NCD), and others. Where there is an exact match to concerns of such standards, Audubon Core adopts their identifiers and definitions. Audubon Core particularly intends to ease the burden of holders of descriptions specified either by DwC or DC by allowing use of those existing descriptions where appropriate.
 
-To go to the Web-accessible version: go to http://terms.gbif.org/wiki/Audubon_Core (accessed 22 Oct 2013).
+For the web-accessible version go to http://terms.gbif.org/wiki/Audubon_Core
+
+## Preferred citation
+
+> Morris Robert A., Barve Vijay, Carausu Mihail, Chavan Vishwas, Cuadra Jose, Freeland Chris, Hagedorn Gregor, Leary Patrick, Mozzherin Dimitry, Olson Annette, Riccardi Greg, Teage Ivan. 2013. Audubon Core Multimedia Resources Metadata Schema, Version 1.0. Biodiversity Information Standards (TDWG) http://www.tdwg.org/standards/638
