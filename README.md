@@ -14,7 +14,7 @@ Robert A. Morris - University of Massachusetts, Boston (Convener) - [morris.bob@
 
 Steve Baskauf - Vanderbilt University Department of Biological Sciences - [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@vanderbilt.edu)
 
-Douglas Boyer -Department of Evolutionary Anthropology, Duke University, Director of MorphoSource open access 3D repository - [douglasmb@gmail.com](douglasmb@gmail.com)
+Douglas Boyer -Department of Evolutionary Anthropology, Duke University, Director of MorphoSource open access 3D repository - [douglasmb@gmail.com](mailto:douglasmb@gmail.com)
 
 Niels Klazenga - Royal Botanic Gardens Victoria - [Niels.Klazenga@rbg.vic.gov.au](mailto:Niels.Klazenga@rbg.vic.gov.au)
 
