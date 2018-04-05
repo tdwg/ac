@@ -10,9 +10,9 @@ Audubon Core is maintained by a specialized [Interest Group](http://www.tdwg.org
 
 Currently, core members of the group are:
 
-Robert A. Morris - University of Massachusetts, Boston (Convener) - [morris.bob@gmail.com](mailto:morris.bob@gmail.com)
+Steve Baskauf - Vanderbilt University Department of Biological Sciences (Convener) - [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@vanderbilt.edu)
 
-Steve Baskauf - Vanderbilt University Department of Biological Sciences - [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@vanderbilt.edu)
+Robert A. Morris - University of Massachusetts, Boston - [morris.bob@gmail.com](mailto:morris.bob@gmail.com)
 
 Douglas Boyer -Department of Evolutionary Anthropology, Duke University, Director of MorphoSource open access 3D repository - [douglasmb@gmail.com](mailto:douglasmb@gmail.com)
 

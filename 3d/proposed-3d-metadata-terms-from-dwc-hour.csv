@@ -1,0 +1,37 @@
+suggested by,category,modality,MorphoSource Field,Field Description,AudubonCore term
+DM Boyer,Related Resources Vocabulary,All,parent media file MorphoSource number,the MorphoSource media number pertaining to the dataset used to create a media file,ac:derivedFrom
+DM Boyer,Related Resources Vocabulary,All,parent media file DOI,the DOI of the media file pertaining to the dataset used to create a media file (this need not be a morphosource derived DOI),ac:derivedFrom
+DM Boyer,Resource Creation Vocabulary,All,scan compilation software,any software used to create the final media file from 'raw scan data' whatever that may be,ac:resourceCreationTechnique
+DM Boyer,Management Vocabulary,All,Scanning modality,"type of technology used to create scan (e.g., laser scan, structured light, photogrammetry, CT, microCT MRI, RTI, etc.)",dc:Type
+DM Boyer,Agents vocabulary,All,media author,distinct from technicians and/or copyright holder - more or less takes the place of project ID,dc:creator
+G Motz,Resource Creation Vocabulary,CT,number of slices,,dicom:NumberOfSlices
+T Ryan,Resource Creation Vocabulary,CT,x-ray tube type,"brand/model, reflection vs. transmission target",ac:resourceCreationTechnique
+T Ryan,Resource Creation Vocabulary,CT,detector type,"flat panel vs. linear array vs. image intensifier *obsolete for modern systems, but relevant for legacy data",ac:resourceCreationTechnique
+T Ryan,Resource Creation Vocabulary,CT,source object distance,distance between x-ray source and target object,ac:resourceCreationTechnique
+T Ryan,Resource Creation Vocabulary,CT,source detector distance,distance between x-ray source and target object,ac:resourceCreationTechnique
+T Ryan,Resource Creation Vocabulary,CT,target material,"tungsten, molybdenum, copper, etc",ac:resourceCreationTechnique
+T Ryan,Resource Creation Vocabulary,CT,number of rotations,*for systems with vertical translation capabilities,ac:resourceCreationTechnique
+T Ryan,Resource Creation Vocabulary,CT,beam hardening correction,post-processing parameter,ac:resourceCreationTechnique
+T Ryan,Resource Creation Vocabulary,CT,ring free correction,post-processing parameter,ac:resourceCreationTechnique
+T Ryan,Resource Creation Vocabulary,CT,reconstruction algorithm,post-processing parameter,ac:resourceCreationTechnique
+T Ryan,Resource Creation Vocabulary,CT,Pixel grayscale units,"e.g., Hounsfield units or not - relevant only for medical and some pre-clinical systems",ac:resourceCreationTechnique
+T Ryan,Resource Creation Vocabulary,CT,Grayscale calibration,"e.g., data converted to bone density values rather than raw CT numbers",ac:resourceCreationTechnique
+DM Boyer,Resource Creation Vocabulary,CT,specimen preparation,"e.g., iodine staining for CT scan, or white-coating for laser scanning, etc.",ac:resourceCreationTechnique
+J Blundell,Resource Creation Vocabulary,Photogrammetry,General EXIF data,,ac:resourceCreationTechnique
+J Blundell,Resource Creation Vocabulary,Photogrammetry,Camera/lens make and model,,ac:resourceCreationTechnique
+J Blundell,Resource Creation Vocabulary,Photogrammetry,Sensor size,,ac:resourceCreationTechnique
+J Blundell,Resource Creation Vocabulary,Photogrammetry,Focal length,,ac:resourceCreationTechnique
+J Blundell,Resource Creation Vocabulary,Photogrammetry,Aperture,,ac:resourceCreationTechnique
+J Blundell,Resource Creation Vocabulary,Photogrammetry,ISO,,ac:resourceCreationTechnique
+J Blundell,Resource Creation Vocabulary,Photogrammetry,Shutter speed,,ac:resourceCreationTechnique
+J Blundell,Resource Creation Vocabulary,Photogrammetry,Prime/Telephoto,,ac:resourceCreationTechnique
+J Blundell,Resource Creation Vocabulary,Photogrammetry,Subject position and arrangement,,ac:resourceCreationTechnique
+J Blundell,Resource Creation Vocabulary,Photogrammetry,Light source information,,ac:resourceCreationTechnique
+J Blundell,Resource Creation Vocabulary,Photogrammetry,Fixed camera array relationships,,ac:resourceCreationTechnique
+G Motz,Resource Creation Vocabulary,Photogrammetry,number of photos,,dicom:ImagesInSeries OR dicom:ImagesInStudy
+R. Schlader / L. Tapanila,Resource Creation Vocabulary,Laser/structured light,total points,Total number of points,ac:resourceCreationTechnique
+R. Schlader / L. Tapanila,Resource Creation Vocabulary,Laser/structured light,scan passes,Number of scan passes,ac:resourceCreationTechnique
+R. Schlader / L. Tapanila,Resource Creation Vocabulary,Any,mesh file polygon count,number of polygons,ac:resourceCreationTechnique
+R. Schlader / L. Tapanila,Resource Creation Vocabulary,Any,mesh file polygon count,volume,??
+R. Schlader / L. Tapanila,Resource Creation Vocabulary,Any,mesh file polygon count,surface area,??
+G Motz,Resource Creation Vocabulary,Any,workflow narrative,citation of an external document,??
