@@ -94,7 +94,7 @@ Release 1.0 of this document has wiki revision 10759 with a permalink
 This document has wiki revision ID 36898 with a permalink
 <http://terms.gbif.org/w/index.php?oldid=36898>.
 
-  
+
 
 <div id="toc" class="toc">
 
@@ -157,9 +157,9 @@ This document has wiki revision ID 36898 with a permalink
 
 </div>
 
-  
 
-  
+
+
 An Audubon Core (AC) record is a description of a multimedia resource
 using the AC vocabularies. Two kinds of terms are specified by this
 document: those terms which describe representation-independent aspects
@@ -175,7 +175,7 @@ may provide several access points for different representations (e.g.,
 different
 resolutions).
 
-  
+
 
 ## <span id="Borrowed_Vocabulary" class="mw-headline">Borrowed Vocabulary</span>
 
@@ -193,7 +193,7 @@ term table entries will bring the reader to appropriate documentation of
 those
 organizations.
 
-  
+
 
 ## <span id="Namespaces.2C_Prefixes_and_Term_Names" class="mw-headline">Namespaces, Prefixes and Term Names</span>
 
@@ -226,7 +226,7 @@ a pair in the case of multiple values of each. This is a special case of
 the issue treated in the normative material on [Multiplicity and
 Cardinality](/wiki/Audubon_Core_Structure#Multiplicity.2FCardinality "Audubon Core Structure").
 
-  
+
 
 ## <span id="Layers" class="mw-headline">Layers</span>
 
@@ -241,7 +241,7 @@ descriptions. Each term description below indicates the Layer to which
 the term
 belongs.
 
-  
+
 
 ## <span id="Literal-_vs._URI-valued_Terms" class="mw-headline">Literal- vs. URI-valued Terms</span>
 
@@ -255,7 +255,7 @@ specific "Literal" suffix, specify in their definition whether the
 required values are strings or
 URIs.
 
-  
+
 
 ## <span id="Vocabulary_Indices" class="mw-headline">Vocabulary Indices</span>
 
@@ -374,7 +374,7 @@ URIs.
 | [exif:PixelXDimension](#exif:PixelXDimension) | |
 [exif:PixelYDimension](#exif:PixelYDimension) |
 
-  
+
 
 ### <span id="Index_By_Label" class="mw-headline">Index By Label</span>
 
@@ -463,95 +463,29 @@ Expectation](#Service_Expectation) | | [Hash Function](#Hash_Function) |
 Height](#Image_Height)
 |
 
-  
+
 
 # <span id="Vocabularies" class="mw-headline">Vocabularies</span>
 
 ## <span id="Management_Vocabulary" class="mw-headline">Management Vocabulary</span>
 
-Term Name: dcterms:identifier
+| property | value |
+|----------|-------|
+| <a id="Identifier"></a>Term Name: | dcterms:identifier |
+| Normative URI: | http://purl.org/dc/terms/identifier |
+| Label | Identifier |
+| | **Layer:** 1 — **Required:** Yes for media collections, No for media resources (but preferred if available). — **Repeatable:** Yes |
+| Definition: | An arbitrary code that is unique for the resource, with the resource being either a provider, collection, or media item. |
+| Defined by: | [dcterms:identifier](http://dublincore.org/documents/dcmi-terms/#terms-identifier) |
+| Notes: | Using multiple identifiers implies that they have a same-as relationship, i.e. they all identify the same object (e. g. an object may have all of an http-URL, an lsid-URI, and a UUID). |
 
-</div>
-
-</div>
-
-</div>
-
-Normative URI:
-
-http://purl.org/dc/terms/identifier
-
-Label
-
-Identifier
-
- 
-
-**Layer:** 1 — **Required:** Yes for media collections, No for media
-resources (but preferred if available). — **Repeatable:** Yes
-
-Definition:
-
-An arbitrary code that is unique for the resource, with the resource
-being either a provider, collection, or media item.
-
-Defined
-by:
-
-[dcterms:identifier](http://dublincore.org/documents/dcmi-terms/#terms-identifier)
-
-Notes:
-
-Using multiple identifiers implies that they have a same-as
-relationship, i.e. they all identify the same object (e. g. an object
-may have all of an http-URL, an lsid-URI, and a UUID).
-
-Term Name: dc:type
-
-Normative URI:
-
-http://purl.org/dc/elements/1.1/type
-
-Label
-
-Type
-
- 
-
-**Layer:** 1 — **Required:** Yes — **Repeatable:** No
-
-Definition:
-
-dc:type may take as value any type term from the [DCMI Type
-Vocabulary](http://dublincore.org/documents/dcmi-type-vocabulary/#H7).
-Recommended terms are Collection, StillImage, Sound, MovingImage,
-InteractiveResource, Text. Values may be used either in their literal
-form, or with a full namespace (e. g.
-http://purl.org/dc/dcmitype/StillImage) from a controlled vocabulary,
-but the best practice is to use the literal form when using dc:type and
-use dcterms:type when you can supply the URI from a controlled
-vocabulary and implementers may require this practice. At least one of
-dc:type and dcterms:type must be supplied but, when feasible, supplying
-both may make the metadata more widely useful. The values of each should
-designate the same type, but in case of ambiguity dcterms:type prevails.
-
-Defined by:
-
-[dc:type](http://purl.org/dc/elements/1.1/type)
-
-Notes:
-
-A Collection should be given type "Collection" when using dc:type. If
-the resource is a Collection, this item does *not* identify what types
-of objects it may contain. Following the DC recommendations for [the
-Text type](http://purl.org/dc/dcmitype/Text), images of text should be
-marked given as the string Text when provided as a string. **See also**
-the entry for [**dcterms:type**](#dcterms:type) in this document and see
-the **[DCMI FAQ on DC and DCTERMS
-Namespaces](http://wiki.dublincore.org/index.php/FAQ/DC_and_DCTERMS_Namespaces)**
-for discussion of the rationale for terms in two namespaces. Normal
-practice is to use the same Label if both are provided. Labels have no
-effect on information discovery and are only suggestions.
+<a id="Type"></a>Term Name: dc:type
+Normative URI:  http://purl.org/dc/elements/1.1/type
+Label Type
+  **Layer:** 1 — **Required:** Yes — **Repeatable:** No
+Definition: dc:type may take as value any type term from the [DCMI Type Vocabulary](http://dublincore.org/documents/dcmi-type-vocabulary/#H7). Recommended terms are Collection, StillImage, Sound, MovingImage, InteractiveResource, Text. Values may be used either in their literal form, or with a full namespace (e. g. http://purl.org/dc/dcmitype/StillImage) from a controlled vocabulary, but the best practice is to use the literal form when using dc:type and use dcterms:type when you can supply the URI from a controlled vocabulary and implementers may require this practice. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails.
+Defined by: [dc:type](http://purl.org/dc/elements/1.1/type)
+Notes:  A Collection should be given type "Collection" when using dc:type. If the resource is a Collection, this item does *not* identify what types of objects it may contain. Following the DC recommendations for [the Text type](http://purl.org/dc/dcmitype/Text), images of text should be marked given as the string Text when provided as a string. **See also** the entry for [**dcterms:type**](#dcterms:type) in this document and see the **[DCMI FAQ on DC and DCTERMS Namespaces](http://wiki.dublincore.org/index.php/FAQ/DC_and_DCTERMS_Namespaces)** for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.
 
 Term Name: dcterms:type
 
@@ -1267,9 +1201,9 @@ Access URI and perhaps dcterms:format mandatory on instances of the
 service access
 point.
 
-  
 
-  
+
+
 
 ## <span id="Attribution_Vocabulary" class="mw-headline">Attribution Vocabulary</span>
 
@@ -1703,7 +1637,7 @@ practice is to use the same Label if both are provided. Labels have no
 effect on information discovery and are only
 suggestions.
 
-  
+
 
 ## <span id="Agents_Vocabulary" class="mw-headline">Agents Vocabulary</span>
 
@@ -1995,7 +1929,7 @@ if both are provided. Labels have no effect on information discovery and
 are only
 suggestions.
 
-  
+
 
 ## <span id="Content_Coverage_Vocabulary" class="mw-headline">Content Coverage Vocabulary</span>
 
@@ -2304,7 +2238,7 @@ specific coverage metadata items provided further below. Examples:
 color" are especially
 desirable.
 
-  
+
 
 ## <span id="Geography_Vocabulary" class="mw-headline">Geography Vocabulary</span>
 
@@ -2540,7 +2474,7 @@ namespace usage of the Adobe XMP implementation of IPTC terms described
 in [IPTC Standard Photo Metadata
 (July 2010)](http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf).
 
-  
+
 
 ## <span id="Temporal_Coverage_Vocabulary" class="mw-headline">Temporal Coverage Vocabulary</span>
 
@@ -2666,7 +2600,7 @@ Notes:
 Examples in English: *afternoon*,
 *twilight*.
 
-  
+
 
 ## <span id="Taxonomic_Coverage_Vocabulary" class="mw-headline">Taxonomic Coverage Vocabulary</span>
 
@@ -3159,7 +3093,7 @@ immobility, preservation with ethanol or formaldehyde. See also
 technical aspects of digital media object
 creation.
 
-  
+
 
 ## <span id="Resource_Creation_Vocabulary" class="mw-headline">Resource Creation Vocabulary</span>
 
@@ -3332,7 +3266,7 @@ appropriate.
 See also Subject Preparation
 Technique.
 
-  
+
 
 ## <span id="Related_Resources_Vocabulary" class="mw-headline">Related Resources Vocabulary</span>
 
@@ -3517,7 +3451,7 @@ Defined by:
 [This
 item.](#associatedObservationReference)
 
-  
+
 
 ## <span id="Service_Access_Point_Vocabulary" class="mw-headline">Service Access Point Vocabulary</span>
 
@@ -3601,7 +3535,7 @@ following special values: Data-CD, Audio-CD, Video-CD, Data-DVD,
 Audio-DVD, Video-DVD-PAL, Video-DVD-NTSC, photographic slide,
 photographic print. Compare Type for the content-type.
 
-  
+
 
 **See also** the entry for [**dcterms:format**](#dcterms:format) in this
 document and see the **[DCMI FAQ on DC and DCTERMS
@@ -3943,7 +3877,7 @@ Sec 3.4.2](http://www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/XMPSpecific
 for further
     documentation.
 
-  
+
 
 <div>
 
