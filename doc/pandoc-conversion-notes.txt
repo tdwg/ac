@@ -1,0 +1,22 @@
+Pandoc conversion from HTML to Markdown
+
+1. At the Windows command prompt, change the default code page (character encoding) to UTF-8 by:
+chcp 65001
+Note: The Pandoc documentation says that input and output can be piped through iconv when the local character encoding isn not UTF-8, but I think this solution is simpler.
+
+2. To avoid path issues, navigate to the directory containing the file to be converted.  Alternatively, HTML can be fetched directly from the web using HTTP, for example:
+pandoc -f html -t markdown http://www.fsf.org
+
+3. Pandoc can guess the desired format from the file extension.  However, its default Markdown is embelished with Pandoc ideosyncracies that don't render at Github. To get strict Markdown, use the
+-f markdown_strict .  One can also try -f gfm (for GitHub-Flavored Markdown).
+
+4. Relevant options are:
+-o (output to file)
+-f (from; input format)
+-t (to; output format)
+
+
+The input file (or URL) is listed at the end of the command
+
+5. Here is an example:
+pandoc -f html -t gfm -o structure.md https://terms.tdwg.org/wiki/Audubon_Core_Structure
