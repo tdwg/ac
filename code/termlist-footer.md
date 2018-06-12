@@ -1,32 +1,32 @@
 
 ## <a id="References">8 References</a>
 
-1.  <a href='#cite_ref-1'>NASA Global Change Master Directory</a>
+1.  <a href='#cite_ref-1'></a>NASA Global Change Master Directory
     http://gcmd.nasa.gov/
 
-2.  <a href='cite_note-2'>Subject Categories defined in Key to
-    Nature</a> http://www.keytonature.eu/wiki/Subject_Category
+2.  <a href='cite_note-2'></a>Subject Categories defined in Key to
+    Nature http://www.keytonature.eu/wiki/Subject_Category
 
-3.  <a href='cite_note-3'>BioComplexity Thesaurus</a>
+3.  <a href='cite_note-3'></a>BioComplexity Thesaurus
     http://thesaurus.nbii.gov
 
-4.  <a href='cite_note-4'>GBIF Description Types</a>
+4.  <a href='cite_note-4'></a>GBIF Description Types
     http://rs.gbif.org/vocabulary/gbif/description_type.xml
 
-5.  <a href='cite_note-5'>Species Profile Model</a>
+5.  <a href='cite_note-5'></a>Species Profile Model
     http://rs.tdwg.org/ontology/voc/SPMInfoItems.rdf
 
-6.  <a href='cite_note-6'>Plinian Core</a>
+6.  <a href='cite_note-6'></a>Plinian Core
     http://www.gbif.es/plinian/doku.php
 
-7.  <a href='cite_note-7'>GEMET</a>
+7.  <a href='cite_note-7'></a>GEMET
     http://www.eionet.europa.eu/gemet
 
-8.  <a href='cite_note-8'>LTER Controlled Vocabulary</a>
+8.  <a href='cite_note-8'></a>LTER Controlled Vocabulary
     http://vocab.lternet.edu/
 
-9.  <a href='cite_note-MWG2010-9'>Metadata Working Group
-    Guidelines for Handling Image Metadata (MWG 2010), Version 2.0, November 2010</a>
+9.  <a href='cite_note-MWG2010-9'></a>Metadata Working Group
+    Guidelines for Handling Image Metadata (MWG 2010), Version 2.0, November 2010
     http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf
 
 -----------------
