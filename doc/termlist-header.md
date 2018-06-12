@@ -8,7 +8,7 @@ and the non-normative introductory **[Audubon
 Core](Audubon_Core)**
 documents.
 
-## <span id="Metadata_structure">Metadata structure</span>
+## <a id="Metadata_structure">Metadata structure</a>
 
 **Date:** 23 October, 2013.
 
@@ -53,9 +53,10 @@ This document has wiki revision ID 36898 with a permalink
 
 ## Contents
 
+
+<a href='#Metadata_structure'>1 Metadata structure</a><br/>
+<a href='#Borrowed_Vocabulary'>2 Borrowed Vocabulary</a><br/>
 <ul style="list-style-type:none">
-<li><a href='#Metadata_structure'>1 Metadata structure</a></li>
-<li><a href='#Borrowed_Vocabulary'>2 Borrowed Vocabulary</a></li>
 [<li>3 Namespaces, Prefixes and Term Names</li>](#Metadata_structure)
 [<li>4 Layers</li>](#Metadata_structure)
 [<li>5 Literal- vs. URI-valued Terms</li>](#Metadata_structure)
