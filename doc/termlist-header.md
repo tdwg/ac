@@ -8,9 +8,17 @@ and the non-normative introductory **[Audubon
 Core](Audubon_Core)**
 documents.
 
-## <a id="Metadata_structure">Metadata structure</a>
+**Title:** Audubon Core Term List
 
-**Date:** 23 October, 2013.
+**Date version issued:** 2013-10-23
+
+**Date created:** 2013-10-23
+
+**Part of TDWG Standard:** http://www.tdwg.org/standards/638/.
+
+**This version:"" http://rs.tdwg.org/ac/doc/termlist/2013-10-23
+
+**Latest version:** http://rs.tdwg.org/ac/doc/termlist/
 
 **Abstract:** The Audubon Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
@@ -35,51 +43,34 @@ will reflect the ongoing documentation changes and draft enhancements.
 Chavan, José Cuadra, Chris Freeland, Gregor Hagedorn, Patrick Leary,
 Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
-**Legal:** This document is governed by the standard legal, copyright,
-licensing provisions and disclaimers issued by the Taxonomic Databases
-Working Group.
+**Creator:** GBIF/TDWG Multimedia Resources Task Group
 
-**Part of TDWG Standard:**
-<a href="http://www.tdwg.org/standards/638/">http://www.tdwg.org/standards/638/</a>.
+**Bibliographic citation:** Multimedia Resources Task Group. 2013. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/
 
-**Document Status:** This document is a
-<a href="http://www.tdwg.org/fileadmin/tdwg_std_drafts/tdwg_standards_documentation_specification.html#a_3" class="external text">TDWG Type 1 Normative Document</a>.
+## Table of Contents
 
-Release 1.0 of this document has wiki revision 10759 with a permalink
-<a href="http://terms.gbif.org/w/index.php?oldid=10759" class="uri external free">http://terms.gbif.org/w/index.php?oldid=10759</a>.  
-This document has wiki revision ID 36898 with a permalink
-<a href="http://terms.gbif.org/w/index.php?oldid=36898" class="uri external free">http://terms.gbif.org/w/index.php?oldid=36898</a>.
-
-
-## Contents
-
-
-<a href='#Metadata_structure'>1 Metadata structure</a><br/>
+<a href='#Introduction'>1 Introduction</a><br/>
 <a href='#Borrowed_Vocabulary'>2 Borrowed Vocabulary</a><br/>
-<ul style="list-style-type:none">
-[<li>3 Namespaces, Prefixes and Term Names</li>](#Metadata_structure)
-[<li>4 Layers</li>](#Metadata_structure)
-[<li>5 Literal- vs. URI-valued Terms</li>](#Metadata_structure)
-[<li>6 Vocabulary Indices</li>](#Metadata_structure)
-<ul style="list-style-type:none">
-[<li>6.1 Index By Term Name</li>](#Metadata_structure)
-[<li>6.2 Index By Label</li>](#Metadata_structure)
-</ul>
-[<li>7 Vocabularies</li>](#Metadata_structure)
-<ul style="list-style-type:none">
-[<li>7.1 Management Vocabulary</li>](#Metadata_structure)
-[<li>7.2 Attribution Vocabulary</li>](#Metadata_structure)
-[<li>7.3 Agents Vocabulary</li>](#Metadata_structure)
-[<li>7.4 Content Coverage Vocabulary</li>](#Metadata_structure)
-[<li>7.5 Geography Vocabulary</li>](#Metadata_structure)
-[<li>7.6 Temporal Coverage Vocabulary</li>](#Metadata_structure)
-[<li>7.7 Taxonomic Coverage Vocabulary</li>](#Metadata_structure)
-[<li>7.8 Resource Creation Vocabulary</li>](#Metadata_structure)
-[<li>7.9 Related Resources Vocabulary</li>](#Metadata_structure)
-[<li>7.10 Service Access Point Vocabulary</li>](#Metadata_structure)
-</ul>
-[<li>8 References</li>](#Metadata_structure)
-</ul>
+<a href='#Namespaces.2C_Prefixes_and_Term_Names'>3 Namespaces, Prefixes and Term Names</a><br/>
+<a href='#Layers'>4 Layers</a><br/>
+<a href='#Literal-_vs._URI-valued_Terms'>5 Literal- vs. URI-valued Terms</a><br/>
+<a href='#Vocabulary_Indices'>6 Vocabulary Indices</a><br/>
+<a href='#Index_By_Term_Name'>6.1 Index By Term Name</a><br/>
+<a href='#Index_By_Label'>6.2 Index By Label</a><br/>
+<a href='#Vocabularies'>7 Vocabularies</a><br/>
+<a href='#Management_Vocabulary'>7.1 Management Vocabulary</a><br/>
+<a href='#Attribution_Vocabulary'>7.2 Attribution Vocabulary</a><br/>
+<a href='#Agents_Vocabulary'>7.3 Agents Vocabulary</a><br/>
+<a href='#Content_Coverage_Vocabulary'>7.4 Content Coverage Vocabulary</a><br/>
+<a href='#Geography_Vocabulary'>7.5 Geography Vocabulary</a><br/>
+<a href='#Temporal_Coverage_Vocabulary'>7.6 Temporal Coverage Vocabulary</a><br/>
+<a href='#Taxonomic_Coverage_Vocabulary'>7.7 Taxonomic Coverage Vocabulary</a><br/>
+<a href='#Resource_Creation_Vocabulary'>7.8 Resource Creation Vocabulary</a><br/>
+<a href='#Related_Resources_Vocabulary'>7.9 Related Resources Vocabulary</a><br/>
+<a href='#Service_Access_Point_Vocabulary'>7.10 Service Access Point Vocabulary</a><br/>
+<a href='#References'>8 References</a><br/>
+
+## <a id="Introduction">1 Introduction</a>
 
 An Audubon Core (AC) record is a description of a multimedia resource
 using the AC vocabularies. Two kinds of terms are specified by this
@@ -97,7 +88,7 @@ different resolutions).
 
 
 
-## <a id="Borrowed_Vocabulary">Borrowed Vocabulary</a>
+## <a id="Borrowed_Vocabulary">2 Borrowed Vocabulary</a>
 
 When terms are borrowed from other vocabularies, AC uses the URIs,
 common abbreviations, and namespace prefixes in use in those
@@ -114,7 +105,7 @@ those organizations.
 
 
 
-## Namespaces, Prefixes and Term Names
+## <a id="Namespaces.2C_Prefixes_and_Term_Names">3 Namespaces, Prefixes and Term Names</a>
 
 The namespace of terms borrowed from other vocabularies is that of the
 original. The namespace of de novo AC terms is
@@ -123,37 +114,37 @@ a row with the term name. This term name is generally an "unqualified
 name" preceded by a widely accepted prefix designating an abbreviation
 for the namespace It is recommended that implementers who need a
 namespace prefix for the AC namespace use "ac". In this web document,
-hovering over a term in the **[Index By Term
-Name](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Index_By_Term_Name)**
+hovering over a term in the **<a href='#Index_By_Term_Name'>Index By Term
+Name</a>**
 list below will reveal a complete URL that can be used in other web
 documents to link to *this* document's treatment of that term, even if
 it is from a borrowed vocabulary. It is very important to note that some
 vocabularies, e.g those of the
-<a href="http://dublincore.org/" class="external text">Dublin Core Metadata Initiative (DCMI)</a>,
+<a href='http://dublincore.org/'>Dublin Core Metadata Initiative (DCMI)</a>,
 provide version of the same term in two different namespaces, one
 providing for string values and one providing for URIs, even where that
 separation is simply a recommendation, not a mandate. See this
-**<a href="http://wiki.dublincore.org/index.php/FAQ/DC_and_DCTERMS_Namespaces" class="external text">DCMI wiki entry</a>**
+**<a href='http://wiki.dublincore.org/index.php/FAQ/DC_and_DCTERMS_Namespaces'>DCMI wiki entry</a>**
 on this topic. For vocabularies where such a practice is in place, we
 often follow it and signal a reference in the Notes of our term
 descriptions to the sister version of the term. An example is the pair
-[dc:type](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#dc:type)
+<a href='#dc:type'>dc:type</a>
 and
-[dcterms:type](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#dcterms:type).
+<a href='#dcterms:type'>dcterms:type</a>.
 When such a pair allows repeated instances (e.g. as for
-[dc:source](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#dc:source)
+<a href='#dc:source'>dc:source</a>
 and
-[dcterms:source](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#dcterms:source)),
+<a href='#dcterms:source'>dcterms:source</a>),
 particular care may be required in some implementations of AC, because
 some implementations may not provide enough structure to clearly state
 the association between the members of a pair in the case of multiple
 values of each. This is a special case of the issue treated in the
-normative material on [Multiplicity and
-Cardinality](https://terms.tdwg.org/wiki/Audubon_Core_Structure#Multiplicity.2FCardinality "Audubon Core Structure").
+normative material on <a href='https://terms.tdwg.org/wiki/Audubon_Core_Structure#Multiplicity.2FCardinality'>Multiplicity and
+Cardinality</a>.
 
 
 
-## Layers
+## <a id="Layers">4 Layers</a>
 
 The term set consists of two *Layers*, numbered *1* and *2*. The former
 comprise the central terms, likely to be meaningful for most media, even
@@ -167,7 +158,7 @@ the term belongs.
 
 
 
-## Literal- vs. URI-valued Terms
+## <a id="Literal-_vs._URI-valued_Terms">5 Literal- vs. URI-valued Terms</a>
 
 Some terms have two versions, one expecting a string literal value and
 the other a URI. In these circumstances, the version expecting a string
@@ -180,13 +171,13 @@ required values are strings or URIs.
 
 
 
-## Vocabulary Indices
+## <a id="Vocabulary_Indices">6 Vocabulary Indices</a>
 
 
-### Index By Term Name
+### <a id="Index_By_Term_Name">6.1 Index By Term Name</a>
 
-(See also [Index By
-Label](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Index_By_Label))
+(See also <a href='#Index_By_Label'>Index By
+Label</a>)
 
 **Management Vocabulary**
 
@@ -419,10 +410,10 @@ Label](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Index_By_Label))
 
 
 
-### Index By Label
+### <a id="Index_By_Label">6.2 Index By Label</a>
 
-(See also [Index By Term
-Name](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Index_By_Term_Name))
+(See also <a href='#Index_By_Term_Name'>Index By Term
+Name</a>
 
 **Management Vocabulary**
 
@@ -619,6 +610,6 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 
 
 
-## Vocabularies
+## <a id="Vocabularies">7 Vocabularies</a>
 
-### Management Vocabulary
+### <a id="Management_Vocabulary">7.1 Management Vocabulary</a>
