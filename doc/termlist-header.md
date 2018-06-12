@@ -54,8 +54,8 @@ This document has wiki revision ID 36898 with a permalink
 ## Contents
 
 <ul style="list-style-type:none">
-[<li>1 Metadata structure</li>](#Metadata_structure)
-[<li>2 Borrowed Vocabulary</li>](#Borrowed_Vocabulary)
+<li><a href='#Metadata_structure'>1 Metadata structure</a></li>
+<li><a href='#Borrowed_Vocabulary'>2 Borrowed Vocabulary</a></li>
 [<li>3 Namespaces, Prefixes and Term Names</li>](#Metadata_structure)
 [<li>4 Layers</li>](#Metadata_structure)
 [<li>5 Literal- vs. URI-valued Terms</li>](#Metadata_structure)
