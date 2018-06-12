@@ -2,9 +2,9 @@
 
 # Audubon Core Term List
 
-For introductory material, see the normative **[Audubon Core
+For introductory material, see the **[Audubon Core
 Structure](Audubon_Core_Structure)**
-and the non-normative introductory **[Audubon
+and the introductory **[Audubon
 Core](Audubon_Core)**
 documents.
 
@@ -16,7 +16,7 @@ documents.
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638/.
 
-**This version:"" http://rs.tdwg.org/ac/doc/termlist/2013-10-23
+**This version:** http://rs.tdwg.org/ac/doc/termlist/2013-10-23
 
 **Latest version:** http://rs.tdwg.org/ac/doc/termlist/
 
@@ -413,7 +413,7 @@ Label</a>)
 ### <a id="Index_By_Label">6.2 Index By Label</a>
 
 (See also <a href='#Index_By_Term_Name'>Index By Term
-Name</a>
+Name</a>)
 
 **Management Vocabulary**
 
