@@ -615,13 +615,6 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 ### <a id="Management_Vocabulary">7.1 Management Vocabulary</a>
 | property | value |
 |----------|-------|
-| **Term Name:** | **ac:term_localName** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/term_localName |
-| Label: | label |
-| | **Layer:** tdwgutility_layer -- **Required:** tdwgutility_required -- **Repeatable:** tdwgutility_repeatable |
-| Definition: | rdfs_comment |
-| Notes: | dcterms_description |
-| | |
 | **Term Name:** | **ac:accessURI** |
 | Normative URI: | http://rs.tdwg.org/ac/terms/accessURI |
 | Label: | Access URI |
@@ -634,7 +627,6 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 | Label: | Associated Observation Reference |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
 | Definition: | A reference to an observation associated with this resource. |
-| Notes: |  |
 | | |
 | **Term Name:** | **ac:associatedSpecimenReference** |
 | Normative URI: | http://rs.tdwg.org/ac/terms/associatedSpecimenReference |
@@ -711,14 +703,12 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 | Label: | Funding |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
 | Definition: | Organizations or individuals who funded the creation of the resource. |
-| Notes: |  |
 | | |
 | **Term Name:** | **ac:furtherInformationURL** |
 | Normative URI: | http://rs.tdwg.org/ac/terms/furtherInformationURL |
 | Label: | Further Information URL |
 | | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
 | Definition: | The URL of a Web site that provides additional information about the version of the media resource that is provided by the Service Access Point. |
-| Notes: |  |
 | | |
 | **Term Name:** | **ac:hashFunction** |
 | Normative URI: | http://rs.tdwg.org/ac/terms/hashFunction |
@@ -886,7 +876,6 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 | Label: | Service Expectation |
 | | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
 | Definition: | A term that describes what service expectations users may have of the ac:accessURL. Recommended terms include online (denotes that the URL is expected to deliver the resource), authenticate (denotes that the URL delivers a login or other authentication interface requiring completion before delivery of the resource) published(non digital) (denotes that the URL is the identifier of a non-digital published work, for example a doi.) Communities should develop their own controlled vocabularies for Service Expectations. |
-| Notes: |  |
 | | |
 | **Term Name:** | **ac:subjectCategoryVocabulary** |
 | Normative URI: | http://rs.tdwg.org/ac/terms/subjectCategoryVocabulary |

@@ -13,7 +13,7 @@ namespaceAbbreviation = 'ac:'
 namespaceUri = 'http://rs.tdwg.org/ac/terms/'
 
 # retrieve term metadata from Github
-dataUrl = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/master/audubon-versions/audubon-versions.csv'
+dataUrl = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/split_ac_terms/audubon/audubon.csv'
 accept = 'csv'
 param1 = ','  # for csv use delimiter
 table = http_library.retrieveData(dataUrl, accept, param1)
@@ -40,13 +40,14 @@ for column in range(len(header)):
 text = ''
 text += '| property | value |\n'
 text += '|----------|-------|\n'
-for row in table:
-    text += '| **Term Name:** | **' + namespaceAbbreviation + row[localNameColumn] + '** |\n'
-    text += '| Normative URI: | ' + namespaceUri + row[localNameColumn] + ' |\n'
-    text += '| Label: | ' + row[labelColumn] + ' |\n'
-    text += '| | **Layer:** ' + row[layerColumn] + ' -- **Required:** ' + row[requiredColumn] + ' -- **Repeatable:** ' + row[repeatableColumn] + ' |\n'
-    text += '| Definition: | ' + row[definitionColumn] + ' |\n'
-    text += '| Notes: | ' + row[notesColumn] + ' |\n'
+for row in range(1,len(table)):    #skip the header row
+    text += '| **Term Name:** | **' + namespaceAbbreviation + table[row][localNameColumn] + '** |\n'
+    text += '| Normative URI: | ' + namespaceUri + table[row][localNameColumn] + ' |\n'
+    text += '| Label: | ' + table[row][labelColumn] + ' |\n'
+    text += '| | **Layer:** ' + table[row][layerColumn] + ' -- **Required:** ' + table[row][requiredColumn] + ' -- **Repeatable:** ' + table[row][repeatableColumn] + ' |\n'
+    text += '| Definition: | ' + table[row][definitionColumn] + ' |\n'
+    if table[row][notesColumn] != '':
+        text += '| Notes: | ' + table[row][notesColumn] + ' |\n'
     text += '| | |\n'
 text += '| | |\n'
 
