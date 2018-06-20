@@ -611,66 +611,10 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 
 
 ## <a id="Vocabularies">7 Vocabularies</a>
+### <a id="Management_Vocabulary">7.1 Management Vocabulary
 
-### <a id="Management_Vocabulary">7.1 Management Vocabulary</a>
 | property | value |
 |----------|-------|
-| **Term Name:** | **ac:term_localName** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/term_localName |
-| Label: | label |
-| | **Layer:** tdwgutility_layer -- **Required:** tdwgutility_required -- **Repeatable:** tdwgutility_repeatable |
-| Definition: | rdfs_comment |
-| Notes: | dcterms_description |
-| | |
-| **Term Name:** | **ac:accessURI** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/accessURI |
-| Label: | Access URI |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
-| Definition: | A URI that uniquely identifies a service that provides a representation of the underlying resource. If this resource can be acquired by an http request, its http URL should be given. If not, but it has some URI in another URI scheme, that may be given here. |
-| Notes: | Value might point to something offline, such as a published CD, etc. For example, the doi of an published CD would be a suitable value. |
-| | |
-| **Term Name:** | **ac:associatedObservationReference** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/associatedObservationReference |
-| Label: | Associated Observation Reference |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | A reference to an observation associated with this resource. |
-| Notes: |  |
-| | |
-| **Term Name:** | **ac:associatedSpecimenReference** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/associatedSpecimenReference |
-| Label: | Associated Specimen Reference |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | A reference to a specimen associated with this resource. |
-| Notes: | Supports finding a specimen resource, where additional information is available. If several resources relate to the same specimen, these are implicitly related. Examples: for NHM "BM 23974324" for a barcoded or "BM Smith 32" for a non-barcoded specimen; for UNITS: "TSB 28637"; for PMSL: "PMSL-Lepidoptera-2534781". Ideally this may be a URI identifying a specimen record that is available online. |
-| | |
-| **Term Name:** | **ac:attributionLinkURL** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/attributionLinkURL |
-| Label: | Attribution Link URL |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
-| Definition: | The URL where information about ownership, attribution, etc. of the resource may be found. |
-| Notes: | This URL may be used in creating a clickable logo. Providers should consider making this link as specific and useful to consumers as possible, e. g., linking to a metadata page of the specific image resource rather than to a generic page describing the owner or provider of a resource. |
-| | |
-| **Term Name:** | **ac:attributionLogoURL** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/attributionLogoURL |
-| Label: | Attribution URL |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
-| Definition: | The URL of the icon or logo image to appear in source attribution. |
-| Notes: | Entering this URL into a browser should only result in the icon (not in a webpage including the icon). |
-| | |
-| **Term Name:** | **ac:caption** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/caption |
-| Label: | Caption |
-| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
-| Definition: | As alternative or in addition to description, a caption is free-form text to be displayed together with (rather than instead of) a resource that is suitable for captions (especially images). |
-| Notes: | If both description and caption are present in the metadata, a description is typically displayed instead of the resource, a caption together with the resource. Often only one of description or caption is present; choose the term most appropriate for your metadata. |
-| | |
-| **Term Name:** | **ac:captureDevice** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/captureDevice |
-| Label: | Capture Device |
-| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
-| Definition: | Free form text describing the device or devices used to create the resource. |
-| Notes: | It is best practice to record the device; this may include a combination such as camera plus lens, or camera plus microscope. Examples: "Canon Supershot 2000", "Makroscan Scanner 2000", "Zeiss Axioscope with Camera IIIu", "SEM (Scanning Electron Microscope)". |
-| | |
 | **Term Name:** | **ac:commenter** |
 | Normative URI: | http://rs.tdwg.org/ac/terms/commenter |
 | Label: | Commenter |
@@ -692,89 +636,12 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 | Definition: | Any comment provided on the media resource, as free-form text. Best practice would also identify the commenter. |
 | Notes: | Comments may refer to the resource itself (e. g., asserting a taxon name or location of a biological subject in an image), or to the relation between resource and associated metadata (e. g., asserting that the taxon name given in the metadata is wrong, without asserting a positive identification). There is a separate item for Reviewer Comments, which is defined more as an expert-level review.Implementers or communities of practice might establish conventions about the meaning of the absence of a commenter, but this specification is silent on that matter. |
 | | |
-| **Term Name:** | **ac:derivedFrom** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/derivedFrom |
-| Label: | Derived From |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | A reference to an original resource from which the current one is derived. |
-| Notes: | Derivation of one resource from another is of special interest for identification tools (e. g. a key from an unpublished data set, as in FRIDA, or a PDA key from a PC or web key) or web services (e. g. a name synonymization service being derived from a specific data set). It may very rarely also be known where one image or sound recording is derived from another (but compare the separate mechanism to be used for quality/resolution levels). – Human readable, or doi number, or URL. Simple name of parent for human readable. Can be repeated if a montage of images. |
-| | |
-| **Term Name:** | **ac:digitizationDate** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/digitizationDate |
-| Label: | Date and Time Digitized |
-| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
-| Definition: | Date the first digital version was created, if different from Original Date and Time found in the Temporal Coverage Vocabulary. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. |
-| Notes: | This is often not the media creation or modification date. For example, if photographic prints have been scanned, the date of that scanning is what this term carries, but Original Date and Time is that depicted in the print. Use the international (ISO/xml) format yyyy-mm-ddThh:mm (e. g. "2007-12-31" or "2007-12-31T14:59"). Where available, timezone information should be added. In the case of digital images containing EXIF, whereas the EXIF capture date does not contain time zone information, but EXIF GPSDateStamp and GPSTimeStamp may be relevant as these include time-zone information. Compare also MWG (2010)[9], which has best practice advice on handling time-zone-less EXIF date/time data. See also the wikipedia IS0 8601 entry for further explanation and examples. |
-| | |
-| **Term Name:** | **ac:fundingAttribution** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/fundingAttribution |
-| Label: | Funding |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | Organizations or individuals who funded the creation of the resource. |
-| Notes: |  |
-| | |
-| **Term Name:** | **ac:furtherInformationURL** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/furtherInformationURL |
-| Label: | Further Information URL |
-| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
-| Definition: | The URL of a Web site that provides additional information about the version of the media resource that is provided by the Service Access Point. |
-| Notes: |  |
-| | |
-| **Term Name:** | **ac:hashFunction** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/hashFunction |
-| Label: | Hash Function |
-| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
-| Definition: | The cryptographic hash function used to compute the value given in the Hash Value. |
-| Notes: | Recommended values include MD5, SHA-1, SHA-224,SHA-256, SHA-384, SHA-512, SHA-512/224 and SHA-512/256 |
-| | |
-| **Term Name:** | **ac:hashValue** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/hashValue |
-| Label: | Hash |
-| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
-| Definition: | The value computed by a hash function applied to the media that will be delivered at the access point. |
-| Notes: | Best practice is to also specify the hash function by supplying a value of the Hash Function term, using one of the standard literals from the Notes there. |
-| | |
 | **Term Name:** | **ac:hasServiceAccessPoint** |
 | Normative URI: | http://rs.tdwg.org/ac/terms/hasServiceAccessPoint |
 | Label: | Service Access Point |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
 | Definition: | In a chosen serialization (RDF, XML Schema, etc.) the potentially multiple service access points (e.g., for different resolutions of an image) might be provided in a referenced or in a nested object. This property identifies one such access point. That is, each of potentially multiple values of hasServiceAccessPoint identifies a set of representation-dependent metadata using the properties defined under the section Service Access Point Vocabulary. |
 | Notes: | Some serializations may flatten the model of service-access points by (a) dropping ac:hasServiceAccessPoint, ac:variant and ac:variantLiteral, (b) repeating properties from the Service Access Point Vocabulary and prefixing them with values of ac:variantLiteral. If such a flat serialization is necessary for services, we recommend to select from among term names of the form "AB" where "A" is one of thumbnail, trailer, lowerQuality, mediumQuality, goodQuality, bestQuality, offline and "B" is one of AccessURI, Format, Extent, FurtherInformationURL, LicensingException, ServiceExpectation (example: thumbnailAccessURI). Implementers in specific constraint languages such as XML Schema or RDF may wish to make Access URI and perhaps dcterms:format mandatory on instances of the service access point. |
-| | |
-| **Term Name:** | **ac:IDofContainingCollection** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/IDofContainingCollection |
-| Label: | ID of Containing Collection |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | If the resource is contained in a Collection, this field identifies that Collection uniquely. Its form is not specified by this normative document, but is left to implementers of specific implementations. |
-| Notes: | Repeatable: A media resource may be member of multiple collections |
-| | |
-| **Term Name:** | **ac:licenseLogoURL** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/licenseLogoURL |
-| Label: | License Logo URL |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
-| Definition: | A URL providing access to a logo that symbolizes the License. |
-| Notes: | The originating metadata provider is strongly urged to choose a suitable logo as a graphical representation of the license. Failure to do so may leave downstream aggregators in a difficult position to supply a logo that adequately represents the professional, legal, or social aims of the licensors (license givers). Example: http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png provides access to a logo image. |
-| | |
-| **Term Name:** | **ac:licensingException** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/licensingException |
-| Label: | Licensing Exception Statement |
-| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
-| Definition: | The licensing statement for this variant of the media resource if different from that given in the License Statement property of the resource. |
-| Notes: | Required only if this version has different licensing than that of the media resource. For example, the highest resolution version may be more restricted than lower resolution versions. |
-| | |
-| **Term Name:** | **ac:metadataCreator** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/metadataCreator |
-| Label: | Metadata Creator |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | Person or organization originally creating the resource metadata record. |
-| Notes: | See also the entry for ac:metadataCreatorLiteral in this document and the section Namespaces, Prefixes and Term Names for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
-| | |
-| **Term Name:** | **ac:metadataCreatorLiteral** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/metadataCreatorLiteral |
-| Label: | Metadata Creator |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | Person or organization originally creating the resource metadata record. |
-| Notes: | See also the entry for ac:metadataCreator in this document and the section Namespaces, Prefixes and Term Names for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
 | | |
 | **Term Name:** | **ac:metadataLanguage** |
 | Normative URI: | http://rs.tdwg.org/ac/terms/metadataLanguage |
@@ -790,75 +657,12 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 | Definition: | Language of description and other metadata (but not necessarily of the image itself) represented as an ISO639-2 three letter language code. ISO639-1 two-letter codes are permitted but deprecated. |
 | Notes: | This is NOT dc:language, which is about the resource, not the metadata. Metadata Language is deliberately single-valued, imposing on unstructured serializations a requirement that multi-lingual metadata be represented as separate, complete, metadata records. Audubon Core requires that each record also contains the language-neutral terms. In the absence of this requirement, metadata consumers would need to know which terms are language-neutral and merge these terms from all provided metadataLanguages into a single record. Metadata consumers may re-combine the information based on the dcterms:identifier that identifies the multimedia resource. At least one of ac:metadataLanguage and ac:metadataLanguageLiteral must be supplied but, when feasible, supplying both may make the metadata more widely useful. They must specify the same language. In case of ambiguity, ac:metadataLanguage prevails. Nothing in this document would, however, prevent an implementer, e. g. of an XML-Schema representation, from providing a fully hierarchical schema in which language neutral terms occur only a single time, and only the language-specific terms are repeated in a way that unambigously relates them to a metadata language. In RDF it may be a simple repetition of plain literals associated with a language (e.g., xml:lang attribute in RDF/XML). The language attribute would then be required in Audubon Core and would replace ac:metadataLanguage. |
 | | |
-| **Term Name:** | **ac:metadataProvider** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/metadataProvider |
-| Label: | Metadata Provider |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | URI of person or organization originally responsible for providing the resource metadata record. |
-| Notes: | Media resources and their metadata may be served from different institutions, e. g. in the case of aggregators adding user annotations, taxon identifications, or ratings. Compare Provider. See also the entry for ac:metadataProviderLiteral in this document and the section Namespaces, Prefixes and Term Names for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
-| | |
-| **Term Name:** | **ac:metadataProviderLiteral** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/metadataProviderLiteral |
-| Label: | Metadata Provider |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | Person or organization originally responsible for providing the resource metadata record. |
-| Notes: | Media resources and their metadata may be served from different institutions, e. g. in the case of aggregators adding user annotations, taxon identifications, or ratings. Compare Provider. See also the entry for ac:metadataProvider in this document and the section Namespaces, Prefixes and Term Names for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
-| | |
-| **Term Name:** | **ac:otherScientificName** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/otherScientificName |
-| Label: | Other Scientific Name |
-| | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | One or several Scientific Taxon Names that are synonyms to the Scientific Taxon Name may be provided here. |
-| Notes: | The primary purpose of this is in support of resource discovery, not developing a taxonomic synonymy. Misidentification or misspellings may thus be of interest. Where multiple taxa are present in a resource and multiple Scientific Taxon Names are given, the association between synonyms and names may not be deducible from the AC record alone. |
-| | |
-| **Term Name:** | **ac:physicalSetting** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/physicalSetting |
-| Label: | Physical Setting |
-| | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | The setting of the content represented in media such as images, sounds, and movies if the provider deems them relevant. Constrained vocabulary of: "Natural" = Object in its natural setting of the object (e. g. living organisms in their natural environment); "Artificial" = Object in an artificial environment (e. g. living organisms in an artificial environment such as a zoo, garden, greenhouse, or laboratory); "Edited" = Human media editing of a natural setting or media acquisition with a separate media background such as a photographic backdrop. |
-| Notes: | Multiple values may be needed for movies or montages. See also ac:resourceCreationTechnique which should be used to describe any modifications to the resource itself. Communities of practice should form best practices for the use of these controlled terms. |
-| | |
-| **Term Name:** | **ac:provider** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/provider |
-| Label: | Provider |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
-| Definition: | URI for person or organization responsible for presenting the media resource. If no separate Metadata Provider is given, this also attributes the metadata. |
-| Notes: | Media resources and their metadata may be served from different institutions, e. g. in the case of aggregators adding user annotations, taxon identifications, or ratings. See also the entry for ac:providerLiteral in this document and the section Namespaces, Prefixes and Term Names for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
-| | |
-| **Term Name:** | **ac:providerID** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/providerID |
-| Label: | Provider ID |
-| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
-| Definition: | A globally unique ID of the provider of the current AC metadata record. |
-| Notes: | Only to be used if the annotated resource is not a provider itself - this item is for relating the resource to a provider, using an arbitrary code that is unique for a provider, contributing partner, or aggregator, or other roles (potentially defined by MARC, OAI) and by which the media resources are linked to the provider. |
-| | |
-| **Term Name:** | **ac:providerLiteral** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/providerLiteral |
-| Label: | Provider |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
-| Definition: | Person or organization responsible for presenting the media resource. If no separate Metadata Provider is given, this also attributes the metadata. |
-| Notes: | Media resources and their metadata may be served from different institutions, e. g. in the case of aggregators adding user annotations, taxon identifications, or ratings. See also the entry for ac:provider in this document and the section Namespaces, Prefixes and Term Names for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
-| | |
 | **Term Name:** | **ac:providerManagedID** |
 | Normative URI: | http://rs.tdwg.org/ac/terms/providerManagedID |
 | Label: | Provider-managed ID |
 | | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
 | Definition: | A free-form identifier (a simple number, an alphanumeric code, a URL, etc.) that is unique and meaningful primarily for the data provider. |
 | Notes: | Ideally, this would be a globally unique identifier (GUID), but the provider is encouraged to supply any form of identifier that simplifies communications on resources within their project and helps to locate individual data items in the provider's data repositories. It is the provider's decision whether to expose this value or not. |
-| | |
-| **Term Name:** | **ac:relatedResourceID** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/relatedResourceID |
-| Label: | Related Resource ID |
-| | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | Resource related in ways not specified through a collection, e.g., before-after images; time-lapse series; different orientations/angles of view |
-| Notes: | The value references a related media item. Examples of relations are: Images taken in a sequence or defined time series, an exposure or focus series (e.g. for stacking), different framing or views (top, side, bottom) of the same subject, or an overview plus several details. The property makes such related media items discoverable, but does not indicate the nature of this relationship. More specific properties may be defined in a later version of AC. |
-| | |
-| **Term Name:** | **ac:resourceCreationTechnique** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/resourceCreationTechnique |
-| Label: | Resource Creation Technique |
-| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
-| Definition: | Information about technical aspects of the creation and digitization process of the resource. This includes modification steps ("retouching") after the initial resource capture. |
-| Notes: | Examples: Encoding method or settings, numbers of channels, lighting, audio sampling rate, frames per second, data rate, interlaced or progressive, multiflash lighting, remote control, automatic interval exposure.  Annotating whether and how a resource has been modified or edited significantly in ways that are not immediately obvious to, or expected by, consumers is of special significance. Examples for images are: Removing a distracting twig from a picture, moving an object to a different surrounding, changing the color in parts of the image, or blurring the background of an image. Modifications that are standard practice and expected or obvious are not necessary to document; examples of such practices include changing resolution, cropping, minor sharpening or overall color correction, and clearly perceptible modifications (e.g., addition of arrows or labels, or the placement of multiple pictures into a table.) If it is only known that significant modifications were made, but no details are known, a general statement like "Media may have been manipulated to improve appearance" may be appropriate. See also Subject Preparation Technique. |
 | | |
 | **Term Name:** | **ac:reviewer** |
 | Normative URI: | http://rs.tdwg.org/ac/terms/reviewer |
@@ -881,12 +685,243 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 | Definition: | String providing the name of a reviewer. If present, then resource is peer-reviewed, even if Reviewer Comments is absent or empty. Its presence tells whether an expert in the subject featured in the media has reviewed the media item or collection and approved its metadata description; must display a name or the literal "anonymous" (= anonymously reviewed). |
 | Notes: | Provider is asserting they accept this review as competent. See also ac:reviewer and the section Namespaces, Prefixes and Term Names for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
 | | |
-| **Term Name:** | **ac:serviceExpectation** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/serviceExpectation |
-| Label: | Service Expectation |
+| **Term Name:** | **ac:subtype** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/subtype |
+| Label: | Subtype |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Any URI may be used that provides for more specialization than the type. Possible values are community-defined. For exmamples see the non-normative page AC_Subtype_Examples. |
+| Notes: | The subtype term may not be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary may add further description to a Collection object. The subtype vocabulary may be extended by users provided they identify the term by a URI which is not in the ac namespace (for example, using "http://my.inst.org/namespace/metadata/subtype/repair-manual"). Conforming applications may choose to ignore these. See ac:subtypeLiteral for usage with strings. |
+| | |
+| **Term Name:** | **ac:subtypeLiteral** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/subtypeLiteral |
+| Label: | Subtype |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The subtype should provide more specialization than the type. Possible values are community-defined. For exmamples see the non-normative page AC_Subtype_Examples. |
+| Notes: | The subtypeLiteral term may not be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary may add further description to a Collection object. |
+| | |
+| **Term Name:** | **xmp:MetadataDate** |
+| Normative URI: | http://ns.adobe.com/xap/1.0/ MetadataDate |
+| Label: | Metadata Date |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | Point in time recording when the last modification to metadata (not necessarily the media object itself) occurred. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. |
+| Notes: | This is not dcterms:modified, which refers to the resource itself rather than its metadata. See also the wikipedia IS0 8601 entry for further explanation and examples. |
+| | |
+| **Term Name:** | **xmp:Rating** |
+| Normative URI: | http://ns.adobe.com/xap/1.0/ Rating |
+| Label: | Rating |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | A rating of the media resources, provided by record originators or editors, with "-1" defining "rejected", "0" defining "unrated", and "1" (worst) to "5" (best). |
+| Notes: | The origin of the rating is not communicated. It may, e. g., be based on user feedback or on editorial ratings. If Rating is not present, a value of 0 may be assumed. By "user-assigned" is meant assigned by the originator or editor of the record using the term. |
+| | |
+| **Term Name:** | **dc:type** |
+| Normative URI: | http://purl.org/dc/elements/1.1/type |
+| Label: | Type |
+| | **Layer:** 1 -- **Required:** Yes -- **Repeatable:** No |
+| Definition: | dc:type may take as value any type term from the DCMI Type Vocabulary. Recommended terms are Collection, StillImage, Sound, MovingImage, InteractiveResource, Text. Values may be used either in their literal form, or with a full namespace (e. g. from a controlled vocabulary, but the best practice is to use the literal form when using dc:type and use dcterms:type when you can supply the URI from a controlled vocabulary and implementers may require this practice. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails. |
+| Notes: | A Collection should be given type "Collection" when using dc:type. If the resource is a Collection, this item does not identify what types of objects it may contain. Following the DC recommendations for the Text type, images of text should be marked given as the string Text when provided as a string. See also the entry for dcterms:type in this document and see the DCMI FAQ on DC and DCTERMS Namespaces for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
+| | |
+| **Term Name:** | **dcterms:available** |
+| Normative URI: | http://purl.org/dc/terms/available |
+| Label: | Date Available |
 | | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
-| Definition: | A term that describes what service expectations users may have of the ac:accessURL. Recommended terms include online (denotes that the URL is expected to deliver the resource), authenticate (denotes that the URL delivers a login or other authentication interface requiring completion before delivery of the resource) published(non digital) (denotes that the URL is the identifier of a non-digital published work, for example a doi.) Communities should develop their own controlled vocabularies for Service Expectations. |
-| Notes: |  |
+| Definition: | The date (often a range) that the resource became or will become available. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. |
+| Notes: | A use case is the harvesting of metadata published before the media are available, which are pending a formal publication elsewhere. One important example is the case of metadata that documents an occurrence, which metadata harvesters might exploit without use of the media. See also the wikipedia IS0 8601 entry for further explanation and examples. |
+| | |
+| **Term Name:** | **dcterms:identifier** |
+| Normative URI: | http://purl.org/dc/terms/identifier |
+| Label: | Identifier |
+| | **Layer:** 1 -- **Required:** Yes/No -- **Repeatable:** Yes |
+| Definition: | An arbitrary code that is unique for the resource, with the resource being either a provider, collection, or media item. |
+| Notes: | Using multiple identifiers implies that they have a same-as relationship, i.e. they all identify the same object (e. g. an object may have all of an http-URL, an lsid-URI, and a UUID). |
+| | |
+| **Term Name:** | **dcterms:modified** |
+| Normative URI: | http://purl.org/dc/terms/modified |
+| Label: | Modified |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Date that the media resource was altered. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. |
+| Notes: | dcterms:modified permits all modification dates to be recorded, or if only one is recorded, it is assumed to be the latest. See also the wikipedia IS0 8601 entry for further explanation and examples. |
+| | |
+| **Term Name:** | **dcterms:title** |
+| Normative URI: | http://purl.org/dc/terms/title |
+| Label: | Title |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | Concise title, name, or brief descriptive label of institution, resource collection, or individual resource. This field should include the complete title with all the subtitles, if any. |
+| Notes: | It is strongly suggested to provide a title. The title facilitates interactions with humans: e.g., it could be used as display text of hyperlinks or to provide a choice of images in a pick list. The title is therefore highly useful and an effort should be made to provide it where it is not already available. When the resource is a collection without an institutional or official name, but with a thematic content, a descriptive title, e. g. “Urban Ants of New England,” would be suitable. In individual media resources depicting taxa, the scientific name or names of taxa often form a good title. Common names in addition to or instead of scientific names are also acceptable. Indications of action or roles captured by the media resource, such as predatory acts, are desirable (“Rattlesnake eating deer mouse”, “Pollinators of California Native Plants”). |
+| | |
+| **Term Name:** | **dcterms:type** |
+| Normative URI: | http://purl.org/dc/terms/type |
+| Label: | Type |
+| | **Layer:** 1 -- **Required:** Yes -- **Repeatable:** No |
+| Definition: | A full URI preferably from among the type URIs specified in the DCMI Type Vocabulary. Recommended terms are those URIs whose labels are Collection, StillImage, Sound, MovingImage, InteractiveResource, or Text (e.g. . Also recommended are the full URIs of ac:PanAndZoomImage, ac:3DStillImage, and ac: 3DMovingImage. Values MUST NOT be a string, but a URI with full namespace (e. g. from a controlled vocabulary. Implementers and communities of practice may determine whether specific controlled vocabularies must be used. If the resource is a Collection, this item does not identify what types of objects it may contain. Following the DC recommendations at http://purl.org/dc/dcmitype/Text, images of text should be with this URI. |
+| Notes: | Following the DC recommendations for the Text type, images of text should be given as http://purl.org/dc/dcmitype/Text when given as a URI. See also the entry for dc:type in this document and see the DCMI FAQ on DC and DCTERMS Namespaces for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails. |
+| | |
+
+### <a id="Attribution_Vocabulary">7.2 Attribution Vocabulary
+
+| property | value |
+|----------|-------|
+| **Term Name:** | **ac:attributionLinkURL** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/attributionLinkURL |
+| Label: | Attribution Link URL |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | The URL where information about ownership, attribution, etc. of the resource may be found. |
+| Notes: | This URL may be used in creating a clickable logo. Providers should consider making this link as specific and useful to consumers as possible, e. g., linking to a metadata page of the specific image resource rather than to a generic page describing the owner or provider of a resource. |
+| | |
+| **Term Name:** | **ac:attributionLogoURL** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/attributionLogoURL |
+| Label: | Attribution URL |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | The URL of the icon or logo image to appear in source attribution. |
+| Notes: | Entering this URL into a browser should only result in the icon (not in a webpage including the icon). |
+| | |
+| **Term Name:** | **ac:fundingAttribution** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/fundingAttribution |
+| Label: | Funding |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Organizations or individuals who funded the creation of the resource. |
+| | |
+| **Term Name:** | **ac:licenseLogoURL** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/licenseLogoURL |
+| Label: | License Logo URL |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | A URL providing access to a logo that symbolizes the License. |
+| Notes: | The originating metadata provider is strongly urged to choose a suitable logo as a graphical representation of the license. Failure to do so may leave downstream aggregators in a difficult position to supply a logo that adequately represents the professional, legal, or social aims of the licensors (license givers). Example: http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png provides access to a logo image. |
+| | |
+| **Term Name:** | **photoshop:Credit** |
+| Normative URI: | http://ns.adobe.com/photoshop/1.0/Credit |
+| Label: | Credit |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | free text for "Please cite this as ..." |
+| Notes: | IPTC also refers to this generically as a "Credit Line" as it is frequently displayed with the media. |
+| | |
+| **Term Name:** | **xmpRights:Owner** |
+| Normative URI: | http://ns.adobe.com/xap/1.0/rights/Owner |
+| Label: | Copyright Owner |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | A list of the names of the owners of the copyright. 'Unknown' is an acceptable value, but 'Public Domain' is not. |
+| Notes: | Some providers use dc:publisher for this purpose, but it seems doubtful that the publisher is by necessity the copyright owner. 'Public Domain' is not an appropriate value because it denotes something that is not under copyright. In this case, omit or leave empty xmpRights:Owner, and put 'Public Domain' in the Copyright Statement (dc:rights). Except for 'Public Domain' resources, it is strongly urged that this field be supplied. |
+| | |
+| **Term Name:** | **xmpRights:UsageTerms** |
+| Normative URI: | http://ns.adobe.com/xap/1.0/rights/UsageTerms |
+| Label: | License Terms |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | The license statement defining how resources may be used. Information on a collection applies to all contained objects unless the object has a different statement. |
+| Notes: | Example: "Available under Creative Commons BY-SA 3.0 license". This also describes the commercial availability of items. Buying an identification tool or media resource is essentially the purchase of an individual license. Examples for such License statements: “Available through bookstores” for a commercially published CD, and “Individual licenses available for purchase” for a high-resolution image. Note that the medium or low resolution levels of the same image may be available under open access licenses. In general, this term determines the default licensing for the media. License terms specific to variants or representations of the media resource (e.g., different resolutions) are dealt within the section on Service Access Point Vocabulary |
+| | |
+| **Term Name:** | **xmpRights:WebStatement** |
+| Normative URI: | http://ns.adobe.com/xap/1.0/rights/WebStatement |
+| Label: | License URL |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | A URL defining or further elaborating on the license statement (e. g., a web page explaining the precise terms of use). |
+| Notes: | The value of this field may provide a complete definition of the terms of use. For Creative Commons, the appropriate value is the URL of the defining Web page for the license. Example: http://creativecommons.org/licenses/by-nc-sa/3.0/us/. Where different quality variants (e. g. different resolutions of images) are published under different licenses, the AC term “Licensing Exception Statement” supports variant-specific licenses. |
+| | |
+| **Term Name:** | **dc:rights** |
+| Normative URI: | http://purl.org/dc/elements/1.1/rights |
+| Label: | Copyright Statement |
+| | **Layer:** 1 -- **Required:** Yes -- **Repeatable:** No |
+| Definition: | Information about rights held in and over the resource. A full-text, readable copyright statement, as required by the national legislation of the copyright holder. On collections, this applies to all contained objects, unless the object itself has a different statement. Examples: "Copyright XY 2008, all rights reserved", "© 2008 XY Museum", "Public Domain.", "Copyright unknown." Do not place just the name of the copyright holder(s) here! That belongs in a list in the xmpRights:Owner field, which should be supplied if dc:rights is not 'Public Domain', which is appropriate only if the resource is known to be not under copyright. |
+| Notes: | This expresses rights over the media resource, not over the metadata text. At least one of dcterms:rights and dc:rights must be supplied but, when feasible, supplying both may make the metadata more widely useful. They must specify the same rights. In case of ambiguity, dcterms:rights prevails. |
+| | |
+| **Term Name:** | **dc:source** |
+| Normative URI: | http://purl.org/dc/elements/1.1/source |
+| Label: | Published Source |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A string providing an identifiable source from which the described resources was derived. |
+| Notes: | If the resource was digitized from a non-digital resource, or was also previously published in a digital or printed publication, this describes the original. Do not put generally "related" publications in here. This field normally contains a free-form text description. If a URI is available it should be provided in dcterms:source. Can be repeatable if a montage of images. Information about further provenance beyond the ultimate source should be put in the derivedFrom attribute. See also the entry for dcterms:source in this document and see the DCMI FAQ on DC and DCTERMS Namespaces for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions |
+| | |
+| **Term Name:** | **dcterms:rights** |
+| Normative URI: | http://purl.org/dc/terms/rights |
+| Label: | Copyright Statement |
+| | **Layer:** 1 -- **Required:** Yes -- **Repeatable:** No |
+| Definition: | A URI pointing to structured information about rights held in and over the resource. Examples include and . At least one of dcterms:rights and dc:rights must be supplied but, when feasible, supplying both may make the metadata more widely useful. They must specify the same rights. In case of ambiguity, dcterms:rights prevails. |
+| Notes: | This expresses rights over the media resource, not over the metadata text. See also the entry for dc:rights in this document and see the DCMI FAQ on DC and DCTERMS Namespaces for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
+| | |
+| **Term Name:** | **dcterms:source** |
+| Normative URI: | http://purl.org/dc/terms/source |
+| Label: | Published Source |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | URI for an identifiable source from which the described resources was derived. |
+| Notes: | If the resource was digitized from a non-digital resource, or was also previously published in a digital or printed publication, this describes the original. If a string is required for this, use dc:source. Do not put generally "related" publications in here. A URI that can be resolved and dereferenced to provide a description of the source resource may also be used here. For example, "http://www.loc.gov/pictures/item/fsa1998021539/PP/" is the address of a web page that provides a description the original negative of a famous picture by the photographer Dorothea Lange and so would be an appropriate value of dcterms:source. The term may be repeatable if a montage of images. Information about further provenance beyond the ultimate source should be put in the derivedFrom attribute. See also the entry for dc:source in this document and see the DCMI FAQ on DC and DCTERMS Namespaces for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
+| | |
+
+### <a id="Agents_Vocabulary">7.3 Agents Vocabulary
+
+| property | value |
+|----------|-------|
+| **Term Name:** | **ac:metadataCreator** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/metadataCreator |
+| Label: | Metadata Creator |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Person or organization originally creating the resource metadata record. |
+| Notes: | See also the entry for ac:metadataCreatorLiteral in this document and the section Namespaces, Prefixes and Term Names for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
+| | |
+| **Term Name:** | **ac:metadataCreatorLiteral** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/metadataCreatorLiteral |
+| Label: | Metadata Creator |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Person or organization originally creating the resource metadata record. |
+| Notes: | See also the entry for ac:metadataCreator in this document and the section Namespaces, Prefixes and Term Names for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
+| | |
+| **Term Name:** | **ac:metadataProvider** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/metadataProvider |
+| Label: | Metadata Provider |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | URI of person or organization originally responsible for providing the resource metadata record. |
+| Notes: | Media resources and their metadata may be served from different institutions, e. g. in the case of aggregators adding user annotations, taxon identifications, or ratings. Compare Provider. See also the entry for ac:metadataProviderLiteral in this document and the section Namespaces, Prefixes and Term Names for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
+| | |
+| **Term Name:** | **ac:metadataProviderLiteral** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/metadataProviderLiteral |
+| Label: | Metadata Provider |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Person or organization originally responsible for providing the resource metadata record. |
+| Notes: | Media resources and their metadata may be served from different institutions, e. g. in the case of aggregators adding user annotations, taxon identifications, or ratings. Compare Provider. See also the entry for ac:metadataProvider in this document and the section Namespaces, Prefixes and Term Names for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
+| | |
+| **Term Name:** | **ac:provider** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/provider |
+| Label: | Provider |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | URI for person or organization responsible for presenting the media resource. If no separate Metadata Provider is given, this also attributes the metadata. |
+| Notes: | Media resources and their metadata may be served from different institutions, e. g. in the case of aggregators adding user annotations, taxon identifications, or ratings. See also the entry for ac:providerLiteral in this document and the section Namespaces, Prefixes and Term Names for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
+| | |
+| **Term Name:** | **ac:providerLiteral** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/providerLiteral |
+| Label: | Provider |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | Person or organization responsible for presenting the media resource. If no separate Metadata Provider is given, this also attributes the metadata. |
+| Notes: | Media resources and their metadata may be served from different institutions, e. g. in the case of aggregators adding user annotations, taxon identifications, or ratings. See also the entry for ac:provider in this document and the section Namespaces, Prefixes and Term Names for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
+| | |
+| **Term Name:** | **dc:creator** |
+| Normative URI: | http://purl.org/dc/elements/1.1/creator |
+| Label: | Creator |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The person or organization responsible for creating the media resource. |
+| Notes: | The value may be simple text including contact information. Note that the Creator need not be the Copyright Owner. See also the entry for dcterms:creator in this document and see the DCMI FAQ on DC and DCTERMS Namespaces for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
+| | |
+| **Term Name:** | **dcterms:creator** |
+| Normative URI: | http://purl.org/dc/terms/creator |
+| Label: | Creator |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A URI representing the person or organization responsible for creating the media resource. |
+| Notes: | Note that the Creator need not be the Copyright Owner. See also the entry for dc:creator in this document and see the DCMI FAQ on DC and DCTERMS Namespaces for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
+| | |
+
+### <a id="Content_Coverage_Vocabulary">7.4 Content Coverage Vocabulary
+
+| property | value |
+|----------|-------|
+| **Term Name:** | **ac:caption** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/caption |
+| Label: | Caption |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
+| Definition: | As alternative or in addition to description, a caption is free-form text to be displayed together with (rather than instead of) a resource that is suitable for captions (especially images). |
+| Notes: | If both description and caption are present in the metadata, a description is typically displayed instead of the resource, a caption together with the resource. Often only one of description or caption is present; choose the term most appropriate for your metadata. |
+| | |
+| **Term Name:** | **ac:physicalSetting** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/physicalSetting |
+| Label: | Physical Setting |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The setting of the content represented in media such as images, sounds, and movies if the provider deems them relevant. Constrained vocabulary of: "Natural" = Object in its natural setting of the object (e. g. living organisms in their natural environment); "Artificial" = Object in an artificial environment (e. g. living organisms in an artificial environment such as a zoo, garden, greenhouse, or laboratory); "Edited" = Human media editing of a natural setting or media acquisition with a separate media background such as a photographic backdrop. |
+| Notes: | Multiple values may be needed for movies or montages. See also ac:resourceCreationTechnique which should be used to describe any modifications to the resource itself. Communities of practice should form best practices for the use of these controlled terms. |
 | | |
 | **Term Name:** | **ac:subjectCategoryVocabulary** |
 | Normative URI: | http://rs.tdwg.org/ac/terms/subjectCategoryVocabulary |
@@ -894,6 +929,386 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 | | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
 | Definition: | Any vocabulary or formal classification from which terms in the Subject Category have been drawn. |
 | Notes: | The AC recommended vocabularies do not need to be cited here. There is no required linkage between individual Subject Category terms and the vocabulary; the mechanism is intended to support discovery of the normative URI for a term, but not guarantee it. |
+| | |
+| **Term Name:** | **ac:tag** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/tag |
+| Label: | Tag |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | General keywords or tags. |
+| Notes: | Tags may be multi-worded phrases. Where scientific names, common names, geographic locations, etc. are separable, those should go into the more specific coverage metadata items provided further below. Examples: "flower diagram". Character or part keywords like "leaf", or "flower color" are especially desirable. |
+| | |
+| **Term Name:** | **Iptc4xmpExt:CVterm** |
+| Normative URI: | http://iptc.org/std/Iptc4xmpExt/2008-02-29/CVterm |
+| Label: | Subject Category |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Controlled vocabulary of subjects to support broad classification of media items. Terms from various controlled vocabularies may be used. AC-recommended vocabularies are preferred and may be unqualified literals (not a full URI). For terms from other vocabularies either a precise URI should be used, or, as long as all unqualified terms in all vocabularies are unique, metadata should provide the source vocabularies using the Subject Category Vocabulary term. |
+| Notes: | Recommended sets include: the NASA Global Change Master Directory (GCMD) [1], K2N [2], the BioComplexity Thesaurus[3], the Description Type GBIF Vocabulary [4], the TDWG Species Profile Model [5], the Plinian Core [6], the European Environmental Agency GEneral Multilingual Environmental Thesaurus(GEMET) [7] and the LTER Controlled Vocabulary.[8]. The vocabulary may include major taxonomic groups (such as “vertebrates” or “fungi”) or ecosystem terms (“savannah”, “temperate rain forest”, “forest fires”, “aquatic vertebrates”). Other formal classifications (published in print or online) such as habitat, fuel, invasive species, agroproductivity, fisheries, migratory species etc. are also suitable. |
+| | |
+| **Term Name:** | **dc:language** |
+| Normative URI: | http://purl.org/dc/elements/1.1/language |
+| Label: | Language |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Language(s) of resource itself represented in the ISO639-2 three-letter language code. ISO639-1 two-letter codes are permitted but deprecated. |
+| Notes: | An image may contain language such as superimposed labels. If an image is of a natural scene or organism, without any language included, the resource is language-neutral (ISO code “zxx”). Resources with present but unknown language are to be coded as undetermined (ISO code “und”). Regional dialects or other special cases should conform to the ISO639-5 Alpha-3 Code for Language Families and Groups where possible or the IETF Best Practices for Tags Identifying Languages where not. See also the entry for dcterms:language in this document and see the DCMI FAQ on DC and DCTERMS Namespaces for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
+| | |
+| **Term Name:** | **dcterms:description** |
+| Normative URI: | http://purl.org/dc/terms/description |
+| Label: | Description |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | Description of collection or individual resource, containing the Who, What, When, Where and Why as free-form text. This normative document is silent on the nature of formatting in the text. It is the role of implementers of an AC concrete representation (e.g., an XML Schema, an RDF representation, etc.) to decide and document how formatting advice will be represented in descriptions serialized according to such representations. |
+| Notes: | It optionally allows the presentation of detailed information and will in most cases be shown together with the resource title. If both a description and a caption are present in the metadata, a description is typically displayed instead of the resource, whereas a caption is displayed together with the resource. The description should aim to be a good proxy for the underlying media resource in cases where only text can be shown, whereas the caption may only make sense when shown together with the media. Often only one of description or caption is present; choose the term most appropriate for your metadata. |
+| | |
+| **Term Name:** | **dcterms:language** |
+| Normative URI: | http://purl.org/dc/terms/language |
+| Label: | Language |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | URI from the ISO639-2 list of URIs for ISO 3-letter language codes. |
+| Notes: | An image may contain language such as superimposed labels. If an image is of a natural scene or organism, without any language included, the resource is language-neutral with URI http://id.loc.gov/vocabulary/iso639-2/zxx corresponding to ISO ISO639-2 code “zxx”. Resources with present but unknown language are to be coded as undetermined, with URI http://id.loc.gov/vocabulary/iso639-2/und corresponding to ISO639-2 code “und”. Regional dialects or other special cases should conform to the ISO639-5 Alpha-3 Code for Language Families and Groups where possible, or IETF Best Practices for Tags Identifying Languages where not. See also the entry for dc:language in this document and see the DCMI FAQ on DC and DCTERMS Namespaces for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
+| | |
+
+### <a id="Geography_Vocabulary">7.5 Geography Vocabulary
+
+| property | value |
+|----------|-------|
+| **Term Name:** | **Iptc4xmpExt:City** |
+| Normative URI: | http://iptc.org/std/Iptc4xmpExt/2008-02-29/City |
+| Label: | City or Place Name |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Optionally, the name of a city or place commonly found in gazetteers (such as a mountain or national park) in which the subjects (e. g., species, habitats, or events) were located. |
+| | |
+| **Term Name:** | **Iptc4xmpExt:CountryCode** |
+| Normative URI: | http://iptc.org/std/Iptc4xmpExt/2008-02-29/CountryCode |
+| Label: | Country Code |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The geographic location of the specific entity or entities documented by the media item, expressed through a constrained vocabulary of countries using 2-letter ISO country code (e. g. "it, si"). |
+| Notes: | Accepted exceptions to be used instead of ISO codes are: "Global", "Marine", "Europe", “N-America”, “C-America”, “S-America”, "Africa", “Asia”, “Oceania”, ATA = "Antarctica", XEU = "European Union", XAR = "Arctic", "ZZZ" = "Unknown country" (3 letter abbreviations from IPTC codes). This list may be extended as necessary. |
+| | |
+| **Term Name:** | **Iptc4xmpExt:CountryName** |
+| Normative URI: | http://iptc.org/std/Iptc4xmpExt/2008-02-29/CountryName |
+| Label: | Country Name |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | This field can be free text, but where possible, the use of http://iptc.org/std/Iptc4xmpExt/2008-02-29/CountryCode is preferred. |
+| | |
+| **Term Name:** | **Iptc4xmpExt:LocationShown** |
+| Normative URI: | http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationShown |
+| Label: | Location Shown |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The location that is depicted the media content, irrespective of the location at which the resource has been created. |
+| | |
+| **Term Name:** | **Iptc4xmpExt:ProvinceState** |
+| Normative URI: | http://iptc.org/std/Iptc4xmpExt/2008-02-29/ProvinceState |
+| Label: | Province or State |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Optionally, the geographic unit immediately below the country level (individual states in federal countries, provinces, or other administrative units) in which the subject of the media resource (e. g., species, habitats, or events) were located (if such information is available in separate fields). |
+| | |
+| **Term Name:** | **Iptc4xmpExt:Sublocation** |
+| Normative URI: | http://iptc.org/std/Iptc4xmpExt/2008-02-29/Sublocation |
+| Label: | Sublocation |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Free-form text location details of the location of the subjects, down to the village, forest, or geographic feature etc., below the Iptc4xmpExt:City place name, especially information that could not be found in a gazetteer. |
+| | |
+| **Term Name:** | **Iptc4xmpExt:WorldRegion** |
+| Normative URI: | http://iptc.org/std/Iptc4xmpExt/2008-02-29/WorldRegion |
+| Label: | World Region |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Name of a world region in some high level classification, such as names for continents, waterbodies, or island groups, whichever is most appropriate. The terms preferably are derived from a controlled vocabulary. |
+| Notes: | The equivalent DarwinCore fields here forces primary metadata providers to classify world region terms into separate properties for “continent” “waterbody”, “IslandGroup”. By contrast, the Iptc4xmpExt vocabulary only specifies that a World Region is something at the top of a hierarchy of locations. |
+| | |
+| **Term Name:** | **dwc:continent** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/continent |
+| Label: | Continent |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The name of the continent in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. |
+| | |
+| **Term Name:** | **dwc:coordinatePrecision** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/coordinatePrecision |
+| Label: | Coordinate Precision |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A decimal representation of the precision of the coordinates given in the decimalLatitude and decimalLongitude. |
+| | |
+| **Term Name:** | **dwc:coordinateUncertaintyInMeters** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters |
+| Label: | Coordinate Uncertainty In Meters |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The horizontal distance (in meters) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not applicable (because there are no coordinates). Zero is not a valid value for this term. |
+| | |
+| **Term Name:** | **dwc:country** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/country |
+| Label: | Country |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The name of the country or major administrative unit in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. |
+| | |
+| **Term Name:** | **dwc:countryCode** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/countryCode |
+| Label: | Country Code |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The standard code for the country in which the Location occurs. Recommended best practice is to use ISO 3166-1-alpha-2 country codes. |
+| | |
+| **Term Name:** | **dwc:county** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/county |
+| Label: | County |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs. |
+| | |
+| **Term Name:** | **dwc:decimalLatitude** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/decimalLatitude |
+| Label: | Decimal Latitude |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive. |
+| | |
+| **Term Name:** | **dwc:decimalLongitude** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/decimalLongitude |
+| Label: | Decimal Longitude |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive. |
+| | |
+| **Term Name:** | **dwc:footprintSpatialFit** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/footprintSpatialFit |
+| Label: | Footprint Spatial Fit |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The ratio of the area of the footprint (footprintWKT) to the area of the true (original, or most specific) spatial representation of the Location. Legal values are 0, greater than or equal to 1, or undefined. A value of 1 is an exact match or 100% overlap. A value of 0 should be used if the given footprint does not completely contain the original representation. The footprintSpatialFit is undefined (and should be left blank) if the original representation is a point and the given georeference is not that same point. If both the original and the given georeference are the same point, the footprintSpatialFit is 1. |
+| | |
+| **Term Name:** | **dwc:footprintSRS** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/footprintSRS |
+| Label: | Footprint SRS |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A Well-Known Text (WKT) representation of the Spatial Reference System (SRS) for the footprintWKT of the Location. Do not use this term to describe the SRS of the decimalLatitude and decimalLongitude, even if it is the same as for the footprintWKT - use the geodeticDatum instead. |
+| | |
+| **Term Name:** | **dwc:footprintWKT** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/footprintWKT |
+| Label: | Footprint WKT |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A Well-Known Text (WKT) representation of the shape (footprint, geometry) that defines the Location. A Location may have both a point-radius representation (see decimalLatitude) and a footprint representation, and they may differ from each other. |
+| | |
+| **Term Name:** | **dwc:geodeticDatum** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/geodeticDatum |
+| Label: | Geodetic Datum |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based. Recommended best practice is use the EPSG code as a controlled vocabulary to provide an SRS, if known. Otherwise use a controlled vocabulary for the name or code of the geodetic datum, if known. Otherwise use a controlled vocabulary for the name or code of the ellipsoid, if known. If none of these is known, use the value "unknown". |
+| | |
+| **Term Name:** | **dwc:georeferencedBy** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/georeferencedBy |
+| Label: | Georeferenced By |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A list (concatenated and separated) of names of people, groups, or organizations who determined the georeference (spatial representation) for the Location. |
+| | |
+| **Term Name:** | **dwc:georeferenceProtocol** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/georeferenceProtocol |
+| Label: | Georeference Protocol |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A description or reference to the methods used to determine the spatial footprint, coordinates, and uncertainties. |
+| | |
+| **Term Name:** | **dwc:georeferenceRemarks** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/georeferenceRemarks |
+| Label: | Georeference Remarks |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Notes or comments about the spatial description determination, explaining assumptions made in addition or opposition to the those formalized in the method referred to in georeferenceProtocol. |
+| | |
+| **Term Name:** | **dwc:georeferenceSources** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/georeferenceSources |
+| Label: | Georeference Sources |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A list (concatenated and separated) of maps, gazetteers, or other resources used to georeference the Location, described specifically enough to allow anyone in the future to use the same resources. |
+| | |
+| **Term Name:** | **dwc:georeferenceVerificationStatus** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/georeferenceVerificationStatus |
+| Label: | Georeference Verification Status |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description. Recommended best practice is to use a controlled vocabulary. |
+| | |
+| **Term Name:** | **dwc:higherGeography** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/higherGeography |
+| Label: | Higher Geography |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A list (concatenated and separated) of geographic names less specific than the information captured in the locality term. |
+| | |
+| **Term Name:** | **dwc:higherGeographyID** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/higherGeographyID |
+| Label: | Higher Geography ID |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | An identifier for the geographic region within which the Location occurred. Recommended best practice is to use an persistent identifier from a controlled vocabulary such as the Getty Thesaurus of Geographic Names. |
+| | |
+| **Term Name:** | **dwc:island** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/island |
+| Label: | Island |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The name of the island on or near which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. |
+| | |
+| **Term Name:** | **dwc:islandGroup** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/islandGroup |
+| Label: | Island Group |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The name of the island group in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. |
+| | |
+| **Term Name:** | **dwc:locality** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/locality |
+| Label: | Locality |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardize the description. |
+| | |
+| **Term Name:** | **dwc:locationAccordingTo** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/locationAccordingTo |
+| Label: | Location According To |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Information about the source of this Location information. Could be a publication (gazetteer), institution, or team of individuals. |
+| | |
+| **Term Name:** | **dwc:locationID** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/locationID |
+| Label: | Location ID |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | An identifier for the set of location information (data associated with dcterms:Location). May be a global unique identifier or an identifier specific to the data set. |
+| | |
+| **Term Name:** | **dwc:locationRemarks** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/locationRemarks |
+| Label: | Location Remarks |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Comments or notes about the Location. |
+| | |
+| **Term Name:** | **dwc:maximumDepthInMeters** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/maximumDepthInMeters |
+| Label: | Maximum Depth In Meters |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The greater depth of a range of depth below the local surface, in meters. |
+| | |
+| **Term Name:** | **dwc:maximumDistanceAboveSurfaceInMeters** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/maximumDistanceAboveSurfaceInMeters |
+| Label: | Maximum Distance Above Surface In Meters |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The greater distance in a range of distance from a reference surface in the vertical direction, in meters. Use positive values for locations above the surface, negative values for locations below. If depth measures are given, the reference surface is the location given by the depth, otherwise the reference surface is the location given by the elevation. |
+| | |
+| **Term Name:** | **dwc:maximumElevationInMeters** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/maximumElevationInMeters |
+| Label: | Maximum Elevation In Meters |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The upper limit of the range of elevation (altitude, usually above sea level), in meters. |
+| | |
+| **Term Name:** | **dwc:minimumDepthInMeters** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/minimumDepthInMeters |
+| Label: | Minimum Depth In Meters |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The lesser depth of a range of depth below the local surface, in meters. |
+| | |
+| **Term Name:** | **dwc:minimumDistanceAboveSurfaceInMeters** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/minimumDistanceAboveSurfaceInMeters |
+| Label: | Minimum Distance Above Surface In Meters |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The lesser distance in a range of distance from a reference surface in the vertical direction, in meters. Use positive values for locations above the surface, negative values for locations below. If depth measures are given, the reference surface is the location given by the depth, otherwise the reference surface is the location given by the elevation. |
+| | |
+| **Term Name:** | **dwc:minimumElevationInMeters** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/minimumElevationInMeters |
+| Label: | Minimum Elevation In Meters |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The lower limit of the range of elevation (altitude, usually above sea level), in meters. |
+| | |
+| **Term Name:** | **dwc:municipality** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/municipality |
+| Label: | Municipality |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the Location occurs. Do not use this term for a nearby named place that does not contain the actual location. |
+| | |
+| **Term Name:** | **dwc:pointRadiusSpatialFit** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/pointRadiusSpatialFit |
+| Label: | Point Radius Spatial Fit |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The ratio of the area of the point-radius (decimalLatitude, decimalLongitude, coordinateUncertaintyInMeters) to the area of the true (original, or most specific) spatial representation of the Location. Legal values are 0, greater than or equal to 1, or undefined. A value of 1 is an exact match or 100% overlap. A value of 0 should be used if the given point-radius does not completely contain the original representation. The pointRadiusSpatialFit is undefined (and should be left blank) if the original representation is a point without uncertainty and the given georeference is not that same point (without uncertainty). If both the original and the given georeference are the same point, the pointRadiusSpatialFit is 1. |
+| | |
+| **Term Name:** | **dwc:stateProvince** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/stateProvince |
+| Label: | State Province |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs. |
+| | |
+| **Term Name:** | **dwc:verbatimCoordinates** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/verbatimCoordinates |
+| Label: | Verbatim Coordinates |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The verbatim original spatial coordinates of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem. |
+| | |
+| **Term Name:** | **dwc:verbatimCoordinateSystem** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/verbatimCoordinateSystem |
+| Label: | Verbatim Coordinate System |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The spatial coordinate system for the verbatimLatitude and verbatimLongitude or the verbatimCoordinates of the Location. Recommended best practice is to use a controlled vocabulary. |
+| | |
+| **Term Name:** | **dwc:verbatimDepth** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/verbatimDepth |
+| Label: | Verbatim Depth |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The original description of the depth below the local surface. |
+| | |
+| **Term Name:** | **dwc:verbatimElevation** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/verbatimElevation |
+| Label: | Verbatim Elevation |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The original description of the elevation (altitude, usually above sea level) of the Location. |
+| | |
+| **Term Name:** | **dwc:verbatimLatitude** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/verbatimLatitude |
+| Label: | Verbatim Latitude |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The verbatim original latitude of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem. |
+| | |
+| **Term Name:** | **dwc:verbatimLocality** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/verbatimLocality |
+| Label: | Verbatim Locality |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The original textual description of the place. |
+| | |
+| **Term Name:** | **dwc:verbatimLongitude** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/verbatimLongitude |
+| Label: | Verbatim Longitude |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The verbatim original longitude of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem. |
+| | |
+| **Term Name:** | **dwc:verbatimSRS** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/verbatimSRS |
+| Label: | Verbatim SRS |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which coordinates given in verbatimLatitude and verbatimLongitude, or verbatimCoordinates are based. Recommended best practice is use the EPSG code as a controlled vocabulary to provide an SRS, if known. Otherwise use a controlled vocabulary for the name or code of the geodetic datum, if known. Otherwise use a controlled vocabulary for the name or code of the ellipsoid, if known. If none of these is known, use the value "unknown". |
+| | |
+| **Term Name:** | **dwc:waterBody** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/waterBody |
+| Label: | Water Body |
+| | **Layer:**  -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The name of the water body in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. |
+| | |
+
+### <a id="Temporal_Coverage_Vocabulary">7.6 Temporal Coverage Vocabulary
+
+| property | value |
+|----------|-------|
+| **Term Name:** | **ac:timeOfDay** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/timeOfDay |
+| Label: | Time of Day |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | Free text information beyond exact clock times. |
+| Notes: | Examples in English: afternoon, twilight. |
+| | |
+| **Term Name:** | **xmp:CreateDate** |
+| Normative URI: | http://ns.adobe.com/xap/1.0/ CreateDate |
+| Label: | Original Date and Time |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | The date of the creation of the original resource from which the digital media was derived or created. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. |
+| Notes: | What constitutes "original" is determined by the metadata author. Example: Digitization of a photographic slide of a map would normally give the date at which the map was created; however a photographic work of art including the same map as its content may give the date of the original photographic exposure. Imprecise or unknown dates can be represented as ISO dates or ranges. Compare also Date and Time Digitized in the Resource Creation Vocabulary. See also the wikipedia IS0 8601 entry for further explanation and examples. |
+| | |
+| **Term Name:** | **dcterms:temporal** |
+| Normative URI: | http://purl.org/dc/terms/temporal |
+| Label: | Temporal Coverage |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
+| Definition: | The coverage (extent or scope) of the content of the resource. Temporal coverage will typically include temporal period (a period label, date, or date range) to which the subjects of the media or media collection relate. If dates are mentioned, they should follow ISO 8601. When the resource is a Collection, this refers to the temporal coverage of the collection. Following dcterms:temporal, the value must be a URI. |
+| Notes: | See the DCMI User Guide dcterms:temporal entry for an example. dc:coverage may be used for string values of temporal coverage, but use the Geography Vocabulary for geographic coverage. String examples for use with dc:coverage include "Jurassic", "Elizabethan", "Spring, 1957". 2008-01-01/2008-06-30. If the resource is video or audio, it refers to the time span, if any, depicted by the resource. For live-media this is closely related to Original Date and Time (Example: the time depicted by a time-lapse video file of organism development), but for media with fictional content it is not. |
+| | |
+
+### <a id="Taxonomic_Coverage_Vocabulary">7.7 Taxonomic Coverage Vocabulary
+
+| property | value |
+|----------|-------|
+| **Term Name:** | **ac:otherScientificName** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/otherScientificName |
+| Label: | Other Scientific Name |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | One or several Scientific Taxon Names that are synonyms to the Scientific Taxon Name may be provided here. |
+| Notes: | The primary purpose of this is in support of resource discovery, not developing a taxonomic synonymy. Misidentification or misspellings may thus be of interest. Where multiple taxa are present in a resource and multiple Scientific Taxon Names are given, the association between synonyms and names may not be deducible from the AC record alone. |
 | | |
 | **Term Name:** | **ac:subjectOrientation** |
 | Normative URI: | http://rs.tdwg.org/ac/terms/subjectOrientation |
@@ -909,27 +1324,6 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 | Definition: | The portion or product of organism morphology, behaviour, environment, etc. that is either predominantly shown or particularly well exemplified by the media resource. |
 | Notes: | No formal encoding scheme as yet exists. Examples are "whole body", "head", "flower", "leaf", "canopy" (of a rain forest stand). Several anatomical ontologies are emerging in http://www.obofoundry.org/ |
 | | |
-| **Term Name:** | **ac:subtype** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/subtype |
-| Label: | Subtype |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | Any URI may be used that provides for more specialization than the type. Possible values are community-defined. For exmamples see the non-normative page AC_Subtype_Examples. |
-| Notes: | The subtype term may not be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary may add further description to a Collection object. The subtype vocabulary may be extended by users provided they identify the term by a URI which is not in the ac namespace (for example, using "http://my.inst.org/namespace/metadata/subtype/repair-manual"). Conforming applications may choose to ignore these. See ac:subtypeLiteral for usage with strings. |
-| | |
-| **Term Name:** | **ac:subtypeLiteral** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/subtypeLiteral |
-| Label: | Subtype |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | The subtype should provide more specialization than the type. Possible values are community-defined. For exmamples see the non-normative page AC_Subtype_Examples. |
-| Notes: | The subtypeLiteral term may not be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary may add further description to a Collection object. |
-| | |
-| **Term Name:** | **ac:tag** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/tag |
-| Label: | Tag |
-| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | General keywords or tags. |
-| Notes: | Tags may be multi-worded phrases. Where scientific names, common names, geographic locations, etc. are separable, those should go into the more specific coverage metadata items provided further below. Examples: "flower diagram". Character or part keywords like "leaf", or "flower color" are especially desirable. |
-| | |
 | **Term Name:** | **ac:taxonCount** |
 | Normative URI: | http://rs.tdwg.org/ac/terms/taxonCount |
 | Label: | Taxon Count |
@@ -944,12 +1338,195 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 | Definition: | A higher taxon (e. g., a genus, family, or order) at the level of the genus or higher, that covers all taxa that are the primary subject of the resource (which may be a media item or a collection). |
 | Notes: | Example: Where the subject of an image is several species of ducks with trees visible in the background, Taxon Coverage would still be Anatidae (and not Biota). Example: "Aves" for a bird key or a bird image collection. Do not add a rank ("Class Aves") in this field. Note that this somewhat expands the usage of ncd:taxonCoverage which, however has not yet been adopted by TDWG, and which specifies at the Family level or higher. For collections it is recommended to follow ncd:taxonCoverage to avoid conflicts between an AC record and a record arising from use of the un-adopted NCD. If the resource contains a single taxon, this should be placed in Scientific Taxon Name. In this case Taxon Coverage may be left empty, but if not, care should be taken that the entries do not conflict. Example: If Scientific Taxon Name is Quercus alba then Taxon Coverage, if provided at all, should be Quercus. |
 | | |
-| **Term Name:** | **ac:timeOfDay** |
-| Normative URI: | http://rs.tdwg.org/ac/terms/timeOfDay |
-| Label: | Time of Day |
+| **Term Name:** | **dwc:dateIdentified** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/dateIdentified |
+| Label: | Date Identified |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
+| Definition: | The date on which the person(s) given under Identfied By applied a Scientific Taxon Name to the resource. |
+| | |
+| **Term Name:** | **dwc:identificationQualifier** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/identificationQualifier |
+| Label: | Identification Qualifier |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A brief phrase or a standard abbreviation ("cf. genus", "cf. species", "cf. var.", "aff. species", etc.) to express the determiner's doubts with respect to a specified taxonomic rank about the identification given in Scientific Taxon Name. |
+| Notes: | Splitting identification qualification and Scientific Taxon Name into separate fields is recommended practice in cases where only a single taxon name is available, or if the exchange format is able to keep relations between multiple names and identification qualifiers. Where the exchange format only supports simple multiplicities, a media item with multiple Scientific Taxon Names, some with, some without identification qualifiers, may have to be transferred with "cf." or "aff." qualifiers remaining embedded in the Scientific Taxon Name. For discussion of Darwin Core usage see here. Example: For the determinations “cf. Fusarium oxysporum f. sp. palmarum”, “Fusarium cf. oxysporum f. sp. palmarum”, “Fusarium oxysporum cf. f. sp. palmarum” the Scientific Taxon Name would always be “Fusarium oxysporum f. sp. palmarum”, with Identification Qualifier “cf. genus”, “cf. species” and “cf. f.sp.”, respectively. In most cases only the lowest taxon is in doubt, but cases exist where good reasons exist to suspect a specific or even infraspecific determination, without having a save generic identification. |
+| | |
+| **Term Name:** | **dwc:identifiedBy** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/identifiedBy |
+| Label: | Identified By |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The name(s) of the person(s) who applied the Scientific Taxon Name to the media item or the occurrence represented in the media item. |
+| | |
+| **Term Name:** | **dwc:lifeStage** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/lifeStage |
+| Label: | Subject Life Stage |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A description of the life-cycle stage of any organisms featured within the media, when relevant to the subject of the media, e. g., larvae, juvenile, adult. |
+| | |
+| **Term Name:** | **dwc:nameAccordingTo** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/nameAccordingTo |
+| Label: | Name According To |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The taxonomic authority used to apply the name to the taxon, e. g., a person, book or web service. |
+| Notes: | Examples are "Flora of North America", "Landrum 1981, Monograph of the Genus Myrceugenia (Myrtaceae)", "Peterson Field Guide to Birds of North America", or "Expert identification by J.Smith". The definition at dwc:nameAccordingTo is: 'The reference to the source in which the specific taxon concept circumscription is defined or implied - traditionally signified by the Latin "sensu" or "sec." (from secundum, meaning "according to"). For taxa that result from identifications, a reference to the keys, monographs, experts and other sources should be given.' |
+| | |
+| **Term Name:** | **dwc:preparations** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/preparations |
+| Label: | Subject Preparation Technique |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
+| Definition: | Free form text describing the techniques used to prepare the subject of the media, prior to or while creating the media resource. |
+| Notes: | Examples for such techniques are: Insect under CO2, cooled to immobility, preservation with ethanol or formaldehyde. See also Resource Creation Technique for technical aspects of digital media object creation. |
+| | |
+| **Term Name:** | **dwc:scientificName** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/scientificName |
+| Label: | Scientific Taxon Name |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Scientific names of taxa represented in the media resource (with date and name authorship information if available) of the lowest level taxonomic rank that can be applied. |
+| Notes: | The Scientific Taxon Name may possibly be of a higher rank, e.g., a genus or family name, if this is the most specific identification available. Where multiple taxa are the subject of the media item, multiple names may be given. If possible, add this information here even if the title or caption of the resource already contains scientific taxon names. Where the list of scientific taxon names is impractically large (e.g., media collections or identification tools), the number of taxa should be given in Taxon Count (see below). If possible, avoid repeating the Taxonomic Coverage here. Do not use abbreviated Genus names ("P. vulgaris"). It is recommended to provide author citation to scientific names, to avoid ambiguities in the presence of homonyms (the same name created by different authors for different taxa). Identifier qualifications should be supplied in the Identification Qualifier term rather than here (i. e. “Abies cf. alba” is deprecated, to be replaced with Scientific Taxon Name = “Abies alba” and Identification Qualifier = “cf. species”). |
+| | |
+| **Term Name:** | **dwc:scientificNameID** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/scientificNameID |
+| Label: | Scientific Name ID |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | An identifier for the nomenclatural (not taxonomic) details of a scientific name. |
+| Notes: | See dwc:scientificNameID and also the DwC Taxon attributes. |
+| | |
+| **Term Name:** | **dwc:sex** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/sex |
+| Label: | Subject Sex |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A description of the sex of any organisms featured within the media, when relevant to the subject of the media, e. g., male, female, hermaphrodite, dioecious. |
+| | |
+| **Term Name:** | **dwc:vernacularName** |
+| Normative URI: | http://rs.tdwg.org/dwc/terms/vernacularName |
+| Label: | Common Name |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Common (= vernacular) names of the subject in one or several languages. The ISO language name should be given in parentheses after the name if not all names are given by values of the Metadata Language term. |
+| Notes: | The ISO language code after the name should be formatted as in the following example: 'abete bianco (it); Tanne (de); White Fir (en)'. If names are known to be male- or female-specific, this may be specified as in: 'ewe (en-female); ram (en-male);'. |
+| | |
+
+### <a id="Resource_Creation_Vocabulary">7.8 Resource Creation Vocabulary
+
+| property | value |
+|----------|-------|
+| **Term Name:** | **ac:captureDevice** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/captureDevice |
+| Label: | Capture Device |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
+| Definition: | Free form text describing the device or devices used to create the resource. |
+| Notes: | It is best practice to record the device; this may include a combination such as camera plus lens, or camera plus microscope. Examples: "Canon Supershot 2000", "Makroscan Scanner 2000", "Zeiss Axioscope with Camera IIIu", "SEM (Scanning Electron Microscope)". |
+| | |
+| **Term Name:** | **ac:digitizationDate** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/digitizationDate |
+| Label: | Date and Time Digitized |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
+| Definition: | Date the first digital version was created, if different from Original Date and Time found in the Temporal Coverage Vocabulary. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. |
+| Notes: | This is often not the media creation or modification date. For example, if photographic prints have been scanned, the date of that scanning is what this term carries, but Original Date and Time is that depicted in the print. Use the international (ISO/xml) format yyyy-mm-ddThh:mm (e. g. "2007-12-31" or "2007-12-31T14:59"). Where available, timezone information should be added. In the case of digital images containing EXIF, whereas the EXIF capture date does not contain time zone information, but EXIF GPSDateStamp and GPSTimeStamp may be relevant as these include time-zone information. Compare also MWG (2010)[9], which has best practice advice on handling time-zone-less EXIF date/time data. See also the wikipedia IS0 8601 entry for further explanation and examples. |
+| | |
+| **Term Name:** | **ac:resourceCreationTechnique** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/resourceCreationTechnique |
+| Label: | Resource Creation Technique |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
+| Definition: | Information about technical aspects of the creation and digitization process of the resource. This includes modification steps ("retouching") after the initial resource capture. |
+| Notes: | Examples: Encoding method or settings, numbers of channels, lighting, audio sampling rate, frames per second, data rate, interlaced or progressive, multiflash lighting, remote control, automatic interval exposure.  Annotating whether and how a resource has been modified or edited significantly in ways that are not immediately obvious to, or expected by, consumers is of special significance. Examples for images are: Removing a distracting twig from a picture, moving an object to a different surrounding, changing the color in parts of the image, or blurring the background of an image. Modifications that are standard practice and expected or obvious are not necessary to document; examples of such practices include changing resolution, cropping, minor sharpening or overall color correction, and clearly perceptible modifications (e.g., addition of arrows or labels, or the placement of multiple pictures into a table.) If it is only known that significant modifications were made, but no details are known, a general statement like "Media may have been manipulated to improve appearance" may be appropriate. See also Subject Preparation Technique. |
+| | |
+| **Term Name:** | **Iptc4xmpExt:LocationCreated** |
+| Normative URI: | http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationCreated |
+| Label: | Location Created |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | The location at which the media recording instrument was placed when the media was created. |
+| Notes: | The distinction between the location shown and created is often irrelevant, and metadata may be assumed to be referring to location shown. It is recommended that the Location Shown field above always be used when known. However, in the case of position data automatically recorded by the instrument (e. g. EXIF GPS data) Location Created should be used to maintain information accuracy. When one but not both of these locations are present, AC is silent about whether the provided one entails the other. A best practices document for a particular AC implementation might address this. |
+| | |
+
+### <a id="Related_Resources_Vocabulary">7.9 Related Resources Vocabulary
+
+| property | value |
+|----------|-------|
+| **Term Name:** | **ac:associatedObservationReference** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/associatedObservationReference |
+| Label: | Associated Observation Reference |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A reference to an observation associated with this resource. |
+| | |
+| **Term Name:** | **ac:associatedSpecimenReference** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/associatedSpecimenReference |
+| Label: | Associated Specimen Reference |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A reference to a specimen associated with this resource. |
+| Notes: | Supports finding a specimen resource, where additional information is available. If several resources relate to the same specimen, these are implicitly related. Examples: for NHM "BM 23974324" for a barcoded or "BM Smith 32" for a non-barcoded specimen; for UNITS: "TSB 28637"; for PMSL: "PMSL-Lepidoptera-2534781". Ideally this may be a URI identifying a specimen record that is available online. |
+| | |
+| **Term Name:** | **ac:derivedFrom** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/derivedFrom |
+| Label: | Derived From |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | A reference to an original resource from which the current one is derived. |
+| Notes: | Derivation of one resource from another is of special interest for identification tools (e. g. a key from an unpublished data set, as in FRIDA, or a PDA key from a PC or web key) or web services (e. g. a name synonymization service being derived from a specific data set). It may very rarely also be known where one image or sound recording is derived from another (but compare the separate mechanism to be used for quality/resolution levels). – Human readable, or doi number, or URL. Simple name of parent for human readable. Can be repeated if a montage of images. |
+| | |
+| **Term Name:** | **ac:IDofContainingCollection** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/IDofContainingCollection |
+| Label: | ID of Containing Collection |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | If the resource is contained in a Collection, this field identifies that Collection uniquely. Its form is not specified by this normative document, but is left to implementers of specific implementations. |
+| Notes: | Repeatable: A media resource may be member of multiple collections |
+| | |
+| **Term Name:** | **ac:providerID** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/providerID |
+| Label: | Provider ID |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
+| Definition: | A globally unique ID of the provider of the current AC metadata record. |
+| Notes: | Only to be used if the annotated resource is not a provider itself - this item is for relating the resource to a provider, using an arbitrary code that is unique for a provider, contributing partner, or aggregator, or other roles (potentially defined by MARC, OAI) and by which the media resources are linked to the provider. |
+| | |
+| **Term Name:** | **ac:relatedResourceID** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/relatedResourceID |
+| Label: | Related Resource ID |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
+| Definition: | Resource related in ways not specified through a collection, e.g., before-after images; time-lapse series; different orientations/angles of view |
+| Notes: | The value references a related media item. Examples of relations are: Images taken in a sequence or defined time series, an exposure or focus series (e.g. for stacking), different framing or views (top, side, bottom) of the same subject, or an overview plus several details. The property makes such related media items discoverable, but does not indicate the nature of this relationship. More specific properties may be defined in a later version of AC. |
+| | |
+
+### <a id="Service_Access_Point_Vocabulary">7.10 Service Access Point Vocabulary
+
+| property | value |
+|----------|-------|
+| **Term Name:** | **ac:accessURI** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/accessURI |
+| Label: | Access URI |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
-| Definition: | Free text information beyond exact clock times. |
-| Notes: | Examples in English: afternoon, twilight. |
+| Definition: | A URI that uniquely identifies a service that provides a representation of the underlying resource. If this resource can be acquired by an http request, its http URL should be given. If not, but it has some URI in another URI scheme, that may be given here. |
+| Notes: | Value might point to something offline, such as a published CD, etc. For example, the doi of an published CD would be a suitable value. |
+| | |
+| **Term Name:** | **ac:furtherInformationURL** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/furtherInformationURL |
+| Label: | Further Information URL |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
+| Definition: | The URL of a Web site that provides additional information about the version of the media resource that is provided by the Service Access Point. |
+| | |
+| **Term Name:** | **ac:hashFunction** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/hashFunction |
+| Label: | Hash Function |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
+| Definition: | The cryptographic hash function used to compute the value given in the Hash Value. |
+| Notes: | Recommended values include MD5, SHA-1, SHA-224,SHA-256, SHA-384, SHA-512, SHA-512/224 and SHA-512/256 |
+| | |
+| **Term Name:** | **ac:hashValue** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/hashValue |
+| Label: | Hash |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
+| Definition: | The value computed by a hash function applied to the media that will be delivered at the access point. |
+| Notes: | Best practice is to also specify the hash function by supplying a value of the Hash Function term, using one of the standard literals from the Notes there. |
+| | |
+| **Term Name:** | **ac:licensingException** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/licensingException |
+| Label: | Licensing Exception Statement |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
+| Definition: | The licensing statement for this variant of the media resource if different from that given in the License Statement property of the resource. |
+| Notes: | Required only if this version has different licensing than that of the media resource. For example, the highest resolution version may be more restricted than lower resolution versions. |
+| | |
+| **Term Name:** | **ac:serviceExpectation** |
+| Normative URI: | http://rs.tdwg.org/ac/terms/serviceExpectation |
+| Label: | Service Expectation |
+| | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
+| Definition: | A term that describes what service expectations users may have of the ac:accessURL. Recommended terms include online (denotes that the URL is expected to deliver the resource), authenticate (denotes that the URL delivers a login or other authentication interface requiring completion before delivery of the resource) published(non digital) (denotes that the URL is the identifier of a non-digital published work, for example a doi.) Communities should develop their own controlled vocabularies for Service Expectations. |
 | | |
 | **Term Name:** | **ac:variant** |
 | Normative URI: | http://rs.tdwg.org/ac/terms/variant |
@@ -972,7 +1549,33 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 | Definition: | Text that describes this Service Access Point variant. |
 | Notes: | This is an alternative to ac:variant where using a string is preferred over a URI. It is best practice to use ac:variant instead of ac:variantLiteral wherever practical. Value may be free text, but it is suggested to consider including terminology based on the following: Thumbnail: Service Access Point provides a thumbnail image, short sound clip, or short movie clip that can be used in addition to the resource to represent the media object, typically at lower quality and higher compression than a preview object. A typical size for a tiny thumbnail image may be 50-100 pixels in the longer dimension. Trailer: Service Access Point provides video clip preview, in the form of a specifically authored "Trailer", which may provide somewhat different content than the original resource. Lower Quality: Service Access Point provides a lower quality version of the media resource, suitable e. g. for web sites. Medium Quality: Service Access Point provides a medium quality version of the media resource, e. g. shortened in duration, or reduced size, using lower resolution or higher compression causing moderate artifacts. Good Quality: Service Access Point provides a good quality version of the media resource intended for resources displayed as primary information; e. g. an image between 800 and 1600 px in width or height. Best Quality: Service Access Point provides the highest available quality of the media resource, whatever its resolution or quality level. Offline: Service Access Point provides data about an offline resource. |
 | | |
+| **Term Name:** | **exif:PixelXDimension** |
+| Normative URI: | http://ns.adobe.com/exif/1.0/ PixelXDimension |
+| Label: | Image Width |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | The width in pixels of the media specified by the access point. |
 | | |
+| **Term Name:** | **exif:PixelYDimension** |
+| Normative URI: | http://ns.adobe.com/exif/1.0/ PixelYDimension |
+| Label: | Image Height |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | The height in pixels of the media specified by the access point. |
+| | |
+| **Term Name:** | **dc:format** |
+| Normative URI: | http://purl.org/dc/elements/1.1/format |
+| Label: | Format |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | A string describing the technical format of the resource (file format or physical medium). |
+| Notes: | Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME]. This term is recommended for offline digital content. In cases where the provided URL includes a standard file extension from which the format can be inferred, it is permissible to not provide this item. Three types of values are recommended: (a) any MIME type; (b) common file extensions like txt, doc, odf, jpg/jpeg, png, pdf; (c) the following special values: Data-CD, Audio-CD, Video-CD, Data-DVD, Audio-DVD, Video-DVD-PAL, Video-DVD-NTSC, photographic slide, photographic print. Compare Type for the content-type. See also the entry for dcterms:format in this document and see the DCMI FAQ on DC and DCTERMS Namespaces for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
+| | |
+| **Term Name:** | **dcterms:format** |
+| Normative URI: | http://purl.org/dc/terms/format |
+| Label: | Format |
+| | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
+| Definition: | URI referencing the technical format of the resource (file format or physical medium). |
+| Notes: | See DCMI User_Guide for examples. See also the entry for dc:format in this document and see the DCMI FAQ on DC and DCTERMS Namespaces for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
+| | |
+
 
 ## <a id="References">8 References</a>
 

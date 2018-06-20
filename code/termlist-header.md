@@ -611,5 +611,3 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 
 
 ## <a id="Vocabularies">7 Vocabularies</a>
-
-### <a id="Management_Vocabulary">7.1 Management Vocabulary</a>
