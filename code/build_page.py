@@ -27,6 +27,7 @@ def retrieveVocabularyInfo(githubBaseUri):
     return termLists
 
 # ---------------------------------------------------------------------------
+# create dictionaries of metadata about term lists
 def retrieveTermListMetadata(githubBaseUri):
     # retrieve term list metadata from Github
     dataUrl = githubBaseUri + 'term-lists/term-lists.csv'
@@ -43,21 +44,22 @@ def retrieveTermListMetadata(githubBaseUri):
             uriColumn = column
 
     listFilename = {}
-    listCurie = {}
+    listNamespace = {}
     listUri = {}
 
     for row in range(1,len(table)):    #skip the header row
         for termList in termLists:
             if termList == table[row][listColumn]:
-                listCurie[termList] = table[row][prefixColumn] # make a dictionary of CURIEs
-                listUri[termList] = table[row][uriColumn] # make a dictionary of CURIEs
+                listNamespace[termList] = table[row][prefixColumn] # make a dictionary of namespaces
+                listUri[termList] = table[row][uriColumn] # make a dictionary of URIs
                 if table[row][prefixColumn] == 'ac':
                     listFilename[termList] = 'audubon'
                 else:
                     listFilename[termList] = table[row][prefixColumn] + '-for-ac' # make a dictionary of filenames
-    return [listFilename, listCurie, listUri]
+    return [listFilename, listNamespace, listUri]
 
 # ---------------------------------------------------------------------------
+# create a single table that combines all relevant metadata from the various term list metadata tables
 def createMasterMetadataTable(termLists, listMetadata):
     fileNameDict = listMetadata[0]
     curieDict = listMetadata[1]
@@ -95,6 +97,7 @@ def createMasterMetadataTable(termLists, listMetadata):
     return masterTable
 
 # ---------------------------------------------------------------------------
+# generate a table for each term, with terms grouped by category
 def buildMarkdown(table):
     displayOrder = ['http://rs.tdwg.org/dwc/terms/attributes/Management', 'http://rs.tdwg.org/dwc/terms/attributes/Attribution', 'http://purl.org/dc/terms/Agent', 'http://rs.tdwg.org/dwc/terms/attributes/ContentCoverage', 'http://purl.org/dc/terms/Location', 'http://purl.org/dc/terms/PeriodOfTime', 'http://rs.tdwg.org/dwc/terms/attributes/TaxonomicCoverage', 'http://rs.tdwg.org/dwc/terms/attributes/ResourceCreation', 'http://rs.tdwg.org/dwc/terms/attributes/RelatedResources', 'http://rs.tdwg.org/dwc/terms/attributes/ServiceAccessPoint']
     displayLabel = ['Management Vocabulary', 'Attribution Vocabulary', 'Agents Vocabulary', 'Content Coverage Vocabulary', 'Geography Vocabulary', 'Temporal Coverage Vocabulary', 'Taxonomic Coverage Vocabulary', 'Resource Creation Vocabulary', 'Related Resources Vocabulary', 'Service Access Point Vocabulary']
@@ -109,9 +112,12 @@ def buildMarkdown(table):
         text += '|----------|-------|\n'
         for row in range(0,len(table)):    #no header row
             if displayOrder[category] == table[row][9]:
-                text += '| **Term Name:** | **' + table[row][0] + ":" + table[row][2] + '** |\n'
+                curie = table[row][0] + ":" + table[row][2]
+                label = table[row][3]
+                labelAnchor = label.replace(' ','_')
+                text += '| <a id="' + labelAnchor + '"></a><a id="' + curie + '"></a>**Term Name:** | **' + curie + '** |\n'
                 text += '| Normative URI: | ' + table[row][1] + table[row][2] + ' |\n'
-                text += '| Label: | ' + table[row][3] + ' |\n'
+                text += '| Label: | ' + label + ' |\n'
                 text += '| | **Layer:** ' + table[row][4] + ' -- **Required:** ' + table[row][5] + ' -- **Repeatable:** ' + table[row][6] + ' |\n'
                 text += '| Definition: | ' + table[row][7] + ' |\n'
                 if table[row][8] != '':
@@ -121,8 +127,8 @@ def buildMarkdown(table):
     return text
     
 # ---------------------------------------------------------------------------
+# read in header and footer, merge with terms table, and output
 def outputMarkdown(text, headerFileName, footerFileName, outFileName):
-    # read in header and footer, merge with terms table, and output
     headerObject = open(headerFileName, 'rt')
     header = headerObject.read()
     headerObject.close()
@@ -136,6 +142,8 @@ def outputMarkdown(text, headerFileName, footerFileName, outFileName):
     outputObject.close()
 
 # ---------------------------------------------------------------------------
+# main routine
+
 # constants
 githubBaseUri = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/split_ac_terms/'
 headerFileName = 'termlist-header.md'
