@@ -551,7 +551,7 @@ required values are strings or URIs.
 | Notes: | Using multiple identifiers implies that they have a same-as relationship, i.e. they all identify the same object (e. g. an object may have all of an http-URL, an lsid-URI, and a UUID). |
 | | |
 | <a id="xmp_MetadataDate"></a>**Term Name:** | **xmp:MetadataDate** |
-| Normative URI: | http://ns.adobe.com/xap/1.0/ MetadataDate |
+| Normative URI: | http://ns.adobe.com/xap/1.0/MetadataDate |
 | Label: | Metadata Date |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
 | Definition: | Point in time recording when the last modification to metadata (not necessarily the media object itself) occurred. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. |
@@ -586,7 +586,7 @@ required values are strings or URIs.
 | Notes: | Ideally, this would be a globally unique identifier (GUID), but the provider is encouraged to supply any form of identifier that simplifies communications on resources within their project and helps to locate individual data items in the provider's data repositories. It is the provider's decision whether to expose this value or not. |
 | | |
 | <a id="xmp_Rating"></a>**Term Name:** | **xmp:Rating** |
-| Normative URI: | http://ns.adobe.com/xap/1.0/ Rating |
+| Normative URI: | http://ns.adobe.com/xap/1.0/Rating |
 | Label: | Rating |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
 | Definition: | A rating of the media resources, provided by record originators or editors, with "-1" defining "rejected", "0" defining "unrated", and "1" (worst) to "5" (best). |
@@ -1171,7 +1171,7 @@ required values are strings or URIs.
 | property | value |
 |----------|-------|
 | <a id="xmp_CreateDate"></a>**Term Name:** | **xmp:CreateDate** |
-| Normative URI: | http://ns.adobe.com/xap/1.0/ CreateDate |
+| Normative URI: | http://ns.adobe.com/xap/1.0/CreateDate |
 | Label: | Original Date and Time |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
 | Definition: | The date of the creation of the original resource from which the digital media was derived or created. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. |
@@ -1430,13 +1430,13 @@ required values are strings or URIs.
 | Notes: | Required only if this version has different licensing than that of the media resource. For example, the highest resolution version may be more restricted than lower resolution versions. |
 | | |
 | <a id="exif_PixelXDimension"></a>**Term Name:** | **exif:PixelXDimension** |
-| Normative URI: | http://ns.adobe.com/exif/1.0/ PixelXDimension |
+| Normative URI: | http://ns.adobe.com/exif/1.0/PixelXDimension |
 | Label: | Image Width |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
 | Definition: | The width in pixels of the media specified by the access point. |
 | | |
 | <a id="exif_PixelYDimension"></a>**Term Name:** | **exif:PixelYDimension** |
-| Normative URI: | http://ns.adobe.com/exif/1.0/ PixelYDimension |
+| Normative URI: | http://ns.adobe.com/exif/1.0/PixelYDimension |
 | Label: | Image Height |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
 | Definition: | The height in pixels of the media specified by the access point. |
