@@ -125,8 +125,9 @@ def buildIndexByTermLabel(table, displayOrder, displayLabel, displayId):
         text += '\n'
         for row in range(0,len(table)):    #no header row
             if displayOrder[category] == table[row][9]:
-                curieAnchor = table[row][0] + "_" + table[row][2]
-                text += '| [' + table[row][3] + '](#' + curieAnchor + ') |\n'
+                if row == 0 or (row != 0 and table[row][3] != table[row-1][3]): # this is a hack to prevent duplicate labels
+                    curieAnchor = table[row][0] + "_" + table[row][2]
+                    text += '| [' + table[row][3] + '](#' + curieAnchor + ') |\n'
         text += '\n'
     return text
     

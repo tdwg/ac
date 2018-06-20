@@ -352,25 +352,20 @@ required values are strings or URIs.
 **Management Vocabulary**
 
 | [Commenter](#ac_commenter) |
-| [Commenter](#ac_commenterLiteral) |
 | [Comments](#ac_comments) |
 | [Date Available](#dcterms_available) |
 | [Identifier](#dcterms_identifier) |
 | [Metadata Date](#xmp_MetadataDate) |
 | [Metadata Language](#ac_metadataLanguage) |
-| [Metadata Language](#ac_metadataLanguageLiteral) |
 | [Modified](#dcterms_modified) |
 | [Provider-managed ID](#ac_providerManagedID) |
 | [Rating](#xmp_Rating) |
 | [Reviewer](#ac_reviewer) |
-| [Reviewer](#ac_reviewerLiteral) |
 | [Reviewer Comments](#ac_reviewerComments) |
 | [Service Access Point](#ac_hasServiceAccessPoint) |
 | [Subtype](#ac_subtype) |
-| [Subtype](#ac_subtypeLiteral) |
 | [Title](#dcterms_title) |
 | [Type](#dc_type) |
-| [Type](#dcterms_type) |
 
 **Attribution Vocabulary**
 
@@ -378,32 +373,25 @@ required values are strings or URIs.
 | [Attribution URL](#ac_attributionLogoURL) |
 | [Copyright Owner](#xmpRights_Owner) |
 | [Copyright Statement](#dc_rights) |
-| [Copyright Statement](#dcterms_rights) |
 | [Credit](#photoshop_Credit) |
 | [Funding](#ac_fundingAttribution) |
 | [License Logo URL](#ac_licenseLogoURL) |
 | [License Terms](#xmpRights_UsageTerms) |
 | [License URL](#xmpRights_WebStatement) |
 | [Published Source](#dc_source) |
-| [Published Source](#dcterms_source) |
 
 **Agents Vocabulary**
 
 | [Creator](#dc_creator) |
-| [Creator](#dcterms_creator) |
 | [Metadata Creator](#ac_metadataCreator) |
-| [Metadata Creator](#ac_metadataCreatorLiteral) |
 | [Metadata Provider](#ac_metadataProvider) |
-| [Metadata Provider](#ac_metadataProviderLiteral) |
 | [Provider](#ac_provider) |
-| [Provider](#ac_providerLiteral) |
 
 **Content Coverage Vocabulary**
 
 | [Caption](#ac_caption) |
 | [Description](#dcterms_description) |
 | [Language](#dc_language) |
-| [Language](#dcterms_language) |
 | [Physical Setting](#ac_physicalSetting) |
 | [Subject Category](#Iptc4xmpExt_CVterm) |
 | [Subject Category Vocabulary](#ac_subjectCategoryVocabulary) |
@@ -417,7 +405,6 @@ required values are strings or URIs.
 | [Coordinate Uncertainty In Meters](#dwc_coordinateUncertaintyInMeters) |
 | [Country](#dwc_country) |
 | [Country Code](#Iptc4xmpExt_CountryCode) |
-| [Country Code](#dwc_countryCode) |
 | [Country Name](#Iptc4xmpExt_CountryName) |
 | [County](#dwc_county) |
 | [Decimal Latitude](#dwc_decimalLatitude) |
@@ -506,7 +493,6 @@ required values are strings or URIs.
 
 | [Access URI](#ac_accessURI) |
 | [Format](#dc_format) |
-| [Format](#dcterms_format) |
 | [Further Information URL](#ac_furtherInformationURL) |
 | [Hash](#ac_hashValue) |
 | [Hash Function](#ac_hashFunction) |
@@ -515,7 +501,6 @@ required values are strings or URIs.
 | [Licensing Exception Statement](#ac_licensingException) |
 | [Service Expectation](#ac_serviceExpectation) |
 | [Variant](#ac_variant) |
-| [Variant](#ac_variantLiteral) |
 | [Variant Description](#ac_variantDescription) |
 
 ## <a id="Vocabularies">7 Vocabularies</a>
