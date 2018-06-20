@@ -181,8 +181,8 @@ Label</a>)
 
 **Management Vocabulary**
 
-| 
-<a href="#dcterms:identifier">dcterms:identifier</a>
+|
+<a href="#dctermsidentifier">dcterms:identifier</a>
 | |
 [dc:type](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#dc:type) |
 |
