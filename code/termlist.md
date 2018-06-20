@@ -182,9 +182,9 @@ Label</a>)
 **Management Vocabulary**
 
 |
-<a href="#dctermsidentifier">dcterms:identifier</a>
+<a href="#dcterms_identifier">dcterms:identifier</a>
 | |
-[dc:type](#dc:type) |
+[dc:type](#dc_type) |
 |
 [dcterms:type](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#dcterms:type)
 | |
@@ -713,7 +713,7 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 | Definition: | A rating of the media resources, provided by record originators or editors, with "-1" defining "rejected", "0" defining "unrated", and "1" (worst) to "5" (best). |
 | Notes: | The origin of the rating is not communicated. It may, e. g., be based on user feedback or on editorial ratings. If Rating is not present, a value of 0 may be assumed. By "user-assigned" is meant assigned by the originator or editor of the record using the term. |
 | | |
-| <a id="Type"></a><a id="dc:type"></a>**Term Name:** | **dc:type** |
+| <a id="Type"></a><a id="dc_type"></a>**Term Name:** | **dc:type** |
 | Normative URI: | http://purl.org/dc/elements/1.1/type |
 | Label: | Type |
 | | **Layer:** 1 -- **Required:** Yes -- **Repeatable:** No |
@@ -727,14 +727,14 @@ Height](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Image_Height)
 | Definition: | The date (often a range) that the resource became or will become available. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. |
 | Notes: | A use case is the harvesting of metadata published before the media are available, which are pending a formal publication elsewhere. One important example is the case of metadata that documents an occurrence, which metadata harvesters might exploit without use of the media. See also the wikipedia IS0 8601 entry for further explanation and examples. |
 | | |
-| <a id="Identifier"></a><a id="dcterms:identifier"></a>**Term Name:** | **dcterms:identifier** |
+| <a id="Identifier"></a><a id="dcterms_identifier"></a>**Term Name:** | **dcterms:identifier** |
 | Normative URI: | http://purl.org/dc/terms/identifier |
 | Label: | Identifier |
 | | **Layer:** 1 -- **Required:** Yes/No -- **Repeatable:** Yes |
 | Definition: | An arbitrary code that is unique for the resource, with the resource being either a provider, collection, or media item. |
 | Notes: | Using multiple identifiers implies that they have a same-as relationship, i.e. they all identify the same object (e. g. an object may have all of an http-URL, an lsid-URI, and a UUID). |
 | | |
-| <a id="Modified"></a><a id="dcterms:modified"></a>**Term Name:** | **dcterms:modified** |
+| <a id="Modified"></a><a id="dcterms_modified"></a>**Term Name:** | **dcterms:modified** |
 | Normative URI: | http://purl.org/dc/terms/modified |
 | Label: | Modified |
 | | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
