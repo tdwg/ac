@@ -184,7 +184,7 @@ Label</a>)
 |
 <a href="#dctermsidentifier">dcterms:identifier</a>
 | |
-[dc:type](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#dc:type) |
+[dc:type](#dc:type) |
 |
 [dcterms:type](https://terms.tdwg.org/wiki/Audubon_Core_Term_List#dcterms:type)
 | |
