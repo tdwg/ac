@@ -4,6 +4,7 @@
 
 # Note: this script calls a function from http_library.py, which requires importing the requests, csv, and json modules
 import http_library
+from operator import itemgetter
 
 # ---------------------------------------------------------------------------
 # retrieve vocabularies members metadata from Github
@@ -62,7 +63,7 @@ def retrieveTermListMetadata(githubBaseUri):
 # create a single table that combines all relevant metadata from the various term list metadata tables
 def createMasterMetadataTable(termLists, listMetadata):
     fileNameDict = listMetadata[0]
-    curieDict = listMetadata[1]
+    namespaceDict = listMetadata[1]
     uriDict = listMetadata[2]
     masterTable = []
 
@@ -92,19 +93,49 @@ def createMasterMetadataTable(termLists, listMetadata):
                 organizedColumn = column
 
         for row in range(1,len(table)):    #skip the header row
-            masterTable.append([ curieDict[termList], uriDict[termList], table[row][localNameColumn], table[row][labelColumn], table[row][layerColumn], table[row][requiredColumn], table[row][repeatableColumn], table[row][definitionColumn], table[row][notesColumn], table[row][organizedColumn] ])
+            masterTable.append([ namespaceDict[termList], uriDict[termList], table[row][localNameColumn], table[row][labelColumn], table[row][layerColumn], table[row][requiredColumn], table[row][repeatableColumn], table[row][definitionColumn], table[row][notesColumn], table[row][organizedColumn] ])
 
     return masterTable
 
 # ---------------------------------------------------------------------------
+# generate the index of terms grouped by category and sorted alphabetically by lowercase term local name
+def buildIndexByTermName(table, displayOrder, displayLabel, displayId):
+
+    text = '### <a id="Index_By_Term_Name">6.1 Index By Term Name</a>\n\n'
+    text += '(See also <a href="#Index_By_Label">Index By Label</a>)\n\n'
+    for category in range(0,len(displayOrder)):
+        text += '**' + displayLabel[category] + '**\n'
+        text += '\n'
+        for row in range(0,len(table)):    #no header row
+            if displayOrder[category] == table[row][9]:
+                curie = table[row][0] + ":" + table[row][2]
+                curieAnchor = curie.replace(':','_')
+                text += '| [' + curie + '](#' + curieAnchor + ') |\n'
+        text += '\n'
+    return text
+    
+# ---------------------------------------------------------------------------
+# generate the index of terms grouped by category and sorted alphabetically by the term label
+def buildIndexByTermLabel(table, displayOrder, displayLabel, displayId):
+
+    text = '### <a id="Index_By_Label">6.2 Index By Label</a>\n\n'
+    text += '(See also <a href="#Index_By_Term_Name">Index By Term Name</a>)\n\n'
+    for category in range(0,len(displayOrder)):
+        text += '**' + displayLabel[category] + '**\n'
+        text += '\n'
+        for row in range(0,len(table)):    #no header row
+            if displayOrder[category] == table[row][9]:
+                curieAnchor = table[row][0] + "_" + table[row][2]
+                text += '| [' + table[row][3] + '](#' + curieAnchor + ') |\n'
+        text += '\n'
+    return text
+    
+# ---------------------------------------------------------------------------
 # generate a table for each term, with terms grouped by category
-def buildMarkdown(table):
-    displayOrder = ['http://rs.tdwg.org/dwc/terms/attributes/Management', 'http://rs.tdwg.org/dwc/terms/attributes/Attribution', 'http://purl.org/dc/terms/Agent', 'http://rs.tdwg.org/dwc/terms/attributes/ContentCoverage', 'http://purl.org/dc/terms/Location', 'http://purl.org/dc/terms/PeriodOfTime', 'http://rs.tdwg.org/dwc/terms/attributes/TaxonomicCoverage', 'http://rs.tdwg.org/dwc/terms/attributes/ResourceCreation', 'http://rs.tdwg.org/dwc/terms/attributes/RelatedResources', 'http://rs.tdwg.org/dwc/terms/attributes/ServiceAccessPoint']
-    displayLabel = ['Management Vocabulary', 'Attribution Vocabulary', 'Agents Vocabulary', 'Content Coverage Vocabulary', 'Geography Vocabulary', 'Temporal Coverage Vocabulary', 'Taxonomic Coverage Vocabulary', 'Resource Creation Vocabulary', 'Related Resources Vocabulary', 'Service Access Point Vocabulary']
-    displayId = ['Management_Vocabulary', 'Attribution_Vocabulary', 'Agents_Vocabulary', 'Content_Coverage_Vocabulary', 'Geography_Vocabulary', 'Temporal_Coverage_Vocabulary', 'Taxonomic_Coverage_Vocabulary', 'Resource_Creation_Vocabulary', 'Related_Resources_Vocabulary', 'Service_Access_Point_Vocabulary']
+def buildMarkdown(table, displayOrder, displayLabel, displayId):
 
     # generate the Markdown for the terms table
-    text = ''
+    text = '## <a id="Vocabularies">7 Vocabularies</a>\n'
     for category in range(0,len(displayOrder)):
         text += '### <a id="' + displayId[category] + '">7.' + str(category + 1) + ' ' + displayLabel[category] + '\n'
         text += '\n'
@@ -113,11 +144,10 @@ def buildMarkdown(table):
         for row in range(0,len(table)):    #no header row
             if displayOrder[category] == table[row][9]:
                 curie = table[row][0] + ":" + table[row][2]
-                label = table[row][3]
-                labelAnchor = label.replace(' ','_')
-                text += '| <a id="' + labelAnchor + '"></a><a id="' + curie + '"></a>**Term Name:** | **' + curie + '** |\n'
+                curieAnchor = curie.replace(':','_')
+                text += '| <a id="' + curieAnchor + '"></a>**Term Name:** | **' + curie + '** |\n'
                 text += '| Normative URI: | ' + table[row][1] + table[row][2] + ' |\n'
-                text += '| Label: | ' + label + ' |\n'
+                text += '| Label: | ' + table[row][3] + ' |\n'
                 text += '| | **Layer:** ' + table[row][4] + ' -- **Required:** ' + table[row][5] + ' -- **Repeatable:** ' + table[row][6] + ' |\n'
                 text += '| Definition: | ' + table[row][7] + ' |\n'
                 if table[row][8] != '':
@@ -150,13 +180,24 @@ headerFileName = 'termlist-header.md'
 footerFileName = 'termlist-footer.md'
 outFileName = 'termlist.md'
 
+displayOrder = ['http://rs.tdwg.org/dwc/terms/attributes/Management', 'http://rs.tdwg.org/dwc/terms/attributes/Attribution', 'http://purl.org/dc/terms/Agent', 'http://rs.tdwg.org/dwc/terms/attributes/ContentCoverage', 'http://purl.org/dc/terms/Location', 'http://purl.org/dc/terms/PeriodOfTime', 'http://rs.tdwg.org/dwc/terms/attributes/TaxonomicCoverage', 'http://rs.tdwg.org/dwc/terms/attributes/ResourceCreation', 'http://rs.tdwg.org/dwc/terms/attributes/RelatedResources', 'http://rs.tdwg.org/dwc/terms/attributes/ServiceAccessPoint']
+displayLabel = ['Management Vocabulary', 'Attribution Vocabulary', 'Agents Vocabulary', 'Content Coverage Vocabulary', 'Geography Vocabulary', 'Temporal Coverage Vocabulary', 'Taxonomic Coverage Vocabulary', 'Resource Creation Vocabulary', 'Related Resources Vocabulary', 'Service Access Point Vocabulary']
+displayId = ['Management_Vocabulary', 'Attribution_Vocabulary', 'Agents_Vocabulary', 'Content_Coverage_Vocabulary', 'Geography_Vocabulary', 'Temporal_Coverage_Vocabulary', 'Taxonomic_Coverage_Vocabulary', 'Resource_Creation_Vocabulary', 'Related_Resources_Vocabulary', 'Service_Access_Point_Vocabulary']
+
 termLists = retrieveVocabularyInfo(githubBaseUri)
 
 listMetadata = retrieveTermListMetadata(githubBaseUri)
 
 table = createMasterMetadataTable(termLists, listMetadata)
 
-text = buildMarkdown(table)
+localnameSortedTable = sorted(table, key = lambda term: term[2].lower() ) # perform sort on lowercase of the third column: localNameColumn
+labelSortedTable = sorted(table, key = lambda term: term[3].lower() ) # perform sort on lowercase of the fourth column: labelColumn
+
+indexByName = buildIndexByTermName(localnameSortedTable, displayOrder, displayLabel, displayId)
+indexByLabel = buildIndexByTermLabel(labelSortedTable, displayOrder, displayLabel, displayId)
+termTable = buildMarkdown(localnameSortedTable, displayOrder, displayLabel, displayId)
+
+text = indexByName + indexByLabel + termTable
 
 outputMarkdown(text, headerFileName, footerFileName, outFileName)
 
