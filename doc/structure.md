@@ -2,10 +2,13 @@
 
 # Audubon Core Structure
 
-For introductory material, see the **[Audubon
-Core Introduction](introduction.md)** document.  For term details, see the **[Audubon Core
-Terms List](termlist.md)**
-document.
+For a brief introduction to Audubon Core, see the **[Audubon
+Core Introduction](introduction.md)** document.  
+
+For term details, see the **[Audubon Core Terms List](termlist.md)** document.
+
+For a more detailed guide to the use of Audubon Core, see the **[Audubon
+Core Guide](guide.md)** document.
 
 **Title:** Audubon Core Structure
 
