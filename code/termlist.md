@@ -2,11 +2,9 @@
 
 # Audubon Core Term List
 
-For introductory material, see the **[Audubon Core
-Structure](Audubon_Core_Structure)**
-and the introductory **[Audubon
-Core](Audubon_Core)**
-documents.
+For introductory material, see the **[Audubon
+Core Introduction](introduction.md)** and **[Audubon Core
+Structure](structure.md)** documents.
 
 **Title:** Audubon Core Term List
 
@@ -139,7 +137,7 @@ particular care may be required in some implementations of AC, because
 some implementations may not provide enough structure to clearly state
 the association between the members of a pair in the case of multiple
 values of each. This is a special case of the issue treated in the
-normative material on <a href='https://terms.tdwg.org/wiki/Audubon_Core_Structure#Multiplicity.2FCardinality'>Multiplicity and
+normative material on <a href='structure.md#Multiplicity.2FCardinality'>Multiplicity and
 Cardinality</a>.
 
 
@@ -698,7 +696,7 @@ required values are strings or URIs.
 | Normative URI: | http://purl.org/dc/elements/1.1/rights |
 | Label: | Copyright Statement |
 | | **Layer:** 1 -- **Required:** Yes -- **Repeatable:** No |
-| Definition: | Information about rights held in and over the resource. A full-text, readable copyright statement, as required by the national legislation of the copyright holder. On collections, this applies to all contained objects, unless the object itself has a different statement. Examples: "Copyright XY 2008, all rights reserved", "© 2008 XY Museum", "Public Domain.", "Copyright unknown." Do not place just the name of the copyright holder(s) here! That belongs in a list in the xmpRights:Owner field, which should be supplied if dc:rights is not 'Public Domain', which is appropriate only if the resource is known to be not under copyright. |
+| Definition: | Information about rights held in and over the resource. A full-text, readable copyright statement, as required by the national legislation of the copyright holder. On collections, this applies to all contained objects, unless the object itself has a different statement. Examples: "Copyright XY 2008, all rights reserved", "ï¿½ 2008 XY Museum", "Public Domain.", "Copyright unknown." Do not place just the name of the copyright holder(s) here! That belongs in a list in the xmpRights:Owner field, which should be supplied if dc:rights is not 'Public Domain', which is appropriate only if the resource is known to be not under copyright. |
 | Notes: | This expresses rights over the media resource, not over the metadata text. At least one of dcterms:rights and dc:rights must be supplied but, when feasible, supplying both may make the metadata more widely useful. They must specify the same rights. In case of ambiguity, dcterms:rights prevails. |
 | | |
 | <a id="dcterms_rights"></a>**Term Name:** | **dcterms:rights** |

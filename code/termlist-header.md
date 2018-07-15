@@ -2,11 +2,9 @@
 
 # Audubon Core Term List
 
-For introductory material, see the **[Audubon Core
-Structure](Audubon_Core_Structure)**
-and the introductory **[Audubon
-Core](Audubon_Core)**
-documents.
+For introductory material, see the **[Audubon
+Core Introduction](introduction.md)** and **[Audubon Core
+Structure](structure.md)** documents.
 
 **Title:** Audubon Core Term List
 
@@ -139,7 +137,7 @@ particular care may be required in some implementations of AC, because
 some implementations may not provide enough structure to clearly state
 the association between the members of a pair in the case of multiple
 values of each. This is a special case of the issue treated in the
-normative material on <a href='https://terms.tdwg.org/wiki/Audubon_Core_Structure#Multiplicity.2FCardinality'>Multiplicity and
+normative material on <a href='structure.md#Multiplicity.2FCardinality'>Multiplicity and
 Cardinality</a>.
 
 
