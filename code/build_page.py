@@ -175,7 +175,7 @@ def outputMarkdown(text, headerFileName, footerFileName, outFileName):
 # main routine
 
 # constants
-githubBaseUri = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/split_ac_terms/'
+githubBaseUri = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/master/'
 headerFileName = 'termlist-header.md'
 footerFileName = 'termlist-footer.md'
 outFileName = 'termlist.md'
