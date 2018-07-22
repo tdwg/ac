@@ -30,4 +30,6 @@ To participate in the communication system of the group, "watch" the group's [Is
 
 See http://terms.tdwg.org/wiki/Audubon_Core for links to normative and non-normative documentation.  Audubon Core is an adopted standard of TDWG.
 
+For notes of Maintenance group meetings and other historical documents, see [this page](historical/README.md)
+
 Cite as Morris, Robert A., et al. 2014. Audubon Core Multimedia Resources Metadata Schema, Release 1.0. Biodiversity Information Standards (TDWG)  http://www.tdwg.org/standards/638/

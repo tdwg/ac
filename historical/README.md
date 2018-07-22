@@ -8,6 +8,8 @@ The contents of this folder are items that are primarily of historical interest.
 
 [2018-06-13](2018-06-13-hangout-notes.pdf)
 
+[2018-07-18](2018-07-18-hangout-notes.pdf)
+
 
 **Record of Public Review in 2013 during the standards ratification process:**
 
