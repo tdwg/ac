@@ -53,7 +53,7 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 This is the normative documentation for the [TDWG](http://tdwg.org)
 Audubon Core Multimedia Resources Metadata Standard (Audubon Core, or
-simply AC), During development, it was colloquially known as MRTG, after
+simply AC). During development, it was colloquially known as MRTG, after
 its developers, the GBIF-TDWG Joint Multimedia Resources Metadata Task
 Group. Please see the brief **[Audubon Core Guide](guide.md)** and
 also **[MRTG Development
@@ -151,13 +151,13 @@ repeatability.
 The simplest case is a single repeatable term (e.g.,
 dcterms:identifier). In representations based on an XML Schema that
 permits elements to be repeated such a term may simply be repeated (e.g.
-"...\<dcterms:identifier\>http://example.com/123\</dcterms:identifier\>\<dcterms:identifier\>http://example.com/456\</dcterms:identifier\>...").
+"...<dcterms:identifier\>http://example.com/123</dcterms:identifier\><dcterms:identifier\>http://example.com/456</dcterms:identifier\>...").
 In serializations that do not easily lend themselves to repeatable
 elements (e.g. "flat" schemata with all elements occurring only a single
 time in an otherwise unstructured record) it is possible to define
 separators to support a list of values within a single element (e.g.
-"...\<dcterms:identifier\>http://example.com/123;
-http://example.com/456\</dcterms:identifier\>...").
+"...<dcterms:identifier\>http://example.com/123;
+http://example.com/456</dcterms:identifier\>...").
 
 In certain cases pairs or tuples of properties are repeated. In Audubon
 Core this situation occurs, for example, in the following cases:
@@ -217,7 +217,7 @@ namespace. Namespace recommendations will be made when the normative
 documents are approved.
 
 Where such structure is impossible or undesirable, an alternative
-solution is to to permit only one access point per
+solution is to permit only one access point per
 MEDIA\_METADATA\_CONTAINER, but to repeat the main
 MEDIA\_METADATA\_CONTAINER for a single media resource. This is similar
 to one of the options discussed for multilingual metadata (see [Metadata Language](termlist.md#ac_metadataLanguage)).
