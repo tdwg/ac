@@ -262,7 +262,7 @@ The principal namespace qualifiers for term URIs in this document are
 
   - **Iptc4ampExt** Geographic extensions to IPTC with namespace
     http://iptc.org/std/Iptc4xmpExt/2008-02-29/ documented in
-    http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007\_1.pdf
+    http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf
 
   - **ac:** Terms defined in the normative documentation and not derived
     from other controlled vocabularies. The proposed namespace is
@@ -274,7 +274,7 @@ The principal namespace qualifiers for term URIs in this document are
 
   - **xmpRights:** The Adobe XMP rights vocabulary with namespace at
     http://ns.adobe.com/xap/1.0/rights documented in Section 8.5 of
-    http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/XMPSpecificationPart1.pdf
+    http://www.images.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/XMPSpecificationPart1.pdf
 
 ## <a id="Motivation_and_Rationale">4 Motivation and Rationale</a>
 
@@ -417,13 +417,13 @@ value. While Audubon Core Collection types are richer than NCD types, it
 is an open question whether Audubon Core's variety in this case is
 useful.
 
-There is substantial overlap with use of DarwinCore terms, notably with
+There is substantial overlap with use of Darwin Core terms, notably with
 respect to taxonomic, geographic, and temporal coverage of the data
 being described by the metadata record. We use DwC terms for most of
-those metadata and the entirety of the DarwinCore geolocation vocabulary
+those metadata and the entirety of the Darwin Core geolocation vocabulary
 are included by reference. GPS point locations increasingly common in
 image data created by cameras is easily mapped to the 'verbatim'
-locality terms of DarwinCore.
+locality terms of Darwin Core.
 
 ## <a id="Concerns_Not_Emphasized">7 Concerns Not Emphasized in Other Biodiversity Information Standards</a>
 
@@ -514,7 +514,7 @@ of the way in which those records are rendered into electronic form.
 MRTG intends to publish specifications for such rendering represented
 in, represented in XML constrained by an XML-Schema, and represented in
 plain text as comma separated values (CSV). A simple RDF form at
-http://terms.gbif.org/wiki/Audubon\_Core\_Term\_List\_RDF\_Version is
+http://terms.gbif.org/wiki/Audubon_Core_Term_List_RDF_Version is
 generated programmatically from the normative document. MRTG intends to
 publish more expressive forms of RDF.
 
@@ -593,7 +593,7 @@ version). However, spreadsheets and other flat sources of contributor
 metadata are regarded as particularly important, and in many of these it
 is difficult to represent such structural relationships. Consequently an
 Audubon Core record is itself mainly flat, the exception being the
-object of a property named *hasServiceAccessPoint.* This object itself
+object of a property named *hasServiceAccessPoint*. This object itself
 has further properties that describe how to fetch the actual media
 described by the AC record. One consequence of this is that, for some
 purposes, a metadata Provider might have to make several metadata
@@ -876,17 +876,17 @@ this is a draft
 
 ## <a id="Endnotes">14 Endnotes</a>
 
-1.  http://terms.gbif.org/Audubon\_Core
+1.  http://terms.gbif.org/Audubon_Core
 
-2.  http://terms.gbif.org/Audubon\_Core\_Term\_List
+2.  http://terms.gbif.org/Audubon_Core_Term_List
 
 3.  http://www.w3.org/RDF/
 
 4.  http://www.w3.org/standards/xml/schema
 
-5.  http://en.wikipedia.org/wiki/Comma-separated\_values
+5.  http://en.wikipedia.org/wiki/Comma-separated_values
 
-6.  http://www.tdwg.org/fileadmin/subgroups/ncd/NCD\_090.doc
+6.  http://www.tdwg.org/fileadmin/subgroups/ncd/NCD_090.doc
 
 7.  http://rs.tdwg.org/dwc/terms/
 
@@ -896,7 +896,7 @@ this is a draft
     http://www.metadataworkinggroup.org/) is an industry consortium
     (Adobe, Apple, Canon, Microsoft, Nokia, and Sony) organized to
     specify how to exploit the Adobe Extensible Metadata Platform, XMP
-    (http://en.wikipedia.org/wiki/Extensible\_Metadata\_Platform) for
+    (http://en.wikipedia.org/wiki/Extensible_Metadata_Platform) for
     embedding into common image file formats metadata in several widely
     used controlled vocabularies. Although MWG's thrust is mainly toward
     consumer applications, over two dozen open source and commercial
