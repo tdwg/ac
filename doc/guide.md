@@ -3,14 +3,6 @@
 
 # Audubon Core Guide
 
-For a brief introduction to Audubon Core, see the **[Audubon
-Core Introduction](introduction.md)** document.  
-
-For information about the structure of Audubon Core, see the **[Audubon
-Core Structure](structure.md)** document.  
-
-For term details, see the **[Audubon Core Terms List](termlist.md)** document.
-
 **Title:** Audubon Core Guide
 
 **Date version issued:** 2013-10-15
@@ -36,6 +28,7 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 ## Table of Contents
 
 <a href='#Introduction'>1 Introduction</a><br/>
+<a href='#Status'>1.1 Status of the content of this document</a><br/>
 <a href='#Summary'>2 Summary</a><br/>
 <a href='#Audubon_Core_Terms'>3 Audubon Core Terms</a><br/>
 <a href='#Motivation_and_Rationale'>4 Motivation and Rationale</a><br/>
@@ -48,6 +41,8 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 <a href='#Further_Information'>11 Further Information</a><br/>
 <a href='#Appendix_Glossary'>12 Appendix I: Glossary</a><br/>
 <a href='#Appendix_History'>13 Appendix II: Audubon Core Development History</a><br/>
+<a href='#Timeline'>13.1 Timeline</a><br/>
+<a href='#Revision_history'>13.2 Document revision history</a><br/>
 <a href='#Endnotes'>14 Endnotes</a><br/>
 
 
@@ -55,62 +50,15 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 The Audubon Core Multimedia Resources Metadata Schema (Audubon Core) is a data standard for exchanging data describing biodiversity multimedia
 resources and collections produced by the GBIF/TDWG joint Multimedia
-Resources Metadata Task Group (MRTG)
-
-Participants in drafting the proposed schema (in alphabetical order)
-
-  - Mr. Mihail-Constantin Carausu, Danish Biodiversity Information
-    Facility (DanBIF), Copenhagen, Denmark
-
-  - Dr. Vishwas Chavan, Global Biodiversity Information Facility,
-    Copenhagen, Denmark
-
-  - Mr. Chris Freeland, Missouri Botanical Garden, St. Louis, USA
-
-  - Dr. Gregor Hagedorn, JKI, Federal Research Institute for Cultivated
-    Plants, Berlin, Germany
-
-  - Prof. Robert A. Morris, University of Massachusetts at Boston, USA
-
-  - Dr. Dimitry Mozzherin, Encyclopedia of Life, Woods Hole, USA
-
-  - Dr Annette Olson, American Association for the Advancement of
-    Science
-
-  - Prof. Greg Riccardi, Florida State University, Tallahassee, USA
-
-  - Dr. Éamonn Ó Tuama, Global Biodiversity Information Facility,
-    Copenhagen, Denmark
-
-Note: This non-normative document provides some background to the aims
-and uses of the standard. The actual standard may be found on the
-Audubon Core Normative Discussion Website at
-http://terms.gbif.org/wiki/AudubonCore, following the link to *Current
-Schema*.
+Resources Metadata Task Group (MRTG).  The standard consists of four documents.  This document is a guide to the aims and uses of the standard. The **[Audubon
+Core Introduction](introduction.md)** document provides a brief introduction to the Audubon Core Standard. For detailed information about the structure of Audubon Core, see the **[Audubon Core Structure](structure.md)** document.  For term details, see the **[Audubon Core Terms List](termlist.md)** document.
 
 Acronyms and named institutions and projects are listed in a Glossary in
 Appendix I.
 
-The Audubon Core Multimedia Resources Metadata Schema (Audubon Core) standard is the culmination of work on multimedia
-resource descriptions carried out by Key to Nature, the NBII Digital
-Image Library, Morphbank, and others, together with input from a number
-of other stakeholder communities including Encyclopedia of Life (EOL),
-the Biodiversity Heritage Library (BHL) and the University of
-Massachusetts-Boston. The Global Biodiversity Information Facility
-(GBIF) commissioned the ‘Multimedia Resources Task Group (MRTG)’ in
-March 2008 and the group was approved in December 2009 by Biodiversity
-Information Standards (TDWG) as the ‘Joint GBIF-TDWG Task Group on
-Multimedia Resources in Biodiversity’.
+### <a id="Status">1.1 Status of the content of this document</a>
 
-The standard was developed by the Joint Task Group to fit with the suite
-of standards-based data management resources being developed by GBIF.
-
-Funding was provided by the Global Biodiversity Information Facility.
-
-Grateful thanks go to Woods Hole Marine Biological Laboratory and the
-Encyclopedia of Life for hosting one of the meetings. This document,
-including some narrative is adapted from a corresponding document
-produced by the TDWG Natural Collections Descriptions (NCD) task group.
+All sections of this document are non-normative.  
 
 ## <a id="Summary">2 Summary</a>
 
@@ -746,6 +694,53 @@ this standard allows mapping between them.
 
 ## <a id="Appendix_History">13 Appendix II: Audubon Core Development History</a>
 
+The Audubon Core Multimedia Resources Metadata Schema (Audubon Core) standard is the culmination of work on multimedia
+resource descriptions carried out by Key to Nature, the NBII Digital
+Image Library, Morphbank, and others, together with input from a number
+of other stakeholder communities including Encyclopedia of Life (EOL),
+the Biodiversity Heritage Library (BHL) and the University of
+Massachusetts-Boston. The Global Biodiversity Information Facility
+(GBIF) commissioned the ‘Multimedia Resources Task Group (MRTG)’ in
+March 2008 and the group was approved in December 2009 by Biodiversity
+Information Standards (TDWG) as the ‘Joint GBIF-TDWG Task Group on
+Multimedia Resources in Biodiversity’.
+
+Participants in drafting the schema (in alphabetical order)
+
+  - Mr. Mihail-Constantin Carausu, Danish Biodiversity Information
+    Facility (DanBIF), Copenhagen, Denmark
+
+  - Dr. Vishwas Chavan, Global Biodiversity Information Facility,
+    Copenhagen, Denmark
+
+  - Mr. Chris Freeland, Missouri Botanical Garden, St. Louis, USA
+
+  - Dr. Gregor Hagedorn, JKI, Federal Research Institute for Cultivated
+    Plants, Berlin, Germany
+
+  - Prof. Robert A. Morris, University of Massachusetts at Boston, USA
+
+  - Dr. Dimitry Mozzherin, Encyclopedia of Life, Woods Hole, USA
+
+  - Dr Annette Olson, American Association for the Advancement of
+    Science
+
+  - Prof. Greg Riccardi, Florida State University, Tallahassee, USA
+
+  - Dr. Éamonn Ó Tuama, Global Biodiversity Information Facility,
+    Copenhagen, Denmark
+
+The standard was developed by the Joint Task Group to fit with the suite of standards-based data management resources being developed by GBIF.
+
+Funding was provided by the Global Biodiversity Information Facility.
+
+Grateful thanks go to Woods Hole Marine Biological Laboratory and the
+Encyclopedia of Life for hosting one of the meetings. This document,
+including some narrative is adapted from a corresponding document
+produced by the TDWG Natural Collections Descriptions (NCD) task group.
+
+### <a id="Timeline">13.1 Timeline
+
 2006, November TDWG Image Interest Group initiated
 
 2008, March GBIF commissions Multimedia Resources Task Group (MRTG)
@@ -788,7 +783,7 @@ for permission to have public comment.
 January-November 2012 Further preparation for submission for permission
 to have public comment
 
-**Document revision history**
+### <a id="Revision_history">13.2 Document revision history
 
 0.7v1
 

@@ -2,14 +2,6 @@
 
 # Audubon Core Structure
 
-For a brief introduction to Audubon Core, see the **[Audubon
-Core Introduction](introduction.md)** document.  
-
-For term details, see the **[Audubon Core Terms List](termlist.md)** document.
-
-For a more detailed guide to the use of Audubon Core, see the **[Audubon
-Core Guide](guide.md)** document.
-
 **Title:** Audubon Core Structure
 
 **Date version issued:** 2013-10-23
@@ -45,27 +37,44 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 ## Table of Contents
 
 <a href='#Introduction'>1 Introduction</a><br/>
+<a href='#Status'>1.1 Status of the content of this document</a><br/>
 <a href='#Terminology_of_this_specification'>2 Terminology of this specification</a><br/>
 <a href='#Multiplicity.2FCardinality'>3 Multiplicity/Cardinality</a><br/>
+<a href='#Structured_serializations'>3.1 Structured serializations</a><br/>
+<a href='#Nested_XML'>3.1.1 Nested XML structure example (non-normative)</a><br/>
+<a href='#XML_by_reference'>3.1.2 XML reference by identifier example (non-normative)</a><br/>
+<a href='#Repeated_XML'>3.1.3 Repeated container element XML example (non-normative)</a><br/>
+<a href='#Tabular_serializations'>3.2 Tabular serializations</a><br/>
+<a href='#Separate_row_table'>3.2.1 Example of a table with each service access point in a separate row (non-normative)</a><br/>
+<a href='#Same_row_table'>3.2.2 Example of a table with metadata for all service access points in the same row (non-normative)</a><br/>
 <a href='#Lists_of_plain_text_values'>4 Lists of plain text values</a><br/>
 
 ## <a id="Introduction">1 Introduction</a>
 
-This is the normative documentation for the [TDWG](http://tdwg.org)
+This documentation describes the structure of the [TDWG](http://tdwg.org)
 Audubon Core Multimedia Resources Metadata Standard (Audubon Core, or
-simply AC). During development, it was colloquially known as MRTG, after
+simply AC).
+
+**If you are unfamiliar with the Audubon Core, *please* read the
+[Audubon Core Introduction](introduction.md) before
+reading this document.** The introduction lays out why there is perceived a need for a
+biodiversity media resource metadata schema, and how the standard
+attempts to use existing metadata standards where
+possible.
+
+For term details, see the **[Audubon Core Terms List](termlist.md)** document and for a more detailed guide to the use of Audubon Core, see the **[Audubon
+Core Guide](guide.md)** document.
+
+During development, Audubon core was colloquially known as MRTG, after
 its developers, the GBIF-TDWG Joint Multimedia Resources Metadata Task
-Group. Please see the brief **[Audubon Core Guide](guide.md)** and
+Group. Please see the **[Audubon Core Guide](guide.md)** and
 also **[MRTG Development
 History](http://www.keytonature.eu/wiki/MRTG_Development_History)** for
 the development history in detail.
 
-**If you are unfamiliar with the Audubon Core, *please* read the
-[Audubon Core Introduction](introduction.md) before
-reading this page.** It lays out why there is perceived a need for a
-biodiversity media resource metadata schema, and how the standard
-attempts to use existing metadata standards where
-possible.
+### <a id="Status">1.1 Status of the content of this document</a>
+
+Sections 2 through 4 of this document are normative except for example sections, which are labeled as non-normative.  
 
 ## <a id="Terminology_of_this_specification">2 Terminology of this specification</a>
 
@@ -180,9 +189,17 @@ Core this situation occurs, for example, in the following cases:
     resource, and the review text itself in [Reviewer Comments](termlist.md#ac_Reviewer_Comments)
     are desirable to store as pairs.
 
+### <a id="Structured_serializations">3.1 Structured serializations</a>
+
 Many serialization languages provide sufficiently structured forms to
-deal with repeated terms unambiguously. For example, in XML might define
-a container element and use a nesting structure something like this:
+deal with repeated terms unambiguously. In XML, we might define
+a container element and use a nesting structure as in Section 3.2.  Alternatively, in XML we may reference access points by identifier as in Section 3.3.  Where such structures are impossible or undesirable, an alternative
+solution is to permit only one access point per
+container element, but to repeat the container element for a single media resource, as shown in section 3.4. This is similar
+to one of the options discussed for multilingual metadata (see [Metadata Language](termlist.md#ac_metadataLanguage)).
+
+
+### <a id="Nested_XML">3.1.1 Nested XML structure example (non-normative)</a>
 
     <MEDIA_METADATA_CONTAINER>
       <dcterms:identifier>http//:example.com/pictures/thePicture.jpg</dcterms:identifier>
@@ -197,7 +214,7 @@ a container element and use a nesting structure something like this:
       </ac:hasServiceAccessPoint>
     <MEDIA_METADATA_CONTAINER>
 
-Another example may reference access points by identifier:
+### <a id="XML_by_reference">3.1.2 XML reference by identifier example (non-normative)</a>
 
     <MEDIA_METADATA_CONTAINER>
       <dcterms:identifier>http://example.com/pictures/thePicture.jpg</dcterms:identifier>
@@ -212,16 +229,9 @@ Another example may reference access points by identifier:
       ...
     <MEDIA_METADATA_CONTAINER>
 
-Note: ac-classes:ServiceAccessPoint a prefix of an illustrative
-namespace. Namespace recommendations will be made when the normative
-documents are approved.
+Note: ac-classes:ServiceAccessPoint is a made-up term for the Service Access Point class.  An official term may be designated at some future time.
 
-Where such structure is impossible or undesirable, an alternative
-solution is to permit only one access point per
-MEDIA\_METADATA\_CONTAINER, but to repeat the main
-MEDIA\_METADATA\_CONTAINER for a single media resource. This is similar
-to one of the options discussed for multilingual metadata (see [Metadata Language](termlist.md#ac_metadataLanguage)).
-An example in XML for this:
+### <a id="Repeated_XML">3.1.3 Repeated container element XML example (non-normative)</a>
 
     <MEDIA_METADATA_CONTAINER>
       <dcterms:identifier>http//:example.com/pictures/thePicture.jpg</dcterms:identifier>
@@ -237,8 +247,26 @@ An example in XML for this:
       ...
     <MEDIA_METADATA_CONTAINER>
 
-The same example as a spreadsheet-like
-table:
+### <a id="Tabular_serializations">3.2 Tabular serializations</a>
+
+The same data as in examples 3.2 through 3.4 can be serialized as a "flat" spreadsheet-like
+table.  
+
+In the example of Section 3.6, only the required identifier is repeated, but not
+the title field. Whether to repeat all fields or whether to provide all
+fields only in the first record, limiting later records to the
+identifier and the service access point properties, is left to specific
+implementations. In the example of Section 3.6, the ac:hasServiceAccessPoint property is suppressed
+as unnecessary.
+
+Another approach also eliminates the need for the ac:hasServiceAccessPoint property when
+flattening the ac structure. It is based on introducing new terms
+exploiting values of the [ac:variantLiteral](termlist.md#ac_variantLiteral):
+"Thumbnail", "Trailer", "Lower Quality", "Medium Quality", "Good
+Quality", "Best Quality", "Offline", as prefixes for additional
+properties in a new namespace.
+
+### <a id="Separate_row_table">3.2.1 Example of a table with each service access point in a separate row (non-normative)</a>
 
 |                                            |                   |                |                    |                                                 |
 | ------------------------------------------ | ----------------- | -------------- | ------------------ | ----------------------------------------------- |
@@ -247,23 +275,14 @@ table:
 | http://example.com/pictures/thePicture.jpg |                   | Best Quality   | png                | http://example.com/fullres/thePicture-hires.png |
 | http://example.com/pictures/thePicture.jpg |                   | Thumbnail      | png                | http://example.com/thumbs/thePicture-thumb.png  |
 
-In the example above, only the required identifier is repeated, but not
-the title field. Whether to repeat all fields or whether to provide all
-fields only in the first record, limiting later records to the
-identifier and the service access point properties, is left to specific
-implementations. In the example, hasAccessPoint property is suppressed
-as unnecessary. Another approach reduces the need for the property when
-flattening the ac structure. It is based on introducing new terms
-exploiting values of the [ac:variantLiteral](termlist.md#ac_variantLiteral):
-"Thumbnail", "Trailer", "Lower Quality", "Medium Quality", "Good
-Quality", "Best Quality", "Offline", as prefixes for additional
-properties in a new namespace, say acf (Audubon Core
-Flat):
+### <a id="Same_row_table">3.2.2 Example of a table with metadata for all service access points in the same row (non-normative)</a>
 
 |                                       |                   |                                     |                         |                             |                              |                              |                           |                               |                                |                              |                           |                               |                                |
 | ------------------------------------- | ----------------- | ----------------------------------- | ----------------------- | --------------------------- | ---------------------------- | ---------------------------- | ------------------------- | ----------------------------- | ------------------------------ | ---------------------------- | ------------------------- | ----------------------------- | ------------------------------ |
 | **dcterms:identifier**                | **dcterms:title** | **acf:thumbnailAccessURI**          | **acf:thumbnailFormat** | **acf:thumbnailImageWidth** | **acf:thumbnailImageHeight** | **acf:goodQualityAccessURI** | **acf:goodQualityFormat** | **acf:goodQualityImageWidth** | **acf:goodQualityImageHeight** | **acf:bestQualityAccessURI** | **acf:bestQualityFormat** | **acf:bestQualityImageWidth** | **acf:bestQualityImageHeight** |
 | http://ex.com/pictures/thePicture.jpg | A red beech leaf  | http://example.com/thumb/thePic.jpg | image/jpeg              | 100                         | 100                          | http://ex.com/img/thePic.jpg | image/jpeg                | 1000                          | 1000                           | http://ex.com/hr/thePic.png  | image/png\</nowiki\>      | 10000                         | 10000                          |
+
+Note: acf: (for "Audubon Core Flat") is a made-up namespace.  Communities of interest might mint such terms in order to use this kind of structure.
 
 ## <a id="Lists_of_plain_text_values">4 Lists of plain text values</a>
 

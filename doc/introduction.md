@@ -3,14 +3,6 @@
 
 # Audubon Core Introduction
 
-For information about the structure of Audubon Core, see the **[Audubon
-Core Structure](structure.md)** document.  
-
-For term details, see the **[Audubon Core Terms List](termlist.md)** document.
-
-For a more detailed guide to the use of Audubon Core, see the **[Audubon
-Core Guide](guide.md)** document.
-
 **Title:** Audubon Core Introduction
 
 **Date version issued:** 2013-10-23
@@ -44,11 +36,23 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 ## Table of Contents
 
 <a href='#Introduction'>1 Introduction</a><br/>
-<a href='#Audubon_Core_Terms'>2 Audubon Core Terms</a><br/>
+<a href='#Status'>1.1 Status of the content of this document</a><br/>
+<a href='#Scope'>1.2 The scope of Audubon Core</a><br/>
+<a href='#Audubon_Core_Terms'>2 Audubon Core terms</a><br/>
 <a href='#Implementations'>3 Implementations</a><br/>
 <a href='#References'>4 References</a><br/>
 
 ## <a id="Introduction">1 Introduction</a>
+
+There are four documents included in the Aububon Core Standard.  This document provides a general introduction to the Audubon Core Standard.  
+For information about the structure of Audubon Core, see the **[Audubon
+Core Structure](structure.md)** document.  For term details, see the **[Audubon Core Terms List](termlist.md)** document.  For a more detailed guide to the use of Audubon Core, see the **[Audubon Core Guide](guide.md)** document.
+
+### <a id="Status">1.1 Status of the content of this document</a>
+
+All sections of this document are non-normative.  
+
+### <a id="Scope">1.2 The scope of Audubon Core</a>
 
 The Audubon Core Multimedia Resources Metadata schema (“AC schema”, or
 simply “AC”) is a set of metadata vocabularies for describing
@@ -88,7 +92,7 @@ associated with Multimedia Resources: The Audubon Core Strategies and
 Approaches.](https://journals.ku.edu/index.php/jbi/article/view/4117) R.
 Morris et al., *Biodiversity Informatics,* 8, jul. 2013.
 
-## <a id="Audubon_Core_Terms">2 Audubon Core Terms</a>
+## <a id="Audubon_Core_Terms">2 Audubon Core terms</a>
 
 An Audubon Core record is a description of a multimedia resource using
 the [Audubon Core terms](termlist.md). Two kinds
@@ -144,26 +148,23 @@ to the same place.
 
 ## <a id="Implementations">3 Implementations</a>
 
-The normative **[AC Term List](termlist.md)** and
+The **[AC Term List](termlist.md)** and
 **[Audubon Core Structure](structure.md)**
 documents represent a *data model.* For actual use of Audubon Core, it
 is necessary to select an implementation, preferably one with some
-status designated by [TDWG](http://www.tdwg.org/). A list of known
-implementations is at **[Audubon Core
-Implementations](https://terms.tdwg.org/wiki/Audubon_Core_Implementations)**
+status designated by [TDWG](http://www.tdwg.org/). Known
+implementations will be listed in ancillary documents not included as part of the Audubon Core standard.
 
 ## <a id="References">4 References</a>
 
 |                                                                                              |                                                                     |                                                |
 | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------- |
-| [\[ACISS](https://github.com/tdwg/ac/issues)\]                                               | <https://github.com/tdwg/ac/issues>                                 | AC issue tracker                               |
-| [\[DCMIU](http://wiki.dublincore.org/index.php/User_Guide)\]                                 | <http://wiki.dublincore.org/index.php/User_Guide>                   | Dublin Core User Guide                         |
-| [\[DWCCP](http://rs.tdwg.org/dwc/terms/namespace/index.htm#classesofchanges)\]               | <http://rs.tdwg.org/dwc/terms/namespace/index.htm#classesofchanges> | Darwin Core change policy; also followed by AC |
-| [\[IMPLS\]](/wiki/Audubon_Core_Implementations "Audubon Core Implementations")               | <http://terms.tdwg.org/wiki/Audubon_Core_Implementations>           | Known AC implementations                       |
-| [\[STRCT\]](/wiki/Audubon_Core_Structure "Audubon Core Structure")                           | <http://terms.tdwg.org/wiki/Audubon_Core_Structure>                 | Normative introduction to AC structure         |
-| [\[TERMS\]](/wiki/Audubon_Core_Term_List "Audubon Core Term List")                           | <http://terms.tdwg.org/wiki/Audubon_Core_Term_List>                 | Normative Term List                            |
-| [\[OFFLN\]](/wiki/Audubon_Core_Non_Normative_Document "Audubon Core Non Normative Document") | <http://terms.tdwg.org/wiki/Audubon_Core_Non_Normative_Document>    | Non-normative AC documents                     |
-| [\[RDFAC\]](/wiki/Audubon_Core_Term_List_RDF_Version "Audubon Core Term List RDF Version")   | <http://terms.tdwg.org/wiki/Audubon_Core_Term_List_RDF_Version>     | Example simple RDF Implementation              |
+| [\[ACISS\]](https://github.com/tdwg/ac/issues)                                               | <https://github.com/tdwg/ac/issues>                                 | AC issue tracker                               |
+| [\[CHANGE\]](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#3-change-process)               | <http://rs.tdwg.org/vms/doc/specification/#3-change-process> | TDWG vocabulary change policy |
+| [\[DCMIU\]](http://wiki.dublincore.org/index.php/User_Guide)                                 | <http://wiki.dublincore.org/index.php/User_Guide>                   | Dublin Core User Guide                         |
+| [\[GUIDE\]](guide.md) | <http://rs.tdwg.org/ac/doc/guide/>    | AC User Guide                     |
+| [\[STRCT\]](structure.md)                           | <http://rs.tdwg.org/ac/doc/structure/>                 | Introduction to AC structure         |
+| [\[TERMS\]](termlist.md)                           | <http://rs.tdwg.org/ac/doc/termlist/>                 | AC Term List                            |
 
 -----------------
 This document is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). ![http://creativecommons.org/licenses/by/4.0/](https://licensebuttons.net/l/by/4.0/88x31.png).
