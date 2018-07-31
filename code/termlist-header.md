@@ -1,4 +1,6 @@
-<a id="top"></a>
+---
+permalink: termlist-header
+---
 
 # Audubon Core Term List
 
@@ -47,28 +49,48 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 ## Table of Contents
 
-<a href='#Introduction'>1 Introduction</a><br/>
-<a href='#Borrowed_Vocabulary'>2 Borrowed Vocabulary</a><br/>
-<a href='#Namespaces.2C_Prefixes_and_Term_Names'>3 Namespaces, Prefixes and Term Names</a><br/>
-<a href='#Layers'>4 Layers</a><br/>
-<a href='#Literal-_vs._URI-valued_Terms'>5 Literal- vs. URI-valued Terms</a><br/>
-<a href='#Vocabulary_Indices'>6 Vocabulary Indices</a><br/>
-<a href='#Index_By_Term_Name'>6.1 Index By Term Name</a><br/>
-<a href='#Index_By_Label'>6.2 Index By Label</a><br/>
-<a href='#Vocabularies'>7 Vocabularies</a><br/>
-<a href='#Management_Vocabulary'>7.1 Management Vocabulary</a><br/>
-<a href='#Attribution_Vocabulary'>7.2 Attribution Vocabulary</a><br/>
-<a href='#Agents_Vocabulary'>7.3 Agents Vocabulary</a><br/>
-<a href='#Content_Coverage_Vocabulary'>7.4 Content Coverage Vocabulary</a><br/>
-<a href='#Geography_Vocabulary'>7.5 Geography Vocabulary</a><br/>
-<a href='#Temporal_Coverage_Vocabulary'>7.6 Temporal Coverage Vocabulary</a><br/>
-<a href='#Taxonomic_Coverage_Vocabulary'>7.7 Taxonomic Coverage Vocabulary</a><br/>
-<a href='#Resource_Creation_Vocabulary'>7.8 Resource Creation Vocabulary</a><br/>
-<a href='#Related_Resources_Vocabulary'>7.9 Related Resources Vocabulary</a><br/>
-<a href='#Service_Access_Point_Vocabulary'>7.10 Service Access Point Vocabulary</a><br/>
-<a href='#References'>8 References</a><br/>
+[1 Introduction](#1-introduction)
 
-## <a id="Introduction">1 Introduction</a>
+[2 Borrowed Vocabulary](#2-borrowed-vocabulary)
+
+[3 Namespaces, Prefixes and Term Names](#3-namespaces-prefixes-and-term-names)
+
+[4 Layers](#4-layers)
+
+[5 Literal- vs. URI-valued Terms](#5-literal--vs-uri-valued-terms)
+
+[6 Vocabulary Indices](#vocabulary-indices)
+
+[6.1 Index By Term Name](#61-index-by-term-name)
+
+[6.2 Index By Label](#62-index-by-label)
+
+[7 Vocabularies](#7-vocabularies)
+
+[7.1 Management Vocabulary](71-management-vocabulary)
+
+[7.2 Attribution Vocabulary](72-attribution-vocabulary)
+
+[7.3 Agents Vocabulary](73-agents-vocabulary)
+
+[7.4 Content Coverage Vocabulary](74-content-coverage)
+
+[7.5 Geography Vocabulary](75-geography-vocabulary)
+
+[7.6 Temporal Coverage Vocabulary](76-temporal-coverage-vocabulary)
+
+[7.7 Taxonomic Coverage Vocabulary](77-taxonomic-coverage-vocabulary)
+
+[7.8 Resource Creation Vocabulary](78-resource-creation-vocabulary)
+
+[7.9 Related Resources Vocabulary](79-related-resource-vocabulary)
+
+[7.10 Service Access Point Vocabulary](710-service-access-point-Vocabulary)
+
+[8 References](8-references)
+
+
+## 1 Introduction
 
 An Audubon Core (AC) record is a description of a multimedia resource
 using the AC vocabularies. Two kinds of terms are specified by this
@@ -85,8 +107,7 @@ may provide several access points for different representations (e.g.,
 different resolutions).
 
 
-
-## <a id="Borrowed_Vocabulary">2 Borrowed Vocabulary</a>
+## 2 Borrowed Vocabulary
 
 When terms are borrowed from other vocabularies, AC uses the URIs,
 common abbreviations, and namespace prefixes in use in those
@@ -102,8 +123,7 @@ term table entries will bring the reader to appropriate documentation of
 those organizations.
 
 
-
-## <a id="Namespaces.2C_Prefixes_and_Term_Names">3 Namespaces, Prefixes and Term Names</a>
+## 3 Namespaces, Prefixes and Term Names
 
 The namespace of terms borrowed from other vocabularies is that of the
 original. The namespace of de novo AC terms is
@@ -112,37 +132,28 @@ a row with the term name. This term name is generally an "unqualified
 name" preceded by a widely accepted prefix designating an abbreviation
 for the namespace It is recommended that implementers who need a
 namespace prefix for the AC namespace use "ac". In this web document,
-hovering over a term in the **<a href='#Index_By_Term_Name'>Index By Term
-Name</a>**
+hovering over a term in the [Index By Term Name](#Index_By_Term_Name)
 list below will reveal a complete URL that can be used in other web
 documents to link to *this* document's treatment of that term, even if
 it is from a borrowed vocabulary. It is very important to note that some
 vocabularies, e.g those of the
-<a href='http://dublincore.org/'>Dublin Core Metadata Initiative (DCMI)</a>,
-provide version of the same term in two different namespaces, one
+[Dublin Core Metadata Initiative (DCMI)](http://dublincore.org/),
+provide versions of the same term in two different namespaces, one
 providing for string values and one providing for URIs, even where that
 separation is simply a recommendation, not a mandate. See this
-**<a href='http://wiki.dublincore.org/index.php/FAQ/DC_and_DCTERMS_Namespaces'>DCMI wiki entry</a>**
+[DCMI wiki entry](http://wiki.dublincore.org/index.php/FAQ/DC_and_DCTERMS_Namespaces)
 on this topic. For vocabularies where such a practice is in place, we
 often follow it and signal a reference in the Notes of our term
 descriptions to the sister version of the term. An example is the pair
-<a href='#dc:type'>dc:type</a>
-and
-<a href='#dcterms:type'>dcterms:type</a>.
-When such a pair allows repeated instances (e.g. as for
-<a href='#dc:source'>dc:source</a>
-and
-<a href='#dcterms:source'>dcterms:source</a>),
+[dc:type](#dc:type) and [dcterms:type](#dcterms:type). When such a pair allows repeated instances (e.g. as for [dc:source](#dc:source) and [dcterms:source](#dcterms:source)),
 particular care may be required in some implementations of AC, because
 some implementations may not provide enough structure to clearly state
 the association between the members of a pair in the case of multiple
 values of each. This is a special case of the issue treated in the
-normative material on <a href='structure.md#Multiplicity.2FCardinality'>Multiplicity and
-Cardinality</a>.
+normative material on [Multiplicity and Cardinality](structure.md#3-multiplicitycardinality).
 
 
-
-## <a id="Layers">4 Layers</a>
+## 4 Layers
 
 The term set consists of two *Layers*, numbered *1* and *2*. The former
 comprise the central terms, likely to be meaningful for most media, even
@@ -155,8 +166,7 @@ descriptions. Each term description below indicates the Layer to which
 the term belongs.
 
 
-
-## <a id="Literal-_vs._URI-valued_Terms">5 Literal- vs. URI-valued Terms</a>
+## 5 Literal- vs. URI-valued Terms
 
 Some terms have two versions, one expecting a string literal value and
 the other a URI. In these circumstances, the version expecting a string
@@ -169,4 +179,4 @@ required values are strings or URIs.
 
 
 
-## <a id="Vocabulary_Indices">6 Vocabulary Indices</a>
+## 6 Vocabulary Indices
