@@ -8,7 +8,7 @@
     Nature http://www.keytonature.eu/wiki/Subject_Category
 
 3.  <a href='cite_note-3'></a>BioComplexity Thesaurus
-    http://thesaurus.nbii.gov
+    https://www2.usgs.gov/core_science_systems/csas/biocomplexity_thesaurus/
 
 4.  <a href='cite_note-4'></a>GBIF Description Types
     http://rs.gbif.org/vocabulary/gbif/description_type.xml
@@ -17,7 +17,7 @@
     http://rs.tdwg.org/ontology/voc/SPMInfoItems.rdf
 
 6.  <a href='cite_note-6'></a>Plinian Core
-    http://www.gbif.es/plinian/doku.php
+    https://github.com/PlinianCore/Documentation/wiki/About
 
 7.  <a href='cite_note-7'></a>GEMET
     http://www.eionet.europa.eu/gemet
