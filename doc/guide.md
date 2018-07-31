@@ -1,6 +1,3 @@
-
-<a id="top"></a>
-
 # Audubon Core Guide
 
 **Title:** Audubon Core Guide
@@ -27,40 +24,58 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 ## Table of Contents
 
-<a href='#Introduction'>1 Introduction</a><br/>
-<a href='#Status'>1.1 Status of the content of this document</a><br/>
-<a href='#Summary'>2 Summary</a><br/>
-<a href='#Audubon_Core_Terms'>3 Audubon Core Terms</a><br/>
-<a href='#Motivation_and_Rationale'>4 Motivation and Rationale</a><br/>
-<a href='#Existing_Standards'>5 Existing Standards</a><br/>
-<a href='#Common_Concerns'>6 Common Concerns with Other Biodiversity Information Standards</a><br/>
-<a href='#Concerns_Not_Emphasized'>7 Concerns Not Emphasized in Other Biodiversity Information Standards</a><br/>
-<a href='#Multimedia_Resource_Descriptions'>8 Multimedia Resource Descriptions</a><br/>
-<a href='#Audubon_Core_Records'>9 Audubon Core Records</a><br/>
-<a href='#Implementation_and_Compliance'>10 Implementation and Compliance</a><br/>
-<a href='#Further_Information'>11 Further Information</a><br/>
-<a href='#Appendix_Glossary'>12 Appendix I: Glossary</a><br/>
-<a href='#Appendix_History'>13 Appendix II: Audubon Core Development History</a><br/>
-<a href='#Timeline'>13.1 Timeline</a><br/>
-<a href='#Revision_history'>13.2 Document revision history</a><br/>
-<a href='#Endnotes'>14 Endnotes</a><br/>
+[1 Introduction](#1-introduction)
+
+[1.1 Status of the content of this document](#status-of-the-content-of-this-document)
+
+[2 Summary](#2-summary)
+
+[3 Audubon Core Terms](#3-audubon-core-terms)
+
+[4 Motivation and Rationale](#4-motivation-and-rationale)
+
+[5 Existing Standards](#5-existing-standards)
+
+[6 Common Concerns with Other Biodiversity Information Standards](#6-common-concerns-with-other-biodiversity-information-standards)
+
+[7 Concerns Not Emphasized in Other Biodiversity Information Standards](#7-concerns-not-emphasized-in-other-biodiversity-information-standards)
+
+[8 Multimedia Resource Descriptions](#8-multimedia-resource-descriptions)
+
+[9 Audubon Core Records](#9-audubon-core-records)
+
+[10 Implementation and Compliance](#10-implementation-and-compliance)
+
+[11 Further Information](#11-further-information)
+
+[12 Appendix I: Glossary](#appendix-i-glossary)
+
+[13 Appendix II: Audubon Core Development History](#appendix-ii-audubon-core-development-history)
+
+[13.1 Timeline](#131-timeline)
+
+[13.2 Document revision history](#132-document-revision-history)
+
+[14 Endnotes](#14-endnotes)
 
 
-## <a id="Introduction">1 Introduction</a>
+## 1 Introduction
 
 The Audubon Core Multimedia Resources Metadata Schema (Audubon Core) is a data standard for exchanging data describing biodiversity multimedia
 resources and collections produced by the GBIF/TDWG joint Multimedia
-Resources Metadata Task Group (MRTG).  The standard consists of four documents.  This document is a guide to the aims and uses of the standard. The **[Audubon
-Core Introduction](introduction.md)** document provides a brief introduction to the Audubon Core Standard. For detailed information about the structure of Audubon Core, see the **[Audubon Core Structure](structure.md)** document.  For term details, see the **[Audubon Core Terms List](termlist.md)** document.
+Resources Metadata Task Group (MRTG).  The standard consists of four documents.  This document is a guide to the aims and uses of the standard. The [Audubon
+Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For detailed information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For term details, see the [Audubon Core Terms List](termlist.md) document.
 
 Acronyms and named institutions and projects are listed in a Glossary in
 Appendix I.
 
-### <a id="Status">1.1 Status of the content of this document</a>
+
+### 1.1 Status of the content of this document
 
 All sections of this document are non-normative.  
 
-## <a id="Summary">2 Summary</a>
+
+## 2 Summary
 
 The Audubon Core Multimedia Resources Metadata schema (“AC schema”, or
 simply “AC”) is a set of metadata vocabularies for describing
@@ -95,16 +110,16 @@ it easy for such collections to reuse their existing descriptions,
 augmented where necessary by other terms.
 
 This document accompanies the normative part of the AC standard,
-comprising an introductory wiki document named simply Audubon Core \[1\]
-and a wiki document named “Audubon Core Term List” \[2\]. The Term List
+comprising an introductory wiki document named simply Audubon Core <sup id="cit-1">[\[1\]](#fn-1)</sup>
+and a wiki document named “Audubon Core Term List” <sup id="cit-2">[\[2\]](#fn-2)</sup>. The Term List
 documents a series of terms, each of which is identified by a unique
 Uniform Resource Identifier (URI), together with normative definitions.
 In addition, MRTG will develop recommended representations for AC
-descriptions in several important forms including RDF \[3\], XML
-Schema \[4\], and Comma Separated Values (CSV) \[5\].
+descriptions in several important forms including RDF <sup id="cit-3">[\[3\]](#fn-3)</sup>, XML
+Schema <sup id="cit-4">[\[4\]](#fn-4)</sup>, and Comma Separated Values (CSV) <sup id="cit-5">[\[5\]](#fn-5)</sup>.
 
 Figure 1 below augments a portion of Figure 2 of the non-normative
-portion of the NCD document \[6\]. It shows a number of kinds of
+portion of the NCD document <sup id="cit-6">[\[6\]](#fn-6)</sup>. It shows a number of kinds of
 biodiversity data-centric resources and illustrates typical user
 communities, data and metadata standards, and network services that
 support the discovery, analysis, and integration of data. We extracted
@@ -129,7 +144,8 @@ microarray chips.
 Figure 1. Relationships of Multimedia Resources to primary types of
 biodiversity resources
 
-## <a id="Audubon_Core_Terms">3 Audubon Core Terms</a>
+
+## 3 Audubon Core Terms
 
 An Audubon Core record is a description, using the Audubon Core terms,
 of a multimedia resource. Two kinds of terms are specified by AC:
@@ -164,7 +180,7 @@ the term's Name. The namespace of terms borrowed from other vocabularies
 is that of the original. The namespace of denovo AC terms is
 http://rs.tdwg.org/ac/terms/. In the table of terms, each term entry has
 a row with the term name. Following the practice of the Darwin Core term
-list \[7\], for borrowed terms, this term name is generally an
+list <sup id="cit-7">[\[7\]](#fn-7)</sup>, for borrowed terms, this term name is generally an
 "unqualified name" preceded by a widely accepted prefix designating an
 abbreviation for the namespace, whereas for denovo AC terms, no such
 prefix is prepended. It is recommended that implementers who need a
@@ -202,29 +218,30 @@ below.
 
 The principal namespace qualifiers for term URIs in this document are
 
-  - **dcterms:** The DCMI type vocabulary documented at
-    http://dublincore.org/documents/dcmi-terms
+- **dcterms:** The DCMI type vocabulary documented at
+  http://dublincore.org/documents/dcmi-terms
 
-  - **dwc:** The Darwin Core vocabulary proposed at
-    http://rs.tdwg.org/dwc/index.htm
+- **dwc:** The Darwin Core vocabulary proposed at
+  http://rs.tdwg.org/dwc/index.htm
 
-  - **Iptc4ampExt** Geographic extensions to IPTC with namespace
-    http://iptc.org/std/Iptc4xmpExt/2008-02-29/ documented in
-    http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf
+- **Iptc4ampExt** Geographic extensions to IPTC with namespace
+  http://iptc.org/std/Iptc4xmpExt/2008-02-29/ documented in
+  http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf
 
-  - **ac:** Terms defined in the normative documentation and not derived
-    from other controlled vocabularies. The proposed namespace is
-    http://rs.tdwg.org/ac/terms.
+- **ac:** Terms defined in the normative documentation and not derived
+  from other controlled vocabularies. The proposed namespace is
+  http://rs.tdwg.org/ac/terms.
 
-  - **xmp:** The Adobe XMP vocabularies with namespace
-    http://ns.adobe.com/xap/1.0/ documented in Section 8.4 of
-    http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/XMPSpecificationPart1.pdf
+- **xmp:** The Adobe XMP vocabularies with namespace
+  http://ns.adobe.com/xap/1.0/ documented in Section 8.4 of
+  http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/XMPSpecificationPart1.pdf
 
-  - **xmpRights:** The Adobe XMP rights vocabulary with namespace at
-    http://ns.adobe.com/xap/1.0/rights documented in Section 8.5 of
-    http://www.images.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/XMPSpecificationPart1.pdf
+- **xmpRights:** The Adobe XMP rights vocabulary with namespace at
+  http://ns.adobe.com/xap/1.0/rights documented in Section 8.5 of
+  http://www.images.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/XMPSpecificationPart1.pdf
 
-## <a id="Motivation_and_Rationale">4 Motivation and Rationale</a>
+
+## 4 Motivation and Rationale
 
 Many valuable multimedia resources exist that have no information stored
 in databases. Some may have a web presence and others not. Even those
@@ -292,7 +309,8 @@ properties of an Audubon Core record are considered to be mandatory:
 In addition it is strongly recommended to provide a concise title of the
 resource, using dcterms:title
 
-## <a id="Existing_Standards">5 Existing Standards</a>
+
+## 5 Existing Standards
 
 The Audubon Core intends to provide metadata that describe either media
 resources themselves or collections of them. There are several
@@ -306,7 +324,7 @@ to provide media resource content metadata that is specifically
 biologically relevant. Use of the Dublin Core alone would make it
 difficult to do media resource discovery with high precision. Thus, one
 consequence of using Dublin Core alone would be that queries will not be
-selective enough. By contrast the Darwin Core TDWG standard \[8\] has
+selective enough. By contrast the Darwin Core TDWG standard <sup id="cit-8">[\[8\]](#fn-8)</sup> has
 more support for some such concerns, but little about important
 intellectual property rights issues, or ways to express relationships
 between alternate versions of media resources (e.g. different resolution
@@ -318,7 +336,7 @@ media files and streams. To address this, and in furtherance of the
 above goals, the Audubon Core should be regarded as a synthesis of DC,
 DwC, and, where those are inadequate, some forward looking metadata
 standards that the camera manufacturers are presently planning to
-support within the cameras themselves, much as they now use EXIF \[9\].
+support within the cameras themselves, much as they now use EXIF <sup id="cit-9">[\[9\]](#fn-9)</sup>.
 Where any of these standards suffice, AC metadata terms and definitions
 are those of such standards. In some instances, we find that none of
 these address concerns that our experience suggests are held by a wide
@@ -328,7 +346,7 @@ regarded as an extension to the union of small subsets of several
 accepted standards (together with a framework to insure that use of
 metadata from these standards can be understood by people and machines
 as referring to the same resource). Put another way, much of AC may be
-viewed as a wrapper around DwC, DC, XMP, and IPTC. \[10\]
+viewed as a wrapper around DwC, DC, XMP, and IPTC <sup id="cit-10">[\[10\]](#fn-10)</sup>.
 
 Since the overwhelming portion of the AC metadata fields are optional, a
 resource provider that can already serve Dublin Core metadata, could
@@ -351,7 +369,7 @@ harvesters of the metadata monitor the (optional) Metadata Date property
 those value-added services, and more queries will return the provider's
 metadata and references to its media resources.
 
-## <a id="Common_Concerns">6 Common Concerns with Other Biodiversity Information Standards</a>
+## 6 Common Concerns with Other Biodiversity Information Standards
 
 The Audubon Core regards Collections of Multimedia Resources themselves
 as a kind of Resource. Many types of Collections are describable in the
@@ -373,7 +391,7 @@ are included by reference. GPS point locations increasingly common in
 image data created by cameras is easily mapped to the 'verbatim'
 locality terms of Darwin Core.
 
-## <a id="Concerns_Not_Emphasized">7 Concerns Not Emphasized in Other Biodiversity Information Standards</a>
+## 7 Concerns Not Emphasized in Other Biodiversity Information Standards
 
 Some of the concerns mentioned here are also those of bibliographic
 metadata such as the Dublin Core. These are, however, not explicitly of
@@ -413,7 +431,8 @@ query to another Collection. However, that apparently does not identify
 the source collection or the query. A future version of Audubon Core
 will add more provenance terms.
 
-## <a id="Multimedia_Resource_Descriptions">8 Multimedia Resource Descriptions</a>
+
+## 8 Multimedia Resource Descriptions
 
 The term Multimedia Resources encompasses a wide variety of objects of
 interest to biologists and the communities with whom they interact for
@@ -455,7 +474,8 @@ as multimedia objects. These include:
 
   - Web sites not otherwise falling into one of the above categories
 
-## <a id="Audubon_Core_Records">9 Audubon Core Records</a>
+
+## 9 Audubon Core Records
 
 The normative Audubon Core metadata record specification is independent
 of the way in which those records are rendered into electronic form.
@@ -568,7 +588,8 @@ be repeated to reflect the history of the resource. By contrast, Date
 Available is a single date or a single range of dates at which the
 underlying resource became, or will become, available.
 
-## <a id="Implementation_and_Compliance">10 Implementation and Compliance</a>
+
+## 10 Implementation and Compliance
 
 Audubon Core is defined in a way that is as representation-neutral as
 possible. It provides natural language definitions of classes,
@@ -597,7 +618,8 @@ not provide an off-the-shelf, self validating exchange format. Multiple
 such exchange formats meeting different requirements can be defined and
 this standard allows mapping between them.
 
-## <a id="Further_Information">11 Further Information</a>
+
+## 11 Further Information
 
   - Joint TDWG-GBIF MRTG Charter
     http://tdwg.org/charters/article/view/448/36
@@ -608,7 +630,8 @@ this standard allows mapping between them.
 
   - Register for the mailing list tdwg-content@lists.tdwg.org at http://lists.tdwg.org/mailman/listinfo/tdwg-content. This email list tracks all discussion about the content of TDWG standards.
 
-## <a id="Appendix_Glossary">12 Appendix I: Glossary</a>
+
+## 12 Appendix I: Glossary
 
 <table>
 <tbody>
@@ -692,7 +715,8 @@ this standard allows mapping between them.
 </tbody>
 </table>
 
-## <a id="Appendix_History">13 Appendix II: Audubon Core Development History</a>
+
+## 13 Appendix II: Audubon Core Development History
 
 The Audubon Core Multimedia Resources Metadata Schema (Audubon Core) standard is the culmination of work on multimedia
 resource descriptions carried out by Key to Nature, the NBII Digital
@@ -739,7 +763,8 @@ Encyclopedia of Life for hosting one of the meetings. This document,
 including some narrative is adapted from a corresponding document
 produced by the TDWG Natural Collections Descriptions (NCD) task group.
 
-### <a id="Timeline">13.1 Timeline
+
+### 13.1 Timeline
 
 2006, November TDWG Image Interest Group initiated
 
@@ -783,7 +808,8 @@ for permission to have public comment.
 January-November 2012 Further preparation for submission for permission
 to have public comment
 
-### <a id="Revision_history">13.2 Document revision history
+
+### 13.2 Document revision history
 
 0.7v1
 
@@ -869,25 +895,26 @@ AC v1.0docv1.95
 Correct “hasAccentPoint” to “hasAcccessPoint”. Remove text suggesting
 this is a draft
 
-## <a id="Endnotes">14 Endnotes</a>
 
-1.  http://terms.gbif.org/Audubon_Core
+## 14 Endnotes
 
-2.  http://terms.gbif.org/Audubon_Core_Term_List
+<sup id="fn-1">[\[1\]](#cit-1)</sup>  http://terms.gbif.org/Audubon_Core
 
-3.  http://www.w3.org/RDF/
+<sup id="fn-2">[\[2\]](#cit-2)</sup>  http://terms.gbif.org/Audubon_Core_Term_List
 
-4.  http://www.w3.org/standards/xml/schema
+<sup id="fn-3">[\[3\]](#cit-3)</sup> http://www.w3.org/RDF/
 
-5.  http://en.wikipedia.org/wiki/Comma-separated_values
+<sup id="fn-4">[\[4\]](#cit-4)</sup> http://www.w3.org/standards/xml/schema
 
-6.  http://www.tdwg.org/fileadmin/subgroups/ncd/NCD_090.doc
+<sup id="fn-5">[\[5\]](#cit-5)</sup> http://en.wikipedia.org/wiki/Comma-separated_values
 
-7.  http://rs.tdwg.org/dwc/terms/
+<sup id="fn-6">[\[6\]](#cit-6)</sup> http://www.tdwg.org/fileadmin/subgroups/ncd/NCD_090.doc
 
-8.  http://rs.tdwg.org/dwc/index.htm
+<sup id="fn-7">[\[7\]](#cit-7)</sup> http://rs.tdwg.org/dwc/terms/
 
-9.  The Metadata Working Group (MWG,
+<sup id="fn-8">[\[8\]](#cit-8)</sup> http://rs.tdwg.org/dwc/index.htm
+
+<sup id="fn-9">[\[9\]](#cit-9)</sup> The Metadata Working Group (MWG,
     http://www.metadataworkinggroup.org/) is an industry consortium
     (Adobe, Apple, Canon, Microsoft, Nokia, and Sony) organized to
     specify how to exploit the Adobe Extensible Metadata Platform, XMP
@@ -901,13 +928,13 @@ this is a draft
     Audubon Core schema, MRTG intends to propose a TDWG Best Practice
     for embedding such serializations in multimedia files using XMP.
 
-10. IPTC is a mature standard from the International Press and
+<sup id="fn-10">[\[10\]](#cit-10)</sup> IPTC is a mature standard from the International Press and
     Telecommunications Council (http://www.iptc.org). Its Intellectual
     Property Rights supports finer grained controlled vocabularies than
     DC, providing better machine processing for discovery and
     fitness-for-use.
 
-    -----------------
-    This document is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). ![http://creativecommons.org/licenses/by/4.0/](https://licensebuttons.net/l/by/4.0/88x31.png).
+-----------------
+This document is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). ![http://creativecommons.org/licenses/by/4.0/](https://licensebuttons.net/l/by/4.0/88x31.png).
 
-    Copyright 2013 - Biodiversity Information Standards - TDWG - [Contact Us](http://www.tdwg.org/about-tdwg/contact-us/)
+Copyright 2013 - Biodiversity Information Standards - TDWG - [Contact Us](http://www.tdwg.org/about-tdwg/contact-us/)

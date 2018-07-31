@@ -36,20 +36,22 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 ## Table of Contents
 
-<a href='#Introduction'>1 Introduction</a><br/>
-<a href='#Status'>1.1 Status of the content of this document</a><br/>
-<a href='#Terminology_of_this_specification'>2 Terminology of this specification</a><br/>
-<a href='#Multiplicity.2FCardinality'>3 Multiplicity/Cardinality</a><br/>
-<a href='#Structured_serializations'>3.1 Structured serializations</a><br/>
-<a href='#Nested_XML'>3.1.1 Nested XML structure example (non-normative)</a><br/>
-<a href='#XML_by_reference'>3.1.2 XML reference by identifier example (non-normative)</a><br/>
-<a href='#Repeated_XML'>3.1.3 Repeated container element XML example (non-normative)</a><br/>
-<a href='#Tabular_serializations'>3.2 Tabular serializations</a><br/>
-<a href='#Separate_row_table'>3.2.1 Example of a table with each service access point in a separate row (non-normative)</a><br/>
-<a href='#Same_row_table'>3.2.2 Example of a table with metadata for all service access points in the same row (non-normative)</a><br/>
-<a href='#Lists_of_plain_text_values'>4 Lists of plain text values</a><br/>
+[1 Introduction](1-introduction)
 
-## <a id="Introduction">1 Introduction</a>
+[1.1 Status of the content of this document](11-status-of-the-content-of-this-document)
+
+[2 Terminology of this specification](2-terminology-of-this-specification)
+
+[3 Multiplicity and Cardinality](3-multiplicity-and-cardinality)
+
+[3.1 Structured serializations](31-structured-serializations)
+
+[3.2 Tabular serializations](32-tabular-serializations)
+
+[4 Lists of plain text values](4-lists-of-plain-text-values)
+
+
+## 1 Introduction
 
 This documentation describes the structure of the [TDWG](http://tdwg.org)
 Audubon Core Multimedia Resources Metadata Standard (Audubon Core, or
@@ -62,21 +64,21 @@ biodiversity media resource metadata schema, and how the standard
 attempts to use existing metadata standards where
 possible.
 
-For term details, see the **[Audubon Core Terms List](termlist.md)** document and for a more detailed guide to the use of Audubon Core, see the **[Audubon
-Core Guide](guide.md)** document.
+For term details, see the [Audubon Core Terms List](termlist.md) document and for a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
 
 During development, Audubon core was colloquially known as MRTG, after
 its developers, the GBIF-TDWG Joint Multimedia Resources Metadata Task
-Group. Please see the **[Audubon Core Guide](guide.md)** and
-also **[MRTG Development
-History](http://www.keytonature.eu/wiki/MRTG_Development_History)** for
+Group. Please see the [Audubon Core Guide](guide.md) and
+also [MRTG Development History](http://www.keytonature.eu/wiki/MRTG_Development_History) for
 the development history in detail.
 
-### <a id="Status">1.1 Status of the content of this document</a>
+
+### 1.1 Status of the content of this document
 
 Sections 2 through 4 of this document are normative except for example sections, which are labeled as non-normative.  
 
-## <a id="Terminology_of_this_specification">2 Terminology of this specification</a>
+
+## 2 Terminology of this specification</a>
 
 There are many ways to organize metadata specifications, particularly as
 to the nomenclature of the constituents of the metadata. Note the
@@ -131,10 +133,10 @@ Term List, and are often used within the Term List itself when a term is
 mentioned within the documentation of another term. The Term List
 provides indices both by name and label.
 
-URI's for terms conform to the http URI scheme (See
-<http://en.wikipedia.org/wiki/URI_scheme>,
-<http://www.w3.org/TR/uri-clarification/>, or
-<http://www.ietf.org/rfc/rfc2396.txt>.) Informally, one may understand
+URI's for terms conform to the http URI scheme (see
+http://en.wikipedia.org/wiki/URI_scheme,
+http://www.w3.org/TR/uri-clarification, or
+http://www.ietf.org/rfc/rfc2396.txt). Informally, one may understand
 this as follows: an http URI has the syntax of an http URL, but there is
 no expectation that putting it in a web browser will result in any
 information being returned to the browser, and if there is, it may have
@@ -150,7 +152,8 @@ other vocabularies, this field generally carries a link to the
 originating vocabulary's documentation for that
 term.
 
-## <a id="Multiplicity.2FCardinality">3 Multiplicity/Cardinality</a>
+
+## 3 Multiplicity and Cardinality
 
 A number of terms are repeatable. How to implement repeatability in a
 given serialization is not defined by Audubon Core. The following
@@ -160,13 +163,13 @@ repeatability.
 The simplest case is a single repeatable term (e.g.,
 dcterms:identifier). In representations based on an XML Schema that
 permits elements to be repeated such a term may simply be repeated (e.g.
-"...<dcterms:identifier\>http://example.com/123</dcterms:identifier\><dcterms:identifier\>http://example.com/456</dcterms:identifier\>...").
+"...&lt;dcterms:identifier&gt;http&#58;//example.com/123&lt;dcterms:identifier&gt;&lt;dcterms:identifier&gt;http&#58;//example.com/456&lt;dcterms:identifier&gt;...").
 In serializations that do not easily lend themselves to repeatable
 elements (e.g. "flat" schemata with all elements occurring only a single
 time in an otherwise unstructured record) it is possible to define
 separators to support a list of values within a single element (e.g.
-"...<dcterms:identifier\>http://example.com/123;
-http://example.com/456</dcterms:identifier\>...").
+"...&lt;dcterms:identifier&gt;http&#58;//example.com/123;
+http&#58;//example.com/456&lt;dcterms:identifier&gt;...").
 
 In certain cases pairs or tuples of properties are repeated. In Audubon
 Core this situation occurs, for example, in the following cases:
@@ -189,7 +192,8 @@ Core this situation occurs, for example, in the following cases:
     resource, and the review text itself in [Reviewer Comments](termlist.md#ac_Reviewer_Comments)
     are desirable to store as pairs.
 
-### <a id="Structured_serializations">3.1 Structured serializations</a>
+
+### 3.1 Structured serializations
 
 Many serialization languages provide sufficiently structured forms to
 deal with repeated terms unambiguously. In XML, we might define
@@ -199,7 +203,7 @@ container element, but to repeat the container element for a single media resour
 to one of the options discussed for multilingual metadata (see [Metadata Language](termlist.md#ac_metadataLanguage)).
 
 
-### <a id="Nested_XML">3.1.1 Nested XML structure example (non-normative)</a>
+#### 3.1.1 Nested XML structure example (non-normative)
 
     <MEDIA_METADATA_CONTAINER>
       <dcterms:identifier>http//:example.com/pictures/thePicture.jpg</dcterms:identifier>
@@ -214,7 +218,8 @@ to one of the options discussed for multilingual metadata (see [Metadata Languag
       </ac:hasServiceAccessPoint>
     <MEDIA_METADATA_CONTAINER>
 
-### <a id="XML_by_reference">3.1.2 XML reference by identifier example (non-normative)</a>
+
+#### 3.1.2 XML reference by identifier example (non-normative)
 
     <MEDIA_METADATA_CONTAINER>
       <dcterms:identifier>http://example.com/pictures/thePicture.jpg</dcterms:identifier>
@@ -231,7 +236,8 @@ to one of the options discussed for multilingual metadata (see [Metadata Languag
 
 Note: ac-classes:ServiceAccessPoint is a made-up term for the Service Access Point class.  An official term may be designated at some future time.
 
-### <a id="Repeated_XML">3.1.3 Repeated container element XML example (non-normative)</a>
+
+#### 3.1.3 Repeated container element XML example (non-normative)
 
     <MEDIA_METADATA_CONTAINER>
       <dcterms:identifier>http//:example.com/pictures/thePicture.jpg</dcterms:identifier>
@@ -247,7 +253,8 @@ Note: ac-classes:ServiceAccessPoint is a made-up term for the Service Access Poi
       ...
     <MEDIA_METADATA_CONTAINER>
 
-### <a id="Tabular_serializations">3.2 Tabular serializations</a>
+
+### 3.2 Tabular serializations
 
 The same data as in examples 3.2 through 3.4 can be serialized as a "flat" spreadsheet-like
 table.  
@@ -266,7 +273,7 @@ exploiting values of the [ac:variantLiteral](termlist.md#ac_variantLiteral):
 Quality", "Best Quality", "Offline", as prefixes for additional
 properties in a new namespace.
 
-### <a id="Separate_row_table">3.2.1 Example of a table with each service access point in a separate row (non-normative)</a>
+#### 3.2.1 Example of a table with each service access point in a separate row (non-normative)
 
 |                                            |                   |                |                    |                                                 |
 | ------------------------------------------ | ----------------- | -------------- | ------------------ | ----------------------------------------------- |
@@ -275,7 +282,7 @@ properties in a new namespace.
 | http://example.com/pictures/thePicture.jpg |                   | Best Quality   | png                | http://example.com/fullres/thePicture-hires.png |
 | http://example.com/pictures/thePicture.jpg |                   | Thumbnail      | png                | http://example.com/thumbs/thePicture-thumb.png  |
 
-### <a id="Same_row_table">3.2.2 Example of a table with metadata for all service access points in the same row (non-normative)</a>
+#### 3.2.2 Example of a table with metadata for all service access points in the same row (non-normative)
 
 |                                       |                   |                                     |                         |                             |                              |                              |                           |                               |                                |                              |                           |                               |                                |
 | ------------------------------------- | ----------------- | ----------------------------------- | ----------------------- | --------------------------- | ---------------------------- | ---------------------------- | ------------------------- | ----------------------------- | ------------------------------ | ---------------------------- | ------------------------- | ----------------------------- | ------------------------------ |
@@ -284,7 +291,7 @@ properties in a new namespace.
 
 Note: acf: (for "Audubon Core Flat") is a made-up namespace.  Communities of interest might mint such terms in order to use this kind of structure.
 
-## <a id="Lists_of_plain_text_values">4 Lists of plain text values</a>
+## 4 Lists of plain text values
 
 Some AC terms permit values that are lists to be represented as plain
 text. The choice of how to separate list items is ultimately left to the
@@ -295,8 +302,6 @@ Unfortunately, even for standard list formats like CSV, different
 software packages choose different escape methods, hindering
 interchange. In the absence of an implementation-specific choice we
 recommend to use "|" as separator and "\\|" as an escaped vertical bar.
-
-
 
 -----------------
 This document is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). ![http://creativecommons.org/licenses/by/4.0/](https://licensebuttons.net/l/by/4.0/88x31.png).
