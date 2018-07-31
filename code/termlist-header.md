@@ -34,10 +34,7 @@ name, a specified URI, a recommended English label for user interfaces,
 a definition, and some ancillary notes. The version shown here has been
 adopted by Biodiversity Information Standards / TDWG at the general
 meeting in October 2013. This is a normative document and the definition
-may not be changed without due process. A second version of Audubon
-Core, [Audubon Core
-Development](Audubon_Core_Development),
-will reflect the ongoing documentation changes and draft enhancements.
+may not be changed without due process.
 
 **Contributors:** Robert A. Morris, Vijay Barve, Mihail Carausu, Vishwas
 Chavan, José Cuadra, Chris Freeland, Gregor Hagedorn, Patrick Leary,
@@ -132,7 +129,7 @@ a row with the term name. This term name is generally an "unqualified
 name" preceded by a widely accepted prefix designating an abbreviation
 for the namespace It is recommended that implementers who need a
 namespace prefix for the AC namespace use "ac". In this web document,
-hovering over a term in the [Index By Term Name](#Index_By_Term_Name)
+hovering over a term in the [Index By Term Name](#index-by-term-name)
 list below will reveal a complete URL that can be used in other web
 documents to link to *this* document's treatment of that term, even if
 it is from a borrowed vocabulary. It is very important to note that some
@@ -145,12 +142,12 @@ separation is simply a recommendation, not a mandate. See this
 on this topic. For vocabularies where such a practice is in place, we
 often follow it and signal a reference in the Notes of our term
 descriptions to the sister version of the term. An example is the pair
-[dc:type](#dc:type) and [dcterms:type](#dcterms:type). When such a pair allows repeated instances (e.g. as for [dc:source](#dc:source) and [dcterms:source](#dcterms:source)),
-particular care may be required in some implementations of AC, because
+[dc:type](#dc_type) and [dcterms:type](#dcterms_type). When such a pair allows repeated instances (e.g. as for [dc:source](#dc_source) and [dcterms:source](#dcterms_source)), particular care may be required in some
+implementations of AC, because
 some implementations may not provide enough structure to clearly state
 the association between the members of a pair in the case of multiple
 values of each. This is a special case of the issue treated in the
-normative material on [Multiplicity and Cardinality](structure.md#3-multiplicitycardinality).
+normative material on [Multiplicity and Cardinality](structure.md#3-multiplicity-and-cardinality).
 
 
 ## 4 Layers
