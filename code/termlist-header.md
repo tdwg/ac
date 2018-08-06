@@ -56,7 +56,7 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 [5 Literal- vs. URI-valued Terms](#5-literal--vs-uri-valued-terms)
 
-[6 Vocabulary Indices](#vocabulary-indices)
+[6 Vocabulary Indices](#6-vocabulary-indices)
 
 [6.1 Index By Term Name](#61-index-by-term-name)
 
@@ -64,27 +64,25 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 [7 Vocabularies](#7-vocabularies)
 
-[7.1 Management Vocabulary](71-management-vocabulary)
+[7.1 Management Vocabulary](#71-management-vocabulary)
 
-[7.2 Attribution Vocabulary](72-attribution-vocabulary)
+[7.2 Attribution Vocabulary](#72-attribution-vocabulary)
 
-[7.3 Agents Vocabulary](73-agents-vocabulary)
+[7.3 Agents Vocabulary](#73-agents-vocabulary)
 
-[7.4 Content Coverage Vocabulary](74-content-coverage)
+[7.4 Content Coverage Vocabulary](#74-content-coverage-vocabulary)
 
-[7.5 Geography Vocabulary](75-geography-vocabulary)
+[7.5 Geography Vocabulary](#75-geography-vocabulary)
 
-[7.6 Temporal Coverage Vocabulary](76-temporal-coverage-vocabulary)
+[7.6 Temporal Coverage Vocabulary](#76-temporal-coverage-vocabulary)
 
-[7.7 Taxonomic Coverage Vocabulary](77-taxonomic-coverage-vocabulary)
+[7.7 Taxonomic Coverage Vocabulary](#77-taxonomic-coverage-vocabulary)
 
-[7.8 Resource Creation Vocabulary](78-resource-creation-vocabulary)
+[7.8 Resource Creation Vocabulary](#78-resource-creation-vocabulary)
 
-[7.9 Related Resources Vocabulary](79-related-resource-vocabulary)
+[7.9 Related Resources Vocabulary](#79-related-resources-vocabulary)
 
-[7.10 Service Access Point Vocabulary](710-service-access-point-Vocabulary)
-
-[8 References](8-references)
+[7.10 Service Access Point Vocabulary](#710-service-access-point-vocabulary)
 
 
 ## 1 Introduction

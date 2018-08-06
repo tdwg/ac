@@ -100,8 +100,8 @@ def createMasterMetadataTable(termLists, listMetadata):
 # generate the index of terms grouped by category and sorted alphabetically by lowercase term local name
 def buildIndexByTermName(table, displayOrder, displayLabel, displayId):
 
-    text = '### <a id="Index_By_Term_Name">6.1 Index By Term Name</a>\n\n'
-    text += '(See also <a href="#Index_By_Label">Index By Label</a>)\n\n'
+    text = '### 6.1 Index By Term Name\n\n'
+    text += '(See also [6.2 Index By Label](#62-index-by-label))\n\n'
     for category in range(0,len(displayOrder)):
         text += '**' + displayLabel[category] + '**\n'
         text += '\n'
@@ -117,8 +117,8 @@ def buildIndexByTermName(table, displayOrder, displayLabel, displayId):
 # generate the index of terms grouped by category and sorted alphabetically by the term label
 def buildIndexByTermLabel(table, displayOrder, displayLabel, displayId):
 
-    text = '### <a id="Index_By_Label">6.2 Index By Label</a>\n\n'
-    text += '(See also <a href="#Index_By_Term_Name">Index By Term Name</a>)\n\n'
+    text = '### 6.2 Index By Label\n\n'
+    text += '(See also [6.1 Index By Term Name](#61-index-by-term-name))\n\n'
     for category in range(0,len(displayOrder)):
         text += '**' + displayLabel[category] + '**\n'
         text += '\n'
@@ -135,9 +135,9 @@ def buildIndexByTermLabel(table, displayOrder, displayLabel, displayId):
 def buildMarkdown(table, displayOrder, displayLabel, displayId):
 
     # generate the Markdown for the terms table
-    text = '## <a id="Vocabularies">7 Vocabularies</a>\n'
+    text = '## 7 Vocabularies\n'
     for category in range(0,len(displayOrder)):
-        text += '### <a id="' + displayId[category] + '">7.' + str(category + 1) + ' ' + displayLabel[category] + '\n'
+        text += '### 7.' + str(category + 1) + ' ' + displayLabel[category] + '\n'
         text += '\n'
         text += '| property | value |\n'
         text += '|----------|-------|\n'

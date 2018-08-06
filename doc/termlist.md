@@ -1,15 +1,12 @@
-<a id="top"></a>
+---
+permalink: termlist-header
+---
 
 # Audubon Core Term List
 
-For a brief introduction to Audubon Core, see the **[Audubon
-Core Introduction](introduction.md)** document.  
-
-For information about the structure of Audubon Core, see the **[Audubon
-Core Structure](structure.md)** document.  
-
-For a more detailed guide to the use of Audubon Core, see the **[Audubon
-Core Guide](guide.md)** document.
+For introductory material, see the **[Audubon
+Core Introduction](introduction.md)** and **[Audubon Core
+Structure](structure.md)** documents.
 
 **Title:** Audubon Core Term List
 
@@ -37,10 +34,7 @@ name, a specified URI, a recommended English label for user interfaces,
 a definition, and some ancillary notes. The version shown here has been
 adopted by Biodiversity Information Standards / TDWG at the general
 meeting in October 2013. This is a normative document and the definition
-may not be changed without due process. A second version of Audubon
-Core, [Audubon Core
-Development](Audubon_Core_Development),
-will reflect the ongoing documentation changes and draft enhancements.
+may not be changed without due process.
 
 **Contributors:** Robert A. Morris, Vijay Barve, Mihail Carausu, Vishwas
 Chavan, JosÃ© Cuadra, Chris Freeland, Gregor Hagedorn, Patrick Leary,
@@ -52,28 +46,46 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 ## Table of Contents
 
-<a href='#Introduction'>1 Introduction</a><br/>
-<a href='#Borrowed_Vocabulary'>2 Borrowed Vocabulary</a><br/>
-<a href='#Namespaces.2C_Prefixes_and_Term_Names'>3 Namespaces, Prefixes and Term Names</a><br/>
-<a href='#Layers'>4 Layers</a><br/>
-<a href='#Literal-_vs._URI-valued_Terms'>5 Literal- vs. URI-valued Terms</a><br/>
-<a href='#Vocabulary_Indices'>6 Vocabulary Indices</a><br/>
-<a href='#Index_By_Term_Name'>6.1 Index By Term Name</a><br/>
-<a href='#Index_By_Label'>6.2 Index By Label</a><br/>
-<a href='#Vocabularies'>7 Vocabularies</a><br/>
-<a href='#Management_Vocabulary'>7.1 Management Vocabulary</a><br/>
-<a href='#Attribution_Vocabulary'>7.2 Attribution Vocabulary</a><br/>
-<a href='#Agents_Vocabulary'>7.3 Agents Vocabulary</a><br/>
-<a href='#Content_Coverage_Vocabulary'>7.4 Content Coverage Vocabulary</a><br/>
-<a href='#Geography_Vocabulary'>7.5 Geography Vocabulary</a><br/>
-<a href='#Temporal_Coverage_Vocabulary'>7.6 Temporal Coverage Vocabulary</a><br/>
-<a href='#Taxonomic_Coverage_Vocabulary'>7.7 Taxonomic Coverage Vocabulary</a><br/>
-<a href='#Resource_Creation_Vocabulary'>7.8 Resource Creation Vocabulary</a><br/>
-<a href='#Related_Resources_Vocabulary'>7.9 Related Resources Vocabulary</a><br/>
-<a href='#Service_Access_Point_Vocabulary'>7.10 Service Access Point Vocabulary</a><br/>
-<a href='#References'>8 References</a><br/>
+[1 Introduction](#1-introduction)
 
-## <a id="Introduction">1 Introduction</a>
+[2 Borrowed Vocabulary](#2-borrowed-vocabulary)
+
+[3 Namespaces, Prefixes and Term Names](#3-namespaces-prefixes-and-term-names)
+
+[4 Layers](#4-layers)
+
+[5 Literal- vs. URI-valued Terms](#5-literal--vs-uri-valued-terms)
+
+[6 Vocabulary Indices](#6-vocabulary-indices)
+
+[6.1 Index By Term Name](#61-index-by-term-name)
+
+[6.2 Index By Label](#62-index-by-label)
+
+[7 Vocabularies](#7-vocabularies)
+
+[7.1 Management Vocabulary](#71-management-vocabulary)
+
+[7.2 Attribution Vocabulary](#72-attribution-vocabulary)
+
+[7.3 Agents Vocabulary](#73-agents-vocabulary)
+
+[7.4 Content Coverage Vocabulary](#74-content-coverage-vocabulary)
+
+[7.5 Geography Vocabulary](#75-geography-vocabulary)
+
+[7.6 Temporal Coverage Vocabulary](#76-temporal-coverage-vocabulary)
+
+[7.7 Taxonomic Coverage Vocabulary](#77-taxonomic-coverage-vocabulary)
+
+[7.8 Resource Creation Vocabulary](#78-resource-creation-vocabulary)
+
+[7.9 Related Resources Vocabulary](#79-related-resources-vocabulary)
+
+[7.10 Service Access Point Vocabulary](#710-service-access-point-vocabulary)
+
+
+## 1 Introduction
 
 An Audubon Core (AC) record is a description of a multimedia resource
 using the AC vocabularies. Two kinds of terms are specified by this
@@ -90,8 +102,7 @@ may provide several access points for different representations (e.g.,
 different resolutions).
 
 
-
-## <a id="Borrowed_Vocabulary">2 Borrowed Vocabulary</a>
+## 2 Borrowed Vocabulary
 
 When terms are borrowed from other vocabularies, AC uses the URIs,
 common abbreviations, and namespace prefixes in use in those
@@ -107,8 +118,7 @@ term table entries will bring the reader to appropriate documentation of
 those organizations.
 
 
-
-## <a id="Namespaces.2C_Prefixes_and_Term_Names">3 Namespaces, Prefixes and Term Names</a>
+## 3 Namespaces, Prefixes and Term Names
 
 The namespace of terms borrowed from other vocabularies is that of the
 original. The namespace of de novo AC terms is
@@ -117,37 +127,28 @@ a row with the term name. This term name is generally an "unqualified
 name" preceded by a widely accepted prefix designating an abbreviation
 for the namespace It is recommended that implementers who need a
 namespace prefix for the AC namespace use "ac". In this web document,
-hovering over a term in the **<a href='#Index_By_Term_Name'>Index By Term
-Name</a>**
+hovering over a term in the [Index By Term Name](#index-by-term-name)
 list below will reveal a complete URL that can be used in other web
 documents to link to *this* document's treatment of that term, even if
 it is from a borrowed vocabulary. It is very important to note that some
 vocabularies, e.g those of the
-<a href='http://dublincore.org/'>Dublin Core Metadata Initiative (DCMI)</a>,
-provide version of the same term in two different namespaces, one
+[Dublin Core Metadata Initiative (DCMI)](http://dublincore.org/),
+provide versions of the same term in two different namespaces, one
 providing for string values and one providing for URIs, even where that
 separation is simply a recommendation, not a mandate. See this
-**<a href='http://wiki.dublincore.org/index.php/FAQ/DC_and_DCTERMS_Namespaces'>DCMI wiki entry</a>**
+[DCMI wiki entry](http://wiki.dublincore.org/index.php/FAQ/DC_and_DCTERMS_Namespaces)
 on this topic. For vocabularies where such a practice is in place, we
 often follow it and signal a reference in the Notes of our term
 descriptions to the sister version of the term. An example is the pair
-<a href='#dc:type'>dc:type</a>
-and
-<a href='#dcterms:type'>dcterms:type</a>.
-When such a pair allows repeated instances (e.g. as for
-<a href='#dc:source'>dc:source</a>
-and
-<a href='#dcterms:source'>dcterms:source</a>),
-particular care may be required in some implementations of AC, because
+[dc:type](#dc_type) and [dcterms:type](#dcterms_type). When such a pair allows repeated instances (e.g. as for [dc:source](#dc_source) and [dcterms:source](#dcterms_source)), particular care may be required in some
+implementations of AC, because
 some implementations may not provide enough structure to clearly state
 the association between the members of a pair in the case of multiple
 values of each. This is a special case of the issue treated in the
-normative material on <a href='structure.md#Multiplicity.2FCardinality'>Multiplicity and
-Cardinality</a>.
+normative material on [Multiplicity and Cardinality](structure.md#3-multiplicity-and-cardinality).
 
 
-
-## <a id="Layers">4 Layers</a>
+## 4 Layers
 
 The term set consists of two *Layers*, numbered *1* and *2*. The former
 comprise the central terms, likely to be meaningful for most media, even
@@ -160,8 +161,7 @@ descriptions. Each term description below indicates the Layer to which
 the term belongs.
 
 
-
-## <a id="Literal-_vs._URI-valued_Terms">5 Literal- vs. URI-valued Terms</a>
+## 5 Literal- vs. URI-valued Terms
 
 Some terms have two versions, one expecting a string literal value and
 the other a URI. In these circumstances, the version expecting a string
@@ -174,10 +174,10 @@ required values are strings or URIs.
 
 
 
-## <a id="Vocabulary_Indices">6 Vocabulary Indices</a>
-### <a id="Index_By_Term_Name">6.1 Index By Term Name</a>
+## 6 Vocabulary Indices
+### 6.1 Index By Term Name
 
-(See also <a href="#Index_By_Label">Index By Label</a>)
+(See also [6.2 Index By Label](#62-index-by-label))
 
 **Management Vocabulary**
 
@@ -348,9 +348,9 @@ required values are strings or URIs.
 | [ac:variantDescription](#ac_variantDescription) |
 | [ac:variantLiteral](#ac_variantLiteral) |
 
-### <a id="Index_By_Label">6.2 Index By Label</a>
+### 6.2 Index By Label
 
-(See also <a href="#Index_By_Term_Name">Index By Term Name</a>)
+(See also [6.1 Index By Term Name](#61-index-by-term-name))
 
 **Management Vocabulary**
 
@@ -506,8 +506,8 @@ required values are strings or URIs.
 | [Variant](#ac_variant) |
 | [Variant Description](#ac_variantDescription) |
 
-## <a id="Vocabularies">7 Vocabularies</a>
-### <a id="Management_Vocabulary">7.1 Management Vocabulary
+## 7 Vocabularies
+### 7.1 Management Vocabulary
 
 | property | value |
 |----------|-------|
@@ -554,7 +554,7 @@ required values are strings or URIs.
 | Notes: | Using multiple identifiers implies that they have a same-as relationship, i.e. they all identify the same object (e. g. an object may have all of an http-URL, an lsid-URI, and a UUID). |
 | | |
 | <a id="xmp_MetadataDate"></a>**Term Name:** | **xmp:MetadataDate** |
-| Normative URI: | http://ns.adobe.com/xap/1.0/ MetadataDate |
+| Normative URI: | http://ns.adobe.com/xap/1.0/MetadataDate |
 | Label: | Metadata Date |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
 | Definition: | Point in time recording when the last modification to metadata (not necessarily the media object itself) occurred. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. |
@@ -589,7 +589,7 @@ required values are strings or URIs.
 | Notes: | Ideally, this would be a globally unique identifier (GUID), but the provider is encouraged to supply any form of identifier that simplifies communications on resources within their project and helps to locate individual data items in the provider's data repositories. It is the provider's decision whether to expose this value or not. |
 | | |
 | <a id="xmp_Rating"></a>**Term Name:** | **xmp:Rating** |
-| Normative URI: | http://ns.adobe.com/xap/1.0/ Rating |
+| Normative URI: | http://ns.adobe.com/xap/1.0/Rating |
 | Label: | Rating |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
 | Definition: | A rating of the media resources, provided by record originators or editors, with "-1" defining "rejected", "0" defining "unrated", and "1" (worst) to "5" (best). |
@@ -652,7 +652,7 @@ required values are strings or URIs.
 | Notes: | Following the DC recommendations for the Text type, images of text should be given as http://purl.org/dc/dcmitype/Text when given as a URI. See also the entry for dc:type in this document and see the DCMI FAQ on DC and DCTERMS Namespaces for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails. |
 | | |
 
-### <a id="Attribution_Vocabulary">7.2 Attribution Vocabulary
+### 7.2 Attribution Vocabulary
 
 | property | value |
 |----------|-------|
@@ -701,7 +701,7 @@ required values are strings or URIs.
 | Normative URI: | http://purl.org/dc/elements/1.1/rights |
 | Label: | Copyright Statement |
 | | **Layer:** 1 -- **Required:** Yes -- **Repeatable:** No |
-| Definition: | Information about rights held in and over the resource. A full-text, readable copyright statement, as required by the national legislation of the copyright holder. On collections, this applies to all contained objects, unless the object itself has a different statement. Examples: "Copyright XY 2008, all rights reserved", "ï¿½ 2008 XY Museum", "Public Domain.", "Copyright unknown." Do not place just the name of the copyright holder(s) here! That belongs in a list in the xmpRights:Owner field, which should be supplied if dc:rights is not 'Public Domain', which is appropriate only if the resource is known to be not under copyright. |
+| Definition: | Information about rights held in and over the resource. A full-text, readable copyright statement, as required by the national legislation of the copyright holder. On collections, this applies to all contained objects, unless the object itself has a different statement. Examples: "Copyright XY 2008, all rights reserved", "© 2008 XY Museum", "Public Domain.", "Copyright unknown." Do not place just the name of the copyright holder(s) here! That belongs in a list in the xmpRights:Owner field, which should be supplied if dc:rights is not 'Public Domain', which is appropriate only if the resource is known to be not under copyright. |
 | Notes: | This expresses rights over the media resource, not over the metadata text. At least one of dcterms:rights and dc:rights must be supplied but, when feasible, supplying both may make the metadata more widely useful. They must specify the same rights. In case of ambiguity, dcterms:rights prevails. |
 | | |
 | <a id="dcterms_rights"></a>**Term Name:** | **dcterms:rights** |
@@ -740,7 +740,7 @@ required values are strings or URIs.
 | Notes: | The value of this field may provide a complete definition of the terms of use. For Creative Commons, the appropriate value is the URL of the defining Web page for the license. Example: http://creativecommons.org/licenses/by-nc-sa/3.0/us/. Where different quality variants (e. g. different resolutions of images) are published under different licenses, the AC term "Licensing Exception Statement" supports variant-specific licenses. |
 | | |
 
-### <a id="Agents_Vocabulary">7.3 Agents Vocabulary
+### 7.3 Agents Vocabulary
 
 | property | value |
 |----------|-------|
@@ -801,7 +801,7 @@ required values are strings or URIs.
 | Notes: | Media resources and their metadata may be served from different institutions, e. g. in the case of aggregators adding user annotations, taxon identifications, or ratings. See also the entry for ac:provider in this document and the section Namespaces, Prefixes and Term Names for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
 | | |
 
-### <a id="Content_Coverage_Vocabulary">7.4 Content Coverage Vocabulary
+### 7.4 Content Coverage Vocabulary
 
 | property | value |
 |----------|-------|
@@ -817,7 +817,7 @@ required values are strings or URIs.
 | Label: | Subject Category |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
 | Definition: | Controlled vocabulary of subjects to support broad classification of media items. Terms from various controlled vocabularies may be used. AC-recommended vocabularies are preferred and may be unqualified literals (not a full URI). For terms from other vocabularies either a precise URI should be used, or, as long as all unqualified terms in all vocabularies are unique, metadata should provide the source vocabularies using the Subject Category Vocabulary term. |
-| Notes: | Recommended sets include: the NASA Global Change Master Directory (GCMD) [1], K2N [2], the BioComplexity Thesaurus[3], the Description Type GBIF Vocabulary [4], the TDWG Species Profile Model [5], the Plinian Core [6], the European Environmental Agency GEneral Multilingual Environmental Thesaurus(GEMET) [7] and the LTER Controlled Vocabulary.[8]. The vocabulary may include major taxonomic groups (such as "vertebrates" or "fungi") or ecosystem terms ("savannah", "temperate rain forest", "forest fires", "aquatic vertebrates"). Other formal classifications (published in print or online) such as habitat, fuel, invasive species, agroproductivity, fisheries, migratory species etc. are also suitable. |
+| Notes: | Recommended sets include: the NASA Global Change Master Directory (GCMD; http://gcmd.nasa.gov/), Subject Categories defined in Key to Nature (K2N; http://www.keytonature.eu/wiki/Subject_Category), the BioComplexity Thesaurus (https://www2.usgs.gov/core_science_systems/csas/biocomplexity_thesaurus/), the Description Type GBIF Vocabulary (http://rs.gbif.org/vocabulary/gbif/description_type.xml), the TDWG Species Profile Model (http://rs.tdwg.org/ontology/voc/SPMInfoItems.rdf), the Plinian Core (https://github.com/PlinianCore/Documentation/wiki/About), the European Environmental Agency GEneral Multilingual Environmental Thesaurus (GEMET; http://www.eionet.europa.eu/gemet), and the LTER Controlled Vocabulary (http://vocab.lternet.edu/). The vocabulary may include major taxonomic groups (such as "vertebrates" or "fungi") or ecosystem terms ("savannah", "temperate rain forest", "forest fires", "aquatic vertebrates"). Other formal classifications (published in print or online) such as habitat, fuel, invasive species, agroproductivity, fisheries, migratory species etc. are also suitable. |
 | | |
 | <a id="dcterms_description"></a>**Term Name:** | **dcterms:description** |
 | Normative URI: | http://purl.org/dc/terms/description |
@@ -862,7 +862,7 @@ required values are strings or URIs.
 | Notes: | Tags may be multi-worded phrases. Where scientific names, common names, geographic locations, etc. are separable, those should go into the more specific coverage metadata items provided further below. Examples: "flower diagram". Character or part keywords like "leaf", or "flower color" are especially desirable. |
 | | |
 
-### <a id="Geography_Vocabulary">7.5 Geography Vocabulary
+### 7.5 Geography Vocabulary
 
 | property | value |
 |----------|-------|
@@ -1169,12 +1169,12 @@ required values are strings or URIs.
 | Notes: | The equivalent DarwinCore fields here forces primary metadata providers to classify world region terms into separate properties for "continent", "waterbody", "islandGroup". By contrast, the Iptc4xmpExt vocabulary only specifies that a World Region is something at the top of a hierarchy of locations. |
 | | |
 
-### <a id="Temporal_Coverage_Vocabulary">7.6 Temporal Coverage Vocabulary
+### 7.6 Temporal Coverage Vocabulary
 
 | property | value |
 |----------|-------|
 | <a id="xmp_CreateDate"></a>**Term Name:** | **xmp:CreateDate** |
-| Normative URI: | http://ns.adobe.com/xap/1.0/ CreateDate |
+| Normative URI: | http://ns.adobe.com/xap/1.0/CreateDate |
 | Label: | Original Date and Time |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
 | Definition: | The date of the creation of the original resource from which the digital media was derived or created. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples. |
@@ -1195,7 +1195,7 @@ required values are strings or URIs.
 | Notes: | Examples in English: afternoon, twilight. |
 | | |
 
-### <a id="Taxonomic_Coverage_Vocabulary">7.7 Taxonomic Coverage Vocabulary
+### 7.7 Taxonomic Coverage Vocabulary
 
 | property | value |
 |----------|-------|
@@ -1301,7 +1301,7 @@ required values are strings or URIs.
 | Notes: | The ISO language code after the name should be formatted as in the following example: 'abete bianco (it); Tanne (de); White Fir (en)'. If names are known to be male- or female-specific, this may be specified as in: 'ewe (en-female); ram (en-male);'. |
 | | |
 
-### <a id="Resource_Creation_Vocabulary">7.8 Resource Creation Vocabulary
+### 7.8 Resource Creation Vocabulary
 
 | property | value |
 |----------|-------|
@@ -1334,7 +1334,7 @@ required values are strings or URIs.
 | Notes: | Examples: Encoding method or settings, numbers of channels, lighting, audio sampling rate, frames per second, data rate, interlaced or progressive, multiflash lighting, remote control, automatic interval exposure.  Annotating whether and how a resource has been modified or edited significantly in ways that are not immediately obvious to, or expected by, consumers is of special significance. Examples for images are: Removing a distracting twig from a picture, moving an object to a different surrounding, changing the color in parts of the image, or blurring the background of an image. Modifications that are standard practice and expected or obvious are not necessary to document; examples of such practices include changing resolution, cropping, minor sharpening or overall color correction, and clearly perceptible modifications (e.g., addition of arrows or labels, or the placement of multiple pictures into a table.) If it is only known that significant modifications were made, but no details are known, a general statement like "Media may have been manipulated to improve appearance" may be appropriate. See also Subject Preparation Technique. |
 | | |
 
-### <a id="Related_Resources_Vocabulary">7.9 Related Resources Vocabulary
+### 7.9 Related Resources Vocabulary
 
 | property | value |
 |----------|-------|
@@ -1380,7 +1380,7 @@ required values are strings or URIs.
 | Notes: | The value references a related media item. Examples of relations are: Images taken in a sequence or defined time series, an exposure or focus series (e.g. for stacking), different framing or views (top, side, bottom) of the same subject, or an overview plus several details. The property makes such related media items discoverable, but does not indicate the nature of this relationship. More specific properties may be defined in a later version of AC. |
 | | |
 
-### <a id="Service_Access_Point_Vocabulary">7.10 Service Access Point Vocabulary
+### 7.10 Service Access Point Vocabulary
 
 | property | value |
 |----------|-------|
@@ -1433,13 +1433,13 @@ required values are strings or URIs.
 | Notes: | Required only if this version has different licensing than that of the media resource. For example, the highest resolution version may be more restricted than lower resolution versions. |
 | | |
 | <a id="exif_PixelXDimension"></a>**Term Name:** | **exif:PixelXDimension** |
-| Normative URI: | http://ns.adobe.com/exif/1.0/ PixelXDimension |
+| Normative URI: | http://ns.adobe.com/exif/1.0/PixelXDimension |
 | Label: | Image Width |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
 | Definition: | The width in pixels of the media specified by the access point. |
 | | |
 | <a id="exif_PixelYDimension"></a>**Term Name:** | **exif:PixelYDimension** |
-| Normative URI: | http://ns.adobe.com/exif/1.0/ PixelYDimension |
+| Normative URI: | http://ns.adobe.com/exif/1.0/PixelYDimension |
 | Label: | Image Height |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** No |
 | Definition: | The height in pixels of the media specified by the access point. |
@@ -1473,31 +1473,8 @@ required values are strings or URIs.
 | | |
 
 
-## <a id="References">8 References</a>
+## Fix this!  The SAP and Geographic coverage sections have notes that aren't inserted by the script
 
-1.  <a href='#cite_ref-1'></a>NASA Global Change Master Directory
-    http://gcmd.nasa.gov/
-
-2.  <a href='cite_note-2'></a>Subject Categories defined in Key to
-    Nature http://www.keytonature.eu/wiki/Subject_Category
-
-3.  <a href='cite_note-3'></a>BioComplexity Thesaurus
-    http://thesaurus.nbii.gov
-
-4.  <a href='cite_note-4'></a>GBIF Description Types
-    http://rs.gbif.org/vocabulary/gbif/description_type.xml
-
-5.  <a href='cite_note-5'></a>Species Profile Model
-    http://rs.tdwg.org/ontology/voc/SPMInfoItems.rdf
-
-6.  <a href='cite_note-6'></a>Plinian Core
-    http://www.gbif.es/plinian/doku.php
-
-7.  <a href='cite_note-7'></a>GEMET
-    http://www.eionet.europa.eu/gemet
-
-8.  <a href='cite_note-8'></a>LTER Controlled Vocabulary
-    http://vocab.lternet.edu/
 
 9.  <a href='cite_note-MWG2010-9'></a>Metadata Working Group
     Guidelines for Handling Image Metadata (MWG 2010), Version 2.0, November 2010
