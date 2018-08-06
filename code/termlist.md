@@ -70,7 +70,7 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 [7.3 Agents Vocabulary](#73-agents-vocabulary)
 
-[7.4 Content Coverage Vocabulary](#74-content-coverage)
+[7.4 Content Coverage Vocabulary](#74-content-coverage-vocabulary)
 
 [7.5 Geography Vocabulary](#75-geography-vocabulary)
 
@@ -80,9 +80,9 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 [7.8 Resource Creation Vocabulary](#78-resource-creation-vocabulary)
 
-[7.9 Related Resources Vocabulary](#79-related-resource-vocabulary)
+[7.9 Related Resources Vocabulary](#79-related-resources-vocabulary)
 
-[7.10 Service Access Point Vocabulary](#710-service-access-point-Vocabulary)
+[7.10 Service Access Point Vocabulary](#710-service-access-point-vocabulary)
 
 [8 References](#8-references)
 
