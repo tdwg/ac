@@ -177,7 +177,7 @@ required values are strings or URIs.
 
 
 ## 6 Vocabulary Indices
-### <a id="Index_By_Term_Name">6.1 Index By Term Name</a>
+### 6.1 Index By Term Name
 
 (See also [6.2 Index By Label](#62-index-by-label))
 
@@ -350,7 +350,7 @@ required values are strings or URIs.
 | [ac:variantDescription](#ac_variantDescription) |
 | [ac:variantLiteral](#ac_variantLiteral) |
 
-### <a id="Index_By_Label">6.2 Index By Label</a>
+### 6.2 Index By Label
 
 (See also [6.1 Index By Term Name](#61-index-by-term-name))
 
@@ -508,8 +508,8 @@ required values are strings or URIs.
 | [Variant](#ac_variant) |
 | [Variant Description](#ac_variantDescription) |
 
-## <a id="Vocabularies">7 Vocabularies</a>
-### <a id="Management_Vocabulary">7.1 Management Vocabulary
+## 7 Vocabularies
+### 7.1 Management Vocabulary
 
 | property | value |
 |----------|-------|
@@ -654,7 +654,7 @@ required values are strings or URIs.
 | Notes: | Following the DC recommendations for the Text type, images of text should be given as http://purl.org/dc/dcmitype/Text when given as a URI. See also the entry for dc:type in this document and see the DCMI FAQ on DC and DCTERMS Namespaces for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails. |
 | | |
 
-### <a id="Attribution_Vocabulary">7.2 Attribution Vocabulary
+### 7.2 Attribution Vocabulary
 
 | property | value |
 |----------|-------|
@@ -742,7 +742,7 @@ required values are strings or URIs.
 | Notes: | The value of this field may provide a complete definition of the terms of use. For Creative Commons, the appropriate value is the URL of the defining Web page for the license. Example: http://creativecommons.org/licenses/by-nc-sa/3.0/us/. Where different quality variants (e. g. different resolutions of images) are published under different licenses, the AC term "Licensing Exception Statement" supports variant-specific licenses. |
 | | |
 
-### <a id="Agents_Vocabulary">7.3 Agents Vocabulary
+### 7.3 Agents Vocabulary
 
 | property | value |
 |----------|-------|
@@ -803,7 +803,7 @@ required values are strings or URIs.
 | Notes: | Media resources and their metadata may be served from different institutions, e. g. in the case of aggregators adding user annotations, taxon identifications, or ratings. See also the entry for ac:provider in this document and the section Namespaces, Prefixes and Term Names for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. |
 | | |
 
-### <a id="Content_Coverage_Vocabulary">7.4 Content Coverage Vocabulary
+### 7.4 Content Coverage Vocabulary
 
 | property | value |
 |----------|-------|
@@ -864,7 +864,7 @@ required values are strings or URIs.
 | Notes: | Tags may be multi-worded phrases. Where scientific names, common names, geographic locations, etc. are separable, those should go into the more specific coverage metadata items provided further below. Examples: "flower diagram". Character or part keywords like "leaf", or "flower color" are especially desirable. |
 | | |
 
-### <a id="Geography_Vocabulary">7.5 Geography Vocabulary
+### 7.5 Geography Vocabulary
 
 | property | value |
 |----------|-------|
@@ -1171,7 +1171,7 @@ required values are strings or URIs.
 | Notes: | The equivalent DarwinCore fields here forces primary metadata providers to classify world region terms into separate properties for "continent", "waterbody", "islandGroup". By contrast, the Iptc4xmpExt vocabulary only specifies that a World Region is something at the top of a hierarchy of locations. |
 | | |
 
-### <a id="Temporal_Coverage_Vocabulary">7.6 Temporal Coverage Vocabulary
+### 7.6 Temporal Coverage Vocabulary
 
 | property | value |
 |----------|-------|
@@ -1197,7 +1197,7 @@ required values are strings or URIs.
 | Notes: | Examples in English: afternoon, twilight. |
 | | |
 
-### <a id="Taxonomic_Coverage_Vocabulary">7.7 Taxonomic Coverage Vocabulary
+### 7.7 Taxonomic Coverage Vocabulary
 
 | property | value |
 |----------|-------|
@@ -1303,7 +1303,7 @@ required values are strings or URIs.
 | Notes: | The ISO language code after the name should be formatted as in the following example: 'abete bianco (it); Tanne (de); White Fir (en)'. If names are known to be male- or female-specific, this may be specified as in: 'ewe (en-female); ram (en-male);'. |
 | | |
 
-### <a id="Resource_Creation_Vocabulary">7.8 Resource Creation Vocabulary
+### 7.8 Resource Creation Vocabulary
 
 | property | value |
 |----------|-------|
@@ -1336,7 +1336,7 @@ required values are strings or URIs.
 | Notes: | Examples: Encoding method or settings, numbers of channels, lighting, audio sampling rate, frames per second, data rate, interlaced or progressive, multiflash lighting, remote control, automatic interval exposure.  Annotating whether and how a resource has been modified or edited significantly in ways that are not immediately obvious to, or expected by, consumers is of special significance. Examples for images are: Removing a distracting twig from a picture, moving an object to a different surrounding, changing the color in parts of the image, or blurring the background of an image. Modifications that are standard practice and expected or obvious are not necessary to document; examples of such practices include changing resolution, cropping, minor sharpening or overall color correction, and clearly perceptible modifications (e.g., addition of arrows or labels, or the placement of multiple pictures into a table.) If it is only known that significant modifications were made, but no details are known, a general statement like "Media may have been manipulated to improve appearance" may be appropriate. See also Subject Preparation Technique. |
 | | |
 
-### <a id="Related_Resources_Vocabulary">7.9 Related Resources Vocabulary
+### 7.9 Related Resources Vocabulary
 
 | property | value |
 |----------|-------|
@@ -1382,7 +1382,7 @@ required values are strings or URIs.
 | Notes: | The value references a related media item. Examples of relations are: Images taken in a sequence or defined time series, an exposure or focus series (e.g. for stacking), different framing or views (top, side, bottom) of the same subject, or an overview plus several details. The property makes such related media items discoverable, but does not indicate the nature of this relationship. More specific properties may be defined in a later version of AC. |
 | | |
 
-### <a id="Service_Access_Point_Vocabulary">7.10 Service Access Point Vocabulary
+### 7.10 Service Access Point Vocabulary
 
 | property | value |
 |----------|-------|
