@@ -874,7 +874,7 @@ required values are strings or URIs.
 
 ### 7.5 Geography Vocabulary
 
-All geography terms from the DarwinCore version of 9 Dec 2009 are deemed included in the Core Layer. Specifically, this includes exactly those which are declared by DarwinCore to be in DarwinCore Class [dwc:Location](http://rs.tdwg.org/dwc/terms/Location). Note that [dwc:locality](http://rs.tdwg.org/dwc/terms/locality) may be used, but as applied to media this term may be ambiguous as to whether it applies to the location depicted or the location at which the media was created. When disambiguating information is available, it is better to use the terms Location Shown and Location Created. The latter is in the Resource Creation Vocabulary.
+All geography terms from the Darwin Core version of 9 Dec 2009 are deemed included in the Core Layer. Specifically, this includes exactly those which are declared by Darwin Core to be in Darwin Core Class [dwc:Location](http://rs.tdwg.org/dwc/terms/Location). Note that [dwc:locality](http://rs.tdwg.org/dwc/terms/locality) may be used, but as applied to media this term may be ambiguous as to whether it applies to the location depicted or the location at which the media was created. When disambiguating information is available, it is better to use the terms Location Shown and Location Created. The latter is in the Resource Creation Vocabulary.
 
 Location Created and Location Shown are separated in the current version of IPTC, and the metadata working group ([Metadata Working Group Guidelines for Handling Image Metadata, Version 2.0, November 2010](http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf)) also recommends this. We follow this below in order to support the expected future increase of automatic GPS-based coordinate recording. As a special case, the AC group recommends to change the semantics of Location Shown in the case of biodiversity specimens, where the original location may differ from the current location at which the specimen is held in a collection. In this case, Location Shown should exclusively refer to the location where a specimen was originally collected (gathering or sampling location). Use Location Created to express the location where the resource was created (a specimen was digitized).
 
@@ -1488,13 +1488,6 @@ These terms are representation-dependent metadata, referring to specific digital
 | Notes: | This is an alternative to ac:variant where using a string is preferred over a URI. It is best practice to use ac:variant instead of ac:variantLiteral wherever practical. Value may be free text, but it is suggested to consider including terminology based on the following: Thumbnail: Service Access Point provides a thumbnail image, short sound clip, or short movie clip that can be used in addition to the resource to represent the media object, typically at lower quality and higher compression than a preview object. A typical size for a tiny thumbnail image may be 50-100 pixels in the longer dimension. Trailer: Service Access Point provides video clip preview, in the form of a specifically authored "Trailer", which may provide somewhat different content than the original resource. Lower Quality: Service Access Point provides a lower quality version of the media resource, suitable e. g. for web sites. Medium Quality: Service Access Point provides a medium quality version of the media resource, e. g. shortened in duration, or reduced size, using lower resolution or higher compression causing moderate artifacts. Good Quality: Service Access Point provides a good quality version of the media resource intended for resources displayed as primary information; e. g. an image between 800 and 1600 px in width or height. Best Quality: Service Access Point provides the highest available quality of the media resource, whatever its resolution or quality level. Offline: Service Access Point provides data about an offline resource. |
 | | |
 
-
-## Fix this!  The SAP and Geographic coverage sections have notes that aren't inserted by the script
-
-
-9.  <a href='cite_note-MWG2010-9'></a>Metadata Working Group
-    Guidelines for Handling Image Metadata (MWG 2010), Version 2.0, November 2010
-    http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf
 
 -----------------
 This document is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). ![http://creativecommons.org/licenses/by/4.0/](https://licensebuttons.net/l/by/4.0/88x31.png).
