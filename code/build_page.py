@@ -132,13 +132,14 @@ def buildIndexByTermLabel(table, displayOrder, displayLabel, displayId):
     
 # ---------------------------------------------------------------------------
 # generate a table for each term, with terms grouped by category
-def buildMarkdown(table, displayOrder, displayLabel, displayId):
+def buildMarkdown(table, displayOrder, displayLabel, displayComments, displayId):
 
     # generate the Markdown for the terms table
     text = '## 7 Vocabularies\n'
     for category in range(0,len(displayOrder)):
         text += '### 7.' + str(category + 1) + ' ' + displayLabel[category] + '\n'
         text += '\n'
+        text += displayComments[category] # insert the comments for the category, if any.
         text += '| property | value |\n'
         text += '|----------|-------|\n'
         for row in range(0,len(table)):    #no header row
@@ -182,6 +183,7 @@ outFileName = 'termlist.md'
 
 displayOrder = ['http://rs.tdwg.org/dwc/terms/attributes/Management', 'http://rs.tdwg.org/dwc/terms/attributes/Attribution', 'http://purl.org/dc/terms/Agent', 'http://rs.tdwg.org/dwc/terms/attributes/ContentCoverage', 'http://purl.org/dc/terms/Location', 'http://purl.org/dc/terms/PeriodOfTime', 'http://rs.tdwg.org/dwc/terms/attributes/TaxonomicCoverage', 'http://rs.tdwg.org/dwc/terms/attributes/ResourceCreation', 'http://rs.tdwg.org/dwc/terms/attributes/RelatedResources', 'http://rs.tdwg.org/dwc/terms/attributes/ServiceAccessPoint']
 displayLabel = ['Management Vocabulary', 'Attribution Vocabulary', 'Agents Vocabulary', 'Content Coverage Vocabulary', 'Geography Vocabulary', 'Temporal Coverage Vocabulary', 'Taxonomic Coverage Vocabulary', 'Resource Creation Vocabulary', 'Related Resources Vocabulary', 'Service Access Point Vocabulary']
+displayComments = ['','','','','All geography terms from the DarwinCore version of 9 Dec 2009 are deemed included in the Core Layer. Specifically, this includes exactly those which are declared by DarwinCore to be in DarwinCore Class [dwc:Location](http://rs.tdwg.org/dwc/terms/Location). Note that [dwc:locality](http://rs.tdwg.org/dwc/terms/locality) may be used, but as applied to media this term may be ambiguous as to whether it applies to the location depicted or the location at which the media was created. When disambiguating information is available, it is better to use the terms Location Shown and Location Created. The latter is in the Resource Creation Vocabulary.\n\nLocation Created and Location Shown are separated in the current version of IPTC, and the metadata working group ([Metadata Working Group Guidelines for Handling Image Metadata, Version 2.0, November 2010](http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf)) also recommends this. We follow this below in order to support the expected future increase of automatic GPS-based coordinate recording. As a special case, the AC group recommends to change the semantics of Location Shown in the case of biodiversity specimens, where the original location may differ from the current location at which the specimen is held in a collection. In this case, Location Shown should exclusively refer to the location where a specimen was originally collected (gathering or sampling location). Use Location Created to express the location where the resource was created (a specimen was digitized).\n\n','','','','','These terms are representation-dependent metadata, referring to specific digital representations of a resource (e.g., a specific resolution, quality, or format). They are used within whatever a particular AC implementation assigns to the value of hasServiceAccessPoint, whose label is simply "Service Access Point." Note that it is possible for an implementation to use syntactic conventions that avoid direct use of hasServiceAccessPoint, as illustrated in the final example in the section [Multiplicity/Cardinality in the Audubon Core Structure document](structure.md#3-multiplicity-and-cardinality).\n\n']
 displayId = ['Management_Vocabulary', 'Attribution_Vocabulary', 'Agents_Vocabulary', 'Content_Coverage_Vocabulary', 'Geography_Vocabulary', 'Temporal_Coverage_Vocabulary', 'Taxonomic_Coverage_Vocabulary', 'Resource_Creation_Vocabulary', 'Related_Resources_Vocabulary', 'Service_Access_Point_Vocabulary']
 
 termLists = retrieveVocabularyInfo(githubBaseUri)
@@ -195,7 +197,7 @@ labelSortedTable = sorted(table, key = lambda term: term[3].lower() ) # perform 
 
 indexByName = buildIndexByTermName(localnameSortedTable, displayOrder, displayLabel, displayId)
 indexByLabel = buildIndexByTermLabel(labelSortedTable, displayOrder, displayLabel, displayId)
-termTable = buildMarkdown(localnameSortedTable, displayOrder, displayLabel, displayId)
+termTable = buildMarkdown(localnameSortedTable, displayOrder, displayLabel, displayComments, displayId)
 
 text = indexByName + indexByLabel + termTable
 

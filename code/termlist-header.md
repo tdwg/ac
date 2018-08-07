@@ -1,7 +1,3 @@
----
-permalink: termlist-header
----
-
 # Audubon Core Term List
 
 For introductory material, see the **[Audubon
@@ -48,6 +44,10 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 [1 Introduction](#1-introduction)
 
+[1.1 Status of the content of this document](#11-status-of-the-content-of-this-document)
+
+[1.2 Categories of terms](#12-categories-of-terms)
+
 [2 Borrowed Vocabulary](#2-borrowed-vocabulary)
 
 [3 Namespaces, Prefixes and Term Names](#3-namespaces-prefixes-and-term-names)
@@ -86,6 +86,16 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 
 ## 1 Introduction
+
+There are four documents included in the Aububon Core Standard.  This document provides details about the terms included in Audubon Core vocabulary. The [Audubon Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
+
+
+### 1.1 Status of the content of this document
+
+Sections 1.2 through 5 are normative.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
+
+
+### 1.2 Categories of terms
 
 An Audubon Core (AC) record is a description of a multimedia resource
 using the AC vocabularies. Two kinds of terms are specified by this

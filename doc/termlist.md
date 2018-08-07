@@ -1,7 +1,3 @@
----
-permalink: termlist-header
----
-
 # Audubon Core Term List
 
 For introductory material, see the **[Audubon
@@ -48,6 +44,10 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 [1 Introduction](#1-introduction)
 
+[1.1 Status of the content of this document](#11-status-of-the-content-of-this-document)
+
+[1.2 Categories of terms](#12-categories-of-terms)
+
 [2 Borrowed Vocabulary](#2-borrowed-vocabulary)
 
 [3 Namespaces, Prefixes and Term Names](#3-namespaces-prefixes-and-term-names)
@@ -86,6 +86,16 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 
 ## 1 Introduction
+
+There are four documents included in the Aububon Core Standard.  This document provides details about the terms included in Audubon Core vocabulary. The [Audubon Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
+
+
+### 1.1 Status of the content of this document
+
+Sections 1.2 through 5 are normative.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
+
+
+### 1.2 Categories of terms
 
 An Audubon Core (AC) record is a description of a multimedia resource
 using the AC vocabularies. Two kinds of terms are specified by this
@@ -864,6 +874,10 @@ required values are strings or URIs.
 
 ### 7.5 Geography Vocabulary
 
+All geography terms from the DarwinCore version of 9 Dec 2009 are deemed included in the Core Layer. Specifically, this includes exactly those which are declared by DarwinCore to be in DarwinCore Class [dwc:Location](http://rs.tdwg.org/dwc/terms/Location). Note that [dwc:locality](http://rs.tdwg.org/dwc/terms/locality) may be used, but as applied to media this term may be ambiguous as to whether it applies to the location depicted or the location at which the media was created. When disambiguating information is available, it is better to use the terms Location Shown and Location Created. The latter is in the Resource Creation Vocabulary.
+
+Location Created and Location Shown are separated in the current version of IPTC, and the metadata working group ([Metadata Working Group Guidelines for Handling Image Metadata, Version 2.0, November 2010](http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf)) also recommends this. We follow this below in order to support the expected future increase of automatic GPS-based coordinate recording. As a special case, the AC group recommends to change the semantics of Location Shown in the case of biodiversity specimens, where the original location may differ from the current location at which the specimen is held in a collection. In this case, Location Shown should exclusively refer to the location where a specimen was originally collected (gathering or sampling location). Use Location Created to express the location where the resource was created (a specimen was digitized).
+
 | property | value |
 |----------|-------|
 | <a id="Iptc4xmpExt_City"></a>**Term Name:** | **Iptc4xmpExt:City** |
@@ -1381,6 +1395,8 @@ required values are strings or URIs.
 | | |
 
 ### 7.10 Service Access Point Vocabulary
+
+These terms are representation-dependent metadata, referring to specific digital representations of a resource (e.g., a specific resolution, quality, or format). They are used within whatever a particular AC implementation assigns to the value of hasServiceAccessPoint, whose label is simply "Service Access Point." Note that it is possible for an implementation to use syntactic conventions that avoid direct use of hasServiceAccessPoint, as illustrated in the final example in the section [Multiplicity/Cardinality in the Audubon Core Structure document](structure.md#3-multiplicity-and-cardinality).
 
 | property | value |
 |----------|-------|
