@@ -26,7 +26,7 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 [1 Introduction](#1-introduction)
 
-[1.1 Status of the content of this document](#status-of-the-content-of-this-document)
+[1.1 Status of the content of this document](#11-status-of-the-content-of-this-document)
 
 [2 Summary](#2-summary)
 
@@ -48,9 +48,9 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 [11 Further Information](#11-further-information)
 
-[12 Appendix I: Glossary](#appendix-i-glossary)
+[12 Appendix I: Glossary](#12-appendix-i-glossary)
 
-[13 Appendix II: Audubon Core Development History](#appendix-ii-audubon-core-development-history)
+[13 Appendix II: Audubon Core Development History](#13-appendix-ii-audubon-core-development-history)
 
 [13.1 Timeline](#131-timeline)
 
@@ -198,23 +198,63 @@ URIs might apparently resolve to the same place.
 Examples from the normative Term List are shown
 below.
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Term Name:  | dcterms:type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Normative URI:     | http://purl.org/dc/terms/type                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Label              | Type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                    | Layer: 1 — Required: Yes — Repeatable: No                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Definition:        | Any type term from [http://dublincore.org/documents/dcmi-type-vocabulary/](http://dublincore.org/documents/dcmi-type-vocabulary/#_blank) may be used. Recommended terms are *Collection*, *StillImage*, *Sound*, *MovingImage*, *InteractiveResource*, *Text*. Also recommended are*PanAndZoomImage*, *3DStillImage*, and *3DMovingImage*. Values may be used either in their literal form, or with a full namespace (e. g. http://purl.org/dc/dcmitype/StillImage) from a controlled vocabulary.                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Notes:          | A Collection should be given type [http://purl.org/dc/dcmitype/Collection](http://purl.org/dc/dcmitype/Collection#_blank). If the resource is a Collection, this item does *not* identify what types of objects it may contain. Following the DC recommendations at [http://purl.org/dc/dcmitype/Text](http://purl.org/dc/dcmitype/Text#_blank), images of text should be marked as *Text*.                                                                                                        |
+<table>
+	<tbody>
+		<tr>
+			<td>Term Name:</td>
+			<td>dcterms:type</td>
+		</tr>
+		<tr>
+			<td>Normative URI:</td>
+			<td><a href="http://purl.org/dc/terms/type" rel="nofollow">http://purl.org/dc/terms/type</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Type</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Layer:&nbsp;1 —&nbsp;Required:&nbsp;Yes —&nbsp;Repeatable:&nbsp;No</td>
+		</tr>
+		<tr>
+			<td>Definition:</td>
+			<td>Any type term from&nbsp;<a href="http://dublincore.org/documents/dcmi-type-vocabulary/#_blank" rel="nofollow">http://dublincore.org/documents/dcmi-type-vocabulary/</a>&nbsp;may be used. Recommended terms are&nbsp;<em>Collection</em>,&nbsp;<em>StillImage</em>,&nbsp;<em>Sound</em>,&nbsp;<em>MovingImage</em>,&nbsp;<em>InteractiveResource</em>,&nbsp;<em>Text</em>. Also recommended are<em>PanAndZoomImage</em>,&nbsp;<em>3DStillImage</em>, and&nbsp;<em>3DMovingImage</em>. Values may be used either in their literal form, or with a full namespace (e. g. <a href="http://purl.org/dc/dcmitype/StillImage" rel="nofollow">http://purl.org/dc/dcmitype/StillImage</a>) from a controlled vocabulary.</td>
+		</tr>
+		<tr>
+			<td>Notes:</td>
+			<td>A Collection should be given type&nbsp;<a href="http://purl.org/dc/dcmitype/Collection#_blank" rel="nofollow">http://purl.org/dc/dcmitype/Collection</a>. If the resource is a Collection, this item does&nbsp;<em>not</em>&nbsp;identify what types of objects it may contain. Following the DC recommendations at <a href="http://purl.org/dc/dcmitype/Text#_blank" rel="nofollow">http://purl.org/dc/dcmitype/Text</a>, images of text should be marked as&nbsp;<em>Text</em>.</td>
+		</tr>
+	</tbody>
+</table>
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Term Name:      |              subtype                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Normative URI:     | <http://rs.tdwg.org/ac/terms/subtype>                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Label              | Subtype                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|                    | Layer: 1 — Required: No — Repeatable: Yes                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Definition:        | Any of Drawing, Painting, Logo, Icon, Illustration, Graphic, Photograph, Animation, Film, SlideShow, DesignPlan, Diagram, Map, MusicalNotation, IdentificationKey, ScannedText, RecordedText, RecordedOrganism, TaxonPage, MultimediaLearningObject, VirtualRealityEnvironment, GlossaryPage. Values may be be used either in their literal form, or with their full namespace.                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Notes:          | This does not apply to Collection objects. The vocabulary may be extended by users provided they identify the term by a URI which is not in the ac namespace (for example, using "<http://my.inst.org/namespace/metadata/subtype/repair-manual>". Conforming applications may choose to ignore these.                                                                                                                                                                                             |
+<table>
+	<tbody>
+		<tr>
+			<td>Term Name:</td>
+			<td>subtype</td>
+		</tr>
+		<tr>
+			<td>Normative URI:</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/subtype" rel="nofollow">http://rs.tdwg.org/ac/terms/subtype</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Subtype</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Layer:&nbsp;1 —&nbsp;Required:&nbsp;No —&nbsp;Repeatable:&nbsp;Yes</td>
+		</tr>
+		<tr>
+			<td>Definition:</td>
+			<td>Any of Drawing, Painting, Logo, Icon, Illustration, Graphic, Photograph, Animation, Film, SlideShow, DesignPlan, Diagram, Map, MusicalNotation, IdentificationKey, ScannedText, RecordedText, RecordedOrganism, TaxonPage, MultimediaLearningObject, VirtualRealityEnvironment, GlossaryPage. Values may be be used either in their literal form, or with their full namespace.</td>
+		</tr>
+		<tr>
+			<td>Notes:</td>
+			<td>This does not apply to Collection objects. The vocabulary may be extended by users provided they identify the term by a URI which is not in the ac namespace (for example, using "<a href="http://my.inst.org/namespace/metadata/subtype/repair-manual" rel="nofollow">http://my.inst.org/namespace/metadata/subtype/repair-manual</a>". Conforming applications may choose to ignore these.</td>
+		</tr>
+	</tbody>
+</table>
 
 The principal namespace qualifiers for term URIs in this document are
 
@@ -634,85 +674,84 @@ this standard allows mapping between them.
 ## 12 Appendix I: Glossary
 
 <table>
-<tbody>
-
-<tr class="even">
-<td>DC</td>
-<td>Dublin Core. Metadata element set that is a standard for cross-domain information resource discovery. http://dublincore.org/documents/dcmi-terms/</td>
-</tr>
-<tr class="odd">
-<td>DCMI</td>
-<td>Dublin Core Metadata Initiative. The organization engaged in developing Dublin Core metadata standard. http://dublincore.org/</td>
-</tr>
-<tr class="even">
-<td>DwC</td>
-<td>The Darwin Core is a TDWG standard for representation of specimen records. It has been in wide use for several years in a number of nonstandard, sometimes inconsistent, versions. A recently adopted standard version is at http://rs.tdwg.org/dwc/index.htm.</td>
-</tr>
-<tr class="odd">
-<td>EOL</td>
-<td>Encyclopedia of Life. Information about many species. http://eol.org</td>
-</tr>
-<tr class="even">
-<td>EXIF</td>
-<td>A widely used tagging format for digital image metadata that is often embedded in the image files, particularly by modern digital cameras. Many image rendering applications can read and display EXIF data. See http://en.wikipedia.org/wiki/Exchangeable_image_file_format for a history and description.</td>
-</tr>
-<tr class="odd">
-<td>GBIF</td>
-<td>Global Biodiversity Information Facility. Interoperable network of biodiversity databases and information technology tools. http://www.gbif.org/</td>
-</tr>
-<tr class="even">
-<td>IANA</td>
-<td>Internet Assigned Names Authority. Specifies the forms of, and registers instances of, names of various protocols in use on the internet. http://www.iana.org. See especially information on the <em>IANA http URI scheme</em> at http://en.wikipedia.org/wiki/URI_scheme</td>
-</tr>
-<tr class="odd">
-<td>IPTC</td>
-<td>IPTC is a mature standard from the International Press and Telecommunications Council. Its Intellectual Property Rights support finer-grained controlled vocabularies than DC, providing better machine processing for discovery and fitness-for-use. The current version is a vocabulary for XMP. http://www.iptc.org</td>
-</tr>
-<tr class="even">
-<td>JSON</td>
-<td>JavaScript Object Notation. Lightweight data-interchange format. http://www.json.org/</td>
-</tr>
-<tr class="odd">
-<td>Morphbank</td>
-<td>A specimen image repository http://www.morphbank.net/</td>
-</tr>
-<tr class="even">
-<td>MWG</td>
-<td>The Metadata Working Group is an industry consortium (Adobe, Apple, Canon, Microsoft, Nokia, and Sony) organized to specify how to exploit the Adobe Extensible Metadata Platform, XMP (http://en.wikipedia.org/wiki/Extensible_Metadata_Platform), for embedding metadata into common image file formats in several widely used controlled vocabularies. Although MWG's thrust is mainly toward consumer applications, over two dozen open source and commercial software products and platforms support XMP and Adobe has placed a Developers' Toolkit under an open source license. http://www.metadataworkinggroup.org/</td>
-</tr>
-<tr class="odd">
-<td>NBII</td>
-<td>The former U.S. National Biological Information Infrastructure. Its image library, the Library of Images From the Environment (LIFE), was at http://images.nbii.gov/ or http://life.nbii.gov/. If LIFE is reconstituted in any form, there might be a link there.</td>
-</tr>
-<tr class="even">
-<td>NCD</td>
-<td>Natural Collections Description is a draft data standard designed to describe collections of physical objects such as specimens. It can accommodate collections of media objects, but cannot relate them to descriptions of the objects themselves. http://www.tdwg.org/activities/ncd/</td>
-</tr>
-<tr class="odd">
-<td>OGC</td>
-<td>Open Geospatial Consortium. Provides standards for geospatial data representation and exchange. http://www.opengeospatial.org/</td>
-</tr>
-<tr class="even">
-<td>RDF</td>
-<td>Resource Description Framework. Lightweight ontology system to support knowledge exchange online. http://en.wikipedia.org/wiki/Resource_Description_Framework</td>
-</tr>
-<tr class="odd">
-<td>TDWG</td>
-<td>Taxonomic Databases Working Group. Now known as the Biodiversity Information Standards (TDWG), it is an international working group that develops standards and protocols for sharing biodiversity data. http://www.tdwg.org/</td>
-</tr>
-<tr class="even">
-<td>URI</td>
-<td>Unique Resource Identifier. Generic term for linking web resources including URLs. http://en.wikipedia.org/wiki/Uniform_Resource_Identifier</td>
-</tr>
-<tr class="odd">
-<td>XML</td>
-<td>Extensible Markup Language. A simple flexible text format playing an increasingly important role in the exchange of a wide variety of data on the Web. http://www.w3.org/XML/</td>
-</tr>
-<tr class="even">
-<td>XMP</td>
-<td>Adobe Extensible Metadata Platform (XMP) is a framework for embedding metadata into media files. Adobe provides a BSD-licensed open-source XMP developer’s toolkit which includes documentation about how to represent metadata in XMP. The XMP specification itself is licensed by Adobe under a &quot;Public Patent License&quot; http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/xmp_public_patent_license.pdf by which Adobe grants everyone the right to make XMP-compliant components of their applications, but it reserves the right to withdraw the license in case such a compliant component infringes &quot;Essential Claims&quot; of any patent. See http://www.adobe.com/devnet/xmp/ for download information. See Also MWG in this table.</td>
-</tr>
-</tbody>
+  <tbody>
+    <tr class="even">
+      <td>DC</td>
+      <td>Dublin Core. Metadata element set that is a standard for cross-domain information  resource discovery. http://dublincore.org/documents/dcmi-terms/</td>
+    </tr>
+    <tr class="odd">
+      <td>DCMI</td>
+      <td>Dublin Core Metadata Initiative. The organization engaged in developing Dublin Core metadata standard. http://dublincore.org/</td>
+    </tr>
+    <tr class="even">
+      <td>DwC</td>
+      <td>The Darwin Core is a TDWG standard for representation of specimen records. It has been in wide use for several years in a number of nonstandard, sometimes inconsistent, versions. A recently adopted standard version is at http://rs.tdwg.org/dwc/index.htm.</td>
+    </tr>
+    <tr class="odd">
+      <td>EOL</td>
+      <td>Encyclopedia of Life. Information about many species. http://eol.org</td>
+    </tr>
+    <tr class="even">
+      <td>EXIF</td>
+      <td>A widely used tagging format for digital image metadata that is often embedded in the image files, particularly by modern digital cameras. Many image rendering applications can read and display EXIF data. See http://en.wikipedia.org/wiki/Exchangeable_image_file_format for a history and description.</td>
+    </tr>
+    <tr class="odd">
+      <td>GBIF</td>
+      <td>Global Biodiversity Information Facility. Interoperable network of biodiversity databases and information technology tools. http://www.gbif.org/</td>
+    </tr>
+    <tr class="even">
+      <td>IANA</td>
+      <td>Internet Assigned Names Authority. Specifies the forms of, and registers instances of, names of various protocols in use on the internet. http://www.iana.org. See especially information on the <em>IANA http URI scheme</em> at http://en.wikipedia.org/wiki/URI_scheme</td>
+    </tr>
+    <tr class="odd">
+      <td>IPTC</td>
+      <td>IPTC is a mature standard from the International Press and Telecommunications Council. Its Intellectual Property Rights support finer-grained controlled vocabularies than DC, providing better machine processing for discovery and fitness-for-use. The current version is a vocabulary for XMP. http://www.iptc.org</td>
+    </tr>
+    <tr class="even">
+      <td>JSON</td>
+      <td>JavaScript Object Notation. Lightweight data-interchange format. http://www.json.org/</td>
+    </tr>
+    <tr class="odd">
+      <td>Morphbank</td>
+      <td>A specimen image repository http://www.morphbank.net/</td>
+    </tr>
+    <tr class="even">
+      <td>MWG</td>
+      <td>The Metadata Working Group is an industry consortium (Adobe, Apple, Canon, Microsoft, Nokia, and Sony) organized to specify how to exploit the Adobe Extensible Metadata Platform, XMP (http://en.wikipedia.org/wiki/Extensible_Metadata_Platform), for embedding metadata into common image file formats in several widely used controlled vocabularies. Although MWG's thrust is mainly toward consumer applications, over two dozen open source and commercial software products and platforms support XMP and Adobe has placed a Developers' Toolkit under an open source license. http://www.metadataworkinggroup.org/</td>
+    </tr>
+    <tr class="odd">
+      <td>NBII</td>
+      <td>The former U.S. National Biological Information Infrastructure. Its image library, the Library of Images From the Environment (LIFE), was at http://images.nbii.gov/ or http://life.nbii.gov/. If LIFE is reconstituted in any form, there might be a link there.</td>
+    </tr>
+    <tr class="even">
+      <td>NCD</td>
+      <td>Natural Collections Description is a draft data standard designed to describe collections of physical objects such as specimens. It can accommodate collections of media objects, but cannot relate them to descriptions of the objects themselves. http://www.tdwg.org/activities/ncd/</td>
+    </tr>
+    <tr class="odd">
+      <td>OGC</td>
+      <td>Open Geospatial Consortium. Provides standards for geospatial data representation and exchange. http://www.opengeospatial.org/</td>
+    </tr>
+    <tr class="even">
+      <td>RDF</td>
+      <td>Resource Description Framework. Lightweight ontology system to support knowledge exchange online. http://en.wikipedia.org/wiki/Resource_Description_Framework</td>
+    </tr>
+    <tr class="odd">
+      <td>TDWG</td>
+      <td>Taxonomic Databases Working Group. Now known as the Biodiversity Information Standards (TDWG), it is an international working group that develops standards and protocols for sharing biodiversity data. http://www.tdwg.org/</td>
+    </tr>
+    <tr class="even">
+      <td>URI</td>
+      <td>Unique Resource Identifier. Generic term for linking web resources including URLs. http://en.wikipedia.org/wiki/Uniform_Resource_Identifier</td>
+    </tr>
+    <tr class="odd">
+      <td>XML</td>
+      <td>Extensible Markup Language. A simple flexible text format playing an increasingly important role in the exchange of a wide variety of data on the Web. http://www.w3.org/XML/</td>
+    </tr>
+    <tr class="even">
+      <td>XMP</td>
+      <td>Adobe Extensible Metadata Platform (XMP) is a framework for embedding metadata into media files. Adobe provides a BSD-licensed open-source XMP developer’s toolkit which includes documentation about how to represent metadata in XMP. The XMP specification itself is licensed by Adobe under a &quot;Public Patent License&quot; http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/xmp_public_patent_license.pdf by which Adobe grants everyone the right to make XMP-compliant components of their applications, but it reserves the right to withdraw the license in case such a compliant component infringes &quot;Essential Claims&quot; of any patent. See http://www.adobe.com/devnet/xmp/ for download information. See Also MWG in this table.</td>
+    </tr>
+  </tbody>
 </table>
 
 

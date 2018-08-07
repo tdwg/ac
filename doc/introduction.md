@@ -36,17 +36,17 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 ## Table of Contents
 
-<a href='#Introduction'>1 Introduction</a>
+[1 Introduction](#1-introduction)
 
-<a href='#Status'>1.1 Status of the content of this document</a>
+[1.1 Status of the content of this document](#11-status-of-the-content-of-this-document)
 
-<a href='#Scope'>1.2 The scope of Audubon Core</a>
+[1.2 The scope of Audubon Core](#12-the-scope-of-audubon-core)
 
-<a href='#Audubon_Core_Terms'>2 Audubon Core terms</a>
+[2 Audubon Core terms](#2-audubon-core-terms)
 
-<a href='#Implementations'>3 Implementations</a>
+[3 Implementations](#3-implementations)
 
-<a href='#References'>4 References</a>
+[4 References](#4-references)
 
 
 ## 1 Introduction
@@ -137,22 +137,22 @@ practice of introducing a short prefix comprising a "namespace
 qualifier" separated by a colon from a mnemonic name closely related to
 the term's Name. The namespace of the roughly 50% of the terms that are
 borrowed from other vocabularies is the namespace of the original. The
-namespace of de novo AC terms is <http://rs.tdwg.org/ac/terms/>. In the [Audubon Core Term List](termlist.md), each
+namespace of de novo AC terms is http://rs.tdwg.org/ac/terms/. In the [Audubon Core Term List](termlist.md), each
 term entry has a row with the term name. Following the practice of the
 [Darwin Core terms](http://rs.tdwg.org/dwc/terms/), this term name
 is generally an "unqualified name" preceded by a widely accepted prefix
 designating an abbreviation for the namespace. The result is known as a
 qualified name. For example the normative wiki documentation for the
 borrowed term dcterms:identifier has URI
-<http://purl.org/dc/terms/identifier>. The first part,
-"<http://purl.org/dc/terms/>" corresponds to the namespace. Most of the
+http://purl.org/dc/terms/identifier. The first part,
+"http://purl.org/dc/terms/" corresponds to the namespace. Most of the
 URIs for terms borrowed from external vocabularies do in fact produce
 relevant documentation for that external standard when used as a web
 page URL. Sometimes it is not precise because the documentation is a PDF
-document and several (different\!) URIs might apparently lead
+document and several (different!) URIs might apparently lead
 to the same place.
 
-## <a id="Implementations">3 Implementations</a>
+## 3 Implementations
 
 The [AC Term List](termlist.md) and
 [Audubon Core Structure](structure.md)

@@ -187,9 +187,9 @@ Core this situation occurs, for example, in the following cases:
     optionally be structured into pairs. (See the notes on
     [dwc:identificationQualifier](termlist.md#dwc_identificationQualifier).)
   - The terms
-    [Reviewer](termlist.md#ac_Reviewer),
+    [Reviewer](termlist.md#ac_reviewer),
     being the name of an individual providing some expert review of a
-    resource, and the review text itself in [Reviewer Comments](termlist.md#ac_Reviewer_Comments)
+    resource, and the review text itself in [Reviewer Comments](termlist.md#ac_reviewerComments)
     are desirable to store as pairs.
 
 
