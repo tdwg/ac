@@ -1,9 +1,5 @@
 # Audubon Core Term List
 
-For introductory material, see the **[Audubon
-Core Introduction](introduction.md)** and **[Audubon Core
-Structure](structure.md)** documents.
-
 **Title:** Audubon Core Term List
 
 **Date version issued:** 2013-10-23
@@ -29,7 +25,7 @@ list of attributes of each Audubon Core term, including a documentation
 name, a specified URI, a recommended English label for user interfaces,
 a definition, and some ancillary notes. The version shown here has been
 adopted by Biodiversity Information Standards / TDWG at the general
-meeting in October 2013. This is a normative document and the definition
+meeting in October 2013. This document contains normative content that
 may not be changed without due process.
 
 **Contributors:** Robert A. Morris, Vijay Barve, Mihail Carausu, Vishwas
