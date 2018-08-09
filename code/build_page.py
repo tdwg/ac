@@ -86,13 +86,15 @@ def createMasterMetadataTable(termLists, listMetadata):
                 repeatableColumn = column
             if header[column] == 'rdfs_comment':
                 definitionColumn = column
+            if header[column] == 'skos_scopeNote':
+                scopeNoteColumn = column
             if header[column] == 'dcterms_description':
                 notesColumn = column
             if header[column] == 'tdwgutility_organizedInClass':
                 organizedColumn = column
 
         for row in range(1,len(table)):    #skip the header row
-            masterTable.append([ namespaceDict[termList], uriDict[termList], table[row][localNameColumn], table[row][labelColumn], table[row][layerColumn], table[row][requiredColumn], table[row][repeatableColumn], table[row][definitionColumn], table[row][notesColumn], table[row][organizedColumn] ])
+            masterTable.append([ namespaceDict[termList], uriDict[termList], table[row][localNameColumn], table[row][labelColumn], table[row][layerColumn], table[row][requiredColumn], table[row][repeatableColumn], table[row][definitionColumn], table[row][scopeNoteColumn], table[row][notesColumn], table[row][organizedColumn] ])
 
     return masterTable
 
@@ -106,13 +108,13 @@ def buildIndexByTermName(table, displayOrder, displayLabel, displayId):
         text += '**' + displayLabel[category] + '**\n'
         text += '\n'
         for row in range(0,len(table)):    #no header row
-            if displayOrder[category] == table[row][9]:
+            if displayOrder[category] == table[row][10]:
                 curie = table[row][0] + ":" + table[row][2]
                 curieAnchor = curie.replace(':','_')
                 text += '| [' + curie + '](#' + curieAnchor + ') |\n'
         text += '\n'
     return text
-    
+
 # ---------------------------------------------------------------------------
 # generate the index of terms grouped by category and sorted alphabetically by the term label
 def buildIndexByTermLabel(table, displayOrder, displayLabel, displayId):
@@ -123,13 +125,13 @@ def buildIndexByTermLabel(table, displayOrder, displayLabel, displayId):
         text += '**' + displayLabel[category] + '**\n'
         text += '\n'
         for row in range(0,len(table)):    #no header row
-            if displayOrder[category] == table[row][9]:
+            if displayOrder[category] == table[row][10]:
                 if row == 0 or (row != 0 and table[row][3] != table[row-1][3]): # this is a hack to prevent duplicate labels
                     curieAnchor = table[row][0] + "_" + table[row][2]
                     text += '| [' + table[row][3] + '](#' + curieAnchor + ') |\n'
         text += '\n'
     return text
-    
+
 # ---------------------------------------------------------------------------
 # generate a table for each term, with terms grouped by category
 def buildMarkdown(table, displayOrder, displayLabel, displayComments, displayId):
@@ -143,7 +145,7 @@ def buildMarkdown(table, displayOrder, displayLabel, displayComments, displayId)
         text += '| property | value |\n'
         text += '|----------|-------|\n'
         for row in range(0,len(table)):    #no header row
-            if displayOrder[category] == table[row][9]:
+            if displayOrder[category] == table[row][10]:
                 curie = table[row][0] + ":" + table[row][2]
                 curieAnchor = curie.replace(':','_')
                 text += '| <a id="' + curieAnchor + '"></a>**Term Name:** | **' + curie + '** |\n'
@@ -152,11 +154,13 @@ def buildMarkdown(table, displayOrder, displayLabel, displayComments, displayId)
                 text += '| | **Layer:** ' + table[row][4] + ' -- **Required:** ' + table[row][5] + ' -- **Repeatable:** ' + table[row][6] + ' |\n'
                 text += '| Definition: | ' + table[row][7] + ' |\n'
                 if table[row][8] != '':
-                    text += '| Notes: | ' + table[row][8] + ' |\n'
+                    text += '| Usage: | ' + table[row][8] + ' |\n'
+                if table[row][9] != '':
+                    text += '| Notes: | ' + table[row][9] + ' |\n'
                 text += '| | |\n'
         text += '\n'
     return text
-    
+
 # ---------------------------------------------------------------------------
 # read in header and footer, merge with terms table, and output
 def outputMarkdown(text, headerFileName, footerFileName, outFileName):
@@ -193,6 +197,7 @@ listMetadata = retrieveTermListMetadata(githubBaseUri)
 table = createMasterMetadataTable(termLists, listMetadata)
 
 localnameSortedTable = sorted(table, key = lambda term: term[2].lower() ) # perform sort on lowercase of the third column: localNameColumn
+
 labelSortedTable = sorted(table, key = lambda term: term[3].lower() ) # perform sort on lowercase of the fourth column: labelColumn
 
 indexByName = buildIndexByTermName(localnameSortedTable, displayOrder, displayLabel, displayId)
@@ -202,4 +207,3 @@ termTable = buildMarkdown(localnameSortedTable, displayOrder, displayLabel, disp
 text = indexByName + indexByLabel + termTable
 
 outputMarkdown(text, headerFileName, footerFileName, outFileName)
-
