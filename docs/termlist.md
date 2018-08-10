@@ -1305,7 +1305,6 @@ Location Created and Location Shown are separated in the current version of IPTC
 | Label: | Scientific Name ID |
 | | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
 | Definition: | An identifier for the nomenclatural (not taxonomic) details of a scientific name. |
-| Usage: | An identifier for the nomenclatural (not taxonomic) details of a scientific name. |
 | Notes: | See dwc:scientificNameID and also the DwC Taxon attributes. |
 | | |
 | <a id="dwc_sex"></a>**Term Name:** | **dwc:sex** |
