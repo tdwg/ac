@@ -88,7 +88,7 @@ There are four documents included in the Aububon Core Standard.  This document p
 
 ### 1.1 Status of the content of this document
 
-Sections 1.2 through 5 are normative.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
+Sections 1.2 through 5 are normative.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Audubon Core.  The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
 
 
 ### 1.2 Categories of terms

@@ -88,7 +88,7 @@ There are four documents included in the Aububon Core Standard.  This document p
 
 ### 1.1 Status of the content of this document
 
-Sections 1.2 through 5 are normative.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
+Sections 1.2 through 5 are normative.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Audubon Core.  The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
 
 
 ### 1.2 Categories of terms
@@ -718,7 +718,7 @@ required values are strings or URIs.
 | Label: | Copyright Statement |
 | | **Layer:** 1 -- **Required:** Yes -- **Repeatable:** No |
 | Definition: | Information about rights held in and over the resource. |
-| Usage: | Information about rights held in and over the resource. A full-text, readable copyright statement, as required by the national legislation of the copyright holder. On collections, this applies to all contained objects, unless the object itself has a different statement. Examples: "Copyright XY 2008, all rights reserved", "Â© 2008 XY Museum", "Public Domain.", "Copyright unknown." Do not place just the name of the copyright holder(s) here! That belongs in a list in the xmpRights:Owner field, which should be supplied if dc:rights is not 'Public Domain', which is appropriate only if the resource is known to be not under copyright. |
+| Usage: | Information about rights held in and over the resource. A full-text, readable copyright statement, as required by the national legislation of the copyright holder. On collections, this applies to all contained objects, unless the object itself has a different statement. Examples: "Copyright XY 2008, all rights reserved", "© 2008 XY Museum", "Public Domain.", "Copyright unknown." Do not place just the name of the copyright holder(s) here! That belongs in a list in the xmpRights:Owner field, which should be supplied if dc:rights is not 'Public Domain', which is appropriate only if the resource is known to be not under copyright. |
 | Notes: | This expresses rights over the media resource, not over the metadata text. At least one of dcterms:rights and dc:rights must be supplied but, when feasible, supplying both may make the metadata more widely useful. They must specify the same rights. In case of ambiguity, dcterms:rights prevails. |
 | | |
 | <a id="dcterms_rights"></a>**Term Name:** | **dcterms:rights** |
@@ -1244,32 +1244,37 @@ Location Created and Location Shown are separated in the current version of IPTC
 | Normative URI: | http://rs.tdwg.org/dwc/terms/dateIdentified |
 | Label: | Date Identified |
 | | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
-| Definition: | The date on which the person(s) given under Identfied By applied a Scientific Taxon Name to the resource. |
+| Definition: | The date on which the subject was identified as representing the Taxon. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E). |
+| Usage: | The date on which the person(s) given under Identfied By applied a Scientific Taxon Name to the resource. |
 | | |
 | <a id="dwc_identificationQualifier"></a>**Term Name:** | **dwc:identificationQualifier** |
 | Normative URI: | http://rs.tdwg.org/dwc/terms/identificationQualifier |
 | Label: | Identification Qualifier |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | A brief phrase or a standard abbreviation ("cf. genus", "cf. species", "cf. var.", "aff. species", etc.) to express the determiner's doubts with respect to a specified taxonomic rank about the identification given in Scientific Taxon Name. |
+| Definition: | A brief phrase or a standard term ("cf.", "aff.") to express the determiner's doubts about the Identification. |
+| Usage: | A brief phrase or a standard abbreviation ("cf. genus", "cf. species", "cf. var.", "aff. species", etc.) to express the determiner's doubts with respect to a specified taxonomic rank about the identification given in Scientific Taxon Name. |
 | Notes: | Splitting identification qualification and Scientific Taxon Name into separate fields is recommended practice in cases where only a single taxon name is available, or if the exchange format is able to keep relations between multiple names and identification qualifiers. Where the exchange format only supports simple multiplicities, a media item with multiple Scientific Taxon Names, some with, some without identification qualifiers, may have to be transferred with "cf." or "aff." qualifiers remaining embedded in the Scientific Taxon Name. For discussion of Darwin Core usage see here. Example: For the determinations "cf. Fusarium oxysporum f. sp. palmarum", "Fusarium cf. oxysporum f. sp. palmarum", "Fusarium oxysporum cf. f. sp. palmarum" the Scientific Taxon Name would always be "Fusarium oxysporum f. sp. palmarum", with Identification Qualifier "cf. genus", "cf. species" and "cf. f.sp.", respectively. In most cases only the lowest taxon is in doubt, but cases exist where good reasons exist to suspect a specific or even infraspecific determination, without having a save generic identification. |
 | | |
 | <a id="dwc_identifiedBy"></a>**Term Name:** | **dwc:identifiedBy** |
 | Normative URI: | http://rs.tdwg.org/dwc/terms/identifiedBy |
 | Label: | Identified By |
 | | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | The name(s) of the person(s) who applied the Scientific Taxon Name to the media item or the occurrence represented in the media item. |
+| Definition: | A list (concatenated and separated) of names of people, groups, or organizations who assigned the Taxon to the subject. |
+| Usage: | The name(s) of the person(s) who applied the Scientific Taxon Name to the media item or the occurrence represented in the media item. |
 | | |
 | <a id="dwc_lifeStage"></a>**Term Name:** | **dwc:lifeStage** |
 | Normative URI: | http://rs.tdwg.org/dwc/terms/lifeStage |
 | Label: | Subject Life Stage |
 | | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | A description of the life-cycle stage of any organisms featured within the media, when relevant to the subject of the media, e. g., larvae, juvenile, adult. |
+| Definition: | The age class or life stage of the biological individual(s) at the time the Occurrence was recorded. Recommended best practice is to use a controlled vocabulary. |
+| Usage: | A description of the life-cycle stage of any organisms featured within the media, when relevant to the subject of the media, e. g., larvae, juvenile, adult. |
 | | |
 | <a id="dwc_nameAccordingTo"></a>**Term Name:** | **dwc:nameAccordingTo** |
 | Normative URI: | http://rs.tdwg.org/dwc/terms/nameAccordingTo |
 | Label: | Name According To |
 | | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | The taxonomic authority used to apply the name to the taxon, e. g., a person, book or web service. |
+| Definition: | The reference to the source in which the specific taxon concept circumscription is defined or implied - traditionally signified by the Latin "sensu" or "sec." (from secundum, meaning "according to"). For taxa that result from identifications, a reference to the keys, monographs, experts and other sources should be given. |
+| Usage: | The taxonomic authority used to apply the name to the taxon, e. g., a person, book or web service. |
 | Notes: | Examples are "Flora of North America", "Landrum 1981, Monograph of the Genus Myrceugenia (Myrtaceae)", "Peterson Field Guide to Birds of North America", or "Expert identification by J.Smith". The definition at dwc:nameAccordingTo is: 'The reference to the source in which the specific taxon concept circumscription is defined or implied - traditionally signified by the Latin "sensu" or "sec." (from secundum, meaning "according to"). For taxa that result from identifications, a reference to the keys, monographs, experts and other sources should be given.' |
 | | |
 | <a id="ac_otherScientificName"></a>**Term Name:** | **ac:otherScientificName** |
@@ -1283,14 +1288,16 @@ Location Created and Location Shown are separated in the current version of IPTC
 | Normative URI: | http://rs.tdwg.org/dwc/terms/preparations |
 | Label: | Subject Preparation Technique |
 | | **Layer:** 2 -- **Required:** No -- **Repeatable:** No |
-| Definition: | Free form text describing the techniques used to prepare the subject of the media, prior to or while creating the media resource. |
+| Definition: | A list (concatenated and separated) of preparations and preservation methods for a specimen. |
+| Usage: | Free form text describing the techniques used to prepare the subject of the media, prior to or while creating the media resource. |
 | Notes: | Examples for such techniques are: Insect under CO2, cooled to immobility, preservation with ethanol or formaldehyde. See also Resource Creation Technique for technical aspects of digital media object creation. |
 | | |
 | <a id="dwc_scientificName"></a>**Term Name:** | **dwc:scientificName** |
 | Normative URI: | http://rs.tdwg.org/dwc/terms/scientificName |
 | Label: | Scientific Taxon Name |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | Scientific names of taxa represented in the media resource (with date and name authorship information if available) of the lowest level taxonomic rank that can be applied. |
+| Definition: | The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the IdentificationQualifier term. |
+| Usage: | Scientific names of taxa represented in the media resource (with date and name authorship information if available) of the lowest level taxonomic rank that can be applied. |
 | Notes: | The Scientific Taxon Name may possibly be of a higher rank, e.g., a genus or family name, if this is the most specific identification available. Where multiple taxa are the subject of the media item, multiple names may be given. If possible, add this information here even if the title or caption of the resource already contains scientific taxon names. Where the list of scientific taxon names is impractically large (e.g., media collections or identification tools), the number of taxa should be given in Taxon Count (see below). If possible, avoid repeating the Taxonomic Coverage here. Do not use abbreviated Genus names ("P. vulgaris"). It is recommended to provide author citation to scientific names, to avoid ambiguities in the presence of homonyms (the same name created by different authors for different taxa). Identifier qualifications should be supplied in the Identification Qualifier term rather than here (i. e. "Abies cf. alba" is deprecated, to be replaced with Scientific Taxon Name = "Abies alba" and Identification Qualifier = "cf. species"). |
 | | |
 | <a id="dwc_scientificNameID"></a>**Term Name:** | **dwc:scientificNameID** |
@@ -1298,13 +1305,15 @@ Location Created and Location Shown are separated in the current version of IPTC
 | Label: | Scientific Name ID |
 | | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
 | Definition: | An identifier for the nomenclatural (not taxonomic) details of a scientific name. |
+| Usage: | An identifier for the nomenclatural (not taxonomic) details of a scientific name. |
 | Notes: | See dwc:scientificNameID and also the DwC Taxon attributes. |
 | | |
 | <a id="dwc_sex"></a>**Term Name:** | **dwc:sex** |
 | Normative URI: | http://rs.tdwg.org/dwc/terms/sex |
 | Label: | Subject Sex |
 | | **Layer:** 2 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | A description of the sex of any organisms featured within the media, when relevant to the subject of the media, e. g., male, female, hermaphrodite, dioecious. |
+| Definition: | The sex of the biological individual(s) represented in the Occurrence. Recommended best practice is to use a controlled vocabulary. |
+| Usage: | A description of the sex of any organisms featured within the media, when relevant to the subject of the media, e. g., male, female, hermaphrodite, dioecious. |
 | | |
 | <a id="ac_subjectOrientation"></a>**Term Name:** | **ac:subjectOrientation** |
 | Normative URI: | http://rs.tdwg.org/ac/terms/subjectOrientation |
@@ -1338,7 +1347,8 @@ Location Created and Location Shown are separated in the current version of IPTC
 | Normative URI: | http://rs.tdwg.org/dwc/terms/vernacularName |
 | Label: | Common Name |
 | | **Layer:** 1 -- **Required:** No -- **Repeatable:** Yes |
-| Definition: | Common (= vernacular) names of the subject in one or several languages. The ISO language name should be given in parentheses after the name if not all names are given by values of the Metadata Language term. |
+| Definition: | A common or vernacular name. |
+| Usage: | Common (= vernacular) names of the subject in one or several languages. The ISO language name should be given in parentheses after the name if not all names are given by values of the Metadata Language term. |
 | Notes: | The ISO language code after the name should be formatted as in the following example: 'abete bianco (it); Tanne (de); White Fir (en)'. If names are known to be male- or female-specific, this may be specified as in: 'ewe (en-female); ram (en-male);'. |
 | | |
 
