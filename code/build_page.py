@@ -11,6 +11,7 @@ import re
 def retrieveVocabularyInfo(githubBaseUri):
     dataUrl = githubBaseUri + 'vocabularies/vocabularies-members.csv'
     table = http_library.retrieveData(dataUrl, 'csv', ',')
+    print(table[0])
     header = table[0]
 
     # determine which column contains the vocab and term list ids
