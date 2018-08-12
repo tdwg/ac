@@ -157,7 +157,7 @@ implementations of AC, because
 some implementations may not provide enough structure to clearly state
 the association between the members of a pair in the case of multiple
 values of each. This is a special case of the issue treated in the
-normative material on [Multiplicity and Cardinality](structure.md#3-multiplicity-and-cardinality).
+normative material on [Multiplicity and Cardinality](structure.md#3-multiplicity-and-cardinality) in the Audubon Core Structure document.
 
 
 ## 4 Layers
@@ -186,4 +186,4 @@ required values are strings or URIs.
 
 
 
-## 6 Vocabulary Indices
+## 6 Vocabulary Indices (non-normative)
