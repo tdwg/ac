@@ -115,7 +115,7 @@ implementations of AC, because
 some implementations may not provide enough structure to clearly state
 the association between the members of a pair in the case of multiple
 values of each. This is a special case of the issue treated in the
-normative material on [Multiplicity and Cardinality](structure.md#3-multiplicity-and-cardinality).
+normative material on [Multiplicity and Cardinality](structure.md#3-multiplicity-and-cardinality) in the Audubon Core Structure document.
 
 
 ## 4 Layers
@@ -144,7 +144,7 @@ required values are strings or URIs.
 
 
 
-## 6 Vocabulary Indices
+## 6 Vocabulary Indices (non-normative)
 ### 6.1 Index By Term Name
 
 (See also [6.2 Index By Label](#62-index-by-label))
@@ -504,11 +504,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>The date (often a range) that the resource became or will become available. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples.</td>
+			<td>The date (often a range) that the resource became or will become available. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, https://www.w3.org/TR/NOTE-datetime, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004, https://www.iso.org/standard/40874.html. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/').</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>A use case is the harvesting of metadata published before the media are available, which are pending a formal publication elsewhere. One important example is the case of metadata that documents an occurrence, which metadata harvesters might exploit without use of the media. See also the wikipedia IS0 8601 entry <a href="https://en.wikipedia.org/wiki/ISO_8601"><i class="fa fa-external-link"></i></a> for further explanation and examples.</td>
+			<td>A use case is the harvesting of metadata published before the media are available, which are pending a formal publication elsewhere. One important example is the case of metadata that documents an occurrence, which metadata harvesters might exploit without use of the media. See also the wikipedia IS0 8601 entry, https://en.wikipedia.org/wiki/ISO_8601, for further explanation and examples.</td>
 		</tr>
 	</tbody>
 </table>
@@ -538,7 +538,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>See also Reviewer Comments for the distinction between Comments and Reviewer Comments.</td>
+			<td>See also Reviewer Comments for the distinction between Comments and Reviewer Comments. See also the entry for ac:commenterLiteral and the section Namespaces, Prefixes and Term Names in the Audubon Core Term List document for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -568,7 +568,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>See also Reviewer Comments for the distinction between Comments and Reviewer Comments. See also See also the entry for ac:commenter and the section Namespaces, Prefixes and Term Names in the Audubon Core Term List document for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>See also Reviewer Comments for the distinction between Comments and Reviewer Comments. See also the entry for ac:commenter and the section Namespaces, Prefixes and Term Names in the Audubon Core Term List document for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -598,7 +598,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Comments may refer to the resource itself (e. g., asserting a taxon name or location of a biological subject in an image), or to the relation between resource and associated metadata (e. g., asserting that the taxon name given in the metadata is wrong, without asserting a positive identification). There is a separate item for Reviewer Comments, which is defined more as an expert-level review.Implementers or communities of practice might establish conventions about the meaning of the absence of a commenter, but this specification is silent on that matter.</td>
+			<td>Comments may refer to the resource itself (e. g., asserting a taxon name or location of a biological subject in an image), or to the relation between resource and associated metadata (e. g., asserting that the taxon name given in the metadata is wrong, without asserting a positive identification). There is a separate item for Reviewer Comments, which is defined more as an expert-level review. Implementers or communities of practice might establish conventions about the meaning of the absence of a commenter, but this specification is silent on that matter.</td>
 		</tr>
 	</tbody>
 </table>
@@ -624,7 +624,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>In a chosen serialization (RDF, XML Schema, etc.) the potentially multiple service access points (e.g., for different resolutions of an image) might be provided in a referenced or in a nested object. This property identifies one such access point. That is, each of potentially multiple values of hasServiceAccessPoint identifies a set of representation-dependent metadata using the properties defined under the Service Access Point Vocabulary of the Audubon Core Term List document.</td>
+			<td>In a chosen serialization (RDF, XML Schema, etc.) the potentially multiple service access points (e.g., for different resolutions of an image) might be provided in a referenced or in a nested object. This property identifies one such access point. That is, each of potentially multiple values of hasServiceAccessPoint identifies a set of representation-dependent metadata using the properties defined under the Service Access Point Vocabulary section of the Audubon Core Term List document.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -650,7 +650,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> Yes/No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Layer:</b> 1 -- <b>Required:</b> Yes for media collections, No for media resources (but preferred if available) -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -692,11 +692,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>Point in time recording when the last modification to metadata (not necessarily the media object itself) occurred. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice <a href="https://www.w3.org/TR/NOTE-datetime"><i class="fa fa-external-link"></i></a>, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004 <a href="https://www.iso.org/standard/40874.html"><i class="fa fa-external-link"></i></a>. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 <a href="https://en.wikipedia.org/wiki/ISO_8601"><i class="fa fa-external-link"></i></a> entry for further explanation and examples.</td>
+			<td>Point in time recording when the last modification to metadata (not necessarily the media object itself) occurred. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, https://www.w3.org/TR/NOTE-datetime, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004, https://www.iso.org/standard/40874.html. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601, https://en.wikipedia.org/wiki/ISO_8601, entry for further explanation and examples.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>This is not dcterms:modified, which refers to the resource itself rather than its metadata. See also the wikipedia IS0 8601 entry <a href="https://en.wikipedia.org/wiki/ISO_8601"><i class="fa fa-external-link"></i></a> for further explanation and examples.</td>
+			<td>This is not dcterms:modified, which refers to the resource itself rather than its metadata. See also the wikipedia IS0 8601 entry, https://en.wikipedia.org/wiki/ISO_8601, for further explanation and examples.</td>
 		</tr>
 	</tbody>
 </table>
@@ -722,7 +722,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>URI from the ISO639-2 list of URIs for ISO 3-letter language codes.</td>
+			<td>URI from the ISO639-2 list of URIs for ISO 3-letter language codes, http://id.loc.gov/vocabulary/iso639-2.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -786,11 +786,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>Date that the media resource was altered. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry for further explanation and examples.</td>
+			<td>Date that the media resource was altered. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, https://www.w3.org/TR/NOTE-datetime, which requires that date and time representation correspond to ISO 8601:1998, https://www.iso.org/standard/40874.html, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/').</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>dcterms:modified permits all modification dates to be recorded, or if only one is recorded, it is assumed to be the latest. See also the wikipedia IS0 8601 entry <a href="https://en.wikipedia.org/wiki/ISO_8601"><i class="fa fa-external-link"></i></a> for further explanation and examples.</td>
+			<td>dcterms:modified permits all modification dates to be recorded, or if only one is recorded, it is assumed to be the latest. See also the wikipedia IS0 8601 entry, https://en.wikipedia.org/wiki/ISO_8601, for further explanation and examples.</td>
 		</tr>
 	</tbody>
 </table>
@@ -850,7 +850,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>A rating of the media resources, provided by record originators or editors, with "-1" defining "rejected", "0" defining "unrated", and "1" (worst) to "5" (best).  Anticipated usage is for a typical “star rating” UI, with the addition of a notion of rejection." Values may be decimal numbers in the permitted range.</td>
+			<td>A rating of the media resources, provided by record originators or editors, with "-1" defining "rejected", "0" defining "unrated", and "1" (worst) to "5" (best).  Anticipated usage is for a typical "star rating" UI, with the addition of a notion of rejection. Values may be decimal numbers in the permitted range.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -880,7 +880,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>URI for a reviewer. If present, then resource is peer-reviewed, even if there are Reviewer Comments is absent or empty. Its presence tells whether an expert in the subject featured in the media has reviewed the media item or collection and approved its metadata description; must display a name or the literal "anonymous" (= anonymously reviewed).</td>
+			<td>URI for a reviewer. If present, then resource is peer-reviewed, even if Reviewer Comments is absent or empty. Its presence tells whether an expert in the subject featured in the media has reviewed the media item or collection and approved its metadata description; must display a name or the literal "anonymous" (= anonymously reviewed).</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -970,11 +970,15 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Any URI may be used that provides for more specialization than the type. Possible values are community-defined. For exmamples see the non-normative page AC_Subtype_Examples.</td>
+			<td>Any URI may be used that provides for more specialization than the type. Possible values are community-defined.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>The subtype term may not be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary may add further description to a Collection object. The subtype vocabulary may be extended by users provided they identify the term by a URI which is not in the ac namespace. Conforming applications may choose to ignore these. </td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>The subtype term may not be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary may add further description to a Collection object. The subtype vocabulary may be extended by users provided they identify the term by a URI which is not in the ac namespace (for example, using "http://my.inst.org/namespace/metadata/subtype/repair-manual"). Conforming applications may choose to ignore these. See ac:subtypeLiteral for usage with strings.</td>
+			<td>The following list provides examples of strings from which a community could generate URIs for specializations of dcterms:type for use with ac:subtype: Drawing, Painting, Logo, Icon, Illustration, Graphic, Photograph, Animation, Film, SlideShow, DesignPlan, Diagram, Map, MusicalNotation, IdentificationKey, ScannedText, RecordedText, RecordedOrganism, TaxonPage, MultimediaLearningObject, VirtualRealityEnvironment, GlossaryPage. Communities should define the URI in a namespace of their choosing or devising. For example, "http://my.inst.org/namespace/metadata/subtype/SlideShow"). See ac:subtypeLiteral for usage with strings. </td>
 		</tr>
 	</tbody>
 </table>
@@ -1000,11 +1004,15 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The subtype should provide more specialization than the type. Possible values are community-defined. For exmamples see the non-normative page AC_Subtype_Examples.</td>
+			<td>The subtype should provide more specialization than the type. Possible values are community-defined.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>The subtypeLiteral term may not be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary may add further description to a Collection object.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>The subtypeLiteral term may not be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary may add further description to a Collection object.</td>
+			<td>The following list provides examples of strings upon which a community could base specializations of dc:type for use with ac:subtypeLiteral: Drawing, Painting, Logo, Icon, Illustration, Graphic, Photograph, Animation, Film, SlideShow, DesignPlan, Diagram, Map, MusicalNotation, IdentificationKey, ScannedText, RecordedText, RecordedOrganism, TaxonPage, MultimediaLearningObject, VirtualRealityEnvironment, GlossaryPage.  See ac:subtype for usage with URIs.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1068,11 +1076,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>dc:type may take as value any type term from the DCMI Type Vocabulary. Recommended terms are Collection, StillImage, Sound, MovingImage, InteractiveResource, Text. Values may be used either in their literal form, or with a full namespace (e. g. from a controlled vocabulary, but the best practice is to use the literal form when using dc:type and use dcterms:type when you can supply the URI from a controlled vocabulary and implementers may require this practice. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails.</td>
+			<td>dc:type may take as value any type term from the DCMI Type Vocabulary, http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary. Recommended terms are Collection, StillImage, Sound, MovingImage, InteractiveResource, Text. Values may be used either in their literal form, or with a full namespace (e. g. from a controlled vocabulary, but the best practice is to use the literal form when using dc:type and use dcterms:type when you can supply the URI from a controlled vocabulary and implementers may require this practice. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>A Collection should be given type "Collection" when using dc:type. If the resource is a Collection, this item does not identify what types of objects it may contain. Following the DC recommendations for the Text type <a href="http://purl.org/dc/terms/DCMIType"><i class="fa fa-external-link"></i></a>, images of text should be marked given as the string Text when provided as a string. See also the entry for dcterms:type in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md"><i class="fa fa-external-link"></i></a> for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>A Collection should be given type "Collection" when using dc:type. If the resource is a Collection, this item does not identify what types of objects it may contain. Following the DC recommendations for the Text type, http://purl.org/dc/terms/DCMIType, images of text should be marked given as the string Text when provided as a string. See also the entry for dcterms:type in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1102,11 +1110,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>A full URI preferably from among the type URIs specified in the DCMI Type Vocabulary. Recommended terms are those URIs whose labels are Collection, StillImage, Sound, MovingImage, InteractiveResource, or Text (e.g. . Also recommended are the full URIs of ac:PanAndZoomImage, ac:3DStillImage, and ac: 3DMovingImage. Values MUST NOT be a string, but a URI with full namespace (e. g. from a controlled vocabulary. Implementers and communities of practice may determine whether specific controlled vocabularies must be used. If the resource is a Collection, this item does not identify what types of objects it may contain. Following the DC recommendations at http://purl.org/dc/dcmitype/Text, images of text should be with this URI.</td>
+			<td>A full URI preferably from among the type URIs specified in the DCMI Type Vocabulary, http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary. Recommended terms are those URIs whose labels are Collection, StillImage, Sound, MovingImage, InteractiveResource, or Text (e.g. . Also recommended are the full URIs of ac:PanAndZoomImage, ac:3DStillImage, and ac: 3DMovingImage. Values MUST NOT be a string, but a URI with full namespace (e. g. from a controlled vocabulary. Implementers and communities of practice may determine whether specific controlled vocabularies must be used. If the resource is a Collection, this item does not identify what types of objects it may contain. Following the DC recommendations at http://purl.org/dc/dcmitype/Text, images of text should be with this URI.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Following the DC recommendations for the Text type <a href="http://purl.org/dc/terms/DCMIType"><i class="fa fa-external-link"></i></a>, images of text should be given as http://purl.org/dc/dcmitype/Text when given as a URI. See also the entry for dc:type in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md"><i class="fa fa-external-link"></i></a> for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails.</td>
+			<td>Following the DC recommendations for the Text type, http://purl.org/dc/terms/DCMIType, images of text should be given as http://purl.org/dc/dcmitype/Text when given as a URI. See also the entry for dc:type in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1359,10 +1367,6 @@ required values are strings or URIs.
 			<td>Usage</td>
 			<td>A URI pointing to structured information about rights held in and over the resource. Examples include and . At least one of dcterms:rights and dc:rights must be supplied but, when feasible, supplying both may make the metadata more widely useful. They must specify the same rights. In case of ambiguity, dcterms:rights prevails.</td>
 		</tr>
-		<tr>
-			<td>Notes</td>
-			<td>This expresses rights over the media resource, not over the metadata text. See also the entry for dc:rights in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md"><i class="fa fa-external-link"></i></a> for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -1395,7 +1399,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>If the resource was digitized from a non-digital resource, or was also previously published in a digital or printed publication, this describes the original. Do not put generally "related" publications in here. This field normally contains a free-form text description. If a URI is available it should be provided in dcterms:source. Can be repeatable if a montage of images. Information about further provenance beyond the ultimate source should be put in the derivedFrom attribute. See also the entry for dcterms:source in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md"><i class="fa fa-external-link"></i></a> for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions</td>
+			<td>If the resource was digitized from a non-digital resource, or was also previously published in a digital or printed publication, this describes the original. Do not put generally "related" publications in here. This field normally contains a free-form text description. If a URI is available it should be provided in dcterms:source. Can be repeatable if a montage of images. Information about further provenance beyond the ultimate source should be put in the derivedFrom attribute. See also the entry for dcterms:source in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions</td>
 		</tr>
 	</tbody>
 </table>
@@ -1429,7 +1433,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>If the resource was digitized from a non-digital resource, or was also previously published in a digital or printed publication, this describes the original. If a string is required for this, use dc:source. Do not put generally "related" publications in here. A URI that can be resolved and dereferenced to provide a description of the source resource may also be used here. For example, "http://www.loc.gov/pictures/item/fsa1998021539/PP/" is the address of a web page that provides a description the original negative of a famous picture by the photographer Dorothea Lange and so would be an appropriate value of dcterms:source. The term may be repeatable if a montage of images. Information about further provenance beyond the ultimate source should be put in the derivedFrom attribute. See also the entry for dc:source in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md"><i class="fa fa-external-link"></i></a> for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>If the resource was digitized from a non-digital resource, or was also previously published in a digital or printed publication, this describes the original. If a string is required for this, use dc:source. Do not put generally "related" publications in here. A URI that can be resolved and dereferenced to provide a description of the source resource may also be used here. For example, "http://www.loc.gov/pictures/item/fsa1998021539/PP/" is the address of a web page that provides a description the original negative of a famous picture by the photographer Dorothea Lange and so would be an appropriate value of dcterms:source. The term may be repeatable if a montage of images. Information about further provenance beyond the ultimate source should be put in the derivedFrom attribute. See also the entry for dc:source in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1534,7 +1538,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>The value may be simple text including contact information. Note that the Creator need not be the Copyright Owner. See also the entry for dcterms:creator in in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md"><i class="fa fa-external-link"></i></a> for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>The value may be simple text including contact information. Note that the Creator need not be the Copyright Owner. See also the entry for dcterms:creator in in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1568,7 +1572,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Note that the Creator need not be the Copyright Owner. See also the entry for dc:creator in in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md"><i class="fa fa-external-link"></i></a> for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>Note that the Creator need not be the Copyright Owner. See also the entry for dc:creator in in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1815,7 +1819,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Recommended sets include: the NASA Global Change Master Directory (GCMD) <a href="http://gcmd.nasa.gov/"><i class="fa fa-external-link"></i></a>, Subject Categories defined in Key to Nature (K2N) <a href="http://www.keytonature.eu/wiki/Subject_Category"><i class="fa fa-external-link"></i></a>, the BioComplexity Thesaurus <a href="https://www2.usgs.gov/core_science_systems/csas/biocomplexity_thesaurus/"><i class="fa fa-external-link"></i></a>, the Description Type GBIF Vocabulary <a href="http://rs.gbif.org/vocabulary/gbif/description_type.xml"><i class="fa fa-external-link"></i></a>, the TDWG Species Profile Model <a href="http://rs.tdwg.org/ontology/voc/SPMInfoItems.rdf"><i class="fa fa-external-link"></i></a>, the Plinian Core <a href="https://github.com/PlinianCore/Documentation/wiki/About"><i class="fa fa-external-link"></i></a>, the European Environmental Agency GEneral Multilingual Environmental Thesaurus (GEMET) <a href="http://www.eionet.europa.eu/gemet"><i class="fa fa-external-link"></i></a>, and the LTER Controlled Vocabulary <a href="http://vocab.lternet.edu/"><i class="fa fa-external-link"></i></a>. The vocabulary may include major taxonomic groups (such as "vertebrates" or "fungi") or ecosystem terms ("savannah", "temperate rain forest", "forest fires", "aquatic vertebrates"). Other formal classifications (published in print or online) such as habitat, fuel, invasive species, agroproductivity, fisheries, migratory species etc. are also suitable.</td>
+			<td>Recommended sets include: the NASA Global Change Master Directory (GCMD) <a href="http://gcmd.nasa.gov/"><i class="fa fa-external-link"></i></a>, Subject Categories defined in Key to Nature (K2N) <a href="http://www.keytonature.eu/wiki/Subject_Category"><i class="fa fa-external-link"></i></a>, the BioComplexity Thesaurus) <a href="https://www2.usgs.gov/core_science_systems/csas/biocomplexity_thesaurus/, the Description Type GBIF Vocabulary; http://rs.gbif.org/vocabulary/gbif/description_type.xml, the TDWG Species Profile Model; http://rs.tdwg.org/ontology/voc/SPMInfoItems.rdf, the Plinian Core; https://github.com/PlinianCore/Documentation/wiki/About, the European Environmental Agency GEneral Multilingual Environmental Thesaurus (GEMET; http://www.eionet.europa.eu/gemet"><i class="fa fa-external-link"></i></a>, and the Long Term Ecological Research Network Controlled Vocabulary (LTER) <a href="http://vocab.lternet.edu/"><i class="fa fa-external-link"></i></a>. The vocabulary may include major taxonomic groups (such as "vertebrates" or "fungi") or ecosystem terms ("savannah", "temperate rain forest", "forest fires", "aquatic vertebrates"). Other formal classifications (published in print or online) such as habitat, fuel, invasive species, agroproductivity, fisheries, migratory species etc. are also suitable.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1883,7 +1887,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>An image may contain language such as superimposed labels. If an image is of a natural scene or organism, without any language included, the resource is language-neutral (ISO code "zxx"). Resources with present but unknown language are to be coded as undetermined (ISO code "und"). Regional dialects or other special cases should conform to the ISO639-5 Alpha-3 Code for Language Families and Groups <a href="http://id.loc.gov/vocabulary/iso639-5.html"><i class="fa fa-external-link"></i></a> where possible or the IETF Best Practices for Tags Identifying Languages <a href="https://tools.ietf.org/html/rfc5646"><i class="fa fa-external-link"></i></a> where not. See also the entry for dcterms:language in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md"><i class="fa fa-external-link"></i></a> for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>An image may contain language such as superimposed labels. If an image is of a natural scene or organism, without any language included, the resource is language-neutral (ISO code "zxx"). Resources with present but unknown language are to be coded as undetermined (ISO code "und"). Regional dialects or other special cases should conform to the ISO639-5 Alpha-3 Code for Language Families and Groups, http://id.loc.gov/vocabulary/iso639-5.html, where possible or the IETF Best Practices for Tags Identifying Languages, https://tools.ietf.org/html/rfc5646, where not. See also the entry for dcterms:language in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1917,7 +1921,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>An image may contain language such as superimposed labels. If an image is of a natural scene or organism, without any language included, the resource is language-neutral with URI http://id.loc.gov/vocabulary/iso639-2/zxx corresponding to ISO ISO639-2 code "zxx". Resources with present but unknown language are to be coded as undetermined, with URI http://id.loc.gov/vocabulary/iso639-2/und corresponding to ISO639-2 code "und". Regional dialects or other special cases should conform to the ISO639-5 Alpha-3 Code for Language Families and Groups <a href="http://id.loc.gov/vocabulary/iso639-5.html"><i class="fa fa-external-link"></i></a> where possible or the IETF Best Practices for Tags Identifying Languages <a href="https://tools.ietf.org/html/rfc5646"><i class="fa fa-external-link"></i></a> where not. See also the entry for dc:language in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md"><i class="fa fa-external-link"></i></a> for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>An image may contain language such as superimposed labels. If an image is of a natural scene or organism, without any language included, the resource is language-neutral with URI http://id.loc.gov/vocabulary/iso639-2/zxx corresponding to ISO ISO639-2 code "zxx". Resources with present but unknown language are to be coded as undetermined, with URI http://id.loc.gov/vocabulary/iso639-2/und corresponding to ISO639-2 code "und". Regional dialects or other special cases should conform to the ISO639-5 Alpha-3 Code for Language Families and Groups, http://id.loc.gov/vocabulary/iso639-5.html, where possible or the IETF Best Practices for Tags Identifying Languages, https://tools.ietf.org/html/rfc5646, where not. See also the entry for dc:language in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -3383,11 +3387,11 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>The date of the creation of the original resource from which the digital media was derived or created. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice <a href="https://www.w3.org/TR/NOTE-datetime"><i class="fa fa-external-link"></i></a>, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004 <a href="https://www.iso.org/standard/40874.html"><i class="fa fa-external-link"></i></a>. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry <a href="https://en.wikipedia.org/wiki/ISO_8601"><i class="fa fa-external-link"></i></a> for further explanation and examples.</td>
+			<td>The date of the creation of the original resource from which the digital media was derived or created. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, https://www.w3.org/TR/NOTE-datetime, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004, https://www.iso.org/standard/40874.html. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry, https://en.wikipedia.org/wiki/ISO_8601, for further explanation and examples.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>What constitutes "original" is determined by the metadata author. Example: Digitization of a photographic slide of a map would normally give the date at which the map was created; however a photographic work of art including the same map as its content may give the date of the original photographic exposure. Imprecise or unknown dates can be represented as ISO dates or ranges. Compare also Date and Time Digitized in the Resource Creation Vocabulary. See also the wikipedia IS0 8601 entry <a href="https://en.wikipedia.org/wiki/ISO_8601"><i class="fa fa-external-link"></i></a> for further explanation and examples.</td>
+			<td>What constitutes "original" is determined by the metadata author. Example: Digitization of a photographic slide of a map would normally give the date at which the map was created; however a photographic work of art including the same map as its content may give the date of the original photographic exposure. Imprecise or unknown dates can be represented as ISO dates or ranges. Compare also Date and Time Digitized in the Resource Creation Vocabulary. See also the wikipedia IS0 8601 entry, https://en.wikipedia.org/wiki/ISO_8601, for further explanation and examples.</td>
 		</tr>
 	</tbody>
 </table>
@@ -3421,7 +3425,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>See the DCMI User Guide dcterms:temporal entry <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide/Publishing_Metadata.md#dctermstemporal"><i class="fa fa-external-link"></i></a> for an example. dc:coverage may be used for string values of temporal coverage, but use the Geography Vocabulary for geographic coverage. String examples for use with dc:coverage include "Jurassic", "Elizabethan", "Spring, 1957". 2008-01-01/2008-06-30. If the resource is video or audio, it refers to the time span, if any, depicted by the resource. For live-media this is closely related to Original Date and Time (Example: the time depicted by a time-lapse video file of organism development), but for media with fictional content it is not.</td>
+			<td>See the DCMI User Guide dcterms:temporal entry, https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide/Publishing_Metadata.md#dctermstemporal, for an example. dc:coverage may be used for string values of temporal coverage, but use the Geography Vocabulary for geographic coverage. String examples for use with dc:coverage include "Jurassic", "Elizabethan", "Spring, 1957". 2008-01-01/2008-06-30. If the resource is video or audio, it refers to the time span, if any, depicted by the resource. For live-media this is closely related to Original Date and Time (Example: the time depicted by a time-lapse video file of organism development), but for media with fictional content it is not.</td>
 		</tr>
 	</tbody>
 </table>
@@ -3987,7 +3991,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>This is often not the media creation or modification date. For example, if photographic prints have been scanned, the date of that scanning is what this term carries, but Original Date and Time is that depicted in the print. Use the international (ISO/xml) format yyyy-mm-ddThh:mm (e. g. "2007-12-31" or "2007-12-31T14:59"). Where available, timezone information should be added. In the case of digital images containing EXIF, whereas the EXIF capture date does not contain time zone information, but EXIF GPSDateStamp and GPSTimeStamp may be relevant as these include time-zone information. See also Metadata Working Group Guidelines for Handling Image Metadata, Version 2.0 (November 2010), which has best practice advice on handling time-zone-less EXIF date/time data. See also the Wikipedia IS0 8601 entry <a href="https://en.wikipedia.org/wiki/ISO_8601"><i class="fa fa-external-link"></i></a> for further explanation and examples.</td>
+			<td>This is often not the media creation or modification date. For example, if photographic prints have been scanned, the date of that scanning is what this term carries, but Original Date and Time is that depicted in the print. Use the international (ISO/xml) format yyyy-mm-ddThh:mm (e. g. "2007-12-31" or "2007-12-31T14:59"). Where available, timezone information should be added. In the case of digital images containing EXIF, whereas the EXIF capture date does not contain time zone information, but EXIF GPSDateStamp and GPSTimeStamp may be relevant as these include time-zone information. See also Metadata Working Group Guidelines for Handling Image Metadata, Version 2.0 (November 2010), which has best practice advice on handling time-zone-less EXIF date/time data. See also the Wikipedia IS0 8601 entry, https://en.wikipedia.org/wiki/ISO_8601, for further explanation and examples.</td>
 		</tr>
 	</tbody>
 </table>
@@ -4299,7 +4303,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME]. This term is recommended for offline digital content. In cases where the provided URL includes a standard file extension from which the format can be inferred, it is permissible to not provide this item. Three types of values are recommended: (a) any MIME type; (b) common file extensions like txt, doc, odf, jpg/jpeg, png, pdf; (c) the following special values: Data-CD, Audio-CD, Video-CD, Data-DVD, Audio-DVD, Video-DVD-PAL, Video-DVD-NTSC, photographic slide, photographic print. Compare Type for the content-type. See also the entry for dcterms:format in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md"><i class="fa fa-external-link"></i></a> for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME]. This term is recommended for offline digital content. In cases where the provided URL includes a standard file extension from which the format can be inferred, it is permissible to not provide this item. Three types of values are recommended: (a) any MIME type; (b) common file extensions like txt, doc, odf, jpg/jpeg, png, pdf; (c) the following special values: Data-CD, Audio-CD, Video-CD, Data-DVD, Audio-DVD, Video-DVD-PAL, Video-DVD-NTSC, photographic slide, photographic print. Compare Type for the content-type. See also the entry for dcterms:format in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -4333,7 +4337,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>See DCMI User_Guide <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide/Publishing_Metadata.md#dctermsformat"><i class="fa fa-external-link"></i></a> for examples. See also the entry for dc:format in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md"><i class="fa fa-external-link"></i></a> for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>See DCMI User_Guide, https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide/Publishing_Metadata.md#dctermsformat, for examples. See also the entry for dc:format in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
