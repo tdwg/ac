@@ -76,12 +76,12 @@ using those vocabularies where suitable, AC particularly intends to make
 it easy for such collections to reuse their existing descriptions,
 augmented where necessary by other terms.
 
-This document accompanies the normative part of the AC standard,
-comprising an introductory wiki document named simply Audubon Core <sup id="cit-1">[\[1\]](#fn-1)</sup>
-and a wiki document named “Audubon Core Term List” <sup id="cit-2">[\[2\]](#fn-2)</sup>. The Term List
+This guide accompanies the normative parts of the AC standard,
+which are included in two documents: one that describes the structure of the document <sup id="cit-1">[\[1\]](#fn-1)</sup>
+and a Term List document <sup id="cit-2">[\[2\]](#fn-2)</sup>. The Term List
 documents a series of terms, each of which is identified by a unique
 Uniform Resource Identifier (URI), together with normative definitions.
-In addition, MRTG will develop recommended representations for AC
+In addition, the Audubon Core Maintenance Group may develop recommended representations for AC
 descriptions in several important forms including RDF <sup id="cit-3">[\[3\]](#fn-3)</sup>, XML
 Schema <sup id="cit-4">[\[4\]](#fn-4)</sup>, and Comma Separated Values (CSV) <sup id="cit-5">[\[5\]](#fn-5)</sup>.
 
@@ -134,7 +134,7 @@ includes an identifier that may have been assigned to the resource by an
 external authority or by the provider of the metadata record.
 
 Every Audubon Core term has a plain text Name, a URI, and a plain text
-normative Definition. URIs for terms conform to the http URI scheme.
+normative Definition. Terms may also have Usage instructions explaining how the term is used in the context of Audubon Core and Notes that provide additional information and examples.  URIs for terms conform to the http URI scheme.
 Informally, one may understand this thusly: an http URI has the syntax
 of an http URL, but there is no expectation that putting it in a web
 browser will result in any information being returned to the browser,
@@ -154,15 +154,15 @@ prefix is prepended. It is recommended that implementers who need a
 namespace prefix for the AC namespace use "ac" wherever feasible. The
 result is known as a qualified name. For example the normative wiki
 documentation for the borrowed term dcterms:identifier has URI
-http://purl.org/dc/terms/identifier. In this document we will follow the
-qualified name convention that is established by the wiki rendering. In
+http://purl.org/dc/terms/identifier. In this document we will follow the established
+qualified name convention. In
 fact, most of the URIs for terms borrowed from external vocabularies
 (about half of them) do in fact resolve to something in relevant
 documentation for that external standard. Sometimes it is not precise
 because the documentation is a PDF document and several (different\!)
 URIs might apparently resolve to the same place.
 
-Examples from the normative Term List are shown
+Examples from the Term List are shown
 below.
 
 <table>
@@ -185,11 +185,15 @@ below.
 		</tr>
 		<tr>
 			<td>Definition:</td>
-			<td>Any type term from&nbsp;<a href="http://dublincore.org/documents/dcmi-type-vocabulary/#_blank" rel="nofollow">http://dublincore.org/documents/dcmi-type-vocabulary/</a>&nbsp;may be used. Recommended terms are&nbsp;<em>Collection</em>,&nbsp;<em>StillImage</em>,&nbsp;<em>Sound</em>,&nbsp;<em>MovingImage</em>,&nbsp;<em>InteractiveResource</em>,&nbsp;<em>Text</em>. Also recommended are<em>PanAndZoomImage</em>,&nbsp;<em>3DStillImage</em>, and&nbsp;<em>3DMovingImage</em>. Values may be used either in their literal form, or with a full namespace (e. g. <a href="http://purl.org/dc/dcmitype/StillImage" rel="nofollow">http://purl.org/dc/dcmitype/StillImage</a>) from a controlled vocabulary.</td>
+			<td>The nature or genre of the resource.</td>
+		</tr>
+		<tr>
+			<td>Usage:</td>
+			<td>A full URI preferably from among the type URIs specified in the DCMI Type Vocabulary, <a href="http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary" rel="nofollow">http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary</a>. Recommended terms are those URIs whose labels are Collection, StillImage, Sound, MovingImage, InteractiveResource, or Text (e.g. . Also recommended are the full URIs of ac:PanAndZoomImage, ac:3DStillImage, and ac: 3DMovingImage. Values MUST NOT be a string, but a URI with full namespace (e. g. from a controlled vocabulary. Implementers and communities of practice may determine whether specific controlled vocabularies must be used. If the resource is a Collection, this item does not identify what types of objects it may contain. Following the DC recommendations at <a href="http://purl.org/dc/dcmitype/Text" rel="nofollow">http://purl.org/dc/dcmitype/Text</a>, images of text should be with this URI.</td>
 		</tr>
 		<tr>
 			<td>Notes:</td>
-			<td>A Collection should be given type&nbsp;<a href="http://purl.org/dc/dcmitype/Collection#_blank" rel="nofollow">http://purl.org/dc/dcmitype/Collection</a>. If the resource is a Collection, this item does&nbsp;<em>not</em>&nbsp;identify what types of objects it may contain. Following the DC recommendations at <a href="http://purl.org/dc/dcmitype/Text#_blank" rel="nofollow">http://purl.org/dc/dcmitype/Text</a>, images of text should be marked as&nbsp;<em>Text</em>.</td>
+			<td>Following the DC recommendations for the Text type, <a href="http://purl.org/dc/terms/DCMIType" rel="nofollow">http://purl.org/dc/terms/DCMIType</a>, images of text should be given as http://purl.org/dc/dcmitype/Text when given as a URI. See also the entry for dc:type in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md" rel="nofollow">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails.</td>
 		</tr>
 	</tbody>
 </table>
@@ -198,54 +202,57 @@ below.
 	<tbody>
 		<tr>
 			<td>Term Name:</td>
-			<td>subtype</td>
+			<td>ac:reviewerLiteral</td>
 		</tr>
 		<tr>
 			<td>Normative URI:</td>
-			<td><a href="http://rs.tdwg.org/ac/terms/subtype" rel="nofollow">http://rs.tdwg.org/ac/terms/subtype</a></td>
+			<td><a href="http://rs.tdwg.org/ac/terms/reviewerLiteral" rel="nofollow">http://rs.tdwg.org/ac/terms/reviewerLiteral</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Subtype</td>
+			<td>Reviewer</td>
 		</tr>
 		<tr>
 			<td></td>
-			<td>Layer:&nbsp;1 —&nbsp;Required:&nbsp;No —&nbsp;Repeatable:&nbsp;Yes</td>
+			<td>Layer:&nbsp;2 —&nbsp;Required:&nbsp;No —&nbsp;Repeatable:&nbsp;Yes</td>
 		</tr>
 		<tr>
 			<td>Definition:</td>
-			<td>Any of Drawing, Painting, Logo, Icon, Illustration, Graphic, Photograph, Animation, Film, SlideShow, DesignPlan, Diagram, Map, MusicalNotation, IdentificationKey, ScannedText, RecordedText, RecordedOrganism, TaxonPage, MultimediaLearningObject, VirtualRealityEnvironment, GlossaryPage. Values may be be used either in their literal form, or with their full namespace.</td>
+			<td>String providing the name of a reviewer. If present, then resource is peer-reviewed, even if Reviewer Comments is absent or empty. Its presence tells whether an expert in the subject featured in the media has reviewed the media item or collection and approved its metadata description; must display a name or the literal "anonymous" (= anonymously reviewed).</td>
 		</tr>
 		<tr>
 			<td>Notes:</td>
-			<td>This does not apply to Collection objects. The vocabulary may be extended by users provided they identify the term by a URI which is not in the ac namespace (for example, using "<a href="http://my.inst.org/namespace/metadata/subtype/repair-manual" rel="nofollow">http://my.inst.org/namespace/metadata/subtype/repair-manual</a>". Conforming applications may choose to ignore these.</td>
+			<td>Provider is asserting they accept this review as competent. See also ac:reviewer and the section Namespaces, Prefixes and Term Names in the Audubon Core Term List document for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
 
 The principal namespace qualifiers for term URIs in this document are
 
-- **dcterms:** The DCMI type vocabulary documented at
+- **dcterms:** and **dc:** The DCMI vocabulary documented at
   http://dublincore.org/documents/dcmi-terms
 
-- **dwc:** The Darwin Core vocabulary proposed at
+- **dwc:** The Darwin Core vocabulary described at
   http://rs.tdwg.org/dwc/index.htm
 
 - **Iptc4ampExt** Geographic extensions to IPTC with namespace
   http://iptc.org/std/Iptc4xmpExt/2008-02-29/ documented in
   http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf
 
-- **ac:** Terms defined in the normative documentation and not derived
-  from other controlled vocabularies. The proposed namespace is
-  http://rs.tdwg.org/ac/terms.
+- **ac:** Terms in the namespace http://rs.tdwg.org/ac/terms not derived
+  from other controlled vocabularies.  The normative definitions of these documents can be found in the [Audubon Core Term List document](termlist.md)
 
 - **xmp:** The Adobe XMP vocabularies with namespace
   http://ns.adobe.com/xap/1.0/ documented in Section 8.4 of
-  http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/XMPSpecificationPart1.pdf
+  https://wwwimages2.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2016-08/XMPSpecificationPart1.pdf
 
-- **xmpRights:** The Adobe XMP rights vocabulary with namespace at
+- **xmpRights:** The Adobe XMP rights vocabulary with namespace
   http://ns.adobe.com/xap/1.0/rights documented in Section 8.5 of
-  http://www.images.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/XMPSpecificationPart1.pdf
+  https://wwwimages2.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2016-08/XMPSpecificationPart1.pdf
+
+- **photoshop:** Adobe XMP additional properties with namespace http://ns.adobe.com/photoshop/1.0/ documented at http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2014-12/XMPSpecificationPart2.pdf
+
+- **exif:** the Camera and Imaging Products Association Exchangeable Image File Format vocabulary with namespace http://ns.adobe.com/exif/1.0/ documented at http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf
 
 
 ## 4 Motivation and Rationale
@@ -299,7 +306,7 @@ properties of an Audubon Core record are considered to be mandatory:
     provider or collection.
 
 2.  Type (dcterms:type): Any dcmi type term from
-    http://dublincore.org/documents/dcmi-type-vocabulary/ may be used.
+    http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary may be used.
     Recommended terms are Collection, StillImage, Sound, MovingImage,
     InteractiveResource, and Text.
 
@@ -488,10 +495,7 @@ The normative Audubon Core metadata record specification is independent
 of the way in which those records are rendered into electronic form.
 MRTG intends to publish specifications for such rendering represented
 in, represented in XML constrained by an XML-Schema, and represented in
-plain text as comma separated values (CSV). A simple RDF form at
-http://terms.gbif.org/wiki/Audubon_Core_Term_List_RDF_Version is
-generated programmatically from the normative document. MRTG intends to
-publish more expressive forms of RDF.
+plain text as comma separated values (CSV). [Sections 4.4 to 4.5 of the TDWG Standards Documentation Specification](https://github.com/tdwg/vocab/blob/master/sds/documentation-specification.md#44-vocabularies-term-lists-and-terms) describe how basic term metadata should be expressed in machine-readable forms such as RDF serializations.  A future task group might develop a more semantically rich machine-readable ontology following the procedures listed in [Section 4 of the TDWG Vocabulary Maintenance Specification](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#4-vocabulary-enhancements).
 
 The language of the normative Audubon Core specification is English, but
 this in no way constrains applications from using labels or content of
@@ -628,8 +632,8 @@ this standard allows mapping between them.
 
 ## 11 Further Information
 
-  - Joint TDWG-GBIF MRTG Charter
-    http://tdwg.org/charters/article/view/448/36
+  - Audubon Core Maintenance Group Charter
+    https://github.com/tdwg/ac/blob/master/audubon-core_maintenance-group_charter.md
 
 
   - Discussion of the Audubon Core takes place at
@@ -691,7 +695,7 @@ this standard allows mapping between them.
       <td>The former U.S. National Biological Information Infrastructure. Its image library, the Library of Images From the Environment (LIFE), was at <a href="http://images.nbii.gov/">http://images.nbii.gov/</a> or <a href="http://life.nbii.gov/">http://life.nbii.gov/</a>. If LIFE is reconstituted in any form, there might be a link there.</td>
     </tr>
     <tr>
-      <td><a href="http://www.tdwg.org/activities/ncd/">NCD</a></td>
+      <td><a href="https://www.tdwg.org/standards/ncd/">NCD</a></td>
       <td>Natural Collections Description is a draft data standard designed to describe collections of physical objects such as specimens. It can accommodate collections of media objects, but cannot relate them to descriptions of the objects themselves.</td>
     </tr>
     <tr>
@@ -890,9 +894,9 @@ to have public comment
 
 ## 14 Endnotes
 
-<sup id="fn-1">[\[1\]](#cit-1)</sup> [http://terms.gbif.org/Audubon_Core](http://terms.gbif.org/Audubon_Core)
+<sup id="fn-1">[\[1\]](#cit-1)</sup> http://rs.tdwg.org/ac/doc/structure/
 
-<sup id="fn-2">[\[2\]](#cit-2)</sup> [http://terms.gbif.org/Audubon_Core_Term_List](http://terms.gbif.org/Audubon_Core_Term_List)
+<sup id="fn-2">[\[2\]](#cit-2)</sup> http://rs.tdwg.org/ac/doc/termlist/
 
 <sup id="fn-3">[\[3\]](#cit-3)</sup> [http://www.w3.org/RDF/](http://www.w3.org/RDF/)
 
@@ -900,7 +904,7 @@ to have public comment
 
 <sup id="fn-5">[\[5\]](#cit-5)</sup> [http://en.wikipedia.org/wiki/Comma-separated_values](http://en.wikipedia.org/wiki/Comma-separated_values)
 
-<sup id="fn-6">[\[6\]](#cit-6)</sup> [http://www.tdwg.org/fileadmin/subgroups/ncd/NCD_090.doc](http://www.tdwg.org/fileadmin/subgroups/ncd/NCD_090.doc)
+<sup id="fn-6">[\[6\]](#cit-6)</sup> https://github.com/tdwg/ncd/blob/master/NCD-v090_TDWG/NCD-v090_TDWG-NonNormative.pdf
 
 <sup id="fn-7">[\[7\]](#cit-7)</sup> [http://rs.tdwg.org/dwc/terms/](http://rs.tdwg.org/dwc/terms/)
 
