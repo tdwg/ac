@@ -115,15 +115,15 @@ common abbreviations, and namespace prefixes in use in those
 vocabularies. The URIs are normative, but abbreviations and namespace
 prefixes have no impact except as an aid to reading the documentation.
 
-Table 1. Vocabularies from which terms have been borrowed
+Table 1. Vocabularies from which terms have been borrowed (non-normative)
 
 | Vocabulary | Abbreviation | Namespaces and abbreviations | Link to authoritative documentation |
 |------------|--------------|------------------------------|-------------------------------------|
 | Darwin Core | DwC         | dwc: = http://rs.tdwg.org/dwc/terms/ | http://tdwg.github.io/dwc/terms/index.htm |
 | Dublin Core | DC          | dc: = http://purl.org/dc/elements/1.1/, dcterms: = http://purl.org/dc/terms/ | http://dublincore.org/documents/dcmi-terms/ |
 | Adobe XMP Core Properties | XMP | xmp: = http://ns.adobe.com/xap/1.0/, xmpRights: = http://ns.adobe.com/xap/1.0/rights/ | https://wwwimages2.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2016-08/XMPSpecificationPart1.pdf |
-| Adobe XMP Additional Properties | photoshop: = http://ns.adobe.com/photoshop/1.0/ | http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2014-12/XMPSpecificationPart2.pdf |
-| International Press and Telecommunications Council Photo Metadata Standard,Extension Schema 1.1 | IPTC | Iptc4xmpExt: = http://iptc.org/std/Iptc4xmpExt/2008-02-29/ |
+| Adobe XMP Additional Properties | XMP | photoshop: = http://ns.adobe.com/photoshop/1.0/ | http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2014-12/XMPSpecificationPart2.pdf |
+| International Press and Telecommunications Council Photo Metadata Standard,Extension Schema 1.1 | IPTC | Iptc4xmpExt: = http://iptc.org/std/Iptc4xmpExt/2008-02-29/ | http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf |
 | Camera and Imaging Products Association Exchangeable Image File Format | EXIF | exif: = http://ns.adobe.com/exif/1.0/ | http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf |
 | TDWG Natural Collection Description LSID Ontology (referenced in metadata, but no terms borrowed) | NCD | ncd: = http://rs.tdwg.org/ontology/voc/Collection# | https://github.com/tdwg/ontology/blob/master/ontology/voc/Collection.rdf |
 
