@@ -180,12 +180,14 @@ def buildMarkdown(table, displayOrder, displayLabel, displayComments, displayId)
                 if table[row][8] != '':
                     text += '\t\t<tr>\n'
                     text += '\t\t\t<td>Usage</td>\n'
-                    text += '\t\t\t<td>' + createLinks(table[row][8]) + '</td>\n'
+                    #text += '\t\t\t<td>' + createLinks(table[row][8]) + '</td>\n'
+                    text += '\t\t\t<td>' + table[row][8] + '</td>\n'
                     text += '\t\t</tr>\n'
                 if table[row][9] != '':
                     text += '\t\t<tr>\n'
                     text += '\t\t\t<td>Notes</td>\n'
-                    text += '\t\t\t<td>' + createLinks(table[row][9]) + '</td>\n'
+                    #text += '\t\t\t<td>' + createLinks(table[row][9]) + '</td>\n'
+                    text += '\t\t\t<td>' + table[row][9] + '</td>\n'
                     text += '\t\t</tr>\n'
                 text += '\t</tbody>\n'
                 text += '</table>\n'
