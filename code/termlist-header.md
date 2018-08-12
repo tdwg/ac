@@ -33,7 +33,7 @@ list of attributes of each Audubon Core term, including a documentation
 name, a specified URI, a recommended English label for user interfaces,
 a definition, and some ancillary notes. The version shown here has been
 adopted by Biodiversity Information Standards / TDWG at the general
-meeting in October 2013. This is a normative document and the definition
+meeting in October 2013. This document contains normative content that 
 may not be changed without due process.
 
 **Contributors:** Robert A. Morris, Vijay Barve, Mihail Carausu, Vishwas
