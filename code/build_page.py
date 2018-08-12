@@ -4,6 +4,7 @@
 
 # Note: this script calls a function from http_library.py, which requires importing the requests, csv, and json modules
 import http_library
+import re
 
 # ---------------------------------------------------------------------------
 # retrieve vocabularies members metadata from Github
@@ -57,7 +58,6 @@ def retrieveTermListMetadata(githubBaseUri):
                 else:
                     listFilename[termList] = table[row][prefixColumn] + '-for-ac' # make a dictionary of filenames
     return [listFilename, listNamespace, listUri]
-
 # ---------------------------------------------------------------------------
 # create a single table that combines all relevant metadata from the various term list metadata tables
 def createMasterMetadataTable(termLists, listMetadata):
@@ -107,11 +107,14 @@ def buildIndexByTermName(table, displayOrder, displayLabel, displayId):
     for category in range(0,len(displayOrder)):
         text += '**' + displayLabel[category] + '**\n'
         text += '\n'
-        for row in range(0,len(table)):    #no header row
-            if displayOrder[category] == table[row][10]:
-                curie = table[row][0] + ":" + table[row][2]
-                curieAnchor = curie.replace(':','_')
-                text += '| [' + curie + '](#' + curieAnchor + ') |\n'
+        filteredTable = [x for x in table if x[10] == displayOrder[category]]
+        for row in range(0,len(filteredTable)):    #no header row
+            curie = filteredTable[row][0] + ":" + filteredTable[row][2]
+            curieAnchor = curie.replace(':','_')
+            text += '[' + curie + '](#' + curieAnchor + ')'
+            if row < len(filteredTable) - 1:
+                text += ' |'
+            text += '\n'
         text += '\n'
     return text
 
@@ -124,11 +127,14 @@ def buildIndexByTermLabel(table, displayOrder, displayLabel, displayId):
     for category in range(0,len(displayOrder)):
         text += '**' + displayLabel[category] + '**\n'
         text += '\n'
-        for row in range(0,len(table)):    #no header row
-            if displayOrder[category] == table[row][10]:
-                if row == 0 or (row != 0 and table[row][3] != table[row-1][3]): # this is a hack to prevent duplicate labels
-                    curieAnchor = table[row][0] + "_" + table[row][2]
-                    text += '| [' + table[row][3] + '](#' + curieAnchor + ') |\n'
+        filteredTable = [x for x in table if x[10] == displayOrder[category]]
+        for row in range(0,len(filteredTable)):    #no header row
+            if row == 0 or (row != 0 and filteredTable[row][3] != filteredTable[row-1][3]): # this is a hack to prevent duplicate labels
+                curieAnchor = filteredTable[row][0] + "_" + filteredTable[row][2]
+                text += '[' + filteredTable[row][3] + '](#' + curieAnchor + ')'
+                if row < len(filteredTable) - 2 or (row == len(filteredTable) -2 and filteredTable[row][3] != filteredTable[row + 1][3]):
+                    text += ' |'
+                text += '\n'
         text += '\n'
     return text
 
@@ -142,38 +148,73 @@ def buildMarkdown(table, displayOrder, displayLabel, displayComments, displayId)
         text += '### 7.' + str(category + 1) + ' ' + displayLabel[category] + '\n'
         text += '\n'
         text += displayComments[category] # insert the comments for the category, if any.
-        text += '| property | value |\n'
-        text += '|----------|-------|\n'
         for row in range(0,len(table)):    #no header row
             if displayOrder[category] == table[row][10]:
+                text += '<table>\n'
                 curie = table[row][0] + ":" + table[row][2]
                 curieAnchor = curie.replace(':','_')
-                text += '| <a id="' + curieAnchor + '"></a>**Term Name:** | **' + curie + '** |\n'
-                text += '| Normative URI: | ' + table[row][1] + table[row][2] + ' |\n'
-                text += '| Label: | ' + table[row][3] + ' |\n'
-                text += '| | **Layer:** ' + table[row][4] + ' -- **Required:** ' + table[row][5] + ' -- **Repeatable:** ' + table[row][6] + ' |\n'
-                text += '| Definition: | ' + table[row][7] + ' |\n'
+                text += '\t<thead>\n'
+                text += '\t\t<tr>\n'
+                text += '\t\t\t<th colspan="2"><a id="' + curieAnchor + '"></a>Term Name: ' + curie + '</th>\n'
+                text += '\t\t</tr>\n'
+                text += '\t</thead>\n'
+                text += '\t<tbody>\n'
+                text += '\t\t<tr>\n'
+                text += '\t\t\t<td>Normative URI:</td>\n'
+                uri = table[row][1] + table[row][2]
+                text += '\t\t\t<td><a href="' + uri + '">' + uri + '</a></td>\n'
+                text += '\t\t</tr>\n'
+                text += '\t\t<tr>\n'
+                text += '\t\t\t<td>Label</td>\n'
+                text += '\t\t\t<td>' + table[row][3] + '</td>\n'
+                text += '\t\t</tr>\n'
+                text += '\t\t<tr>\n'
+                text += '\t\t\t<td></td>\n'
+                text += '\t\t\t<td><b>Layer:</b> ' + table[row][4] + ' -- <b>Required:</b> ' + table[row][5] + ' -- <b>Repeatable:</b> ' + table[row][6] + '</td>\n'
+                text += '\t\t</tr>\n'
+                text += '\t\t<tr>\n'
+                text += '\t\t\t<td>Definition</td>\n'
+                text += '\t\t\t<td>' + table[row][7] + '</td>\n'
+                text += '\t\t</tr>\n'
                 if table[row][8] != '':
-                    text += '| Usage: | ' + table[row][8] + ' |\n'
+                    text += '\t\t<tr>\n'
+                    text += '\t\t\t<td>Usage</td>\n'
+                    text += '\t\t\t<td>' + createLinks(table[row][8]) + '</td>\n'
+                    text += '\t\t</tr>\n'
                 if table[row][9] != '':
-                    text += '| Notes: | ' + table[row][9] + ' |\n'
-                text += '| | |\n'
+                    text += '\t\t<tr>\n'
+                    text += '\t\t\t<td>Notes</td>\n'
+                    text += '\t\t\t<td>' + createLinks(table[row][9]) + '</td>\n'
+                    text += '\t\t</tr>\n'
+                text += '\t</tbody>\n'
+                text += '</table>\n'
+                text += '\n'
         text += '\n'
     return text
+# ---------------------------------------------------------------------------
+# replace URL with link
+#
+def createLinks(text):
+    pattern = '\((https?://[^\)]*)\)'
+    pattern2 = '; (https?://[^\)]*)\)'
+    result = re.sub(pattern, '<a href="\\1"><i class="fa fa-external-link"></i></a>', text)
+    result = re.sub(pattern2, ') <a href="\\1"><i class="fa fa-external-link"></i></a>', result)
+    return result
 
 # ---------------------------------------------------------------------------
 # read in header and footer, merge with terms table, and output
 def outputMarkdown(text, headerFileName, footerFileName, outFileName):
-    headerObject = open(headerFileName, 'rt')
+    headerObject = open(headerFileName, 'rt', encoding='utf-8')
     header = headerObject.read()
     headerObject.close()
 
-    footerObject = open(footerFileName, 'rt')
+    footerObject = open(footerFileName, 'rt', encoding='utf-8')
     footer = footerObject.read()
     footerObject.close()
 
-    outputObject = open(outFileName, 'wt')
-    outputObject.write(header + text + footer)
+    output = header + text + footer
+    outputObject = open(outFileName, 'wt', encoding='utf-8')
+    outputObject.write(output)
     outputObject.close()
 
 # ---------------------------------------------------------------------------
@@ -183,7 +224,7 @@ def outputMarkdown(text, headerFileName, footerFileName, outFileName):
 githubBaseUri = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/master/'
 headerFileName = 'termlist-header.md'
 footerFileName = 'termlist-footer.md'
-outFileName = 'termlist.md'
+outFileName = '../docs/termlist.md'
 
 displayOrder = ['http://rs.tdwg.org/dwc/terms/attributes/Management', 'http://rs.tdwg.org/dwc/terms/attributes/Attribution', 'http://purl.org/dc/terms/Agent', 'http://rs.tdwg.org/dwc/terms/attributes/ContentCoverage', 'http://purl.org/dc/terms/Location', 'http://purl.org/dc/terms/PeriodOfTime', 'http://rs.tdwg.org/dwc/terms/attributes/TaxonomicCoverage', 'http://rs.tdwg.org/dwc/terms/attributes/ResourceCreation', 'http://rs.tdwg.org/dwc/terms/attributes/RelatedResources', 'http://rs.tdwg.org/dwc/terms/attributes/ServiceAccessPoint']
 displayLabel = ['Management Vocabulary', 'Attribution Vocabulary', 'Agents Vocabulary', 'Content Coverage Vocabulary', 'Geography Vocabulary', 'Temporal Coverage Vocabulary', 'Taxonomic Coverage Vocabulary', 'Resource Creation Vocabulary', 'Related Resources Vocabulary', 'Service Access Point Vocabulary']
@@ -197,7 +238,6 @@ listMetadata = retrieveTermListMetadata(githubBaseUri)
 table = createMasterMetadataTable(termLists, listMetadata)
 
 localnameSortedTable = sorted(table, key = lambda term: term[2].lower() ) # perform sort on lowercase of the third column: localNameColumn
-
 labelSortedTable = sorted(table, key = lambda term: term[3].lower() ) # perform sort on lowercase of the fourth column: labelColumn
 
 indexByName = buildIndexByTermName(localnameSortedTable, displayOrder, displayLabel, displayId)
