@@ -1,7 +1,8 @@
-
-<a id="top"></a>
-
-# Audubon Core Introduction
+---
+layout: page
+title: Audubon Core Introduction
+permalink: /index.html
+---
 
 **Title:** Audubon Core Introduction
 
@@ -33,26 +34,14 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 **Bibliographic citation:** Multimedia Resources Task Group. 2013. Audubon Core Introduction. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/introduction/
 
-
-## Table of Contents
-
-[1 Introduction](#1-introduction)
-
-[1.1 Status of the content of this document](#11-status-of-the-content-of-this-document)
-
-[1.2 The scope of Audubon Core](#12-the-scope-of-audubon-core)
-
-[2 Audubon Core terms](#2-audubon-core-terms)
-
-[3 Implementations](#3-implementations)
-
-[4 References](#4-references)
-
-
 ## 1 Introduction
 
-There are four documents included in the Aububon Core Standard.  This document provides a general introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon
-Core Structure](structure.md) document.  For term details, see the [Audubon Core Terms List](termlist.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
+There are four documents included in the Aububon Core Standard.  This document
+provides a general introduction to the Audubon Core Standard. For information
+about the structure of Audubon Core, see the [Audubon Core Structure](./structure)
+document.  For term details, see the [Audubon Core Terms List](./terms) document.  
+For a more detailed guide to the use of Audubon Core, see the
+[Audubon Core Guide](./guide) document.
 
 ### 1.1 Status of the content of this document
 
@@ -101,7 +90,7 @@ Morris et al., *Biodiversity Informatics,* 8, jul. 2013.
 ## 2 Audubon Core terms
 
 An Audubon Core record is a description of a multimedia resource using
-the [Audubon Core terms](termlist.md). Two kinds
+the [Audubon Core terms](./terms). Two kinds
 of terms are specified by AC: record-level terms and access-level terms.
 Record-level terms apply to the media resource being described. Almost
 all terms are record-level terms. One such term, *hasServiceAccessPoint*
@@ -137,7 +126,7 @@ practice of introducing a short prefix comprising a "namespace
 qualifier" separated by a colon from a mnemonic name closely related to
 the term's Name. The namespace of the roughly 50% of the terms that are
 borrowed from other vocabularies is the namespace of the original. The
-namespace of de novo AC terms is http://rs.tdwg.org/ac/terms/. In the [Audubon Core Term List](termlist.md), each
+namespace of de novo AC terms is http://rs.tdwg.org/ac/terms/. In the [Audubon Core Term List](./terms), each
 term entry has a row with the term name. Following the practice of the
 [Darwin Core terms](http://rs.tdwg.org/dwc/terms/), this term name
 is generally an "unqualified name" preceded by a widely accepted prefix
@@ -154,8 +143,8 @@ to the same place.
 
 ## 3 Implementations
 
-The [AC Term List](termlist.md) and
-[Audubon Core Structure](structure.md)
+The [AC Term List](./terms) and
+[Audubon Core Structure](./structure)
 documents represent a *data model.* For actual use of Audubon Core, it
 is necessary to select an implementation, preferably one with some
 status designated by [TDWG](http://www.tdwg.org/). Known
@@ -168,11 +157,6 @@ implementations will be listed in ancillary documents not included as part of th
 [\[ACISS\]](https://github.com/tdwg/ac/issues) | https://github.com/tdwg/ac/issues | AC issue tracker
 [\[CHANGE\]](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#3-change-process) | http://rs.tdwg.org/vms/doc/specification/#3-change-process | TDWG vocabulary change policy |
 [\[DCMIU\]](http://wiki.dublincore.org/index.php/User_Guide) | http://wiki.dublincore.org/index.php/User_Guide | Dublin Core User Guide                         |
-[\[GUIDE\]](guide.md) | http://rs.tdwg.org/ac/doc/guide/ | AC User Guide
-[\[STRCT\]](structure.md) | http://rs.tdwg.org/ac/doc/structure/ | Introduction to AC structure
-[\[TERMS\]](termlist.md) | http://rs.tdwg.org/ac/doc/termlist/ | AC Term List                            |
-
------------------
-This document is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). ![http://creativecommons.org/licenses/by/4.0/](https://licensebuttons.net/l/by/4.0/88x31.png).
-
-Copyright 2013 - Biodiversity Information Standards - TDWG - [Contact Us](http://www.tdwg.org/about-tdwg/contact-us/)
+[\[GUIDE\]](./guide) | http://rs.tdwg.org/ac/doc/guide/ | AC User Guide
+[\[STRCT\]](./structure) | http://rs.tdwg.org/ac/doc/structure/ | Introduction to AC structure
+[\[TERMS\]](./terms) | http://rs.tdwg.org/ac/doc/termlist/ | AC Term List                            |

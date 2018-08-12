@@ -1,4 +1,12 @@
-# Audubon Core Term List
+---
+layout: page
+title: Audubon Core Term List
+permalink: /terms
+---
+
+For introductory material, see the **[Audubon
+Core Introduction](introduction.md)** and **[Audubon Core
+Structure](structure.md)** documents.
 
 **Title:** Audubon Core Term List
 
@@ -25,7 +33,7 @@ list of attributes of each Audubon Core term, including a documentation
 name, a specified URI, a recommended English label for user interfaces,
 a definition, and some ancillary notes. The version shown here has been
 adopted by Biodiversity Information Standards / TDWG at the general
-meeting in October 2013. This document contains normative content that
+meeting in October 2013. This document contains normative content that 
 may not be changed without due process.
 
 **Contributors:** Robert A. Morris, Vijay Barve, Mihail Carausu, Vishwas
@@ -36,50 +44,6 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 **Bibliographic citation:** Multimedia Resources Task Group. 2013. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/
 
-## Table of Contents
-
-[1 Introduction](#1-introduction)
-
-[1.1 Status of the content of this document](#11-status-of-the-content-of-this-document)
-
-[1.2 Categories of terms](#12-categories-of-terms)
-
-[2 Borrowed Vocabulary](#2-borrowed-vocabulary)
-
-[3 Namespaces, Prefixes and Term Names](#3-namespaces-prefixes-and-term-names)
-
-[4 Layers](#4-layers)
-
-[5 Literal- vs. URI-valued Terms](#5-literal--vs-uri-valued-terms)
-
-[6 Vocabulary Indices](#6-vocabulary-indices)
-
-[6.1 Index By Term Name](#61-index-by-term-name)
-
-[6.2 Index By Label](#62-index-by-label)
-
-[7 Vocabularies](#7-vocabularies)
-
-[7.1 Management Vocabulary](#71-management-vocabulary)
-
-[7.2 Attribution Vocabulary](#72-attribution-vocabulary)
-
-[7.3 Agents Vocabulary](#73-agents-vocabulary)
-
-[7.4 Content Coverage Vocabulary](#74-content-coverage-vocabulary)
-
-[7.5 Geography Vocabulary](#75-geography-vocabulary)
-
-[7.6 Temporal Coverage Vocabulary](#76-temporal-coverage-vocabulary)
-
-[7.7 Taxonomic Coverage Vocabulary](#77-taxonomic-coverage-vocabulary)
-
-[7.8 Resource Creation Vocabulary](#78-resource-creation-vocabulary)
-
-[7.9 Related Resources Vocabulary](#79-related-resources-vocabulary)
-
-[7.10 Service Access Point Vocabulary](#710-service-access-point-vocabulary)
-
 
 ## 1 Introduction
 
@@ -88,7 +52,7 @@ There are four documents included in the Aububon Core Standard.  This document p
 
 ### 1.1 Status of the content of this document
 
-Sections 1.2 through 5 are normative, except for Table 1.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Audubon Core.  The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
+Sections 1.2 through 5 are normative.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
 
 
 ### 1.2 Categories of terms
@@ -114,20 +78,14 @@ When terms are borrowed from other vocabularies, AC uses the URIs,
 common abbreviations, and namespace prefixes in use in those
 vocabularies. The URIs are normative, but abbreviations and namespace
 prefixes have no impact except as an aid to reading the documentation.
-
-Table 1. Vocabularies from which terms have been borrowed (non-normative)
-
-| Vocabulary | Abbreviation | Namespaces and abbreviations | Link to authoritative documentation |
-|------------|--------------|------------------------------|-------------------------------------|
-| Darwin Core | DwC         | dwc: = http://rs.tdwg.org/dwc/terms/ | http://tdwg.github.io/dwc/terms/index.htm |
-| Dublin Core | DC          | dc: = http://purl.org/dc/elements/1.1/, dcterms: = http://purl.org/dc/terms/ | http://dublincore.org/documents/dcmi-terms/ |
-| Adobe XMP Core Properties | XMP | xmp: = http://ns.adobe.com/xap/1.0/, xmpRights: = http://ns.adobe.com/xap/1.0/rights/ | https://wwwimages2.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2016-08/XMPSpecificationPart1.pdf |
-| Adobe XMP Additional Properties | XMP | photoshop: = http://ns.adobe.com/photoshop/1.0/ | http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2014-12/XMPSpecificationPart2.pdf |
-| International Press and Telecommunications Council Photo Metadata Standard,Extension Schema 1.1 | IPTC | Iptc4xmpExt: = http://iptc.org/std/Iptc4xmpExt/2008-02-29/ | http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf |
-| Camera and Imaging Products Association Exchangeable Image File Format | EXIF | exif: = http://ns.adobe.com/exif/1.0/ | http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf |
-| TDWG Natural Collection Description LSID Ontology (referenced in metadata, but no terms borrowed) | NCD | ncd: = http://rs.tdwg.org/ontology/voc/Collection# | https://github.com/tdwg/ontology/blob/master/ontology/voc/Collection.rdf |
-
-
+Common such usage for abbreviations and namespace prefixes are Darwin
+Core (DwC, dwc:), the Dublin Core Metadata Initiative(DC, comprising two
+namespaces, with prefixes dc: and dcterms:), Adobe XMP (XMP, xmp:),
+International Press and Telecommunications Council (IPTC, Iptc4xmpExt:),
+the Exchangeable Image File Format (EXIF, exif:) and the TDWG Ontologies
+Natural History Collection class (NCD, ncd:). Hypertext links in the
+term table entries will bring the reader to appropriate documentation of
+those organizations.
 
 
 ## 3 Namespaces, Prefixes and Term Names

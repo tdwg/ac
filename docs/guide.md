@@ -1,4 +1,8 @@
-# Audubon Core Guide
+---
+layout: page
+title: Audubon Core Guide
+permalink: /guide
+---
 
 **Title:** Audubon Core Guide
 
@@ -22,49 +26,12 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 **Bibliographic citation:** Multimedia Resources Task Group. 2013. Audubon Core Guide. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/guide/
 
-## Table of Contents
-
-[1 Introduction](#1-introduction)
-
-[1.1 Status of the content of this document](#11-status-of-the-content-of-this-document)
-
-[2 Summary](#2-summary)
-
-[3 Audubon Core Terms](#3-audubon-core-terms)
-
-[4 Motivation and Rationale](#4-motivation-and-rationale)
-
-[5 Existing Standards](#5-existing-standards)
-
-[6 Common Concerns with Other Biodiversity Information Standards](#6-common-concerns-with-other-biodiversity-information-standards)
-
-[7 Concerns Not Emphasized in Other Biodiversity Information Standards](#7-concerns-not-emphasized-in-other-biodiversity-information-standards)
-
-[8 Multimedia Resource Descriptions](#8-multimedia-resource-descriptions)
-
-[9 Audubon Core Records](#9-audubon-core-records)
-
-[10 Implementation and Compliance](#10-implementation-and-compliance)
-
-[11 Further Information](#11-further-information)
-
-[12 Appendix I: Glossary](#12-appendix-i-glossary)
-
-[13 Appendix II: Audubon Core Development History](#13-appendix-ii-audubon-core-development-history)
-
-[13.1 Timeline](#131-timeline)
-
-[13.2 Document revision history](#132-document-revision-history)
-
-[14 Endnotes](#14-endnotes)
-
-
 ## 1 Introduction
 
 The Audubon Core Multimedia Resources Metadata Schema (Audubon Core) is a data standard for exchanging data describing biodiversity multimedia
 resources and collections produced by the GBIF/TDWG joint Multimedia
 Resources Metadata Task Group (MRTG).  The standard consists of four documents.  This document is a guide to the aims and uses of the standard. The [Audubon
-Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For detailed information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For term details, see the [Audubon Core Terms List](termlist.md) document.
+Core Introduction](./) document provides a brief introduction to the Audubon Core Standard. For detailed information about the structure of Audubon Core, see the [Audubon Core Structure](structure) document.  For term details, see the [Audubon Core Terms List](terms) document.
 
 Acronyms and named institutions and projects are listed in a Glossary in
 Appendix I.
@@ -139,7 +106,7 @@ purview of the Audubon Core. Even the providers of “Molecular DNA"
 resources sometimes will offer original data as digital images of
 microarray chips.
 
-![](guide_fig_1.png)
+![](assets/images/guide_fig_1.png)
 
 Figure 1. Relationships of Multimedia Resources to primary types of
 biodiversity resources
@@ -675,81 +642,81 @@ this standard allows mapping between them.
 
 <table>
   <tbody>
-    <tr class="even">
-      <td>DC</td>
-      <td>Dublin Core. Metadata element set that is a standard for cross-domain information  resource discovery. http://dublincore.org/documents/dcmi-terms/</td>
+    <tr>
+      <td><a href="http://dublincore.org/documents/dcmi-terms/">DC</a></td>
+      <td>Dublin Core. Metadata element set that is a standard for cross-domain information  resource discovery.</td>
     </tr>
-    <tr class="odd">
-      <td>DCMI</td>
-      <td>Dublin Core Metadata Initiative. The organization engaged in developing Dublin Core metadata standard. http://dublincore.org/</td>
+    <tr>
+      <td><a href="http://dublincore.org/">DCMI</a></td>
+      <td>Dublin Core Metadata Initiative. The organization engaged in developing Dublin Core metadata standard.</td>
     </tr>
-    <tr class="even">
-      <td>DwC</td>
-      <td>The Darwin Core is a TDWG standard for representation of specimen records. It has been in wide use for several years in a number of nonstandard, sometimes inconsistent, versions. A recently adopted standard version is at http://rs.tdwg.org/dwc/index.htm.</td>
+    <tr>
+      <td><a href="http://rs.tdwg.org/dwc/">DwC</a></td>
+      <td>The Darwin Core is a TDWG standard for representation of specimen records. It has been in wide use for several years in a number of nonstandard, sometimes inconsistent, versions. A recently adopted standard version is at <a href="http://rs.tdwg.org/dwc/index.htm">http://rs.tdwg.org/dwc/index.htm</a>.</td>
     </tr>
-    <tr class="odd">
-      <td>EOL</td>
-      <td>Encyclopedia of Life. Information about many species. http://eol.org</td>
+    <tr>
+      <td><a href="http://eol.org">EOL</a></td>
+      <td>Encyclopedia of Life. Information about many species.</td>
     </tr>
-    <tr class="even">
-      <td>EXIF</td>
-      <td>A widely used tagging format for digital image metadata that is often embedded in the image files, particularly by modern digital cameras. Many image rendering applications can read and display EXIF data. See http://en.wikipedia.org/wiki/Exchangeable_image_file_format for a history and description.</td>
+    <tr>
+      <td><a href="http://en.wikipedia.org/wiki/Exchangeable_image_file_format">EXIF</a></td>
+      <td>A widely used tagging format for digital image metadata that is often embedded in the image files, particularly by modern digital cameras. Many image rendering applications can read and display EXIF data. See <a href="http://en.wikipedia.org/wiki/Exchangeable_image_file_format">http://en.wikipedia.org/wiki/Exchangeable_image_file_format</a> for a history and description.</td>
     </tr>
-    <tr class="odd">
-      <td>GBIF</td>
-      <td>Global Biodiversity Information Facility. Interoperable network of biodiversity databases and information technology tools. http://www.gbif.org/</td>
+    <tr>
+      <td><a href="http://www.gbif.org/">GBIF</a></td>
+      <td>Global Biodiversity Information Facility. Interoperable network of biodiversity databases and information technology tools.</td>
     </tr>
-    <tr class="even">
-      <td>IANA</td>
-      <td>Internet Assigned Names Authority. Specifies the forms of, and registers instances of, names of various protocols in use on the internet. http://www.iana.org. See especially information on the <em>IANA http URI scheme</em> at http://en.wikipedia.org/wiki/URI_scheme</td>
+    <tr>
+      <td><a href="http://www.iana.org">IANA</a></td>
+      <td>Internet Assigned Names Authority. Specifies the forms of, and registers instances of, names of various protocols in use on the internet. See especially information on the <a href="http://en.wikipedia.org/wiki/URI_scheme">IANA http URI scheme</a>.</td>
     </tr>
-    <tr class="odd">
-      <td>IPTC</td>
-      <td>IPTC is a mature standard from the International Press and Telecommunications Council. Its Intellectual Property Rights support finer-grained controlled vocabularies than DC, providing better machine processing for discovery and fitness-for-use. The current version is a vocabulary for XMP. http://www.iptc.org</td>
+    <tr>
+      <td><a href="http://www.iptc.org">IPTC</a></td>
+      <td>IPTC is a mature standard from the International Press and Telecommunications Council. Its Intellectual Property Rights support finer-grained controlled vocabularies than DC, providing better machine processing for discovery and fitness-for-use. The current version is a vocabulary for XMP.</td>
     </tr>
-    <tr class="even">
-      <td>JSON</td>
-      <td>JavaScript Object Notation. Lightweight data-interchange format. http://www.json.org/</td>
+    <tr>
+      <td><a href="http://www.json.org/">JSON</a></td>
+      <td>JavaScript Object Notation. Lightweight data-interchange format.</td>
     </tr>
-    <tr class="odd">
-      <td>Morphbank</td>
-      <td>A specimen image repository http://www.morphbank.net/</td>
+    <tr>
+      <td><a href="http://www.morphbank.net/">Morphbank</a></td>
+      <td>A specimen image repository.</td>
     </tr>
-    <tr class="even">
-      <td>MWG</td>
-      <td>The Metadata Working Group is an industry consortium (Adobe, Apple, Canon, Microsoft, Nokia, and Sony) organized to specify how to exploit the Adobe Extensible Metadata Platform, XMP (http://en.wikipedia.org/wiki/Extensible_Metadata_Platform), for embedding metadata into common image file formats in several widely used controlled vocabularies. Although MWG's thrust is mainly toward consumer applications, over two dozen open source and commercial software products and platforms support XMP and Adobe has placed a Developers' Toolkit under an open source license. http://www.metadataworkinggroup.org/</td>
+    <tr>
+      <td><a href="http://www.metadataworkinggroup.org/">MWG</a></td>
+      <td>The Metadata Working Group is an industry consortium (Adobe, Apple, Canon, Microsoft, Nokia, and Sony) organized to specify how to exploit the Adobe Extensible Metadata Platform, <a href="http://en.wikipedia.org/wiki/Extensible_Metadata_Platform">XMP</a>, for embedding metadata into common image file formats in several widely used controlled vocabularies. Although MWG's thrust is mainly toward consumer applications, over two dozen open source and commercial software products and platforms support XMP and Adobe has placed a Developers' Toolkit under an open source license.</td>
     </tr>
-    <tr class="odd">
-      <td>NBII</td>
-      <td>The former U.S. National Biological Information Infrastructure. Its image library, the Library of Images From the Environment (LIFE), was at http://images.nbii.gov/ or http://life.nbii.gov/. If LIFE is reconstituted in any form, there might be a link there.</td>
+    <tr>
+      <td><a href="http://images.nbii.gov/">NBII</a></td>
+      <td>The former U.S. National Biological Information Infrastructure. Its image library, the Library of Images From the Environment (LIFE), was at <a href="http://images.nbii.gov/">http://images.nbii.gov/</a> or <a href="http://life.nbii.gov/">http://life.nbii.gov/</a>. If LIFE is reconstituted in any form, there might be a link there.</td>
     </tr>
-    <tr class="even">
-      <td>NCD</td>
-      <td>Natural Collections Description is a draft data standard designed to describe collections of physical objects such as specimens. It can accommodate collections of media objects, but cannot relate them to descriptions of the objects themselves. http://www.tdwg.org/activities/ncd/</td>
+    <tr>
+      <td><a href="http://www.tdwg.org/activities/ncd/">NCD</a></td>
+      <td>Natural Collections Description is a draft data standard designed to describe collections of physical objects such as specimens. It can accommodate collections of media objects, but cannot relate them to descriptions of the objects themselves.</td>
     </tr>
-    <tr class="odd">
-      <td>OGC</td>
-      <td>Open Geospatial Consortium. Provides standards for geospatial data representation and exchange. http://www.opengeospatial.org/</td>
+    <tr>
+      <td><a href="http://www.opengeospatial.org/">OGC</a></td>
+      <td>Open Geospatial Consortium. Provides standards for geospatial data representation and exchange.</td>
     </tr>
-    <tr class="even">
-      <td>RDF</td>
-      <td>Resource Description Framework. Lightweight ontology system to support knowledge exchange online. http://en.wikipedia.org/wiki/Resource_Description_Framework</td>
+    <tr>
+      <td><a href="http://en.wikipedia.org/wiki/Resource_Description_Framework">RDF</a></td>
+      <td>Resource Description Framework. Lightweight ontology system to support knowledge exchange online.</td>
     </tr>
-    <tr class="odd">
-      <td>TDWG</td>
-      <td>Taxonomic Databases Working Group. Now known as the Biodiversity Information Standards (TDWG), it is an international working group that develops standards and protocols for sharing biodiversity data. http://www.tdwg.org/</td>
+    <tr>
+      <td><a href="http://www.tdwg.org/">TDWG</a></td>
+      <td>Taxonomic Databases Working Group. Now known as the Biodiversity Information Standards (TDWG), it is an international working group that develops standards and protocols for sharing biodiversity data.</td>
     </tr>
-    <tr class="even">
-      <td>URI</td>
-      <td>Unique Resource Identifier. Generic term for linking web resources including URLs. http://en.wikipedia.org/wiki/Uniform_Resource_Identifier</td>
+    <tr>
+      <td><a href="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier">URI</a></td>
+      <td>Unique Resource Identifier. Generic term for linking web resources including URLs.</td>
     </tr>
-    <tr class="odd">
-      <td>XML</td>
-      <td>Extensible Markup Language. A simple flexible text format playing an increasingly important role in the exchange of a wide variety of data on the Web. http://www.w3.org/XML/</td>
+    <tr>
+      <td><a href="http://www.w3.org/XML/">XML</a></td>
+      <td>Extensible Markup Language. A simple flexible text format playing an increasingly important role in the exchange of a wide variety of data on the Web.</td>
     </tr>
-    <tr class="even">
-      <td>XMP</td>
-      <td>Adobe Extensible Metadata Platform (XMP) is a framework for embedding metadata into media files. Adobe provides a BSD-licensed open-source XMP developer’s toolkit which includes documentation about how to represent metadata in XMP. The XMP specification itself is licensed by Adobe under a &quot;Public Patent License&quot; http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/xmp_public_patent_license.pdf by which Adobe grants everyone the right to make XMP-compliant components of their applications, but it reserves the right to withdraw the license in case such a compliant component infringes &quot;Essential Claims&quot; of any patent. See http://www.adobe.com/devnet/xmp/ for download information. See Also MWG in this table.</td>
+    <tr>
+      <td><a href="http://www.adobe.com/devnet/xmp/">XMP</a></td>
+      <td>Adobe Extensible Metadata Platform (XMP) is a framework for embedding metadata into media files. Adobe provides a BSD-licensed open-source XMP developer’s toolkit which includes documentation about how to represent metadata in XMP. The XMP specification itself is licensed by Adobe under a <a href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/xmp_public_patent_license.pdf">&quot;Public Patent License&quot;</a> by which Adobe grants everyone the right to make XMP-compliant components of their applications, but it reserves the right to withdraw the license in case such a compliant component infringes &quot;Essential Claims&quot; of any patent. See <a href="http://www.adobe.com/devnet/xmp/">http://www.adobe.com/devnet/xmp/</a> for download information. See also <a href="http://www.metadataworkinggroup.org/">MWG</a> in this table.</td>
     </tr>
   </tbody>
 </table>
@@ -850,130 +817,113 @@ to have public comment
 
 ### 13.2 Document revision history
 
-0.7v1
+**0.7v1**
 
-Harmonized document to the fact that Subtype is optional in normative
-v0.7
+- Harmonized document to the fact that Subtype is optional in normative v0.7
 
-Fix mismatched parentheses, extra spaces, missing spaces, etc.
+- Fix mismatched parentheses, extra spaces, missing spaces, etc.
 
-ACv1.0 docv1.0
+**ACv1.0 docv1.0**
 
-Harmonized to v1.0: replace “MRTG” with “Audubon Core” where used as
-name of schema. Correct minor typos. Add “dcterms” as prefix.
+- Harmonized to v1.0: replace “MRTG” with “Audubon Core” where used as name of schema. Correct minor typos. Add “dcterms” as prefix.
 
-ACv1.0 docv1.0
+**ACv1.0 docv1.0**
 
-Further replacement of MRTG with “Audubon Core” or “AC”.
+- Further replacement of MRTG with “Audubon Core” or “AC”.
 
-AC v1.0 docv 1.2
+**AC v1.0 docv 1.2**
 
-Address Internal Review 2 comments
+- Address Internal Review 2 comments
 
-Fix mismatched parentheses, extra spaces, missing spaces, etc.
+- Fix mismatched parentheses, extra spaces, missing spaces, etc.
 
-AC v1.0 docv1.3
+**AC v1.0 docv1.3**
 
-Remove requirement to have Copyright Owner provided.
+- Remove requirement to have Copyright Owner provided.
 
-AC v1.0 docv1.4
+**AC v1.0 docv1.4**
 
-Clean up citations of six mandatory elements instead of five.
+- Clean up citations of six mandatory elements instead of five.
 
-AC v1.0 docv1.5
+**AC v1.0 docv1.5**
 
-Replace “keytonature.eu” with “species-id.net” to reflect move of
-normative wiki. Remove some unused Glossary terms. Update docv to 1.5
+- Replace “keytonature.eu” with “species-id.net” to reflect move of normative wiki. Remove some unused Glossary terms. Update docv to 1.5
 
-AC v1.0docv1.6
+**AC v1.0docv1.6**
 
-Remove dcterms:title from mandatory list. Add description of it as
-strongly recommended. Add mention of xmpRights:Owner in Copyright
-Statement item in the mandatory list. Change to “four” the references of
-“five” mandatory elements or remove the count altogether where text
-becomes unambiguous. Mention acterms namespace. Correct Iptc4xmpExt
-namespace to http://iptc.org/std/Iptc4xmpExt/2008-02-29/. Update docv to
-1.6.
+- Remove dcterms:title from mandatory list. Add description of it as strongly recommended. Add mention of xmpRights:Owner in Copyright Statement item in the mandatory list. Change to “four” the references of “five” mandatory elements or remove the count altogether where text becomes unambiguous. Mention acterms namespace. Correct Iptc4xmpExt namespace to http://iptc.org/std/Iptc4xmpExt/2008-02-29/. Update docv to 1.6.
 
-AC v1docv1.7
+**AC v1docv1.7**
 
-Clarify relation of this document to the normative docs. Set major major
-text to left-align, unjustified.
+- Clarify relation of this document to the normative docs. Set major major text to left-align, unjustified.
 
-AC v1.0docv1.8
+**AC v1.0docv1.8**
 
-Remove mention of crosswalks since no longer in normative termlist.
+- Remove mention of crosswalks since no longer in normative termlist.
 
-On p. 5 force URL of DwC terms into footnote.
+- On p. 5 force URL of DwC terms into footnote.
 
-Improved language about use of literals with dcterms.
+- Improved language about use of literals with dcterms.
 
-AC v1.0docv1.91
+**C v1.0docv1.91**
 
-Various minor grammar and punctuation corrections.
+- Various minor grammar and punctuation corrections.
 
-Reconciliation to current normative docs.
+- Reconciliation to current normative docs.
 
-AC v1.0docv1.92
+**AC v1.0docv1.92**
 
-More minor grammar fixes.
+- More minor grammar fixes.
 
-AC v1.0docv1.93
+**AC v1.0docv1.93**
 
-Fixed inconsistent internal version references to current version. No
-substantive or grammatical changes. Note that v1.92 was submitted to
-TDWG executive committee with request for permission to hold public
-review.
+- Fixed inconsistent internal version references to current version. No substantive or grammatical changes. Note that v1.92 was submitted to TDWG executive committee with request for permission to hold public review.
 
-AC v1.0docv1.94
+**AC v1.0docv1.94**
 
-Change references from species-id wiki to gbif terms wiki. Adjust Fig 1
+- Change references from species-id wiki to gbif terms wiki. Adjust Fig 1
 
-AC v1.0docv1.95
+**AC v1.0docv1.95**
 
-Correct “hasAccentPoint” to “hasAcccessPoint”. Remove text suggesting
-this is a draft
+- Correct “hasAccentPoint” to “hasAcccessPoint”. Remove text suggesting this is a draft
 
 
 ## 14 Endnotes
 
-<sup id="fn-1">[\[1\]](#cit-1)</sup>  http://terms.gbif.org/Audubon_Core
+<sup id="fn-1">[\[1\]](#cit-1)</sup> [http://terms.gbif.org/Audubon_Core](http://terms.gbif.org/Audubon_Core)
 
-<sup id="fn-2">[\[2\]](#cit-2)</sup>  http://terms.gbif.org/Audubon_Core_Term_List
+<sup id="fn-2">[\[2\]](#cit-2)</sup> [http://terms.gbif.org/Audubon_Core_Term_List](http://terms.gbif.org/Audubon_Core_Term_List)
 
-<sup id="fn-3">[\[3\]](#cit-3)</sup> http://www.w3.org/RDF/
+<sup id="fn-3">[\[3\]](#cit-3)</sup> [http://www.w3.org/RDF/](http://www.w3.org/RDF/)
 
-<sup id="fn-4">[\[4\]](#cit-4)</sup> http://www.w3.org/standards/xml/schema
+<sup id="fn-4">[\[4\]](#cit-4)</sup> [http://www.w3.org/standards/xml/schema](http://www.w3.org/standards/xml/schema)
 
-<sup id="fn-5">[\[5\]](#cit-5)</sup> http://en.wikipedia.org/wiki/Comma-separated_values
+<sup id="fn-5">[\[5\]](#cit-5)</sup> [http://en.wikipedia.org/wiki/Comma-separated_values](http://en.wikipedia.org/wiki/Comma-separated_values)
 
-<sup id="fn-6">[\[6\]](#cit-6)</sup> http://www.tdwg.org/fileadmin/subgroups/ncd/NCD_090.doc
+<sup id="fn-6">[\[6\]](#cit-6)</sup> [http://www.tdwg.org/fileadmin/subgroups/ncd/NCD_090.doc](http://www.tdwg.org/fileadmin/subgroups/ncd/NCD_090.doc)
 
-<sup id="fn-7">[\[7\]](#cit-7)</sup> http://rs.tdwg.org/dwc/terms/
+<sup id="fn-7">[\[7\]](#cit-7)</sup> [http://rs.tdwg.org/dwc/terms/](http://rs.tdwg.org/dwc/terms/)
 
-<sup id="fn-8">[\[8\]](#cit-8)</sup> http://rs.tdwg.org/dwc/index.htm
+<sup id="fn-8">[\[8\]](#cit-8)</sup> [http://rs.tdwg.org/dwc/index.htm](http://rs.tdwg.org/dwc/index.htm)
 
-<sup id="fn-9">[\[9\]](#cit-9)</sup> The Metadata Working Group (MWG,
-    http://www.metadataworkinggroup.org/) is an industry consortium
-    (Adobe, Apple, Canon, Microsoft, Nokia, and Sony) organized to
-    specify how to exploit the Adobe Extensible Metadata Platform, XMP
-    (http://en.wikipedia.org/wiki/Extensible_Metadata_Platform) for
-    embedding into common image file formats metadata in several widely
-    used controlled vocabularies. Although MWG's thrust is mainly toward
-    consumer applications, over two dozen open source and commercial
-    software products and platforms support XMP and Adobe has placed a
-    Developers' Toolkit under an open source license. Along with
-    proposals for standard serializations of the representation-neutral
-    Audubon Core schema, MRTG intends to propose a TDWG Best Practice
-    for embedding such serializations in multimedia files using XMP.
+<sup id="fn-9">[\[9\]](#cit-9)</sup>
+The Metadata Working Group (MWG,
+[http://www.metadataworkinggroup.org/](http://www.metadataworkinggroup.org/)) is an industry consortium
+(Adobe, Apple, Canon, Microsoft, Nokia, and Sony) organized to
+specify how to exploit the Adobe Extensible Metadata Platform, XMP
+([http://en.wikipedia.org/wiki/Extensible_Metadata_Platform](http://en.wikipedia.org/wiki/Extensible_Metadata_Platform)) for
+embedding into common image file formats metadata in several widely
+used controlled vocabularies. Although MWG's thrust is mainly toward
+consumer applications, over two dozen open source and commercial
+software products and platforms support XMP and Adobe has placed a
+Developers' Toolkit under an open source license. Along with
+proposals for standard serializations of the representation-neutral
+Audubon Core schema, MRTG intends to propose a TDWG Best Practice
+for embedding such serializations in multimedia files using XMP.
 
-<sup id="fn-10">[\[10\]](#cit-10)</sup> IPTC is a mature standard from the International Press and
-    Telecommunications Council (http://www.iptc.org). Its Intellectual
-    Property Rights supports finer grained controlled vocabularies than
-    DC, providing better machine processing for discovery and
-    fitness-for-use.
-
------------------
-This document is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). ![http://creativecommons.org/licenses/by/4.0/](https://licensebuttons.net/l/by/4.0/88x31.png).
-
-Copyright 2013 - Biodiversity Information Standards - TDWG - [Contact Us](http://www.tdwg.org/about-tdwg/contact-us/)
+<sup id="fn-10">[\[10\]](#cit-10)</sup>
+IPTC is a mature standard from the International Press and
+Telecommunications Council ([http://www.iptc.org](http://www.iptc.org)). Its Intellectual
+Property Rights supports finer grained controlled vocabularies than
+DC, providing better machine processing for discovery and
+fitness-for-use.

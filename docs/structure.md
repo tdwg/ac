@@ -1,6 +1,8 @@
-<a id="top"></a>
-
-# Audubon Core Structure
+---
+layout: page
+title: Audubon Core Structure
+permalink: /structure
+---
 
 **Title:** Audubon Core Structure
 
@@ -24,7 +26,7 @@ concerns as the management of the media and collections, descriptions of
 their content, their taxonomic, geographic, and temporal coverage, and
 the appropriate ways to retrieve, attribute and reproduce them. This
 document contains material introductory to the **[Audubon Core Term
-List](termlist.md)**
+List](./terms)**
 
 **Contributors:** Robert A. Morris, Vijay Barve, Mihail Carausu, Vishwas
 Chavan, José Cuadra, Chris Freeland, Gregor Hagedorn, Patrick Leary,
@@ -34,23 +36,6 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 **Bibliographic citation:** Multimedia Resources Task Group. 2013. Audubon Core Structure. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/structure/
 
-## Table of Contents
-
-[1 Introduction](1-introduction)
-
-[1.1 Status of the content of this document](11-status-of-the-content-of-this-document)
-
-[2 Terminology of this specification](2-terminology-of-this-specification)
-
-[3 Multiplicity and Cardinality](3-multiplicity-and-cardinality)
-
-[3.1 Structured serializations](31-structured-serializations)
-
-[3.2 Tabular serializations](32-tabular-serializations)
-
-[4 Lists of plain text values](4-lists-of-plain-text-values)
-
-
 ## 1 Introduction
 
 This documentation describes the structure of the [TDWG](http://tdwg.org)
@@ -58,17 +43,17 @@ Audubon Core Multimedia Resources Metadata Standard (Audubon Core, or
 simply AC).
 
 **If you are unfamiliar with the Audubon Core, *please* read the
-[Audubon Core Introduction](introduction.md) before
+[Audubon Core Introduction](./) before
 reading this document.** The introduction lays out why there is perceived a need for a
 biodiversity media resource metadata schema, and how the standard
 attempts to use existing metadata standards where
 possible.
 
-For term details, see the [Audubon Core Terms List](termlist.md) document and for a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
+For term details, see the [Audubon Core Terms List](./terms) document and for a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](./guide) document.
 
 During development, Audubon core was colloquially known as MRTG, after
 its developers, the GBIF-TDWG Joint Multimedia Resources Metadata Task
-Group. Please see the [Audubon Core Guide](guide.md) and
+Group. Please see the [Audubon Core Guide](./guide) and
 also [MRTG Development History](http://www.keytonature.eu/wiki/MRTG_Development_History) for
 the development history in detail.
 
@@ -78,7 +63,7 @@ the development history in detail.
 Sections 2 through 4 of this document are normative except for example sections, which are labeled as non-normative.  
 
 
-## 2 Terminology of this specification</a>
+## 2 Terminology of this specification
 
 There are many ways to organize metadata specifications, particularly as
 to the nomenclature of the constituents of the metadata. Note the
@@ -91,7 +76,7 @@ following as they apply to the Audubon Core:
     that will not collide with the AC defined Subtype values.
   - An AC *record* is a set of terms with any values conforming to this
     document, and which contain at least the four mandatory terms
-    described in the [Audubon Core Core Term List](termlist.md), and
+    described in the [Audubon Core Core Term List](./terms), and
     which describes a single multimedia resource (possibly including a
     Collection). One of these, the value of *Identifier* is a Globally
     Unique IDentifier (GUID), which may have been assigned to the
@@ -105,7 +90,7 @@ following as they apply to the Audubon Core:
     implementers of this normative specification. It could be as simple
     as "gracefully ignore".
 
-In the [Audubon Core Term List](termlist.md), every AC
+In the [Audubon Core Term List](terms), every AC
 term has a *term name* following a table entry *"Term:"*, a *URI*, a
 plain text normative *Definition*, a recommended English *Label*, an
 optional *Notes* attribute. In addition, a term has an attribute telling
@@ -176,20 +161,20 @@ Core this situation occurs, for example, in the following cases:
 
   - The language-dependent metadata like title, description, etc. need
     to be associated with ac:metadataLanguage. One approach here is to
-    use complete Audubon Core records together with the [Metadata Language](termlist.md#ac_metadataLanguage)
+    use complete Audubon Core records together with the [Metadata Language](./terms#ac_metadataLanguage)
     property; see there for further detail.
   - The values of properties about a Service Access Point must remain
     associated with that Service Access Point even if there are multiple
     Service Access Points. See
-    [hasServiceAccessPoint](termlist.md#ac_hasServiceAccessPoint)
+    [hasServiceAccessPoint](./terms#ac_hasServiceAccessPoint)
     for further details.
   - The terms dwc:scientificName and dwc:identificationQualifier may
     optionally be structured into pairs. (See the notes on
-    [dwc:identificationQualifier](termlist.md#dwc_identificationQualifier).)
+    [dwc:identificationQualifier](./terms#dwc_identificationQualifier).)
   - The terms
-    [Reviewer](termlist.md#ac_reviewer),
+    [Reviewer](./terms#ac_reviewer),
     being the name of an individual providing some expert review of a
-    resource, and the review text itself in [Reviewer Comments](termlist.md#ac_reviewerComments)
+    resource, and the review text itself in [Reviewer Comments](./terms#ac_reviewerComments)
     are desirable to store as pairs.
 
 
@@ -200,7 +185,7 @@ deal with repeated terms unambiguously. In XML, we might define
 a container element and use a nesting structure as in Section 3.2.  Alternatively, in XML we may reference access points by identifier as in Section 3.3.  Where such structures are impossible or undesirable, an alternative
 solution is to permit only one access point per
 container element, but to repeat the container element for a single media resource, as shown in section 3.4. This is similar
-to one of the options discussed for multilingual metadata (see [Metadata Language](termlist.md#ac_metadataLanguage)).
+to one of the options discussed for multilingual metadata (see [Metadata Language](./terms#ac_metadataLanguage)).
 
 
 #### 3.1.1 Nested XML structure example (non-normative)
@@ -268,26 +253,84 @@ as unnecessary.
 
 Another approach also eliminates the need for the ac:hasServiceAccessPoint property when
 flattening the ac structure. It is based on introducing new terms
-exploiting values of the [ac:variantLiteral](termlist.md#ac_variantLiteral):
+exploiting values of the [ac:variantLiteral](./terms#ac_variantLiteral):
 "Thumbnail", "Trailer", "Lower Quality", "Medium Quality", "Good
 Quality", "Best Quality", "Offline", as prefixes for additional
 properties in a new namespace.
 
 #### 3.2.1 Example of a table with each service access point in a separate row (non-normative)
 
-|                                            |                   |                |                    |                                                 |
-| ------------------------------------------ | ----------------- | -------------- | ------------------ | ----------------------------------------------- |
-| **dcterms:identifier**                     | **dcterms:title** | **ac:variant** | **dcterms:format** | **ac:accessURI**                                |
-| http://example.com/pictures/thePicture.jpg | A red beech leaf  | Best Quality   | jpg                | http://example.com/fullres/thePicture.jpg       |
-| http://example.com/pictures/thePicture.jpg |                   | Best Quality   | png                | http://example.com/fullres/thePicture-hires.png |
-| http://example.com/pictures/thePicture.jpg |                   | Thumbnail      | png                | http://example.com/thumbs/thePicture-thumb.png  |
+<table class="table-responsive">
+  <tbody>
+    <tr>
+      <td><strong>dcterms:identifier</strong></td>
+      <td><strong>dcterms:title</strong></td>
+      <td><strong>ac:variant</strong></td>
+      <td><strong>dcterms:format</strong></td>
+      <td><strong>ac:accessURI</strong></td>
+    </tr>
+    <tr>
+      <td>http://example.com/pictures/thePicture.jpg</td>
+      <td>A red beech leaf</td>
+      <td>Best Quality</td>
+      <td>jpg</td>
+      <td>http://example.com/fullres/thePicture.jpg</td>
+    </tr>
+    <tr>
+      <td>http://example.com/pictures/thePicture.jpg</td>
+      <td>&nbsp;</td>
+      <td>Best Quality</td>
+      <td>png</td>
+      <td>http://example.com/fullres/thePicture-hires.png</td>
+    </tr>
+    <tr>
+      <td>http://example.com/pictures/thePicture.jpg</td>
+      <td>&nbsp;</td>
+      <td>Thumbnail</td>
+      <td>png</td>
+      <td>http://example.com/thumbs/thePicture-thumb.png</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 3.2.2 Example of a table with metadata for all service access points in the same row (non-normative)
 
-|                                       |                   |                                     |                         |                             |                              |                              |                           |                               |                                |                              |                           |                               |                                |
-| ------------------------------------- | ----------------- | ----------------------------------- | ----------------------- | --------------------------- | ---------------------------- | ---------------------------- | ------------------------- | ----------------------------- | ------------------------------ | ---------------------------- | ------------------------- | ----------------------------- | ------------------------------ |
-| **dcterms:identifier**                | **dcterms:title** | **acf:thumbnailAccessURI**          | **acf:thumbnailFormat** | **acf:thumbnailImageWidth** | **acf:thumbnailImageHeight** | **acf:goodQualityAccessURI** | **acf:goodQualityFormat** | **acf:goodQualityImageWidth** | **acf:goodQualityImageHeight** | **acf:bestQualityAccessURI** | **acf:bestQualityFormat** | **acf:bestQualityImageWidth** | **acf:bestQualityImageHeight** |
-| http://ex.com/pictures/thePicture.jpg | A red beech leaf  | http://example.com/thumb/thePic.jpg | image/jpeg              | 100                         | 100                          | http://ex.com/img/thePic.jpg | image/jpeg                | 1000                          | 1000                           | http://ex.com/hr/thePic.png  | image/png\</nowiki\>      | 10000                         | 10000                          |
+<table class="table-responsive">
+  <tbody>
+    <tr>
+      <td><strong>dcterms:identifier</strong></td>
+      <td><strong>dcterms:title</strong></td>
+      <td><strong>acf:thumbnailAccessURI</strong></td>
+      <td><strong>acf:thumbnailFormat</strong></td>
+      <td><strong>acf:thumbnailImageWidth</strong></td>
+      <td><strong>acf:thumbnailImageHeight</strong></td>
+      <td><strong>acf:goodQualityAccessURI</strong></td>
+      <td><strong>acf:goodQualityFormat</strong></td>
+      <td><strong>acf:goodQualityImageWidth</strong></td>
+      <td><strong>acf:goodQualityImageHeight</strong></td>
+      <td><strong>acf:bestQualityAccessURI</strong></td>
+      <td><strong>acf:bestQualityFormat</strong></td>
+      <td><strong>acf:bestQualityImageWidth</strong></td>
+      <td><strong>acf:bestQualityImageHeight</strong></td>
+    </tr>
+    <tr>
+      <td>http://ex.com/pictures/thePicture.jpg</td>
+      <td>A red beech leaf</td>
+      <td>http://example.com/thumb/thePic.jpg</td>
+      <td>image/jpeg</td>
+      <td>100</td>
+      <td>100</td>
+      <td>http://ex.com/img/thePic.jpg</td>
+      <td>image/jpeg</td>
+      <td>1000</td>
+      <td>1000</td>
+      <td>http://ex.com/hr/thePic.png</td>
+      <td>image/png&lt;/nowiki&gt;</td>
+      <td>10000</td>
+      <td>10000</td>
+    </tr>
+  </tbody>
+</table>
 
 Note: acf: (for "Audubon Core Flat") is a made-up namespace.  Communities of interest might mint such terms in order to use this kind of structure.
 
@@ -302,8 +345,3 @@ Unfortunately, even for standard list formats like CSV, different
 software packages choose different escape methods, hindering
 interchange. In the absence of an implementation-specific choice we
 recommend to use "|" as separator and "\\|" as an escaped vertical bar.
-
------------------
-This document is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). ![http://creativecommons.org/licenses/by/4.0/](https://licensebuttons.net/l/by/4.0/88x31.png).
-
-Copyright 2013 - Biodiversity Information Standards - TDWG - [Contact Us](http://www.tdwg.org/about-tdwg/contact-us/)
