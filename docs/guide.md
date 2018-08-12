@@ -235,7 +235,7 @@ The principal namespace qualifiers for term URIs in this document are
 - **dwc:** The Darwin Core vocabulary described at
   http://rs.tdwg.org/dwc/index.htm
 
-- **Iptc4ampExt** Geographic extensions to IPTC with namespace
+- **Iptc4ampExt:** Geographic extensions to IPTC with namespace
   http://iptc.org/std/Iptc4xmpExt/2008-02-29/ documented in
   http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf
 
