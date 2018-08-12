@@ -88,7 +88,7 @@ There are four documents included in the Aububon Core Standard.  This document p
 
 ### 1.1 Status of the content of this document
 
-Sections 1.2 through 5 are normative.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Audubon Core.  The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
+Sections 1.2 through 5 are normative, except for Table 1.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Audubon Core.  The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
 
 
 ### 1.2 Categories of terms
@@ -114,14 +114,20 @@ When terms are borrowed from other vocabularies, AC uses the URIs,
 common abbreviations, and namespace prefixes in use in those
 vocabularies. The URIs are normative, but abbreviations and namespace
 prefixes have no impact except as an aid to reading the documentation.
-Common such usage for abbreviations and namespace prefixes are Darwin
-Core (DwC, dwc:), the Dublin Core Metadata Initiative(DC, comprising two
-namespaces, with prefixes dc: and dcterms:), Adobe XMP (XMP, xmp:),
-International Press and Telecommunications Council (IPTC, Iptc4xmpExt:),
-the Exchangeable Image File Format (EXIF, exif:) and the TDWG Ontologies
-Natural History Collection class (NCD, ncd:). Hypertext links in the
-term table entries will bring the reader to appropriate documentation of
-those organizations.
+
+Table 1. Vocabularies from which terms have been borrowed (non-normative)
+
+| Vocabulary | Abbreviation | Namespaces and abbreviations | Link to authoritative documentation |
+|------------|--------------|------------------------------|-------------------------------------|
+| Darwin Core | DwC         | dwc: = http://rs.tdwg.org/dwc/terms/ | http://tdwg.github.io/dwc/terms/index.htm |
+| Dublin Core | DC          | dc: = http://purl.org/dc/elements/1.1/, dcterms: = http://purl.org/dc/terms/ | http://dublincore.org/documents/dcmi-terms/ |
+| Adobe XMP Core Properties | XMP | xmp: = http://ns.adobe.com/xap/1.0/, xmpRights: = http://ns.adobe.com/xap/1.0/rights/ | https://wwwimages2.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2016-08/XMPSpecificationPart1.pdf |
+| Adobe XMP Additional Properties | XMP | photoshop: = http://ns.adobe.com/photoshop/1.0/ | http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2014-12/XMPSpecificationPart2.pdf |
+| International Press and Telecommunications Council Photo Metadata Standard,Extension Schema 1.1 | IPTC | Iptc4xmpExt: = http://iptc.org/std/Iptc4xmpExt/2008-02-29/ | http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf |
+| Camera and Imaging Products Association Exchangeable Image File Format | EXIF | exif: = http://ns.adobe.com/exif/1.0/ | http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf |
+| TDWG Natural Collection Description LSID Ontology (referenced in metadata, but no terms borrowed) | NCD | ncd: = http://rs.tdwg.org/ontology/voc/Collection# | https://github.com/tdwg/ontology/blob/master/ontology/voc/Collection.rdf |
+
+
 
 
 ## 3 Namespaces, Prefixes and Term Names
