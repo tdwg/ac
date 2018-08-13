@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Audubon Core Term List
-permalink: /terms
+permalink: /termlist
 ---
 
 **Title:** Audubon Core Term List
@@ -4635,5 +4635,3 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 	</tbody>
 </table>
-
-

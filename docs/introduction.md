@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Audubon Core Introduction
-permalink: /index.html
+permalink: /introduction
 ---
 
 **Title:** Audubon Core Introduction
