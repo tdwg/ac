@@ -11,7 +11,7 @@ import re
 def retrieveVocabularyInfo(githubBaseUri):
     dataUrl = githubBaseUri + 'vocabularies/vocabularies-members.csv'
     table = http_library.retrieveData(dataUrl, 'csv', ',')
-    print(table[0])
+    #print(table[0])
     header = table[0]
 
     # determine which column contains the vocab and term list ids
@@ -180,14 +180,14 @@ def buildMarkdown(table, displayOrder, displayLabel, displayComments, displayId)
                 if table[row][8] != '':
                     text += '\t\t<tr>\n'
                     text += '\t\t\t<td>Usage</td>\n'
-                    #text += '\t\t\t<td>' + createLinks(table[row][8]) + '</td>\n'
-                    text += '\t\t\t<td>' + table[row][8] + '</td>\n'
+                    text += '\t\t\t<td>' + createLinks(table[row][8]) + '</td>\n'
+                    #text += '\t\t\t<td>' + table[row][8] + '</td>\n'
                     text += '\t\t</tr>\n'
                 if table[row][9] != '':
                     text += '\t\t<tr>\n'
                     text += '\t\t\t<td>Notes</td>\n'
-                    #text += '\t\t\t<td>' + createLinks(table[row][9]) + '</td>\n'
-                    text += '\t\t\t<td>' + table[row][9] + '</td>\n'
+                    text += '\t\t\t<td>' + createLinks(table[row][9]) + '</td>\n'
+                    #text += '\t\t\t<td>' + table[row][9] + '</td>\n'
                     text += '\t\t</tr>\n'
                 text += '\t</tbody>\n'
                 text += '</table>\n'
@@ -198,10 +198,13 @@ def buildMarkdown(table, displayOrder, displayLabel, displayComments, displayId)
 # replace URL with link
 #
 def createLinks(text):
-    pattern = '\((https?://[^\)]*)\)'
-    pattern2 = '; (https?://[^\)]*)\)'
-    result = re.sub(pattern, '<a href="\\1"><i class="fa fa-external-link"></i></a>', text)
-    result = re.sub(pattern2, ') <a href="\\1"><i class="fa fa-external-link"></i></a>', result)
+    def repl(match):
+        if match.group(1)[-1] == '.':
+            return '<a href="' + match.group(1)[:-1] + '">' + match.group(1)[:-1] + '</a>.'
+        return '<a href="' + match.group(1) + '">' + match.group(1) + '</a>'
+
+    pattern = '(https?://[^\s,;\)"]*)'
+    result = re.sub(pattern, repl, text)
     return result
 
 # ---------------------------------------------------------------------------

@@ -81,7 +81,7 @@ Note: URIs for terms in most of these namespaces do not dereference to anything.
 
 | Vocabulary | Abbreviation | Namespaces and abbreviations |
 |------------|--------------|------------------------------|
-| [Darwin Core](http://tdwg.github.io/dwc/terms/index.htm) | DwC         | dwc: = http://rs.tdwg.org/dwc/terms/ |
+| [Darwin Core](http://tdwg.github.io/dwc/terms/index.htm) | DwC         | dwc: = http://rs.tdwg.org/dwc/terms/
 | [Dublin Core](http://dublincore.org/documents/dcmi-terms/) | DC          | dc: = http://purl.org/dc/elements/1.1/, dcterms: = http://purl.org/dc/terms/ |
 | [Adobe XMP Core Properties](https://wwwimages2.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2016-08/XMPSpecificationPart1.pdf) | XMP | xmp: = http://ns.adobe.com/xap/1.0/, xmpRights: = http://ns.adobe.com/xap/1.0/rights/ |
 | [Adobe XMP Additional Properties](http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2014-12/XMPSpecificationPart2.pdf) | XMP | photoshop: = http://ns.adobe.com/photoshop/1.0/ |
