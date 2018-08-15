@@ -1,4 +1,6 @@
-# AudubonCore (AC)
+# Audubon Core (AC)
+
+This is the main entry point to the work of the Audubon Core Maintenance Group.  If you are looking for the landing page of the standard itself, go to https://www.tdwg.org/standards/ac/.
 
 The Audubon Core (AC) is a set of vocabularies designed to represent metadata for biodiversity multimedia resources and collections. These vocabularies aim to represent information that will help to determine whether a particular resource or collection will be fit for some particular biodiversity science application before acquiring the media. Among others, the vocabularies address such concerns as the management of the media and collections, descriptions of their content, their taxonomic, geographic, and temporal coverage, and the appropriate ways to retrieve, attribute and reproduce them.
 
@@ -20,6 +22,8 @@ Niels Klazenga - Royal Botanic Gardens Victoria - [Niels.Klazenga@rbg.vic.gov.au
 
 Rebecca Snyder - Smithsonian Institution, National Museum of Natural History - [SNYDERR@si.edu](mailto:SNYDERR@si.edu)
 
+To see all of the people who are paying attention to our work, see the list of ["watchers"](https://github.com/tdwg/ac/watchers).  The people on this list are effectively the "regular members" of the group.
+
 ## Participating in the Group
 
 If you would like to participate in this group, contact the convener or one of the core members.  
@@ -28,8 +32,43 @@ To participate in the communication system of the group, "watch" the group's [Is
 
 ## Documentation
 
-See http://terms.tdwg.org/wiki/Audubon_Core for links to normative and non-normative documentation.  Audubon Core is an adopted standard of TDWG.
+To see what issues we are currently addressing, see our [Issue Tracker](https://github.com/tdwg/ac/issues).  
 
-For notes of Maintenance group meetings and other historical documents, see [this page](historical/README.md)
+For notes of Maintenance group meetings and other historical documents, see [this page](historical/README.md).  To see what we've been working on in the past, see the [list of closed issues](https://github.com/tdwg/ac/issues?q=is%3Aissue+is%3Aclosed)
 
-Cite as Morris, Robert A., et al. 2014. Audubon Core Multimedia Resources Metadata Schema, Release 1.0. Biodiversity Information Standards (TDWG)  http://www.tdwg.org/standards/638/
+For the details of most of the documents in this repo, see the diagram below.
+
+## Repo structure
+
+The repository structure is described below.
+
+```
+├── README.md             : Description of this repository
+├── license.md            : Repository license
+│
+├── docs                  : Standards documents live here.  However, do not hyperlink to them here because they are rendered as HTML at https://tdwg.github.io/ac/.
+│   ├── introduction.md   : Brief introduction to the standard
+│   ├── structure.md      : Describes the structure of Audubon Core
+│   ├── termlist.md       : AC Term List, including normative definitions. DO NOT EDIT MANUALLY!
+│   ├── guide.md          : More detailed user guide
+│   └── assets            : subdirectories contain stuff for Jekyll operation
+│       ├── styles.css    : CSS for generated Jekyll site
+│       └── images        : directory for images used in the documents
+│
+├── code
+│   ├── build_page.py               : Build script to generate termlist.md
+│   ├── http_library.py             : Function library used by build_page.py
+│   ├── termlist-header.md          : Manually-edited header section to which the generated term list is appended
+│   ├── termlist-footer.md          : Manually-edited footer section (currently empty) to be appended to the generated term list
+│   └── pandoc-conversion-notes.txt : Notes on conversion from mediawiki
+│
+├── historical                         : Documents of historical interest
+│   ├── README.md                      : Contents of this directory
+│   ├── RecordOfPublicReview.md        : Summary of public comment period during the adoption of the standard
+│   └── [yyyy-mm-dd]-hangout-notes.pdf : Series of downloaded Google Docs notes from online Maintenance Group meetings
+│
+├── 3D                                               : Directory to store documents related to proposed 3D task group
+│   └── proposed-3d-metadata-terms-from-dwc-hour.csv : notes from Darwin Core hour
+│
+└── .gitignore                : Files and directories to be ignored by git
+```
