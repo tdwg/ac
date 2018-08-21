@@ -11,6 +11,11 @@ The contents of this folder are items that are primarily of historical interest.
 [2018-07-18](2018-07-18-hangout-notes.pdf)
 
 
+**Annual reports to the Executive Committee**
+
+[2018](ac-2018-annual-report.md)
+
+
 **Record of Public Review in 2013 during the standards ratification process:**
 
 [Public comment notes](RecordOfPublicReview.md)
