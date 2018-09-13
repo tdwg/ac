@@ -12,7 +12,7 @@ Audubon Core is maintained by a specialized [Interest Group](http://www.tdwg.org
 
 Currently, core members of the group are:
 
-Steve Baskauf - Vanderbilt University Department of Biological Sciences (Convener) - [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@vanderbilt.edu)
+Steve Baskauf - Vanderbilt University Jean & Alexander Heard Library (Convener) - [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@vanderbilt.edu)
 
 Robert A. Morris - University of Massachusetts, Boston - [morris.bob@gmail.com](mailto:morris.bob@gmail.com)
 
