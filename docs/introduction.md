@@ -1,8 +1,4 @@
----
-layout: page
-title: Audubon Core Introduction
-permalink: /introduction
----
+# Audubon Core Introduction
 
 **Title:** Audubon Core Introduction
 

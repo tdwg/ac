@@ -1,8 +1,4 @@
----
-layout: page
-title: Audubon Core Structure
-permalink: /structure
----
+# Audubon Core Structure
 
 **Title:** Audubon Core Structure
 

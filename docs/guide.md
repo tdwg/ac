@@ -1,8 +1,4 @@
----
-layout: page
-title: Audubon Core Guide
-permalink: /guide
----
+# Audubon Core Guide
 
 **Title:** Audubon Core Guide
 
