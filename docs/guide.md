@@ -1,3 +1,7 @@
+---
+permalink: /guide/
+---
+
 # Audubon Core Guide
 
 **Title:** Audubon Core Guide

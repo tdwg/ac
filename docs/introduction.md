@@ -1,3 +1,7 @@
+---
+permalink: /introduction/
+---
+
 # Audubon Core Introduction
 
 **Title:** Audubon Core Introduction

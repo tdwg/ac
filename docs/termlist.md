@@ -1,5 +1,5 @@
 ---
-permalink: /terms/
+permalink: /termlist/
 ---
 
 # Audubon Core Term List

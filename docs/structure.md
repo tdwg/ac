@@ -1,3 +1,7 @@
+---
+permalink: /structure/
+---
+
 # Audubon Core Structure
 
 **Title:** Audubon Core Structure
