@@ -1,8 +1,8 @@
 ---
-layout: page
-title: Audubon Core Term List
-permalink: /termlist
+permalink: /termlist/
 ---
+
+# Audubon Core Term List
 
 **Title:** Audubon Core Term List
 
