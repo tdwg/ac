@@ -10,6 +10,8 @@ The contents of this folder are items that are primarily of historical interest.
 
 [2018-07-18](2018-07-18-hangout-notes.pdf)
 
+[2010-03-12](2019-03-12-hangout-notes.pdf)
+
 
 **Annual reports to the Executive Committee**
 
