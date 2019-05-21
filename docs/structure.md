@@ -10,7 +10,7 @@ permalink: /structure/
 
 **Date created:** 2013-10-23
 
-**Part of TDWG Standard:** http://www.tdwg.org/standards/638/
+**Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
 **This version:** http://rs.tdwg.org/ac/doc/structure/2013-10-23
 
