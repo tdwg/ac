@@ -1,6 +1,8 @@
 # 3D Imagery and Data Task Group (3DTG)
 
-This is the homepage of the 3D Imagery and Data Task Group chartered by the Audubon Core Maintenance Group.  If you are looking for the Audubon Core Maintenance Group page, it's [here](https://github.com/tdwg/ac/blob/master/README.md).
+This is the homepage of the proposed 3D Imagery and Data Task Group to be chartered by the Audubon Core Maintenance Group.  If you are looking for the Audubon Core Maintenance Group page, it's [here](https://github.com/tdwg/ac/blob/master/README.md).
+
+Currently our charter has been submitted and is under review by the TDWG Executive Committee.
 
 The main deliverables in Phase 1 of the group's work will be: property terms for describing Service Access Points of 3D images, controlled vocabulary terms for 3D imaging formats to serve as values for `ac:variant`, and class terms for 3D imaging modalities to be used as values for `ac:subtype`.  The main deliverables in Phase 2 will be property terms additions for 3D modality-specific metadata.  
 
@@ -29,3 +31,6 @@ To participate in the communication system of the group, watch the repo and foll
 To see what issues we are currently addressing, see our [Issue Tracker](https://github.com/tdwg/ac/issues).  
 
 Our charter as submitted is [here](https://github.com/tdwg/ac/blob/master/3d/charter_3d_task_group_of_audubon_core_2019-06-11.pdf)
+
+---
+Revised 2019-06-11
