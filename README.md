@@ -24,6 +24,14 @@ Rebecca Snyder - Smithsonian Institution, National Museum of Natural History - [
 
 To see all of the people who are paying attention to our work, see the list of ["watchers"](https://github.com/tdwg/ac/watchers).  The people on this list are effectively the "regular members" of the group.
 
+## Task Groups
+
+In the [TDWG Process](https://www.tdwg.org/about/process/) for creating and modifying standards, Task Groups are formed to create particular deliverables of interest to an Interest Group.  As an Interest Group, the Audubon Core Maintenance Group periodically establishes Task Groups.
+
+Currently, we are in the process of chartering a 3D Imagery and Data Task Group (3DTG) to look at possible additions to Audubon Core for describing 3D images.  For more information, see the [Task Group's home page](3d/README.md).  If you are interested in the work of this group, contact its convener, [Doug Boyer](mailto:douglasmb@gmail.com).
+
+We are also in the process of organizing a Views Controlled Vocabularies task group to create controlled vocabularies for `ac:subjectPart` and `ac:subjectOrientation`.  If you are interested in the work of this group, contact its convener, [Steve Baskauf](mailto:steve.baskauf@vanderbilt.edu).
+
 ## Participating in the Group
 
 If you would like to participate in this group, contact the convener or one of the core members.  
@@ -72,3 +80,6 @@ The repository structure is described below.
 │
 └── .gitignore                : Files and directories to be ignored by git
 ```
+
+-----
+Revised 2019-06-12
