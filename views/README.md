@@ -6,7 +6,7 @@ Currently our charter has been submitted and is under review by the TDWG Executi
 
 The main deliverables of the group's work will be controlled vocabulary terms for to serve as values for `ac:subjectOrientation` and `ac:subjectPart`.  
 
-## Core Members of the AC Maintenance Group
+## Core Members of the group
 
 Currently, core members of the group are:
 

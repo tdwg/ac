@@ -6,7 +6,7 @@ Currently our charter has been submitted and is under review by the TDWG Executi
 
 The main deliverables in Phase 1 of the group's work will be: property terms for describing Service Access Points of 3D images, controlled vocabulary terms for 3D imaging formats to serve as values for `ac:variant`, and class terms for 3D imaging modalities to be used as values for `ac:subtype`.  The main deliverables in Phase 2 will be property terms additions for 3D modality-specific metadata.  
 
-## Core Members of the AC Maintenance Group
+## Core Members of the group
 
 Currently, core members of the group are:
 
