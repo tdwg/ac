@@ -35,4 +35,4 @@ To see what issues we are currently addressing, see our [Issue Tracker](https://
 Our charter as submitted is [here](https://github.com/tdwg/ac/blob/master/views/views-tg-draft-charter-2019-06-25.pdf)
 
 ---
-Revised 2019-06-11
+Revised 2019-06-25
