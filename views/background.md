@@ -32,7 +32,7 @@ amphibians (frogs)
 
 fish
 
-**[Drosophila gross anatomy](http://www.obofoundry.org/ontology/fbbt.html)
+**[Drosophila gross anatomy](http://www.obofoundry.org/ontology/fbbt.html)**
 
 Possible source for insect body parts
 
