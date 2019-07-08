@@ -20,7 +20,7 @@ Most relevant plant parts are probably subclasses of [plant structure](http://ww
 
 An integrated cross-species anatomy ontology covering animals and bridging multiple species-specific ontologies.  Subclasses of [anatomical structure](http://www.ontobee.org/ontology/UBERON?iri=http://purl.obolibrary.org/obo/UBERON_0000061)??
 
-**[Mouse gross anatomy and develpment, timed](http://www.obofoundry.org/ontology/emapa.html)**
+**[Mouse gross anatomy and development, timed](http://www.obofoundry.org/ontology/emapa.html)**
 
 Possible source for mammal body parts. See also [Mouse adult gross anatomy](http://www.obofoundry.org/ontology/ma.html)
 
