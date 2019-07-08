@@ -56,7 +56,7 @@ Ixodidae and Argassidae families
 
 useful for worms?
 
-**[Porifera Ontology](http://www.obofoundry.org/ontology/poro.html)
+**[Porifera Ontology](http://www.obofoundry.org/ontology/poro.html)**
 
 Sponges
 
