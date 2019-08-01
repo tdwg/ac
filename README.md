@@ -28,11 +28,11 @@ To see all of the people who are paying attention to our work, see the list of [
 
 In the [TDWG Process](https://www.tdwg.org/about/process/) for creating and modifying standards, Task Groups are formed to create particular deliverables of interest to an Interest Group.  As an Interest Group, the Audubon Core Maintenance Group periodically establishes Task Groups.
 
-Currently, we are in the process of chartering a 3D Imagery and Data Task Group (3DTG) to look at possible additions to Audubon Core for describing 3D images.  For more information, see the [Task Group's home page](3d/README.md).  If you are interested in the work of this group, contact its convener, [Doug Boyer](mailto:douglasmb@gmail.com).
+We have chartered a 3D Imagery and Data Task Group (3DTG) to look at possible additions to Audubon Core for describing 3D images.  For more information, see the [Task Group's home page](3d/README.md).  If you are interested in the work of this group, contact its convener, [Doug Boyer](mailto:douglasmb@gmail.com).
 
-We are also in the process of organizing a Views Controlled Vocabularies task group to create controlled vocabularies for `ac:subjectPart` and `ac:subjectOrientation`.  If you are interested in the work of this group, contact its convener, [Steve Baskauf](mailto:steve.baskauf@vanderbilt.edu).
+We have also chartered a Views Controlled Vocabularies task group to create controlled vocabularies for `ac:subjectPart` and `ac:subjectOrientation`.  For more information, see the [Task Group's home page](views/README.md).  If you are interested in the work of this group, contact its convener, [Steve Baskauf](mailto:steve.baskauf@vanderbilt.edu).
 
-## Participating in the Group
+## Participating in the Maintenance Group
 
 If you would like to participate in this group, contact the convener or one of the core members.  
 
@@ -55,12 +55,13 @@ The repository structure is described below.
 ├── license.md            : Repository license
 │
 ├── docs                  : Standards documents live here.  However, do not hyperlink to them here because they are rendered as HTML at https://tdwg.github.io/ac/.
+│   ├── _config.yml       : Jekyll configuration file
 │   ├── introduction.md   : Brief introduction to the standard
 │   ├── structure.md      : Describes the structure of Audubon Core
 │   ├── termlist.md       : AC Term List, including normative definitions. DO NOT EDIT MANUALLY!
 │   ├── guide.md          : More detailed user guide
+│   ├── 04_AudubonCore1.0NonNormative_docV1.95.doc     : version 1.95 of the reference guide
 │   └── assets            : subdirectories contain stuff for Jekyll operation
-│       ├── styles.css    : CSS for generated Jekyll site
 │       └── images        : directory for images used in the documents
 │
 ├── code
@@ -73,13 +74,23 @@ The repository structure is described below.
 ├── historical                         : Documents of historical interest
 │   ├── README.md                      : Contents of this directory
 │   ├── RecordOfPublicReview.md        : Summary of public comment period during the adoption of the standard
+│   ├── ac-2018-annual-report.md       : 2018 report to the Executive Committee
 │   └── [yyyy-mm-dd]-hangout-notes.pdf : Series of downloaded Google Docs notes from online Maintenance Group meetings
 │
-├── 3D                                               : Directory to store documents related to proposed 3D task group
-│   └── proposed-3d-metadata-terms-from-dwc-hour.csv : notes from Darwin Core hour
+├── 3D                                 : Directory to store documents related to proposed 3D task group
+│   ├── README.md                      : Homepage of the 3D Imagery and Data Task Group (3DTG)
+│   ├── charter_3d_task_group_of_audubon_core_2019-06-11.docx   : Word version of submitted charter
+│   ├── charter_3d_task_group_of_audubon_core_2019-06-11.pdf    : PDF version of submitted charter
+│   └── proposed-3d-metadata-terms-from-dwc-hour.csv            : notes from Darwin Core hour
+│
+├── views                              : Directory to store documents related to proposed 3D task group
+│   ├── README.md                      : Homepage of the Views Controlled Vocabularies Task Group
+│   ├── views-tg-draft-charter-2019-06-25.docx                  : Word version of submitted charter
+│   ├── views-tg-draft-charter-2019-06-25.docx.pdf              : PDF version of submitted charter
+│   └── background.md                  : background notes
 │
 └── .gitignore                : Files and directories to be ignored by git
 ```
 
 -----
-Revised 2019-06-12
+Revised 2019-08-01
