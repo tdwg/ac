@@ -1,8 +1,8 @@
 # Views Controlled Vocabularies Task Group
 
-This is the homepage of the proposed Views Controlled Vocabularies Task Group to be chartered by the Audubon Core Maintenance Group.  If you are looking for the Audubon Core Maintenance Group page, it's [here](https://github.com/tdwg/ac/blob/master/README.md).
+This is the homepage of the Views Controlled Vocabularies Task Group chartered by the Audubon Core Maintenance Group.  If you are looking for the Audubon Core Maintenance Group page, it's [here](https://github.com/tdwg/ac/blob/master/README.md).
 
-Currently our charter has been submitted and is under review by the TDWG Executive Committee.
+Our group has been approved by the TDWG Executive Committee subject to some editing of our charter.
 
 The main deliverables of the group's work will be controlled vocabulary terms for to serve as values for `ac:subjectOrientation` and `ac:subjectPart`.  
 
@@ -14,7 +14,7 @@ Steve Baskauf (Convener) [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@van
 
 Neil S. Cobb [neil.cobb@nau.edu](mailto:neil.cobb@nau.edu) - Merriam-Powell Center for Environmental Research, Northern Arizona University
 
-Matthew Nielsen - Stockholm University
+Matthew Nielsen [matthew.nielsen@zoologi.su.se](mailto:matthew.nielsen@zoologi.su.se) - Stockholm University
 
 Randy Singer [randalas@umich.edu](mailto:randalas@umich.edu) - University of Michigan
 
@@ -35,4 +35,4 @@ To see what issues we are currently addressing, see our [Issue Tracker](https://
 Our charter as submitted is [here](https://github.com/tdwg/ac/blob/master/views/views-tg-draft-charter-2019-06-25.pdf)
 
 ---
-Revised 2019-06-25
+Revised 2019-07-31
