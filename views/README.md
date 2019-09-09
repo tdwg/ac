@@ -37,6 +37,7 @@ Our charter as submitted is [here](https://github.com/tdwg/ac/blob/master/views/
 ## Meeting Notes:
 
 [2019-08-12](historical/vcv-notes-2019-08-12.pdf)
+[2019-09-09](historical/vcv-notes-2019-09-09.pdf)
 
 ---
-Revised 2019-08-01
+Revised 2019-09-09
