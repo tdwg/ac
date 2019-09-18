@@ -71,7 +71,7 @@ The following examples are actual use cases submitted by core members of the Tas
 - Intermediate angles of photograph
 - Different body parts at different angles (ideally)
 
-## Third example: dorsal insect images
+## Third example: standardized insect collection images
 
 **Name of Use Case:** Standardized insect images from a collection
 
