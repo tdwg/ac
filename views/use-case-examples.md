@@ -67,7 +67,7 @@ The following examples are actual use cases submitted by core members of the Tas
 **Requirements:**
 1. Allows specification of multiple parts in an image and/or inference of subparts from a larger whole
 2. Allows specification of whether entire part is visible in image
-3. Allows for description of orientations of live subjects which were not controlled by the photographer.
+3. Allows for description of orientations of live subjects which were not controlled by the photographer:
 - Intermediate angles of photograph
 - Different body parts at different angles (ideally)
 
