@@ -14,7 +14,7 @@ When the [TDWG Vocabulary Maintenance Specification](https://github.com/tdwg/voc
 
 Given this outlook on vocabulary development, dividing vocabulary terms into general Layer 1 and 2 categories does not seem to belong as part of the general definition of terms.  Rather, specific communities would be likely to designate which terms are most important for uses in their community.  Those sets of terms are likely to be different if the media items are still images, audio, video, or 3D images.  In essence, communities could establish application profiles based on Audubon Core in order to meet the specific needs of their community.
 
-Another complicating factor is that currently, none of the borrowed Darwin Core terms organized under the Location class have assigned layers.  If this proposal is adopted, that problem becomes moot.
+Another complicating factor is that currently none of the borrowed Darwin Core terms organized under the Location class have assigned layers.  If this proposal is adopted, that problem would become moot.
 
 ## Proposed changes
 
