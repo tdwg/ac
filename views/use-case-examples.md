@@ -73,7 +73,7 @@ The following examples are actual use cases submitted by core members of the Tas
 
 ## Third example: dorsal insect images
 
-**Name of Use Case:** Dorsal insect images
+**Name of Use Case:** Standardized insect images from a collection
 
 **Submitter:** Neil Cobb
 
@@ -83,12 +83,15 @@ The following examples are actual use cases submitted by core members of the Tas
 
 **Anticipated users:** Research users of insect specimens
 
-**Scenario:** Obtain reliable estimates of area, shape, length, width of entire body and major body parts including head, thorax, abdomen and wings and any obvious appendages. Additional traits to obtain would be maculation and color.
+**Scenario:** Benin would like to obtain reliable estimates of area, shape, length, width of entire body and major body parts including head, thorax, abdomen and wings and any obvious appendages. She would also like to assess the maculation and color of these parts.  Her team photographs the specimens following a best practice guide for imaging insect specimens, which includes guidance on systematically photographing dorsal, ventral, lateral, and frontal aspects of the whole specimen as well as additional images focusing on specific parts such as antennae and bristles.  The images are measured via processing software and the collected data is ingested into her database.  
 
-**Requirements:** Controlled lighting that can be referenced for white balance, scale bar, minimum standard for pixel resolution https://scan-all-bugs.org/?page_id=1346 , a description of processing software (e.g., ImageJ) and accessing images that have been processed. 
+**Requirements:** 
+1. Best practice guide for controlling specimen position to obtain standardized image orientation.
+2. Associate appropriate subject parts with different insect life stages.
+3. Associate appropriate subject parts with different orders of insects.
+4. Determine what orientations are appropriate for subject parts other than whole organism.
 
-**Notes:** Additional aspects of same image is desired (lateral, ventral, frontal). Additional images of specimen focusing on specific parts (e.g., antennae, bristles).
 
 
 -----
-Revised 2019-09-12
+Revised 2019-09-17
