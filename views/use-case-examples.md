@@ -83,7 +83,7 @@ The following examples are actual use cases submitted by core members of the Tas
 
 **Anticipated users:** Research users of insect specimens
 
-**Scenario:** Benin would like to obtain reliable estimates of area, shape, length, width of entire body and major body parts including head, thorax, abdomen and wings and any obvious appendages. She would also like to assess the maculation and color of these parts.  Her team photographs the specimens following a best practice guide for imaging insect specimens, which includes guidance on systematically photographing dorsal, ventral, lateral, and frontal aspects of the whole specimen as well as additional images focusing on specific parts such as antennae and bristles.  The images are measured via processing software and the collected data is ingested into her database.  
+**Scenario:** Benin would like to obtain reliable estimates of area, shape, length, width of entire body and major body parts including head, thorax, abdomen and wings and any obvious appendages. She would also like to assess the maculation and color of those parts.  Her team photographs the specimens following a best practice guide for imaging insect specimens, which includes guidance on systematically photographing dorsal, ventral, lateral, and frontal aspects of the whole specimen as well as additional images focusing on specific parts such as antennae and bristles.  The images are measured via processing software and the collected data is ingested into her database.  
 
 **Requirements:** 
 1. Best practice guide for controlling specimen position to obtain standardized image orientation.
