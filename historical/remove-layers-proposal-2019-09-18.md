@@ -4,7 +4,7 @@
 
 When the Audubon Core standard was adopted on 2013-10-23, Section 2 of the [Structure document](https://tdwg.github.io/ac/structure/) defined a "layer" property as follows:
 
-AC terms are divided into two Layers. Those characterized as in Layer 1, including the four mandatory terms, should be meaningfully handled by all consuming client applications. Only wholly complete consuming applications need handle those in the Layer 2. What is meant by “meaningfully handle” is up to implementers of this normative specification. It could be as simple as “gracefully ignore”.
+> AC terms are divided into two Layers. Those characterized as in Layer 1, including the four mandatory terms, should be meaningfully handled by all consuming client applications. Only wholly complete consuming applications need handle those in the Layer 2. What is meant by “meaningfully handle” is up to implementers of this normative specification. It could be as simple as “gracefully ignore”.
 
 In the [Term List document](https://tdwg.github.io/ac/termlist/), each term had an attribute telling whether it was in Layer 1 or 2.
 
