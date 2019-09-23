@@ -28,6 +28,8 @@ If you would like to participate in this group, contact the convener or one of t
 
 To participate in the communication system of the group, watch the repo and follow the [Issues tracker](https://github.com/tdwg/ac/issues) (look for issues tagged as "views").  This issues tracker is the mechanism for suggesting specific changes to the Audubon Core standard as well as to raise issues for discussion by the group.
 
+The task group is collecting use cases to aid in developing the requirements for the controlled vocabularies.  Submissions will be accepted until 2019-11-01.  To submit a use case, fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdR7fsy7DbdBT2jflQ-3NEbtYKYnO2Hq3x24RDxw3D0PbcYDQ/viewform?usp=sf_link).  For more information and examples, see [this page](use-case-examples.md).
+
 ## Documentation
 
 To see what issues we are currently addressing, see our [Issue Tracker](https://github.com/tdwg/ac/issues).  
