@@ -14,6 +14,7 @@ The contents of this folder are items that are primarily of historical interest.
 
 [2019-08-29](2019-08-29-meeting-notes.pdf)
 
+[2019-09-26](2019-09-26-meeting-notes.pdf)
 
 **Annual reports to the Executive Committee**
 
