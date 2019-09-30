@@ -34,7 +34,7 @@ The task group is collecting use cases to aid in developing the requirements for
 
 To see what issues we are currently addressing, see our [Issue Tracker](https://github.com/tdwg/ac/issues).  
 
-Our charter as submitted is [here](https://github.com/tdwg/ac/blob/master/views/views-tg-draft-charter-2019-06-25.pdf)
+Our charter as submitted is [here](https://github.com/tdwg/ac/blob/master/views/views-tg-draft-charter-2019-09-23.pdf)
 
 ## Meeting Notes:
 
@@ -43,4 +43,4 @@ Our charter as submitted is [here](https://github.com/tdwg/ac/blob/master/views/
 [2019-09-09](historical/vcv-notes-2019-09-09.pdf)
 
 ---
-Revised 2019-09-09
+Revised 2019-09-30

@@ -9,10 +9,10 @@ https://github.com/tdwg/ac/tree/master/views
 Steve Baskauf - steve.baskauf@vanderbilt.edu
 
 ### Submitted:
-2019-09-29
+2019-09-30
 
 ## Phase of work:
-The Views Task Group is a newly constituted task group under the Audubon Core Maintenance Group, tasked with developing controlled vocabularies for the Audubon Core terms `ac:subjectOrientation` and `ac:subjectPart`.  Its charter was submitted in June 2019 and a revised version has been resubmitted to the Executive Committee awaiting approval.
+The Views Task Group is a newly constituted task group under the Audubon Core Maintenance Group, tasked with developing controlled vocabularies for the Audubon Core terms `ac:subjectOrientation` and `ac:subjectPart`.  Its charter was submitted in June 2019 and a [revised version](https://github.com/tdwg/ac/blob/master/views/views-tg-draft-charter-2019-06-25.pdf) has been resubmitted to the Executive Committee awaiting approval.
 
 The current phase of work is the collection of use cases from the community.
 

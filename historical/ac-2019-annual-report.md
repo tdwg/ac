@@ -9,7 +9,7 @@ https://github.com/tdwg/ac
 Steve Baskauf - steve.baskauf@vanderbilt.edu
 
 ### Submitted:
-2019-09-29
+2019-09-30
 
 ## Phase of work:
 As a vocabulary maintenance interest group, the permanent task of the Audubon Core Maintenance Group (ACMG) as laid out in the [Vocabulary Maintenance Specification](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#21-vocabulary-maintenance-interest-groups) is to manage vocabulary term additions and changes, and maintain the documentation that helps users to understand and apply the standard. During 2019, the primary focus of the group was to establish task groups to work on issues identified by its constituency and to continue with the cleanup of documentation that was begun last year.
@@ -17,7 +17,7 @@ As a vocabulary maintenance interest group, the permanent task of the Audubon Co
 ## Activities:
 The ACMG makes extensive use of its GitHub [issues tracker](https://github.com/tdwg/ac/issues) to track issues, pending proposals, and meeting annoucements.  Anyone who watches the group's repository can be automatically notified when changes occur on the tracker.  To see what items are currently pending before the group, visit the tracker.
 
-The work of the ACMG has taken place primarily through a series of online meetings.  Although open to the public and advertized through the group's communication system, no meetings were attended by anyone other than core members.  The group held three meetings during the year and the notes from those meetings are publicly viewable on the [historical documents](../) page.  
+The work of the ACMG has taken place primarily through a series of online meetings.  Although open to the public and advertised through the group's communication system, no meetings were attended by anyone other than core members.  The group held three meetings during the year and the notes from those meetings are publicly viewable on the [historical documents](../) page.  
 
 ## Accomplishments:
 
@@ -33,7 +33,7 @@ The general goal is to release a new version of Audobon Core that will incorpora
 
 ## Impediments to progress
 
-There are a number of terms in Audubon Core that suggest that their values consist of controlled value terms minted by Audubon Core.  However, those controlled value terms have not yet been minted.  This is in part because it is not generally clear how controlled value IRIs should be constructed.  This issue has been raised with the TAG for potential discussion at the Leiden meeting (TAG [Issue 24](https://github.com/tdwg/tag/issues/24) and [Issue 25](https://github.com/tdwg/tag/issues/25)). 
+There are a number of terms in Audubon Core whose metadata suggest that their values consist of controlled value terms minted by Audubon Core.  However, those controlled value terms have not yet actually been minted.  This is in part because it is not generally clear how controlled value IRIs should be constructed.  This issue has been raised with the TAG for potential discussion at the Leiden meeting (TAG [Issue 24](https://github.com/tdwg/tag/issues/24) and [Issue 25](https://github.com/tdwg/tag/issues/25)). 
 
 ## Changes in goals or scope
 There are no anticipated major changes in goals or scope.
