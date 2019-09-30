@@ -20,6 +20,7 @@ The contents of this folder are items that are primarily of historical interest.
 
 [2018](ac-2018-annual-report.md)
 
+[2019](ac-2019-annual-report.md)
 
 **Record of Public Review in 2013 during the standards ratification process:**
 

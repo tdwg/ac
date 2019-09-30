@@ -74,7 +74,7 @@ The repository structure is described below.
 ├── historical                         : Documents of historical interest
 │   ├── README.md                      : Contents of this directory
 │   ├── RecordOfPublicReview.md        : Summary of public comment period during the adoption of the standard
-│   ├── ac-2018-annual-report.md       : 2018 report to the Executive Committee
+│   ├── ac-20yy-annual-report.md       : 20yy report to the Executive Committee
 │   └── [yyyy-mm-dd]-hangout-notes.pdf : Series of downloaded Google Docs notes from online Maintenance Group meetings
 │
 ├── 3D                                 : Directory to store documents related to proposed 3D task group
@@ -93,4 +93,4 @@ The repository structure is described below.
 ```
 
 -----
-Revised 2019-08-01
+Revised 2019-09-30
