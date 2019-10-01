@@ -38,6 +38,10 @@ If you would like to participate in this group, contact the convener or one of t
 
 To participate in the communication system of the group, "watch" the group's [Issues tracker](https://github.com/tdwg/ac/issues).  This issues tracker is the mechanism for suggesting specific changes to the standard as well as to raise issues for discussion by the group.
 
+## Policies
+
+Policies established by the Maintenance Group are listed [here](policies.md).  Please note that the policy document is not included with the Audubon Core Standard and is therefore not subject to any standards-related processes requiring public comment, Executive Committee approval, etc. Rather, the policies are established through consensus of the Maintenance Group, in consultation (when necessary) with the [Technical Architecture Group](https://github.com/tdwg/tag).
+
 ## Documentation
 
 To see what issues we are currently addressing, see our [Issue Tracker](https://github.com/tdwg/ac/issues).  
@@ -53,6 +57,7 @@ The repository structure is described below.
 ```
 ├── README.md             : Description of this repository
 ├── license.md            : Repository license
+├── policies.md           : Audubon Core maintenance policies
 │
 ├── docs                  : Standards documents live here.  However, do not hyperlink to them here because they are rendered as HTML at https://tdwg.github.io/ac/.
 │   ├── _config.yml       : Jekyll configuration file
@@ -93,4 +98,4 @@ The repository structure is described below.
 ```
 
 -----
-Revised 2019-09-30
+Revised 2019-10-01
