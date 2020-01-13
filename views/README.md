@@ -44,7 +44,7 @@ Our charter as submitted is [here](https://github.com/tdwg/ac/blob/master/views/
 
 [2019-10-07](historical/vcv-notes-2019-10-07.pdf)
 
-[2019-12-12](historical/vcv-notes-2019-12-012.pdf)
+[2019-12-12](historical/vcv-notes-2019-12-12.pdf)
 
 ## Reports
 
