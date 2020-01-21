@@ -1,6 +1,6 @@
-# Requirements
+# Candidate Requirements
 
-See <https://www.w3.org/TR/rdf-dawg-uc/> and <https://www.w3.org/TR/skos-ucr/>
+See <https://www.w3.org/TR/rdf-dawg-uc/> and <https://www.w3.org/TR/skos-ucr/> for example from W3C.
 
 # Subject part
 
