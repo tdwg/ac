@@ -135,7 +135,7 @@
 **Requirements:** 
 
 1. Semantics must distinguish between similar parts (flower bud vs. leaf bud). (7-CLARITY-1)
-2. Semantics must distinguish between aggregate parts. (7-CLARITY-2)
+2. Semantics must distinguish between single and aggregate parts (e.g. one vs. several leaves). (7-CLARITY-2)
 3. Semantics must distinguish between varying developmental stages. (7-CLARITY-3)
 
 # 8-ORIENT
