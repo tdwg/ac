@@ -6,15 +6,17 @@ permalink: /termlist/
 
 **Title:** Audubon Core Term List
 
-**Date version issued:** 2013-10-23
+**Date version issued:** 2020-01-27
 
 **Date created:** 2013-10-23
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** http://rs.tdwg.org/ac/doc/termlist/2013-10-23
+**This version:** http://rs.tdwg.org/ac/doc/termlist/2020-01-27
 
 **Latest version:** http://rs.tdwg.org/ac/doc/termlist/
+
+**Previous version:** [http://rs.tdwg.org/ac/doc/termlist/2013-10-23](2013-10-23)
 
 **Abstract:** The Audubon Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
@@ -48,19 +50,21 @@ There are four documents included in the Aububon Core Standard.  This document p
 
 ### 1.1 Status of the content of this document
 
-Sections 1.2 through 5 are normative, except for Table 1.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Audubon Core.  The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
+Sections 1.3 through 5 are normative, except for Table 1.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Audubon Core.  The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
 
+### 1.2 RFC 2119 key words
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119. [RFC-2119](https://tools.ietf.org/html/rfc2119)
 
-### 1.2 Categories of terms
+### 1.3 Categories of terms
 
 An Audubon Core (AC) record is a description of a multimedia resource
 using the AC vocabularies. Two kinds of terms are specified by this
 document: those terms which describe representation-independent aspects
 of the media and those which describe representation-dependent aspects.
 Most terms are representation-independent, referring to an "abstract
-multimedia resource". One such term, *hasServiceAccessPoint*, refers to
+multimedia resource". One such term, `ac:hasServiceAccessPoint`, refers to
 or contains representation-dependent service access point metadata
-describing a digital representation of the abstract multimedia resource.
+describing a digital representation of the abstract multimedia resource (an instance of the `ac:ServiceAccessPoint` class).
 These metadata describe such things as a web address at which a digital
 representation can be retrieved, and the format, extent, or licenses
 that describe a particular such representation. A multimedia resource
@@ -94,11 +98,11 @@ Note: URIs for terms in most of these namespaces do not dereference to anything.
 
 The namespace of terms borrowed from other vocabularies is that of the
 original. The namespace of de novo AC terms is
-http://rs.tdwg.org/ac/terms/. In the table of terms, each term entry has
+`http://rs.tdwg.org/ac/terms/`. In the table of terms, each term entry has
 a row with the term name. This term name is generally an "unqualified
 name" preceded by a widely accepted prefix designating an abbreviation
-for the namespace It is recommended that implementers who need a
-namespace prefix for the AC namespace use "ac". In this web document,
+for the namespace It is RECOMMENDED that implementers who need a
+namespace prefix for the AC namespace use `ac`. In this web document,
 hovering over a term in the [Index By Term Name](#index-by-term-name)
 list below will reveal a complete URL that can be used in other web
 documents to link to *this* document's treatment of that term, even if
@@ -122,23 +126,15 @@ normative material on [Multiplicity and Cardinality](structure.md#3-multiplicity
 
 ## 4 Layers
 
-The term set consists of two *Layers*, numbered *1* and *2*. The former
-comprise the central terms, likely to be meaningful for most media, even
-though only a few are mandatory. Implementers of AC representations
-should provide for at least Layer 1 if possible, and application writers
-should provide for robust treatment of Layer 1 terms, if only by
-ignoring them. Layer 2 terms are more likely to be useful for particular
-kinds of media or for applications requiring highly detailed resource
-descriptions. Each term description below indicates the Layer to which
-the term belongs.
+(The Audubon Core layer property has been deprecated as of 2020-01-27)
 
 
 ## 5 Literal- vs. URI-valued Terms
 
 Some terms have two versions, one expecting a string literal value and
 the other a URI. In these circumstances, the version expecting a string
-is named with the suffix "Literal", e.g. ac:metadataLanguageLiteral. In
-such cases, both forms may be provided, but care should be taken to
+is named with the suffix "Literal", e.g. `ac:metadataLanguageLiteral`. In
+such cases, both forms MAY be provided, but care should be taken to
 ensure that the uses reflect the same intent. In case of ambiguity, the
 URI version prevails. All terms, including those whether or not with a
 specific "Literal" suffix, specify in their definition whether the
@@ -315,6 +311,7 @@ required values are strings or URIs.
 [ac:licensingException](#ac_licensingException) |
 [exif:PixelXDimension](#exif_PixelXDimension) |
 [exif:PixelYDimension](#exif_PixelYDimension) |
+[ac:ServiceAccessPoint](#ac_ServiceAccessPoint) |
 [ac:serviceExpectation](#ac_serviceExpectation) |
 [ac:variant](#ac_variant) |
 [ac:variantDescription](#ac_variantDescription) |
@@ -474,6 +471,7 @@ required values are strings or URIs.
 [Image Height](#exif_PixelYDimension) |
 [Image Width](#exif_PixelXDimension) |
 [Licensing Exception Statement](#ac_licensingException) |
+[Service Access Point Class](#ac_ServiceAccessPoint) |
 [Service Expectation](#ac_serviceExpectation) |
 [Variant](#ac_variant) |
 [Variant Description](#ac_variantDescription)
@@ -498,7 +496,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -506,7 +504,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>The date (often a range) that the resource became or will become available. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, <a href="https://www.w3.org/TR/NOTE-datetime">https://www.w3.org/TR/NOTE-datetime</a>, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004, <a href="https://www.iso.org/standard/40874.html">https://www.iso.org/standard/40874.html</a>. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/').</td>
+			<td>The date (often a range) that the resource became or will become available. The date and time MUST comply with the World Wide Web Consortium (W3C) datetime practice, <a href="https://www.w3.org/TR/NOTE-datetime">https://www.w3.org/TR/NOTE-datetime</a>, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004, <a href="https://www.iso.org/standard/40874.html">https://www.iso.org/standard/40874.html</a>. AC datetime values MAY also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/').</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -532,11 +530,15 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>A URI denoting a person, using some controlled vocabulary such as FOAF. Implementers and communities of practice may produce restrictions or recommendations on the choice of vocabularies.</td>
+			<td>A URI denoting a person who created a comment.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>Implementers and communities of practice MAY produce restrictions or recommendations on the choice of vocabularies.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -562,11 +564,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>A name or the literal "anonymous" (= anonymously commented).</td>
+			<td>The name of a person who created a comment, or the literal "anonymous" (= anonymously commented).</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -592,11 +594,15 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Any comment provided on the media resource, as free-form text. Best practice would also identify the commenter.</td>
+			<td>Any comment provided on the media resource, as free-form text.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>Best practice would also identify the commenter.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -622,7 +628,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -652,7 +658,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> Yes for media collections, No for media resources (but preferred if available) -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> Yes for media collections, No for media resources (but preferred if available) -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -686,7 +692,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -694,7 +700,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>Point in time recording when the last modification to metadata (not necessarily the media object itself) occurred. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, <a href="https://www.w3.org/TR/NOTE-datetime">https://www.w3.org/TR/NOTE-datetime</a>, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004, <a href="https://www.iso.org/standard/40874.html">https://www.iso.org/standard/40874.html</a>. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601, <a href="https://en.wikipedia.org/wiki/ISO_8601">https://en.wikipedia.org/wiki/ISO_8601</a>, entry for further explanation and examples.</td>
+			<td>Point in time recording when the last modification to metadata (not necessarily the media object itself) occurred. The date and time MUST comply with the World Wide Web Consortium (W3C) datetime practice, <a href="https://www.w3.org/TR/NOTE-datetime">https://www.w3.org/TR/NOTE-datetime</a>, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004, <a href="https://www.iso.org/standard/40874.html">https://www.iso.org/standard/40874.html</a>. AC datetime values MAY also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/').</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -720,15 +726,19 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>URI from the ISO639-2 list of URIs for ISO 3-letter language codes, http://id.loc.gov/vocabulary/iso639-2.</td>
+			<td>The URI of the language of description and other metadata (but not necessarily of the image itself) , from the ISO639-2 list of URIs for ISO 3-letter language codes, http://id.loc.gov/vocabulary/iso639-2.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>At least one of ac:metadataLanguage and ac:metadataLanguageLiteral MUST be supplied but, when feasible, supplying both might make the metadata more widely useful. They must specify the same language. In case of ambiguity, ac:metadataLanguage prevails.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>This is NOT dcterms:language, which is about the resource, not the metadata. Metadata Language is deliberately single-valued, imposing on unstructured serializations a requirement that multi-lingual metadata be represented as separate, complete, metadata records. Audubon Core requires that each record also contains the language-neutral terms. In the absence of this requirement, metadata consumers would need to know which terms are language-neutral and merge these terms from all provided metadataLanguages into a single record. Metadata consumers may re-combine the information based on the dcterms:identifier that identifies the multimedia resource. At least one of ac:metadataLanguage and ac:metadataLanguageLiteral must be supplied but, when feasible, supplying both may make the metadata more widely useful. They must specify the same language. In case of ambiguity, ac:metadataLanguage prevails. Nothing in this document would, however, prevent an implementer, e. g. of an XML-Schema representation, from providing a fully hierarchical schema in which language neutral terms occur only a single time, and only the language-specific terms are repeated in a way that unambigously relates them to a metadata language. In RDF it may be a simple repetition of plain literals associated with a language (e.g., xml:lang attribute in RDF/XML). The language attribute would then be required in Audubon Core and would replace ac:metadataLanguage.</td>
+			<td>This is NOT dcterms:language, which is about the resource, not the metadata. Metadata Language is deliberately single-valued, imposing on unstructured serializations a requirement that multi-lingual metadata be represented as separate, complete, metadata records. Audubon Core requires that each record also contains the language-neutral terms. In the absence of this requirement, metadata consumers would need to know which terms are language-neutral and merge these terms from all provided metadataLanguages into a single record. Metadata consumers may re-combine the information based on the dcterms:identifier that identifies the multimedia resource. Nothing in this document would, however, prevent an implementer, e. g. of an XML-Schema representation, from providing a fully hierarchical schema in which language neutral terms occur only a single time, and only the language-specific terms are repeated in a way that unambigously relates them to a metadata language. In RDF it may be a simple repetition of plain literals associated with a language (e.g., xml:lang attribute in RDF/XML). The language attribute would then be required in Audubon Core and would replace ac:metadataLanguage.</td>
 		</tr>
 	</tbody>
 </table>
@@ -750,15 +760,19 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Language of description and other metadata (but not necessarily of the image itself) represented as an ISO639-2 three letter language code. ISO639-1 two-letter codes are permitted but deprecated.</td>
+			<td>Language of description and other metadata (but not necessarily of the image itself) represented as an ISO639-2 three letter language code.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>ISO639-1 two-letter codes are permitted but deprecated. At least one of ac:metadataLanguage and ac:metadataLanguageLiteral MUST be supplied but, when feasible, supplying both might make the metadata more widely useful. They MUST specify the same language. In case of ambiguity, ac:metadataLanguage prevails. </td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>This is NOT dc:language, which is about the resource, not the metadata. Metadata Language is deliberately single-valued, imposing on unstructured serializations a requirement that multi-lingual metadata be represented as separate, complete, metadata records. Audubon Core requires that each record also contains the language-neutral terms. In the absence of this requirement, metadata consumers would need to know which terms are language-neutral and merge these terms from all provided metadataLanguages into a single record. Metadata consumers may re-combine the information based on the dcterms:identifier that identifies the multimedia resource. At least one of ac:metadataLanguage and ac:metadataLanguageLiteral must be supplied but, when feasible, supplying both may make the metadata more widely useful. They must specify the same language. In case of ambiguity, ac:metadataLanguage prevails. Nothing in this document would, however, prevent an implementer, e. g. of an XML-Schema representation, from providing a fully hierarchical schema in which language neutral terms occur only a single time, and only the language-specific terms are repeated in a way that unambigously relates them to a metadata language. In RDF it may be a simple repetition of plain literals associated with a language (e.g., xml:lang attribute in RDF/XML). The language attribute would then be required in Audubon Core and would replace ac:metadataLanguage.</td>
+			<td>This is NOT dc:language, which is about the resource, not the metadata. Metadata Language is deliberately single-valued, imposing on unstructured serializations a requirement that multi-lingual metadata be represented as separate, complete, metadata records. Audubon Core requires that each record also contains the language-neutral terms. In the absence of this requirement, metadata consumers would need to know which terms are language-neutral and merge these terms from all provided metadataLanguages into a single record. Metadata consumers may re-combine the information based on the dcterms:identifier that identifies the multimedia resource. Nothing in this document would, however, prevent an implementer, e. g. of an XML-Schema representation, from providing a fully hierarchical schema in which language neutral terms occur only a single time, and only the language-specific terms are repeated in a way that unambigously relates them to a metadata language. In RDF it may be a simple repetition of plain literals associated with a language (e.g., xml:lang attribute in RDF/XML). The language attribute would then be required in Audubon Core and would replace ac:metadataLanguage.</td>
 		</tr>
 	</tbody>
 </table>
@@ -780,7 +794,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -788,7 +802,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>Date that the media resource was altered. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, <a href="https://www.w3.org/TR/NOTE-datetime">https://www.w3.org/TR/NOTE-datetime</a>, which requires that date and time representation correspond to ISO 8601:1998, <a href="https://www.iso.org/standard/40874.html">https://www.iso.org/standard/40874.html</a>, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/').</td>
+			<td>Date that the media resource was altered. The date and time MUST comply with the World Wide Web Consortium (W3C) datetime practice, <a href="https://www.w3.org/TR/NOTE-datetime">https://www.w3.org/TR/NOTE-datetime</a>, which requires that date and time representation correspond to ISO 8601:1998, <a href="https://www.iso.org/standard/40874.html">https://www.iso.org/standard/40874.html</a>, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004. AC datetime values MAY also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/').</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -814,11 +828,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>A free-form identifier (a simple number, an alphanumeric code, a URL, etc.) that is unique and meaningful primarily for the data provider.</td>
+			<td>A free-form identifier (a simple number, an alphanumeric code, a URL, etc.) for the resource that is unique and meaningful primarily for the data provider.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -844,7 +858,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -852,11 +866,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>A rating of the media resources, provided by record originators or editors, with "-1" defining "rejected", "0" defining "unrated", and "1" (worst) to "5" (best).  Anticipated usage is for a typical "star rating" UI, with the addition of a notion of rejection. Values may be decimal numbers in the permitted range.</td>
+			<td>A rating of the media resources, provided by record originators or editors, with '1' (worst) to '5' (best). Anticipated usage is for a typical 'star rating' UI, with the addition of a notion of rejection. Values MAY be decimal numbers in the permitted range.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>The origin of the rating is not communicated. It may, e. g., be based on user feedback or on editorial ratings. If Rating is not present, a value of 0 may be assumed. By "user-assigned" is meant assigned by the originator or editor of the record using the term.</td>
+			<td>The origin of the rating is not communicated. It may, e. g., be based on user feedback or on editorial ratings. By "user-assigned" is meant assigned by the originator or editor of the record using the term.</td>
 		</tr>
 	</tbody>
 </table>
@@ -878,11 +892,15 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>URI for a reviewer. If present, then resource is peer-reviewed, even if Reviewer Comments is absent or empty. Its presence tells whether an expert in the subject featured in the media has reviewed the media item or collection and approved its metadata description; must display a name or the literal "anonymous" (= anonymously reviewed).</td>
+			<td>URI for a reviewer.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>If present, then resource is peer-reviewed, even if Reviewer Comments is absent or empty. Its presence tells whether an expert in the subject featured in the media has reviewed the media item or collection and approved its metadata description; MUST display a name or the literal "anonymous" (= anonymously reviewed).</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -908,7 +926,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -938,11 +956,15 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>String providing the name of a reviewer. If present, then resource is peer-reviewed, even if Reviewer Comments is absent or empty. Its presence tells whether an expert in the subject featured in the media has reviewed the media item or collection and approved its metadata description; must display a name or the literal "anonymous" (= anonymously reviewed).</td>
+			<td>String providing the name of a reviewer.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>If present, then resource is peer-reviewed, even if Reviewer Comments is absent or empty. Its presence tells whether an expert in the subject featured in the media has reviewed the media item or collection and approved its metadata description; MUST display a name or the literal "anonymous" (= anonymously reviewed).</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -968,7 +990,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -976,7 +998,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>The subtype term may not be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary may add further description to a Collection object. The subtype vocabulary may be extended by users provided they identify the term by a URI which is not in the ac namespace. Conforming applications may choose to ignore these. </td>
+			<td>The subtype term MUST NOT be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary might add further description to a Collection object. The subtype vocabulary MAY be extended by users provided they identify the term by a URI which is not in the ac namespace. Conforming applications MAY choose to ignore controlled values not issued by Audubon Core.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -1002,7 +1024,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1010,7 +1032,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>The subtypeLiteral term may not be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary may add further description to a Collection object.</td>
+			<td>The subtypeLiteral term MUST NOT be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary might add further description to a Collection object.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -1036,7 +1058,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1044,7 +1066,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>Concise title, name, or brief descriptive label of institution, resource collection, or individual resource. This field should include the complete title with all the subtitles, if any.</td>
+			<td>Concise title, name, or brief descriptive label of institution, resource collection, or individual resource. This field SHOULD include the complete title with all the subtitles, if any.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -1070,7 +1092,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1078,11 +1100,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>dc:type may take as value any type term from the DCMI Type Vocabulary, <a href="http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary">http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary</a>. Recommended terms are Collection, StillImage, Sound, MovingImage, InteractiveResource, Text. Values may be used either in their literal form, or with a full namespace (e. g. from a controlled vocabulary, but the best practice is to use the literal form when using dc:type and use dcterms:type when you can supply the URI from a controlled vocabulary and implementers may require this practice. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails.</td>
+			<td>The value of dc:type SHOULD be a term name of any term from the DCMI Type Vocabulary, <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-7">https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-7</a> RECOMMENDED term names for media items are "Collection", "StillImage", "Sound", "MovingImage", "InteractiveResource", and "Text". A Collection MUST be given a value of "Collection". Following the DC recommendations at <a href="http://purl.org/dc/dcmitype/Text">http://purl.org/dc/dcmitype/Text</a>, images of text SHOULD be given a value of "Text" for dc:type. A value for at least one of dc:type and dcterms:type MUST be supplied in an Audubon Core record but when feasible, supplying both can make the metadata more widely useful. The values of dc:type and dcterms:type SHOULD designate the same type, but in case of ambiguity dcterms:type prevails.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>A Collection should be given type "Collection" when using dc:type. If the resource is a Collection, this item does not identify what types of objects it may contain. Following the DC recommendations for the Text type, <a href="http://purl.org/dc/terms/DCMIType">http://purl.org/dc/terms/DCMIType</a>, images of text should be marked given as the string Text when provided as a string. See also the entry for dcterms:type in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>If the resource is a Collection, this term does not identify what types of objects it may contain. See also the entry for dcterms:type in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1104,7 +1126,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1112,11 +1134,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>A full URI preferably from among the type URIs specified in the DCMI Type Vocabulary, <a href="http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary">http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary</a>. Recommended terms are those URIs whose labels are Collection, StillImage, Sound, MovingImage, InteractiveResource, or Text (e.g. . Also recommended are the full URIs of ac:PanAndZoomImage, ac:3DStillImage, and ac: 3DMovingImage. Values MUST NOT be a string, but a URI with full namespace (e. g. from a controlled vocabulary. Implementers and communities of practice may determine whether specific controlled vocabularies must be used. If the resource is a Collection, this item does not identify what types of objects it may contain. Following the DC recommendations at <a href="http://purl.org/dc/dcmitype/Text">http://purl.org/dc/dcmitype/Text</a>, images of text should be with this URI.</td>
+			<td>The value of dcterms:type SHOULD be an IRI of any term from the DCMI Type Vocabulary, <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-7">https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-7</a> . In text-based systems (e.g. spreadsheets) the value MUST be an IRI with an unabbreviated namespace. Machine-readable systems MAY use any form of the IRI (e.g. compact URIs; CURIEs) that can be determined to be equivalent to the unabbreviated IRI. RECOMMENDED values for media items are those IRIs whose term names are "Collection", "StillImage", "Sound", "MovingImage", "InteractiveResource", and "Text". A Collection MUST be given a value of <a href="http://purl.org/dc/dcmitype/Collection">http://purl.org/dc/dcmitype/Collection</a>. Following the DC recommendations at <a href="http://purl.org/dc/dcmitype/Text">http://purl.org/dc/dcmitype/Text</a>, images of text SHOULD be given a value of <a href="http://purl.org/dc/dcmitype/Text">http://purl.org/dc/dcmitype/Text</a> for dcterms:type. A value for at least one of dc:type and dcterms:type MUST be supplied in an Audubon Core record but when feasible, supplying both can make the metadata more widely useful. The values of dc:type and dcterms:type SHOULD designate the same type, but in case of ambiguity dcterms:type prevails.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Following the DC recommendations for the Text type, <a href="http://purl.org/dc/terms/DCMIType">http://purl.org/dc/terms/DCMIType</a>, images of text should be given as <a href="http://purl.org/dc/dcmitype/Text">http://purl.org/dc/dcmitype/Text</a> when given as a URI. See also the entry for dc:type in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails.</td>
+			<td>If the resource is a Collection, this term does not identify what types of objects it may contain. See also the entry for dc:type in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1141,7 +1163,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1171,7 +1193,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1201,7 +1223,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1235,11 +1257,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Organizations or individuals who funded the creation of the resource.</td>
+			<td>Text description of organizations or individuals who funded the creation of the resource.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1261,7 +1283,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1291,7 +1313,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1299,11 +1321,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>A list of the names of the owners of the copyright. 'Unknown' is an acceptable value, but 'Public Domain' is not.</td>
+			<td>A list of the names of the owners of the copyright. 'Unknown' is an acceptable value, but 'Public Domain' is not. In that case, omit or leave empty xmpRights:Owner, and put 'Public Domain' in the Copyright Statement (dc:rights). Note: Audubon Core guidelines on value format are less restrictive than is specified in the IPTC guidelines.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Some providers use dc:publisher for this purpose, but it seems doubtful that the publisher is by necessity the copyright owner. 'Public Domain' is not an appropriate value because it denotes something that is not under copyright. In this case, omit or leave empty xmpRights:Owner, and put 'Public Domain' in the Copyright Statement (dc:rights). Except for 'Public Domain' resources, it is strongly urged that this field be supplied.</td>
+			<td>Some providers use dc:publisher for this purpose, but it seems doubtful that the publisher is by necessity the copyright owner. 'Public Domain' is not an appropriate value because it denotes something that is not under copyright. Except for 'Public Domain' resources, it is strongly urged that this field be supplied.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1325,7 +1347,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1333,11 +1355,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>Information about rights held in and over the resource. A full-text, readable copyright statement, as required by the national legislation of the copyright holder. On collections, this applies to all contained objects, unless the object itself has a different statement. Examples: "Copyright XY 2008, all rights reserved", "© 2008 XY Museum", "Public Domain.", "Copyright unknown." Do not place just the name of the copyright holder(s) here! That belongs in a list in the xmpRights:Owner field, which should be supplied if dc:rights is not 'Public Domain', which is appropriate only if the resource is known to be not under copyright.</td>
+			<td>A full-text, readable copyright statement, as required by the national legislation of the copyright holder. On collections, this applies to all contained objects, unless the object itself has a different statement. Do not place just the name of the copyright holder(s) here! That belongs in a list in the xmpRights:Owner field, which SHOULD be supplied if dc:rights is not 'Public Domain', which is appropriate only if the resource is known to be not under copyright. At least one of dcterms:rights and dc:rights MUST be supplied but, when feasible, supplying both might make the metadata more widely useful. They MUST specify the same rights. </td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>This expresses rights over the media resource, not over the metadata text. At least one of dcterms:rights and dc:rights must be supplied but, when feasible, supplying both may make the metadata more widely useful. They must specify the same rights. In case of ambiguity, dcterms:rights prevails. See also the entry for dcterms:rights in the Audubon Core Term List document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>This expresses rights over the media resource, not over the metadata text. In case of ambiguity, dcterms:rights prevails. See also the entry for dcterms:rights in the Audubon Core Term List document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. Examples: "Copyright XY 2008, all rights reserved", "© 2008 XY Museum", "Public Domain.", "Copyright unknown."</td>
 		</tr>
 	</tbody>
 </table>
@@ -1359,7 +1381,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1367,11 +1389,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>A URI pointing to structured information about rights held in and over the resource. Examples include <a href="http://creativecommons.org/licenses/by/3.0/legalcode">http://creativecommons.org/licenses/by/3.0/legalcode</a> and <a href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</a>. At least one of dcterms:rights and dc:rights must be supplied but, when feasible, supplying both may make the metadata more widely useful. They must specify the same rights. In case of ambiguity, dcterms:rights prevails.</td>
+			<td>A URI pointing to structured information about rights held in and over the resource. At least one of dcterms:rights and dc:rights MUST be supplied but, when feasible, supplying both might make the metadata more widely useful. They MUST specify the same rights. In case of ambiguity, dcterms:rights prevails.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>This expresses rights over the media resource, not over the metadata text. See also the entry for dc:rights in the Audubon Core Term List document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>This expresses rights over the media resource, not over the metadata text. See also the entry for dc:rights in the Audubon Core Term List document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. Examples include <a href="http://creativecommons.org/licenses/by/3.0/legalcode">http://creativecommons.org/licenses/by/3.0/legalcode</a> and <a href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</a>.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1393,7 +1415,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1405,7 +1427,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>If the resource was digitized from a non-digital resource, or was also previously published in a digital or printed publication, this describes the original. Do not put generally "related" publications in here. This field normally contains a free-form text description. If a URI is available it should be provided in dcterms:source. Can be repeatable if a montage of images. Information about further provenance beyond the ultimate source should be put in the derivedFrom attribute. See also the entry for dcterms:source in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions</td>
+			<td>If the resource was digitized from a non-digital resource, or was also previously published in a digital or printed publication, this describes the original. Do not put generally "related" publications in here. This field normally contains a free-form text description. If a URI is available it should be provided in dcterms:source. Can be repeatable if a montage of images. Information about further provenance beyond the ultimate source should be put in the derivedFrom attribute. See also the entry for dcterms:source in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions</td>
 		</tr>
 	</tbody>
 </table>
@@ -1427,7 +1449,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1439,7 +1461,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>If the resource was digitized from a non-digital resource, or was also previously published in a digital or printed publication, this describes the original. If a string is required for this, use dc:source. Do not put generally "related" publications in here. A URI that can be resolved and dereferenced to provide a description of the source resource may also be used here. For example, "<a href="http://www.loc.gov/pictures/item/fsa1998021539/PP/">http://www.loc.gov/pictures/item/fsa1998021539/PP/</a>" is the address of a web page that provides a description the original negative of a famous picture by the photographer Dorothea Lange and so would be an appropriate value of dcterms:source. The term may be repeatable if a montage of images. Information about further provenance beyond the ultimate source should be put in the derivedFrom attribute. See also the entry for dc:source in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>If the resource was digitized from a non-digital resource, or was also previously published in a digital or printed publication, this describes the original. If a string is required for this, use dc:source. Do not put generally "related" publications in here. A URI that can be resolved and dereferenced to provide a description of the source resource may also be used here. For example, "<a href="http://www.loc.gov/pictures/item/fsa1998021539/PP/">http://www.loc.gov/pictures/item/fsa1998021539/PP/</a>" is the address of a web page that provides a description the original negative of a famous picture by the photographer Dorothea Lange and so would be an appropriate value of dcterms:source. The term may be repeatable if a montage of images. Information about further provenance beyond the ultimate source should be put in the derivedFrom attribute. See also the entry for dc:source in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1461,7 +1483,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1469,11 +1491,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>The license statement defining how resources may be used. Information on a collection applies to all contained objects unless the object has a different statement.</td>
+			<td>The license statement defining how resources might be used. Information on a collection applies to all contained objects unless the object has a different statement. Where different quality variants (e. g. different resolutions of images) are published under different licenses, the AC term "Licensing Exception Statement" supports variant-specific licenses. Note that the medium or low resolution levels of the same image might be available under open access licenses.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Example: "Available under Creative Commons BY-SA 3.0 license". This also describes the commercial availability of items. Buying an identification tool or media resource is essentially the purchase of an individual license. Examples for such License statements: "Available through bookstores" for a commercially published CD, and "Individual licenses available for purchase" for a high-resolution image. Note that the medium or low resolution levels of the same image may be available under open access licenses. In general, this term determines the default licensing for the media. License terms specific to variants or representations of the media resource (e.g., different resolutions) are dealt within the section on Service Access Point Vocabulary</td>
+			<td>Example: "Available under Creative Commons BY-SA 3.0 license". This also describes the commercial availability of items. Buying an identification tool or media resource is essentially the purchase of an individual license. Examples for such License statements: "Available through bookstores" for a commercially published CD, and "Individual licenses available for purchase" for a high-resolution image. In general, this term determines the default licensing for the media. License terms specific to variants or representations of the media resource (e.g., different resolutions) are dealt within the section on Service Access Point Vocabulary</td>
 		</tr>
 	</tbody>
 </table>
@@ -1495,7 +1517,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1503,11 +1525,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>A URL defining or further elaborating on the license statement (e. g., a web page explaining the precise terms of use).</td>
+			<td>A URL defining or further elaborating on the license statement (e. g., a web page explaining the precise terms of use).  Where different quality variants (e. g. different resolutions of images) are published under different licenses, the AC term "Licensing Exception Statement" supports variant-specific licenses</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>The value of this field may provide a complete definition of the terms of use. For Creative Commons, the appropriate value is the URL of the defining Web page for the license. Example: <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">http://creativecommons.org/licenses/by-nc-sa/3.0/us/</a>. Where different quality variants (e. g. different resolutions of images) are published under different licenses, the AC term "Licensing Exception Statement" supports variant-specific licenses.</td>
+			<td>The value of this field may provide a complete definition of the terms of use. For Creative Commons, the appropriate value is the URL of the defining Web page for the license. Example: <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/.">http://creativecommons.org/licenses/by-nc-sa/3.0/us/.</a>.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1532,7 +1554,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1540,11 +1562,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>The person or organization responsible for creating the media resource.</td>
+			<td>The person or organization responsible for creating the media resource. The value MAY be simple text including contact information.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>The value may be simple text including contact information. Note that the Creator need not be the Copyright Owner. See also the entry for dcterms:creator in in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>Note that the Creator need not be the Copyright Owner. See also the entry for dcterms:creator in in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1566,7 +1588,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1578,7 +1600,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Note that the Creator need not be the Copyright Owner. See also the entry for dc:creator in in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>Note that the Creator need not be the Copyright Owner. See also the entry for dc:creator in in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1600,11 +1622,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Person or organization originally creating the resource metadata record.</td>
+			<td>A URI representing a person or organization originally creating the resource metadata record.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -1630,11 +1652,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Person or organization originally creating the resource metadata record.</td>
+			<td>Name of the person or organization originally creating the resource metadata record.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -1660,7 +1682,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1690,11 +1712,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Person or organization originally responsible for providing the resource metadata record.</td>
+			<td>Name of the person or organization originally responsible for providing the resource metadata record.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -1720,11 +1742,15 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>URI for person or organization responsible for presenting the media resource. If no separate Metadata Provider is given, this also attributes the metadata.</td>
+			<td>URI for person or organization responsible for presenting the media resource.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>If no separate Metadata Provider is given, this also attributes the metadata.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -1750,11 +1776,15 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Person or organization responsible for presenting the media resource. If no separate Metadata Provider is given, this also attributes the metadata.</td>
+			<td>Name of the person or organization responsible for presenting the media resource.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>If no separate Metadata Provider is given, this also attributes the metadata.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -1783,7 +1813,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1813,7 +1843,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1821,11 +1851,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>Controlled vocabulary of subjects to support broad classification of media items. Terms from various controlled vocabularies may be used. AC-recommended vocabularies are preferred and may be unqualified literals (not a full URI). For terms from other vocabularies either a precise URI should be used, or, as long as all unqualified terms in all vocabularies are unique, metadata should provide the source vocabularies using the Subject Category Vocabulary term.</td>
+			<td>Controlled vocabulary of subjects to support broad classification of media items. Terms from various controlled vocabularies may be used. AC-recommended vocabularies are preferred and MAY be unqualified literals (not a full URI). For terms from other vocabularies either a precise URI SHOULD be used, or, as long as all unqualified terms in all vocabularies are unique, metadata SHOULD provide the source vocabularies using the Subject Category Vocabulary term. The value SHOULD be a string, whose text can also be in the form of a URL.  These guidelines on value format are less restrictive than is specified by the IPTC guidelines.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Recommended sets include: the NASA Global Change Master Directory (GCMD; <a href="http://gcmd.nasa.gov/">http://gcmd.nasa.gov/</a>), Subject Categories defined in Key to Nature (K2N; <a href="http://www.keytonature.eu/wiki/Subject_Category">http://www.keytonature.eu/wiki/Subject_Category</a>), the BioComplexity Thesaurus; <a href="https://www2.usgs.gov/core_science_systems/csas/biocomplexity_thesaurus/">https://www2.usgs.gov/core_science_systems/csas/biocomplexity_thesaurus/</a>, the Description Type GBIF Vocabulary; <a href="http://rs.gbif.org/vocabulary/gbif/description_type.xml">http://rs.gbif.org/vocabulary/gbif/description_type.xml</a>, the TDWG Species Profile Model; <a href="http://rs.tdwg.org/ontology/voc/SPMInfoItems.rdf">http://rs.tdwg.org/ontology/voc/SPMInfoItems.rdf</a>, the Plinian Core; <a href="https://github.com/PlinianCore/Documentation/wiki/About">https://github.com/PlinianCore/Documentation/wiki/About</a>, the European Environmental Agency GEneral Multilingual Environmental Thesaurus (GEMET; <a href="http://www.eionet.europa.eu/gemet">http://www.eionet.europa.eu/gemet</a>), and the Long Term Ecological Research Network Controlled Vocabulary (LTER; <a href="http://vocab.lternet.edu/">http://vocab.lternet.edu/</a>). The vocabulary may include major taxonomic groups (such as "vertebrates" or "fungi") or ecosystem terms ("savannah", "temperate rain forest", "forest fires", "aquatic vertebrates"). Other formal classifications (published in print or online) such as habitat, fuel, invasive species, agroproductivity, fisheries, migratory species etc. are also suitable.</td>
+			<td>Recommended sets include: the NASA Global Change Master Directory (GCMD; <a href="http://gcmd.nasa.gov/">http://gcmd.nasa.gov/</a>), Subject Categories defined in Key to Nature (K2N; <a href="http://www.keytonature.eu/wiki/Subject_Category">http://www.keytonature.eu/wiki/Subject_Category</a>), the BioComplexity Thesaurus; <a href="https://www2.usgs.gov/core_science_systems/csas/biocomplexity_thesaurus/">https://www2.usgs.gov/core_science_systems/csas/biocomplexity_thesaurus/</a>, the Description Type GBIF Vocabulary; <a href="http://rs.gbif.org/vocabulary/gbif/description_type.xml">http://rs.gbif.org/vocabulary/gbif/description_type.xml</a>, the TDWG Species Profile Model; <a href="http://rs.tdwg.org/ontology/voc/SPMInfoItems.rdf">http://rs.tdwg.org/ontology/voc/SPMInfoItems.rdf</a>, the Plinian Core; <a href="https://github.com/tdwg/PlinianCore/wiki">https://github.com/tdwg/PlinianCore/wiki</a>, the European Environmental Agency GEneral Multilingual Environmental Thesaurus (GEMET; <a href="http://www.eionet.europa.eu/gemet">http://www.eionet.europa.eu/gemet</a>), and the Long Term Ecological Research Network Controlled Vocabulary (LTER; <a href="http://vocab.lternet.edu/">http://vocab.lternet.edu/</a>). The vocabulary may include major taxonomic groups (such as "vertebrates" or "fungi") or ecosystem terms ("savannah", "temperate rain forest", "forest fires", "aquatic vertebrates"). Other formal classifications (published in print or online) such as habitat, fuel, invasive species, agroproductivity, fisheries, migratory species etc. are also suitable.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1847,7 +1877,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1855,11 +1885,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>Description of collection or individual resource, containing the Who, What, When, Where and Why as free-form text. This normative document is silent on the nature of formatting in the text. It is the role of implementers of an AC concrete representation (e.g., an XML Schema, an RDF representation, etc.) to decide and document how formatting advice will be represented in descriptions serialized according to such representations.</td>
+			<td>Description of collection or individual resource, containing the Who, What, When, Where and Why as free-form text.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>It optionally allows the presentation of detailed information and will in most cases be shown together with the resource title. If both a description and a caption are present in the metadata, a description is typically displayed instead of the resource, whereas a caption is displayed together with the resource. The description should aim to be a good proxy for the underlying media resource in cases where only text can be shown, whereas the caption may only make sense when shown together with the media. Often only one of description or caption is present; choose the term most appropriate for your metadata.</td>
+			<td>This property optionally allows the presentation of detailed information and will in most cases be shown together with the resource title. If both a description and a caption are present in the metadata, a description is typically displayed instead of the resource, whereas a caption is displayed together with the resource. The description should aim to be a good proxy for the underlying media resource in cases where only text can be shown, whereas the caption may only make sense when shown together with the media. Often only one of description or caption is present; choose the term most appropriate for your metadata. It is the role of implementers of an AC concrete representation (e.g., an XML Schema, an RDF representation, etc.) to decide and document how formatting advice will be represented in descriptions serialized according to such representations.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1881,7 +1911,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1893,7 +1923,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>An image may contain language such as superimposed labels. If an image is of a natural scene or organism, without any language included, the resource is language-neutral (ISO code "zxx"). Resources with present but unknown language are to be coded as undetermined (ISO code "und"). Regional dialects or other special cases should conform to the ISO639-5 Alpha-3 Code for Language Families and Groups, <a href="http://id.loc.gov/vocabulary/iso639-5.html">http://id.loc.gov/vocabulary/iso639-5.html</a>, where possible or the IETF Best Practices for Tags Identifying Languages, <a href="https://tools.ietf.org/html/rfc5646">https://tools.ietf.org/html/rfc5646</a>, where not. See also the entry for dcterms:language in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>An image may contain language such as superimposed labels. If an image is of a natural scene or organism, without any language included, the resource is language-neutral (ISO code "zxx"). Resources with present but unknown language are to be coded as undetermined (ISO code "und"). Regional dialects or other special cases should conform to the ISO639-5 Alpha-3 Code for Language Families and Groups, <a href="http://id.loc.gov/vocabulary/iso639-5.html">http://id.loc.gov/vocabulary/iso639-5.html</a>, where possible or the IETF Best Practices for Tags Identifying Languages, <a href="https://tools.ietf.org/html/rfc5646">https://tools.ietf.org/html/rfc5646</a>, where not. See also the entry for dcterms:language in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1915,7 +1945,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1923,11 +1953,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>URI from the ISO639-2 list of URIs for ISO 3-letter language codes.</td>
+			<td>URI from the ISO639-2 list of URIs for ISO 3-letter language codes, <a href="http://id.loc.gov/vocabulary/iso639-2">http://id.loc.gov/vocabulary/iso639-2</a>.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>An image may contain language such as superimposed labels. If an image is of a natural scene or organism, without any language included, the resource is language-neutral with URI <a href="http://id.loc.gov/vocabulary/iso639-2/zxx">http://id.loc.gov/vocabulary/iso639-2/zxx</a> corresponding to ISO ISO639-2 code "zxx". Resources with present but unknown language are to be coded as undetermined, with URI <a href="http://id.loc.gov/vocabulary/iso639-2/und">http://id.loc.gov/vocabulary/iso639-2/und</a> corresponding to ISO639-2 code "und". Regional dialects or other special cases should conform to the ISO639-5 Alpha-3 Code for Language Families and Groups, <a href="http://id.loc.gov/vocabulary/iso639-5.html">http://id.loc.gov/vocabulary/iso639-5.html</a>, where possible or the IETF Best Practices for Tags Identifying Languages, <a href="https://tools.ietf.org/html/rfc5646">https://tools.ietf.org/html/rfc5646</a>, where not. See also the entry for dc:language in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>An image may contain language such as superimposed labels. If an image is of a natural scene or organism, without any language included, the resource is language-neutral with URI <a href="http://id.loc.gov/vocabulary/iso639-2/zxx">http://id.loc.gov/vocabulary/iso639-2/zxx</a> corresponding to ISO ISO639-2 code "zxx". Resources with present but unknown language are to be coded as undetermined, with URI <a href="http://id.loc.gov/vocabulary/iso639-2/und">http://id.loc.gov/vocabulary/iso639-2/und</a> corresponding to ISO639-2 code "und". Regional dialects or other special cases should conform to the ISO639-5 Alpha-3 Code for Language Families and Groups, <a href="http://id.loc.gov/vocabulary/iso639-5.html">http://id.loc.gov/vocabulary/iso639-5.html</a>, where possible or the IETF Best Practices for Tags Identifying Languages, <a href="https://tools.ietf.org/html/rfc5646">https://tools.ietf.org/html/rfc5646</a>, where not. See also the entry for dc:language in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1949,11 +1979,15 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The setting of the content represented in media such as images, sounds, and movies if the provider deems them relevant. Constrained vocabulary of: "Natural" = Object in its natural setting of the object (e. g. living organisms in their natural environment); "Artificial" = Object in an artificial environment (e. g. living organisms in an artificial environment such as a zoo, garden, greenhouse, or laboratory); "Edited" = Human media editing of a natural setting or media acquisition with a separate media background such as a photographic backdrop.</td>
+			<td>The setting of the content represented in media such as images, sounds, and movies if the provider deems them relevant.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>Constrained vocabulary of: "Natural" = Object in its natural setting of the object (e. g. living organisms in their natural environment); "Artificial" = Object in an artificial environment (e. g. living organisms in an artificial environment such as a zoo, garden, greenhouse, or laboratory); "Edited" = Human media editing of a natural setting or media acquisition with a separate media background such as a photographic backdrop.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -1979,7 +2013,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2009,7 +2043,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2025,7 +2059,7 @@ required values are strings or URIs.
 
 ### 7.5 Geography Vocabulary
 
-All geography terms from the Darwin Core version of 9 Dec 2009 are deemed included in the Core Layer. Specifically, this includes exactly those which are declared by Darwin Core to be in Darwin Core Class [dwc:Location](http://rs.tdwg.org/dwc/terms/Location). Note that [dwc:locality](http://rs.tdwg.org/dwc/terms/locality) may be used, but as applied to media this term may be ambiguous as to whether it applies to the location depicted or the location at which the media was created. When disambiguating information is available, it is better to use the terms Location Shown and Location Created. The latter is in the Resource Creation Vocabulary.
+Note that [dwc:locality](http://rs.tdwg.org/dwc/terms/locality) may be used, but as applied to media this term may be ambiguous as to whether it applies to the location depicted or the location at which the media was created. When disambiguating information is available, it is better to use the terms Location Shown and Location Created. The latter is in the Resource Creation Vocabulary.
 
 Location Created and Location Shown are separated in the current version of IPTC, and the Metadata Working Group ([Metadata Working Group Guidelines for Handling Image Metadata, Version 2.0, November 2010](http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf)) also recommends this. We follow this below in order to support the expected future increase of automatic GPS-based coordinate recording. As a special case, the AC group recommends to change the semantics of Location Shown in the case of biodiversity specimens, where the original location may differ from the current location at which the specimen is held in a collection. In this case, Location Shown should exclusively refer to the location where a specimen was originally collected (gathering or sampling location). Use Location Created to express the location where the resource was created (a specimen was digitized).
 
@@ -2046,7 +2080,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2076,7 +2110,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2102,7 +2136,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2128,7 +2162,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2154,7 +2188,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2180,7 +2214,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2188,11 +2222,11 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>The geographic location of the specific entity or entities documented by the media item, expressed through a constrained vocabulary of countries using 2-letter ISO country code (e. g. "it, si").</td>
+			<td>The geographic location of the specific entity or entities documented by the media item, expressed through a constrained vocabulary of countries using 2-letter ISO 3166-1 country code (e. g. "IT, SI").</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Accepted exceptions to be used instead of ISO codes are: "Global", "Marine", "Europe", "N-America", "C-America", "S-America", "Africa", "Asia", "Oceania", ATA = "Antarctica", XEU = "European Union", XAR = "Arctic", "ZZZ" = "Unknown country" (3 letter abbreviations from IPTC codes). This list may be extended as necessary.</td>
+			<td>Accepted exceptions to be used instead of ISO codes are: "Global", "Marine", "Europe", "N-America", "C-America", "S-America", "Africa", "Asia", "Oceania", ATA = "Antarctica", XEU = "European Union", XAR = "Arctic", "ZZZ" = "Unknown country" (3 letter abbreviations from IPTC codes).</td>
 		</tr>
 	</tbody>
 </table>
@@ -2214,7 +2248,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2240,7 +2274,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2270,7 +2304,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2296,7 +2330,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2322,7 +2356,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2348,7 +2382,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2374,7 +2408,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2400,7 +2434,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2426,7 +2460,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2452,7 +2486,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2478,7 +2512,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2504,7 +2538,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2530,7 +2564,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2556,7 +2590,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2582,7 +2616,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2608,7 +2642,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2634,7 +2668,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2660,7 +2694,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2686,7 +2720,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2712,7 +2746,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2738,7 +2772,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2764,7 +2798,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2790,7 +2824,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2820,7 +2854,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2846,7 +2880,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2872,7 +2906,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2898,7 +2932,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2924,7 +2958,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2950,7 +2984,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2976,7 +3010,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3002,7 +3036,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3028,7 +3062,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3036,7 +3070,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>Optionally, the geographic unit immediately below the country level (individual states in federal countries, provinces, or other administrative units) in which the subject of the media resource (e. g., species, habitats, or events) were located (if such information is available in separate fields).</td>
+			<td>OPTIONALLY, the geographic unit immediately below the country level (individual states in federal countries, provinces, or other administrative units) in which the subject of the media resource (e. g., species, habitats, or events) were located (if such information is available in separate fields).</td>
 		</tr>
 	</tbody>
 </table>
@@ -3058,7 +3092,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3084,7 +3118,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3114,7 +3148,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3140,7 +3174,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3166,7 +3200,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3192,7 +3226,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3218,7 +3252,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3244,7 +3278,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3270,7 +3304,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3296,7 +3330,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3322,7 +3356,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b>  -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3348,7 +3382,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3385,7 +3419,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3393,7 +3427,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>The date of the creation of the original resource from which the digital media was derived or created. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, <a href="https://www.w3.org/TR/NOTE-datetime">https://www.w3.org/TR/NOTE-datetime</a>, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004, <a href="https://www.iso.org/standard/40874.html">https://www.iso.org/standard/40874.html</a>. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry, <a href="https://en.wikipedia.org/wiki/ISO_8601">https://en.wikipedia.org/wiki/ISO_8601</a>, for further explanation and examples.</td>
+			<td>The date of the creation of the original resource from which the digital media was derived or created. The date and time MUST comply with the World Wide Web Consortium (W3C) datetime practice, <a href="https://www.w3.org/TR/NOTE-datetime">https://www.w3.org/TR/NOTE-datetime</a>, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004, <a href="https://www.iso.org/standard/40874.html">https://www.iso.org/standard/40874.html</a>. AC datetime values MAY also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/').</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -3419,7 +3453,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3427,7 +3461,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>The coverage (extent or scope) of the content of the resource. Temporal coverage will typically include temporal period (a period label, date, or date range) to which the subjects of the media or media collection relate. If dates are mentioned, they should follow ISO 8601. When the resource is a Collection, this refers to the temporal coverage of the collection. Following dcterms:temporal, the value must be a URI.</td>
+			<td>The coverage (extent or scope) of the content of the resource. Temporal coverage will typically include temporal period (a period label, date, or date range) to which the subjects of the media or media collection relate. If dates are mentioned, they SHOULD follow ISO 8601. When the resource is a Collection, this refers to the temporal coverage of the collection. Following dcterms:temporal, the value MUST be a URI.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -3453,7 +3487,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3486,7 +3520,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3494,7 +3528,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>The date on which the person(s) given under Identfied By applied a Scientific Taxon Name to the resource.</td>
+			<td>The date on which the person(s) given under Identified By applied a Scientific Taxon Name to the resource.</td>
 		</tr>
 	</tbody>
 </table>
@@ -3516,7 +3550,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3550,7 +3584,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3580,7 +3614,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3610,7 +3644,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3622,7 +3656,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Examples are "Flora of North America", "Landrum 1981, Monograph of the Genus Myrceugenia (Myrtaceae)", "Peterson Field Guide to Birds of North America", or "Expert identification by J.Smith". The definition at dwc:nameAccordingTo is: 'The reference to the source in which the specific taxon concept circumscription is defined or implied - traditionally signified by the Latin "sensu" or "sec." (from secundum, meaning "according to"). For taxa that result from identifications, a reference to the keys, monographs, experts and other sources should be given.'</td>
+			<td>Examples are "Flora of North America", "Landrum 1981, Monograph of the Genus Myrceugenia (Myrtaceae)", "Peterson Field Guide to Birds of North America", or "Expert identification by J.Smith".</td>
 		</tr>
 	</tbody>
 </table>
@@ -3644,7 +3678,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3674,7 +3708,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3708,7 +3742,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3742,7 +3776,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3750,7 +3784,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>See dwc:scientificNameID.</td>
+			<td>See dwc:scientificName.</td>
 		</tr>
 	</tbody>
 </table>
@@ -3772,7 +3806,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3802,7 +3836,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3832,7 +3866,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3862,15 +3896,19 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
 			<td>An exact or estimated number of taxa at the lowest applicable taxon rank (usually species or infraspecific) represented by the media resource (item or collection).</td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td>The count SHOULD contain only the taxa covered fully or primarily by the resource. This SHOULD be a single integer number. </td>
+		</tr>
+		<tr>
 			<td>Notes</td>
-			<td>Primarily intended for resource collections and singular resources dealing with sets of taxa (e. g., identification tools, videos). It is recommended to give an exact or estimated number of specific taxa when a complete list of taxa is not available or practical. The count should contain only the taxa covered fully or primarily by the resource. For a taxon page and most images this will be "1", i. e. other taxa mentioned on the side or in the background should not be counted. However, sometimes a resource may illustrate an ecological or behavioral entity with multiple species, e. g., a host-pathogen interaction; taxon count would then indicate the known number of species in this interaction. This should be a single integer number. Leave the field empty if you cannot estimate the information (do not enter 0). Additional taxon counts at higher levels (e. g. how many families are covered by a digital Fauna) should be given verbatim in the resource description, not here.</td>
+			<td>Primarily intended for resource collections and singular resources dealing with sets of taxa (e. g., identification tools, videos). It is recommended to give an exact or estimated number of specific taxa when a complete list of taxa is not available or practical. For a taxon page and most images this will be "1", i. e. other taxa mentioned on the side or in the background should not be counted. However, sometimes a resource may illustrate an ecological or behavioral entity with multiple species, e. g., a host-pathogen interaction; taxon count would then indicate the known number of species in this interaction. Leave the field empty if you cannot estimate the information (do not enter 0). Additional taxon counts at higher levels (e. g. how many families are covered by a digital Fauna) should be given verbatim in the resource description, not here.</td>
 		</tr>
 	</tbody>
 </table>
@@ -3892,7 +3930,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3922,7 +3960,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3930,7 +3968,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>Common (= vernacular) names of the subject in one or several languages. The ISO language name should be given in parentheses after the name if not all names are given by values of the Metadata Language term.</td>
+			<td>Common (= vernacular) names of the subject in one or several languages. The ISO 639-1 language code SHOULD be given in parentheses after the name if not all names are given by values of the Metadata Language term.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -3959,7 +3997,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3989,15 +4027,19 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Date the first digital version was created, if different from Original Date and Time found in the Temporal Coverage Vocabulary. The date and time must comply with the World Wide Web Consortium (W3C) datetime practice, https://www.w3.org/TR/NOTE-datetime, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004, https://www.iso.org/standard/40874.html. AC datetime values may also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). See also the wikipedia IS0 8601 entry, https://en.wikipedia.org/wiki/ISO_8601, for further explanation and examples.</td>
+			<td>Date the first digital version was created, if different from Original Date and Time found in the Temporal Coverage Vocabulary.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>The date and time MUST comply with the World Wide Web Consortium (W3C) datetime practice, <a href="https://www.w3.org/TR/NOTE-datetime">https://www.w3.org/TR/NOTE-datetime</a>, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004, <a href="https://www.iso.org/standard/40874.html">https://www.iso.org/standard/40874.html</a>. AC datetime values MAY also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/'). Use the international (ISO/xml) format yyyy-mm-ddThh:mm (e. g. "2007-12-31" or "2007-12-31T14:59"). Where available, timezone information SHOULD be added. </td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>This is often not the media creation or modification date. For example, if photographic prints have been scanned, the date of that scanning is what this term carries, but Original Date and Time is that depicted in the print. Use the international (ISO/xml) format yyyy-mm-ddThh:mm (e. g. "2007-12-31" or "2007-12-31T14:59"). Where available, timezone information should be added. In the case of digital images containing EXIF, whereas the EXIF capture date does not contain time zone information, but EXIF GPSDateStamp and GPSTimeStamp may be relevant as these include time-zone information. See also Metadata Working Group Guidelines for Handling Image Metadata, Version 2.0 (November 2010), <a href="http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf">http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf</a>, which has best practice advice on handling time-zone-less EXIF date/time data. See also the Wikipedia IS0 8601 entry, <a href="https://en.wikipedia.org/wiki/ISO_8601">https://en.wikipedia.org/wiki/ISO_8601</a>, for further explanation and examples.</td>
+			<td>This is often not the media creation or modification date. For example, if photographic prints have been scanned, the date of that scanning is what this term carries, but Original Date and Time is that depicted in the print. In the case of digital images containing EXIF, whereas the EXIF capture date does not contain time zone information, but EXIF GPSDateStamp and GPSTimeStamp may be relevant as these include time-zone information. See also Metadata Working Group Guidelines for Handling Image Metadata, Version 2.0 (November 2010), <a href="https://web.archive.org/web/20180919181934/http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf">https://web.archive.org/web/20180919181934/http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf</a>, which has best practice advice on handling time-zone-less EXIF date/time data. See also the Wikipedia IS0 8601 entry, <a href="https://en.wikipedia.org/wiki/ISO_8601">https://en.wikipedia.org/wiki/ISO_8601</a>, for further explanation and examples.</td>
 		</tr>
 	</tbody>
 </table>
@@ -4019,7 +4061,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4053,7 +4095,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4086,7 +4128,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4112,7 +4154,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4142,15 +4184,19 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
 			<td>A reference to an original resource from which the current one is derived.</td>
 		</tr>
 		<tr>
+			<td>Usage</td>
+			<td>Human readable, or doi number, or URL. Simple name of parent for human readable.</td>
+		</tr>
+		<tr>
 			<td>Notes</td>
-			<td>Derivation of one resource from another is of special interest for identification tools (e. g. a key from an unpublished data set, as in FRIDA, or a PDA key from a PC or web key) or web services (e. g. a name synonymization service being derived from a specific data set). It may very rarely also be known where one image or sound recording is derived from another (but compare the separate mechanism to be used for quality/resolution levels). Human readable, or doi number, or URL. Simple name of parent for human readable. Can be repeated if a montage of images.</td>
+			<td>Derivation of one resource from another is of special interest for identification tools (e. g. a key from an unpublished data set, as in FRIDA, or a PDA key from a PC or web key) or web services (e. g. a name synonymization service being derived from a specific data set). It may very rarely also be known where one image or sound recording is derived from another (but compare the separate mechanism to be used for quality/resolution levels). Can be repeated if a montage of images.</td>
 		</tr>
 	</tbody>
 </table>
@@ -4172,15 +4218,15 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>If the resource is contained in a Collection, this field identifies that Collection uniquely. Its form is not specified by this normative document, but is left to implementers of specific implementations.</td>
+			<td>If the resource is contained in a Collection, this field identifies that Collection uniquely.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Repeatable: A media resource may be member of multiple collections</td>
+			<td>Repeatable: A media resource may be member of multiple collections. The form of the identifier is left to implementers of specific implementations.</td>
 		</tr>
 	</tbody>
 </table>
@@ -4202,7 +4248,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4232,7 +4278,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4267,15 +4313,19 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>A URI that uniquely identifies a service that provides a representation of the underlying resource. If this resource can be acquired by an http request, its http URL should be given. If not, but it has some URI in another URI scheme, that may be given here.</td>
+			<td>A URI that uniquely identifies a service that provides a representation of the underlying resource.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>If this resource can be acquired by an http request, its http URL SHOULD be given. If not, but it has some URI in another URI scheme, that MAY be given here.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Value might point to something offline, such as a published CD, etc. For example, the doi of an published CD would be a suitable value.</td>
+			<td>Value might point to something offline, such as a published CD, etc. For example, the doi of a published CD would be a suitable value.</td>
 		</tr>
 	</tbody>
 </table>
@@ -4297,7 +4347,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4309,7 +4359,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME]. This term is recommended for offline digital content. In cases where the provided URL includes a standard file extension from which the format can be inferred, it is permissible to not provide this item. Three types of values are recommended: (a) any MIME type; (b) common file extensions like txt, doc, odf, jpg/jpeg, png, pdf; (c) the following special values: Data-CD, Audio-CD, Video-CD, Data-DVD, Audio-DVD, Video-DVD-PAL, Video-DVD-NTSC, photographic slide, photographic print. Compare Type for the content-type. See also the entry for dcterms:format in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a> for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME]. This term is recommended for offline digital content. In cases where the provided URL includes a standard file extension from which the format can be inferred, it is permissible to not provide this item. Three types of values are recommended: (a) any MIME type; (b) common file extensions like txt, doc, odf, jpg/jpeg, png, pdf; (c) the following special values: Data-CD, Audio-CD, Video-CD, Data-DVD, Audio-DVD, Video-DVD-PAL, Video-DVD-NTSC, photographic slide, photographic print. Compare Type for the content-type. See also the entry for dcterms:format in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -4331,7 +4381,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4343,7 +4393,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>See DCMI User_Guide, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide/Publishing_Metadata.md#dctermsformat">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/User_Guide/Publishing_Metadata.md#dctermsformat</a>, for examples. See also the entry for dc:format in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>See DCMI User_Guide, <a href="https://www.dublincore.org/resources/userguide/publishing_metadata/#dcterms:format">https://www.dublincore.org/resources/userguide/publishing_metadata/#dcterms:format</a>, for examples. See also the entry for dc:format in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -4365,7 +4415,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4391,7 +4441,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4421,7 +4471,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4451,7 +4501,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4481,7 +4531,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4489,7 +4539,11 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>The width in pixels of the media specified by the access point.</td>
+			<td>The width in pixels of the media specified by the access point. Contrary to the definition, in Audubon Core, this term MAY be used with uncompressed files.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Audubon Core uses this term for any image type, including those to which EXIF does not apply and those that are not a compressed file type like JPEG.</td>
 		</tr>
 	</tbody>
 </table>
@@ -4511,7 +4565,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4519,7 +4573,45 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>The height in pixels of the media specified by the access point.</td>
+			<td>The height in pixels of the media specified by the access point. Contrary to the definition, in Audubon Core, this term MAY be used with uncompressed files.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Audubon Core uses this term for any image type, including those to which EXIF does not apply and those that are not a compressed file type like JPEG.</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="ac_ServiceAccessPoint"></a>Term Name: ac:ServiceAccessPoint</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Normative URI:</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/ServiceAccessPoint">http://rs.tdwg.org/ac/terms/ServiceAccessPoint</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Service Access Point Class</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> </td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>A specific digital representation of a media resource.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>This term serves as a type for values of the ac:hasServiceAccessPoint property.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>For example, a Service Access Point may have a specific resolution, quality, or format.</td>
 		</tr>
 	</tbody>
 </table>
@@ -4541,11 +4633,15 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>A term that describes what service expectations users may have of the ac:accessURL. Recommended terms include online (denotes that the URL is expected to deliver the resource), authenticate (denotes that the URL delivers a login or other authentication interface requiring completion before delivery of the resource) published(non digital) (denotes that the URL is the identifier of a non-digital published work, for example a doi.) Communities should develop their own controlled vocabularies for Service Expectations.</td>
+			<td>A term that describes what service expectations users may have of the ac:accessURL.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended terms include online (denotes that the URL is expected to deliver the resource), authenticate (denotes that the URL delivers a login or other authentication interface requiring completion before delivery of the resource) published(non digital) (denotes that the URL is the identifier of a non-digital published work, for example a doi.) Communities should develop their own controlled vocabularies for Service Expectations.</td>
 		</tr>
 	</tbody>
 </table>
@@ -4567,11 +4663,15 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 1 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>A URI designating what this Service Access Point provides. Some suggested values are the URIs ac:Thumbnail, ac:Trailer, ac:LowerQuality, ac:MediumQuality, ac:GoodQuality, ac:BestQuality, and ac:Offline. Additional URIs from communities of practice may be introduced.</td>
+			<td>A URI designating what this Service Access Point provides.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Some suggested values are the URIs ac:Thumbnail, ac:Trailer, ac:LowerQuality, ac:MediumQuality, ac:GoodQuality, ac:BestQuality, and ac:Offline. Additional URIs from communities of practice may be introduced.</td>
 		</tr>
 	</tbody>
 </table>
@@ -4593,7 +4693,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4623,7 +4723,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Layer:</b> 2 -- <b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>

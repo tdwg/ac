@@ -1,8 +1,8 @@
 ---
-layout: page
-title: Audubon Core Term List
-permalink: /termlist
+permalink: /termlist/
 ---
+
+# Audubon Core Term List
 
 **Title:** Audubon Core Term List
 
@@ -15,6 +15,8 @@ permalink: /termlist
 **This version:** http://rs.tdwg.org/ac/doc/termlist/2020-01-27
 
 **Latest version:** http://rs.tdwg.org/ac/doc/termlist/
+
+**Previous version:** [http://rs.tdwg.org/ac/doc/termlist/2013-10-23](2013-10-23)
 
 **Abstract:** The Audubon Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
