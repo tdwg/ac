@@ -6,13 +6,13 @@ permalink: /termlist
 
 **Title:** Audubon Core Term List
 
-**Date version issued:** 2013-10-23
+**Date version issued:** 2020-01-27
 
 **Date created:** 2013-10-23
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** http://rs.tdwg.org/ac/doc/termlist/2013-10-23
+**This version:** http://rs.tdwg.org/ac/doc/termlist/2020-01-27
 
 **Latest version:** http://rs.tdwg.org/ac/doc/termlist/
 
@@ -48,19 +48,21 @@ There are four documents included in the Aububon Core Standard.  This document p
 
 ### 1.1 Status of the content of this document
 
-Sections 1.2 through 5 are normative, except for Table 1.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Audubon Core.  The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
+Sections 1.3 through 5 are normative, except for Table 1.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Audubon Core.  The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
 
+### 1.2 RFC 2119 key words
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119. [RFC-2119](https://tools.ietf.org/html/rfc2119)
 
-### 1.2 Categories of terms
+### 1.3 Categories of terms
 
 An Audubon Core (AC) record is a description of a multimedia resource
 using the AC vocabularies. Two kinds of terms are specified by this
 document: those terms which describe representation-independent aspects
 of the media and those which describe representation-dependent aspects.
 Most terms are representation-independent, referring to an "abstract
-multimedia resource". One such term, *hasServiceAccessPoint*, refers to
+multimedia resource". One such term, `ac:hasServiceAccessPoint`, refers to
 or contains representation-dependent service access point metadata
-describing a digital representation of the abstract multimedia resource.
+describing a digital representation of the abstract multimedia resource (an instance of the `ac:ServiceAccessPoint` class).
 These metadata describe such things as a web address at which a digital
 representation can be retrieved, and the format, extent, or licenses
 that describe a particular such representation. A multimedia resource
@@ -94,11 +96,11 @@ Note: URIs for terms in most of these namespaces do not dereference to anything.
 
 The namespace of terms borrowed from other vocabularies is that of the
 original. The namespace of de novo AC terms is
-http://rs.tdwg.org/ac/terms/. In the table of terms, each term entry has
+`http://rs.tdwg.org/ac/terms/`. In the table of terms, each term entry has
 a row with the term name. This term name is generally an "unqualified
 name" preceded by a widely accepted prefix designating an abbreviation
-for the namespace It is recommended that implementers who need a
-namespace prefix for the AC namespace use "ac". In this web document,
+for the namespace It is RECOMMENDED that implementers who need a
+namespace prefix for the AC namespace use `ac`. In this web document,
 hovering over a term in the [Index By Term Name](#index-by-term-name)
 list below will reveal a complete URL that can be used in other web
 documents to link to *this* document's treatment of that term, even if
@@ -122,23 +124,15 @@ normative material on [Multiplicity and Cardinality](structure.md#3-multiplicity
 
 ## 4 Layers
 
-The term set consists of two *Layers*, numbered *1* and *2*. The former
-comprise the central terms, likely to be meaningful for most media, even
-though only a few are mandatory. Implementers of AC representations
-should provide for at least Layer 1 if possible, and application writers
-should provide for robust treatment of Layer 1 terms, if only by
-ignoring them. Layer 2 terms are more likely to be useful for particular
-kinds of media or for applications requiring highly detailed resource
-descriptions. Each term description below indicates the Layer to which
-the term belongs.
+(The Audubon Core layer property has been deprecated as of 2020-01-27)
 
 
 ## 5 Literal- vs. URI-valued Terms
 
 Some terms have two versions, one expecting a string literal value and
 the other a URI. In these circumstances, the version expecting a string
-is named with the suffix "Literal", e.g. ac:metadataLanguageLiteral. In
-such cases, both forms may be provided, but care should be taken to
+is named with the suffix "Literal", e.g. `ac:metadataLanguageLiteral`. In
+such cases, both forms MAY be provided, but care should be taken to
 ensure that the uses reflect the same intent. In case of ambiguity, the
 URI version prevails. All terms, including those whether or not with a
 specific "Literal" suffix, specify in their definition whether the
