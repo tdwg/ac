@@ -6,15 +6,17 @@ permalink: /structure/
 
 **Title:** Audubon Core Structure
 
-**Date version issued:** 2013-10-23
+**Date version issued:** 2020-01-27
 
 **Date created:** 2013-10-23
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** http://rs.tdwg.org/ac/doc/structure/2013-10-23
+**This version:** http://rs.tdwg.org/ac/doc/structure/2020-01-27
 
 **Latest version:** http://rs.tdwg.org/ac/doc/structure/
+
+**Previous version:** [http://rs.tdwg.org/ac/doc/structure/2013-10-23](2013-10-23)
 
 **Abstract:** The Audubon Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
@@ -34,7 +36,7 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 **Creator:** GBIF/TDWG Multimedia Resources Task Group
 
-**Bibliographic citation:** Multimedia Resources Task Group. 2013. Audubon Core Structure. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/structure/
+**Bibliographic citation:** Multimedia Resources Task Group. 2020. Audubon Core Structure. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/structure/
 
 ## 1 Introduction
 
@@ -63,6 +65,10 @@ the development history in detail.
 Sections 2 through 4 of this document are normative except for example sections, which are labeled as non-normative.  
 
 
+### 1.2 RFC 2119 key words
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119. [RFC-2119](https://tools.ietf.org/html/rfc2119)
+
+
 ## 2 Terminology of this specification
 
 There are many ways to organize metadata specifications, particularly as
@@ -82,13 +88,6 @@ following as they apply to the Audubon Core:
     Unique IDentifier (GUID), which may have been assigned to the
     resource by an external authority or by the provider of the metadata
     record.
-  - AC terms are divided into two *Layers*. Those characterized as in
-    *Layer 1*, including the four mandatory terms, should be
-    meaningfully handled by all consuming client applications. Only
-    wholly complete consuming applications need handle those in the
-    *Layer 2.* What is meant by "meaningfully handle" is up to
-    implementers of this normative specification. It could be as simple
-    as "gracefully ignore".
 
 In the [Audubon Core Term List](terms), every AC
 term has a *term name* following a table entry *"Term:"*, a *URI*, a
@@ -113,7 +112,7 @@ recommendations only and are offered only in English, with the added
 expectation that they may clarify intended usage of the term.
 Communities may wish to promulgate recommendations for Labels in other
 languages, or even alternative English Labels for specialized audiences,
-e.g. school children. Labels are may be used for navigation within the
+e.g. school children. Labels MAY be used for navigation within the
 Term List, and are often used within the Term List itself when a term is
 mentioned within the documentation of another term. The Term List
 provides indices both by name and label.
@@ -163,12 +162,12 @@ Core this situation occurs, for example, in the following cases:
     to be associated with ac:metadataLanguage. One approach here is to
     use complete Audubon Core records together with the [Metadata Language](./terms#ac_metadataLanguage)
     property; see there for further detail.
-  - The values of properties about a Service Access Point must remain
+  - The values of properties about a Service Access Point MUST remain
     associated with that Service Access Point even if there are multiple
     Service Access Points. See
     [hasServiceAccessPoint](./terms#ac_hasServiceAccessPoint)
     for further details.
-  - The terms dwc:scientificName and dwc:identificationQualifier may
+  - The terms dwc:scientificName and dwc:identificationQualifier MAY
     optionally be structured into pairs. (See the notes on
     [dwc:identificationQualifier](./terms#dwc_identificationQualifier).)
   - The terms
@@ -211,15 +210,14 @@ to one of the options discussed for multilingual metadata (see [Metadata Languag
       ...
       <ac:hasServiceAccessPoint>http://example.com/pictures/thePicture.jpg#ac0001</ac:hasServiceAccessPoint>
       <ac:hasServiceAccessPoint>http://example.com/pictures/thePicture.jpg#ac0002</ac:hasServiceAccessPoint>
-      <ac-classes:ServiceAccessPoint id="http://example.com/pictures/thePicture.jpg#ac0001">
+      <ac:ServiceAccessPoint id="http://example.com/pictures/thePicture.jpg#ac0001">
         <dcterms:format>jpg</dcterms:format>
         <ac:accessURI>http://example.com/fullres/thePicture.jpg</ac:accessURI>
         ...
-      </ac-classes:ServiceAccessPoint>
+      </ac:ServiceAccessPoint>
       ...
     <MEDIA_METADATA_CONTAINER>
 
-Note: ac-classes:ServiceAccessPoint is a made-up term for the Service Access Point class.  An official term may be designated at some future time.
 
 
 #### 3.1.3 Repeated container element XML example (non-normative)
@@ -344,4 +342,4 @@ defined for cases in which the separator is part of the metadata value.
 Unfortunately, even for standard list formats like CSV, different
 software packages choose different escape methods, hindering
 interchange. In the absence of an implementation-specific choice we
-recommend to use "|" as separator and "\\|" as an escaped vertical bar.
+RECOMMEND to use "|" as separator and "\\|" as an escaped vertical bar.

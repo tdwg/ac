@@ -1,5 +1,5 @@
 ---
-permalink: /structure/
+permalink: /structure/2013-10-23
 ---
 
 # Audubon Core Structure
@@ -14,7 +14,9 @@ permalink: /structure/
 
 **This version:** http://rs.tdwg.org/ac/doc/structure/2013-10-23
 
-**Latest version:** http://rs.tdwg.org/ac/doc/structure/
+**Latest version:** [http://rs.tdwg.org/ac/doc/structure/](../)
+
+**Replaced by:** [http://rs.tdwg.org/ac/doc/structure/2020-01-27](../)
 
 **Abstract:** The Audubon Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
