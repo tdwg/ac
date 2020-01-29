@@ -29,9 +29,9 @@ their taxonomic, geographic, and temporal coverage, and the appropriate
 ways to retrieve, attribute and reproduce them. This document contains a
 list of attributes of each Audubon Core term, including a documentation
 name, a specified URI, a recommended English label for user interfaces,
-a definition, and some ancillary notes. The version shown here has been
+a definition, and some ancillary notes. The version shown here was
 adopted by Biodiversity Information Standards / TDWG at the general
-meeting in October 2013. This document contains normative content that
+meeting in October 2013 and updated in 2020. This document contains normative content that
 may not be changed without due process.
 
 **Contributors:** Robert A. Morris, Vijay Barve, Mihail Carausu, Vishwas
@@ -85,13 +85,13 @@ Note: URIs for terms in most of these namespaces do not dereference to anything.
 
 | Vocabulary | Abbreviation | Namespaces and abbreviations |
 |------------|--------------|------------------------------|
-| [Darwin Core](https://dwc.tdwg.org/terms/) | DwC         | dwc: = http://rs.tdwg.org/dwc/terms/
-| [Dublin Core](http://dublincore.org/documents/dcmi-terms/) | DC          | dc: = http://purl.org/dc/elements/1.1/, dcterms: = http://purl.org/dc/terms/ |
-| [Adobe XMP Core Properties](https://wwwimages2.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2016-08/XMPSpecificationPart1.pdf) | XMP | xmp: = http://ns.adobe.com/xap/1.0/, xmpRights: = http://ns.adobe.com/xap/1.0/rights/ |
-| [Adobe XMP Additional Properties](http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2014-12/XMPSpecificationPart2.pdf) | XMP | photoshop: = http://ns.adobe.com/photoshop/1.0/ |
-| [International Press and Telecommunications Council Photo Metadata Standard,Extension Schema 1.1](http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf) | IPTC | Iptc4xmpExt: = http://iptc.org/std/Iptc4xmpExt/2008-02-29/ |
-| [Camera and Imaging Products Association Exchangeable Image File Format](http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf) | EXIF | exif: = http://ns.adobe.com/exif/1.0/ |
-| [TDWG Natural Collection Description LSID Ontology](https://github.com/tdwg/ontology/blob/master/ontology/voc/Collection.rdf) (referenced in metadata, but no terms borrowed) | NCD | ncd: = http://rs.tdwg.org/ontology/voc/Collection# |
+| [Darwin Core](https://dwc.tdwg.org/terms/) | DwC         | `dwc: = http://rs.tdwg.org/dwc/terms/`
+| [Dublin Core](http://dublincore.org/documents/dcmi-terms/) | DC          | `dc: = http://purl.org/dc/elements/1.1/, dcterms: = http://purl.org/dc/terms/` |
+| [Adobe XMP Core Properties](https://wwwimages2.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2016-08/XMPSpecificationPart1.pdf) | XMP | `xmp: = http://ns.adobe.com/xap/1.0/, xmpRights: = http://ns.adobe.com/xap/1.0/rights/` |
+| [Adobe XMP Additional Properties](http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2014-12/XMPSpecificationPart2.pdf) | XMP | `photoshop: = http://ns.adobe.com/photoshop/1.0/` |
+| [International Press and Telecommunications Council Photo Metadata Standard,Extension Schema 1.1](http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf) | IPTC | `Iptc4xmpExt: = http://iptc.org/std/Iptc4xmpExt/2008-02-29/` |
+| [Camera and Imaging Products Association Exchangeable Image File Format](http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf) | EXIF | `exif: = http://ns.adobe.com/exif/1.0/` |
+| [TDWG Natural Collection Description LSID Ontology](https://github.com/tdwg/ontology/blob/master/ontology/voc/Collection.rdf) (referenced in metadata, but no terms borrowed) | NCD | `ncd: = http://rs.tdwg.org/ontology/voc/Collection#` |
 
 
 ## 3 Namespaces, Prefixes and Term Names
