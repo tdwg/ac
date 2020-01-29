@@ -93,11 +93,7 @@ In the [Audubon Core Term List](terms), every AC
 term has a *term name* following a table entry *"Term:"*, a *URI*, a
 plain text normative *Definition*, a recommended English *Label*, an
 optional *Notes* attribute. In addition, a term has an attribute telling
-whether it is mandatory, one telling whether it is repeatable, and one
-telling whether it is in Layer 1 or 2. Layer 2 comprises terms likely to
-only occur for certain media. For example, the term *DateAvailable* will
-apply only to media that are embargoed, but for which the provider is
-prepared to make the metadata immediately available.
+whether it is mandatory and one telling whether it is repeatable.
 
 AC metadata can describe either individual multimedia resources or
 collections of resources. A few, but not many, of the AC properties have
@@ -147,27 +143,27 @@ repeatability.
 The simplest case is a single repeatable term (e.g.,
 dcterms:identifier). In representations based on an XML Schema that
 permits elements to be repeated such a term may simply be repeated (e.g.
-"...&lt;dcterms:identifier&gt;http&#58;//example.com/123&lt;dcterms:identifier&gt;&lt;dcterms:identifier&gt;http&#58;//example.com/456&lt;dcterms:identifier&gt;...").
+"`...<dcterms:identifier>http://example.com/123</dcterms:identifier><dcterms:identifier>http://example.com</dcterms:identifier>...`").
 In serializations that do not easily lend themselves to repeatable
 elements (e.g. "flat" schemata with all elements occurring only a single
 time in an otherwise unstructured record) it is possible to define
 separators to support a list of values within a single element (e.g.
-"...&lt;dcterms:identifier&gt;http&#58;//example.com/123;
-http&#58;//example.com/456&lt;dcterms:identifier&gt;...").
+"`...<dcterms:identifier>http://example.com/123;
+http://example.com/456</dcterms:identifier>...`").
 
 In certain cases pairs or tuples of properties are repeated. In Audubon
 Core this situation occurs, for example, in the following cases:
 
   - The language-dependent metadata like title, description, etc. need
-    to be associated with ac:metadataLanguage. One approach here is to
+    to be associated with `ac:metadataLanguage`. One approach here is to
     use complete Audubon Core records together with the [Metadata Language](./terms#ac_metadataLanguage)
     property; see there for further detail.
   - The values of properties about a Service Access Point MUST remain
     associated with that Service Access Point even if there are multiple
     Service Access Points. See
-    [hasServiceAccessPoint](./terms#ac_hasServiceAccessPoint)
+    [ac:hasServiceAccessPoint](./terms#ac_hasServiceAccessPoint)
     for further details.
-  - The terms dwc:scientificName and dwc:identificationQualifier MAY
+  - The terms `dwc:scientificName` and `dwc:identificationQualifier` MAY
     optionally be structured into pairs. (See the notes on
     [dwc:identificationQualifier](./terms#dwc_identificationQualifier).)
   - The terms
@@ -181,9 +177,9 @@ Core this situation occurs, for example, in the following cases:
 
 Many serialization languages provide sufficiently structured forms to
 deal with repeated terms unambiguously. In XML, we might define
-a container element and use a nesting structure as in Section 3.2.  Alternatively, in XML we may reference access points by identifier as in Section 3.3.  Where such structures are impossible or undesirable, an alternative
+a container element and use a nesting structure as in Section 3.1.1  Alternatively, in XML we may reference access points by identifier as in Section 3.1.2  Where such structures are impossible or undesirable, an alternative
 solution is to permit only one access point per
-container element, but to repeat the container element for a single media resource, as shown in section 3.4. This is similar
+container element, but to repeat the container element for a single media resource, as shown in section 3.1.3 This is similar
 to one of the options discussed for multilingual metadata (see [Metadata Language](./terms#ac_metadataLanguage)).
 
 
@@ -239,22 +235,15 @@ to one of the options discussed for multilingual metadata (see [Metadata Languag
 
 ### 3.2 Tabular serializations
 
-The same data as in examples 3.2 through 3.4 can be serialized as a "flat" spreadsheet-like
+The same data as in examples 3.1.1 through 3.1.3 can be serialized as a "flat" spreadsheet-like
 table.  
 
-In the example of Section 3.6, only the required identifier is repeated, but not
+In the example of Section 3.2.1, only the required identifier is repeated, but not
 the title field. Whether to repeat all fields or whether to provide all
 fields only in the first record, limiting later records to the
 identifier and the service access point properties, is left to specific
-implementations. In the example of Section 3.6, the ac:hasServiceAccessPoint property is suppressed
+implementations. In the example of Section 3.2.1, the `ac:hasServiceAccessPoint` property is suppressed
 as unnecessary.
-
-Another approach also eliminates the need for the ac:hasServiceAccessPoint property when
-flattening the ac structure. It is based on introducing new terms
-exploiting values of the [ac:variantLiteral](./terms#ac_variantLiteral):
-"Thumbnail", "Trailer", "Lower Quality", "Medium Quality", "Good
-Quality", "Best Quality", "Offline", as prefixes for additional
-properties in a new namespace.
 
 #### 3.2.1 Example of a table with each service access point in a separate row (non-normative)
 
@@ -290,6 +279,13 @@ properties in a new namespace.
     </tr>
   </tbody>
 </table>
+
+Another approach (Section 3.2.2) also eliminates the need for the `ac:hasServiceAccessPoint` property when
+flattening the ac structure. It is based on introducing new terms
+exploiting values of the [ac:variantLiteral](./terms#ac_variantLiteral):
+"Thumbnail", "Trailer", "Lower Quality", "Medium Quality", "Good
+Quality", "Best Quality", "Offline", as prefixes for additional
+properties in a new namespace.
 
 #### 3.2.2 Example of a table with metadata for all service access points in the same row (non-normative)
 
@@ -330,7 +326,7 @@ properties in a new namespace.
   </tbody>
 </table>
 
-Note: acf: (for "Audubon Core Flat") is a made-up namespace.  Communities of interest might mint such terms in order to use this kind of structure.
+Note: `acf:` (for "Audubon Core Flat") is a made-up namespace.  Communities of interest might mint such terms in order to use this kind of structure.
 
 ## 4 Lists of plain text values
 
