@@ -1,5 +1,6 @@
 # Script to build the Audubon Core term list page using Markdown.
 # Steve Baskauf 2018-06-20
+# Updated 2020-01-28
 # This script merges static Markdown header and footer documents with term information tables (in Markdown) generated from data in the rs.tdwg.org repo from the TDWG Github site
 
 # Note: this script calls a function from http_library.py, which requires importing the requests, csv, and json modules
