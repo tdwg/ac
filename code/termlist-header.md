@@ -53,7 +53,7 @@ There are four documents included in the Aububon Core Standard.  This document p
 Sections 1.3 through 5 are normative, except for Table 1.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Audubon Core.  The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
 
 ### 1.2 RFC 2119 key words
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC-2119](https://tools.ietf.org/html/rfc2119).
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
 ### 1.3 Categories of terms
 
@@ -85,7 +85,7 @@ Note: URIs for terms in most of these namespaces do not dereference to anything.
 
 | Vocabulary | Abbreviation | Namespaces and abbreviations |
 |------------|--------------|------------------------------|
-| [Darwin Core](http://tdwg.github.io/dwc/terms/index.htm) | DwC         | dwc: = http://rs.tdwg.org/dwc/terms/
+| [Darwin Core](https://dwc.tdwg.org/terms/) | DwC         | dwc: = http://rs.tdwg.org/dwc/terms/
 | [Dublin Core](http://dublincore.org/documents/dcmi-terms/) | DC          | dc: = http://purl.org/dc/elements/1.1/, dcterms: = http://purl.org/dc/terms/ |
 | [Adobe XMP Core Properties](https://wwwimages2.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2016-08/XMPSpecificationPart1.pdf) | XMP | xmp: = http://ns.adobe.com/xap/1.0/, xmpRights: = http://ns.adobe.com/xap/1.0/rights/ |
 | [Adobe XMP Additional Properties](http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2014-12/XMPSpecificationPart2.pdf) | XMP | photoshop: = http://ns.adobe.com/photoshop/1.0/ |
@@ -112,7 +112,7 @@ vocabularies, e.g those of the
 provide versions of the same term in two different namespaces, one
 providing for string values and one providing for URIs, even where that
 separation is simply a recommendation, not a mandate. See this
-[DCMI wiki entry](http://wiki.dublincore.org/index.php/FAQ/DC_and_DCTERMS_Namespaces)
+[DCMI wiki entry](https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md)
 on this topic. For vocabularies where such a practice is in place, we
 often follow it and signal a reference in the Notes of our term
 descriptions to the sister version of the term. An example is the pair

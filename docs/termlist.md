@@ -53,7 +53,7 @@ There are four documents included in the Aububon Core Standard.  This document p
 Sections 1.3 through 5 are normative, except for Table 1.  In Section 7 and its subparts, the values of the Normative URI, Definition, Layer, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Audubon Core.  The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
 
 ### 1.2 RFC 2119 key words
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC-2119](https://tools.ietf.org/html/rfc2119).
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
 ### 1.3 Categories of terms
 
@@ -85,7 +85,7 @@ Note: URIs for terms in most of these namespaces do not dereference to anything.
 
 | Vocabulary | Abbreviation | Namespaces and abbreviations |
 |------------|--------------|------------------------------|
-| [Darwin Core](http://tdwg.github.io/dwc/terms/index.htm) | DwC         | dwc: = http://rs.tdwg.org/dwc/terms/
+| [Darwin Core](https://dwc.tdwg.org/terms/) | DwC         | dwc: = http://rs.tdwg.org/dwc/terms/
 | [Dublin Core](http://dublincore.org/documents/dcmi-terms/) | DC          | dc: = http://purl.org/dc/elements/1.1/, dcterms: = http://purl.org/dc/terms/ |
 | [Adobe XMP Core Properties](https://wwwimages2.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2016-08/XMPSpecificationPart1.pdf) | XMP | xmp: = http://ns.adobe.com/xap/1.0/, xmpRights: = http://ns.adobe.com/xap/1.0/rights/ |
 | [Adobe XMP Additional Properties](http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2014-12/XMPSpecificationPart2.pdf) | XMP | photoshop: = http://ns.adobe.com/photoshop/1.0/ |
@@ -112,7 +112,7 @@ vocabularies, e.g those of the
 provide versions of the same term in two different namespaces, one
 providing for string values and one providing for URIs, even where that
 separation is simply a recommendation, not a mandate. See this
-[DCMI wiki entry](http://wiki.dublincore.org/index.php/FAQ/DC_and_DCTERMS_Namespaces)
+[DCMI wiki entry](https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md)
 on this topic. For vocabularies where such a practice is in place, we
 often follow it and signal a reference in the Notes of our term
 descriptions to the sister version of the term. An example is the pair
@@ -2061,7 +2061,7 @@ required values are strings or URIs.
 
 Note that [dwc:locality](http://rs.tdwg.org/dwc/terms/locality) may be used, but as applied to media this term may be ambiguous as to whether it applies to the location depicted or the location at which the media was created. When disambiguating information is available, it is better to use the terms Location Shown and Location Created. The latter is in the Resource Creation Vocabulary.
 
-Location Created and Location Shown are separated in the current version of IPTC, and the Metadata Working Group ([Metadata Working Group Guidelines for Handling Image Metadata, Version 2.0, November 2010](http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf)) also recommends this. We follow this below in order to support the expected future increase of automatic GPS-based coordinate recording. As a special case, the AC group recommends to change the semantics of Location Shown in the case of biodiversity specimens, where the original location may differ from the current location at which the specimen is held in a collection. In this case, Location Shown should exclusively refer to the location where a specimen was originally collected (gathering or sampling location). Use Location Created to express the location where the resource was created (a specimen was digitized).
+Location Created and Location Shown are separated in the current version of IPTC, and the Metadata Working Group ([Metadata Working Group Guidelines for Handling Image Metadata, Version 2.0, November 2010](https://web.archive.org/web/20180919181934/http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf)) also recommends this. We follow this below in order to support the expected future increase of automatic GPS-based coordinate recording. As a special case, the AC group recommends to change the semantics of Location Shown in the case of biodiversity specimens, where the original location may differ from the current location at which the specimen is held in a collection. In this case, Location Shown should exclusively refer to the location where a specimen was originally collected (gathering or sampling location). Use Location Created to express the location where the resource was created (a specimen was digitized).
 
 <table>
 	<thead>
@@ -4294,7 +4294,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 
 ### 7.10 Service Access Point Vocabulary
 
-These terms are representation-dependent metadata, referring to specific digital representations of a resource (e.g., a specific resolution, quality, or format). They are used within whatever a particular AC implementation assigns to the value of hasServiceAccessPoint, whose label is simply "Service Access Point." Note that it is possible for an implementation to use syntactic conventions that avoid direct use of hasServiceAccessPoint, as illustrated in the final example in the section [Multiplicity/Cardinality in the Audubon Core Structure document](structure.md#3-multiplicity-and-cardinality).
+These terms are representation-dependent metadata, referring to specific digital representations of a resource (e.g., a specific resolution, quality, or format). They are used within whatever a particular AC implementation assigns to the value of `ac:hasServiceAccessPoint`, whose label is simply "Service Access Point." Note that it is possible for an implementation to use syntactic conventions that avoid direct use of `ac:hasServiceAccessPoint`, as illustrated in the final example in the section [Multiplicity/Cardinality in the Audubon Core Structure document](structure.md#3-multiplicity-and-cardinality).
 
 <table>
 	<thead>
