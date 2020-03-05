@@ -18,8 +18,6 @@ Matthew Nielsen [matthew.nielsen@zoologi.su.se](mailto:matthew.nielsen@zoologi.s
 
 Randy Singer [randalas@umich.edu](mailto:randalas@umich.edu) - University of Michigan
 
-Martin Stein [mdv290@ku.dk](mailto:mdv290@ku.dk) - Natural History Museum of Denmark
-
 To see all of the people who are paying attention to our work, see the list of ["watchers"](https://github.com/tdwg/ac/watchers).  The people on this list are effectively the "regular members" of the group.
 
 ## Participating in the Group
