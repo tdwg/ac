@@ -48,7 +48,7 @@ Our charter as submitted is [here](https://github.com/tdwg/ac/blob/master/views/
 
 [2020-03-24](historical/vcv-notes-2020-03-24.pdf)
 
-[2020-03-24](historical/vcv-notes-2020-04-28.pdf)
+[2020-04-28](historical/vcv-notes-2020-04-28.pdf)
 
 [2020-05-13](historical/vcv-notes-2020-05-13.pdf)
 
@@ -57,4 +57,4 @@ Our charter as submitted is [here](https://github.com/tdwg/ac/blob/master/views/
 [2019 Annual Report](historical/vtg-2019-annual-report.md)
 
 ---
-Revised 2020-05-14
+Revised 2020-05-28
