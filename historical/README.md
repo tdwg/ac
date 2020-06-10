@@ -24,6 +24,8 @@ The contents of this folder are items that are primarily of historical interest.
 
 [2020-05-20](2020-05-20-meeting-notes.pdf)
 
+[2020-06-10](2020-06-10-meeting-notes.pdf)
+
 **Annual reports to the Executive Committee**
 
 [2018](ac-2018-annual-report.md)
