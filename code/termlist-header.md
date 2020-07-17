@@ -38,9 +38,9 @@ may not be changed without due process.
 Chavan, José Cuadra, Chris Freeland, Gregor Hagedorn, Patrick Leary,
 Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage, Steve Baskauf
 
-**Creator:** GBIF/TDWG Multimedia Resources Task Group
+**Creator:** GBIF/TDWG Multimedia Resources Task Group and Audubon Core Maintenance Group
 
-**Bibliographic citation:** Multimedia Resources Task Group. 2020. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/
+**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/2020-01-27
 
 
 ## 1 Introduction

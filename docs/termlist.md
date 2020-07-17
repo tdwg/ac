@@ -38,9 +38,9 @@ may not be changed without due process.
 Chavan, José Cuadra, Chris Freeland, Gregor Hagedorn, Patrick Leary,
 Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage, Steve Baskauf
 
-**Creator:** GBIF/TDWG Multimedia Resources Task Group
+**Creator:** GBIF/TDWG Multimedia Resources Task Group and Audubon Core Maintenance Group
 
-**Bibliographic citation:** Multimedia Resources Task Group. 2020. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/
+**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/2020-01-27
 
 
 ## 1 Introduction
@@ -487,8 +487,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/available">http://purl.org/dc/terms/available</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#available-003">http://dublincore.org/usage/terms/history/#available-003</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -521,8 +525,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/commenter">http://rs.tdwg.org/ac/terms/commenter</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/commenter-2020-01-27">http://rs.tdwg.org/ac/terms/version/commenter-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -555,8 +563,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/commenterLiteral">http://rs.tdwg.org/ac/terms/commenterLiteral</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/commenterLiteral-2020-01-27">http://rs.tdwg.org/ac/terms/version/commenterLiteral-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -585,8 +597,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/comments">http://rs.tdwg.org/ac/terms/comments</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/comments-2020-01-27">http://rs.tdwg.org/ac/terms/version/comments-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -619,8 +635,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/hasServiceAccessPoint">http://rs.tdwg.org/ac/terms/hasServiceAccessPoint</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/hasServiceAccessPoint-2020-01-27">http://rs.tdwg.org/ac/terms/version/hasServiceAccessPoint-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -649,8 +669,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/identifier">http://purl.org/dc/terms/identifier</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#identifierT-001">http://dublincore.org/usage/terms/history/#identifierT-001</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -683,7 +707,7 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://ns.adobe.com/xap/1.0/MetadataDate">http://ns.adobe.com/xap/1.0/MetadataDate</a></td>
 		</tr>
 		<tr>
@@ -717,8 +741,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/metadataLanguage">http://rs.tdwg.org/ac/terms/metadataLanguage</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/metadataLanguage-2020-01-27">http://rs.tdwg.org/ac/terms/version/metadataLanguage-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -751,8 +779,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/metadataLanguageLiteral">http://rs.tdwg.org/ac/terms/metadataLanguageLiteral</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/metadataLanguageLiteral-2020-01-27">http://rs.tdwg.org/ac/terms/version/metadataLanguageLiteral-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -785,8 +817,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/modified">http://purl.org/dc/terms/modified</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#modified-003">http://dublincore.org/usage/terms/history/#modified-003</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -819,8 +855,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/providerManagedID">http://rs.tdwg.org/ac/terms/providerManagedID</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/providerManagedID-2020-01-27">http://rs.tdwg.org/ac/terms/version/providerManagedID-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -849,7 +889,7 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://ns.adobe.com/xap/1.0/Rating">http://ns.adobe.com/xap/1.0/Rating</a></td>
 		</tr>
 		<tr>
@@ -883,8 +923,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/reviewer">http://rs.tdwg.org/ac/terms/reviewer</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/reviewer-2020-01-27">http://rs.tdwg.org/ac/terms/version/reviewer-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -917,8 +961,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/reviewerComments">http://rs.tdwg.org/ac/terms/reviewerComments</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/reviewerComments-2020-01-27">http://rs.tdwg.org/ac/terms/version/reviewerComments-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -947,8 +995,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/reviewerLiteral">http://rs.tdwg.org/ac/terms/reviewerLiteral</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/reviewerLiteral-2020-01-27">http://rs.tdwg.org/ac/terms/version/reviewerLiteral-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -981,8 +1033,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/subtype">http://rs.tdwg.org/ac/terms/subtype</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/subtype-2020-01-27">http://rs.tdwg.org/ac/terms/version/subtype-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1015,8 +1071,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/subtypeLiteral">http://rs.tdwg.org/ac/terms/subtypeLiteral</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/subtypeLiteral-2020-01-27">http://rs.tdwg.org/ac/terms/version/subtypeLiteral-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1049,8 +1109,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/title">http://purl.org/dc/terms/title</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#titleT-002">http://dublincore.org/usage/terms/history/#titleT-002</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1083,8 +1147,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/elements/1.1/type">http://purl.org/dc/elements/1.1/type</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#type-006">http://dublincore.org/usage/terms/history/#type-006</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1117,8 +1185,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/type">http://purl.org/dc/terms/type</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#typeT-001">http://dublincore.org/usage/terms/history/#typeT-001</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1154,8 +1226,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/attributionLinkURL">http://rs.tdwg.org/ac/terms/attributionLinkURL</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/attributionLinkURL-2020-01-27">http://rs.tdwg.org/ac/terms/version/attributionLinkURL-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1184,8 +1260,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/attributionLogoURL">http://rs.tdwg.org/ac/terms/attributionLogoURL</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/attributionLogoURL-2020-01-27">http://rs.tdwg.org/ac/terms/version/attributionLogoURL-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1214,7 +1294,7 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://ns.adobe.com/photoshop/1.0/Credit">http://ns.adobe.com/photoshop/1.0/Credit</a></td>
 		</tr>
 		<tr>
@@ -1248,8 +1328,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/fundingAttribution">http://rs.tdwg.org/ac/terms/fundingAttribution</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/fundingAttribution-2020-01-27">http://rs.tdwg.org/ac/terms/version/fundingAttribution-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1274,8 +1358,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/licenseLogoURL">http://rs.tdwg.org/ac/terms/licenseLogoURL</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/licenseLogoURL-2020-01-27">http://rs.tdwg.org/ac/terms/version/licenseLogoURL-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1304,7 +1392,7 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://ns.adobe.com/xap/1.0/rights/Owner">http://ns.adobe.com/xap/1.0/rights/Owner</a></td>
 		</tr>
 		<tr>
@@ -1338,8 +1426,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/elements/1.1/rights">http://purl.org/dc/elements/1.1/rights</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#rights-006">http://dublincore.org/usage/terms/history/#rights-006</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1372,8 +1464,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/rights">http://purl.org/dc/terms/rights</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#rightsT-001">http://dublincore.org/usage/terms/history/#rightsT-001</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1406,8 +1502,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/elements/1.1/source">http://purl.org/dc/elements/1.1/source</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#source-006">http://dublincore.org/usage/terms/history/#source-006</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1440,8 +1540,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/source">http://purl.org/dc/terms/source</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#sourceT-001">http://dublincore.org/usage/terms/history/#sourceT-001</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1474,7 +1578,7 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://ns.adobe.com/xap/1.0/rights/UsageTerms">http://ns.adobe.com/xap/1.0/rights/UsageTerms</a></td>
 		</tr>
 		<tr>
@@ -1508,7 +1612,7 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://ns.adobe.com/xap/1.0/rights/WebStatement">http://ns.adobe.com/xap/1.0/rights/WebStatement</a></td>
 		</tr>
 		<tr>
@@ -1545,8 +1649,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/elements/1.1/creator">http://purl.org/dc/elements/1.1/creator</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#creator-006">http://dublincore.org/usage/terms/history/#creator-006</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1579,8 +1687,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/creator">http://purl.org/dc/terms/creator</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#creatorT-002">http://dublincore.org/usage/terms/history/#creatorT-002</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1613,8 +1725,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/metadataCreator">http://rs.tdwg.org/ac/terms/metadataCreator</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/metadataCreator-2020-01-27">http://rs.tdwg.org/ac/terms/version/metadataCreator-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1643,8 +1759,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/metadataCreatorLiteral">http://rs.tdwg.org/ac/terms/metadataCreatorLiteral</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/metadataCreatorLiteral-2020-01-27">http://rs.tdwg.org/ac/terms/version/metadataCreatorLiteral-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1673,8 +1793,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/metadataProvider">http://rs.tdwg.org/ac/terms/metadataProvider</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/metadataProvider-2020-01-27">http://rs.tdwg.org/ac/terms/version/metadataProvider-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1703,8 +1827,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/metadataProviderLiteral">http://rs.tdwg.org/ac/terms/metadataProviderLiteral</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/metadataProviderLiteral-2020-01-27">http://rs.tdwg.org/ac/terms/version/metadataProviderLiteral-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1733,8 +1861,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/provider">http://rs.tdwg.org/ac/terms/provider</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/provider-2020-01-27">http://rs.tdwg.org/ac/terms/version/provider-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1767,8 +1899,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/providerLiteral">http://rs.tdwg.org/ac/terms/providerLiteral</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/providerLiteral-2020-01-27">http://rs.tdwg.org/ac/terms/version/providerLiteral-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1804,8 +1940,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/caption">http://rs.tdwg.org/ac/terms/caption</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/caption-2020-01-27">http://rs.tdwg.org/ac/terms/version/caption-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1834,7 +1974,7 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/CVterm">http://iptc.org/std/Iptc4xmpExt/2008-02-29/CVterm</a></td>
 		</tr>
 		<tr>
@@ -1868,8 +2008,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/description">http://purl.org/dc/terms/description</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#descriptionT-001">http://dublincore.org/usage/terms/history/#descriptionT-001</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1902,8 +2046,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/elements/1.1/language">http://purl.org/dc/elements/1.1/language</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#language-007">http://dublincore.org/usage/terms/history/#language-007</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1936,8 +2084,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/language">http://purl.org/dc/terms/language</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#languageT-001">http://dublincore.org/usage/terms/history/#languageT-001</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1970,8 +2122,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/physicalSetting">http://rs.tdwg.org/ac/terms/physicalSetting</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/physicalSetting-2020-01-27">http://rs.tdwg.org/ac/terms/version/physicalSetting-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2004,8 +2160,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/subjectCategoryVocabulary">http://rs.tdwg.org/ac/terms/subjectCategoryVocabulary</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/subjectCategoryVocabulary-2020-01-27">http://rs.tdwg.org/ac/terms/version/subjectCategoryVocabulary-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2034,8 +2194,12 @@ required values are strings or URIs.
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/tag">http://rs.tdwg.org/ac/terms/tag</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/tag-2020-01-27">http://rs.tdwg.org/ac/terms/version/tag-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2071,7 +2235,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/City">http://iptc.org/std/Iptc4xmpExt/2008-02-29/City</a></td>
 		</tr>
 		<tr>
@@ -2101,8 +2265,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/continent">http://rs.tdwg.org/dwc/terms/continent</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/continent-2009-04-24">http://rs.tdwg.org/dwc/terms/version/continent-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2127,8 +2295,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/coordinatePrecision">http://rs.tdwg.org/dwc/terms/coordinatePrecision</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/coordinatePrecision-2009-04-24">http://rs.tdwg.org/dwc/terms/version/coordinatePrecision-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2153,8 +2325,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters">http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/coordinateUncertaintyInMeters-2009-04-24">http://rs.tdwg.org/dwc/terms/version/coordinateUncertaintyInMeters-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2179,8 +2355,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/country">http://rs.tdwg.org/dwc/terms/country</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/country-2009-04-24">http://rs.tdwg.org/dwc/terms/version/country-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2205,7 +2385,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/CountryCode">http://iptc.org/std/Iptc4xmpExt/2008-02-29/CountryCode</a></td>
 		</tr>
 		<tr>
@@ -2239,8 +2419,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/countryCode">http://rs.tdwg.org/dwc/terms/countryCode</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/countryCode-2009-04-24">http://rs.tdwg.org/dwc/terms/version/countryCode-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2265,7 +2449,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/CountryName">http://iptc.org/std/Iptc4xmpExt/2008-02-29/CountryName</a></td>
 		</tr>
 		<tr>
@@ -2295,8 +2479,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/county">http://rs.tdwg.org/dwc/terms/county</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/county-2009-04-24">http://rs.tdwg.org/dwc/terms/version/county-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2321,8 +2509,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/decimalLatitude">http://rs.tdwg.org/dwc/terms/decimalLatitude</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/decimalLatitude-2009-04-24">http://rs.tdwg.org/dwc/terms/version/decimalLatitude-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2347,8 +2539,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/decimalLongitude">http://rs.tdwg.org/dwc/terms/decimalLongitude</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/decimalLongitude-2009-04-24">http://rs.tdwg.org/dwc/terms/version/decimalLongitude-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2373,8 +2569,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/footprintSpatialFit">http://rs.tdwg.org/dwc/terms/footprintSpatialFit</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/footprintSpatialFit-2009-04-24">http://rs.tdwg.org/dwc/terms/version/footprintSpatialFit-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2399,8 +2599,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/footprintSRS">http://rs.tdwg.org/dwc/terms/footprintSRS</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/footprintSRS-2009-07-06">http://rs.tdwg.org/dwc/terms/version/footprintSRS-2009-07-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2425,8 +2629,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/footprintWKT">http://rs.tdwg.org/dwc/terms/footprintWKT</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/footprintWKT-2009-04-24">http://rs.tdwg.org/dwc/terms/version/footprintWKT-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2451,8 +2659,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/geodeticDatum">http://rs.tdwg.org/dwc/terms/geodeticDatum</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/geodeticDatum-2009-04-24">http://rs.tdwg.org/dwc/terms/version/geodeticDatum-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2477,8 +2689,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/georeferencedBy">http://rs.tdwg.org/dwc/terms/georeferencedBy</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/georeferencedBy-2009-04-24">http://rs.tdwg.org/dwc/terms/version/georeferencedBy-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2503,8 +2719,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/georeferenceProtocol">http://rs.tdwg.org/dwc/terms/georeferenceProtocol</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/georeferenceProtocol-2009-04-24">http://rs.tdwg.org/dwc/terms/version/georeferenceProtocol-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2529,8 +2749,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/georeferenceRemarks">http://rs.tdwg.org/dwc/terms/georeferenceRemarks</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/georeferenceRemarks-2009-04-24">http://rs.tdwg.org/dwc/terms/version/georeferenceRemarks-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2555,8 +2779,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/georeferenceSources">http://rs.tdwg.org/dwc/terms/georeferenceSources</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/georeferenceSources-2009-04-24">http://rs.tdwg.org/dwc/terms/version/georeferenceSources-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2581,8 +2809,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/georeferenceVerificationStatus">http://rs.tdwg.org/dwc/terms/georeferenceVerificationStatus</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/georeferenceVerificationStatus-2009-04-24">http://rs.tdwg.org/dwc/terms/version/georeferenceVerificationStatus-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2607,8 +2839,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/higherGeography">http://rs.tdwg.org/dwc/terms/higherGeography</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/higherGeography-2009-04-24">http://rs.tdwg.org/dwc/terms/version/higherGeography-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2633,8 +2869,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/higherGeographyID">http://rs.tdwg.org/dwc/terms/higherGeographyID</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/higherGeographyID-2009-04-24">http://rs.tdwg.org/dwc/terms/version/higherGeographyID-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2659,8 +2899,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/island">http://rs.tdwg.org/dwc/terms/island</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/island-2009-04-24">http://rs.tdwg.org/dwc/terms/version/island-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2685,8 +2929,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/islandGroup">http://rs.tdwg.org/dwc/terms/islandGroup</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/islandGroup-2009-04-24">http://rs.tdwg.org/dwc/terms/version/islandGroup-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2711,8 +2959,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/locality">http://rs.tdwg.org/dwc/terms/locality</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/locality-2009-04-24">http://rs.tdwg.org/dwc/terms/version/locality-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2737,8 +2989,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/locationAccordingTo">http://rs.tdwg.org/dwc/terms/locationAccordingTo</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/locationAccordingTo-2009-08-24">http://rs.tdwg.org/dwc/terms/version/locationAccordingTo-2009-08-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2763,8 +3019,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/locationID">http://rs.tdwg.org/dwc/terms/locationID</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/locationID-2009-04-24">http://rs.tdwg.org/dwc/terms/version/locationID-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2789,8 +3049,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/locationRemarks">http://rs.tdwg.org/dwc/terms/locationRemarks</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/locationRemarks-2009-04-24">http://rs.tdwg.org/dwc/terms/version/locationRemarks-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2815,7 +3079,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationShown">http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationShown</a></td>
 		</tr>
 		<tr>
@@ -2845,8 +3109,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/maximumDepthInMeters">http://rs.tdwg.org/dwc/terms/maximumDepthInMeters</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/maximumDepthInMeters-2009-04-24">http://rs.tdwg.org/dwc/terms/version/maximumDepthInMeters-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2871,8 +3139,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/maximumDistanceAboveSurfaceInMeters">http://rs.tdwg.org/dwc/terms/maximumDistanceAboveSurfaceInMeters</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/maximumDistanceAboveSurfaceInMeters-2009-04-24">http://rs.tdwg.org/dwc/terms/version/maximumDistanceAboveSurfaceInMeters-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2897,8 +3169,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/maximumElevationInMeters">http://rs.tdwg.org/dwc/terms/maximumElevationInMeters</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/maximumElevationInMeters-2009-04-24">http://rs.tdwg.org/dwc/terms/version/maximumElevationInMeters-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2923,8 +3199,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters">http://rs.tdwg.org/dwc/terms/minimumDepthInMeters</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/minimumDepthInMeters-2009-04-24">http://rs.tdwg.org/dwc/terms/version/minimumDepthInMeters-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2949,8 +3229,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/minimumDistanceAboveSurfaceInMeters">http://rs.tdwg.org/dwc/terms/minimumDistanceAboveSurfaceInMeters</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/minimumDistanceAboveSurfaceInMeters-2009-04-24">http://rs.tdwg.org/dwc/terms/version/minimumDistanceAboveSurfaceInMeters-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2975,8 +3259,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/minimumElevationInMeters">http://rs.tdwg.org/dwc/terms/minimumElevationInMeters</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/minimumElevationInMeters-2009-04-24">http://rs.tdwg.org/dwc/terms/version/minimumElevationInMeters-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3001,8 +3289,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/municipality">http://rs.tdwg.org/dwc/terms/municipality</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/municipality-2009-08-24">http://rs.tdwg.org/dwc/terms/version/municipality-2009-08-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3027,8 +3319,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/pointRadiusSpatialFit">http://rs.tdwg.org/dwc/terms/pointRadiusSpatialFit</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/pointRadiusSpatialFit-2009-04-24">http://rs.tdwg.org/dwc/terms/version/pointRadiusSpatialFit-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3053,7 +3349,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/ProvinceState">http://iptc.org/std/Iptc4xmpExt/2008-02-29/ProvinceState</a></td>
 		</tr>
 		<tr>
@@ -3083,8 +3379,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/stateProvince">http://rs.tdwg.org/dwc/terms/stateProvince</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/stateProvince-2009-04-24">http://rs.tdwg.org/dwc/terms/version/stateProvince-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3109,7 +3409,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/Sublocation">http://iptc.org/std/Iptc4xmpExt/2008-02-29/Sublocation</a></td>
 		</tr>
 		<tr>
@@ -3139,8 +3439,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">http://rs.tdwg.org/dwc/terms/verbatimCoordinates</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimCoordinates-2009-04-24">http://rs.tdwg.org/dwc/terms/version/verbatimCoordinates-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3165,8 +3469,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimCoordinateSystem">http://rs.tdwg.org/dwc/terms/verbatimCoordinateSystem</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimCoordinateSystem-2009-04-24">http://rs.tdwg.org/dwc/terms/version/verbatimCoordinateSystem-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3191,8 +3499,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimDepth">http://rs.tdwg.org/dwc/terms/verbatimDepth</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimDepth-2009-04-24">http://rs.tdwg.org/dwc/terms/version/verbatimDepth-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3217,8 +3529,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimElevation">http://rs.tdwg.org/dwc/terms/verbatimElevation</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimElevation-2009-04-24">http://rs.tdwg.org/dwc/terms/version/verbatimElevation-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3243,8 +3559,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimLatitude">http://rs.tdwg.org/dwc/terms/verbatimLatitude</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimLatitude-2009-04-24">http://rs.tdwg.org/dwc/terms/version/verbatimLatitude-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3269,8 +3589,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimLocality">http://rs.tdwg.org/dwc/terms/verbatimLocality</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimLocality-2009-04-24">http://rs.tdwg.org/dwc/terms/version/verbatimLocality-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3295,8 +3619,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimLongitude">http://rs.tdwg.org/dwc/terms/verbatimLongitude</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimLongitude-2009-04-24">http://rs.tdwg.org/dwc/terms/version/verbatimLongitude-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3321,8 +3649,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimSRS">http://rs.tdwg.org/dwc/terms/verbatimSRS</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimSRS-2009-07-06">http://rs.tdwg.org/dwc/terms/version/verbatimSRS-2009-07-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3347,8 +3679,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/waterBody">http://rs.tdwg.org/dwc/terms/waterBody</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/waterBody-2009-04-24">http://rs.tdwg.org/dwc/terms/version/waterBody-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3373,7 +3709,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/WorldRegion">http://iptc.org/std/Iptc4xmpExt/2008-02-29/WorldRegion</a></td>
 		</tr>
 		<tr>
@@ -3410,7 +3746,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://ns.adobe.com/xap/1.0/CreateDate">http://ns.adobe.com/xap/1.0/CreateDate</a></td>
 		</tr>
 		<tr>
@@ -3444,8 +3780,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/temporal">http://purl.org/dc/terms/temporal</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#temporal-003">http://dublincore.org/usage/terms/history/#temporal-003</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3478,8 +3818,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/timeOfDay">http://rs.tdwg.org/ac/terms/timeOfDay</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/timeOfDay-2020-01-27">http://rs.tdwg.org/ac/terms/version/timeOfDay-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3511,8 +3855,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/dateIdentified">http://rs.tdwg.org/dwc/terms/dateIdentified</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/dateIdentified-2009-08-24">http://rs.tdwg.org/dwc/terms/version/dateIdentified-2009-08-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3541,8 +3889,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/identificationQualifier">http://rs.tdwg.org/dwc/terms/identificationQualifier</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/identificationQualifier-2009-04-24">http://rs.tdwg.org/dwc/terms/version/identificationQualifier-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3575,8 +3927,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/identifiedBy">http://rs.tdwg.org/dwc/terms/identifiedBy</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/identifiedBy-2014-10-23">http://rs.tdwg.org/dwc/terms/version/identifiedBy-2014-10-23</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3605,8 +3961,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/lifeStage">http://rs.tdwg.org/dwc/terms/lifeStage</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/lifeStage-2009-04-24">http://rs.tdwg.org/dwc/terms/version/lifeStage-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3635,8 +3995,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/nameAccordingTo">http://rs.tdwg.org/dwc/terms/nameAccordingTo</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/nameAccordingTo-2009-09-21">http://rs.tdwg.org/dwc/terms/version/nameAccordingTo-2009-09-21</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3669,8 +4033,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/otherScientificName">http://rs.tdwg.org/ac/terms/otherScientificName</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/otherScientificName-2020-01-27">http://rs.tdwg.org/ac/terms/version/otherScientificName-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3699,8 +4067,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/preparations">http://rs.tdwg.org/dwc/terms/preparations</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/preparations-2014-10-23">http://rs.tdwg.org/dwc/terms/version/preparations-2014-10-23</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3733,8 +4105,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/scientificName">http://rs.tdwg.org/dwc/terms/scientificName</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/scientificName-2009-09-21">http://rs.tdwg.org/dwc/terms/version/scientificName-2009-09-21</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3767,8 +4143,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/scientificNameID">http://rs.tdwg.org/dwc/terms/scientificNameID</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/scientificNameID-2009-08-24">http://rs.tdwg.org/dwc/terms/version/scientificNameID-2009-08-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3797,8 +4177,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/sex">http://rs.tdwg.org/dwc/terms/sex</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/sex-2009-04-24">http://rs.tdwg.org/dwc/terms/version/sex-2009-04-24</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3827,8 +4211,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/subjectOrientation">http://rs.tdwg.org/ac/terms/subjectOrientation</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/subjectOrientation-2020-01-27">http://rs.tdwg.org/ac/terms/version/subjectOrientation-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3857,8 +4245,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/subjectPart">http://rs.tdwg.org/ac/terms/subjectPart</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/subjectPart-2020-01-27">http://rs.tdwg.org/ac/terms/version/subjectPart-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3887,8 +4279,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/taxonCount">http://rs.tdwg.org/ac/terms/taxonCount</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/taxonCount-2020-01-27">http://rs.tdwg.org/ac/terms/version/taxonCount-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3921,8 +4317,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/taxonCoverage">http://rs.tdwg.org/ac/terms/taxonCoverage</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/taxonCoverage-2020-01-27">http://rs.tdwg.org/ac/terms/version/taxonCoverage-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3951,8 +4351,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/dwc/terms/vernacularName">http://rs.tdwg.org/dwc/terms/vernacularName</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/vernacularName-2009-07-06">http://rs.tdwg.org/dwc/terms/version/vernacularName-2009-07-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3988,8 +4392,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/captureDevice">http://rs.tdwg.org/ac/terms/captureDevice</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/captureDevice-2020-01-27">http://rs.tdwg.org/ac/terms/version/captureDevice-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4018,8 +4426,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/digitizationDate">http://rs.tdwg.org/ac/terms/digitizationDate</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/digitizationDate-2020-01-27">http://rs.tdwg.org/ac/terms/version/digitizationDate-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4052,7 +4464,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationCreated">http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationCreated</a></td>
 		</tr>
 		<tr>
@@ -4086,8 +4498,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/resourceCreationTechnique">http://rs.tdwg.org/ac/terms/resourceCreationTechnique</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/resourceCreationTechnique-2020-01-27">http://rs.tdwg.org/ac/terms/version/resourceCreationTechnique-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4119,8 +4535,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/associatedObservationReference">http://rs.tdwg.org/ac/terms/associatedObservationReference</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/associatedObservationReference-2020-01-27">http://rs.tdwg.org/ac/terms/version/associatedObservationReference-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4145,8 +4565,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/associatedSpecimenReference">http://rs.tdwg.org/ac/terms/associatedSpecimenReference</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/associatedSpecimenReference-2020-01-27">http://rs.tdwg.org/ac/terms/version/associatedSpecimenReference-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4175,8 +4599,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/derivedFrom">http://rs.tdwg.org/ac/terms/derivedFrom</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/derivedFrom-2020-01-27">http://rs.tdwg.org/ac/terms/version/derivedFrom-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4209,8 +4637,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/IDofContainingCollection">http://rs.tdwg.org/ac/terms/IDofContainingCollection</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/IDofContainingCollection-2020-01-27">http://rs.tdwg.org/ac/terms/version/IDofContainingCollection-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4239,8 +4671,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/providerID">http://rs.tdwg.org/ac/terms/providerID</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/providerID-2020-01-27">http://rs.tdwg.org/ac/terms/version/providerID-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4269,8 +4705,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/relatedResourceID">http://rs.tdwg.org/ac/terms/relatedResourceID</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/relatedResourceID-2020-01-27">http://rs.tdwg.org/ac/terms/version/relatedResourceID-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4304,8 +4744,12 @@ These terms are representation-dependent metadata, referring to specific digital
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/accessURI">http://rs.tdwg.org/ac/terms/accessURI</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/accessURI-2020-01-27">http://rs.tdwg.org/ac/terms/version/accessURI-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4338,8 +4782,12 @@ These terms are representation-dependent metadata, referring to specific digital
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/elements/1.1/format">http://purl.org/dc/elements/1.1/format</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#format-007">http://dublincore.org/usage/terms/history/#format-007</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4372,8 +4820,12 @@ These terms are representation-dependent metadata, referring to specific digital
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/format">http://purl.org/dc/terms/format</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#formatT-001">http://dublincore.org/usage/terms/history/#formatT-001</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4406,8 +4858,12 @@ These terms are representation-dependent metadata, referring to specific digital
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/furtherInformationURL">http://rs.tdwg.org/ac/terms/furtherInformationURL</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/furtherInformationURL-2020-01-27">http://rs.tdwg.org/ac/terms/version/furtherInformationURL-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4432,8 +4888,12 @@ These terms are representation-dependent metadata, referring to specific digital
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/hashFunction">http://rs.tdwg.org/ac/terms/hashFunction</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/hashFunction-2020-01-27">http://rs.tdwg.org/ac/terms/version/hashFunction-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4462,8 +4922,12 @@ These terms are representation-dependent metadata, referring to specific digital
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/hashValue">http://rs.tdwg.org/ac/terms/hashValue</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/hashValue-2020-01-27">http://rs.tdwg.org/ac/terms/version/hashValue-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4492,8 +4956,12 @@ These terms are representation-dependent metadata, referring to specific digital
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/licensingException">http://rs.tdwg.org/ac/terms/licensingException</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/licensingException-2020-01-27">http://rs.tdwg.org/ac/terms/version/licensingException-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4522,7 +4990,7 @@ These terms are representation-dependent metadata, referring to specific digital
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://ns.adobe.com/exif/1.0/PixelXDimension">http://ns.adobe.com/exif/1.0/PixelXDimension</a></td>
 		</tr>
 		<tr>
@@ -4556,7 +5024,7 @@ These terms are representation-dependent metadata, referring to specific digital
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://ns.adobe.com/exif/1.0/PixelYDimension">http://ns.adobe.com/exif/1.0/PixelYDimension</a></td>
 		</tr>
 		<tr>
@@ -4590,8 +5058,12 @@ These terms are representation-dependent metadata, referring to specific digital
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/ServiceAccessPoint">http://rs.tdwg.org/ac/terms/ServiceAccessPoint</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/ServiceAccessPoint-2020-01-27">http://rs.tdwg.org/ac/terms/version/ServiceAccessPoint-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4624,8 +5096,12 @@ These terms are representation-dependent metadata, referring to specific digital
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/serviceExpectation">http://rs.tdwg.org/ac/terms/serviceExpectation</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/serviceExpectation-2020-01-27">http://rs.tdwg.org/ac/terms/version/serviceExpectation-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4654,8 +5130,12 @@ These terms are representation-dependent metadata, referring to specific digital
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/variant">http://rs.tdwg.org/ac/terms/variant</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/variant-2020-01-27">http://rs.tdwg.org/ac/terms/version/variant-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4684,8 +5164,12 @@ These terms are representation-dependent metadata, referring to specific digital
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/variantDescription">http://rs.tdwg.org/ac/terms/variantDescription</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/variantDescription-2020-01-27">http://rs.tdwg.org/ac/terms/version/variantDescription-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4714,8 +5198,12 @@ These terms are representation-dependent metadata, referring to specific digital
 	</thead>
 	<tbody>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/variantLiteral">http://rs.tdwg.org/ac/terms/variantLiteral</a></td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/variantLiteral-2020-01-27">http://rs.tdwg.org/ac/terms/version/variantLiteral-2020-01-27</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
