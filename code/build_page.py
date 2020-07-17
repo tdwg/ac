@@ -188,7 +188,7 @@ def buildMarkdown(table, displayOrder, displayLabel, displayComments, displayId)
 
                 if table[row][11] != '':
                     text += '\t\t<tr>\n'
-                    text += '\t\t\t<td>Term version IRI</td>\n'
+                    text += '\t\t\t<td>Term version URI</td>\n'
                     text += '\t\t\t<td><a href="' + table[row][11] + '">' + table[row][11] + '</a></td>\n'
                     text += '\t\t</tr>\n'
 
