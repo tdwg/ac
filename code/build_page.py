@@ -6,6 +6,7 @@
 # Note: this script calls a function from http_library.py, which requires importing the requests, csv, and json modules
 import http_library
 import re
+import pandas as pd
 
 # ---------------------------------------------------------------------------
 # retrieve vocabularies members metadata from Github
@@ -74,6 +75,10 @@ def createMasterMetadataTable(termLists, listMetadata):
         table = http_library.retrieveData(dataUrl, 'csv', ',')
         header = table[0]
 
+        # retrieve versions metadata for term list
+        versions_url = githubBaseUri + fileNameDict[termList] + '-versions/' + fileNameDict[termList] + '-versions.csv'
+        versions_df = pd.read_csv(versions_url, na_filter=False)
+
         # determine which columns contain specified metadata fields
         for column in range(len(header)):
             if header[column] == 'term_localName':
@@ -96,7 +101,21 @@ def createMasterMetadataTable(termLists, listMetadata):
                 organizedColumn = column
 
         for row in range(1,len(table)):    #skip the header row
-            masterTable.append([ namespaceDict[termList], uriDict[termList], table[row][localNameColumn], table[row][labelColumn], table[row][layerColumn], table[row][requiredColumn], table[row][repeatableColumn], table[row][definitionColumn], table[row][scopeNoteColumn], table[row][notesColumn], table[row][organizedColumn] ])
+
+            # Borrowed terms really don't have implemented versions. They may be lacking values for version_status.
+            # In their case, their version IRI will be omitted.
+            found = False
+            for vindex, vrow in versions_df.iterrows():
+                if vrow['term_localName']==table[row][localNameColumn] and vrow['version_status']=='recommended':
+                    found = True
+                    version_iri = vrow['version']
+                    # NOTE: the current hack for non-TDWG terms without a version is to append # to the end of the term IRI
+                    if version_iri[len(version_iri)-1] == '#':
+                        version_iri = ''
+            if not found:
+                version_iri = ''
+
+            masterTable.append([ namespaceDict[termList], uriDict[termList], table[row][localNameColumn], table[row][labelColumn], table[row][layerColumn], table[row][requiredColumn], table[row][repeatableColumn], table[row][definitionColumn], table[row][scopeNoteColumn], table[row][notesColumn], table[row][organizedColumn], version_iri ])
 
     return masterTable
 
@@ -162,10 +181,17 @@ def buildMarkdown(table, displayOrder, displayLabel, displayComments, displayId)
                 text += '\t</thead>\n'
                 text += '\t<tbody>\n'
                 text += '\t\t<tr>\n'
-                text += '\t\t\t<td>Normative URI:</td>\n'
+                text += '\t\t\t<td>Normative URI</td>\n'
                 uri = table[row][1] + table[row][2]
                 text += '\t\t\t<td><a href="' + uri + '">' + uri + '</a></td>\n'
                 text += '\t\t</tr>\n'
+
+                if table[row][11] != '':
+                    text += '\t\t<tr>\n'
+                    text += '\t\t\t<td>Term version IRI</td>\n'
+                    text += '\t\t\t<td><a href="' + table[row][11] + '">' + table[row][11] + '</a></td>\n'
+                    text += '\t\t</tr>\n'
+
                 text += '\t\t<tr>\n'
                 text += '\t\t\t<td>Label</td>\n'
                 text += '\t\t\t<td>' + table[row][3] + '</td>\n'
