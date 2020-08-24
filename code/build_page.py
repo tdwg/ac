@@ -1,6 +1,7 @@
 # Script to build the Audubon Core term list page using Markdown.
 # Steve Baskauf 2018-06-20
 # Updated 2020-01-28
+# Updated 2020-08-23 to handle examples in borrowed Darwin Core terms
 # This script merges static Markdown header and footer documents with term information tables (in Markdown) generated from data in the rs.tdwg.org repo from the TDWG Github site
 
 # Note: this script calls a function from http_library.py, which requires importing the requests, csv, and json modules
@@ -83,6 +84,8 @@ def createMasterMetadataTable(termLists, listMetadata):
         for column in range(len(header)):
             if header[column] == 'term_localName':
                 localNameColumn = column
+            if header[column] == 'term_modified':
+                modifiedColumn = column
             if header[column] == 'label':
                 labelColumn = column
             if header[column] == 'tdwgutility_layer':
@@ -95,6 +98,8 @@ def createMasterMetadataTable(termLists, listMetadata):
                 definitionColumn = column
             if header[column] == 'skos_scopeNote':
                 scopeNoteColumn = column
+            if header[column] == 'examples':
+                examplesColumn = column
             if header[column] == 'dcterms_description':
                 notesColumn = column
             if header[column] == 'tdwgutility_organizedInClass':
@@ -115,7 +120,7 @@ def createMasterMetadataTable(termLists, listMetadata):
             if not found:
                 version_iri = ''
 
-            masterTable.append([ namespaceDict[termList], uriDict[termList], table[row][localNameColumn], table[row][labelColumn], table[row][layerColumn], table[row][requiredColumn], table[row][repeatableColumn], table[row][definitionColumn], table[row][scopeNoteColumn], table[row][notesColumn], table[row][organizedColumn], version_iri ])
+            masterTable.append([ namespaceDict[termList], uriDict[termList], table[row][localNameColumn], table[row][labelColumn], table[row][layerColumn], table[row][requiredColumn], table[row][repeatableColumn], table[row][definitionColumn], table[row][scopeNoteColumn], table[row][notesColumn], table[row][organizedColumn], version_iri, table[row][modifiedColumn], table[row][examplesColumn] ])
 
     return masterTable
 
@@ -186,6 +191,12 @@ def buildMarkdown(table, displayOrder, displayLabel, displayComments, displayId)
                 text += '\t\t\t<td><a href="' + uri + '">' + uri + '</a></td>\n'
                 text += '\t\t</tr>\n'
 
+                if table[row][12] != '':
+                    text += '\t\t<tr>\n'
+                    text += '\t\t\t<td>Modified</td>\n'
+                    text += '\t\t\t<td>' + table[row][12] + '</td>\n'
+                    text += '\t\t</tr>\n'
+
                 if table[row][11] != '':
                     text += '\t\t<tr>\n'
                     text += '\t\t\t<td>Term version URI</td>\n'
@@ -215,6 +226,11 @@ def buildMarkdown(table, displayOrder, displayLabel, displayComments, displayId)
                     text += '\t\t\t<td>Notes</td>\n'
                     text += '\t\t\t<td>' + createLinks(table[row][9]) + '</td>\n'
                     #text += '\t\t\t<td>' + table[row][9] + '</td>\n'
+                    text += '\t\t</tr>\n'
+                if table[row][13] != '':
+                    text += '\t\t<tr>\n'
+                    text += '\t\t\t<td>Examples</td>\n'
+                    text += '\t\t\t<td>' + table[row][13] + '</td>\n'
                     text += '\t\t</tr>\n'
                 text += '\t</tbody>\n'
                 text += '</table>\n'

@@ -6,17 +6,17 @@ permalink: /termlist/
 
 **Title:** Audubon Core Term List
 
-**Date version issued:** 2020-01-27
+**Date version issued:** 2020-08-23
 
 **Date created:** 2013-10-23
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** http://rs.tdwg.org/ac/doc/termlist/2020-01-27
+**This version:** <http://rs.tdwg.org/ac/doc/termlist/2020-08-23>
 
-**Latest version:** http://rs.tdwg.org/ac/doc/termlist/
+**Latest version:** <http://rs.tdwg.org/ac/doc/termlist/>
 
-**Previous version:** [http://rs.tdwg.org/ac/doc/termlist/2013-10-23](2013-10-23)
+**Previous version:** <http://rs.tdwg.org/ac/doc/termlist/2020-01-27>
 
 **Abstract:** The Audubon Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
@@ -34,18 +34,16 @@ adopted by Biodiversity Information Standards / TDWG at the general
 meeting in October 2013 and updated in 2020. This document contains normative content that
 may not be changed without due process.
 
-**Contributors:** Robert A. Morris, Vijay Barve, Mihail Carausu, Vishwas
-Chavan, José Cuadra, Chris Freeland, Gregor Hagedorn, Patrick Leary,
-Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage, Steve Baskauf
+**Contributors:** Robert A. Morris, Gregor Hagedorn, Annette Olson, Steve Baskauf, Vijay Barve, Mihail Carausu, Vishwas Chavan, José Cuadra, Chris Freeland, Patrick Leary, Dimitry Mozzherin, Greg Riccardi, Ivan Teage
 
 **Creator:** GBIF/TDWG Multimedia Resources Task Group and Audubon Core Maintenance Group
 
-**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/2020-01-27
+**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/2020-08-23
 
 
 ## 1 Introduction
 
-There are four documents included in the Aububon Core Standard.  This document provides details about the terms included in Audubon Core vocabulary. The [Audubon Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
+There are four documents included in the Aububon Core Standard.  This document provides details about the terms included in the 2020-08-23 version of the Audubon Core vocabulary. The [Audubon Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
 
 
 ### 1.1 Status of the content of this document
@@ -491,6 +489,10 @@ required values are strings or URIs.
 			<td><a href="http://purl.org/dc/terms/available">http://purl.org/dc/terms/available</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://dublincore.org/usage/terms/history/#available-003">http://dublincore.org/usage/terms/history/#available-003</a></td>
 		</tr>
@@ -527,6 +529,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/commenter">http://rs.tdwg.org/ac/terms/commenter</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -567,6 +573,10 @@ required values are strings or URIs.
 			<td><a href="http://rs.tdwg.org/ac/terms/commenterLiteral">http://rs.tdwg.org/ac/terms/commenterLiteral</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/commenterLiteral-2020-01-27">http://rs.tdwg.org/ac/terms/version/commenterLiteral-2020-01-27</a></td>
 		</tr>
@@ -599,6 +609,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/comments">http://rs.tdwg.org/ac/terms/comments</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -639,6 +653,10 @@ required values are strings or URIs.
 			<td><a href="http://rs.tdwg.org/ac/terms/hasServiceAccessPoint">http://rs.tdwg.org/ac/terms/hasServiceAccessPoint</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/hasServiceAccessPoint-2020-01-27">http://rs.tdwg.org/ac/terms/version/hasServiceAccessPoint-2020-01-27</a></td>
 		</tr>
@@ -671,6 +689,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/identifier">http://purl.org/dc/terms/identifier</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -711,6 +733,10 @@ required values are strings or URIs.
 			<td><a href="http://ns.adobe.com/xap/1.0/MetadataDate">http://ns.adobe.com/xap/1.0/MetadataDate</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Label</td>
 			<td>Metadata Date</td>
 		</tr>
@@ -743,6 +769,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/metadataLanguage">http://rs.tdwg.org/ac/terms/metadataLanguage</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -783,6 +813,10 @@ required values are strings or URIs.
 			<td><a href="http://rs.tdwg.org/ac/terms/metadataLanguageLiteral">http://rs.tdwg.org/ac/terms/metadataLanguageLiteral</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/metadataLanguageLiteral-2020-01-27">http://rs.tdwg.org/ac/terms/version/metadataLanguageLiteral-2020-01-27</a></td>
 		</tr>
@@ -819,6 +853,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/modified">http://purl.org/dc/terms/modified</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -859,6 +897,10 @@ required values are strings or URIs.
 			<td><a href="http://rs.tdwg.org/ac/terms/providerManagedID">http://rs.tdwg.org/ac/terms/providerManagedID</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/providerManagedID-2020-01-27">http://rs.tdwg.org/ac/terms/version/providerManagedID-2020-01-27</a></td>
 		</tr>
@@ -893,6 +935,10 @@ required values are strings or URIs.
 			<td><a href="http://ns.adobe.com/xap/1.0/Rating">http://ns.adobe.com/xap/1.0/Rating</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Label</td>
 			<td>Rating</td>
 		</tr>
@@ -925,6 +971,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/reviewer">http://rs.tdwg.org/ac/terms/reviewer</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -965,6 +1015,10 @@ required values are strings or URIs.
 			<td><a href="http://rs.tdwg.org/ac/terms/reviewerComments">http://rs.tdwg.org/ac/terms/reviewerComments</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/reviewerComments-2020-01-27">http://rs.tdwg.org/ac/terms/version/reviewerComments-2020-01-27</a></td>
 		</tr>
@@ -997,6 +1051,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/reviewerLiteral">http://rs.tdwg.org/ac/terms/reviewerLiteral</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -1037,6 +1095,10 @@ required values are strings or URIs.
 			<td><a href="http://rs.tdwg.org/ac/terms/subtype">http://rs.tdwg.org/ac/terms/subtype</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/subtype-2020-01-27">http://rs.tdwg.org/ac/terms/version/subtype-2020-01-27</a></td>
 		</tr>
@@ -1073,6 +1135,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/subtypeLiteral">http://rs.tdwg.org/ac/terms/subtypeLiteral</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -1113,6 +1179,10 @@ required values are strings or URIs.
 			<td><a href="http://purl.org/dc/terms/title">http://purl.org/dc/terms/title</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://dublincore.org/usage/terms/history/#titleT-002">http://dublincore.org/usage/terms/history/#titleT-002</a></td>
 		</tr>
@@ -1151,6 +1221,10 @@ required values are strings or URIs.
 			<td><a href="http://purl.org/dc/elements/1.1/type">http://purl.org/dc/elements/1.1/type</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://dublincore.org/usage/terms/history/#type-006">http://dublincore.org/usage/terms/history/#type-006</a></td>
 		</tr>
@@ -1187,6 +1261,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/type">http://purl.org/dc/terms/type</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -1230,6 +1308,10 @@ required values are strings or URIs.
 			<td><a href="http://rs.tdwg.org/ac/terms/attributionLinkURL">http://rs.tdwg.org/ac/terms/attributionLinkURL</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/attributionLinkURL-2020-01-27">http://rs.tdwg.org/ac/terms/version/attributionLinkURL-2020-01-27</a></td>
 		</tr>
@@ -1262,6 +1344,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/attributionLogoURL">http://rs.tdwg.org/ac/terms/attributionLogoURL</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -1298,6 +1384,10 @@ required values are strings or URIs.
 			<td><a href="http://ns.adobe.com/photoshop/1.0/Credit">http://ns.adobe.com/photoshop/1.0/Credit</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Label</td>
 			<td>Credit</td>
 		</tr>
@@ -1332,6 +1422,10 @@ required values are strings or URIs.
 			<td><a href="http://rs.tdwg.org/ac/terms/fundingAttribution">http://rs.tdwg.org/ac/terms/fundingAttribution</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/fundingAttribution-2020-01-27">http://rs.tdwg.org/ac/terms/version/fundingAttribution-2020-01-27</a></td>
 		</tr>
@@ -1360,6 +1454,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/licenseLogoURL">http://rs.tdwg.org/ac/terms/licenseLogoURL</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -1396,6 +1494,10 @@ required values are strings or URIs.
 			<td><a href="http://ns.adobe.com/xap/1.0/rights/Owner">http://ns.adobe.com/xap/1.0/rights/Owner</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Label</td>
 			<td>Copyright Owner</td>
 		</tr>
@@ -1428,6 +1530,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/elements/1.1/rights">http://purl.org/dc/elements/1.1/rights</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -1468,6 +1574,10 @@ required values are strings or URIs.
 			<td><a href="http://purl.org/dc/terms/rights">http://purl.org/dc/terms/rights</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://dublincore.org/usage/terms/history/#rightsT-001">http://dublincore.org/usage/terms/history/#rightsT-001</a></td>
 		</tr>
@@ -1504,6 +1614,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/elements/1.1/source">http://purl.org/dc/elements/1.1/source</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -1544,6 +1658,10 @@ required values are strings or URIs.
 			<td><a href="http://purl.org/dc/terms/source">http://purl.org/dc/terms/source</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://dublincore.org/usage/terms/history/#sourceT-001">http://dublincore.org/usage/terms/history/#sourceT-001</a></td>
 		</tr>
@@ -1582,6 +1700,10 @@ required values are strings or URIs.
 			<td><a href="http://ns.adobe.com/xap/1.0/rights/UsageTerms">http://ns.adobe.com/xap/1.0/rights/UsageTerms</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Label</td>
 			<td>License Terms</td>
 		</tr>
@@ -1614,6 +1736,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://ns.adobe.com/xap/1.0/rights/WebStatement">http://ns.adobe.com/xap/1.0/rights/WebStatement</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1651,6 +1777,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/elements/1.1/creator">http://purl.org/dc/elements/1.1/creator</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -1691,6 +1821,10 @@ required values are strings or URIs.
 			<td><a href="http://purl.org/dc/terms/creator">http://purl.org/dc/terms/creator</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://dublincore.org/usage/terms/history/#creatorT-002">http://dublincore.org/usage/terms/history/#creatorT-002</a></td>
 		</tr>
@@ -1729,6 +1863,10 @@ required values are strings or URIs.
 			<td><a href="http://rs.tdwg.org/ac/terms/metadataCreator">http://rs.tdwg.org/ac/terms/metadataCreator</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/metadataCreator-2020-01-27">http://rs.tdwg.org/ac/terms/version/metadataCreator-2020-01-27</a></td>
 		</tr>
@@ -1761,6 +1899,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/metadataCreatorLiteral">http://rs.tdwg.org/ac/terms/metadataCreatorLiteral</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -1797,6 +1939,10 @@ required values are strings or URIs.
 			<td><a href="http://rs.tdwg.org/ac/terms/metadataProvider">http://rs.tdwg.org/ac/terms/metadataProvider</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/metadataProvider-2020-01-27">http://rs.tdwg.org/ac/terms/version/metadataProvider-2020-01-27</a></td>
 		</tr>
@@ -1831,6 +1977,10 @@ required values are strings or URIs.
 			<td><a href="http://rs.tdwg.org/ac/terms/metadataProviderLiteral">http://rs.tdwg.org/ac/terms/metadataProviderLiteral</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/metadataProviderLiteral-2020-01-27">http://rs.tdwg.org/ac/terms/version/metadataProviderLiteral-2020-01-27</a></td>
 		</tr>
@@ -1863,6 +2013,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/provider">http://rs.tdwg.org/ac/terms/provider</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -1901,6 +2055,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/providerLiteral">http://rs.tdwg.org/ac/terms/providerLiteral</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -1944,6 +2102,10 @@ required values are strings or URIs.
 			<td><a href="http://rs.tdwg.org/ac/terms/caption">http://rs.tdwg.org/ac/terms/caption</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/caption-2020-01-27">http://rs.tdwg.org/ac/terms/version/caption-2020-01-27</a></td>
 		</tr>
@@ -1978,6 +2140,10 @@ required values are strings or URIs.
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/CVterm">http://iptc.org/std/Iptc4xmpExt/2008-02-29/CVterm</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Label</td>
 			<td>Subject Category</td>
 		</tr>
@@ -2010,6 +2176,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/description">http://purl.org/dc/terms/description</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -2050,6 +2220,10 @@ required values are strings or URIs.
 			<td><a href="http://purl.org/dc/elements/1.1/language">http://purl.org/dc/elements/1.1/language</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://dublincore.org/usage/terms/history/#language-007">http://dublincore.org/usage/terms/history/#language-007</a></td>
 		</tr>
@@ -2086,6 +2260,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/language">http://purl.org/dc/terms/language</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -2126,6 +2304,10 @@ required values are strings or URIs.
 			<td><a href="http://rs.tdwg.org/ac/terms/physicalSetting">http://rs.tdwg.org/ac/terms/physicalSetting</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/physicalSetting-2020-01-27">http://rs.tdwg.org/ac/terms/version/physicalSetting-2020-01-27</a></td>
 		</tr>
@@ -2164,6 +2346,10 @@ required values are strings or URIs.
 			<td><a href="http://rs.tdwg.org/ac/terms/subjectCategoryVocabulary">http://rs.tdwg.org/ac/terms/subjectCategoryVocabulary</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/subjectCategoryVocabulary-2020-01-27">http://rs.tdwg.org/ac/terms/version/subjectCategoryVocabulary-2020-01-27</a></td>
 		</tr>
@@ -2196,6 +2382,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/tag">http://rs.tdwg.org/ac/terms/tag</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -2239,6 +2429,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/City">http://iptc.org/std/Iptc4xmpExt/2008-02-29/City</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Label</td>
 			<td>City or Place Name</td>
 		</tr>
@@ -2269,8 +2463,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/continent">http://rs.tdwg.org/dwc/terms/continent</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/continent-2009-04-24">http://rs.tdwg.org/dwc/terms/version/continent-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/continent-2017-10-06">http://rs.tdwg.org/dwc/terms/version/continent-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2282,7 +2480,15 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The name of the continent in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+			<td>The name of the continent in which the Location occurs.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`Africa`, `Antarctica`, `Asia`, `Europe`, `North America`, `Oceania`, `South America`</td>
 		</tr>
 	</tbody>
 </table>
@@ -2299,8 +2505,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/coordinatePrecision">http://rs.tdwg.org/dwc/terms/coordinatePrecision</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/coordinatePrecision-2009-04-24">http://rs.tdwg.org/dwc/terms/version/coordinatePrecision-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/coordinatePrecision-2017-10-06">http://rs.tdwg.org/dwc/terms/version/coordinatePrecision-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2313,6 +2523,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>A decimal representation of the precision of the coordinates given in the decimalLatitude and decimalLongitude.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`0.00001` (normal GPS limit for decimal degrees). `0.000278` (nearest second). `0.01667` (nearest minute). `1.0` (nearest degree).</td>
 		</tr>
 	</tbody>
 </table>
@@ -2329,8 +2543,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters">http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/coordinateUncertaintyInMeters-2009-04-24">http://rs.tdwg.org/dwc/terms/version/coordinateUncertaintyInMeters-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/coordinateUncertaintyInMeters-2017-10-06">http://rs.tdwg.org/dwc/terms/version/coordinateUncertaintyInMeters-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2343,6 +2561,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The horizontal distance (in meters) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not applicable (because there are no coordinates). Zero is not a valid value for this term.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`30` (reasonable lower limit of a GPS reading under good conditions if the actual precision was not recorded at the time). `71` (uncertainty for a UTM coordinate having 100 meter precision and a known spatial reference system).</td>
 		</tr>
 	</tbody>
 </table>
@@ -2359,8 +2581,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/country">http://rs.tdwg.org/dwc/terms/country</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/country-2009-04-24">http://rs.tdwg.org/dwc/terms/version/country-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/country-2017-10-06">http://rs.tdwg.org/dwc/terms/version/country-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2372,7 +2598,15 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The name of the country or major administrative unit in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+			<td>The name of the country or major administrative unit in which the Location occurs.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`Denmark`, `Colombia`, `España`</td>
 		</tr>
 	</tbody>
 </table>
@@ -2387,6 +2621,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/CountryCode">http://iptc.org/std/Iptc4xmpExt/2008-02-29/CountryCode</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2423,8 +2661,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/countryCode">http://rs.tdwg.org/dwc/terms/countryCode</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/countryCode-2009-04-24">http://rs.tdwg.org/dwc/terms/version/countryCode-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/countryCode-2017-10-06">http://rs.tdwg.org/dwc/terms/version/countryCode-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2436,7 +2678,15 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The standard code for the country in which the Location occurs. Recommended best practice is to use ISO 3166-1-alpha-2 country codes.</td>
+			<td>The standard code for the country in which the Location occurs.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use an ISO 3166-1-alpha-2 country code.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`AR`, `SV`</td>
 		</tr>
 	</tbody>
 </table>
@@ -2451,6 +2701,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/CountryName">http://iptc.org/std/Iptc4xmpExt/2008-02-29/CountryName</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2483,8 +2737,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/county">http://rs.tdwg.org/dwc/terms/county</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/county-2009-04-24">http://rs.tdwg.org/dwc/terms/version/county-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/county-2017-10-06">http://rs.tdwg.org/dwc/terms/version/county-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2497,6 +2755,14 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`Missoula`, `Los Lagos`, `Mataró`</td>
 		</tr>
 	</tbody>
 </table>
@@ -2513,8 +2779,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/decimalLatitude">http://rs.tdwg.org/dwc/terms/decimalLatitude</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/decimalLatitude-2009-04-24">http://rs.tdwg.org/dwc/terms/version/decimalLatitude-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/decimalLatitude-2017-10-06">http://rs.tdwg.org/dwc/terms/version/decimalLatitude-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2527,6 +2797,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`-41.0983423`</td>
 		</tr>
 	</tbody>
 </table>
@@ -2543,8 +2817,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/decimalLongitude">http://rs.tdwg.org/dwc/terms/decimalLongitude</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/decimalLongitude-2009-04-24">http://rs.tdwg.org/dwc/terms/version/decimalLongitude-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/decimalLongitude-2017-10-06">http://rs.tdwg.org/dwc/terms/version/decimalLongitude-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2557,6 +2835,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`-121.1761111`</td>
 		</tr>
 	</tbody>
 </table>
@@ -2573,8 +2855,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/footprintSpatialFit">http://rs.tdwg.org/dwc/terms/footprintSpatialFit</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/footprintSpatialFit-2009-04-24">http://rs.tdwg.org/dwc/terms/version/footprintSpatialFit-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/footprintSpatialFit-2020-08-20">http://rs.tdwg.org/dwc/terms/version/footprintSpatialFit-2020-08-20</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2586,7 +2872,15 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The ratio of the area of the footprint (footprintWKT) to the area of the true (original, or most specific) spatial representation of the Location. Legal values are 0, greater than or equal to 1, or undefined. A value of 1 is an exact match or 100% overlap. A value of 0 should be used if the given footprint does not completely contain the original representation. The footprintSpatialFit is undefined (and should be left blank) if the original representation is a point and the given georeference is not that same point. If both the original and the given georeference are the same point, the footprintSpatialFit is 1.</td>
+			<td>The ratio of the area of the footprint (footprintWKT) to the area of the true (original, or most specific) spatial representation of the Location. Legal values are 0, greater than or equal to 1, or undefined. A value of 1 is an exact match or 100% overlap. A value of 0 should be used if the given footprint does not completely contain the original representation. The footprintSpatialFit is undefined (and should be left empty) if the original representation is a point without uncertainty and the given georeference is not that same point (without uncertainty). If both the original and the given georeference are the same point, the footprintSpatialFit is 1.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Detailed explanations with graphical examples can be found in the Georeferencing Best Practices, Chapman and Wieczorek, 2020 (<a href="https://doi.org/10.15468/doc-gg7h-s853">https://doi.org/10.15468/doc-gg7h-s853</a>).</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`0`, `1`, `1.5708`</td>
 		</tr>
 	</tbody>
 </table>
@@ -2603,8 +2897,8 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/footprintSRS">http://rs.tdwg.org/dwc/terms/footprintSRS</a></td>
 		</tr>
 		<tr>
-			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/footprintSRS-2009-07-06">http://rs.tdwg.org/dwc/terms/version/footprintSRS-2009-07-06</a></td>
+			<td>Modified</td>
+			<td>2020-08-23</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2617,6 +2911,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>A Well-Known Text (WKT) representation of the Spatial Reference System (SRS) for the footprintWKT of the Location. Do not use this term to describe the SRS of the decimalLatitude and decimalLongitude, even if it is the same as for the footprintWKT - use the geodeticDatum instead.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`GEOGCS["GCS_WGS_1984", DATUM["D_WGS_1984", SPHEROID["WGS_1984",6378137,298.257223563]], PRIMEM["Greenwich",0], UNIT["Degree",0.0174532925199433]]` (WKT for the standard WGS84 Spatial Reference System EPSG:4326).</td>
 		</tr>
 	</tbody>
 </table>
@@ -2633,8 +2931,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/footprintWKT">http://rs.tdwg.org/dwc/terms/footprintWKT</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/footprintWKT-2009-04-24">http://rs.tdwg.org/dwc/terms/version/footprintWKT-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/footprintWKT-2017-10-06">http://rs.tdwg.org/dwc/terms/version/footprintWKT-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2647,6 +2949,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>A Well-Known Text (WKT) representation of the shape (footprint, geometry) that defines the Location. A Location may have both a point-radius representation (see decimalLatitude) and a footprint representation, and they may differ from each other.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`POLYGON ((10 20, 11 20, 11 21, 10 21, 10 20))` (the one-degree bounding box with opposite corners at longitude=10, latitude=20 and longitude=11, latitude=21)</td>
 		</tr>
 	</tbody>
 </table>
@@ -2663,8 +2969,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/geodeticDatum">http://rs.tdwg.org/dwc/terms/geodeticDatum</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/geodeticDatum-2009-04-24">http://rs.tdwg.org/dwc/terms/version/geodeticDatum-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/geodeticDatum-2017-10-06">http://rs.tdwg.org/dwc/terms/version/geodeticDatum-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2676,7 +2986,15 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based. Recommended best practice is use the EPSG code as a controlled vocabulary to provide an SRS, if known. Otherwise use a controlled vocabulary for the name or code of the geodetic datum, if known. Otherwise use a controlled vocabulary for the name or code of the ellipsoid, if known. If none of these is known, use the value "unknown".</td>
+			<td>The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use the EPSG code of the SRS, if known. Otherwise use a controlled vocabulary for the name or code of the geodetic datum, if known. Otherwise use a controlled vocabulary for the name or code of the ellipsoid, if known. If none of these is known, use the value `unknown`.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`EPSG:4326`, `WGS84`, `NAD27`, `Campo Inchauspe`, `European 1950`, `Clarke 1866`, `unknown`</td>
 		</tr>
 	</tbody>
 </table>
@@ -2693,8 +3011,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/georeferencedBy">http://rs.tdwg.org/dwc/terms/georeferencedBy</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/georeferencedBy-2009-04-24">http://rs.tdwg.org/dwc/terms/version/georeferencedBy-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/georeferencedBy-2017-10-06">http://rs.tdwg.org/dwc/terms/version/georeferencedBy-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2707,6 +3029,14 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>A list (concatenated and separated) of names of people, groups, or organizations who determined the georeference (spatial representation) for the Location.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to separate the values in a list with space vertical bar space (` | `).</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`Brad Millen (ROM)`, `Kristina Yamamoto | Janet Fang`</td>
 		</tr>
 	</tbody>
 </table>
@@ -2723,8 +3053,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/georeferenceProtocol">http://rs.tdwg.org/dwc/terms/georeferenceProtocol</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/georeferenceProtocol-2009-04-24">http://rs.tdwg.org/dwc/terms/version/georeferenceProtocol-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/georeferenceProtocol-2020-08-20">http://rs.tdwg.org/dwc/terms/version/georeferenceProtocol-2020-08-20</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2737,6 +3071,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>A description or reference to the methods used to determine the spatial footprint, coordinates, and uncertainties.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`Georeferencing Quick Reference Guide (Zermoglio et al. 2020, https://doi.org/10.35035/e09p-h128)`</td>
 		</tr>
 	</tbody>
 </table>
@@ -2753,8 +3091,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/georeferenceRemarks">http://rs.tdwg.org/dwc/terms/georeferenceRemarks</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/georeferenceRemarks-2009-04-24">http://rs.tdwg.org/dwc/terms/version/georeferenceRemarks-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/georeferenceRemarks-2017-10-06">http://rs.tdwg.org/dwc/terms/version/georeferenceRemarks-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2767,6 +3109,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>Notes or comments about the spatial description determination, explaining assumptions made in addition or opposition to the those formalized in the method referred to in georeferenceProtocol.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`Assumed distance by road (Hwy. 101)`.</td>
 		</tr>
 	</tbody>
 </table>
@@ -2783,8 +3129,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/georeferenceSources">http://rs.tdwg.org/dwc/terms/georeferenceSources</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/georeferenceSources-2009-04-24">http://rs.tdwg.org/dwc/terms/version/georeferenceSources-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/georeferenceSources-2017-10-06">http://rs.tdwg.org/dwc/terms/version/georeferenceSources-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2797,6 +3147,14 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>A list (concatenated and separated) of maps, gazetteers, or other resources used to georeference the Location, described specifically enough to allow anyone in the future to use the same resources.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to separate the values in a list with space vertical bar space (` | `).</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`https://www.geonames.org/`, `USGS 1:24000 Florence Montana Quad | Terrametrics 2008 on Google Earth`, `GeoLocate`</td>
 		</tr>
 	</tbody>
 </table>
@@ -2813,8 +3171,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/georeferenceVerificationStatus">http://rs.tdwg.org/dwc/terms/georeferenceVerificationStatus</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/georeferenceVerificationStatus-2009-04-24">http://rs.tdwg.org/dwc/terms/version/georeferenceVerificationStatus-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/georeferenceVerificationStatus-2017-10-06">http://rs.tdwg.org/dwc/terms/version/georeferenceVerificationStatus-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2826,7 +3188,15 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description. Recommended best practice is to use a controlled vocabulary.</td>
+			<td>A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use a controlled vocabulary.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`requires verification`, `verified by collector`, `verified by curator`</td>
 		</tr>
 	</tbody>
 </table>
@@ -2843,8 +3213,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/higherGeography">http://rs.tdwg.org/dwc/terms/higherGeography</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/higherGeography-2009-04-24">http://rs.tdwg.org/dwc/terms/version/higherGeography-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/higherGeography-2017-10-06">http://rs.tdwg.org/dwc/terms/version/higherGeography-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2857,6 +3231,14 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>A list (concatenated and separated) of geographic names less specific than the information captured in the locality term.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to separate the values in a list with space vertical bar space (` | `), with terms in order from least specific to most specific.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`North Atlantic Ocean`. `South America | Argentina | Patagonia | Parque Nacional Nahuel Huapi | Neuquén | Los Lagos` (with accompanying values `South America` in continent, `Argentina` in country, `Neuquén` in stateProvince, and `Los Lagos` in county.</td>
 		</tr>
 	</tbody>
 </table>
@@ -2873,8 +3255,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/higherGeographyID">http://rs.tdwg.org/dwc/terms/higherGeographyID</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/higherGeographyID-2009-04-24">http://rs.tdwg.org/dwc/terms/version/higherGeographyID-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/higherGeographyID-2017-10-06">http://rs.tdwg.org/dwc/terms/version/higherGeographyID-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2886,7 +3272,15 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>An identifier for the geographic region within which the Location occurred. Recommended best practice is to use an persistent identifier from a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+			<td>An identifier for the geographic region within which the Location occurred.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use a persistent identifier from a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`http://vocab.getty.edu/tgn/1002002` (Antártida e Islas del Atlántico Sur, Territorio Nacional de la Tierra del Fuego, Argentina).</td>
 		</tr>
 	</tbody>
 </table>
@@ -2903,8 +3297,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/island">http://rs.tdwg.org/dwc/terms/island</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/island-2009-04-24">http://rs.tdwg.org/dwc/terms/version/island-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/island-2017-10-06">http://rs.tdwg.org/dwc/terms/version/island-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2916,7 +3314,15 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The name of the island on or near which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+			<td>The name of the island on or near which the Location occurs.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`Nosy Be`, `Bikini Atoll`, `Vancouver`, `Viti Levu`, `Zanzibar`</td>
 		</tr>
 	</tbody>
 </table>
@@ -2933,8 +3339,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/islandGroup">http://rs.tdwg.org/dwc/terms/islandGroup</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/islandGroup-2009-04-24">http://rs.tdwg.org/dwc/terms/version/islandGroup-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/islandGroup-2017-10-06">http://rs.tdwg.org/dwc/terms/version/islandGroup-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2946,7 +3356,15 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The name of the island group in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+			<td>The name of the island group in which the Location occurs.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`Alexander Archipelago`, `Archipiélago Diego Ramírez`, `Seychelles`</td>
 		</tr>
 	</tbody>
 </table>
@@ -2963,8 +3381,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/locality">http://rs.tdwg.org/dwc/terms/locality</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/locality-2009-04-24">http://rs.tdwg.org/dwc/terms/version/locality-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/locality-2017-10-06">http://rs.tdwg.org/dwc/terms/version/locality-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2977,6 +3399,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardize the description.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`Bariloche, 25 km NNE via Ruta Nacional 40 (=Ruta 237)`.</td>
 		</tr>
 	</tbody>
 </table>
@@ -2993,8 +3419,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/locationAccordingTo">http://rs.tdwg.org/dwc/terms/locationAccordingTo</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/locationAccordingTo-2009-08-24">http://rs.tdwg.org/dwc/terms/version/locationAccordingTo-2009-08-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/locationAccordingTo-2017-10-06">http://rs.tdwg.org/dwc/terms/version/locationAccordingTo-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3007,6 +3437,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>Information about the source of this Location information. Could be a publication (gazetteer), institution, or team of individuals.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`Getty Thesaurus of Geographic Names`, `GADM`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3023,8 +3457,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/locationID">http://rs.tdwg.org/dwc/terms/locationID</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/locationID-2009-04-24">http://rs.tdwg.org/dwc/terms/version/locationID-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/locationID-2017-10-06">http://rs.tdwg.org/dwc/terms/version/locationID-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3037,6 +3475,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>An identifier for the set of location information (data associated with dcterms:Location). May be a global unique identifier or an identifier specific to the data set.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`https://opencontext.org/subjects/768A875F-E205-4D0B-DE55-BAB7598D0FD1`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3053,8 +3495,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/locationRemarks">http://rs.tdwg.org/dwc/terms/locationRemarks</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/locationRemarks-2009-04-24">http://rs.tdwg.org/dwc/terms/version/locationRemarks-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/locationRemarks-2017-10-06">http://rs.tdwg.org/dwc/terms/version/locationRemarks-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3067,6 +3513,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>Comments or notes about the Location.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`under water since 2005`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3081,6 +3531,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationShown">http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationShown</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3113,8 +3567,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/maximumDepthInMeters">http://rs.tdwg.org/dwc/terms/maximumDepthInMeters</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/maximumDepthInMeters-2009-04-24">http://rs.tdwg.org/dwc/terms/version/maximumDepthInMeters-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/maximumDepthInMeters-2017-10-06">http://rs.tdwg.org/dwc/terms/version/maximumDepthInMeters-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3127,6 +3585,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The greater depth of a range of depth below the local surface, in meters.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`0`, `200`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3143,8 +3605,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/maximumDistanceAboveSurfaceInMeters">http://rs.tdwg.org/dwc/terms/maximumDistanceAboveSurfaceInMeters</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/maximumDistanceAboveSurfaceInMeters-2009-04-24">http://rs.tdwg.org/dwc/terms/version/maximumDistanceAboveSurfaceInMeters-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/maximumDistanceAboveSurfaceInMeters-2017-10-06">http://rs.tdwg.org/dwc/terms/version/maximumDistanceAboveSurfaceInMeters-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3157,6 +3623,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The greater distance in a range of distance from a reference surface in the vertical direction, in meters. Use positive values for locations above the surface, negative values for locations below. If depth measures are given, the reference surface is the location given by the depth, otherwise the reference surface is the location given by the elevation.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`-1.5` (below the surface). `4.2` (above the surface). For a 1.5 meter sediment core from the bottom of a lake (at depth 20m) at 300m elevation: verbatimElevation: `300m` minimumElevationInMeters: `300`, maximumElevationInMeters: `300`, verbatimDepth: `20m`, minimumDepthInMeters: `20`, maximumDepthInMeters: `20`, minimumDistanceAboveSurfaceInMeters: `0`, maximumDistanceAboveSurfaceInMeters: `-1.5`.</td>
 		</tr>
 	</tbody>
 </table>
@@ -3173,8 +3643,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/maximumElevationInMeters">http://rs.tdwg.org/dwc/terms/maximumElevationInMeters</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/maximumElevationInMeters-2009-04-24">http://rs.tdwg.org/dwc/terms/version/maximumElevationInMeters-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/maximumElevationInMeters-2017-10-06">http://rs.tdwg.org/dwc/terms/version/maximumElevationInMeters-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3187,6 +3661,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The upper limit of the range of elevation (altitude, usually above sea level), in meters.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`-205`, `1236`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3203,8 +3681,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters">http://rs.tdwg.org/dwc/terms/minimumDepthInMeters</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/minimumDepthInMeters-2009-04-24">http://rs.tdwg.org/dwc/terms/version/minimumDepthInMeters-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/minimumDepthInMeters-2017-10-06">http://rs.tdwg.org/dwc/terms/version/minimumDepthInMeters-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3217,6 +3699,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The lesser depth of a range of depth below the local surface, in meters.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`0`, `100`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3233,8 +3719,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/minimumDistanceAboveSurfaceInMeters">http://rs.tdwg.org/dwc/terms/minimumDistanceAboveSurfaceInMeters</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/minimumDistanceAboveSurfaceInMeters-2009-04-24">http://rs.tdwg.org/dwc/terms/version/minimumDistanceAboveSurfaceInMeters-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/minimumDistanceAboveSurfaceInMeters-2017-10-06">http://rs.tdwg.org/dwc/terms/version/minimumDistanceAboveSurfaceInMeters-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3247,6 +3737,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The lesser distance in a range of distance from a reference surface in the vertical direction, in meters. Use positive values for locations above the surface, negative values for locations below. If depth measures are given, the reference surface is the location given by the depth, otherwise the reference surface is the location given by the elevation.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`-1.5` (below the surface). `4.2` (above the surface). For a 1.5 meter sediment core from the bottom of a lake (at depth 20m) at 300m elevation: verbatimElevation: `300m` minimumElevationInMeters: `300`, maximumElevationInMeters: `300`, verbatimDepth: `20m`, minimumDepthInMeters: `20`, maximumDepthInMeters: `20`, minimumDistanceAboveSurfaceInMeters: `0`, maximumDistanceAboveSurfaceInMeters: `-1.5`.</td>
 		</tr>
 	</tbody>
 </table>
@@ -3263,8 +3757,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/minimumElevationInMeters">http://rs.tdwg.org/dwc/terms/minimumElevationInMeters</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/minimumElevationInMeters-2009-04-24">http://rs.tdwg.org/dwc/terms/version/minimumElevationInMeters-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/minimumElevationInMeters-2017-10-06">http://rs.tdwg.org/dwc/terms/version/minimumElevationInMeters-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3277,6 +3775,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The lower limit of the range of elevation (altitude, usually above sea level), in meters.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`-100`, `802`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3293,8 +3795,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/municipality">http://rs.tdwg.org/dwc/terms/municipality</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/municipality-2009-08-24">http://rs.tdwg.org/dwc/terms/version/municipality-2009-08-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/municipality-2017-10-06">http://rs.tdwg.org/dwc/terms/version/municipality-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3307,6 +3813,14 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the Location occurs. Do not use this term for a nearby named place that does not contain the actual location.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`Holzminden`, `Araçatuba`, `Ga-Segonyana`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3323,8 +3837,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/pointRadiusSpatialFit">http://rs.tdwg.org/dwc/terms/pointRadiusSpatialFit</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/pointRadiusSpatialFit-2009-04-24">http://rs.tdwg.org/dwc/terms/version/pointRadiusSpatialFit-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/pointRadiusSpatialFit-2020-08-20">http://rs.tdwg.org/dwc/terms/version/pointRadiusSpatialFit-2020-08-20</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3336,7 +3854,15 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The ratio of the area of the point-radius (decimalLatitude, decimalLongitude, coordinateUncertaintyInMeters) to the area of the true (original, or most specific) spatial representation of the Location. Legal values are 0, greater than or equal to 1, or undefined. A value of 1 is an exact match or 100% overlap. A value of 0 should be used if the given point-radius does not completely contain the original representation. The pointRadiusSpatialFit is undefined (and should be left blank) if the original representation is a point without uncertainty and the given georeference is not that same point (without uncertainty). If both the original and the given georeference are the same point, the pointRadiusSpatialFit is 1.</td>
+			<td>The ratio of the area of the point-radius (decimalLatitude, decimalLongitude, coordinateUncertaintyInMeters) to the area of the true (original, or most specific) spatial representation of the Location. Legal values are 0, greater than or equal to 1, or undefined. A value of 1 is an exact match or 100% overlap. A value of 0 should be used if the given point-radius does not completely contain the original representation. The pointRadiusSpatialFit is undefined (and should be left empty) if the original representation is a point without uncertainty and the given georeference is not that same point (without uncertainty). If both the original and the given georeference are the same point, the pointRadiusSpatialFit is 1.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Detailed explanations with graphical examples can be found in the Georeferencing Best Practices, Chapman and Wieczorek, 2020 (<a href="https://doi.org/10.15468/doc-gg7h-s853">https://doi.org/10.15468/doc-gg7h-s853</a>).</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`0`, `1`, `1.5708`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3351,6 +3877,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/ProvinceState">http://iptc.org/std/Iptc4xmpExt/2008-02-29/ProvinceState</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3383,8 +3913,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/stateProvince">http://rs.tdwg.org/dwc/terms/stateProvince</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/stateProvince-2009-04-24">http://rs.tdwg.org/dwc/terms/version/stateProvince-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/stateProvince-2017-10-06">http://rs.tdwg.org/dwc/terms/version/stateProvince-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3397,6 +3931,14 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`Montana`, `Minas Gerais`, `Córdoba`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3411,6 +3953,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/Sublocation">http://iptc.org/std/Iptc4xmpExt/2008-02-29/Sublocation</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3443,8 +3989,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimCoordinates">http://rs.tdwg.org/dwc/terms/verbatimCoordinates</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimCoordinates-2009-04-24">http://rs.tdwg.org/dwc/terms/version/verbatimCoordinates-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimCoordinates-2017-10-06">http://rs.tdwg.org/dwc/terms/version/verbatimCoordinates-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3457,6 +4007,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The verbatim original spatial coordinates of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`41 05 54S 121 05 34W`, `17T 630000 4833400`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3473,8 +4027,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimCoordinateSystem">http://rs.tdwg.org/dwc/terms/verbatimCoordinateSystem</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimCoordinateSystem-2009-04-24">http://rs.tdwg.org/dwc/terms/version/verbatimCoordinateSystem-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimCoordinateSystem-2020-08-20">http://rs.tdwg.org/dwc/terms/version/verbatimCoordinateSystem-2020-08-20</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3486,7 +4044,15 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The spatial coordinate system for the verbatimLatitude and verbatimLongitude or the verbatimCoordinates of the Location. Recommended best practice is to use a controlled vocabulary.</td>
+			<td>The coordinate format for the verbatimLatitude and verbatimLongitude or the verbatimCoordinates of the Location.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use a controlled vocabulary.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`decimal degrees`, `degrees decimal minutes`, `degrees minutes seconds`, `UTM`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3503,8 +4069,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimDepth">http://rs.tdwg.org/dwc/terms/verbatimDepth</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimDepth-2009-04-24">http://rs.tdwg.org/dwc/terms/version/verbatimDepth-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimDepth-2017-10-06">http://rs.tdwg.org/dwc/terms/version/verbatimDepth-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3517,6 +4087,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The original description of the depth below the local surface.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`100-200 m`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3533,8 +4107,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimElevation">http://rs.tdwg.org/dwc/terms/verbatimElevation</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimElevation-2009-04-24">http://rs.tdwg.org/dwc/terms/version/verbatimElevation-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimElevation-2017-10-06">http://rs.tdwg.org/dwc/terms/version/verbatimElevation-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3547,6 +4125,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The original description of the elevation (altitude, usually above sea level) of the Location.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`100-200 m`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3563,8 +4145,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimLatitude">http://rs.tdwg.org/dwc/terms/verbatimLatitude</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimLatitude-2009-04-24">http://rs.tdwg.org/dwc/terms/version/verbatimLatitude-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimLatitude-2017-10-06">http://rs.tdwg.org/dwc/terms/version/verbatimLatitude-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3577,6 +4163,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The verbatim original latitude of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`41 05 54.03S`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3593,8 +4183,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimLocality">http://rs.tdwg.org/dwc/terms/verbatimLocality</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimLocality-2009-04-24">http://rs.tdwg.org/dwc/terms/version/verbatimLocality-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimLocality-2017-10-06">http://rs.tdwg.org/dwc/terms/version/verbatimLocality-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3607,6 +4201,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The original textual description of the place.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`25 km NNE Bariloche por R. Nac. 237`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3623,8 +4221,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimLongitude">http://rs.tdwg.org/dwc/terms/verbatimLongitude</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimLongitude-2009-04-24">http://rs.tdwg.org/dwc/terms/version/verbatimLongitude-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimLongitude-2017-10-06">http://rs.tdwg.org/dwc/terms/version/verbatimLongitude-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3637,6 +4239,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The verbatim original longitude of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`121d 10' 34" W`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3653,8 +4259,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/verbatimSRS">http://rs.tdwg.org/dwc/terms/verbatimSRS</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimSRS-2009-07-06">http://rs.tdwg.org/dwc/terms/version/verbatimSRS-2009-07-06</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/verbatimSRS-2017-10-06">http://rs.tdwg.org/dwc/terms/version/verbatimSRS-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3666,7 +4276,15 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which coordinates given in verbatimLatitude and verbatimLongitude, or verbatimCoordinates are based. Recommended best practice is use the EPSG code as a controlled vocabulary to provide an SRS, if known. Otherwise use a controlled vocabulary for the name or code of the geodetic datum, if known. Otherwise use a controlled vocabulary for the name or code of the ellipsoid, if known. If none of these is known, use the value "unknown".</td>
+			<td>The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which coordinates given in verbatimLatitude and verbatimLongitude, or verbatimCoordinates are based.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use the EPSG code of the SRS, if known. Otherwise use a controlled vocabulary for the name or code of the geodetic datum, if known. Otherwise use a controlled vocabulary for the name or code of the ellipsoid, if known. If none of these is known, use the value `unknown`.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`unknown`, `EPSG:4326`, `WGS84`, `NAD27`, `Campo Inchauspe`, `European 1950`, `Clarke 1866`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3683,8 +4301,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/waterBody">http://rs.tdwg.org/dwc/terms/waterBody</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/waterBody-2009-04-24">http://rs.tdwg.org/dwc/terms/version/waterBody-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/waterBody-2017-10-06">http://rs.tdwg.org/dwc/terms/version/waterBody-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3697,6 +4319,14 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Definition</td>
 			<td>The name of the water body in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`Indian Ocean`, `Baltic Sea`, `Hudson River`, `Lago Nahuel Huapi`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3711,6 +4341,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/WorldRegion">http://iptc.org/std/Iptc4xmpExt/2008-02-29/WorldRegion</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3750,6 +4384,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://ns.adobe.com/xap/1.0/CreateDate">http://ns.adobe.com/xap/1.0/CreateDate</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Label</td>
 			<td>Original Date and Time</td>
 		</tr>
@@ -3782,6 +4420,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/terms/temporal">http://purl.org/dc/terms/temporal</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -3822,6 +4464,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/ac/terms/timeOfDay">http://rs.tdwg.org/ac/terms/timeOfDay</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/timeOfDay-2020-01-27">http://rs.tdwg.org/ac/terms/version/timeOfDay-2020-01-27</a></td>
 		</tr>
@@ -3859,8 +4505,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/dateIdentified">http://rs.tdwg.org/dwc/terms/dateIdentified</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/dateIdentified-2009-08-24">http://rs.tdwg.org/dwc/terms/version/dateIdentified-2009-08-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/dateIdentified-2020-08-12">http://rs.tdwg.org/dwc/terms/version/dateIdentified-2020-08-12</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3872,11 +4522,19 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The date on which the subject was identified as representing the Taxon. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).</td>
+			<td>The date on which the subject was determined as representing the Taxon.</td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td>The date on which the person(s) given under Identified By applied a Scientific Taxon Name to the resource.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use a date that conforms to ISO 8601-1:2019.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`1963-03-08T14:07-0600` (8 Mar 1963 at 2:07pm in the time zone six hours earlier than UTC). `2009-02-20T08:40Z` (20 February 2009 8:40am UTC). `2018-08-29T15:19` (3:19pm local time on 29 August 2018). `1809-02-12` (some time during 12 February 1809). `1906-06` (some time in June 1906). `1971` (some time in the year 1971). `2007-03-01T13:00:00Z/2008-05-11T15:30:00Z` (some time during the interval between 1 March 2007 1pm UTC and 11 May 2008 3:30pm UTC). `1900/1909` (some time during the interval between the beginning of the year 1900 and the end of the year 1909). `2007-11-13/15` (some time in the interval between 13 November 2007 and 15 November 2007).</td>
 		</tr>
 	</tbody>
 </table>
@@ -3893,8 +4551,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/identificationQualifier">http://rs.tdwg.org/dwc/terms/identificationQualifier</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/identificationQualifier-2009-04-24">http://rs.tdwg.org/dwc/terms/version/identificationQualifier-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/identificationQualifier-2017-10-06">http://rs.tdwg.org/dwc/terms/version/identificationQualifier-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3916,6 +4578,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td>Notes</td>
 			<td>Splitting identification qualification and Scientific Taxon Name into separate fields is recommended practice in cases where only a single taxon name is available, or if the exchange format is able to keep relations between multiple names and identification qualifiers. Where the exchange format only supports simple multiplicities, a media item with multiple Scientific Taxon Names, some with, some without identification qualifiers, may have to be transferred with "cf." or "aff." qualifiers remaining embedded in the Scientific Taxon Name. Example: For the determinations "cf. Fusarium oxysporum f. sp. palmarum", "Fusarium cf. oxysporum f. sp. palmarum", "Fusarium oxysporum cf. f. sp. palmarum" the Scientific Taxon Name would always be "Fusarium oxysporum f. sp. palmarum", with Identification Qualifier "cf. genus", "cf. species" and "cf. f.sp.", respectively. In most cases only the lowest taxon is in doubt, but cases exist where good reasons exist to suspect a specific or even infraspecific determination, without having a save generic identification.</td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`aff. agrifolia var. oxyadenia` (for `Quercus aff. agrifolia var. oxyadenia` with accompanying values `Quercus` in genus, `agrifolia`  in specificEpithet, `oxyadenia`  in infraspecificEpithet, and `var.` in taxonRank. `cf. var. oxyadenia` for `Quercus agrifolia cf. var. oxyadenia` with accompanying values `Quercus` in genus, `agrifolia` in specificEpithet, `oxyadenia` in infraspecificEpithet, and `var.` in taxonRank.</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3931,8 +4597,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/identifiedBy">http://rs.tdwg.org/dwc/terms/identifiedBy</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/identifiedBy-2014-10-23">http://rs.tdwg.org/dwc/terms/version/identifiedBy-2014-10-23</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/identifiedBy-2017-10-06">http://rs.tdwg.org/dwc/terms/version/identifiedBy-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3950,6 +4620,14 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td>Usage</td>
 			<td>The name(s) of the person(s) who applied the Scientific Taxon Name to the media item or the occurrence represented in the media item.</td>
 		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to separate the values in a list with space vertical bar space (` | `).</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`James L. Patton`, `Theodore Pappenfuss | Robert Macey`</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3965,8 +4643,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/lifeStage">http://rs.tdwg.org/dwc/terms/lifeStage</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/lifeStage-2009-04-24">http://rs.tdwg.org/dwc/terms/version/lifeStage-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/lifeStage-2017-10-06">http://rs.tdwg.org/dwc/terms/version/lifeStage-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -3978,11 +4660,19 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The age class or life stage of the biological individual(s) at the time the Occurrence was recorded. Recommended best practice is to use a controlled vocabulary.</td>
+			<td>The age class or life stage of the biological individual(s) at the time the Occurrence was recorded.</td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td>A description of the life-cycle stage of any organisms featured within the media, when relevant to the subject of the media, e. g., larvae, juvenile, adult.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use a controlled vocabulary.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`egg`, `eft`, `juvenile`, `adult`</td>
 		</tr>
 	</tbody>
 </table>
@@ -3999,8 +4689,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/nameAccordingTo">http://rs.tdwg.org/dwc/terms/nameAccordingTo</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/nameAccordingTo-2009-09-21">http://rs.tdwg.org/dwc/terms/version/nameAccordingTo-2009-09-21</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/nameAccordingTo-2017-10-06">http://rs.tdwg.org/dwc/terms/version/nameAccordingTo-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4022,6 +4716,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td>Notes</td>
 			<td>Examples are "Flora of North America", "Landrum 1981, Monograph of the Genus Myrceugenia (Myrtaceae)", "Peterson Field Guide to Birds of North America", or "Expert identification by J.Smith".</td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`McCranie, J. R., D. B. Wake, and L. D. Wilson. 1996. The taxonomic status of Bolitoglossa schmidti, with comments on the biology of the Mesoamerican salamander Bolitoglossa dofleini (Caudata: Plethodontidae). Carib. J. Sci. 32:395-398.`, `Werner Greuter 2008`. `Lilljeborg 1861, Upsala Univ. Arsskrift, Math. Naturvet., pp. 4, 5`</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4035,6 +4733,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/otherScientificName">http://rs.tdwg.org/ac/terms/otherScientificName</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -4071,8 +4773,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/preparations">http://rs.tdwg.org/dwc/terms/preparations</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/preparations-2014-10-23">http://rs.tdwg.org/dwc/terms/version/preparations-2014-10-23</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/preparations-2017-10-06">http://rs.tdwg.org/dwc/terms/version/preparations-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4109,8 +4815,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/scientificName">http://rs.tdwg.org/dwc/terms/scientificName</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/scientificName-2009-09-21">http://rs.tdwg.org/dwc/terms/version/scientificName-2009-09-21</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/scientificName-2017-10-06">http://rs.tdwg.org/dwc/terms/version/scientificName-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4132,6 +4842,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td>Notes</td>
 			<td>The Scientific Taxon Name may possibly be of a higher rank, e.g., a genus or family name, if this is the most specific identification available. Where multiple taxa are the subject of the media item, multiple names may be given. If possible, add this information here even if the title or caption of the resource already contains scientific taxon names. Where the list of scientific taxon names is impractically large (e.g., media collections or identification tools), the number of taxa should be given in Taxon Count (see below). If possible, avoid repeating the Taxonomic Coverage here. Do not use abbreviated Genus names ("P. vulgaris"). It is recommended to provide author citation to scientific names, to avoid ambiguities in the presence of homonyms (the same name created by different authors for different taxa). Identifier qualifications should be supplied in the Identification Qualifier term rather than here (i. e. "Abies cf. alba" is deprecated, to be replaced with Scientific Taxon Name = "Abies alba" and Identification Qualifier = "cf. species").</td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`Coleoptera` (order). `Vespertilionidae` (family). `Manis` (genus). `Ctenomys sociabilis` (genus + specificEpithet). `Ambystoma tigrinum diaboli` (genus + specificEpithet + infraspecificEpithet). `Roptrocerus typographi (Györfi, 1952)` (genus + specificEpithet + scientificNameAuthorship), `Quercus agrifolia var. oxyadenia (Torr.) J.T. Howell` (genus + specificEpithet + taxonRank + infraspecificEpithet + scientificNameAuthorship).</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4147,8 +4861,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/scientificNameID">http://rs.tdwg.org/dwc/terms/scientificNameID</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/scientificNameID-2009-08-24">http://rs.tdwg.org/dwc/terms/version/scientificNameID-2009-08-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/scientificNameID-2017-10-06">http://rs.tdwg.org/dwc/terms/version/scientificNameID-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4166,6 +4884,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td>Notes</td>
 			<td>See dwc:scientificName.</td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`urn:lsid:ipni.org:names:37829-1:1.3`</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4181,8 +4903,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/sex">http://rs.tdwg.org/dwc/terms/sex</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/sex-2009-04-24">http://rs.tdwg.org/dwc/terms/version/sex-2009-04-24</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/sex-2017-10-06">http://rs.tdwg.org/dwc/terms/version/sex-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4194,11 +4920,19 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The sex of the biological individual(s) represented in the Occurrence. Recommended best practice is to use a controlled vocabulary.</td>
+			<td>The sex of the biological individual(s) represented in the Occurrence.</td>
 		</tr>
 		<tr>
 			<td>Usage</td>
 			<td>A description of the sex of any organisms featured within the media, when relevant to the subject of the media, e. g., male, female, hermaphrodite, dioecious.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Recommended best practice is to use a controlled vocabulary.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`female`, `male`, `hermaphrodite`</td>
 		</tr>
 	</tbody>
 </table>
@@ -4213,6 +4947,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/subjectOrientation">http://rs.tdwg.org/ac/terms/subjectOrientation</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -4249,6 +4987,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/ac/terms/subjectPart">http://rs.tdwg.org/ac/terms/subjectPart</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/subjectPart-2020-01-27">http://rs.tdwg.org/ac/terms/version/subjectPart-2020-01-27</a></td>
 		</tr>
@@ -4281,6 +5023,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/taxonCount">http://rs.tdwg.org/ac/terms/taxonCount</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -4321,6 +5067,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/ac/terms/taxonCoverage">http://rs.tdwg.org/ac/terms/taxonCoverage</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/taxonCoverage-2020-01-27">http://rs.tdwg.org/ac/terms/version/taxonCoverage-2020-01-27</a></td>
 		</tr>
@@ -4355,8 +5105,12 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/dwc/terms/vernacularName">http://rs.tdwg.org/dwc/terms/vernacularName</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-08-23</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/dwc/terms/version/vernacularName-2009-07-06">http://rs.tdwg.org/dwc/terms/version/vernacularName-2009-07-06</a></td>
+			<td><a href="http://rs.tdwg.org/dwc/terms/version/vernacularName-2017-10-06">http://rs.tdwg.org/dwc/terms/version/vernacularName-2017-10-06</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -4378,6 +5132,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td>Notes</td>
 			<td>The ISO language code after the name should be formatted as in the following example: 'abete bianco (it); Tanne (de); White Fir (en)'. If names are known to be male- or female-specific, this may be specified as in: 'ewe (en-female); ram (en-male);'.</td>
 		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>`Andean Condor`, `Condor Andino`, `American Eagle`, `Gänsegeier`</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4394,6 +5152,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/captureDevice">http://rs.tdwg.org/ac/terms/captureDevice</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -4428,6 +5190,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/digitizationDate">http://rs.tdwg.org/ac/terms/digitizationDate</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -4468,6 +5234,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationCreated">http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationCreated</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Label</td>
 			<td>Location Created</td>
 		</tr>
@@ -4500,6 +5270,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/resourceCreationTechnique">http://rs.tdwg.org/ac/terms/resourceCreationTechnique</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -4539,6 +5313,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/ac/terms/associatedObservationReference">http://rs.tdwg.org/ac/terms/associatedObservationReference</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/associatedObservationReference-2020-01-27">http://rs.tdwg.org/ac/terms/version/associatedObservationReference-2020-01-27</a></td>
 		</tr>
@@ -4567,6 +5345,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/associatedSpecimenReference">http://rs.tdwg.org/ac/terms/associatedSpecimenReference</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -4601,6 +5383,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/derivedFrom">http://rs.tdwg.org/ac/terms/derivedFrom</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -4641,6 +5427,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/ac/terms/IDofContainingCollection">http://rs.tdwg.org/ac/terms/IDofContainingCollection</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/IDofContainingCollection-2020-01-27">http://rs.tdwg.org/ac/terms/version/IDofContainingCollection-2020-01-27</a></td>
 		</tr>
@@ -4675,6 +5465,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 			<td><a href="http://rs.tdwg.org/ac/terms/providerID">http://rs.tdwg.org/ac/terms/providerID</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/providerID-2020-01-27">http://rs.tdwg.org/ac/terms/version/providerID-2020-01-27</a></td>
 		</tr>
@@ -4707,6 +5501,10 @@ Location Created and Location Shown are separated in the current version of IPTC
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/relatedResourceID">http://rs.tdwg.org/ac/terms/relatedResourceID</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -4748,6 +5546,10 @@ These terms are representation-dependent metadata, referring to specific digital
 			<td><a href="http://rs.tdwg.org/ac/terms/accessURI">http://rs.tdwg.org/ac/terms/accessURI</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/accessURI-2020-01-27">http://rs.tdwg.org/ac/terms/version/accessURI-2020-01-27</a></td>
 		</tr>
@@ -4784,6 +5586,10 @@ These terms are representation-dependent metadata, referring to specific digital
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://purl.org/dc/elements/1.1/format">http://purl.org/dc/elements/1.1/format</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -4824,6 +5630,10 @@ These terms are representation-dependent metadata, referring to specific digital
 			<td><a href="http://purl.org/dc/terms/format">http://purl.org/dc/terms/format</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://dublincore.org/usage/terms/history/#formatT-001">http://dublincore.org/usage/terms/history/#formatT-001</a></td>
 		</tr>
@@ -4862,6 +5672,10 @@ These terms are representation-dependent metadata, referring to specific digital
 			<td><a href="http://rs.tdwg.org/ac/terms/furtherInformationURL">http://rs.tdwg.org/ac/terms/furtherInformationURL</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/furtherInformationURL-2020-01-27">http://rs.tdwg.org/ac/terms/version/furtherInformationURL-2020-01-27</a></td>
 		</tr>
@@ -4890,6 +5704,10 @@ These terms are representation-dependent metadata, referring to specific digital
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/hashFunction">http://rs.tdwg.org/ac/terms/hashFunction</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -4926,6 +5744,10 @@ These terms are representation-dependent metadata, referring to specific digital
 			<td><a href="http://rs.tdwg.org/ac/terms/hashValue">http://rs.tdwg.org/ac/terms/hashValue</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/hashValue-2020-01-27">http://rs.tdwg.org/ac/terms/version/hashValue-2020-01-27</a></td>
 		</tr>
@@ -4958,6 +5780,10 @@ These terms are representation-dependent metadata, referring to specific digital
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/licensingException">http://rs.tdwg.org/ac/terms/licensingException</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -4994,6 +5820,10 @@ These terms are representation-dependent metadata, referring to specific digital
 			<td><a href="http://ns.adobe.com/exif/1.0/PixelXDimension">http://ns.adobe.com/exif/1.0/PixelXDimension</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Label</td>
 			<td>Image Width</td>
 		</tr>
@@ -5028,6 +5858,10 @@ These terms are representation-dependent metadata, referring to specific digital
 			<td><a href="http://ns.adobe.com/exif/1.0/PixelYDimension">http://ns.adobe.com/exif/1.0/PixelYDimension</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Label</td>
 			<td>Image Height</td>
 		</tr>
@@ -5060,6 +5894,10 @@ These terms are representation-dependent metadata, referring to specific digital
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/ServiceAccessPoint">http://rs.tdwg.org/ac/terms/ServiceAccessPoint</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -5100,6 +5938,10 @@ These terms are representation-dependent metadata, referring to specific digital
 			<td><a href="http://rs.tdwg.org/ac/terms/serviceExpectation">http://rs.tdwg.org/ac/terms/serviceExpectation</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/serviceExpectation-2020-01-27">http://rs.tdwg.org/ac/terms/version/serviceExpectation-2020-01-27</a></td>
 		</tr>
@@ -5132,6 +5974,10 @@ These terms are representation-dependent metadata, referring to specific digital
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/variant">http://rs.tdwg.org/ac/terms/variant</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -5168,6 +6014,10 @@ These terms are representation-dependent metadata, referring to specific digital
 			<td><a href="http://rs.tdwg.org/ac/terms/variantDescription">http://rs.tdwg.org/ac/terms/variantDescription</a></td>
 		</tr>
 		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
+		</tr>
+		<tr>
 			<td>Term version URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/version/variantDescription-2020-01-27">http://rs.tdwg.org/ac/terms/version/variantDescription-2020-01-27</a></td>
 		</tr>
@@ -5200,6 +6050,10 @@ These terms are representation-dependent metadata, referring to specific digital
 		<tr>
 			<td>Normative URI</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/variantLiteral">http://rs.tdwg.org/ac/terms/variantLiteral</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-01-27</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>

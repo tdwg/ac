@@ -6,17 +6,17 @@ permalink: /termlist/
 
 **Title:** Audubon Core Term List
 
-**Date version issued:** 2020-01-27
+**Date version issued:** 2020-08-23
 
 **Date created:** 2013-10-23
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** http://rs.tdwg.org/ac/doc/termlist/2020-01-27
+**This version:** <http://rs.tdwg.org/ac/doc/termlist/2020-08-23>
 
-**Latest version:** http://rs.tdwg.org/ac/doc/termlist/
+**Latest version:** <http://rs.tdwg.org/ac/doc/termlist/>
 
-**Previous version:** [http://rs.tdwg.org/ac/doc/termlist/2013-10-23](2013-10-23)
+**Previous version:** <http://rs.tdwg.org/ac/doc/termlist/2020-01-27>
 
 **Abstract:** The Audubon Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
@@ -34,18 +34,16 @@ adopted by Biodiversity Information Standards / TDWG at the general
 meeting in October 2013 and updated in 2020. This document contains normative content that
 may not be changed without due process.
 
-**Contributors:** Robert A. Morris, Vijay Barve, Mihail Carausu, Vishwas
-Chavan, José Cuadra, Chris Freeland, Gregor Hagedorn, Patrick Leary,
-Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage, Steve Baskauf
+**Contributors:** Robert A. Morris, Gregor Hagedorn, Annette Olson, Steve Baskauf, Vijay Barve, Mihail Carausu, Vishwas Chavan, José Cuadra, Chris Freeland, Patrick Leary, Dimitry Mozzherin, Greg Riccardi, Ivan Teage
 
 **Creator:** GBIF/TDWG Multimedia Resources Task Group and Audubon Core Maintenance Group
 
-**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/2020-01-27
+**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/2020-08-23
 
 
 ## 1 Introduction
 
-There are four documents included in the Aububon Core Standard.  This document provides details about the terms included in Audubon Core vocabulary. The [Audubon Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
+There are four documents included in the Aububon Core Standard.  This document provides details about the terms included in the 2020-08-23 version of the Audubon Core vocabulary. The [Audubon Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
 
 
 ### 1.1 Status of the content of this document
