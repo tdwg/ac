@@ -3331,6 +3331,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>txt</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m019">acformat:m019</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -3367,6 +3371,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>doc</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m020">acformat:m020</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3407,6 +3415,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>docx</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m021">acformat:m021</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -3443,6 +3455,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>png</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m007">acformat:m007</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3483,6 +3499,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>jpg</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m008">acformat:m008</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -3519,6 +3539,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>pdf</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m018">acformat:m018</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3559,6 +3583,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>tif</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m011">acformat:m011</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -3595,6 +3623,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>dng</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m022">acformat:m022</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3635,6 +3667,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>cr2</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m023">acformat:m023</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -3671,6 +3707,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>jp2</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m024">acformat:m024</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3711,6 +3751,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>wav</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m025">acformat:m025</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -3747,6 +3791,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>mp3</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m016">acformat:m016</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3787,6 +3835,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>nef</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m026">acformat:m026</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -3823,6 +3875,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>m4a</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m015">acformat:m015</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3863,6 +3919,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>mp4</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m012">acformat:m012</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -3899,6 +3959,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>gif</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m010">acformat:m010</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -3939,6 +4003,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>bmp</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m009">acformat:m009</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -3975,6 +4043,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>m4v</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m027">acformat:m027</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4057,6 +4129,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>stl</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m055">acformat:m055</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -4093,6 +4169,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>3gp</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m028">acformat:m028</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4133,6 +4213,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>zvi</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m054">acformat:m054</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -4169,6 +4253,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>avi</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m029">acformat:m029</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4209,6 +4297,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>amr</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m030">acformat:m030</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -4245,6 +4337,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>aiff</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m031">acformat:m031</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4285,6 +4381,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>ogg</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m032">acformat:m032</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -4321,6 +4421,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>ogv</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m033">acformat:m033</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4361,6 +4465,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>ogx</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m034">acformat:m034</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -4397,6 +4505,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>pcd</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m035">acformat:m035</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4437,6 +4549,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>mov</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m014">acformat:m014</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -4473,6 +4589,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>psd</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m036">acformat:m036</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4513,6 +4633,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>flac</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m038">acformat:m038</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -4549,6 +4673,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>wma</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m039">acformat:m039</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4589,6 +4717,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>wmv</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m040">acformat:m040</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -4625,6 +4757,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>asf</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m041">acformat:m041</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4665,6 +4801,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>svg</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m042">acformat:m042</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -4701,6 +4841,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>obj</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m062">acformat:m062</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4741,6 +4885,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>glb</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m063">acformat:m063</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -4777,6 +4925,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>gltf</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m064">acformat:m064</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4817,6 +4969,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>wrl</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m065">acformat:m065</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -4853,6 +5009,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>dcm</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m066">acformat:m066</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4893,6 +5053,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>mtl</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m067">acformat:m067</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -4929,6 +5093,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>x3dv</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m017">acformat:m017</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -4969,6 +5137,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>x3d</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m068">acformat:m068</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -5005,6 +5177,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>crw</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m069">acformat:m069</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -5045,6 +5221,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>cr3</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m070">acformat:m070</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -5083,6 +5263,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>arw</td>
 		</tr>
 		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m071">acformat:m071</a></td>
+		</tr>
+		<tr>
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
@@ -5119,6 +5303,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Controlled value</td>
 			<td>rw2</td>
+		</tr>
+		<tr>
+			<td>Has exact match</td>
+			<td><a href="#acformat_m072">acformat:m072</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
