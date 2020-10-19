@@ -6,17 +6,17 @@ permalink: /termlist/
 
 **Title:** Audubon Core Term List
 
-**Date version issued:** 2020-08-23
+**Date version issued:** 2020-10-13
 
 **Date created:** 2013-10-23
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** <http://rs.tdwg.org/ac/doc/termlist/2020-08-23>
+**This version:** <http://rs.tdwg.org/ac/doc/termlist/2020-10-13>
 
 **Latest version:** <http://rs.tdwg.org/ac/doc/termlist/>
 
-**Previous version:** <http://rs.tdwg.org/ac/doc/termlist/2020-01-27>
+**Previous version:** <http://rs.tdwg.org/ac/doc/termlist/2020-08-23>
 
 **Abstract:** The Audubon Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
@@ -38,7 +38,7 @@ may not be changed without due process.
 
 **Creator:** GBIF/TDWG Multimedia Resources Task Group and Audubon Core Maintenance Group
 
-**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/2020-08-23
+**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/2020-10-13
 
 
 ## 1 Introduction
