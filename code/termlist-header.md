@@ -34,7 +34,7 @@ adopted by Biodiversity Information Standards / TDWG at the general
 meeting in October 2013 and updated in 2020. This document contains normative content that
 may not be changed without due process.
 
-**Contributors:** Robert A. Morris, Gregor Hagedorn, Annette Olson, Steve Baskauf, Vijay Barve, Mihail Carausu, Vishwas Chavan, José Cuadra, Chris Freeland, Patrick Leary, Dimitry Mozzherin, Greg Riccardi, Ivan Teage
+**Contributors:** Robert A. Morris, Gregor Hagedorn, Annette Olson, Steve Baskauf, Vijay Barve, Mihail Carausu, Vishwas Chavan, José Cuadra, Chris Freeland, Patrick Leary, Dimitry Mozzherin, Greg Riccardi, Ivan Teage, Dan Stowell, Edward Baker
 
 **Creator:** GBIF/TDWG Multimedia Resources Task Group and Audubon Core Maintenance Group
 
@@ -43,7 +43,7 @@ may not be changed without due process.
 
 ## 1 Introduction
 
-There are four documents included in the Aububon Core Standard.  This document provides details about the terms included in the 2020-08-23 version of the Audubon Core vocabulary. The [Audubon Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
+There are a number of documents included in the Aububon Core Standard.  This document provides details about the terms included in the 2020-10-13 version of the Audubon Core vocabulary. The [Audubon Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
 
 
 ### 1.1 Status of the content of this document
