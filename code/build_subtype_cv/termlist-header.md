@@ -1,5 +1,5 @@
 ---
-permalink: /variant/
+permalink: /subtype/
 ---
 
 # Controlled Vocabulary for Audubon Core subtype: List of Terms
