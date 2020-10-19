@@ -6,17 +6,17 @@ permalink: /termlist/
 
 **Title:** Audubon Core Term List
 
-**Date version issued:** 2020-08-23
+**Date version issued:** 2020-10-13
 
 **Date created:** 2013-10-23
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** <http://rs.tdwg.org/ac/doc/termlist/2020-08-23>
+**This version:** <http://rs.tdwg.org/ac/doc/termlist/2020-10-13>
 
 **Latest version:** <http://rs.tdwg.org/ac/doc/termlist/>
 
-**Previous version:** <http://rs.tdwg.org/ac/doc/termlist/2020-01-27>
+**Previous version:** <http://rs.tdwg.org/ac/doc/termlist/2020-08-23>
 
 **Abstract:** The Audubon Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
@@ -34,16 +34,16 @@ adopted by Biodiversity Information Standards / TDWG at the general
 meeting in October 2013 and updated in 2020. This document contains normative content that
 may not be changed without due process.
 
-**Contributors:** Robert A. Morris, Gregor Hagedorn, Annette Olson, Steve Baskauf, Vijay Barve, Mihail Carausu, Vishwas Chavan, José Cuadra, Chris Freeland, Patrick Leary, Dimitry Mozzherin, Greg Riccardi, Ivan Teage
+**Contributors:** Robert A. Morris, Gregor Hagedorn, Annette Olson, Steve Baskauf, Vijay Barve, Mihail Carausu, Vishwas Chavan, José Cuadra, Chris Freeland, Patrick Leary, Dimitry Mozzherin, Greg Riccardi, Ivan Teage, Dan Stowell, Edward Baker
 
 **Creator:** GBIF/TDWG Multimedia Resources Task Group and Audubon Core Maintenance Group
 
-**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/2020-08-23
+**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/2020-10-13
 
 
 ## 1 Introduction
 
-There are four documents included in the Aububon Core Standard.  This document provides details about the terms included in the 2020-08-23 version of the Audubon Core vocabulary. The [Audubon Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
+There are a number of documents included in the Aububon Core Standard.  This document provides details about the terms included in the 2020-10-13 version of the Audubon Core vocabulary. The [Audubon Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
 
 
 ### 1.1 Status of the content of this document
@@ -199,6 +199,8 @@ required values are strings or URIs.
 [ac:caption](#ac_caption) |
 [Iptc4xmpExt:CVterm](#Iptc4xmpExt_CVterm) |
 [dcterms:description](#dcterms_description) |
+[ac:freqHigh](#ac_freqHigh) |
+[ac:freqLow](#ac_freqLow) |
 [dc:language](#dc_language) |
 [dcterms:language](#dcterms_language) |
 [ac:physicalSetting](#ac_physicalSetting) |
@@ -287,7 +289,8 @@ required values are strings or URIs.
 [ac:captureDevice](#ac_captureDevice) |
 [ac:digitizationDate](#ac_digitizationDate) |
 [Iptc4xmpExt:LocationCreated](#Iptc4xmpExt_LocationCreated) |
-[ac:resourceCreationTechnique](#ac_resourceCreationTechnique)
+[ac:resourceCreationTechnique](#ac_resourceCreationTechnique) |
+[mo:sample_rate](#mo_sample_rate)
 
 **Related Resources Vocabulary**
 
@@ -333,7 +336,8 @@ required values are strings or URIs.
 [Reviewer](#ac_reviewer) |
 [Reviewer Comments](#ac_reviewerComments) |
 [Service Access Point](#ac_hasServiceAccessPoint) |
-[Subtype](#ac_subtype) |
+[Subtype (IRI)](#ac_subtype) |
+[Subtype (literal)](#ac_subtypeLiteral) |
 [Title](#dcterms_title) |
 [Type](#dc_type)
 
@@ -362,10 +366,12 @@ required values are strings or URIs.
 [Caption](#ac_caption) |
 [Description](#dcterms_description) |
 [Language](#dc_language) |
+[Lower frequency bound](#ac_freqLow) |
 [Physical Setting](#ac_physicalSetting) |
 [Subject Category](#Iptc4xmpExt_CVterm) |
 [Subject Category Vocabulary](#ac_subjectCategoryVocabulary) |
-[Tag](#ac_tag)
+[Tag](#ac_tag) |
+[Upper frequency bound](#ac_freqHigh)
 
 **Geography Vocabulary**
 
@@ -448,7 +454,8 @@ required values are strings or URIs.
 [Capture Device](#ac_captureDevice) |
 [Date and Time Digitized](#ac_digitizationDate) |
 [Location Created](#Iptc4xmpExt_LocationCreated) |
-[Resource Creation Technique](#ac_resourceCreationTechnique)
+[Resource Creation Technique](#ac_resourceCreationTechnique) |
+[Sample Rate](#mo_sample_rate)
 
 **Related Resources Vocabulary**
 
@@ -462,7 +469,8 @@ required values are strings or URIs.
 **Service Access Point Vocabulary**
 
 [Access URI](#ac_accessURI) |
-[Format](#dc_format) |
+[Format (IRI)](#dcterms_format) |
+[Format (literal)](#dc_format) |
 [Further Information URL](#ac_furtherInformationURL) |
 [Hash](#ac_hashValue) |
 [Hash Function](#ac_hashFunction) |
@@ -471,7 +479,8 @@ required values are strings or URIs.
 [Licensing Exception Statement](#ac_licensingException) |
 [Service Access Point Class](#ac_ServiceAccessPoint) |
 [Service Expectation](#ac_serviceExpectation) |
-[Variant](#ac_variant) |
+[Variant (IRI)](#ac_variant) |
+[Variant (literal)](#ac_variantLiteral) |
 [Variant Description](#ac_variantDescription)
 
 ## 7 Vocabularies
@@ -1096,15 +1105,15 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-01-27</td>
+			<td>2020-10-13</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/ac/terms/version/subtype-2020-01-27">http://rs.tdwg.org/ac/terms/version/subtype-2020-01-27</a></td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/subtype-2020-10-13">http://rs.tdwg.org/ac/terms/version/subtype-2020-10-13</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Subtype</td>
+			<td>Subtype (IRI)</td>
 		</tr>
 		<tr>
 			<td></td>
@@ -1112,15 +1121,15 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Any URI may be used that provides for more specialization than the type. Possible values are community-defined.</td>
+			<td>A class, represented by an IRI, that provides for more specialization of the media item type than dcterms:type.</td>
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>The subtype term MUST NOT be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary might add further description to a Collection object. The subtype vocabulary MAY be extended by users provided they identify the term by a URI which is not in the ac namespace. Conforming applications MAY choose to ignore controlled values not issued by Audubon Core.</td>
+			<td>The subtype term MUST NOT be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary might add further description to a Collection object. IRI values SHOULD be selected from the Controlled Vocabulary for Audubon Core subtype. In text-based systems such as tables, IRI values MUST be in unabbreviated form. When an appropriate subtype is not available in the Audubon Core controlled vocabulary, a term IRI that is not in a TDWG namespace MAY be used. Conforming applications MAY choose to ignore controlled values not issued by Audubon Core.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>The following list provides examples of strings from which a community could generate URIs for specializations of dcterms:type for use with ac:subtype: Drawing, Painting, Logo, Icon, Illustration, Graphic, Photograph, Animation, Film, SlideShow, DesignPlan, Diagram, Map, MusicalNotation, IdentificationKey, ScannedText, RecordedText, RecordedOrganism, TaxonPage, MultimediaLearningObject, VirtualRealityEnvironment, GlossaryPage. Communities should define the URI in a namespace of their choosing or devising. For example, "<a href="http://my.inst.org/namespace/metadata/subtype/SlideShow">http://my.inst.org/namespace/metadata/subtype/SlideShow</a>"). See ac:subtypeLiteral for usage with strings. </td>
+			<td>See ac:subtypeLiteral for usage with strings.</td>
 		</tr>
 	</tbody>
 </table>
@@ -1138,15 +1147,15 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-01-27</td>
+			<td>2020-10-13</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/ac/terms/version/subtypeLiteral-2020-01-27">http://rs.tdwg.org/ac/terms/version/subtypeLiteral-2020-01-27</a></td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/subtypeLiteral-2020-10-13">http://rs.tdwg.org/ac/terms/version/subtypeLiteral-2020-10-13</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Subtype</td>
+			<td>Subtype (literal)</td>
 		</tr>
 		<tr>
 			<td></td>
@@ -1154,15 +1163,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The subtype should provide more specialization than the type. Possible values are community-defined.</td>
+			<td>A class, represented by a controlled value string, that provides for more specialization of the media item type than dc:type.</td>
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>The subtypeLiteral term MUST NOT be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary might add further description to a Collection object.</td>
-		</tr>
-		<tr>
-			<td>Notes</td>
-			<td>The following list provides examples of strings upon which a community could base specializations of dc:type for use with ac:subtypeLiteral: Drawing, Painting, Logo, Icon, Illustration, Graphic, Photograph, Animation, Film, SlideShow, DesignPlan, Diagram, Map, MusicalNotation, IdentificationKey, ScannedText, RecordedText, RecordedOrganism, TaxonPage, MultimediaLearningObject, VirtualRealityEnvironment, GlossaryPage.  See ac:subtype for usage with URIs.</td>
+			<td>The subtypeLiteral term MUST NOT be applied to Collection objects. However, the Description term in the Content Coverage Vocabulary might add further description to a Collection object. Controlled string values SHOULD be selected from the Controlled Vocabulary for Audubon Core subtype. It is best practice to use ac:subtype instead of ac:subytpeLiteral whenever practical.</td>
 		</tr>
 	</tbody>
 </table>
@@ -2204,6 +2209,90 @@ required values are strings or URIs.
 		<tr>
 			<td>Notes</td>
 			<td>This property optionally allows the presentation of detailed information and will in most cases be shown together with the resource title. If both a description and a caption are present in the metadata, a description is typically displayed instead of the resource, whereas a caption is displayed together with the resource. The description should aim to be a good proxy for the underlying media resource in cases where only text can be shown, whereas the caption may only make sense when shown together with the media. Often only one of description or caption is present; choose the term most appropriate for your metadata. It is the role of implementers of an AC concrete representation (e.g., an XML Schema, an RDF representation, etc.) to decide and document how formatting advice will be represented in descriptions serialized according to such representations.</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="ac_freqHigh"></a>Term Name: ac:freqHigh</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Normative URI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/freqHigh">http://rs.tdwg.org/ac/terms/freqHigh</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version URI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/freqHigh-2020-10-13">http://rs.tdwg.org/ac/terms/version/freqHigh-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Upper frequency bound</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>The highest frequency of the phenomena reflected in the multimedia item.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>Numeric value in hertz (Hz)</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>This term refers to the sound events depicted and not to the constraints of the recording medium, so are in principle independent from sampleRate. If dwc:scientificName is specified, these frequency bounds refer to the sounds of the species given in the dwc:scientificName throughout the whole recording. Although many users will specify both freqLow and freqHigh, it is permitted to specify just one or the other, for example if only one of the bounds is discernible.</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="ac_freqLow"></a>Term Name: ac:freqLow</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Normative URI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/freqLow">http://rs.tdwg.org/ac/terms/freqLow</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version URI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/freqLow-2020-10-13">http://rs.tdwg.org/ac/terms/version/freqLow-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Lower frequency bound</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>The lowest frequency of the phenomena reflected in the multimedia item.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>Numeric value in hertz (Hz)</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>This term refers to the sound events depicted and not to the constraints of the recording medium, so are in principle independent from sampleRate. If dwc:scientificName is specified, these frequency bounds refer to the sounds of the species given in the dwc:scientificName throughout the whole recording. Although many users will specify both freqLow and freqHigh, it is permitted to specify just one or the other, for example if only one of the bounds is discernible.</td>
 		</tr>
 	</tbody>
 </table>
@@ -5273,11 +5362,11 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-01-27</td>
+			<td>2020-10-13</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/ac/terms/version/resourceCreationTechnique-2020-01-27">http://rs.tdwg.org/ac/terms/version/resourceCreationTechnique-2020-01-27</a></td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/resourceCreationTechnique-2020-10-13">http://rs.tdwg.org/ac/terms/version/resourceCreationTechnique-2020-10-13</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -5293,7 +5382,49 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Examples: Encoding method or settings, numbers of channels, lighting, audio sampling rate, frames per second, data rate, interlaced or progressive, multiflash lighting, remote control, automatic interval exposure.  Annotating whether and how a resource has been modified or edited significantly in ways that are not immediately obvious to, or expected by, consumers is of special significance. Examples for images are: Removing a distracting twig from a picture, moving an object to a different surrounding, changing the color in parts of the image, or blurring the background of an image. Modifications that are standard practice and expected or obvious are not necessary to document; examples of such practices include changing resolution, cropping, minor sharpening or overall color correction, and clearly perceptible modifications (e.g., addition of arrows or labels, or the placement of multiple pictures into a table.) If it is only known that significant modifications were made, but no details are known, a general statement like "Media may have been manipulated to improve appearance" may be appropriate. See also Subject Preparation Technique.</td>
+			<td>Annotating whether and how a resource has been modified or edited significantly in ways that are not immediately obvious to, or expected by, consumers is of special significance. Examples for images are: Removing a distracting twig from a picture, moving an object to a different surrounding, changing the color in parts of the image, or blurring the background of an image. Modifications that are standard practice and expected or obvious are not necessary to document; examples of such practices include changing resolution, cropping, minor sharpening or overall color correction, and clearly perceptible modifications (e.g., addition of arrows or labels, or the placement of multiple pictures into a table.) If it is only known that significant modifications were made, but no details are known, a general statement like "Media may have been manipulated to improve appearance" may be appropriate. See also Subject Preparation Technique.</td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>Encoding method or settings, numbers of channels, lighting, frames per second, data rate, interlaced or progressive, multiflash lighting, remote control, automatic interval exposure.</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="mo_sample_rate"></a>Term Name: mo:sample_rate</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Normative URI</td>
+			<td><a href="http://purl.org/ontology/mo/sample_rate">http://purl.org/ontology/mo/sample_rate</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Sample Rate</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Associates a digital signal to its sample rate.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>Numeric value in hertz (Hz).</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>For example, a Service Access Point may have a specific resolution, quality, or format. “Sample rate” is distinct from the related concept of “bit rate” for compressed files such as MP3, and is applicable to both uncompressed and compressed files. See <a href="http://musicontology.com/specification/#term-sample_rate">http://musicontology.com/specification/#term-sample_rate</a> for additional information.</td>
 		</tr>
 	</tbody>
 </table>
@@ -5589,7 +5720,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-01-27</td>
+			<td>2020-10-13</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -5597,7 +5728,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Format</td>
+			<td>Format (literal)</td>
 		</tr>
 		<tr>
 			<td></td>
@@ -5609,11 +5740,11 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>A string describing the technical format of the resource (file format or physical medium).</td>
+			<td>A controlled value string describing the technical format of the resource (file format or physical medium). The string SHOULD be a controlled value from the the Audubon Core Controlled Vocabulary for Dublin Core format, although it MAY be any Media Type (MIME type) value from the IANA list of Media Types (<a href="https://www.iana.org/assignments/media-types/media-types.xhtml">https://www.iana.org/assignments/media-types/media-types.xhtml</a>) or any commonly used file extension string.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME]. This term is recommended for offline digital content. In cases where the provided URL includes a standard file extension from which the format can be inferred, it is permissible to not provide this item. Three types of values are recommended: (a) any MIME type; (b) common file extensions like txt, doc, odf, jpg/jpeg, png, pdf; (c) the following special values: Data-CD, Audio-CD, Video-CD, Data-DVD, Audio-DVD, Video-DVD-PAL, Video-DVD-NTSC, photographic slide, photographic print. Compare Type for the content-type. See also the entry for dcterms:format in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>This term can be used to describe offline digital content. In cases where the provided Service Access Point URL includes a standard file extension from which the format can be inferred, it is permissible to not provide a value for this property. See also the entry for dcterms:format in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. It is best practice to use dcterms:format instead of dc:format whenever practical. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -5631,7 +5762,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-01-27</td>
+			<td>2020-10-13</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -5639,7 +5770,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Format</td>
+			<td>Format (IRI)</td>
 		</tr>
 		<tr>
 			<td></td>
@@ -5651,11 +5782,11 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>URI referencing the technical format of the resource (file format or physical medium).</td>
+			<td>An IRI denoting the technical format of the resource (file format or physical medium). The IRI SHOULD be from the Audubon Core Controlled Vocabulary for Dublin Core format.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>See DCMI User_Guide, <a href="https://www.dublincore.org/resources/userguide/publishing_metadata/#dcterms:format">https://www.dublincore.org/resources/userguide/publishing_metadata/#dcterms:format</a>, for examples. See also the entry for dc:format in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>In cases where an IRI for the format does not exist in the controlled vocabulary, a provider can omit this property and provide a media type or file extension value for dc:format. See the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -5977,15 +6108,15 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-01-27</td>
+			<td>2020-10-13</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/ac/terms/version/variant-2020-01-27">http://rs.tdwg.org/ac/terms/version/variant-2020-01-27</a></td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/variant-2020-10-13">http://rs.tdwg.org/ac/terms/version/variant-2020-10-13</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Variant</td>
+			<td>Variant (IRI)</td>
 		</tr>
 		<tr>
 			<td></td>
@@ -5993,11 +6124,11 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>A URI designating what this Service Access Point provides.</td>
+			<td>The category describing this Service Access Point variant, denoted by an IRI.</td>
 		</tr>
 		<tr>
-			<td>Notes</td>
-			<td>Some suggested values are the URIs ac:Thumbnail, ac:Trailer, ac:LowerQuality, ac:MediumQuality, ac:GoodQuality, ac:BestQuality, and ac:Offline. Additional URIs from communities of practice may be introduced.</td>
+			<td>Usage</td>
+			<td>Values SHOULD be selected from the Controlled Vocabulary for Audubon Core variant. In text-based systems such as tables, IRI values MUST be in unabbreviated form.</td>
 		</tr>
 	</tbody>
 </table>
@@ -6053,15 +6184,15 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-01-27</td>
+			<td>2020-10-13</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/ac/terms/version/variantLiteral-2020-01-27">http://rs.tdwg.org/ac/terms/version/variantLiteral-2020-01-27</a></td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/variantLiteral-2020-10-13">http://rs.tdwg.org/ac/terms/version/variantLiteral-2020-10-13</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Variant</td>
+			<td>Variant (literal)</td>
 		</tr>
 		<tr>
 			<td></td>
@@ -6069,11 +6200,11 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Text that describes this Service Access Point variant.</td>
+			<td>The category describing this Service Access Point variant, denoted by a controlled value string.</td>
 		</tr>
 		<tr>
-			<td>Notes</td>
-			<td>This is an alternative to ac:variant where using a string is preferred over a URI. It is best practice to use ac:variant instead of ac:variantLiteral wherever practical. Value may be free text, but it is suggested to consider including terminology based on the following: Thumbnail: Service Access Point provides a thumbnail image, short sound clip, or short movie clip that can be used in addition to the resource to represent the media object, typically at lower quality and higher compression than a preview object. A typical size for a tiny thumbnail image may be 50-100 pixels in the longer dimension. Trailer: Service Access Point provides video clip preview, in the form of a specifically authored "Trailer", which may provide somewhat different content than the original resource. Lower Quality: Service Access Point provides a lower quality version of the media resource, suitable e. g. for web sites. Medium Quality: Service Access Point provides a medium quality version of the media resource, e. g. shortened in duration, or reduced size, using lower resolution or higher compression causing moderate artifacts. Good Quality: Service Access Point provides a good quality version of the media resource intended for resources displayed as primary information; e. g. an image between 800 and 1600 px in width or height. Best Quality: Service Access Point provides the highest available quality of the media resource, whatever its resolution or quality level. Offline: Service Access Point provides data about an offline resource.</td>
+			<td>Usage</td>
+			<td>Values SHOULD be selected from the Controlled Vocabulary for Audubon Core variant. It is best practice to use ac:variant instead of ac:variantLiteral whenever practical.</td>
 		</tr>
 	</tbody>
 </table>
