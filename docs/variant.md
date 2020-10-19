@@ -101,6 +101,10 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 			<td>Type</td>
 			<td>http://www.w3.org/2004/02/skos/core#ConceptScheme</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_30">http://rs.tdwg.org/decisions/decision-2020-10-13_30</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -143,6 +147,10 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_30">http://rs.tdwg.org/decisions/decision-2020-10-13_30</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -180,6 +188,10 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_30">http://rs.tdwg.org/decisions/decision-2020-10-13_30</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -223,6 +235,10 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_30">http://rs.tdwg.org/decisions/decision-2020-10-13_30</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -264,6 +280,10 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_30">http://rs.tdwg.org/decisions/decision-2020-10-13_30</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -307,6 +327,10 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_30">http://rs.tdwg.org/decisions/decision-2020-10-13_30</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -345,6 +369,10 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_30">http://rs.tdwg.org/decisions/decision-2020-10-13_30</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -382,6 +410,10 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_30">http://rs.tdwg.org/decisions/decision-2020-10-13_30</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -424,6 +456,10 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_30">http://rs.tdwg.org/decisions/decision-2020-10-13_30</a></td>
 		</tr>
 	</tbody>
 </table>

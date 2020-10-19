@@ -122,6 +122,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Type</td>
 			<td>Class</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -163,6 +167,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 		<tr>
 			<td>Type</td>
 			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -210,6 +218,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Type</td>
 			<td>Class</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -251,6 +263,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 		<tr>
 			<td>Type</td>
 			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -294,6 +310,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Type</td>
 			<td>Class</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -336,6 +356,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Type</td>
 			<td>Class</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -373,6 +397,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 		<tr>
 			<td>Type</td>
 			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -416,6 +444,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Type</td>
 			<td>Class</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -453,6 +485,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 		<tr>
 			<td>Type</td>
 			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -496,6 +532,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Type</td>
 			<td>Class</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -537,6 +577,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 		<tr>
 			<td>Type</td>
 			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -580,6 +624,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Type</td>
 			<td>Class</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -617,6 +665,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 		<tr>
 			<td>Type</td>
 			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -660,6 +712,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Type</td>
 			<td>Class</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -701,6 +757,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 		<tr>
 			<td>Type</td>
 			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -744,6 +804,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Type</td>
 			<td>Class</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -781,6 +845,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 		<tr>
 			<td>Type</td>
 			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -820,6 +888,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Type</td>
 			<td>Class</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -857,6 +929,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 		<tr>
 			<td>Type</td>
 			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -900,6 +976,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Type</td>
 			<td>Class</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -937,6 +1017,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 		<tr>
 			<td>Type</td>
 			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -979,6 +1063,10 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 		<tr>
 			<td>Type</td>
 			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
 		</tr>
 	</tbody>
 </table>

@@ -236,6 +236,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>http://www.w3.org/2004/02/skos/core#ConceptScheme</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -269,6 +273,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>http://www.w3.org/2004/02/skos/core#ConceptScheme</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -311,6 +319,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -348,6 +360,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -387,6 +403,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -424,6 +444,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -463,6 +487,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -500,6 +528,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -543,6 +575,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -584,6 +620,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -627,6 +667,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -668,6 +712,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -711,6 +759,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -752,6 +804,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -795,6 +851,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -836,6 +896,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -879,6 +943,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -920,6 +988,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -963,6 +1035,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1004,6 +1080,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1047,6 +1127,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1088,6 +1172,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1131,6 +1219,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1172,6 +1264,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1215,6 +1311,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1256,6 +1356,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1299,6 +1403,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1340,6 +1448,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1383,6 +1495,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1424,6 +1540,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1467,6 +1587,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1508,6 +1632,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1551,6 +1679,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1592,6 +1724,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1635,6 +1771,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1676,6 +1816,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1719,6 +1863,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1760,6 +1908,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1803,6 +1955,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1844,6 +2000,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1887,6 +2047,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1928,6 +2092,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1971,6 +2139,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2012,6 +2184,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2055,6 +2231,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2096,6 +2276,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2139,6 +2323,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2180,6 +2368,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2223,6 +2415,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2264,6 +2460,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2307,6 +2507,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2348,6 +2552,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2391,6 +2599,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2433,6 +2645,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2474,6 +2690,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2521,6 +2741,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2562,6 +2786,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2605,6 +2833,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2646,6 +2878,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2689,6 +2925,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2730,6 +2970,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2773,6 +3017,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2814,6 +3062,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2857,6 +3109,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2898,6 +3154,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2941,6 +3201,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -2982,6 +3246,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -3025,6 +3293,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3067,6 +3339,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3108,6 +3384,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -3155,6 +3435,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3200,6 +3484,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -3247,6 +3535,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3293,6 +3585,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3338,6 +3634,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3379,6 +3679,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -3422,6 +3726,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3463,6 +3771,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -3506,6 +3818,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3547,6 +3863,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -3590,6 +3910,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3631,6 +3955,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -3674,6 +4002,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3715,6 +4047,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -3758,6 +4094,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3799,6 +4139,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -3842,6 +4186,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3883,6 +4231,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -3926,6 +4278,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -3967,6 +4323,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4010,6 +4370,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4051,6 +4415,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4094,6 +4462,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4135,6 +4507,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4178,6 +4554,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4219,6 +4599,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4262,6 +4646,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4303,6 +4691,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4346,6 +4738,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4387,6 +4783,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4430,6 +4830,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4471,6 +4875,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4514,6 +4922,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4555,6 +4967,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4598,6 +5014,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4639,6 +5059,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4682,6 +5106,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4723,6 +5151,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4766,6 +5198,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4807,6 +5243,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4850,6 +5290,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4891,6 +5335,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4934,6 +5382,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -4975,6 +5427,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -5018,6 +5474,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -5059,6 +5519,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -5102,6 +5566,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -5143,6 +5611,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -5186,6 +5658,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -5227,6 +5703,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -5270,6 +5750,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 			<td>Type</td>
 			<td>Concept</td>
 		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
+		</tr>
 	</tbody>
 </table>
 
@@ -5311,6 +5795,10 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		<tr>
 			<td>Type</td>
 			<td>Concept</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_29">http://rs.tdwg.org/decisions/decision-2020-10-13_29</a></td>
 		</tr>
 	</tbody>
 </table>
