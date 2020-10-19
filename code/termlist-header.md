@@ -6,17 +6,17 @@ permalink: /termlist/
 
 **Title:** Audubon Core Term List
 
-**Date version issued:** 2020-08-23
+**Date version issued:** 2020-10-13
 
 **Date created:** 2013-10-23
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** <http://rs.tdwg.org/ac/doc/termlist/2020-08-23>
+**This version:** <http://rs.tdwg.org/ac/doc/termlist/2020-10-13>
 
 **Latest version:** <http://rs.tdwg.org/ac/doc/termlist/>
 
-**Previous version:** <http://rs.tdwg.org/ac/doc/termlist/2020-01-27>
+**Previous version:** <http://rs.tdwg.org/ac/doc/termlist/2020-08-23>
 
 **Abstract:** The Audubon Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
@@ -34,16 +34,16 @@ adopted by Biodiversity Information Standards / TDWG at the general
 meeting in October 2013 and updated in 2020. This document contains normative content that
 may not be changed without due process.
 
-**Contributors:** Robert A. Morris, Gregor Hagedorn, Annette Olson, Steve Baskauf, Vijay Barve, Mihail Carausu, Vishwas Chavan, José Cuadra, Chris Freeland, Patrick Leary, Dimitry Mozzherin, Greg Riccardi, Ivan Teage
+**Contributors:** Robert A. Morris, Gregor Hagedorn, Annette Olson, Steve Baskauf, Vijay Barve, Mihail Carausu, Vishwas Chavan, José Cuadra, Chris Freeland, Patrick Leary, Dimitry Mozzherin, Greg Riccardi, Ivan Teage, Dan Stowell, Edward Baker
 
 **Creator:** GBIF/TDWG Multimedia Resources Task Group and Audubon Core Maintenance Group
 
-**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/2020-08-23
+**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/2020-10-13
 
 
 ## 1 Introduction
 
-There are four documents included in the Aububon Core Standard.  This document provides details about the terms included in the 2020-08-23 version of the Audubon Core vocabulary. The [Audubon Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
+There are a number of documents included in the Aububon Core Standard.  This document provides details about the terms included in the 2020-10-13 version of the Audubon Core vocabulary. The [Audubon Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
 
 
 ### 1.1 Status of the content of this document
@@ -89,6 +89,7 @@ Note: URIs for terms in most of these namespaces do not dereference to anything.
 | [Adobe XMP Additional Properties](http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2014-12/XMPSpecificationPart2.pdf) | XMP | `photoshop: = http://ns.adobe.com/photoshop/1.0/` |
 | [International Press and Telecommunications Council Photo Metadata Standard,Extension Schema 1.1](http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf) | IPTC | `Iptc4xmpExt: = http://iptc.org/std/Iptc4xmpExt/2008-02-29/` |
 | [Camera and Imaging Products Association Exchangeable Image File Format](http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf) | EXIF | `exif: = http://ns.adobe.com/exif/1.0/` |
+| [Music Ontology](http://musicontology.com/specification/) | MO | `mo: = http://purl.org/ontology/mo/` |
 | [TDWG Natural Collection Description LSID Ontology](https://github.com/tdwg/ontology/blob/master/ontology/voc/Collection.rdf) (referenced in metadata, but no terms borrowed) | NCD | `ncd: = http://rs.tdwg.org/ontology/voc/Collection#` |
 
 

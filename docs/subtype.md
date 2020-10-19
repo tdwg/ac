@@ -1,0 +1,1074 @@
+---
+permalink: /variant/
+---
+
+# Controlled Vocabulary for Audubon Core subtype: List of Terms
+
+**Title:** Controlled Vocabulary for Audubon Core subtype: List of Terms
+
+**Namespace URI:** http://rs.tdwg.org/acsubtype/values/
+
+**Preferred namespace abbreviation:** acsubtype:
+
+**Date version issued:** 2020-10-13
+
+**Date created:** 2020-10-13
+
+**Part of TDWG Standard:** http://www.tdwg.org/standards/638
+
+**This version:** http://rs.tdwg.org/ac/doc/subtype/2020-10-13
+
+**Latest version:** http://rs.tdwg.org/ac/doc/subtype/
+
+**Abstract:** Audubon Core uses the terms `ac:subtype` and `ac:subtypeLiteral` to refine the type of a media item to a level more specific than the Dublin Core Type Vocabulary, `http://purl.org/dc/dcmitype/`. This controlled vocabulary provides values for `ac:subtype` and `ac:subtypeLiteral`. 
+
+**Contributors:** Steven J Baskauf (Vanderbilt University Heard Libraries)
+
+**Creator:** TDWG Audubon Core Maintenance Group
+
+**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Controlled Vocabulary for Audubon Core subtype: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/subtype/2020-10-13>
+
+
+## 1 Introduction (informative)
+
+This document includes terms intended to be used as a controlled value for Audubon Core terms `ac:subtype` and `ac:subtypeLiteral`. **Note:** Although this is a controlled vocabulary, the type of its terms is `rdfs:Class` rather than `skos:Concept` as in other controlled vocabularies because it indicates the type of the media item.
+
+### 1.1 Status of the content of this document
+
+Section 1 is informative (non-normative).
+
+Section 2 is normative.
+
+Section 3 is informative (non-normative).
+
+In Section 4, the values of the `Term IRI`, `Definition`, and `Controlled value` are normative. The value of `Usage` (if it exists for a given term) is normative. The values of `Term Name` are non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  `Label` and the values of all other properties are non-normative.
+
+### 1.2 RFC 2119 key words
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
+
+## 2 Use of Terms
+
+### 2.1 Relationship of value types to property terms
+
+In accordance with [the Audubon Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs SHOULD be used as values of the property `ac:subtype`. Controlled value strings SHOULD be used as values of the property `ac:subtypeLiteral`.
+
+### 2.2 Relationship between values of ac:subtypeLiteral and ac:subtype
+
+An IRI for a term in this vocabulary denotes the same class as the class denoted by the controlled value string for the same term. Thus a client MAY infer an IRI value for `ac:subtype` given a controlled value string for `ac:subtypeLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:subtype` property in cases where providers only provide values for `ac:subtypeLiteral`. 
+
+## 3 Term index
+
+
+[Animation](#acsubtype_Animation) |
+[Design Plan](#acsubtype_DesignPlan) |
+[Diagram](#acsubtype_Diagram) |
+[Drawing](#acsubtype_Drawing) |
+[Film](#acsubtype_Film) |
+[Glossary Page](#acsubtype_GlossaryPage) |
+[Graphic](#acsubtype_Graphic) |
+[Icon](#acsubtype_Icon) |
+[Identification Key](#acsubtype_IdentificationKey) |
+[Illustration](#acsubtype_Illustration) |
+[Logo](#acsubtype_Logo) |
+[Map](#acsubtype_Map) |
+[Multimedia Learning Object](#acsubtype_MultimediaLearningObject) |
+[Musical Notation](#acsubtype_MusicalNotation) |
+[Painting](#acsubtype_Painting) |
+[Photograph](#acsubtype_Photograph) |
+[Recorded Organism](#acsubtype_RecordedOrganism) |
+[Recorded Text](#acsubtype_RecordedText) |
+[Scanned Text](#acsubtype_ScannedText) |
+[Slide Show](#acsubtype_SlideShow) |
+[Taxon Page](#acsubtype_TaxonPage) |
+[Virtual Reality Environment](#acsubtype_VirtualRealityEnvironment) 
+
+## 4 Vocabulary
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_Animation"></a>Term Name  acsubtype:Animation</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/Animation">http://rs.tdwg.org/acsubtype/values/Animation</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/Animation-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/Animation-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Animation</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Works that present the illusion of movement and that may be created by a number of techniques including successive drawings, photographing positions of puppets or models, or using computers.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>See <a href="http://vocab.getty.edu/page/aat/300411663">http://vocab.getty.edu/page/aat/300411663</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>Animation</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_DesignPlan"></a>Term Name  acsubtype:DesignPlan</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/DesignPlan">http://rs.tdwg.org/acsubtype/values/DesignPlan</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/DesignPlan-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/DesignPlan-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Design Plan</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Refers to drawings, sketches, prints, computer graphics, or works in other media depicting a building or any object viewed from above, geometrically represented as projected on a horizontal plane.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>See <a href="http://vocab.getty.edu/page/aat/300034104">http://vocab.getty.edu/page/aat/300034104</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>DesignPlan</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_Diagram"></a>Term Name  acsubtype:Diagram</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/Diagram">http://rs.tdwg.org/acsubtype/values/Diagram</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/Diagram-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/Diagram-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Diagram</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Graphic designs intended to explain rather than simply represent. </td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>See <a href="http://vocab.getty.edu/page/aat/300015387">http://vocab.getty.edu/page/aat/300015387</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td>in geometry, a diagram may be a figure composed of lines, serving to illustrate a definition or statement, or to aid in the proof of a proposition</td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>Diagram</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_Drawing"></a>Term Name  acsubtype:Drawing</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/Drawing">http://rs.tdwg.org/acsubtype/values/Drawing</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/Drawing-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/Drawing-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Drawing</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Visual works produced by drawing, which is the application of lines on a surface, often paper, by using a pencil, pen, chalk, or some other tracing instrument to focus on the delineation of form rather than the application of color.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>See <a href="http://vocab.getty.edu/page/aat/300033973">http://vocab.getty.edu/page/aat/300033973</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>Drawing</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_Film"></a>Term Name  acsubtype:Film</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/Film">http://rs.tdwg.org/acsubtype/values/Film</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/Film-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/Film-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Film</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Works presented in the form of a series of pictures carried on photographic film or video tape, presented to the eye in such rapid succession as to give the illusion of natural movement.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Also known as motion pictures. See <a href="http://vocab.getty.edu/page/aat/300136900">http://vocab.getty.edu/page/aat/300136900</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>Film</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_GlossaryPage"></a>Term Name  acsubtype:GlossaryPage</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/GlossaryPage">http://rs.tdwg.org/acsubtype/values/GlossaryPage</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/GlossaryPage-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/GlossaryPage-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Glossary Page</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Alphabetical lists of terms related to a particular subject or area of interest, including definitions or explanations of usage.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>See <a href="http://vocab.getty.edu/page/aat/300026189">http://vocab.getty.edu/page/aat/300026189</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>GlossaryPage</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_Graphic"></a>Term Name  acsubtype:Graphic</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/Graphic">http://rs.tdwg.org/acsubtype/values/Graphic</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/Graphic-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/Graphic-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Graphic</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Visual images or designs preserved on some medium.</td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>Graphic</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_Icon"></a>Term Name  acsubtype:Icon</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/Icon">http://rs.tdwg.org/acsubtype/values/Icon</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/Icon-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/Icon-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Icon</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Small pictures, pictograms, or symbols used on computer displays or in graphical user interfaces meant to represent files, objects, applications, actions, or messages.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>See <a href="http://vocab.getty.edu/page/aat/300266210">http://vocab.getty.edu/page/aat/300266210</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>Icon</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_IdentificationKey"></a>Term Name  acsubtype:IdentificationKey</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/IdentificationKey">http://rs.tdwg.org/acsubtype/values/IdentificationKey</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/IdentificationKey-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/IdentificationKey-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Identification Key</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>A taxonomic key used for identifying unknown organisms.</td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>IdentificationKey</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_Illustration"></a>Term Name  acsubtype:Illustration</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/Illustration">http://rs.tdwg.org/acsubtype/values/Illustration</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/Illustration-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/Illustration-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Illustration</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Pictures or diagrams that clarify or provide an example or visualization. They usually accompany a text; the term is most often used to refer to pictures in books or published journal.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>See <a href="http://vocab.getty.edu/page/aat/300015578">http://vocab.getty.edu/page/aat/300015578</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>Illustration</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_Logo"></a>Term Name  acsubtype:Logo</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/Logo">http://rs.tdwg.org/acsubtype/values/Logo</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/Logo-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/Logo-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Logo</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Devices that are specifically symbol- or picture based, designed for ready recognition to identify a product, company, or organization and sometimes used as trademarks.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>See <a href="http://vocab.getty.edu/page/aat/300028715">http://vocab.getty.edu/page/aat/300028715</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>Logo</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_Map"></a>Term Name  acsubtype:Map</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/Map">http://rs.tdwg.org/acsubtype/values/Map</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/Map-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/Map-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Map</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Refers to graphic or photogrammetric representations of the Earth's surface or a part of it, including physical features and political boundaries, where each point corresponds to a geographical or celestial position according to a definite scale or projection.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>See <a href="http://vocab.getty.edu/page/aat/300028094">http://vocab.getty.edu/page/aat/300028094</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>Map</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_MultimediaLearningObject"></a>Term Name  acsubtype:MultimediaLearningObject</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/MultimediaLearningObject">http://rs.tdwg.org/acsubtype/values/MultimediaLearningObject</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/MultimediaLearningObject-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/MultimediaLearningObject-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Multimedia Learning Object</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Works that employ several distinct media forms to improve learning outcomes.</td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>MultimediaLearningObject</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_MusicalNotation"></a>Term Name  acsubtype:MusicalNotation</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/MusicalNotation">http://rs.tdwg.org/acsubtype/values/MusicalNotation</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/MusicalNotation-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/MusicalNotation-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Musical Notation</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>General term for systems used to visually represent music through written words or standard notations.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>See <a href="http://vocab.getty.edu/page/aat/300417622">http://vocab.getty.edu/page/aat/300417622</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>MusicalNotation</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_Painting"></a>Term Name  acsubtype:Painting</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/Painting">http://rs.tdwg.org/acsubtype/values/Painting</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/Painting-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/Painting-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Painting</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Unique works in which images are formed primarily by the direct application of pigments suspended in oil, water, egg yolk, molten wax, or other liquid, arranged in masses of color, onto a generally two-dimensional surface.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>See <a href="http://vocab.getty.edu/page/aat/300033618">http://vocab.getty.edu/page/aat/300033618</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>Painting</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_Photograph"></a>Term Name  acsubtype:Photograph</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/Photograph">http://rs.tdwg.org/acsubtype/values/Photograph</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/Photograph-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/Photograph-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Photograph</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Refers to still images produced from radiation-sensitive materials (sensitive to light, electron beams, or nuclear radiation), generally by means of the chemical action of light on a sensitive film, paper, glass, or metal. Photographs may be positive or negative, opaque or transparent. The concept may include photographs made by digital means.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>See <a href="http://vocab.getty.edu/page/aat/300046300">http://vocab.getty.edu/page/aat/300046300</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>Photograph</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_RecordedOrganism"></a>Term Name  acsubtype:RecordedOrganism</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/RecordedOrganism">http://rs.tdwg.org/acsubtype/values/RecordedOrganism</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/RecordedOrganism-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/RecordedOrganism-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Recorded Organism</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>The sounds produced by an organism or organisms recorded on an audio medium.</td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>RecordedOrganism</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_RecordedText"></a>Term Name  acsubtype:RecordedText</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/RecordedText">http://rs.tdwg.org/acsubtype/values/RecordedText</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/RecordedText-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/RecordedText-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Recorded Text</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>A body of physical type or written matter read aloud by a narrator and recorded. </td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>RecordedText</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_ScannedText"></a>Term Name  acsubtype:ScannedText</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/ScannedText">http://rs.tdwg.org/acsubtype/values/ScannedText</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/ScannedText-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/ScannedText-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Scanned Text</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>A body of physical type or written matter transformed into an electronic format that can be used to reproduce the original material on a screen.  </td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>ScannedText</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_SlideShow"></a>Term Name  acsubtype:SlideShow</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/SlideShow">http://rs.tdwg.org/acsubtype/values/SlideShow</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/SlideShow-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/SlideShow-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Slide Show</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Visual representations of information for the purpose of achieving favorable visibility and persuading an audience to believe or support the presentor's ideas, projects, or goals.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>See <a href="http://vocab.getty.edu/page/aat/300258677">http://vocab.getty.edu/page/aat/300258677</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>SlideShow</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_TaxonPage"></a>Term Name  acsubtype:TaxonPage</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/TaxonPage">http://rs.tdwg.org/acsubtype/values/TaxonPage</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/TaxonPage-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/TaxonPage-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Taxon Page</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>A web page summarizing information about a particular taxon.</td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>TaxonPage</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acsubtype_VirtualRealityEnvironment"></a>Term Name  acsubtype:VirtualRealityEnvironment</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/VirtualRealityEnvironment">http://rs.tdwg.org/acsubtype/values/VirtualRealityEnvironment</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2020-10-13</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acsubtype/values/version/VirtualRealityEnvironment-2020-10-13">http://rs.tdwg.org/acsubtype/values/version/VirtualRealityEnvironment-2020-10-13</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Virtual Reality Environment</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Use with regard to types of computer interface that produce compelling sensory output in response to user selections or movements.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>See <a href="http://vocab.getty.edu/page/aat/300238469">http://vocab.getty.edu/page/aat/300238469</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>VirtualRealityEnvironment</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2020-10-13_28">http://rs.tdwg.org/decisions/decision-2020-10-13_28</a></td>
+		</tr>
+	</tbody>
+</table>
+
+
