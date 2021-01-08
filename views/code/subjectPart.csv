@@ -1,4 +1,4 @@
-term_localName,label,skos_broader,definition (normative),usage (normative),notes (including examples; non-normative),controlled value string,rdf_type
+term_localName,label,skos_broader,definition,usage,notes,controlled_value_string,type
 p,subject part concept scheme,,a SKOS concept scheme for ac:subjectOrientation,,,,http://www.w3.org/2004/02/skos/core#ConceptScheme
 p0000,unspecified part,,,,,unspecifiedPart,http://www.w3.org/2004/02/skos/core#Concept
 p0001,entire organism,,,,,entireOrganism,http://www.w3.org/2004/02/skos/core#Concept
