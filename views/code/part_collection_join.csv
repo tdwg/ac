@@ -1,0 +1,135 @@
+collection_id,collection_label,part_id,part_label
+g00,unspecified organism group,p0000,unspecified part
+g00,unspecified organism group,p0001,entire organism
+g01,woody angiosperms,p0000,unspecified part
+g01,woody angiosperms,p0001,entire organism
+g01,woody angiosperms,p0002,bark
+g01,woody angiosperms,p0003,twig
+g01,woody angiosperms,p0005,leaf
+g01,woody angiosperms,p0007,inflorescence
+g01,woody angiosperms,p0008,fruit
+g01,woody angiosperms,p0009,seed
+g01,woody angiosperms,p0012,flower
+g02,herbaceous angiosperms,p0000,unspecified part
+g02,herbaceous angiosperms,p0001,entire organism
+g02,herbaceous angiosperms,p0004,stem
+g02,herbaceous angiosperms,p0005,leaf
+g02,herbaceous angiosperms,p0007,inflorescence
+g02,herbaceous angiosperms,p0008,fruit
+g02,herbaceous angiosperms,p0009,seed
+g02,herbaceous angiosperms,p0012,flower
+g03,gymnosperms,p0000,unspecified part
+g03,gymnosperms,p0001,entire organism
+g03,gymnosperms,p0002,bark
+g03,gymnosperms,p0003,twig
+g03,gymnosperms,p0005,leaf
+g03,gymnosperms,p0006,cone
+g03,gymnosperms,p0009,seed
+g03,gymnosperms,p0010,male cone
+g03,gymnosperms,p0011,female cone
+g04,ferns,p0000,unspecified part
+g04,ferns,p0001,entire organism
+g05,cacti,p0000,unspecified part
+g05,cacti,p0001,entire organism
+g06,mosses,p0000,unspecified part
+g06,mosses,p0001,entire organism
+g07,fishes,p0001,entire organism
+g07,fishes,p0000,unspecified part
+g07,fishes,p0003,dorsal
+g07,fishes,p0004,lateral
+g07,fishes,p0005,ventral
+g07,fishes,p0006,head only
+g07,fishes,p0007,body only
+g07,fishes,p0008,loose skeletal
+g07,fishes,p0009,skull dorsal
+g07,fishes,p0010,skull lateral
+g07,fishes,p0011,skull ventral
+g07,fishes,p0012,fin
+g09,mammals,p0001,entire organism
+g09,mammals,p0000,unspecified part
+g09,mammals,p0003,dorsal
+g09,mammals,p0004,lateral
+g09,mammals,p0005,ventral
+g09,mammals,p0006,head only
+g09,mammals,p0007,body only
+g09,mammals,p0008,cranium dorsal
+g09,mammals,p0009,cranium lateral
+g09,mammals,p0010,cranium ventral
+g09,mammals,p0011,mandible dorsal
+g09,mammals,p0012,mandible lateral
+g09,mammals,p0013,mandible ventral
+g09,mammals,p0014,full skull dorsal
+g09,mammals,p0015,full skull lateral
+g09,mammals,p0016,full skull ventral
+g10,birds,p0001,entire organism
+g10,birds,p0000,unspecified part
+g10,birds,p0003,dorsal
+g10,birds,p0004,lateral
+g10,birds,p0005,ventral
+g10,birds,p0006,head only
+g10,birds,p0007,body only
+g10,birds,p0008,cranium dorsal
+g10,birds,p0009,cranium lateral
+g10,birds,p0010,cranium ventral
+g10,birds,p0011,mandible dorsal
+g10,birds,p0012,mandible lateral
+g10,birds,p0013,mandible ventral
+g10,birds,p0014,full skull dorsal
+g10,birds,p0015,full skull lateral
+g10,birds,p0016,full skull ventral
+g10,birds,p0017,wing
+g10,birds,p0018,egg
+g11,reptiles/amphibians,p0001,entire organism
+g11,reptiles/amphibians,p0000,unspecified part
+g11,reptiles/amphibians,p0003,dorsal
+g11,reptiles/amphibians,p0004,lateral
+g11,reptiles/amphibians,p0005,ventral
+g11,reptiles/amphibians,p0006,head only
+g11,reptiles/amphibians,p0007,body only
+g11,reptiles/amphibians,p0008,cranium dorsal
+g11,reptiles/amphibians,p0009,cranium lateral
+g11,reptiles/amphibians,p0010,cranium ventral
+g11,reptiles/amphibians,p0011,mandible dorsal
+g11,reptiles/amphibians,p0012,mandible lateral
+g11,reptiles/amphibians,p0013,mandible ventral
+g11,reptiles/amphibians,p0014,full skull dorsal
+g11,reptiles/amphibians,p0015,full skull lateral
+g11,reptiles/amphibians,p0016,full skull ventral
+g11,reptiles/amphibians,p0026,genitalia
+g08,grasses,,
+g12,insects,p0000,unspecified part
+g12,insects,p0001,entire organism
+g12,insects,p0013,head
+g12,insects,p0014,thorax
+g12,insects,p0015,abdomen
+g12,insects,p0016,leg
+g12,insects,p0017,wing
+g12,insects,p0018,antenna
+g12,insects,p0019,forewing
+g12,insects,p0020,hindwing
+g12,insects,p0021,foreleg
+g12,insects,p0022,midleg
+g12,insects,p0023,hindleg
+g12,insects,p0024,eye
+g12,insects,p0026,genitalia
+g13,flies,p0000,unspecified part
+g13,flies,p0001,entire organism
+g13,flies,p0013,head
+g13,flies,p0014,thorax
+g13,flies,p0015,abdomen
+g13,flies,p0016,leg
+g13,flies,p0017,wing
+g13,flies,p0018,antenna
+g13,flies,p0021,foreleg
+g13,flies,p0022,midleg
+g13,flies,p0023,hindleg
+g13,flies,p0024,eye
+g13,flies,p0026,genitalia
+g13,flies,r0000,unspecified orientation
+g13,flies,r0001,anterior side
+g13,flies,r0002,posterior side
+g13,flies,r0003,lateral side
+g13,flies,r0004,right side
+g13,flies,r0005,left side
+g13,flies,r0006,dorsal side
+g13,flies,r0007,ventral side

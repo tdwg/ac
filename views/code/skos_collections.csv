@@ -1,0 +1,15 @@
+term_localName,label,definition (normative),usage (normative),notes (including examples; non-normative),rdf_type
+g00,unspecified organism group,,,,http://www.w3.org/2004/02/skos/core#Collection
+g01,woody angiosperms,collection of concepts that apply to woody angiosperms,,,http://www.w3.org/2004/02/skos/core#Collection
+g02,herbaceous angiosperms,,,,http://www.w3.org/2004/02/skos/core#Collection
+g03,gymnosperms,,,,http://www.w3.org/2004/02/skos/core#Collection
+g04,ferns,,,,http://www.w3.org/2004/02/skos/core#Collection
+g05,cacti,,,,http://www.w3.org/2004/02/skos/core#Collection
+g06,mosses,,,,http://www.w3.org/2004/02/skos/core#Collection
+g07,fish,,,,http://www.w3.org/2004/02/skos/core#Collection
+g08,grasses,,,,http://www.w3.org/2004/02/skos/core#Collection
+g09,mammals,,,,http://www.w3.org/2004/02/skos/core#Collection
+g10,birds,,,,http://www.w3.org/2004/02/skos/core#Collection
+g11,reptiles/amphibians,,,,http://www.w3.org/2004/02/skos/core#Collection
+g12,insects,,,,http://www.w3.org/2004/02/skos/core#Collection
+g13,flies,collection of concepts that apply to flies,,,http://www.w3.org/2004/02/skos/core#Collection
