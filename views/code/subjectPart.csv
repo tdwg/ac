@@ -1,32 +1,32 @@
-term_localName,label,skos_broader,definition,usage,notes,controlled_value_string,type
-p,subject part concept scheme,,a SKOS concept scheme for ac:subjectOrientation,,,,http://www.w3.org/2004/02/skos/core#ConceptScheme
-p0000,unspecified part,,,,,unspecifiedPart,http://www.w3.org/2004/02/skos/core#Concept
-p0001,entire organism,,,,,entireOrganism,http://www.w3.org/2004/02/skos/core#Concept
-p0002,bark,,Plant tissue outside the vascular cambium as defined by http://purl.obolibrary.org/obo/PO_0004518,,,bark,http://www.w3.org/2004/02/skos/core#Concept
-p0003,twig,,Plant shoot axis developed from axillary buds as defined by http://purl.obolibrary.org/obo/PO_0025073,,,twig,http://www.w3.org/2004/02/skos/core#Concept
-p0004,stem,,Plant shoot axis that is the primary axis as defined by http://purl.obolibrary.org/obo/PO_0009047,,,stem,http://www.w3.org/2004/02/skos/core#Concept
-p0005,leaf,,Plant non-reproductive phyllome as defined by http://purl.obolibrary.org/obo/PO_0025034,,,leaf,http://www.w3.org/2004/02/skos/core#Concept
-p0006,strobilis (cone),,Plant reproductive system consisting of sporophylls as defined by http://purl.obolibrary.org/obo/PO_0025083,,,strobilis,http://www.w3.org/2004/02/skos/core#Concept
-p0007,inflorescence,,Plant reproductive shoot system containing flowers as defined by http://purl.obolibrary.org/obo/PO_0009049,,,inflorescence,http://www.w3.org/2004/02/skos/core#Concept
-p0008,fruit,,Plant structure developing from a flower as defined by http://purl.obolibrary.org/obo/PO_0009001,,,fruit,http://www.w3.org/2004/02/skos/core#Concept
-p0009,seed,,Plant structure containing dormant embryo as defined by http://purl.obolibrary.org/obo/PO_0009010,,,seed,http://www.w3.org/2004/02/skos/core#Concept
-p0010,male cone,p0006,Plant strobilis bearing pollen as defined by http://purl.obolibrary.org/obo/PO_0005031,,,maleCone,http://www.w3.org/2004/02/skos/core#Concept
-p0011,female cone,p0006,Plant strobilis bearing ovules as defined by http://purl.obolibrary.org/obo/PO_0005032,,,femaleCone,http://www.w3.org/2004/02/skos/core#Concept
-p0012,flower,p0007,Plant reproductive shoot system containing a carpel as defined by http://purl.obolibrary.org/obo/PO_0009046,,,flower,http://www.w3.org/2004/02/skos/core#Concept
-p0013,head,,,,,head,http://www.w3.org/2004/02/skos/core#Concept
-p0014,thorax,,,,,thorax,http://www.w3.org/2004/02/skos/core#Concept
-p0015,abdomen,,,,,abdomen,http://www.w3.org/2004/02/skos/core#Concept
-p0016,leg,,,,,leg,http://www.w3.org/2004/02/skos/core#Concept
-p0017,wing,,,,,wing,http://www.w3.org/2004/02/skos/core#Concept
-p0018,antenna,,,,,antenna,http://www.w3.org/2004/02/skos/core#Concept
-p0019,forewing,p0017,,,,forewing,http://www.w3.org/2004/02/skos/core#Concept
-p0020,hindwing,p0017,,,,hindwing,http://www.w3.org/2004/02/skos/core#Concept
-p0021,foreleg,p0016,,,,foreleg,http://www.w3.org/2004/02/skos/core#Concept
-p0022,midleg,p0016,,,,midleg,http://www.w3.org/2004/02/skos/core#Concept
-p0023,hindleg,p0016,,,,hindleg,http://www.w3.org/2004/02/skos/core#Concept
-p0024,eye,,,,,eye,http://www.w3.org/2004/02/skos/core#Concept
-p0025,shell,,,,,shell,http://www.w3.org/2004/02/skos/core#Concept
-p0026,genitalia,,,,,genitalia,http://www.w3.org/2004/02/skos/core#Concept
-p0027,skull,,,,,skull,http://www.w3.org/2004/02/skos/core#Concept
-p0028,cranium,,,,,cranium,http://www.w3.org/2004/02/skos/core#Concept
-p0029,mandible,,,,,mandible,http://www.w3.org/2004/02/skos/core#Concept
+term_localName,label,skos_broader,skos_inScheme,definition,usage,notes,controlled_value_string,type
+p,subject part concept scheme,,,a SKOS concept scheme for ac:subjectOrientation,,,,http://www.w3.org/2004/02/skos/core#ConceptScheme
+p0000,unspecified part,,p,,,,unspecifiedPart,http://www.w3.org/2004/02/skos/core#Concept
+p0001,entire organism,,p,,,,entireOrganism,http://www.w3.org/2004/02/skos/core#Concept
+p0002,bark,,p,Plant tissue outside the vascular cambium as defined by http://purl.obolibrary.org/obo/PO_0004518,,,bark,http://www.w3.org/2004/02/skos/core#Concept
+p0003,twig,,p,Plant shoot axis developed from axillary buds as defined by http://purl.obolibrary.org/obo/PO_0025073,,,twig,http://www.w3.org/2004/02/skos/core#Concept
+p0004,stem,,p,Plant shoot axis that is the primary axis as defined by http://purl.obolibrary.org/obo/PO_0009047,,,stem,http://www.w3.org/2004/02/skos/core#Concept
+p0005,leaf,,p,Plant non-reproductive phyllome as defined by http://purl.obolibrary.org/obo/PO_0025034,,,leaf,http://www.w3.org/2004/02/skos/core#Concept
+p0006,strobilis (cone),,p,Plant reproductive system consisting of sporophylls as defined by http://purl.obolibrary.org/obo/PO_0025083,,,strobilis,http://www.w3.org/2004/02/skos/core#Concept
+p0007,inflorescence,,p,Plant reproductive shoot system containing flowers as defined by http://purl.obolibrary.org/obo/PO_0009049,,,inflorescence,http://www.w3.org/2004/02/skos/core#Concept
+p0008,fruit,,p,Plant structure developing from a flower as defined by http://purl.obolibrary.org/obo/PO_0009001,,,fruit,http://www.w3.org/2004/02/skos/core#Concept
+p0009,seed,,p,Plant structure containing dormant embryo as defined by http://purl.obolibrary.org/obo/PO_0009010,,,seed,http://www.w3.org/2004/02/skos/core#Concept
+p0010,male cone,p0006,p,Plant strobilis bearing pollen as defined by http://purl.obolibrary.org/obo/PO_0005031,,,maleCone,http://www.w3.org/2004/02/skos/core#Concept
+p0011,female cone,p0006,p,Plant strobilis bearing ovules as defined by http://purl.obolibrary.org/obo/PO_0005032,,,femaleCone,http://www.w3.org/2004/02/skos/core#Concept
+p0012,flower,p0007,p,Plant reproductive shoot system containing a carpel as defined by http://purl.obolibrary.org/obo/PO_0009046,,,flower,http://www.w3.org/2004/02/skos/core#Concept
+p0013,head,,p,,,,head,http://www.w3.org/2004/02/skos/core#Concept
+p0014,thorax,,p,,,,thorax,http://www.w3.org/2004/02/skos/core#Concept
+p0015,abdomen,,p,,,,abdomen,http://www.w3.org/2004/02/skos/core#Concept
+p0016,leg,,p,,,,leg,http://www.w3.org/2004/02/skos/core#Concept
+p0017,wing,,p,,,,wing,http://www.w3.org/2004/02/skos/core#Concept
+p0018,antenna,,p,,,,antenna,http://www.w3.org/2004/02/skos/core#Concept
+p0019,forewing,p0017,p,,,,forewing,http://www.w3.org/2004/02/skos/core#Concept
+p0020,hindwing,p0017,p,,,,hindwing,http://www.w3.org/2004/02/skos/core#Concept
+p0021,foreleg,p0016,p,,,,foreleg,http://www.w3.org/2004/02/skos/core#Concept
+p0022,midleg,p0016,p,,,,midleg,http://www.w3.org/2004/02/skos/core#Concept
+p0023,hindleg,p0016,p,,,,hindleg,http://www.w3.org/2004/02/skos/core#Concept
+p0024,eye,,p,,,,eye,http://www.w3.org/2004/02/skos/core#Concept
+p0025,shell,,p,,,,shell,http://www.w3.org/2004/02/skos/core#Concept
+p0026,genitalia,,p,,,,genitalia,http://www.w3.org/2004/02/skos/core#Concept
+p0027,skull,,p,,,,skull,http://www.w3.org/2004/02/skos/core#Concept
+p0028,cranium,,p,,,,cranium,http://www.w3.org/2004/02/skos/core#Concept
+p0029,mandible,,p,,,,mandible,http://www.w3.org/2004/02/skos/core#Concept

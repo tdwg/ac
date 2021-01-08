@@ -1,10 +1,10 @@
-term_localName,term_localName,label,skos_broader,definition,usage,notes,controlled_value_string,type
-r,subject orientation concept scheme,,a SKOS concept scheme for orientation,,,,http://www.w3.org/2004/02/skos/core#ConceptScheme,
-r0000,unspecified orientation,,orientation is not known because it is not specified,,,unspecifiedOrientation,http://www.w3.org/2004/02/skos/core#Concept,
-r0001,anterior side,,view of the anterior side of the part as defined by http://purl.obolibrary.org/obo/BSPO_0000055,,,anterior,http://www.w3.org/2004/02/skos/core#Concept,
-r0002,posterior side,,view of the posterior side of the part as defined by http://purl.obolibrary.org/obo/BSPO_0000056,,,posterior,http://www.w3.org/2004/02/skos/core#Concept,
-r0003,lateral side,,view of a lateral side of a part as defined by http://purl.obolibrary.org/obo/BSPO_0000066,,,lateral,http://www.w3.org/2004/02/skos/core#Concept,
-r0004,right side,r0003,vied of the right side of a whole bilaterally symmetric organism as defined by http://purl.obolibrary.org/obo/BSPO_0000007,,,right,http://www.w3.org/2004/02/skos/core#Concept,
-r0005,left side,r0003,view of the left side of a whole bilaterally symmetric organism as defined by http://purl.obolibrary.org/obo/BSPO_0000000,,,left,http://www.w3.org/2004/02/skos/core#Concept,
-r0006,dorsal side,,view of the dorsal side of the part as defined by http://purl.obolibrary.org/obo/BSPO_0000063,,,dorsal,http://www.w3.org/2004/02/skos/core#Concept,
-r0007,ventral side,,view of the ventral side of the part as defined by http://purl.obolibrary.org/obo/BSPO_0000068,,,ventral,http://www.w3.org/2004/02/skos/core#Concept,
+term_localName,label,skos_broader,skos_inScheme,definition,usage,notes,controlled_value_string,type
+r,subject orientation concept scheme,,,a SKOS concept scheme for orientation,,,,http://www.w3.org/2004/02/skos/core#ConceptScheme
+r0000,unspecified orientation,,r,orientation is not known because it is not specified,,,unspecifiedOrientation,http://www.w3.org/2004/02/skos/core#Concept
+r0001,anterior side,,r,view of the anterior side of the part as defined by http://purl.obolibrary.org/obo/BSPO_0000055,,,anterior,http://www.w3.org/2004/02/skos/core#Concept
+r0002,posterior side,,r,view of the posterior side of the part as defined by http://purl.obolibrary.org/obo/BSPO_0000056,,,posterior,http://www.w3.org/2004/02/skos/core#Concept
+r0003,lateral side,,r,view of a lateral side of a part as defined by http://purl.obolibrary.org/obo/BSPO_0000066,,,lateral,http://www.w3.org/2004/02/skos/core#Concept
+r0004,right side,r0003,r,vied of the right side of a whole bilaterally symmetric organism as defined by http://purl.obolibrary.org/obo/BSPO_0000007,,,right,http://www.w3.org/2004/02/skos/core#Concept
+r0005,left side,r0003,r,view of the left side of a whole bilaterally symmetric organism as defined by http://purl.obolibrary.org/obo/BSPO_0000000,,,left,http://www.w3.org/2004/02/skos/core#Concept
+r0006,dorsal side,,r,view of the dorsal side of the part as defined by http://purl.obolibrary.org/obo/BSPO_0000063,,,dorsal,http://www.w3.org/2004/02/skos/core#Concept
+r0007,ventral side,,r,view of the ventral side of the part as defined by http://purl.obolibrary.org/obo/BSPO_0000068,,,ventral,http://www.w3.org/2004/02/skos/core#Concept
