@@ -1,4 +1,4 @@
-term_localName,label,definition (normative),usage (normative),notes (including examples; non-normative),rdf_type
+term_localName,label,definition (normative),usage (normative),notes (including examples; non-normative),type
 g00,unspecified organism group,,,,http://www.w3.org/2004/02/skos/core#Collection
 g01,woody angiosperms,collection of concepts that apply to woody angiosperms,,,http://www.w3.org/2004/02/skos/core#Collection
 g02,herbaceous angiosperms,,,,http://www.w3.org/2004/02/skos/core#Collection

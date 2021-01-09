@@ -1,4 +1,4 @@
-collection_id,collection_label,part_id,part_label
+collection_id,collection_label,member_id,part_label
 g00,unspecified organism group,p0000,unspecified part
 g00,unspecified organism group,p0001,entire organism
 g01,woody angiosperms,p0000,unspecified part
