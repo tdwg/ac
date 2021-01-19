@@ -1,15 +1,45 @@
 term_localName,label,definition (normative),usage (normative),notes (including examples; non-normative),type
-g00,unspecified organism group,,,,http://www.w3.org/2004/02/skos/core#Collection
+g00,unspecified organism group,placeholder collection for undefined groups,,,http://www.w3.org/2004/02/skos/core#Collection
 g01,woody angiosperms,collection of concepts that apply to woody angiosperms,,,http://www.w3.org/2004/02/skos/core#Collection
-g02,herbaceous angiosperms,,,,http://www.w3.org/2004/02/skos/core#Collection
-g03,gymnosperms,,,,http://www.w3.org/2004/02/skos/core#Collection
-g04,ferns,,,,http://www.w3.org/2004/02/skos/core#Collection
-g05,cacti,,,,http://www.w3.org/2004/02/skos/core#Collection
-g06,mosses,,,,http://www.w3.org/2004/02/skos/core#Collection
-g07,fish,,,,http://www.w3.org/2004/02/skos/core#Collection
-g08,grasses,,,,http://www.w3.org/2004/02/skos/core#Collection
-g09,mammals,,,,http://www.w3.org/2004/02/skos/core#Collection
-g10,birds,,,,http://www.w3.org/2004/02/skos/core#Collection
-g11,reptiles/amphibians,,,,http://www.w3.org/2004/02/skos/core#Collection
-g12,insects,,,,http://www.w3.org/2004/02/skos/core#Collection
+g02,herbaceous angiosperms,collection of concepts that apply to herbaceous angiosperms,,,http://www.w3.org/2004/02/skos/core#Collection
+g03,gymnosperms,collection of concepts that apply to gymnosperms,,,http://www.w3.org/2004/02/skos/core#Collection
+g04,ferns,collection of concepts that apply to ferns,,,http://www.w3.org/2004/02/skos/core#Collection
+g05,cacti,collection of concepts that apply to cacti,,,http://www.w3.org/2004/02/skos/core#Collection
+g06,mosses,collection of concepts that apply to mosses,,,http://www.w3.org/2004/02/skos/core#Collection
+g07,fish,collection of concepts that apply to fish,,,http://www.w3.org/2004/02/skos/core#Collection
+g08,grasses,collection of concepts that apply to grasses,,,http://www.w3.org/2004/02/skos/core#Collection
+g09,mammals,collection of concepts that apply to mammals,,,http://www.w3.org/2004/02/skos/core#Collection
+g10,birds,collection of concepts that apply to birds,,,http://www.w3.org/2004/02/skos/core#Collection
+g11,reptiles/amphibians,collection of concepts that apply to reptiles and amphibians,,,http://www.w3.org/2004/02/skos/core#Collection
+g12,insects,collection of concepts that apply to insects,,,http://www.w3.org/2004/02/skos/core#Collection
 g13,flies,collection of concepts that apply to flies,,,http://www.w3.org/2004/02/skos/core#Collection
+m0000,unspecified morphological feature,placeholder collection for undefined morphological features,,,
+m0001,entire organism,collection of concepts appropriate for entire organism,,,
+m0002,bark,collection of concepts appropriate for bark,,,
+m0003,twig,collection of concepts appropriate for twig,,,
+m0004,stem,collection of concepts appropriate for stem,,,
+m0005,leaf,collection of concepts appropriate for leaf,,,
+m0006,strobilis (cone),collection of concepts appropriate for strobilis (cone),,,
+m0007,inflorescence,collection of concepts appropriate for inflorescence,,,
+m0008,fruit,collection of concepts appropriate for fruit,,,
+m0009,seed,collection of concepts appropriate for seed,,,
+m0010,male cone,collection of concepts appropriate for male cone,,,
+m0011,female cone,collection of concepts appropriate for female cone,,,
+m0012,flower,collection of concepts appropriate for flower,,,
+m0013,head,collection of concepts appropriate for head,,,
+m0014,thorax,collection of concepts appropriate for thorax,,,
+m0015,abdomen,collection of concepts appropriate for abdomen,,,
+m0016,leg,collection of concepts appropriate for leg,,,
+m0017,wing,collection of concepts appropriate for wing,,,
+m0018,antenna,collection of concepts appropriate for antenna,,,
+m0019,forewing,collection of concepts appropriate for forewing,,,
+m0020,hindwing,collection of concepts appropriate for hindwing,,,
+m0021,foreleg,collection of concepts appropriate for foreleg,,,
+m0022,midleg,collection of concepts appropriate for midleg,,,
+m0023,hindleg,collection of concepts appropriate for hindleg,,,
+m0024,eye,collection of concepts appropriate for eye,,,
+m0025,shell,collection of concepts appropriate for shell,,,
+m0026,genitalia,collection of concepts appropriate for genitalia,,,
+m0027,skull,collection of concepts appropriate for skull,,,
+m0028,cranium,collection of concepts appropriate for cranium,,,
+m0029,mandible,collection of concepts appropriate for mandible,,,
