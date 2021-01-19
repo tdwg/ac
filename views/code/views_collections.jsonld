@@ -297,9 +297,232 @@
         "http://rs.tdwg.org/acviews/values/p0022",
         "http://rs.tdwg.org/acviews/values/p0023",
         "http://rs.tdwg.org/acviews/values/p0024",
-        "http://rs.tdwg.org/acviews/values/p0026",
+        "http://rs.tdwg.org/acviews/values/p0026"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/m0000",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "unspecified morphological feature"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0000"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/m0001",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "entire organism"
+        }
+      ],
+      "skos:member": [
         "http://rs.tdwg.org/acviews/values/r0000",
         "http://rs.tdwg.org/acviews/values/r0001",
+        "http://rs.tdwg.org/acviews/values/r0002",
+        "http://rs.tdwg.org/acviews/values/r0003",
+        "http://rs.tdwg.org/acviews/values/r0004",
+        "http://rs.tdwg.org/acviews/values/r0005",
+        "http://rs.tdwg.org/acviews/values/r0006",
+        "http://rs.tdwg.org/acviews/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/m0013",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "head"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0000",
+        "http://rs.tdwg.org/acviews/values/r0001",
+        "http://rs.tdwg.org/acviews/values/r0003",
+        "http://rs.tdwg.org/acviews/values/r0004",
+        "http://rs.tdwg.org/acviews/values/r0005",
+        "http://rs.tdwg.org/acviews/values/r0006",
+        "http://rs.tdwg.org/acviews/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/m0014",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "thorax"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0000",
+        "http://rs.tdwg.org/acviews/values/r0003",
+        "http://rs.tdwg.org/acviews/values/r0004",
+        "http://rs.tdwg.org/acviews/values/r0005",
+        "http://rs.tdwg.org/acviews/values/r0006",
+        "http://rs.tdwg.org/acviews/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/m0015",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "abdomen"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0000",
+        "http://rs.tdwg.org/acviews/values/r0002",
+        "http://rs.tdwg.org/acviews/values/r0003",
+        "http://rs.tdwg.org/acviews/values/r0004",
+        "http://rs.tdwg.org/acviews/values/r0005",
+        "http://rs.tdwg.org/acviews/values/r0006",
+        "http://rs.tdwg.org/acviews/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/m0016",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "leg"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/m0017",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "wing"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0000",
+        "http://rs.tdwg.org/acviews/values/r0006",
+        "http://rs.tdwg.org/acviews/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/m0018",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "antenna"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/m0019",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "forewing"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0000",
+        "http://rs.tdwg.org/acviews/values/r0006",
+        "http://rs.tdwg.org/acviews/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/m0020",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "hindwing"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0000",
+        "http://rs.tdwg.org/acviews/values/r0006",
+        "http://rs.tdwg.org/acviews/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/m0021",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "foreleg"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/m0022",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "midleg"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/m0023",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "hindleg"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/m0024",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "eye"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/m0026",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "genitalia"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0000",
         "http://rs.tdwg.org/acviews/values/r0002",
         "http://rs.tdwg.org/acviews/values/r0003",
         "http://rs.tdwg.org/acviews/values/r0004",
