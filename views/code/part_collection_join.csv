@@ -96,7 +96,7 @@ g011,reptiles/amphibians,p0014,full skull dorsal
 g011,reptiles/amphibians,p0015,full skull lateral
 g011,reptiles/amphibians,p0016,full skull ventral
 g011,reptiles/amphibians,p0026,genitalia
-g008,grasses,,
+g008,grasses,p0000,unspecified part
 g012,insects,p0000,unspecified part
 g012,insects,p0001,entire organism
 g012,insects,p0013,head
