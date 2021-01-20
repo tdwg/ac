@@ -1,18 +1,18 @@
 term_localName,label,definition (normative),usage (normative),notes (including examples; non-normative),type
-g00,unspecified organism group,placeholder collection for undefined groups,,,http://www.w3.org/2004/02/skos/core#Collection
-g01,woody angiosperms,collection of concepts that apply to woody angiosperms,,,http://www.w3.org/2004/02/skos/core#Collection
-g02,herbaceous angiosperms,collection of concepts that apply to herbaceous angiosperms,,,http://www.w3.org/2004/02/skos/core#Collection
-g03,gymnosperms,collection of concepts that apply to gymnosperms,,,http://www.w3.org/2004/02/skos/core#Collection
-g04,ferns,collection of concepts that apply to ferns,,,http://www.w3.org/2004/02/skos/core#Collection
-g05,cacti,collection of concepts that apply to cacti,,,http://www.w3.org/2004/02/skos/core#Collection
-g06,mosses,collection of concepts that apply to mosses,,,http://www.w3.org/2004/02/skos/core#Collection
-g07,fish,collection of concepts that apply to fish,,,http://www.w3.org/2004/02/skos/core#Collection
-g08,grasses,collection of concepts that apply to grasses,,,http://www.w3.org/2004/02/skos/core#Collection
-g09,mammals,collection of concepts that apply to mammals,,,http://www.w3.org/2004/02/skos/core#Collection
-g10,birds,collection of concepts that apply to birds,,,http://www.w3.org/2004/02/skos/core#Collection
-g11,reptiles/amphibians,collection of concepts that apply to reptiles and amphibians,,,http://www.w3.org/2004/02/skos/core#Collection
-g12,insects,collection of concepts that apply to insects,,,http://www.w3.org/2004/02/skos/core#Collection
-g13,flies,collection of concepts that apply to flies,,,http://www.w3.org/2004/02/skos/core#Collection
+g000,unspecified organism group,placeholder collection for undefined groups,,,http://www.w3.org/2004/02/skos/core#Collection
+g001,woody angiosperms,collection of concepts that apply to woody angiosperms,,,http://www.w3.org/2004/02/skos/core#Collection
+g002,herbaceous angiosperms,collection of concepts that apply to herbaceous angiosperms,,,http://www.w3.org/2004/02/skos/core#Collection
+g003,gymnosperms,collection of concepts that apply to gymnosperms,,,http://www.w3.org/2004/02/skos/core#Collection
+g004,ferns,collection of concepts that apply to ferns,,,http://www.w3.org/2004/02/skos/core#Collection
+g005,cacti,collection of concepts that apply to cacti,,,http://www.w3.org/2004/02/skos/core#Collection
+g006,mosses,collection of concepts that apply to mosses,,,http://www.w3.org/2004/02/skos/core#Collection
+g007,fish,collection of concepts that apply to fish,,,http://www.w3.org/2004/02/skos/core#Collection
+g008,grasses,collection of concepts that apply to grasses,,,http://www.w3.org/2004/02/skos/core#Collection
+g009,mammals,collection of concepts that apply to mammals,,,http://www.w3.org/2004/02/skos/core#Collection
+g010,birds,collection of concepts that apply to birds,,,http://www.w3.org/2004/02/skos/core#Collection
+g011,reptiles/amphibians,collection of concepts that apply to reptiles and amphibians,,,http://www.w3.org/2004/02/skos/core#Collection
+g012,insects,collection of concepts that apply to insects,,,http://www.w3.org/2004/02/skos/core#Collection
+g013,flies,collection of concepts that apply to flies,,,http://www.w3.org/2004/02/skos/core#Collection
 m0000,unspecified morphological feature,placeholder collection for undefined morphological features,,,
 m0001,entire organism,collection of concepts appropriate for entire organism,,,
 m0002,bark,collection of concepts appropriate for bark,,,
