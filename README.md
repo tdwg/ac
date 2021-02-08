@@ -16,8 +16,6 @@ Ed Baker - Natural History Museum, London and University of York, UK - [edwbaker
 
 Steve Baskauf - Vanderbilt University Jean & Alexander Heard Library (Convener) - [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@vanderbilt.edu)
 
-Robert A. Morris - University of Massachusetts, Boston - [morris.bob@gmail.com](mailto:morris.bob@gmail.com)
-
 Douglas Boyer -Department of Evolutionary Anthropology, Duke University, Director of MorphoSource open access 3D repository - [douglasmb@gmail.com](mailto:douglasmb@gmail.com)
 
 Niels Klazenga - Royal Botanic Gardens Victoria - [Niels.Klazenga@rbg.vic.gov.au](mailto:Niels.Klazenga@rbg.vic.gov.au)
@@ -25,6 +23,8 @@ Niels Klazenga - Royal Botanic Gardens Victoria - [Niels.Klazenga@rbg.vic.gov.au
 Rebecca Snyder - Smithsonian Institution, National Museum of Natural History - [SNYDERR@si.edu](mailto:SNYDERR@si.edu)
 
 To see all of the people who are paying attention to our work, see the list of ["watchers"](https://github.com/tdwg/ac/watchers).  The people on this list are effectively the "regular members" of the group.
+
+The Maintenance Group would like to recognize Robert A. Morris who passed away in 2021. Bob can be considered the "father of Audubon Core" and lead the task group through the development and process of ratifying of the standard. Thanks, Bob, for your vision and leadership!
 
 ## Task Groups
 
@@ -100,4 +100,4 @@ The repository structure is described below.
 ```
 
 -----
-Revised 2019-10-01
+Revised 2021-02-08
