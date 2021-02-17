@@ -22,6 +22,8 @@ Niels Klazenga - Royal Botanic Gardens Victoria - [Niels.Klazenga@rbg.vic.gov.au
 
 Rebecca Snyder - Smithsonian Institution, National Museum of Natural History - [SNYDERR@si.edu](mailto:SNYDERR@si.edu)
 
+Dan Stowell - Tilburg University and Naturalis Biodiversity Centre - [dstowell@tilburguniversity.edu](mailto:dstowell@tilburguniversity.edu)
+
 To see all of the people who are paying attention to our work, see the list of ["watchers"](https://github.com/tdwg/ac/watchers).  The people on this list are effectively the "regular members" of the group.
 
 The Maintenance Group would like to recognize Robert A. Morris who passed away in 2021. Bob can be considered the "father of Audubon Core" and lead the task group through the development and process of ratifying of the standard. Thanks, Bob, for your vision and leadership!
