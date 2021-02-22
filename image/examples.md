@@ -1,14 +1,12 @@
 **Title:** Still image examples
 
-**Date version issued:** 2021-x-x [DRAFT - 2020-01-23]
-
-**Date created:** 2021-x-x
+**Date modified:** 2021-02-22
 
 **Part of TDWG Standard:** Not part of any standard
 
 **Abstract:** This document includes examples of Audubon Core still image records.  
 
-**Contributors:** Kate Webbick
+**Contributors:** Kate Webbink
 
 **Creator:** Audubon Core Maintenance Group
 
