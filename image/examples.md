@@ -1,7 +1,36 @@
-# 'Image' Examples 
-[DRAFT - 2020-Jan-23]
+**Title:** Still image examples
 
-This document includes examples of Audubon Core 'Image' records.  Audubon Core terms (and values) for Image records include:
+**Date version issued:** 2021-x-x [DRAFT - 2020-01-23]
+
+**Date created:** 2021-x-x
+
+**Part of TDWG Standard:** Not part of any standard
+
+**Abstract:** This document includes examples of Audubon Core still image records.  
+
+**Contributors:** Kate Webbick
+
+**Creator:** Audubon Core Maintenance Group
+
+**Bibliographic citation:** Audubon Core Maintenance Group. 2021. Still image examples. Biodiversity Information Standards (TDWG). https://github.com/tdwg/ac/blob/master/image/examples.md
+
+## 1 Introduction
+
+This document is intended to provide the community with examples "from the wild" of how providers have successfully used Audubon Core terms to describe still images.
+
+
+### 1.1 Status of the content of this document
+
+All parts of this document are non-normative.  
+
+
+### 1.2 RFC 2119 key words
+[RFC 2119](https://tools.ietf.org/html/rfc2119) are not used in this document.
+
+
+## 2 Audubon Core terms used with still images
+
+Audubon Core terms (and values) for Image records include:
 
 **Required Terms**:
   - [dcterms:identifier](https://tdwg.github.io/ac/termlist/#dcterms_identifier)
@@ -13,7 +42,7 @@ This document includes examples of Audubon Core 'Image' records.  Audubon Core t
   - [ac:subtypeLiteral](https://tdwg.github.io/ac/termlist/#ac_subtypeLiteral) (e.g., "Photograph") or [ac:subtype](https://tdwg.github.io/ac/termlist/#ac_subtype)
   - [dc:creator](https://tdwg.github.io/ac/termlist/#dc_creator) (if known)
 
-## Example - Photographs ('StillImage')
+### 2.1 Example - Photographs ('StillImage')
 *also viewable in [this google doc's 'Ex1' tab](https://docs.google.com/spreadsheets/d/1HeDwclaGgSh8L8FlVy0awbmgq-KRy0EyVWu-3gdFOqI/edit#gid=0)*
 
 occurrenceId|identifier|type|subtypeLiteral|title|MetadataDate|metadataLanguageLiteral|providerManagedID|rights|Owner|WebStatement|Credit|creator|providerLiteral|description|tag|CreateDate|IDofContainingCollection|accessURI|format|hashFunction|hashValue|PixelXDimension|PixelYDimension
@@ -25,7 +54,7 @@ f206a966-9506-4913-8f79-945e0fa5bd0e|0ce934a4-35e5-4a02-9cb0-babd5b9731b6|StillI
 These three records are packaged with two corresponding occurrence records in the Darwin Core Archive here: https://doi.org/10.15468/x2hjnp
 
 
-## Example - Images available in multiple resolutions or versions
+### 2.2 Example - Images available in multiple resolutions or versions
 *also viewable in [this google doc's 'Ex2' tab](https://docs.google.com/spreadsheets/d/1HeDwclaGgSh8L8FlVy0awbmgq-KRy0EyVWu-3gdFOqI/edit#gid=1683326393&range=A1), and in the table below)*
 
 occurrenceId|identifier|type|subtypeLiteral|title|MetadataDate|metadataLanguageLiteral|providerManagedID|hasServiceAccessPoint|rights|Owner|WebStatement|Credit|creator|providerLiteral|description|tag|CreateDate|IDofContainingCollection|accessURI|format|variantLiteral|hashFunction|hashValue|PixelXDimension|PixelYDimension
@@ -44,27 +73,27 @@ In the example-record:
 - [ac:hasServiceAccessPoint](https://tdwg.github.io/ac/termlist/#ac_hasServiceAccessPoint) provides the alternate version's URL.
 
 
-## Further Examples
+## 3 Further Examples
 See [the **ImageExamples** tab in this google doc](https://docs.google.com/spreadsheets/d/1HeDwclaGgSh8L8FlVy0awbmgq-KRy0EyVWu-3gdFOqI/edit#gid=1059134995&range=A2)
 
 
-### Images of Text or Sound?
+### 3.1 Images of Text or Sound?
 Following the [Dublin Core recommendations for the Text type](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/dcmitype/Text), images of text (e.g., Catalog Cards) should be described as type **Text**.  
 Similarly, visualizations of sound (e.g. Spectrograms) should be documented as type **Sound**.
 
-### Photographs of Living Organisms vs Museum Specimens
+### 3.2 Photographs of Living Organisms vs Museum Specimens
 The differences between a photograph of a living organism and one of a museum specimen is mainly reflected in the related Darwin Core occurrence records.
 If the photographs were both recorded with similar camera-setups, the recommended Audubon Core terms would be the same, with one distinction:
 
 - [ac:associatedSpecimenReference](https://tdwg.github.io/ac/termlist/#ac_associatedSpecimenReference) to link related occurrences for specimens
 - [ac:associatedObservationReference](https://tdwg.github.io/ac/termlist/#ac_associatedObservationReference) to link related occurrences for observations
 
-### Camera-traps
+### 3.3 Camera-traps
 Note that photographs recorded with camera traps or other sequential or repeated image-recording methods can benefit from other detailed documentation.
 (Consider https://www.mdpi.com/1424-8220/21/2/343/html)
 
 
-### Data Citations:
+## 4 Data Citations:
 Example-records are from the following datasets:
 
 *(accessed via GBIF.org on 2021-01-24)*
@@ -78,3 +107,7 @@ Example-records are from the following datasets:
 - Harvard University M, Morris P J (2021). Museum of Comparative Zoology, Harvard University. Version 162.246. Museum of Comparative Zoology, Harvard University. Occurrence dataset https://doi.org/10.15468/p5rupv
 - Orrell T (2020). NMNH Paleobiology Specimen Records. Version 1.36. National Museum of Natural History, Smithsonian Institution. Occurrence dataset https://doi.org/10.15468/7m0fvd
 - Ramirez J, Tulig M, Watson K, Thiers B (2020). The New York Botanical Garden Herbarium (NY). Version 1.29. The New York Botanical Garden. Occurrence dataset https://doi.org/10.15468/6e8nje
+
+------
+
+Content on this site, made open by [Biodiversity Information Standards (TDWG)](https://www.tdwg.org/) is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
