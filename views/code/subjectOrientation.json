@@ -54,7 +54,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "view of the anterior side of the part as defined by http://purl.obolibrary.org/obo/BSPO_0000055"
+          "@value": "view of the anterior side of the part"
         }
       ]
     },
@@ -72,7 +72,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "view of the posterior side of the part as defined by http://purl.obolibrary.org/obo/BSPO_0000056"
+          "@value": "view of the posterior side of the part"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "view of a lateral side of a part as defined by http://purl.obolibrary.org/obo/BSPO_0000066"
+          "@value": "view of a lateral side of a part"
         }
       ]
     },
@@ -109,7 +109,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "vied of the right side of a whole bilaterally symmetric organism as defined by http://purl.obolibrary.org/obo/BSPO_0000007"
+          "@value": "vied of the right side of a whole bilaterally symmetric organism"
         }
       ]
     },
@@ -128,7 +128,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "view of the left side of a whole bilaterally symmetric organism as defined by http://purl.obolibrary.org/obo/BSPO_0000000"
+          "@value": "view of the left side of a whole bilaterally symmetric organism"
         }
       ]
     },
@@ -146,7 +146,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "view of the dorsal side of the part as defined by http://purl.obolibrary.org/obo/BSPO_0000063"
+          "@value": "view of the dorsal side of the part"
         }
       ]
     },
@@ -164,7 +164,79 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "view of the ventral side of the part as defined by http://purl.obolibrary.org/obo/BSPO_0000068"
+          "@value": "view of the ventral side of the part"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/values/r0008",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "adaxial",
+      "skos:inScheme": "http://rs.tdwg.org/acviews/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "adaxial side"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "view of the adaxial side of the part"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/values/r0009",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "abaxial",
+      "skos:inScheme": "http://rs.tdwg.org/acviews/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "abaxial side"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "view of the abaxial side of the part"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/values/r0010",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "apical",
+      "skos:inScheme": "http://rs.tdwg.org/acviews/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "apical side"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "view of the apical side of the part"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/values/r0011",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "basal",
+      "skos:inScheme": "http://rs.tdwg.org/acviews/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "basal side"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "view of the basal side of a part"
         }
       ]
     }
