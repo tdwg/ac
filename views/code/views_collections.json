@@ -136,16 +136,9 @@
       "skos:member": [
         "http://rs.tdwg.org/acviews/values/p0001",
         "http://rs.tdwg.org/acviews/values/p0000",
-        "http://rs.tdwg.org/acviews/values/p0003",
-        "http://rs.tdwg.org/acviews/values/p0004",
-        "http://rs.tdwg.org/acviews/values/p0005",
-        "http://rs.tdwg.org/acviews/values/p0006",
-        "http://rs.tdwg.org/acviews/values/p0007",
-        "http://rs.tdwg.org/acviews/values/p0008",
-        "http://rs.tdwg.org/acviews/values/p0009",
-        "http://rs.tdwg.org/acviews/values/p0010",
-        "http://rs.tdwg.org/acviews/values/p0011",
-        "http://rs.tdwg.org/acviews/values/p0012"
+        "http://rs.tdwg.org/acviews/values/p0013",
+        "http://rs.tdwg.org/acviews/values/p0027",
+        "http://rs.tdwg.org/acviews/values/p0030"
       ]
     },
     {
@@ -158,7 +151,8 @@
         }
       ],
       "skos:member": [
-        "http://rs.tdwg.org/acviews/values/"
+        "http://rs.tdwg.org/acviews/values/p0000",
+        "http://rs.tdwg.org/acviews/values/p0001"
       ]
     },
     {
@@ -173,20 +167,10 @@
       "skos:member": [
         "http://rs.tdwg.org/acviews/values/p0001",
         "http://rs.tdwg.org/acviews/values/p0000",
-        "http://rs.tdwg.org/acviews/values/p0003",
-        "http://rs.tdwg.org/acviews/values/p0004",
-        "http://rs.tdwg.org/acviews/values/p0005",
-        "http://rs.tdwg.org/acviews/values/p0006",
-        "http://rs.tdwg.org/acviews/values/p0007",
-        "http://rs.tdwg.org/acviews/values/p0008",
-        "http://rs.tdwg.org/acviews/values/p0009",
-        "http://rs.tdwg.org/acviews/values/p0010",
-        "http://rs.tdwg.org/acviews/values/p0011",
-        "http://rs.tdwg.org/acviews/values/p0012",
         "http://rs.tdwg.org/acviews/values/p0013",
-        "http://rs.tdwg.org/acviews/values/p0014",
-        "http://rs.tdwg.org/acviews/values/p0015",
-        "http://rs.tdwg.org/acviews/values/p0016"
+        "http://rs.tdwg.org/acviews/values/p0028",
+        "http://rs.tdwg.org/acviews/values/p0029",
+        "http://rs.tdwg.org/acviews/values/p0027"
       ]
     },
     {
@@ -201,22 +185,12 @@
       "skos:member": [
         "http://rs.tdwg.org/acviews/values/p0001",
         "http://rs.tdwg.org/acviews/values/p0000",
-        "http://rs.tdwg.org/acviews/values/p0003",
-        "http://rs.tdwg.org/acviews/values/p0004",
-        "http://rs.tdwg.org/acviews/values/p0005",
-        "http://rs.tdwg.org/acviews/values/p0006",
-        "http://rs.tdwg.org/acviews/values/p0007",
-        "http://rs.tdwg.org/acviews/values/p0008",
-        "http://rs.tdwg.org/acviews/values/p0009",
-        "http://rs.tdwg.org/acviews/values/p0010",
-        "http://rs.tdwg.org/acviews/values/p0011",
-        "http://rs.tdwg.org/acviews/values/p0012",
         "http://rs.tdwg.org/acviews/values/p0013",
-        "http://rs.tdwg.org/acviews/values/p0014",
-        "http://rs.tdwg.org/acviews/values/p0015",
-        "http://rs.tdwg.org/acviews/values/p0016",
+        "http://rs.tdwg.org/acviews/values/p0028",
+        "http://rs.tdwg.org/acviews/values/p0029",
+        "http://rs.tdwg.org/acviews/values/p0027",
         "http://rs.tdwg.org/acviews/values/p0017",
-        "http://rs.tdwg.org/acviews/values/p0018"
+        "http://rs.tdwg.org/acviews/values/p0031"
       ]
     },
     {
@@ -231,20 +205,10 @@
       "skos:member": [
         "http://rs.tdwg.org/acviews/values/p0001",
         "http://rs.tdwg.org/acviews/values/p0000",
-        "http://rs.tdwg.org/acviews/values/p0003",
-        "http://rs.tdwg.org/acviews/values/p0004",
-        "http://rs.tdwg.org/acviews/values/p0005",
-        "http://rs.tdwg.org/acviews/values/p0006",
-        "http://rs.tdwg.org/acviews/values/p0007",
-        "http://rs.tdwg.org/acviews/values/p0008",
-        "http://rs.tdwg.org/acviews/values/p0009",
-        "http://rs.tdwg.org/acviews/values/p0010",
-        "http://rs.tdwg.org/acviews/values/p0011",
-        "http://rs.tdwg.org/acviews/values/p0012",
         "http://rs.tdwg.org/acviews/values/p0013",
-        "http://rs.tdwg.org/acviews/values/p0014",
-        "http://rs.tdwg.org/acviews/values/p0015",
-        "http://rs.tdwg.org/acviews/values/p0016",
+        "http://rs.tdwg.org/acviews/values/p0028",
+        "http://rs.tdwg.org/acviews/values/p0029",
+        "http://rs.tdwg.org/acviews/values/p0027",
         "http://rs.tdwg.org/acviews/values/p0026"
       ]
     },
@@ -330,7 +294,134 @@
         "http://rs.tdwg.org/acviews/values/r0004",
         "http://rs.tdwg.org/acviews/values/r0005",
         "http://rs.tdwg.org/acviews/values/r0006",
-        "http://rs.tdwg.org/acviews/values/r0007"
+        "http://rs.tdwg.org/acviews/values/r0007",
+        "http://rs.tdwg.org/acviews/values/r0010",
+        "http://rs.tdwg.org/acviews/values/r0011"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/p0002",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "bark"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/p0003",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "twig"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/p0004",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "stem"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/p0005",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "leaf"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0008",
+        "http://rs.tdwg.org/acviews/values/r0009"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/p0006",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "strobilis (cone)"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0010",
+        "http://rs.tdwg.org/acviews/values/r0003",
+        "http://rs.tdwg.org/acviews/values/r0011"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/p0007",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "inflorescence"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0003",
+        "http://rs.tdwg.org/acviews/values/r0010"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/p0008",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "fruit"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0010",
+        "http://rs.tdwg.org/acviews/values/r0003",
+        "http://rs.tdwg.org/acviews/values/r0011"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/p0009",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "seed"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/p0012",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "flower"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0010",
+        "http://rs.tdwg.org/acviews/values/r0003",
+        "http://rs.tdwg.org/acviews/values/r0011"
       ]
     },
     {
@@ -529,6 +620,77 @@
         "http://rs.tdwg.org/acviews/values/r0005",
         "http://rs.tdwg.org/acviews/values/r0006",
         "http://rs.tdwg.org/acviews/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/p0027",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "skull"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0006",
+        "http://rs.tdwg.org/acviews/values/r0007",
+        "http://rs.tdwg.org/acviews/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/p0028",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "cranium"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0006",
+        "http://rs.tdwg.org/acviews/values/r0007",
+        "http://rs.tdwg.org/acviews/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/p0029",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "mandible"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0006",
+        "http://rs.tdwg.org/acviews/values/r0007",
+        "http://rs.tdwg.org/acviews/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/p0030",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "fin"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acviews/collections/p0031",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "egg"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acviews/values/r0003"
       ]
     }
   ]
