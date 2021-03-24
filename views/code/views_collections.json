@@ -9,6 +9,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/g000",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/g000",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -23,6 +24,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/g001",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/g001",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -44,6 +46,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/g002",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/g002",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -64,6 +67,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/g003",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/g003",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -85,6 +89,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/g004",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/g004",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -99,6 +104,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/g005",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/g005",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -113,6 +119,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/g006",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/g006",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -127,6 +134,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/g007",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/g007",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -144,6 +152,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/g008",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/g008",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -158,6 +167,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/g009",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/g009",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -176,6 +186,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/g010",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/g010",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -196,6 +207,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/g011",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/g011",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -215,6 +227,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/g012",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/g012",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -242,6 +255,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/g013",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/g013",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -267,6 +281,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0000",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0000",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -280,6 +295,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0001",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0001",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -302,6 +318,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0002",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0002",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -315,6 +332,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0003",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0003",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -328,6 +346,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0004",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0004",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -341,6 +360,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0005",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0005",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -355,6 +375,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0006",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0006",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -370,6 +391,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0007",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0007",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -384,6 +406,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0008",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0008",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -399,6 +422,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0009",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0009",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -412,6 +436,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0012",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0012",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -427,6 +452,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0013",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0013",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -446,6 +472,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0014",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0014",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -464,6 +491,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0015",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0015",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -483,6 +511,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0016",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0016",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -496,6 +525,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0017",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0017",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -511,6 +541,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0018",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0018",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -524,6 +555,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0019",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0019",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -539,6 +571,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0020",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0020",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -554,6 +587,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0021",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0021",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -567,6 +601,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0022",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0022",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -580,6 +615,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0023",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0023",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -593,6 +629,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0024",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0024",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -606,6 +643,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0026",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0026",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -625,6 +663,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0027",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0027",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -640,6 +679,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0028",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0028",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -655,6 +695,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0029",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0029",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -670,6 +711,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0030",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0030",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -683,6 +725,7 @@
     {
       "@id": "http://rs.tdwg.org/acviews/collections/p0031",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:collectionOfConcept": "http://rs.tdwg.org/acviews/values/p0031",
       "skos:prefLabel": [
         {
           "@language": "en",
