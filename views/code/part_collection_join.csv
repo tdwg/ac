@@ -36,21 +36,17 @@ g006,mosses,p0001,entire organism
 g007,fishes,p0001,entire organism
 g007,fishes,p0000,unspecified part
 g007,fishes,p0013,head
-g007,fishes,,body only
-g007,fishes,,loose skeletal
 g007,fishes,p0027,skull
 g007,fishes,p0030,fin
 g009,mammals,p0001,entire organism
 g009,mammals,p0000,unspecified part
 g009,mammals,p0013,head
-g009,mammals,,body only
 g009,mammals,p0028,cranium
 g009,mammals,p0029,mandible
 g009,mammals,p0027,skull
 g010,birds,p0001,entire organism
 g010,birds,p0000,unspecified part
 g010,birds,p0013,head
-g010,birds,,body only
 g010,birds,p0028,cranium
 g010,birds,p0029,mandible
 g010,birds,p0027,skull
@@ -59,7 +55,6 @@ g010,birds,p0031,egg
 g011,reptiles/amphibians,p0001,entire organism
 g011,reptiles/amphibians,p0000,unspecified part
 g011,reptiles/amphibians,p0013,head
-g011,reptiles/amphibians,,body only
 g011,reptiles/amphibians,p0028,cranium
 g011,reptiles/amphibians,p0029,mandible
 g011,reptiles/amphibians,p0027,skull
