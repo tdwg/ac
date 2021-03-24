@@ -35,68 +35,37 @@ g006,mosses,p0000,unspecified part
 g006,mosses,p0001,entire organism
 g007,fishes,p0001,entire organism
 g007,fishes,p0000,unspecified part
-g007,fishes,p0003,dorsal
-g007,fishes,p0004,lateral
-g007,fishes,p0005,ventral
-g007,fishes,p0006,head only
-g007,fishes,p0007,body only
-g007,fishes,p0008,loose skeletal
-g007,fishes,p0009,skull dorsal
-g007,fishes,p0010,skull lateral
-g007,fishes,p0011,skull ventral
-g007,fishes,p0012,fin
+g007,fishes,p0013,head
+g007,fishes,,body only
+g007,fishes,,loose skeletal
+g007,fishes,p0027,skull
+g007,fishes,p0030,fin
 g009,mammals,p0001,entire organism
 g009,mammals,p0000,unspecified part
-g009,mammals,p0003,dorsal
-g009,mammals,p0004,lateral
-g009,mammals,p0005,ventral
-g009,mammals,p0006,head only
-g009,mammals,p0007,body only
-g009,mammals,p0008,cranium dorsal
-g009,mammals,p0009,cranium lateral
-g009,mammals,p0010,cranium ventral
-g009,mammals,p0011,mandible dorsal
-g009,mammals,p0012,mandible lateral
-g009,mammals,p0013,mandible ventral
-g009,mammals,p0014,full skull dorsal
-g009,mammals,p0015,full skull lateral
-g009,mammals,p0016,full skull ventral
+g009,mammals,p0013,head
+g009,mammals,,body only
+g009,mammals,p0028,cranium
+g009,mammals,p0029,mandible
+g009,mammals,p0027,skull
 g010,birds,p0001,entire organism
 g010,birds,p0000,unspecified part
-g010,birds,p0003,dorsal
-g010,birds,p0004,lateral
-g010,birds,p0005,ventral
-g010,birds,p0006,head only
-g010,birds,p0007,body only
-g010,birds,p0008,cranium dorsal
-g010,birds,p0009,cranium lateral
-g010,birds,p0010,cranium ventral
-g010,birds,p0011,mandible dorsal
-g010,birds,p0012,mandible lateral
-g010,birds,p0013,mandible ventral
-g010,birds,p0014,full skull dorsal
-g010,birds,p0015,full skull lateral
-g010,birds,p0016,full skull ventral
+g010,birds,p0013,head
+g010,birds,,body only
+g010,birds,p0028,cranium
+g010,birds,p0029,mandible
+g010,birds,p0027,skull
 g010,birds,p0017,wing
-g010,birds,p0018,egg
+g010,birds,p0031,egg
 g011,reptiles/amphibians,p0001,entire organism
 g011,reptiles/amphibians,p0000,unspecified part
-g011,reptiles/amphibians,p0003,dorsal
-g011,reptiles/amphibians,p0004,lateral
-g011,reptiles/amphibians,p0005,ventral
-g011,reptiles/amphibians,p0006,head only
-g011,reptiles/amphibians,p0007,body only
-g011,reptiles/amphibians,p0008,cranium dorsal
-g011,reptiles/amphibians,p0009,cranium lateral
-g011,reptiles/amphibians,p0010,cranium ventral
-g011,reptiles/amphibians,p0011,mandible dorsal
-g011,reptiles/amphibians,p0012,mandible lateral
-g011,reptiles/amphibians,p0013,mandible ventral
-g011,reptiles/amphibians,p0014,full skull dorsal
-g011,reptiles/amphibians,p0015,full skull lateral
-g011,reptiles/amphibians,p0016,full skull ventral
+g011,reptiles/amphibians,p0013,head
+g011,reptiles/amphibians,,body only
+g011,reptiles/amphibians,p0028,cranium
+g011,reptiles/amphibians,p0029,mandible
+g011,reptiles/amphibians,p0027,skull
 g011,reptiles/amphibians,p0026,genitalia
 g008,grasses,p0000,unspecified part
+g008,grasses,p0001,entire organism
 g012,insects,p0000,unspecified part
 g012,insects,p0001,entire organism
 g012,insects,p0013,head
@@ -176,3 +145,33 @@ p0026,genitalia,r0004,right side
 p0026,genitalia,r0005,left side
 p0026,genitalia,r0006,dorsal side
 p0026,genitalia,r0007,ventral side
+p0002,bark,r0003,lateral side
+p0003,twig,r0003,lateral side
+p0005,leaf,r0008,adaxial (top) side
+p0005,leaf,r0009,abaxial (bottom) side
+p0004,stem,r0003,lateral side
+p0001,entire organism,r0010,apical side
+p0007,inflorescence,r0003,lateral side
+p0007,inflorescence,r0010,apical side
+p0008,fruit,r0010,apical side
+p0008,fruit,r0003,lateral side
+p0001,entire organism,r0011,basal side
+p0008,fruit,r0011,basal side
+p0009,seed,r0003,lateral side
+p0012,flower,r0010,apical (front) side
+p0012,flower,r0003,lateral side
+p0012,flower,r0011,basal (back) side
+p0006,cone,r0010,apical (front) side
+p0006,cone,r0003,lateral side
+p0006,cone,r0011,basal (back) side
+p0027,skull,r0006,dorsal side
+p0027,skull,r0007,ventral side
+p0027,skull,r0003,lateral side
+p0028,cranium,r0006,dorsal side
+p0028,cranium,r0007,ventral side
+p0028,cranium,r0003,lateral side
+p0029,mandible,r0006,dorsal side
+p0029,mandible,r0007,ventral side
+p0029,mandible,r0003,lateral side
+p0030,fin,r0003,lateral side
+p0031,egg,r0003,lateral side

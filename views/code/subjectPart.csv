@@ -4,7 +4,7 @@ p0000,unspecified part,,p,,,,,unspecifiedPart,http://www.w3.org/2004/02/skos/cor
 p0001,entire organism,,p,,,,,entireOrganism,http://www.w3.org/2004/02/skos/core#Concept
 p0002,bark,,p,Plant tissue outside the vascular cambium,http://purl.obolibrary.org/obo/PO_0004518,,,bark,http://www.w3.org/2004/02/skos/core#Concept
 p0003,twig,,p,Plant shoot axis developed from axillary buds,http://purl.obolibrary.org/obo/PO_0025073,,,twig,http://www.w3.org/2004/02/skos/core#Concept
-p0004,stem,,p,Plant shoot axis that is the primary axis as defined by ,http://purl.obolibrary.org/obo/PO_0009047,,,stem,http://www.w3.org/2004/02/skos/core#Concept
+p0004,stem,,p,Plant shoot axis that is the primary axis as defined by,http://purl.obolibrary.org/obo/PO_0009047,,,stem,http://www.w3.org/2004/02/skos/core#Concept
 p0005,leaf,,p,Plant non-reproductive phyllome,http://purl.obolibrary.org/obo/PO_0025034,,,leaf,http://www.w3.org/2004/02/skos/core#Concept
 p0006,strobilis (cone),,p,Plant reproductive system consisting of sporophylls,http://purl.obolibrary.org/obo/PO_0025083,,,strobilis,http://www.w3.org/2004/02/skos/core#Concept
 p0007,inflorescence,,p,Plant reproductive shoot system containing flowers,http://purl.obolibrary.org/obo/PO_0009049,,,inflorescence,http://www.w3.org/2004/02/skos/core#Concept
@@ -28,5 +28,7 @@ p0024,eye,,p,,,,,eye,http://www.w3.org/2004/02/skos/core#Concept
 p0025,shell,,p,,,,,shell,http://www.w3.org/2004/02/skos/core#Concept
 p0026,genitalia,,p,,,,,genitalia,http://www.w3.org/2004/02/skos/core#Concept
 p0027,skull,,p,,,,,skull,http://www.w3.org/2004/02/skos/core#Concept
-p0028,cranium,,p,,,,,cranium,http://www.w3.org/2004/02/skos/core#Concept
-p0029,mandible,,p,,,,,mandible,http://www.w3.org/2004/02/skos/core#Concept
+p0028,cranium,p0027,p,,,,,cranium,http://www.w3.org/2004/02/skos/core#Concept
+p0029,mandible,p0027,p,,,,,mandible,http://www.w3.org/2004/02/skos/core#Concept
+p0030,fin,,p,,,,,fin,http://www.w3.org/2004/02/skos/core#Concept
+p0031,egg,,p,,,,,egg,http://www.w3.org/2004/02/skos/core#Concept
