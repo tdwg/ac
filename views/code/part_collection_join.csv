@@ -151,3 +151,9 @@ p0029,mandible,r0007,ventral side
 p0029,mandible,r0003,lateral side
 p0030,fin,r0003,lateral side
 p0031,egg,r0003,lateral side
+p0010,male cone,r0010,apical (front) side
+p0010,male cone,r0003,lateral side
+p0010,male cone,r0011,basal (back) side
+p0011,female cone,r0010,apical (front) side
+p0011,female cone,r0003,lateral side
+p0011,female cone,r0011,basal (back) side
