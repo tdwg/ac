@@ -27,12 +27,6 @@ g003,gymnosperms,p0006,cone
 g003,gymnosperms,p0009,seed
 g003,gymnosperms,p0010,male cone
 g003,gymnosperms,p0011,female cone
-g004,ferns,p0000,unspecified part
-g004,ferns,p0001,entire organism
-g005,cacti,p0000,unspecified part
-g005,cacti,p0001,entire organism
-g006,mosses,p0000,unspecified part
-g006,mosses,p0001,entire organism
 g007,fishes,p0001,entire organism
 g007,fishes,p0000,unspecified part
 g007,fishes,p0013,head
@@ -76,19 +70,6 @@ g012,insects,p0022,midleg
 g012,insects,p0023,hindleg
 g012,insects,p0024,eye
 g012,insects,p0026,genitalia
-g013,flies,p0000,unspecified part
-g013,flies,p0001,entire organism
-g013,flies,p0013,head
-g013,flies,p0014,thorax
-g013,flies,p0015,abdomen
-g013,flies,p0016,leg
-g013,flies,p0017,wing
-g013,flies,p0018,antenna
-g013,flies,p0021,foreleg
-g013,flies,p0022,midleg
-g013,flies,p0023,hindleg
-g013,flies,p0024,eye
-g013,flies,p0026,genitalia
 p0000,unspecified morphological feature,r0000,unspecified orientation
 p0001,entire organism,r0000,unspecified orientation
 p0001,entire organism,r0001,anterior side
