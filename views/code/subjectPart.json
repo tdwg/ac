@@ -54,7 +54,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "An entire multicellular organism"
         }
       ]
     },
@@ -273,7 +273,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "Anterior-most division of the body"
         }
       ]
     },
@@ -291,7 +291,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "The main middle section of the insect body"
         }
       ]
     },
@@ -309,7 +309,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "The most posterior of the three tagma"
         }
       ]
     },
@@ -327,7 +327,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "Walking appendage"
         }
       ]
     },
@@ -345,7 +345,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "Appendage that is shaped in order to produce lift for flight through the air"
         }
       ]
     },
@@ -363,7 +363,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "The paired, usually multiple jointed, sensory organs on the head"
         }
       ]
     },
@@ -420,7 +420,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "Leg of the prothoracic segment"
         }
       ]
     },
@@ -439,7 +439,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "Leg of the mesothoracic segment"
         }
       ]
     },
@@ -458,7 +458,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "Leg of the metathoracic segment"
         }
       ]
     },
@@ -476,7 +476,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "An organ that detects light"
         }
       ]
     },
@@ -494,7 +494,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "A rigid covering that envelops an object"
         }
       ]
     },
@@ -512,7 +512,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "The outer sex organs"
         }
       ]
     },
@@ -530,7 +530,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "The part of the head consisting entirely of cranium and mandible"
         }
       ]
     },
@@ -549,7 +549,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "Upper portion of the skull"
         }
       ]
     },
@@ -568,7 +568,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "A dentary bone that is the only bone in one of the lateral halves of the lower jaw"
         }
       ]
     },
@@ -586,7 +586,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "An external projection of an aquatic animal used in propelling or guiding the body"
         }
       ]
     },
@@ -604,7 +604,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": ""
+          "@value": "The hard-shelled reproductive body produced by a bird or a reptile"
         }
       ]
     }

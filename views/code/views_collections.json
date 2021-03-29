@@ -87,51 +87,6 @@
       ]
     },
     {
-      "@id": "http://rs.tdwg.org/acviews/collections/g004",
-      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
-      "tdwgutility:ofConcept": "http://rs.tdwg.org/acviews/values/g004",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "ferns"
-        }
-      ],
-      "skos:member": [
-        "http://rs.tdwg.org/acviews/values/p0000",
-        "http://rs.tdwg.org/acviews/values/p0001"
-      ]
-    },
-    {
-      "@id": "http://rs.tdwg.org/acviews/collections/g005",
-      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
-      "tdwgutility:ofConcept": "http://rs.tdwg.org/acviews/values/g005",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "cacti"
-        }
-      ],
-      "skos:member": [
-        "http://rs.tdwg.org/acviews/values/p0000",
-        "http://rs.tdwg.org/acviews/values/p0001"
-      ]
-    },
-    {
-      "@id": "http://rs.tdwg.org/acviews/collections/g006",
-      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
-      "tdwgutility:ofConcept": "http://rs.tdwg.org/acviews/values/g006",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "mosses"
-        }
-      ],
-      "skos:member": [
-        "http://rs.tdwg.org/acviews/values/p0000",
-        "http://rs.tdwg.org/acviews/values/p0001"
-      ]
-    },
-    {
       "@id": "http://rs.tdwg.org/acviews/collections/g007",
       "@type": "http://www.w3.org/2004/02/skos/core#Collection",
       "tdwgutility:ofConcept": "http://rs.tdwg.org/acviews/values/g007",
@@ -147,21 +102,6 @@
         "http://rs.tdwg.org/acviews/values/p0013",
         "http://rs.tdwg.org/acviews/values/p0027",
         "http://rs.tdwg.org/acviews/values/p0030"
-      ]
-    },
-    {
-      "@id": "http://rs.tdwg.org/acviews/collections/g008",
-      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
-      "tdwgutility:ofConcept": "http://rs.tdwg.org/acviews/values/g008",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "grasses"
-        }
-      ],
-      "skos:member": [
-        "http://rs.tdwg.org/acviews/values/p0000",
-        "http://rs.tdwg.org/acviews/values/p0001"
       ]
     },
     {
@@ -245,32 +185,6 @@
         "http://rs.tdwg.org/acviews/values/p0018",
         "http://rs.tdwg.org/acviews/values/p0019",
         "http://rs.tdwg.org/acviews/values/p0020",
-        "http://rs.tdwg.org/acviews/values/p0021",
-        "http://rs.tdwg.org/acviews/values/p0022",
-        "http://rs.tdwg.org/acviews/values/p0023",
-        "http://rs.tdwg.org/acviews/values/p0024",
-        "http://rs.tdwg.org/acviews/values/p0026"
-      ]
-    },
-    {
-      "@id": "http://rs.tdwg.org/acviews/collections/g013",
-      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
-      "tdwgutility:ofConcept": "http://rs.tdwg.org/acviews/values/g013",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "flies"
-        }
-      ],
-      "skos:member": [
-        "http://rs.tdwg.org/acviews/values/p0000",
-        "http://rs.tdwg.org/acviews/values/p0001",
-        "http://rs.tdwg.org/acviews/values/p0013",
-        "http://rs.tdwg.org/acviews/values/p0014",
-        "http://rs.tdwg.org/acviews/values/p0015",
-        "http://rs.tdwg.org/acviews/values/p0016",
-        "http://rs.tdwg.org/acviews/values/p0017",
-        "http://rs.tdwg.org/acviews/values/p0018",
         "http://rs.tdwg.org/acviews/values/p0021",
         "http://rs.tdwg.org/acviews/values/p0022",
         "http://rs.tdwg.org/acviews/values/p0023",
