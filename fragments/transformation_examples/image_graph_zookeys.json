@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "ac": "http://rs.tdwg.org/ac/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "exif": "http://ns.adobe.com/exif/1.0/"
+  },
+  "@id": "https://doi.org/10.3897/zookeys.457.6817.figure1",
+  "@type": "http://purl.org/dc/dcmitype/StillImage",
+  "dcterms:title": "Host fish in various life stages",
+  "dcterms:identifier": "https://doi.org/10.3897/zookeys.457.6817.figure1",
+  "dcterms:type": "http://purl.org/dc/dcmitype/StillImage",
+  "ac:metadataLanguage": "ttp://id.loc.gov/vocabulary/iso639-2/eng",
+  "dc:rights": "something ZooKeys or authors",
+  "ac:hasServiceAccessPoint": [
+    {
+        "ac:accessURI": "https://zenodo.org/record/4683346/files/trco--fr040529-17e5384.jpg",
+        "dc:format": "image/jpeg",
+        "ac:variant": "http://rs.tdwg.org/acvariant/values/v006",
+        "ac:variantLiteral": "Best Quality",
+        "exif:PixelYDimension": 2112,
+        "exif:PixelXDimension": 2526
+    }
+  ],
+  "ac:hasFragment": [
+    {
+      "@id": "https://doi.org/10.3897/zookeys.457.6817.figure1#A",
+      "dwc:scientificName": "Strongylura strongylura",
+      "dcterms:description": "A Host fish Strongylura strongylura",
+      "ac:subjectPartLiteral": "entireOrganism",
+      "ac:subjectOrientationLiteral": "right",
+      "ac:xFrac": 0.00752,
+      "ac:yFrac": 0.01515,
+      "ac:widthFrac": 0.38242,
+      "ac:heightFrac": 0.10227
+    },
+    {
+      "@id": "https://doi.org/10.3897/zookeys.457.6817.figure1#B",
+      "dwc:scientificName": "Cymothoa frontalis",
+      "dcterms:description": "B male",
+      "ac:subjectPartLiteral": "entireOrganism",
+      "ac:subjectOrientationLiteral": "left",
+      "ac:xFrac": 0.01821,
+      "ac:yFrac": 0.13731,
+      "ac:widthFrac": 0.07205,
+      "ac:heightFrac": 0.12973
+    },
+    {
+      "@id": "https://doi.org/10.3897/zookeys.457.6817.figure1#C",
+      "dwc:scientificName": "Cymothoa frontalis",
+      "dcterms:description": "C transitional",
+      "ac:subjectPartLiteral": "entireOrganism",
+      "ac:subjectOrientationLiteral": "dorsal",
+      "ac:xFrac": 0.10610,
+      "ac:yFrac": 0.13305,
+      "ac:widthFrac": 0.08234,
+      "ac:heightFrac": 0.15199
+    },
+    {
+      "@id": "https://doi.org/10.3897/zookeys.457.6817.figure1#D",
+      "dwc:scientificName": "Cymothoa frontalis",
+      "dcterms:description": "D female",
+      "ac:subjectPartLiteral": "entireOrganism",
+      "ac:subjectOrientationLiteral": "dorsal",
+      "ac:xFrac": 0.19279,
+      "ac:yFrac": 0.13542,
+      "ac:widthFrac": 0.10610,
+      "ac:heightFrac": 0.15246
+    },
+    {
+      "@id": "https://doi.org/10.3897/zookeys.457.6817.figure1#E",
+      "dwc:scientificName": "Cymothoa frontalis",
+      "dcterms:description": "E juvenile",
+      "ac:subjectPartLiteral": "entireOrganism",
+      "ac:subjectOrientationLiteral": "dorsal",
+     "ac:xFrac": 0.29177,
+      "ac:yFrac": 0.13968,
+      "ac:widthFrac": 0.09105,
+      "ac:heightFrac": 0.14915
+    },
+    {
+      "@id": "https://doi.org/10.3897/zookeys.457.6817.figure1#F",
+      "dwc:scientificName": "Lernanthropus tylosuri",
+      "dcterms:description": "F Lernanthropus tylosuri – female",
+      "ac:subjectPartLiteral": "entireOrganism",
+      "ac:subjectOrientationLiteral": "dorsal",
+      "ac:xFrac": 0.01742,
+      "ac:yFrac": 0.31676,
+      "ac:widthFrac": 0.07482,
+      "ac:heightFrac": 0.15246
+    },
+    {
+      "@id": "https://doi.org/10.3897/zookeys.457.6817.figure1#G",
+      "dwc:scientificName": "Bomolochus bellones",
+      "dcterms:description": "G Bomolochus bellones – female",
+      "ac:subjectPartLiteral": "entireOrganism",
+      "ac:subjectOrientationLiteral": "dorsal",
+      "ac:xFrac": 0.10135,
+      "ac:yFrac": 0.32292,
+      "ac:widthFrac": 0.09105,
+      "ac:heightFrac": 0.13684
+    },
+    {
+      "@id": "https://doi.org/10.3897/zookeys.457.6817.figure1#H",
+      "dwc:scientificName": "Caligodes lacinatus",
+      "dcterms:description": "H Caligodes lacinatus – female",
+      "ac:subjectPartLiteral": "entireOrganism",
+      "ac:subjectOrientationLiteral": "dorsal",
+      "ac:xFrac": 0.20388,
+      "ac:yFrac": 0.32197,
+      "ac:widthFrac": 0.07601,
+      "ac:heightFrac": 0.15436
+    },
+    {
+      "@id": "https://doi.org/10.3897/zookeys.457.6817.figure1#I",
+      "dwc:scientificName": "Dermoergasilus coleus",
+      "dcterms:description": "I Dermoergasilus coleus",
+      "ac:subjectPartLiteral": "entireOrganism",
+      "ac:subjectOrientationLiteral": "dorsal",
+      "ac:xFrac": 0.30523,
+      "ac:yFrac": 0.32481,
+      "ac:widthFrac": 0.08511,
+      "ac:heightFrac": 0.13968
+    }
+  ]
+
+}

@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "ac": "http://rs.tdwg.org/ac/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "exif": "http://ns.adobe.com/exif/1.0/"
+  },
+  "@id": "http://bioimages.vanderbilt.edu/hessd/e5384",
+  "@type": "http://purl.org/dc/dcmitype/StillImage",
+  "dcterms:title": "Tragia cordata (Euphorbiaceae) - fruit – juvenile",
+  "dcterms:identifier": "http://bioimages.vanderbilt.edu/hessd/e5384",
+  "dcterms:type": "http://purl.org/dc/dcmitype/StillImage",
+  "ac:metadataLanguage": "ttp://id.loc.gov/vocabulary/iso639-2/eng",
+  "dc:rights": "(c) 2008 Darel Hess",
+  "ac:hasServiceAccessPoint": [
+    {
+        "ac:accessURI": "https://zenodo.org/record/4683346/files/trco--fr040529-17e5384.jpg",
+        "dc:format": "image/jpeg",
+        "ac:variant": "http://rs.tdwg.org/acvariant/values/v006",
+        "ac:variantLiteral": "Best Quality",
+        "exif:PixelYDimension": 2112,
+        "exif:PixelXDimension": 2526
+    },
+    {
+        "ac:accessURI": "https://zenodo.org/api/iiif/v2/2180af36-6fea-424a-b6b4-b59f3c862c51:b535ccd4-2869-4e84-9e19-1df68c7abcb4:trco--fr040529-17e5384.jpg/full/2112,/0/default.jpg",
+        "dc:format": "image/jpeg",
+        "ac:variant": "http://rs.tdwg.org/acvariant/values/v005",
+        "ac:variantLiteral": "Good Quality",
+        "exif:PixelYDimension": 856,
+        "exif:PixelXDimension": 1024
+    }
+  ],
+  "ac:hasFragment": [
+    {
+      "@id": "http://bioimages.vanderbilt.edu/hessd/e5384#f1",
+      "dwc:scientificName": "Cyphacma tragiae",
+      "dwc:identifiedBy": "Terry Harrison",
+      "dcterms:description": "mine",
+      "ac:xFrac": 0.28939,
+      "ac:yFrac": 0.23674,
+      "ac:widthFrac": 0.09066,
+      "ac:heightFrac": 0.26373
+    },
+    {
+      "@id": "http://bioimages.vanderbilt.edu/hessd/e5384#f2",
+      "dwc:scientificName": "Tragia cordata",
+      "dwc:identifiedBy": "Darel Hess",
+      "ac:associatedObservationReference": "https://www.gbif.org/occurrence/930742101",
+      "dcterms:description": "fruit",
+      "ac:xFrac": 0.21892,
+      "ac:yFrac": 0.44792,
+      "ac:widthFrac": 0.28147,
+      "ac:heightFrac": 0.34612
+    }
+  ]
+}

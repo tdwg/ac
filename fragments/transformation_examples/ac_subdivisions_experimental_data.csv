@@ -1,0 +1,7 @@
+image_identifier,feature,xPercent,yPercent,widthPercent,heightPercent,bq_xPixel,bq_yPixel,bq_widthPixel,bq_heightPixel,gq_xPixel,gq_yPixel,gq_widthPixel,gq_heightPixel
+http://bioimages.vanderbilt.edu/hessd/e5384,mine,28.9390340459224,23.6742424242424,9.06571654790182,26.3731060606061,731,500,229,557,296,203,93,226
+http://bioimages.vanderbilt.edu/hessd/e5384,fruit,21.8923198733175,44.7916666666667,28.1472684085511,34.6117424242424,553,946,711,731,224,383,288,296
+reconstruct using media fragment rules (integers),,29,24,9,26,735.44,506.88,228.24,549.12,296.96,205.44,92.16,222.56
+reconstruct using media fragment rules (integers),,22,45,28,35,557.92,950.4,710.08,739.2,225.28,385.2,286.72,299.6
+reconstruct using digits +1,,28.94,23.67,9.066,26.37,731.0244,499.9104,229.00716,556.9344,,,,
+reconstruct using digits +1,,21.89,44.79,28.15,34.61,552.9414,945.9648,711.069,730.9632,,,,
