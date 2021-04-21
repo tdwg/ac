@@ -14,6 +14,8 @@ Steve Baskauf (Convener) [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@van
 
 Neil S. Cobb [neil.cobb@nau.edu](mailto:neil.cobb@nau.edu) - Merriam-Powell Center for Environmental Research, Northern Arizona University
 
+Jennifer C. Girón Duque [jennifer.giron@ttu.edu](mailto:jennifer.giron@ttu.edu) - Natural Science Research Laboratory, Museum of Texas Tech University
+
 Matthew Nielsen [matthew.nielsen@zoologi.su.se](mailto:matthew.nielsen@zoologi.su.se) - Stockholm University
 
 Randy Singer [randalas@umich.edu](mailto:randalas@umich.edu) - University of Michigan
@@ -69,4 +71,4 @@ Our charter as submitted is [here](https://github.com/tdwg/ac/blob/master/views/
 [2020 Annual Report](historical/vtg-2020-annual-report.pdf)
 
 ---
-Revised 2021-03-28
+Revised 2021-04-21
