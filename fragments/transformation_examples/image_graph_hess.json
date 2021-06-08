@@ -14,7 +14,7 @@
   "dc:rights": "(c) 2008 Darel Hess",
   "ac:hasServiceAccessPoint": [
     {
-        "ac:accessURI": "https://zenodo.org/record/4683346/files/trco--fr040529-17e5384.jpg",
+        "ac:accessURI": "https://iiif.library.vanderbilt.edu/iiif/3/bioimages%2Fhessd%2Ftrco--fr040529-17e5384.jpg/full/max/0/default.jpg",
         "dc:format": "image/jpeg",
         "ac:variant": "http://rs.tdwg.org/acvariant/values/v006",
         "ac:variantLiteral": "Best Quality",
@@ -22,7 +22,7 @@
         "exif:PixelXDimension": 2526
     },
     {
-        "ac:accessURI": "https://zenodo.org/api/iiif/v2/2180af36-6fea-424a-b6b4-b59f3c862c51:b535ccd4-2869-4e84-9e19-1df68c7abcb4:trco--fr040529-17e5384.jpg/full/2112,/0/default.jpg",
+        "ac:accessURI": "https://iiif.library.vanderbilt.edu/iiif/3/bioimages%2Fhessd%2Ftrco--fr040529-17e5384.jpg/full/856,/0/default.jpg",
         "dc:format": "image/jpeg",
         "ac:variant": "http://rs.tdwg.org/acvariant/values/v005",
         "ac:variantLiteral": "Good Quality",
