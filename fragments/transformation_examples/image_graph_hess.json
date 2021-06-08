@@ -10,7 +10,7 @@
   "dcterms:title": "Tragia cordata (Euphorbiaceae) - fruit – juvenile",
   "dcterms:identifier": "http://bioimages.vanderbilt.edu/hessd/e5384",
   "dcterms:type": "http://purl.org/dc/dcmitype/StillImage",
-  "ac:metadataLanguage": "ttp://id.loc.gov/vocabulary/iso639-2/eng",
+  "ac:metadataLanguage": "http://id.loc.gov/vocabulary/iso639-2/eng",
   "dc:rights": "(c) 2008 Darel Hess",
   "ac:hasServiceAccessPoint": [
     {
@@ -30,7 +30,7 @@
         "exif:PixelXDimension": 1024
     }
   ],
-  "ac:hasFragment": [
+  "ac:hasROI": [
     {
       "@id": "http://bioimages.vanderbilt.edu/hessd/e5384#f1",
       "dwc:scientificName": "Cyphacma tragiae",
