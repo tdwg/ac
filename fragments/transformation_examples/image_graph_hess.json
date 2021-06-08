@@ -32,7 +32,7 @@
   ],
   "ac:hasROI": [
     {
-      "@id": "http://bioimages.vanderbilt.edu/hessd/e5384#f1",
+      "@id": "http://bioimages.vanderbilt.edu/hessd/e5384#roi1",
       "dwc:scientificName": "Cyphacma tragiae",
       "dwc:identifiedBy": "Terry Harrison",
       "dcterms:description": "mine",
@@ -42,7 +42,7 @@
       "ac:heightFrac": 0.26373
     },
     {
-      "@id": "http://bioimages.vanderbilt.edu/hessd/e5384#f2",
+      "@id": "http://bioimages.vanderbilt.edu/hessd/e5384#roi2",
       "dwc:scientificName": "Tragia cordata",
       "dwc:identifiedBy": "Darel Hess",
       "ac:associatedObservationReference": "https://www.gbif.org/occurrence/930742101",
