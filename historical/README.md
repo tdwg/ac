@@ -42,6 +42,8 @@ The contents of this folder are items that are primarily of historical interest.
 
 [2021-05-12](2021-05-12-meeting-notes.pdf)
 
+[2021-06-08](2021-06-08-meeting-notes.pdf)
+
 **Annual reports to the Executive Committee**
 
 [2018](ac-2018-annual-report.md)
