@@ -1,5 +1,5 @@
-dcterms_identifier,ac:isROIOf,ac:startTime,ac:endTime,ac:freqLow,ac:freqHigh,dcterm:description,dwc:scientificName,dwc:identifiedBy,dwc:dateIdentified
+dcterms:identifier,ac:isROIOf,ac:startTime,ac:endTime,ac:freqLow,ac:freqHigh,dcterm:description,dwc:scientificName,dwc:identifiedBy,dwc:dateIdentified
 https://macaulaylibrary.org/asset/245266991#bp1,https://macaulaylibrary.org/asset/245266991,11.2,11.9,,,flight song of red-winged hawk,Buteo platypterus,Daniel Jauvin,2020-06-18
-https://macaulaylibrary.org/asset/245266991#vo1,https://macaulaylibrary.org/asset/245266991,3.0,3.6,,,song of red-eyed vireo,Vireo olivaceus,Steven J. Baskauf,2021-06-14
+https://macaulaylibrary.org/asset/245266991#vo1,https://macaulaylibrary.org/asset/245266991,3,3.6,,,song of red-eyed vireo,Vireo olivaceus,Steven J. Baskauf,2021-06-14
 https://macaulaylibrary.org/asset/245266991#bp2,https://macaulaylibrary.org/asset/245266991,0.2,1.2,2000,4200,flight song of red-winged hawk,Buteo platypterus,Daniel Jauvin,2020-06-18
 https://macaulaylibrary.org/asset/245266991#vo2,https://macaulaylibrary.org/asset/245266991,0.4,1.2,4200,5000,song of red-eyed vireo,Vireo olivaceus,Steven J. Baskauf,2021-06-14

@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "ac": "http://rs.tdwg.org/ac/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "exif": "http://ns.adobe.com/exif/1.0/"
+  },
+  "@id": "https://www.inaturalist.org/observations/82716069",
+  "@type": "http://purl.org/dc/dcmitype/Sound",
+  "dcterms:title": "Northern Cardinal (Cardinalis cardinalis) on June 12, 2021 at 02:08 PM by cecildev8n5",
+  "dcterms:identifier": "https://www.inaturalist.org/observations/82716069",
+  "dcterms:type": "http://purl.org/dc/dcmitype/Sound",
+  "ac:metadataLanguage": "http://id.loc.gov/vocabulary/iso639-2/eng",
+  "dc:rights": "(c) 2021 cecildev8n5",
+  "xmp:CreateDate": [
+    {
+      "@value":"2021-06-12T14:08:10.3-04:00",
+      "@type":"http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+  "ac:hasServiceAccessPoint": [
+    {
+        "ac:accessURI": "https://static.inaturalist.org/sounds/251609.m4a?1623521443",
+        "dc:format": "audio/mp4",
+        "dcterms:format": "http://rs.tdwg.org/format/values/m015",
+        "ac:mediaDuration": 30.186,
+        "ac:mediaSpeed": 1.0
+    },
+    {
+        "ac:accessURI": "https://example.org/slomo/001",
+        "dc:format": "audio/mp4",
+        "dcterms:format": "http://rs.tdwg.org/format/values/m015",
+        "ac:mediaDuration": 150.93,
+        "ac:mediaSpeed": 0.2
+    }
+ 
+  ],
+  "ac:hasROI": [
+    {
+      "@id": "https://www.inaturalist.org/observations/82716069#cc1",
+      "dwc:scientificName": "Cardinalis cardinalis",
+      "dwc:identifiedBy": "cecildev8n5 | Caleb Helsel",
+      "dwc:dateIdentified": [
+        {
+          "@value":"2021-06-12",
+          "@type":"http://www.w3.org/2001/XMLSchema#date"
+          }
+        ],
+      "ac:associatedObservationReference": "https://www.gbif.org/occurrence/123456789",
+      "dcterms:description": "song of Northern Cardinal",
+      "ac:startTimestamp": [
+        {
+          "@value":"2021-06-12T14:08:12.1-04:00",
+          "@type":"http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        ],
+      "ac:endTimestamp": [
+        {
+          "@value":"2021-06-12T14:08:15.4-04:00",
+          "@type":"http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        ]
+    },
+    {
+      "@id": "https://www.inaturalist.org/observations/82716069#m",
+      "dwc:scientificName": "Neotibicen linnei",
+      "dwc:identifiedBy": "Steven J. Baskauf",
+      "dwc:dateIdentified": [
+        {
+          "@value":"2021-06-14",
+          "@type":"http://www.w3.org/2001/XMLSchema#date"
+          }
+        ],
+      "ac:associatedObservationReference": "https://www.gbif.org/occurrence/987654321",
+      "dcterms:description": "cicada song",
+      "ac:startTimestamp": [
+        {
+          "@value":"2021-06-12T14:08:16.5-04:00",
+          "@type":"http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        ],
+      "ac:endTimestamp": [
+        {
+          "@value":"2021-06-12T14:08:20.2-04:00",
+          "@type":"http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        ]
+    },
+    {
+      "@id": "https://www.inaturalist.org/observations/82716069#cc2",
+      "dwc:scientificName": "Cardinalis cardinalis",
+      "dwc:identifiedBy": "cecildev8n5 | Caleb Helsel",
+      "dwc:dateIdentified": [
+        {
+          "@value":"2021-06-12",
+          "@type":"http://www.w3.org/2001/XMLSchema#date"
+          }
+        ],
+      "ac:associatedObservationReference": "https://www.gbif.org/occurrence/123456789",
+      "dcterms:description": "song of Northern Cardinal",
+      "ac:startTimestamp": [
+        {
+          "@value":"2021-06-12T14:08:21.2-04:00",
+          "@type":"http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        ],
+      "ac:endTimestamp": [
+        {
+          "@value":"2021-06-12T14:08:24.1-04:00",
+          "@type":"http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        ]
+    },
+    {
+      "@id": "https://www.inaturalist.org/observations/82716069#cc3",
+      "dwc:scientificName": "Cardinalis cardinalis",
+      "dwc:identifiedBy": "cecildev8n5 | Caleb Helsel",
+      "dwc:dateIdentified": [
+        {
+          "@value":"2021-06-12",
+          "@type":"http://www.w3.org/2001/XMLSchema#date"
+          }
+        ],
+      "ac:associatedObservationReference": "https://www.gbif.org/occurrence/123456789",
+      "dcterms:description": "song of Northern Cardinal",
+      "ac:startTimestamp": [
+        {
+          "@value":"2021-06-12T14:08:32.8-04:00",
+          "@type":"http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        ],
+      "ac:endTimestamp": [
+        {
+          "@value":"2021-06-12T14:08:36.4-04:00",
+          "@type":"http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        ]
+    }
+  ]
+}
