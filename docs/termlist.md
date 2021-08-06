@@ -2578,7 +2578,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`Africa`, `Antarctica`, `Asia`, `Europe`, `North America`, `Oceania`, `South America`</td>
+			<td><code>Africa</code>, <code>Antarctica</code>, <code>Asia</code>, <code>Europe</code>, <code>North America</code>, <code>Oceania</code>, <code>South America</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -2616,7 +2616,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`0.00001` (normal GPS limit for decimal degrees). `0.000278` (nearest second). `0.01667` (nearest minute). `1.0` (nearest degree).</td>
+			<td><code>0.00001</code> (normal GPS limit for decimal degrees). <code>0.000278</code> (nearest second). <code>0.01667</code> (nearest minute). <code>1.0</code> (nearest degree).</td>
 		</tr>
 	</tbody>
 </table>
@@ -2654,7 +2654,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`30` (reasonable lower limit of a GPS reading under good conditions if the actual precision was not recorded at the time). `71` (uncertainty for a UTM coordinate having 100 meter precision and a known spatial reference system).</td>
+			<td><code>30</code> (reasonable lower limit of a GPS reading under good conditions if the actual precision was not recorded at the time). <code>71</code> (uncertainty for a UTM coordinate having 100 meter precision and a known spatial reference system).</td>
 		</tr>
 	</tbody>
 </table>
@@ -2696,7 +2696,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`Denmark`, `Colombia`, `España`</td>
+			<td><code>Denmark</code>, <code>Colombia</code>, <code>España</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -2776,7 +2776,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`AR`, `SV`</td>
+			<td><code>AR</code>, <code>SV</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -2852,7 +2852,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`Missoula`, `Los Lagos`, `Mataró`</td>
+			<td><code>Missoula</code>, <code>Los Lagos</code>, <code>Mataró</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -2890,7 +2890,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`-41.0983423`</td>
+			<td><code>-41.0983423</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -2928,7 +2928,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`-121.1761111`</td>
+			<td><code>-121.1761111</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -2970,7 +2970,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`0`, `1`, `1.5708`</td>
+			<td><code>0</code>, <code>1</code>, <code>1.5708</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3004,7 +3004,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`GEOGCS["GCS_WGS_1984", DATUM["D_WGS_1984", SPHEROID["WGS_1984",6378137,298.257223563]], PRIMEM["Greenwich",0], UNIT["Degree",0.0174532925199433]]` (WKT for the standard WGS84 Spatial Reference System EPSG:4326).</td>
+			<td><code>GEOGCS["GCS_WGS_1984", DATUM["D_WGS_1984", SPHEROID["WGS_1984",6378137,298.257223563]], PRIMEM["Greenwich",0], UNIT["Degree",0.0174532925199433]]</code> (WKT for the standard WGS84 Spatial Reference System EPSG:4326).</td>
 		</tr>
 	</tbody>
 </table>
@@ -3042,7 +3042,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`POLYGON ((10 20, 11 20, 11 21, 10 21, 10 20))` (the one-degree bounding box with opposite corners at longitude=10, latitude=20 and longitude=11, latitude=21)</td>
+			<td><code>POLYGON ((10 20, 11 20, 11 21, 10 21, 10 20))</code> (the one-degree bounding box with opposite corners at longitude=10, latitude=20 and longitude=11, latitude=21)</td>
 		</tr>
 	</tbody>
 </table>
@@ -3080,11 +3080,11 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Recommended best practice is to use the EPSG code of the SRS, if known. Otherwise use a controlled vocabulary for the name or code of the geodetic datum, if known. Otherwise use a controlled vocabulary for the name or code of the ellipsoid, if known. If none of these is known, use the value `unknown`.</td>
+			<td>Recommended best practice is to use the EPSG code of the SRS, if known. Otherwise use a controlled vocabulary for the name or code of the geodetic datum, if known. Otherwise use a controlled vocabulary for the name or code of the ellipsoid, if known. If none of these is known, use the value <code>unknown</code>.</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`EPSG:4326`, `WGS84`, `NAD27`, `Campo Inchauspe`, `European 1950`, `Clarke 1866`, `unknown`</td>
+			<td><code>EPSG:4326</code>, <code>WGS84</code>, <code>NAD27</code>, <code>Campo Inchauspe</code>, <code>European 1950</code>, <code>Clarke 1866</code>, <code>unknown</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3122,11 +3122,11 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Recommended best practice is to separate the values in a list with space vertical bar space (` | `).</td>
+			<td>Recommended best practice is to separate the values in a list with space vertical bar space (<code> | </code>).</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`Brad Millen (ROM)`, `Kristina Yamamoto | Janet Fang`</td>
+			<td><code>Brad Millen (ROM)</code>, <code>Kristina Yamamoto | Janet Fang</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3164,7 +3164,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`Georeferencing Quick Reference Guide (Zermoglio et al. 2020, https://doi.org/10.35035/e09p-h128)`</td>
+			<td><code>Georeferencing Quick Reference Guide (Zermoglio et al. 2020, <a href="https://doi.org/10.35035/e09p-h128">https://doi.org/10.35035/e09p-h128</a>)</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3202,7 +3202,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`Assumed distance by road (Hwy. 101)`.</td>
+			<td><code>Assumed distance by road (Hwy. 101)</code>.</td>
 		</tr>
 	</tbody>
 </table>
@@ -3240,11 +3240,11 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Recommended best practice is to separate the values in a list with space vertical bar space (` | `).</td>
+			<td>Recommended best practice is to separate the values in a list with space vertical bar space (<code> | </code>).</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`https://www.geonames.org/`, `USGS 1:24000 Florence Montana Quad 1967 | Terrametrics 2008 on Google Earth`, `GeoLocate`</td>
+			<td><code><a href="https://www.geonames.org/">https://www.geonames.org/</a></code>, <code>USGS 1:24000 Florence Montana Quad 1967 | Terrametrics 2008 on Google Earth</code>, <code>GeoLocate</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3286,7 +3286,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`requires verification`, `verified by collector`, `verified by curator`</td>
+			<td><code>requires verification</code>, <code>verified by collector</code>, <code>verified by curator</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3324,11 +3324,11 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Recommended best practice is to separate the values in a list with space vertical bar space (` | `), with terms in order from least specific to most specific.</td>
+			<td>Recommended best practice is to separate the values in a list with space vertical bar space (<code> | </code>), with terms in order from least specific to most specific.</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`North Atlantic Ocean`. `South America | Argentina | Patagonia | Parque Nacional Nahuel Huapi | Neuquén | Los Lagos` (with accompanying values `South America` in continent, `Argentina` in country, `Neuquén` in stateProvince, and `Los Lagos` in county.</td>
+			<td><code>North Atlantic Ocean</code>. <code>South America | Argentina | Patagonia | Parque Nacional Nahuel Huapi | Neuquén | Los Lagos</code> (with accompanying values <code>South America</code> in continent, <code>Argentina</code> in country, <code>Neuquén</code> in stateProvince, and <code>Los Lagos</code> in county.</td>
 		</tr>
 	</tbody>
 </table>
@@ -3370,7 +3370,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`http://vocab.getty.edu/tgn/1002002` (Antártida e Islas del Atlántico Sur, Territorio Nacional de la Tierra del Fuego, Argentina).</td>
+			<td><code><a href="http://vocab.getty.edu/tgn/1002002">http://vocab.getty.edu/tgn/1002002</a></code> (Antártida e Islas del Atlántico Sur, Territorio Nacional de la Tierra del Fuego, Argentina).</td>
 		</tr>
 	</tbody>
 </table>
@@ -3412,7 +3412,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`Nosy Be`, `Bikini Atoll`, `Vancouver`, `Viti Levu`, `Zanzibar`</td>
+			<td><code>Nosy Be</code>, <code>Bikini Atoll</code>, <code>Vancouver</code>, <code>Viti Levu</code>, <code>Zanzibar</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3454,7 +3454,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`Alexander Archipelago`, `Archipiélago Diego Ramírez`, `Seychelles`</td>
+			<td><code>Alexander Archipelago</code>, <code>Archipiélago Diego Ramírez</code>, <code>Seychelles</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3492,7 +3492,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`Bariloche, 25 km NNE via Ruta Nacional 40 (=Ruta 237)`.</td>
+			<td><code>Bariloche, 25 km NNE via Ruta Nacional 40 (=Ruta 237)</code>.</td>
 		</tr>
 	</tbody>
 </table>
@@ -3530,7 +3530,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`Getty Thesaurus of Geographic Names`, `GADM`</td>
+			<td><code>Getty Thesaurus of Geographic Names</code>, <code>GADM</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3568,7 +3568,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`https://opencontext.org/subjects/768A875F-E205-4D0B-DE55-BAB7598D0FD1`</td>
+			<td><code><a href="https://opencontext.org/subjects/768A875F-E205-4D0B-DE55-BAB7598D0FD1">https://opencontext.org/subjects/768A875F-E205-4D0B-DE55-BAB7598D0FD1</a></code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3606,7 +3606,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`under water since 2005`</td>
+			<td><code>under water since 2005</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3678,7 +3678,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`0`, `200`</td>
+			<td><code>0</code>, <code>200</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3716,7 +3716,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`-1.5` (below the surface). `4.2` (above the surface). For a 1.5 meter sediment core from the bottom of a lake (at depth 20m) at 300m elevation: verbatimElevation: `300m` minimumElevationInMeters: `300`, maximumElevationInMeters: `300`, verbatimDepth: `20m`, minimumDepthInMeters: `20`, maximumDepthInMeters: `20`, minimumDistanceAboveSurfaceInMeters: `0`, maximumDistanceAboveSurfaceInMeters: `-1.5`.</td>
+			<td><code>-1.5</code> (below the surface). <code>4.2</code> (above the surface). For a 1.5 meter sediment core from the bottom of a lake (at depth 20m) at 300m elevation: verbatimElevation: <code>300m</code> minimumElevationInMeters: <code>300</code>, maximumElevationInMeters: <code>300</code>, verbatimDepth: <code>20m</code>, minimumDepthInMeters: <code>20</code>, maximumDepthInMeters: <code>20</code>, minimumDistanceAboveSurfaceInMeters: <code>0</code>, maximumDistanceAboveSurfaceInMeters: <code>-1.5</code>.</td>
 		</tr>
 	</tbody>
 </table>
@@ -3754,7 +3754,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`-205`, `1236`</td>
+			<td><code>-205</code>, <code>1236</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3792,7 +3792,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`0`, `100`</td>
+			<td><code>0</code>, <code>100</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3830,7 +3830,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`-1.5` (below the surface). `4.2` (above the surface). For a 1.5 meter sediment core from the bottom of a lake (at depth 20m) at 300m elevation: verbatimElevation: `300m` minimumElevationInMeters: `300`, maximumElevationInMeters: `300`, verbatimDepth: `20m`, minimumDepthInMeters: `20`, maximumDepthInMeters: `20`, minimumDistanceAboveSurfaceInMeters: `0`, maximumDistanceAboveSurfaceInMeters: `-1.5`.</td>
+			<td><code>-1.5</code> (below the surface). <code>4.2</code> (above the surface). For a 1.5 meter sediment core from the bottom of a lake (at depth 20m) at 300m elevation: verbatimElevation: <code>300m</code> minimumElevationInMeters: <code>300</code>, maximumElevationInMeters: <code>300</code>, verbatimDepth: <code>20m</code>, minimumDepthInMeters: <code>20</code>, maximumDepthInMeters: <code>20</code>, minimumDistanceAboveSurfaceInMeters: <code>0</code>, maximumDistanceAboveSurfaceInMeters: <code>-1.5</code>.</td>
 		</tr>
 	</tbody>
 </table>
@@ -3868,7 +3868,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`-100`, `802`</td>
+			<td><code>-100</code>, <code>802</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3910,7 +3910,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`Holzminden`, `Araçatuba`, `Ga-Segonyana`</td>
+			<td><code>Holzminden</code>, <code>Araçatuba</code>, <code>Ga-Segonyana</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -3952,7 +3952,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`0`, `1`, `1.5708`</td>
+			<td><code>0</code>, <code>1</code>, <code>1.5708</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -4028,7 +4028,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`Montana`, `Minas Gerais`, `Córdoba`</td>
+			<td><code>Montana</code>, <code>Minas Gerais</code>, <code>Córdoba</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -4100,7 +4100,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`41 05 54S 121 05 34W`, `17T 630000 4833400`</td>
+			<td><code>41 05 54S 121 05 34W</code>, <code>17T 630000 4833400</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -4142,7 +4142,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`decimal degrees`, `degrees decimal minutes`, `degrees minutes seconds`, `UTM`</td>
+			<td><code>decimal degrees</code>, <code>degrees decimal minutes</code>, <code>degrees minutes seconds</code>, <code>UTM</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -4180,7 +4180,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`100-200 m`</td>
+			<td><code>100-200 m</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -4218,7 +4218,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`100-200 m`</td>
+			<td><code>100-200 m</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -4256,7 +4256,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`41 05 54.03S`</td>
+			<td><code>41 05 54.03S</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -4294,7 +4294,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`25 km NNE Bariloche por R. Nac. 237`</td>
+			<td><code>25 km NNE Bariloche por R. Nac. 237</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -4332,7 +4332,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`121d 10' 34" W`</td>
+			<td><code>121d 10' 34" W</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -4370,11 +4370,11 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Recommended best practice is to use the EPSG code of the SRS, if known. Otherwise use a controlled vocabulary for the name or code of the geodetic datum, if known. Otherwise use a controlled vocabulary for the name or code of the ellipsoid, if known. If none of these is known, use the value `unknown`.</td>
+			<td>Recommended best practice is to use the EPSG code of the SRS, if known. Otherwise use a controlled vocabulary for the name or code of the geodetic datum, if known. Otherwise use a controlled vocabulary for the name or code of the ellipsoid, if known. If none of these is known, use the value <code>unknown</code>.</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`unknown`, `EPSG:4326`, `WGS84`, `NAD27`, `Campo Inchauspe`, `European 1950`, `Clarke 1866`</td>
+			<td><code>unknown</code>, <code>EPSG:4326</code>, <code>WGS84</code>, <code>NAD27</code>, <code>Campo Inchauspe</code>, <code>European 1950</code>, <code>Clarke 1866</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -4416,7 +4416,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`Indian Ocean`, `Baltic Sea`, `Hudson River`, `Lago Nahuel Huapi`</td>
+			<td><code>Indian Ocean</code>, <code>Baltic Sea</code>, <code>Hudson River</code>, <code>Lago Nahuel Huapi</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -4624,7 +4624,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`1963-03-08T14:07-0600` (8 Mar 1963 at 2:07pm in the time zone six hours earlier than UTC). `2009-02-20T08:40Z` (20 February 2009 8:40am UTC). `2018-08-29T15:19` (3:19pm local time on 29 August 2018). `1809-02-12` (some time during 12 February 1809). `1906-06` (some time in June 1906). `1971` (some time in the year 1971). `2007-03-01T13:00:00Z/2008-05-11T15:30:00Z` (some time during the interval between 1 March 2007 1pm UTC and 11 May 2008 3:30pm UTC). `1900/1909` (some time during the interval between the beginning of the year 1900 and the end of the year 1909). `2007-11-13/15` (some time in the interval between 13 November 2007 and 15 November 2007).</td>
+			<td><code>1963-03-08T14:07-0600</code> (8 Mar 1963 at 2:07pm in the time zone six hours earlier than UTC). <code>2009-02-20T08:40Z</code> (20 February 2009 8:40am UTC). <code>2018-08-29T15:19</code> (3:19pm local time on 29 August 2018). <code>1809-02-12</code> (some time during 12 February 1809). <code>1906-06</code> (some time in June 1906). <code>1971</code> (some time in the year 1971). <code>2007-03-01T13:00:00Z/2008-05-11T15:30:00Z</code> (some time during the interval between 1 March 2007 1pm UTC and 11 May 2008 3:30pm UTC). <code>1900/1909</code> (some time during the interval between the beginning of the year 1900 and the end of the year 1909). <code>2007-11-13/15</code> (some time in the interval between 13 November 2007 and 15 November 2007).</td>
 		</tr>
 	</tbody>
 </table>
@@ -4670,7 +4670,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`aff. agrifolia var. oxyadenia` (for `Quercus aff. agrifolia var. oxyadenia` with accompanying values `Quercus` in genus, `agrifolia`  in specificEpithet, `oxyadenia`  in infraspecificEpithet, and `var.` in taxonRank. `cf. var. oxyadenia` for `Quercus agrifolia cf. var. oxyadenia` with accompanying values `Quercus` in genus, `agrifolia` in specificEpithet, `oxyadenia` in infraspecificEpithet, and `var.` in taxonRank.</td>
+			<td><code>aff. agrifolia var. oxyadenia</code> (for <code>Quercus aff. agrifolia var. oxyadenia</code> with accompanying values <code>Quercus</code> in genus, <code>agrifolia</code>  in specificEpithet, <code>oxyadenia</code>  in infraspecificEpithet, and <code>var.</code> in taxonRank. <code>cf. var. oxyadenia</code> for <code>Quercus agrifolia cf. var. oxyadenia</code> with accompanying values <code>Quercus</code> in genus, <code>agrifolia</code> in specificEpithet, <code>oxyadenia</code> in infraspecificEpithet, and <code>var.</code> in taxonRank.</td>
 		</tr>
 	</tbody>
 </table>
@@ -4712,11 +4712,11 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>Recommended best practice is to separate the values in a list with space vertical bar space (` | `).</td>
+			<td>Recommended best practice is to separate the values in a list with space vertical bar space (<code> | </code>).</td>
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`James L. Patton`, `Theodore Pappenfuss | Robert Macey`</td>
+			<td><code>James L. Patton</code>, <code>Theodore Pappenfuss | Robert Macey</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -4762,7 +4762,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`egg`, `eft`, `juvenile`, `adult`</td>
+			<td><code>egg</code>, <code>eft</code>, <code>juvenile</code>, <code>adult</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -4808,7 +4808,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`McCranie, J. R., D. B. Wake, and L. D. Wilson. 1996. The taxonomic status of Bolitoglossa schmidti, with comments on the biology of the Mesoamerican salamander Bolitoglossa dofleini (Caudata: Plethodontidae). Carib. J. Sci. 32:395-398.`, `Werner Greuter 2008`. `Lilljeborg 1861, Upsala Univ. Arsskrift, Math. Naturvet., pp. 4, 5`</td>
+			<td><code>McCranie, J. R., D. B. Wake, and L. D. Wilson. 1996. The taxonomic status of Bolitoglossa schmidti, with comments on the biology of the Mesoamerican salamander Bolitoglossa dofleini (Caudata: Plethodontidae). Carib. J. Sci. 32:395-398.</code>, <code>Werner Greuter 2008</code>. <code>Lilljeborg 1861, Upsala Univ. Arsskrift, Math. Naturvet., pp. 4, 5</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -4934,7 +4934,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`Coleoptera` (order). `Vespertilionidae` (family). `Manis` (genus). `Ctenomys sociabilis` (genus + specificEpithet). `Ambystoma tigrinum diaboli` (genus + specificEpithet + infraspecificEpithet). `Roptrocerus typographi (Györfi, 1952)` (genus + specificEpithet + scientificNameAuthorship), `Quercus agrifolia var. oxyadenia (Torr.) J.T. Howell` (genus + specificEpithet + taxonRank + infraspecificEpithet + scientificNameAuthorship).</td>
+			<td><code>Coleoptera</code> (order). <code>Vespertilionidae</code> (family). <code>Manis</code> (genus). <code>Ctenomys sociabilis</code> (genus + specificEpithet). <code>Ambystoma tigrinum diaboli</code> (genus + specificEpithet + infraspecificEpithet). <code>Roptrocerus typographi (Györfi, 1952)</code> (genus + specificEpithet + scientificNameAuthorship), <code>Quercus agrifolia var. oxyadenia (Torr.) J.T. Howell</code> (genus + specificEpithet + taxonRank + infraspecificEpithet + scientificNameAuthorship).</td>
 		</tr>
 	</tbody>
 </table>
@@ -4976,7 +4976,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`urn:lsid:ipni.org:names:37829-1:1.3`</td>
+			<td><code>urn:lsid:ipni.org:names:37829-1:1.3</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -5022,7 +5022,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`female`, `male`, `hermaphrodite`</td>
+			<td><code>female</code>, <code>male</code>, <code>hermaphrodite</code></td>
 		</tr>
 	</tbody>
 </table>
@@ -5224,7 +5224,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td>Examples</td>
-			<td>`Andean Condor`, `Condor Andino`, `American Eagle`, `Gänsegeier`</td>
+			<td><code>Andean Condor</code>, <code>Condor Andino</code>, <code>American Eagle</code>, <code>Gänsegeier</code></td>
 		</tr>
 	</tbody>
 </table>
