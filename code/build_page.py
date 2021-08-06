@@ -218,13 +218,13 @@ def buildMarkdown(table, displayOrder, displayLabel, displayComments, displayId)
                 if table[row][8] != '':
                     text += '\t\t<tr>\n'
                     text += '\t\t\t<td>Usage</td>\n'
-                    text += '\t\t\t<td>' + createLinks(table[row][8]) + '</td>\n'
+                    text += '\t\t\t<td>' + convert_link(convert_code(table[row][8])) + '</td>\n'
                     #text += '\t\t\t<td>' + table[row][8] + '</td>\n'
                     text += '\t\t</tr>\n'
                 if table[row][9] != '':
                     text += '\t\t<tr>\n'
                     text += '\t\t\t<td>Notes</td>\n'
-                    text += '\t\t\t<td>' + createLinks(table[row][9]) + '</td>\n'
+                    text += '\t\t\t<td>' + convert_link(convert_code(table[row][9])) + '</td>\n'
                     #text += '\t\t\t<td>' + table[row][9] + '</td>\n'
                     text += '\t\t</tr>\n'
                 if table[row][13] != '':
@@ -249,6 +249,25 @@ def createLinks(text):
     pattern = '(https?://[^\s,;\)"]*)'
     result = re.sub(pattern, repl, text)
     return result
+
+# 2021-08-05 Replace the createLinks() function with functions copied from the DwC QRG build script written by S. Van Hoey
+def convert_code(text_with_backticks):
+    """Takes all back-quoted sections in a text field and converts it to
+    the html tagged version of code blocks <code>...</code>
+    """
+    return re.sub(r'`([^`]*)`', r'<code>\1</code>', text_with_backticks)
+
+def convert_link(text_with_urls):
+    """Takes all links in a text field and converts it to the html tagged
+    version of the link
+    """
+    def _handle_matched(inputstring):
+        """quick hack version of url handling on the current prime versions data"""
+        url = inputstring.group()
+        return "<a href=\"{}\">{}</a>".format(url, url)
+
+    regx = "(http[s]?://[\w\d:#@%/;$()~_?\+-;=\\\.&]*)(?<![\)\.])"
+    return re.sub(regx, _handle_matched, text_with_urls)
 
 # ---------------------------------------------------------------------------
 # read in header and footer, merge with terms table, and output
