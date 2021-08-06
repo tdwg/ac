@@ -218,19 +218,19 @@ def buildMarkdown(table, displayOrder, displayLabel, displayComments, displayId)
                 if table[row][8] != '':
                     text += '\t\t<tr>\n'
                     text += '\t\t\t<td>Usage</td>\n'
-                    text += '\t\t\t<td>' + createLinks(table[row][8]) + '</td>\n'
+                    text += '\t\t\t<td>' + createLinks(convert_code(table[row][8])) + '</td>\n'
                     #text += '\t\t\t<td>' + table[row][8] + '</td>\n'
                     text += '\t\t</tr>\n'
                 if table[row][9] != '':
                     text += '\t\t<tr>\n'
                     text += '\t\t\t<td>Notes</td>\n'
-                    text += '\t\t\t<td>' + createLinks(table[row][9]) + '</td>\n'
+                    text += '\t\t\t<td>' + createLinks(convert_code(table[row][9])) + '</td>\n'
                     #text += '\t\t\t<td>' + table[row][9] + '</td>\n'
                     text += '\t\t</tr>\n'
                 if table[row][13] != '':
                     text += '\t\t<tr>\n'
                     text += '\t\t\t<td>Examples</td>\n'
-                    text += '\t\t\t<td>' + table[row][13] + '</td>\n'
+                    text += '\t\t\t<td>' + createLinks(convert_code(table[row][13])) + '</td>\n'
                     text += '\t\t</tr>\n'
                 text += '\t</tbody>\n'
                 text += '</table>\n'
@@ -246,9 +246,16 @@ def createLinks(text):
             return '<a href="' + match.group(1)[:-1] + '">' + match.group(1)[:-1] + '</a>.'
         return '<a href="' + match.group(1) + '">' + match.group(1) + '</a>'
 
-    pattern = '(https?://[^\s,;\)"]*)'
+    pattern = '(https?://[^\s,;\)"<]*)' # had to add left angle bracket after </code> tags inserted
     result = re.sub(pattern, repl, text)
     return result
+
+# 2021-08-05 Add code to convert backticks copied from the DwC QRG build script written by S. Van Hoey
+def convert_code(text_with_backticks):
+    """Takes all back-quoted sections in a text field and converts it to
+    the html tagged version of code blocks <code>...</code>
+    """
+    return re.sub(r'`([^`]*)`', r'<code>\1</code>', text_with_backticks)
 
 # ---------------------------------------------------------------------------
 # read in header and footer, merge with terms table, and output
