@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "ac": "http://rs.tdwg.org/ac/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "exif": "http://ns.adobe.com/exif/1.0/"
+  },
+  "@id": "http://example.org/abstractimage",
+  "ac:hasServiceAccessPoint": [
+    {
+      "ac:accessURI": "https://repo.example.org/highres.tiff",
+      "ac:variantLiteral": "Best Quality",
+      "exif:PixelXDimension": 1000,
+      "exif:PixelYDimension": 800
+    },
+    {
+      "ac:accessURI": "https://repo.example.org/lowres.jpg",
+      "ac:variantLiteral": "Lower Quality",
+      "exif:PixelXDimension": 100,
+      "exif:PixelYDimension": 80
+    }
+  ],
+  "ac:hasROI": [
+    {
+      "@id": "http://example.org/image#roi1",
+      "dcterms:description": "central",
+      "ac:xFrac": 0.5,
+      "ac:yFrac": 0.25,
+      "ac:widthFrac": 0.2,
+      "ac:heightFrac": 0.4
+    },
+    {
+      "@id": "http://example.org/image#roi2",
+      "dcterms:description": "corner",
+      "ac:xFrac": 0,
+      "ac:yFrac": 0.5,
+      "ac:widthFrac": 0.1,
+      "ac:heightFrac": 0.5
+    }
+  ]
+}
