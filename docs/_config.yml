@@ -6,6 +6,8 @@ baseurl: "/ac"
 
 navbar:
   left:
+  - text: Introduction
+    href: introduction/
   - text: Terms
     menu:
     - text: Audubon Core main vocabulary
@@ -18,8 +20,6 @@ navbar:
       href: variant/
   - text: Guides
     menu:
-    - text: Introduction
-      href: introduction/
     - text: User guide
       href: guide/
     - text: Structure
