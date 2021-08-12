@@ -6,14 +6,24 @@ baseurl: "/ac"
 
 navbar:
   left:
-  - text: Introduction
-    href: introduction/
-  - text: Guide
-    href: guide/
-  - text: Structure
-    href: structure/
-  - text: Termlist
-    href: termlist/
+  - text: Terms
+    menu:
+    - text: Audubon Core main vocabulary
+      href: termlist/
+    - text: format controlled vocabulary
+      href: format/
+    - text: subtype controlled vocabulary
+      href: subtype/
+    - text: variant controlled vocabulary
+      href: variant/
+  - text: Guides
+    menu:
+    - text: Introduction
+      href: introduction/
+    - text: Guide
+      href: guide/
+    - text: Structure
+      href: structure/
   right:
   - text: GitHub
     href: https://github.com/tdwg/ac
