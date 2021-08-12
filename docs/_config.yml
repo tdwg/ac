@@ -20,7 +20,7 @@ navbar:
     menu:
     - text: Introduction
       href: introduction/
-    - text: Guide
+    - text: User guide
       href: guide/
     - text: Structure
       href: structure/
