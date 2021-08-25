@@ -4,6 +4,8 @@ This is the main entry point to the work of the Audubon Core Maintenance Group. 
 
 The Audubon Core (AC) is a set of vocabularies designed to represent metadata for biodiversity multimedia resources and collections. These vocabularies aim to represent information that will help to determine whether a particular resource or collection will be fit for some particular biodiversity science application before acquiring the media. Among others, the vocabularies address such concerns as the management of the media and collections, descriptions of their content, their taxonomic, geographic, and temporal coverage, and the appropriate ways to retrieve, attribute and reproduce them.
 
+The current release is archived at <a href="https://zenodo.org/badge/latestdoi/32123449"><img src="https://zenodo.org/badge/32123449.svg" alt="DOI"></a>
+
 ## The Audubon Core Maintenance Group
 
 Audubon Core is maintained by a specialized [Interest Group](http://www.tdwg.org/about-tdwg/process/) whose [charter](audubon-core_maintenance-group_charter.md) was approved in January 2018.  The functions of the Audubon Core Maintenance Group are described in detail in [Section 2 of the TDWG Vocabulary Maintenance Specification](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#2-administration).  In brief, the Maintenance Group manages vocabulary term additions and changes, and maintains the documentation that helps users to understand and apply the standard.  As an Interest Group, it may establish Task Groups to accomplish broader changes to the standard.  
