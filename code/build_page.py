@@ -290,7 +290,7 @@ def outputMarkdown(text, headerFileName, footerFileName, outFileName):
 # main routine
 
 # constants
-githubBaseUri = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/ac_updates/'
+githubBaseUri = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/master/'
 headerFileName = 'termlist-header.md'
 footerFileName = 'termlist-footer.md'
 outFileName = '../docs/termlist.md'
