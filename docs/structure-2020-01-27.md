@@ -1,22 +1,24 @@
 ---
-permalink: /structure/2013-10-23
+permalink: /structure/
 ---
 
 # Audubon Core Structure
 
 **Title:** Audubon Core Structure
 
-**Date version issued:** 2013-10-23
+**Date version issued:** 2020-01-27
 
 **Date created:** 2013-10-23
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** http://rs.tdwg.org/ac/doc/structure/2013-10-23
+**This version:** http://rs.tdwg.org/ac/doc/structure/2020-01-27
 
-**Latest version:** [http://rs.tdwg.org/ac/doc/structure/](./)
+**Latest version:** http://rs.tdwg.org/ac/doc/structure/
 
-**Replaced by:** [http://rs.tdwg.org/ac/doc/structure/2020-01-27](2020-01-27)
+**Previous version:** [http://rs.tdwg.org/ac/doc/structure/2013-10-23](2013-10-23)
+
+**Replaced by:** [http://rs.tdwg.org/ac/doc/structure/2021-10-05](./)
 
 **Abstract:** The Audubon Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
@@ -28,7 +30,7 @@ concerns as the management of the media and collections, descriptions of
 their content, their taxonomic, geographic, and temporal coverage, and
 the appropriate ways to retrieve, attribute and reproduce them. This
 document contains material introductory to the **[Audubon Core Term
-List](./terms)**
+List](../termlist)**
 
 **Contributors:** Robert A. Morris, Vijay Barve, Mihail Carausu, Vishwas
 Chavan, José Cuadra, Chris Freeland, Gregor Hagedorn, Patrick Leary,
@@ -36,7 +38,7 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 **Creator:** GBIF/TDWG Multimedia Resources Task Group
 
-**Bibliographic citation:** Multimedia Resources Task Group. 2013. Audubon Core Structure. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/structure/2013-10-23
+**Bibliographic citation:** Multimedia Resources Task Group. 2020. Audubon Core Structure. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/structure/2020-01-27
 
 ## 1 Introduction
 
@@ -45,17 +47,17 @@ Audubon Core Multimedia Resources Metadata Standard (Audubon Core, or
 simply AC).
 
 **If you are unfamiliar with the Audubon Core, *please* read the
-[Audubon Core Introduction](./) before
+[Audubon Core Introduction](../introduction) before
 reading this document.** The introduction lays out why there is perceived a need for a
 biodiversity media resource metadata schema, and how the standard
 attempts to use existing metadata standards where
 possible.
 
-For term details, see the [Audubon Core Terms List](./terms) document and for a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](./guide) document.
+For term details, see the [Audubon Core Terms List](../termlist) document and for a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](../guide) document.
 
 During development, Audubon core was colloquially known as MRTG, after
 its developers, the GBIF-TDWG Joint Multimedia Resources Metadata Task
-Group. Please see the [Audubon Core Guide](./guide) and
+Group. Please see the [Audubon Core Guide](../guide) and
 also [MRTG Development History](http://www.keytonature.eu/wiki/MRTG_Development_History) for
 the development history in detail.
 
@@ -63,6 +65,10 @@ the development history in detail.
 ### 1.1 Status of the content of this document
 
 Sections 2 through 4 of this document are normative except for example sections, which are labeled as non-normative.  
+
+
+### 1.2 RFC 2119 key words
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
 
 ## 2 Terminology of this specification
@@ -78,29 +84,18 @@ following as they apply to the Audubon Core:
     that will not collide with the AC defined Subtype values.
   - An AC *record* is a set of terms with any values conforming to this
     document, and which contain at least the four mandatory terms
-    described in the [Audubon Core Core Term List](./terms), and
+    described in the [Audubon Core Core Term List](../termlist), and
     which describes a single multimedia resource (possibly including a
     Collection). One of these, the value of *Identifier* is a Globally
     Unique IDentifier (GUID), which may have been assigned to the
     resource by an external authority or by the provider of the metadata
     record.
-  - AC terms are divided into two *Layers*. Those characterized as in
-    *Layer 1*, including the four mandatory terms, should be
-    meaningfully handled by all consuming client applications. Only
-    wholly complete consuming applications need handle those in the
-    *Layer 2.* What is meant by "meaningfully handle" is up to
-    implementers of this normative specification. It could be as simple
-    as "gracefully ignore".
 
-In the [Audubon Core Term List](terms), every AC
+In the [Audubon Core Term List](../termlist), every AC
 term has a *term name* following a table entry *"Term:"*, a *URI*, a
 plain text normative *Definition*, a recommended English *Label*, an
 optional *Notes* attribute. In addition, a term has an attribute telling
-whether it is mandatory, one telling whether it is repeatable, and one
-telling whether it is in Layer 1 or 2. Layer 2 comprises terms likely to
-only occur for certain media. For example, the term *DateAvailable* will
-apply only to media that are embargoed, but for which the provider is
-prepared to make the metadata immediately available.
+whether it is mandatory and one telling whether it is repeatable.
 
 AC metadata can describe either individual multimedia resources or
 collections of resources. A few, but not many, of the AC properties have
@@ -115,7 +110,7 @@ recommendations only and are offered only in English, with the added
 expectation that they may clarify intended usage of the term.
 Communities may wish to promulgate recommendations for Labels in other
 languages, or even alternative English Labels for specialized audiences,
-e.g. school children. Labels are may be used for navigation within the
+e.g. school children. Labels MAY be used for navigation within the
 Term List, and are often used within the Term List itself when a term is
 mentioned within the documentation of another term. The Term List
 provides indices both by name and label.
@@ -150,33 +145,33 @@ repeatability.
 The simplest case is a single repeatable term (e.g.,
 dcterms:identifier). In representations based on an XML Schema that
 permits elements to be repeated such a term may simply be repeated (e.g.
-"...&lt;dcterms:identifier&gt;http&#58;//example.com/123&lt;dcterms:identifier&gt;&lt;dcterms:identifier&gt;http&#58;//example.com/456&lt;dcterms:identifier&gt;...").
+"`...<dcterms:identifier>http://example.com/123</dcterms:identifier><dcterms:identifier>http://example.com</dcterms:identifier>...`").
 In serializations that do not easily lend themselves to repeatable
 elements (e.g. "flat" schemata with all elements occurring only a single
 time in an otherwise unstructured record) it is possible to define
 separators to support a list of values within a single element (e.g.
-"...&lt;dcterms:identifier&gt;http&#58;//example.com/123;
-http&#58;//example.com/456&lt;dcterms:identifier&gt;...").
+"`...<dcterms:identifier>http://example.com/123;
+http://example.com/456</dcterms:identifier>...`").
 
 In certain cases pairs or tuples of properties are repeated. In Audubon
 Core this situation occurs, for example, in the following cases:
 
   - The language-dependent metadata like title, description, etc. need
-    to be associated with ac:metadataLanguage. One approach here is to
-    use complete Audubon Core records together with the [Metadata Language](./terms#ac_metadataLanguage)
+    to be associated with `ac:metadataLanguage`. One approach here is to
+    use complete Audubon Core records together with the [Metadata Language](../termlist#ac_metadataLanguage)
     property; see there for further detail.
-  - The values of properties about a Service Access Point must remain
+  - The values of properties about a Service Access Point MUST remain
     associated with that Service Access Point even if there are multiple
     Service Access Points. See
-    [hasServiceAccessPoint](./terms#ac_hasServiceAccessPoint)
+    [ac:hasServiceAccessPoint](../termlist#ac_hasServiceAccessPoint)
     for further details.
-  - The terms dwc:scientificName and dwc:identificationQualifier may
+  - The terms `dwc:scientificName` and `dwc:identificationQualifier` MAY
     optionally be structured into pairs. (See the notes on
-    [dwc:identificationQualifier](./terms#dwc_identificationQualifier).)
+    [dwc:identificationQualifier](../termlist#dwc_identificationQualifier).)
   - The terms
-    [Reviewer](./terms#ac_reviewer),
+    [Reviewer](../termlist#ac_reviewer),
     being the name of an individual providing some expert review of a
-    resource, and the review text itself in [Reviewer Comments](./terms#ac_reviewerComments)
+    resource, and the review text itself in [Reviewer Comments](../termlist#ac_reviewerComments)
     are desirable to store as pairs.
 
 
@@ -184,10 +179,10 @@ Core this situation occurs, for example, in the following cases:
 
 Many serialization languages provide sufficiently structured forms to
 deal with repeated terms unambiguously. In XML, we might define
-a container element and use a nesting structure as in Section 3.2.  Alternatively, in XML we may reference access points by identifier as in Section 3.3.  Where such structures are impossible or undesirable, an alternative
+a container element and use a nesting structure as in Section 3.1.1  Alternatively, in XML we may reference access points by identifier as in Section 3.1.2  Where such structures are impossible or undesirable, an alternative
 solution is to permit only one access point per
-container element, but to repeat the container element for a single media resource, as shown in section 3.4. This is similar
-to one of the options discussed for multilingual metadata (see [Metadata Language](./terms#ac_metadataLanguage)).
+container element, but to repeat the container element for a single media resource, as shown in section 3.1.3 This is similar
+to one of the options discussed for multilingual metadata (see [Metadata Language](../termlist#ac_metadataLanguage)).
 
 
 #### 3.1.1 Nested XML structure example (non-normative)
@@ -213,15 +208,14 @@ to one of the options discussed for multilingual metadata (see [Metadata Languag
       ...
       <ac:hasServiceAccessPoint>http://example.com/pictures/thePicture.jpg#ac0001</ac:hasServiceAccessPoint>
       <ac:hasServiceAccessPoint>http://example.com/pictures/thePicture.jpg#ac0002</ac:hasServiceAccessPoint>
-      <ac-classes:ServiceAccessPoint id="http://example.com/pictures/thePicture.jpg#ac0001">
+      <ac:ServiceAccessPoint id="http://example.com/pictures/thePicture.jpg#ac0001">
         <dcterms:format>jpg</dcterms:format>
         <ac:accessURI>http://example.com/fullres/thePicture.jpg</ac:accessURI>
         ...
-      </ac-classes:ServiceAccessPoint>
+      </ac:ServiceAccessPoint>
       ...
     <MEDIA_METADATA_CONTAINER>
 
-Note: ac-classes:ServiceAccessPoint is a made-up term for the Service Access Point class.  An official term may be designated at some future time.
 
 
 #### 3.1.3 Repeated container element XML example (non-normative)
@@ -243,22 +237,15 @@ Note: ac-classes:ServiceAccessPoint is a made-up term for the Service Access Poi
 
 ### 3.2 Tabular serializations
 
-The same data as in examples 3.2 through 3.4 can be serialized as a "flat" spreadsheet-like
+The same data as in examples 3.1.1 through 3.1.3 can be serialized as a "flat" spreadsheet-like
 table.  
 
-In the example of Section 3.6, only the required identifier is repeated, but not
+In the example of Section 3.2.1, only the required identifier is repeated, but not
 the title field. Whether to repeat all fields or whether to provide all
 fields only in the first record, limiting later records to the
 identifier and the service access point properties, is left to specific
-implementations. In the example of Section 3.6, the ac:hasServiceAccessPoint property is suppressed
+implementations. In the example of Section 3.2.1, the `ac:hasServiceAccessPoint` property is suppressed
 as unnecessary.
-
-Another approach also eliminates the need for the ac:hasServiceAccessPoint property when
-flattening the ac structure. It is based on introducing new terms
-exploiting values of the [ac:variantLiteral](./terms#ac_variantLiteral):
-"Thumbnail", "Trailer", "Lower Quality", "Medium Quality", "Good
-Quality", "Best Quality", "Offline", as prefixes for additional
-properties in a new namespace.
 
 #### 3.2.1 Example of a table with each service access point in a separate row (non-normative)
 
@@ -294,6 +281,13 @@ properties in a new namespace.
     </tr>
   </tbody>
 </table>
+
+Another approach (Section 3.2.2) also eliminates the need for the `ac:hasServiceAccessPoint` property when
+flattening the ac structure. It is based on introducing new terms
+exploiting values of the [ac:variantLiteral](../termlist#ac_variantLiteral):
+"Thumbnail", "Trailer", "Lower Quality", "Medium Quality", "Good
+Quality", "Best Quality", "Offline", as prefixes for additional
+properties in a new namespace.
 
 #### 3.2.2 Example of a table with metadata for all service access points in the same row (non-normative)
 
@@ -334,7 +328,7 @@ properties in a new namespace.
   </tbody>
 </table>
 
-Note: acf: (for "Audubon Core Flat") is a made-up namespace.  Communities of interest might mint such terms in order to use this kind of structure.
+Note: `acf:` (for "Audubon Core Flat") is a made-up namespace.  Communities of interest might mint such terms in order to use this kind of structure.
 
 ## 4 Lists of plain text values
 
@@ -346,4 +340,4 @@ defined for cases in which the separator is part of the metadata value.
 Unfortunately, even for standard list formats like CSV, different
 software packages choose different escape methods, hindering
 interchange. In the absence of an implementation-specific choice we
-recommend to use "|" as separator and "\\|" as an escaped vertical bar.
+RECOMMEND to use "|" as separator and "\\|" as an escaped vertical bar.

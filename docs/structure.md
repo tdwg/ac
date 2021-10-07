@@ -6,17 +6,17 @@ permalink: /structure/
 
 **Title:** Audubon Core Structure
 
-**Date version issued:** 2020-01-27
+**Date version issued:** 2021-10-05
 
 **Date created:** 2013-10-23
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** http://rs.tdwg.org/ac/doc/structure/2020-01-27
+**This version:** http://rs.tdwg.org/ac/doc/structure/2021-10-05
 
 **Latest version:** http://rs.tdwg.org/ac/doc/structure/
 
-**Previous version:** [http://rs.tdwg.org/ac/doc/structure/2013-10-23](2013-10-23)
+**Previous version:** [http://rs.tdwg.org/ac/doc/structure/2020-01-27](2020-01-27)
 
 **Abstract:** The Audubon Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
@@ -32,11 +32,11 @@ List](../termlist)**
 
 **Contributors:** Robert A. Morris, Vijay Barve, Mihail Carausu, Vishwas
 Chavan, José Cuadra, Chris Freeland, Gregor Hagedorn, Patrick Leary,
-Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
+Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage, Steve Baskauf
 
-**Creator:** GBIF/TDWG Multimedia Resources Task Group
+**Creator:** GBIF/TDWG Multimedia Resources Task Group and Audubon Core Maintenance Group
 
-**Bibliographic citation:** Multimedia Resources Task Group. 2020. Audubon Core Structure. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/structure/
+**Bibliographic citation:** Audubon Core Maintenance Group. 2021. Audubon Core Structure. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/structure/2021-10-05
 
 ## 1 Introduction
 
@@ -182,6 +182,8 @@ solution is to permit only one access point per
 container element, but to repeat the container element for a single media resource, as shown in section 3.1.3 This is similar
 to one of the options discussed for multilingual metadata (see [Metadata Language](../termlist#ac_metadataLanguage)).
 
+Note: In the examples, for human-readability the literal valued terms `dc:format` and `ac:variantLiteral` were used. However, it is designated best practice to use the IRI valued terms `dcterms:format` and `ac:variant` with controlled IRI values from the [controlled vocabulary for format](http://rs.tdwg.org/ac/doc/format/) and [controlled vocabulary for variant](http://rs.tdwg.org/ac/doc/variant/).  See the notes on [dc:format](http://rs.tdwg.org/ac/doc/termlist/#dc_format) and [ac:variantLiteral](http://rs.tdwg.org/ac/doc/termlist/#ac_variantLiteral) for more information.
+
 
 #### 3.1.1 Nested XML structure example (non-normative)
 
@@ -189,7 +191,7 @@ to one of the options discussed for multilingual metadata (see [Metadata Languag
       <dcterms:identifier>http//:example.com/pictures/thePicture.jpg</dcterms:identifier>
       ...
       <ac:hasServiceAccessPoint>
-        <dcterms:format>jpg</dcterms:format>
+        <dc:format>image/jpeg</dc:format>
         <ac:accessURI>http://example.com/fullres/thePicture.jpg</ac:accessURI>
         ...
       </ac:hasServiceAccessPoint>
@@ -207,7 +209,7 @@ to one of the options discussed for multilingual metadata (see [Metadata Languag
       <ac:hasServiceAccessPoint>http://example.com/pictures/thePicture.jpg#ac0001</ac:hasServiceAccessPoint>
       <ac:hasServiceAccessPoint>http://example.com/pictures/thePicture.jpg#ac0002</ac:hasServiceAccessPoint>
       <ac:ServiceAccessPoint id="http://example.com/pictures/thePicture.jpg#ac0001">
-        <dcterms:format>jpg</dcterms:format>
+        <dc:format>image/jpeg</dc:format>
         <ac:accessURI>http://example.com/fullres/thePicture.jpg</ac:accessURI>
         ...
       </ac:ServiceAccessPoint>
@@ -221,13 +223,13 @@ to one of the options discussed for multilingual metadata (see [Metadata Languag
     <MEDIA_METADATA_CONTAINER>
       <dcterms:identifier>http//:example.com/pictures/thePicture.jpg</dcterms:identifier>
       <dcterms:title>A red beech leaf</dcterms:title>
-      <dcterms:format>jpg</dcterms:format>
+      <dct:format>image/jpeg</dc:format>
       <ac:accessURI>http://example.com/fullres/thePicture.jpg</ac:accessURI>
       ...
     <MEDIA_METADATA_CONTAINER>
     <MEDIA_METADATA_CONTAINER>
       <dcterms:identifier>http://example.com/pictures/thePicture.jpg</dcterms:identifier>
-      <dcterms:format>png</dcterms:format>
+      <dc:format>image/png</dc:format>
       <ac:accessURI>http://example.com/fullres/thePicture-hires.png</ac:accessURI>
       ...
     <MEDIA_METADATA_CONTAINER>
@@ -252,29 +254,29 @@ as unnecessary.
     <tr>
       <td><strong>dcterms:identifier</strong></td>
       <td><strong>dcterms:title</strong></td>
-      <td><strong>ac:variant</strong></td>
-      <td><strong>dcterms:format</strong></td>
+      <td><strong>ac:variantLiteral</strong></td>
+      <td><strong>dc:format</strong></td>
       <td><strong>ac:accessURI</strong></td>
     </tr>
     <tr>
       <td>http://example.com/pictures/thePicture.jpg</td>
       <td>A red beech leaf</td>
       <td>Best Quality</td>
-      <td>jpg</td>
+      <td>image/jpeg</td>
       <td>http://example.com/fullres/thePicture.jpg</td>
     </tr>
     <tr>
       <td>http://example.com/pictures/thePicture.jpg</td>
       <td>&nbsp;</td>
       <td>Best Quality</td>
-      <td>png</td>
+      <td>image/png</td>
       <td>http://example.com/fullres/thePicture-hires.png</td>
     </tr>
     <tr>
       <td>http://example.com/pictures/thePicture.jpg</td>
       <td>&nbsp;</td>
       <td>Thumbnail</td>
-      <td>png</td>
+      <td>image/png</td>
       <td>http://example.com/thumbs/thePicture-thumb.png</td>
     </tr>
   </tbody>
@@ -319,7 +321,7 @@ properties in a new namespace.
       <td>1000</td>
       <td>1000</td>
       <td>http://ex.com/hr/thePic.png</td>
-      <td>image/png&lt;/nowiki&gt;</td>
+      <td>image/png</td>
       <td>10000</td>
       <td>10000</td>
     </tr>
