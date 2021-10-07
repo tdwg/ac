@@ -1779,7 +1779,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-01-27</td>
+			<td>2021-10-05</td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1799,7 +1799,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>The value of this field may provide a complete definition of the terms of use. For Creative Commons, the appropriate value is the URL of the defining Web page for the license. Example: <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">http://creativecommons.org/licenses/by-nc-sa/3.0/us/</a>..</td>
+			<td>The value of this field may provide a complete definition of the terms of use. For Creative Commons, the appropriate value is the URL of the defining Web page for the license. Example: <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">http://creativecommons.org/licenses/by-nc-sa/3.0/us/</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2143,11 +2143,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-01-27</td>
+			<td>2021-10-05</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
-			<td><a href="http://rs.tdwg.org/ac/terms/version/caption-2020-01-27">http://rs.tdwg.org/ac/terms/version/caption-2020-01-27</a></td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/caption-2021-10-05">http://rs.tdwg.org/ac/terms/version/caption-2021-10-05</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2163,7 +2163,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>If both description and caption are present in the metadata, a description is typically displayed instead of the resource, a caption together with the resource. Often only one of description or caption is present; choose the term most appropriate for your metadata.</td>
+			<td>If both description and caption are present in the metadata, a description is typically displayed instead of the resource, a caption together with the resource. Thus, in HTML it would be appropriate to use ac:caption values in figcaption elements. Often only one of description or caption is present; choose the term most appropriate for your metadata.</td>
 		</tr>
 	</tbody>
 </table>
@@ -2219,7 +2219,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-01-27</td>
+			<td>2021-10-05</td>
 		</tr>
 		<tr>
 			<td>Term version URI</td>
@@ -2243,7 +2243,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>This property optionally allows the presentation of detailed information and will in most cases be shown together with the resource title. If both a description and a caption are present in the metadata, a description is typically displayed instead of the resource, whereas a caption is displayed together with the resource. The description should aim to be a good proxy for the underlying media resource in cases where only text can be shown, whereas the caption may only make sense when shown together with the media. Often only one of description or caption is present; choose the term most appropriate for your metadata. It is the role of implementers of an AC concrete representation (e.g., an XML Schema, an RDF representation, etc.) to decide and document how formatting advice will be represented in descriptions serialized according to such representations.</td>
+			<td>This property optionally allows the presentation of detailed information and will in most cases be shown together with the resource title. If both a description and a caption are present in the metadata, a description is typically displayed instead of the resource, whereas a caption is displayed together with the resource. The description should aim to be a good proxy for the underlying media resource in cases where only text can be shown, whereas the caption may only make sense when shown together with the media. Thus, in HTML it would be appropriate to use dcterms:description values for alt attributes in img elements. Often only one of description or caption is present; choose the term most appropriate for your metadata. It is the role of implementers of an AC concrete representation (e.g., an XML Schema, an RDF representation, etc.) to decide and document how formatting advice will be represented in descriptions serialized according to such representations.</td>
 		</tr>
 	</tbody>
 </table>
@@ -6247,7 +6247,9 @@ These terms are representation-dependent metadata, referring to specific digital
 
 ### 7.11 Region of Interest Vocabulary
 
-Regions of Interest (ROI) designate specific parts of media items. Features within these regions can be taxonomically identified or linked to occurrence records. Currently spatial ROIs are limited to two dimensions and can only be defined by rectangles or arcs (including circles). The terms in this group are not repeatable within a single ROI instance, although a media item may be linked to more than one ROI by the `ac:hasROI` property.
+Regions of Interest (ROI) designate specific parts of media items. Features within these regions can be taxonomically identified or linked to occurrence records. ROI metadata may also be used to generate annotations of the media item or to facilitate display or highlighting of specific parts. 
+
+Currently spatial ROIs are limited to two dimensions and can only be defined by rectangles or arcs (including circles). The terms in this group are not repeatable within a single ROI instance, although a media item may be linked to more than one ROI by the `ac:hasROI` property.
 
  For examples showing how to use these terms, see the <a href="https://github.com/tdwg/ac/blob/master/roi-recipes.md">ROI Recipes</a> page.
 
