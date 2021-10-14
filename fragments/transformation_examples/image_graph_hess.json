@@ -3,7 +3,11 @@
     "ac": "http://rs.tdwg.org/ac/terms/",
     "dc": "http://purl.org/dc/elements/1.1/",
     "dcterms": "http://purl.org/dc/terms/",
-    "exif": "http://ns.adobe.com/exif/1.0/"
+    "exif": "http://ns.adobe.com/exif/1.0/",
+    "ac:metadataLanguage": {"@type": "@id"},
+    "ac:accessURI": {"@type": "@id"},
+    "dcterms:type": {"@type": "@id"},
+    "dcterms:format": {"@type": "@id"}
   },
   "@id": "http://bioimages.vanderbilt.edu/hessd/e5384",
   "@type": "http://purl.org/dc/dcmitype/StillImage",
@@ -16,6 +20,7 @@
     {
         "ac:accessURI": "https://iiif.library.vanderbilt.edu/iiif/3/bioimages%2Fhessd%2Ftrco--fr040529-17e5384.jpg/full/max/0/default.jpg",
         "dc:format": "image/jpeg",
+        "dcterms:format": "http://rs.tdwg.org/format/values/m008",
         "ac:variant": "http://rs.tdwg.org/acvariant/values/v006",
         "ac:variantLiteral": "Best Quality",
         "exif:PixelYDimension": 2112,
@@ -24,6 +29,7 @@
     {
         "ac:accessURI": "https://iiif.library.vanderbilt.edu/iiif/3/bioimages%2Fhessd%2Ftrco--fr040529-17e5384.jpg/full/856,/0/default.jpg",
         "dc:format": "image/jpeg",
+        "dcterms:format": "http://rs.tdwg.org/format/values/m008",
         "ac:variant": "http://rs.tdwg.org/acvariant/values/v005",
         "ac:variantLiteral": "Good Quality",
         "exif:PixelYDimension": 856,
