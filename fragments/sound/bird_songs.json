@@ -3,7 +3,6 @@
     "ac": "http://rs.tdwg.org/ac/terms/",
     "dc": "http://purl.org/dc/elements/1.1/",
     "dcterms": "http://purl.org/dc/terms/",
-    "exif": "http://ns.adobe.com/exif/1.0/",
     "ac:metadataLanguage": {"@type": "@id"},
     "dcterms:type": {"@type": "@id"},
     "dwc:dateIdentified": {"@type": "http://www.w3.org/2001/XMLSchema#date"}
