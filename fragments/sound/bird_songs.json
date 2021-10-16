@@ -7,53 +7,57 @@
     "dcterms:type": {"@type": "@id"},
     "dwc:dateIdentified": {"@type": "http://www.w3.org/2001/XMLSchema#date"}
   },
-  "@id": "https://macaulaylibrary.org/asset/245266991",
-  "@type": "http://purl.org/dc/dcmitype/Sound",
-  "dcterms:title": "ML245266991 Broad-winged Hawk Macaulay Library",
-  "dcterms:identifier": "https://macaulaylibrary.org/asset/245266991",
-  "dcterms:type": "http://purl.org/dc/dcmitype/Sound",
-  "ac:metadataLanguage": "http://id.loc.gov/vocabulary/iso639-2/eng",
-  "dc:rights": "(c) 2020 Daniel Jauvin",
-  "ac:hasROI": [
+  "@graph": [
     {
-      "@id": "https://macaulaylibrary.org/asset/245266991#bp1",
-      "dwc:scientificName": "Buteo platypterus",
-      "dwc:identifiedBy": "Daniel Jauvin",
-      "dwc:dateIdentified": "2020-06-18",
-      "dcterms:description": "flight song of red-winged hawk",
-      "ac:startTime": 11.2,
-      "ac:endTime": 11.9
-    },
-    {
-      "@id": "https://macaulaylibrary.org/asset/245266991#vo1",
-      "dwc:scientificName": "Vireo olivaceus",
-      "dwc:dateIdentified": "2021-06-14",
-      "dwc:identifiedBy": "Steven J. Baskauf",
-      "dcterms:description": "song of red-eyed vireo",
-      "ac:startTime": 3.0,
-      "ac:endTime": 3.6
-    },
-    {
-      "@id": "https://macaulaylibrary.org/asset/245266991#bp2",
-      "dwc:scientificName": "Buteo platypterus",
-      "dwc:identifiedBy": "Daniel Jauvin",
-      "dwc:dateIdentified": "2020-06-18",
-      "dcterms:description": "flight song of red-winged hawk",
-      "ac:startTime": 0.2,
-      "ac:endTime": 1.2,
-      "ac:freqLow": 2000,
-      "ac:freqHigh": 4200
-    },
-    {
-      "@id": "https://macaulaylibrary.org/asset/245266991#vo2",
-      "dwc:scientificName": "Vireo olivaceus",
-      "dwc:identifiedBy": "Steven J. Baskauf",
-      "dwc:dateIdentified": "2021-06-14",
-      "dcterms:description": "song of red-eyed vireo",
-      "ac:startTime": 0.4,
-      "ac:endTime": 1.2,
-      "ac:freqLow": 4200,
-      "ac:freqHigh": 5000
+    "@id": "https://macaulaylibrary.org/asset/245266991",
+    "@type": "http://purl.org/dc/dcmitype/Sound",
+    "dcterms:title": "ML245266991 Broad-winged Hawk Macaulay Library",
+    "dcterms:identifier": "https://macaulaylibrary.org/asset/245266991",
+    "dcterms:type": "http://purl.org/dc/dcmitype/Sound",
+    "ac:metadataLanguage": "http://id.loc.gov/vocabulary/iso639-2/eng",
+    "dc:rights": "(c) 2020 Daniel Jauvin",
+    "ac:hasROI": [
+      {
+        "@id": "https://macaulaylibrary.org/asset/245266991#bp1",
+        "dwc:scientificName": "Buteo platypterus",
+        "dwc:identifiedBy": "Daniel Jauvin",
+        "dwc:dateIdentified": "2020-06-18",
+        "dcterms:description": "flight song of red-winged hawk",
+        "ac:startTime": 11.2,
+        "ac:endTime": 11.9
+      },
+      {
+        "@id": "https://macaulaylibrary.org/asset/245266991#vo1",
+        "dwc:scientificName": "Vireo olivaceus",
+        "dwc:dateIdentified": "2021-06-14",
+        "dwc:identifiedBy": "Steven J. Baskauf",
+        "dcterms:description": "song of red-eyed vireo",
+        "ac:startTime": 3.0,
+        "ac:endTime": 3.6
+      },
+      {
+        "@id": "https://macaulaylibrary.org/asset/245266991#bp2",
+        "dwc:scientificName": "Buteo platypterus",
+        "dwc:identifiedBy": "Daniel Jauvin",
+        "dwc:dateIdentified": "2020-06-18",
+        "dcterms:description": "flight song of red-winged hawk",
+        "ac:startTime": 0.2,
+        "ac:endTime": 1.2,
+        "ac:freqLow": 2000,
+        "ac:freqHigh": 4200
+      },
+      {
+        "@id": "https://macaulaylibrary.org/asset/245266991#vo2",
+        "dwc:scientificName": "Vireo olivaceus",
+        "dwc:identifiedBy": "Steven J. Baskauf",
+        "dwc:dateIdentified": "2021-06-14",
+        "dcterms:description": "song of red-eyed vireo",
+        "ac:startTime": 0.4,
+        "ac:endTime": 1.2,
+        "ac:freqLow": 4200,
+        "ac:freqHigh": 5000
+      }
+      ]
     }
   ]
 }
