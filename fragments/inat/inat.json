@@ -1,6 +1,7 @@
 {
   "@context": {
     "ac": "http://rs.tdwg.org/ac/terms/",
+    "dwc": "http://rs.tdwg.org/dwc/terms/",
     "dc": "http://purl.org/dc/elements/1.1/",
     "dcterms": "http://purl.org/dc/terms/",
     "xmp": "http://ns.adobe.com/xap/1.0/",
