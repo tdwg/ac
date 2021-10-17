@@ -7,6 +7,7 @@
     "xmp": "http://ns.adobe.com/xap/1.0/",
     "ac:metadataLanguage": {"@type": "@id"},
     "ac:accessURI": {"@type": "@id"},
+    "ac:associatedObservationReference": {"@type": "@id"},
     "ac:startTimestamp": {"@type": "http://www.w3.org/2001/XMLSchema#dateTime"},
     "ac:endTimestamp": {"@type": "http://www.w3.org/2001/XMLSchema#dateTime"},
     "dcterms:type": {"@type": "@id"},

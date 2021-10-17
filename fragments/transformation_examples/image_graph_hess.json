@@ -7,6 +7,7 @@
     "exif": "http://ns.adobe.com/exif/1.0/",
     "ac:metadataLanguage": {"@type": "@id"},
     "ac:accessURI": {"@type": "@id"},
+    "ac:associatedObservationReference": {"@type": "@id"},
     "dcterms:type": {"@type": "@id"},
     "dcterms:format": {"@type": "@id"}
   },
