@@ -27,7 +27,7 @@
 
 ## 1 Introduction (informative)
 
-This document includes terms intended to be used as controlled values for the Audubon Core terms `ac:subjectPart` and ac:subjectPartLiteral`.
+This document includes terms intended to be used as controlled values for the Audubon Core terms `ac:subjectPart` and `ac:subjectPartLiteral`.
 
 ### 1.1 Status of the content of this document
 
