@@ -295,7 +295,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>vied of the right side of a whole bilaterally symmetric organism</td>
+			<td>view of the right side of a whole bilaterally symmetric organism</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
