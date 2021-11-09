@@ -27,7 +27,7 @@
 
 ## 1 Introduction (informative)
 
-This document includes terms intended to be used as controlled values for the Audubon Core terms `ac:subjectOrientation` and `ac:subjectOrientationLiteral`.
+This document includes terms intended to be used as controlled values for the Audubon Core terms `ac:subjectOrientation` and `ac:subjectOrientationLiteral`. A [JSON-LD representation](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient.json) of this SKOS Concept Scheme is available.
 
 ### 1.1 Status of the content of this document
 
@@ -50,7 +50,7 @@ In accordance with the [Audubon Core Term List](http://rs.tdwg.org/ac/doc/termli
 
 ### 2.2 Relationships with other concept schemes and collections (informative)
 
-Particular `ac:subjectOrientation` values are appropriate for some `ac:subjectPart` values. The relationships between concepts in these two schemes are described by a SKOS Collection for each subject part that designates which subject orientations are appropriate for that part. Similarly, SKOS Collections have been established for some organism groups to indicate which subject parts exist for members of those groups. These collections are provided to aid application developers in filtering the concepts that should be presented to users and they may also be used for validation.
+Particular `ac:subjectOrientation` values are appropriate for some `ac:subjectPart` values. The relationships between concepts in these two schemes are described by a [JSON-LD serialized SKOS Collection for each subject part](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient_collection.json) that designates which subject orientations are appropriate for that part. Similarly, [JSON-LD serialized SKOS Collections have been established for some organism groups](https://tdwg.github.io/rs.tdwg.org/cvJson/acpart_collection.json) to indicate which subject parts exist for members of those groups. These collections are provided to aid application developers in filtering the concepts that should be presented to users and they may also be used for validation.
 
 Neither of these Collections are normative and they are maintained outside of the Audubon Core standards framework in order to make their development agile.
 
