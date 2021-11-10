@@ -52,6 +52,12 @@ Policies established by the Maintenance Group are listed [here](policies.md).  P
 
 ## Documentation
 
+[Examples guide for Still Images](https://github.com/tdwg/ac/blob/master/image/examples.md)
+
+[stub Examples guide for Sound](https://github.com/tdwg/ac/blob/master/sound/examples.md)
+
+[Regions of Interest (ROI) recipes document](https://github.com/tdwg/ac/blob/master/roi-recipes.md)
+
 To see what issues we are currently addressing, see our [Issue Tracker](https://github.com/tdwg/ac/issues).  
 
 For notes of Maintenance group meetings and other historical documents, see [this page](historical/README.md).  To see what we've been working on in the past, see the [list of closed issues](https://github.com/tdwg/ac/issues?q=is%3Aissue+is%3Aclosed)
