@@ -1,4 +1,4 @@
-# SKOS Collections for part
+# Controlled value strings from SKOS Collections for ac:subjectPartLiteral
 
 ## unspecified organism group
 <ul>

@@ -1,4 +1,4 @@
-# SKOS Collections for orient
+# Controlled value strings from SKOS Collections for ac:subjectOrientationLiteral
 
 ## unspecified morphological feature
 <ul>
