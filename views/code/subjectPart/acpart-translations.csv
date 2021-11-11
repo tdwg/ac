@@ -1,0 +1,34 @@
+term_localName,label_en,definition_en
+p,subject part concept scheme,a SKOS concept scheme for ac:subjectOrientation
+p0000,unspecified part,Part is not known because it is not specified
+p0001,entire organism,An entire multicellular organism
+p0002,bark,Plant tissue outside the vascular cambium
+p0003,twig,Plant shoot axis developed from axillary buds
+p0004,stem,Plant shoot axis that is the primary axis as defined by
+p0005,leaf,Plant non-reproductive phyllome
+p0006,strobilis (cone),Plant reproductive system consisting of sporophylls
+p0007,inflorescence,Plant reproductive shoot system containing flowers
+p0008,fruit,Plant structure developing from a flower
+p0009,seed,Plant structure containing dormant embryo
+p0010,male cone,Plant strobilis bearing pollen
+p0011,female cone,Plant strobilis bearing ovules
+p0012,flower,Plant reproductive shoot system containing a carpel
+p0013,head,Anterior-most division of the body
+p0014,thorax,The main middle section of the insect body
+p0015,abdomen,The most posterior of the three tagma
+p0016,leg,Walking appendage
+p0017,wing,Appendage that is shaped in order to produce lift for flight through the air
+p0018,antenna,"The paired, usually multiple jointed, sensory organs on the head"
+p0019,forewing,The paired insect wing that is continuous with the mesonotum
+p0020,hindwing,The paired insect wing that is continuous with the metanotum
+p0021,foreleg,Leg of the prothoracic segment
+p0022,midleg,Leg of the mesothoracic segment
+p0023,hindleg,Leg of the metathoracic segment
+p0024,eye,An organ that detects light
+p0025,shell,A rigid covering that envelops an object
+p0026,genitalia,The outer sex organs
+p0027,skull,The part of the head consisting entirely of cranium and mandible
+p0028,cranium,Upper portion of the skull
+p0029,mandible,A dentary bone that is the only bone in one of the lateral halves of the lower jaw
+p0030,fin,An external projection of an aquatic animal used in propelling or guiding the body
+p0031,egg,The hard-shelled reproductive body produced by a bird or a reptile

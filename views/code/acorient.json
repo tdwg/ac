@@ -1,0 +1,250 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "skos:inScheme": {
+      "@type": "@id"
+    },
+    "skos:broader": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "http://rs.tdwg.org/acorient/values/r",
+      "@type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "subject orientation concept scheme"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "a SKOS concept scheme for orientation"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/values/r0000",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "unspecifiedOrientation",
+      "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "unspecified orientation"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "orientation is not known because it is not specified"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/values/r0001",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "anterior",
+      "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "anterior side"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "view of the anterior side of the part"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/values/r0002",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "posterior",
+      "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "posterior side"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "view of the posterior side of the part"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/values/r0003",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "lateral",
+      "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "lateral side"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "view of a lateral side of a part"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/values/r0004",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "right",
+      "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "skos:broader": "http://rs.tdwg.org/acorient/values/r0003",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "right side"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "vied of the right side of a whole bilaterally symmetric organism"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/values/r0005",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "left",
+      "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "skos:broader": "http://rs.tdwg.org/acorient/values/r0003",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "left side"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "view of the left side of a whole bilaterally symmetric organism"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/values/r0006",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "dorsal",
+      "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "dorsal side"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "view of the dorsal side of the part"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/values/r0007",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "ventral",
+      "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "ventral side"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "view of the ventral side of the part"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/values/r0008",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "adaxial",
+      "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "adaxial side"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "view of the adaxial side of the part"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/values/r0009",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "abaxial",
+      "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "abaxial side"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "view of the abaxial side of the part"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/values/r0010",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "apical",
+      "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "apical side"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "view of the apical side of the part"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/values/r0011",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "basal",
+      "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "basal side"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "view of the basal side of a part"
+        }
+      ]
+    }
+  ]
+}

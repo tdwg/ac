@@ -1,0 +1,21 @@
+header,predicate,type,value,attribute,subject_id
+version_isDefinedBy,rdfs:isDefinedBy,iri,,,$root
+version_isDefinedBy,dcterms:isPartOf,iri,,,$root
+version_issued,dcterms:issued,datatype,,xsd:date,$root
+version_status,tdwgutility:status,datatype,,xsd:string,$root
+replaces_version,dcterms:replaces,iri,,,$root
+replaces1_version,dcterms:replaces,iri,,,$root
+replaces2_version,dcterms:replaces,iri,,,$root
+label,rdfs:label,language,,en,$root
+label,skos:prefLabel,language,,en,$root
+definition,rdfs:comment,language,,en,$root
+definition,skos:definition,language,,en,$root
+definition_derived_from ,tdwgutility:definitionDerivedFrom,iri,,,$root
+usage,skos:scopeNote,language,,en,$root
+notes,dcterms:description,language,,en,$root
+examples,skos:example,language,,en,$root
+skos_inScheme,skos:inScheme,iri,http://rs.tdwg.org/acpart/values/,,$root
+controlled_value_string,rdf:value,plain,,,$root
+skos_broader,skos:broader,iri,http://rs.tdwg.org/acpart/values/,,$root
+type,rdf:type,iri,,,$root
+term_localName,dcterms:isVersionOf,iri,http://rs.tdwg.org/acpart/values/,,$root

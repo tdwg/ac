@@ -1,0 +1,618 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "skos:inScheme": {
+      "@type": "@id"
+    },
+    "skos:broader": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p",
+      "@type": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "subject part concept scheme"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "a SKOS concept scheme for ac:subjectOrientation"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0000",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "unspecifiedPart",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "unspecified part"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Part is not known because it is not specified"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0001",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "entireOrganism",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "entire organism"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "An entire multicellular organism"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0002",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "bark",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "bark"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Plant tissue outside the vascular cambium"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0003",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "twig",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "twig"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Plant shoot axis developed from axillary buds"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0004",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "stem",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "stem"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Plant shoot axis that is the primary axis as defined by"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0005",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "leaf",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "leaf"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Plant non-reproductive phyllome"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0006",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "strobilis",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "strobilis (cone)"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Plant reproductive system consisting of sporophylls"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0007",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "inflorescence",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "inflorescence"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Plant reproductive shoot system containing flowers"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0008",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "fruit",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "fruit"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Plant structure developing from a flower"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0009",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "seed",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "seed"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Plant structure containing dormant embryo"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0010",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "maleCone",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:broader": "http://rs.tdwg.org/acpart/values/p0006",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "male cone"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Plant strobilis bearing pollen"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0011",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "femaleCone",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:broader": "http://rs.tdwg.org/acpart/values/p0006",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "female cone"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Plant strobilis bearing ovules"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0012",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "flower",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:broader": "http://rs.tdwg.org/acpart/values/p0007",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "flower"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Plant reproductive shoot system containing a carpel"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0013",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "head",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "head"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Anterior-most division of the body"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0014",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "thorax",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "thorax"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "The main middle section of the insect body"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0015",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "abdomen",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "abdomen"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "The most posterior of the three tagma"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0016",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "leg",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "leg"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Walking appendage"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0017",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "wing",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "wing"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Appendage that is shaped in order to produce lift for flight through the air"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0018",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "antenna",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "antenna"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "The paired, usually multiple jointed, sensory organs on the head"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0019",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "forewing",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:broader": "http://rs.tdwg.org/acpart/values/p0017",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "forewing"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "The paired insect wing that is continuous with the mesonotum"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0020",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "hindwing",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:broader": "http://rs.tdwg.org/acpart/values/p0017",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "hindwing"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "The paired insect wing that is continuous with the metanotum"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0021",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "foreleg",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:broader": "http://rs.tdwg.org/acpart/values/p0016",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "foreleg"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Leg of the prothoracic segment"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0022",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "midleg",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:broader": "http://rs.tdwg.org/acpart/values/p0016",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "midleg"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Leg of the mesothoracic segment"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0023",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "hindleg",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:broader": "http://rs.tdwg.org/acpart/values/p0016",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "hindleg"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Leg of the metathoracic segment"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0024",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "eye",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "eye"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "An organ that detects light"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0025",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "shell",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "shell"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "A rigid covering that envelops an object"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0026",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "genitalia",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "genitalia"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "The outer sex organs"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0027",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "skull",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "skull"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "The part of the head consisting entirely of cranium and mandible"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0028",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "cranium",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:broader": "http://rs.tdwg.org/acpart/values/p0027",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "cranium"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "Upper portion of the skull"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0029",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "mandible",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:broader": "http://rs.tdwg.org/acpart/values/p0027",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "mandible"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "A dentary bone that is the only bone in one of the lateral halves of the lower jaw"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0030",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "fin",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "fin"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "An external projection of an aquatic animal used in propelling or guiding the body"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0031",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "egg",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "egg"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "The hard-shelled reproductive body produced by a bird or a reptile"
+        }
+      ]
+    }
+  ]
+}

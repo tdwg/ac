@@ -1,0 +1,244 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "skos:member": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "http://rs.tdwg.org/acpart/collection/g000",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "unspecified organism group"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "placeholder collection for undefined groups"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acpart/values/p0000",
+        "http://rs.tdwg.org/acpart/values/p0001"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/collection/g001",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "woody angiosperms"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts that apply to woody angiosperms"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acpart/values/p0000",
+        "http://rs.tdwg.org/acpart/values/p0001",
+        "http://rs.tdwg.org/acpart/values/p0002",
+        "http://rs.tdwg.org/acpart/values/p0003",
+        "http://rs.tdwg.org/acpart/values/p0005",
+        "http://rs.tdwg.org/acpart/values/p0007",
+        "http://rs.tdwg.org/acpart/values/p0008",
+        "http://rs.tdwg.org/acpart/values/p0009",
+        "http://rs.tdwg.org/acpart/values/p0012"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/collection/g002",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "herbaceous angiosperms"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts that apply to herbaceous angiosperms"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acpart/values/p0000",
+        "http://rs.tdwg.org/acpart/values/p0001",
+        "http://rs.tdwg.org/acpart/values/p0004",
+        "http://rs.tdwg.org/acpart/values/p0005",
+        "http://rs.tdwg.org/acpart/values/p0007",
+        "http://rs.tdwg.org/acpart/values/p0008",
+        "http://rs.tdwg.org/acpart/values/p0009",
+        "http://rs.tdwg.org/acpart/values/p0012"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/collection/g003",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "gymnosperms"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts that apply to gymnosperms"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acpart/values/p0000",
+        "http://rs.tdwg.org/acpart/values/p0001",
+        "http://rs.tdwg.org/acpart/values/p0002",
+        "http://rs.tdwg.org/acpart/values/p0003",
+        "http://rs.tdwg.org/acpart/values/p0005",
+        "http://rs.tdwg.org/acpart/values/p0006",
+        "http://rs.tdwg.org/acpart/values/p0009",
+        "http://rs.tdwg.org/acpart/values/p0010",
+        "http://rs.tdwg.org/acpart/values/p0011"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/collection/g007",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "fish"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts that apply to fish"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acpart/values/p0001",
+        "http://rs.tdwg.org/acpart/values/p0000",
+        "http://rs.tdwg.org/acpart/values/p0013",
+        "http://rs.tdwg.org/acpart/values/p0027",
+        "http://rs.tdwg.org/acpart/values/p0030"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/collection/g009",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "mammals"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts that apply to mammals"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acpart/values/p0001",
+        "http://rs.tdwg.org/acpart/values/p0000",
+        "http://rs.tdwg.org/acpart/values/p0013",
+        "http://rs.tdwg.org/acpart/values/p0028",
+        "http://rs.tdwg.org/acpart/values/p0029",
+        "http://rs.tdwg.org/acpart/values/p0027"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/collection/g010",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "birds"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts that apply to birds"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acpart/values/p0001",
+        "http://rs.tdwg.org/acpart/values/p0000",
+        "http://rs.tdwg.org/acpart/values/p0013",
+        "http://rs.tdwg.org/acpart/values/p0028",
+        "http://rs.tdwg.org/acpart/values/p0029",
+        "http://rs.tdwg.org/acpart/values/p0027",
+        "http://rs.tdwg.org/acpart/values/p0017",
+        "http://rs.tdwg.org/acpart/values/p0031"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/collection/g011",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "reptiles/amphibians"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts that apply to reptiles and amphibians"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acpart/values/p0001",
+        "http://rs.tdwg.org/acpart/values/p0000",
+        "http://rs.tdwg.org/acpart/values/p0013",
+        "http://rs.tdwg.org/acpart/values/p0028",
+        "http://rs.tdwg.org/acpart/values/p0029",
+        "http://rs.tdwg.org/acpart/values/p0027",
+        "http://rs.tdwg.org/acpart/values/p0026"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/collection/g012",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "insects"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts that apply to insects"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acpart/values/p0000",
+        "http://rs.tdwg.org/acpart/values/p0001",
+        "http://rs.tdwg.org/acpart/values/p0013",
+        "http://rs.tdwg.org/acpart/values/p0014",
+        "http://rs.tdwg.org/acpart/values/p0015",
+        "http://rs.tdwg.org/acpart/values/p0016",
+        "http://rs.tdwg.org/acpart/values/p0017",
+        "http://rs.tdwg.org/acpart/values/p0018",
+        "http://rs.tdwg.org/acpart/values/p0019",
+        "http://rs.tdwg.org/acpart/values/p0020",
+        "http://rs.tdwg.org/acpart/values/p0021",
+        "http://rs.tdwg.org/acpart/values/p0022",
+        "http://rs.tdwg.org/acpart/values/p0023",
+        "http://rs.tdwg.org/acpart/values/p0024",
+        "http://rs.tdwg.org/acpart/values/p0026"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,675 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "skos:member": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0000",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "unspecified morphological feature"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "placeholder collection for undefined morphological features"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0000"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0001",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "entire organism"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for entire organism"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0000",
+        "http://rs.tdwg.org/acorient/values/r0001",
+        "http://rs.tdwg.org/acorient/values/r0002",
+        "http://rs.tdwg.org/acorient/values/r0003",
+        "http://rs.tdwg.org/acorient/values/r0004",
+        "http://rs.tdwg.org/acorient/values/r0005",
+        "http://rs.tdwg.org/acorient/values/r0006",
+        "http://rs.tdwg.org/acorient/values/r0007",
+        "http://rs.tdwg.org/acorient/values/r0010",
+        "http://rs.tdwg.org/acorient/values/r0011"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0002",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "bark"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for bark"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0003",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "twig"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for twig"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0004",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "stem"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for stem"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0005",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "leaf"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for leaf"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0008",
+        "http://rs.tdwg.org/acorient/values/r0009"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0006",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "strobilis (cone)"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for strobilis (cone)"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0010",
+        "http://rs.tdwg.org/acorient/values/r0003",
+        "http://rs.tdwg.org/acorient/values/r0011"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0007",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "inflorescence"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for inflorescence"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003",
+        "http://rs.tdwg.org/acorient/values/r0010"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0008",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "fruit"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for fruit"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0010",
+        "http://rs.tdwg.org/acorient/values/r0003",
+        "http://rs.tdwg.org/acorient/values/r0011"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0009",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "seed"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for seed"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0010",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "male cone"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for male cone"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0010",
+        "http://rs.tdwg.org/acorient/values/r0003",
+        "http://rs.tdwg.org/acorient/values/r0011"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0011",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "female cone"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for female cone"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0010",
+        "http://rs.tdwg.org/acorient/values/r0003",
+        "http://rs.tdwg.org/acorient/values/r0011"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0012",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "flower"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for flower"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0010",
+        "http://rs.tdwg.org/acorient/values/r0003",
+        "http://rs.tdwg.org/acorient/values/r0011"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0013",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "head"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for head"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0000",
+        "http://rs.tdwg.org/acorient/values/r0001",
+        "http://rs.tdwg.org/acorient/values/r0003",
+        "http://rs.tdwg.org/acorient/values/r0004",
+        "http://rs.tdwg.org/acorient/values/r0005",
+        "http://rs.tdwg.org/acorient/values/r0006",
+        "http://rs.tdwg.org/acorient/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0014",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "thorax"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for thorax"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0000",
+        "http://rs.tdwg.org/acorient/values/r0003",
+        "http://rs.tdwg.org/acorient/values/r0004",
+        "http://rs.tdwg.org/acorient/values/r0005",
+        "http://rs.tdwg.org/acorient/values/r0006",
+        "http://rs.tdwg.org/acorient/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0015",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "abdomen"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for abdomen"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0000",
+        "http://rs.tdwg.org/acorient/values/r0002",
+        "http://rs.tdwg.org/acorient/values/r0003",
+        "http://rs.tdwg.org/acorient/values/r0004",
+        "http://rs.tdwg.org/acorient/values/r0005",
+        "http://rs.tdwg.org/acorient/values/r0006",
+        "http://rs.tdwg.org/acorient/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0016",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "leg"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for leg"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0017",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "wing"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for wing"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0000",
+        "http://rs.tdwg.org/acorient/values/r0006",
+        "http://rs.tdwg.org/acorient/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0018",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "antenna"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for antenna"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0019",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "forewing"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for forewing"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0000",
+        "http://rs.tdwg.org/acorient/values/r0006",
+        "http://rs.tdwg.org/acorient/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0020",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "hindwing"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for hindwing"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0000",
+        "http://rs.tdwg.org/acorient/values/r0006",
+        "http://rs.tdwg.org/acorient/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0021",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "foreleg"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for foreleg"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0022",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "midleg"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for midleg"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0023",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "hindleg"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for hindleg"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0024",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "eye"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for eye"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0025",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "shell"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for shell"
+        }
+      ],
+      "skos:member": []
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0026",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "genitalia"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for genitalia"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0000",
+        "http://rs.tdwg.org/acorient/values/r0002",
+        "http://rs.tdwg.org/acorient/values/r0003",
+        "http://rs.tdwg.org/acorient/values/r0004",
+        "http://rs.tdwg.org/acorient/values/r0005",
+        "http://rs.tdwg.org/acorient/values/r0006",
+        "http://rs.tdwg.org/acorient/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0027",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "skull"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for skull"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0006",
+        "http://rs.tdwg.org/acorient/values/r0007",
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0028",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "cranium"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for cranium"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0006",
+        "http://rs.tdwg.org/acorient/values/r0007",
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0029",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "mandible"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for mandible"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0006",
+        "http://rs.tdwg.org/acorient/values/r0007",
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0030",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "fin"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for fin"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0031",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "egg"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for egg"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    }
+  ]
+}

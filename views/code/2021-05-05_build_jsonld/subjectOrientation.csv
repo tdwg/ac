@@ -1,0 +1,14 @@
+term_localName,label,skos_broader,skos_inScheme,definition,ontology_definition,usage,notes,controlled_value_string,type
+r,subject orientation concept scheme,,,a SKOS concept scheme for orientation,,,,,http://www.w3.org/2004/02/skos/core#ConceptScheme
+r0000,unspecified orientation,,r,orientation is not known because it is not specified,,,,unspecifiedOrientation,http://www.w3.org/2004/02/skos/core#Concept
+r0001,anterior side,,r,view of the anterior side of the part,http://purl.obolibrary.org/obo/BSPO_0000055,,,anterior,http://www.w3.org/2004/02/skos/core#Concept
+r0002,posterior side,,r,view of the posterior side of the part,http://purl.obolibrary.org/obo/BSPO_0000056,,,posterior,http://www.w3.org/2004/02/skos/core#Concept
+r0003,lateral side,,r,view of a lateral side of a part,http://purl.obolibrary.org/obo/BSPO_0000066,,,lateral,http://www.w3.org/2004/02/skos/core#Concept
+r0004,right side,r0003,r,vied of the right side of a whole bilaterally symmetric organism,http://purl.obolibrary.org/obo/BSPO_0000007,,,right,http://www.w3.org/2004/02/skos/core#Concept
+r0005,left side,r0003,r,view of the left side of a whole bilaterally symmetric organism,http://purl.obolibrary.org/obo/BSPO_0000000,,,left,http://www.w3.org/2004/02/skos/core#Concept
+r0006,dorsal side,,r,view of the dorsal side of the part,http://purl.obolibrary.org/obo/BSPO_0000063,,,dorsal,http://www.w3.org/2004/02/skos/core#Concept
+r0007,ventral side,,r,view of the ventral side of the part,http://purl.obolibrary.org/obo/BSPO_0000068,,,ventral,http://www.w3.org/2004/02/skos/core#Concept
+r0008,adaxial side,,r,view of the adaxial side of the part,http://purl.obolibrary.org/obo/PATO_0002047,,BSPO has adaxial/abaxial axis http://purl.obolibrary.org/obo/BSPO_0000195 but not the sides defined by that axis,adaxial,http://www.w3.org/2004/02/skos/core#Concept
+r0009,abaxial side,,r,view of the abaxial side of the part,http://purl.obolibrary.org/obo/PATO_0002046,,,abaxial,http://www.w3.org/2004/02/skos/core#Concept
+r0010,apical side,,r,view of the apical side of the part,http://purl.obolibrary.org/obo/BSPO_0000057,,,apical,http://www.w3.org/2004/02/skos/core#Concept
+r0011,basal side,,r,view of the basal side of a part,http://purl.obolibrary.org/obo/BSPO_0000058,,,basal,http://www.w3.org/2004/02/skos/core#Concept

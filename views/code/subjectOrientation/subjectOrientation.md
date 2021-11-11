@@ -1,0 +1,625 @@
+# subjectOrientation Controlled Vocabulary
+
+**Title:** subjectOrientation Controlled Vocabulary
+
+**Namespace URI:** http://rs.tdwg.org/acorient/values/
+
+**Preferred namespace abbreviation:** acorient:
+
+**Date version issued:** put ratification date here
+
+**Date created:** put ratification date here
+
+**Part of TDWG Standard:** http://www.tdwg.org/standards/638
+
+**This version:** http://rs.tdwg.org/ac/doc/orient/iso-date-here
+
+**Latest version:** http://rs.tdwg.org/ac/doc/orient/
+
+**Abstract:** The Audubon Core term `subjectOrientation` describes the viewing orientation relative to an organism or part of an organism depicted in a media item or region of interest. The subjectOrientation Controlled Vocabulary provides terms that should be used as values for `ac:subjectOrientation` and its literal-valued analog `ac:subjectOrientationLiteral`. 
+
+**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (Stockholm University), Randy Singer (University of Michigan)
+
+**Creator:** TDWG Views Controlled Vocabularies Task Group
+
+**Bibliographic citation:** Views Controlled Vocabularies Task Group. 2022. subjectOrientation Controlled Vocabulary. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/orient/>
+
+
+## 1 Introduction (informative)
+
+This document includes terms intended to be used as controlled values for the Audubon Core terms `ac:subjectOrientation` and `ac:subjectOrientationLiteral`. A [JSON-LD representation](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient.json) of this SKOS Concept Scheme is available.
+
+### 1.1 Status of the content of this document
+
+Section 1 is informative (non-normative).
+
+Section 2 is normative except as noted.
+
+Section 3 is informative.
+
+In Section 4, the values of the `Term IRI`, `Definition`, and `Controlled value` are normative. The value of `Usage` (if it exists for a given term) is normative.  The value of `Has broader concept` is normative. The values of `Term Name` are non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  `Label` and the values of all other properties (such as `Notes`) are non-normative.
+
+### 1.2 RFC 2119 key words
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
+
+## 2 Use of Terms
+
+### 2.1 Relationship of value types to property terms
+
+In accordance with the [Audubon Core Term List](http://rs.tdwg.org/ac/doc/termlist/) document, unabbreviated term IRIs MUST be used as values of the property `ac:subjectOrientation`. Controlled value strings SHOULD be used as values of the property `ac:subjectOrientationLiteral`.
+
+### 2.2 Relationships with other concept schemes and collections (informative)
+
+Particular `ac:subjectOrientation` values are appropriate for some `ac:subjectPart` values. The relationships between concepts in these two schemes are described by a [JSON-LD serialized SKOS Collection for each subject part](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient_collection.json) that designates which subject orientations are appropriate for that part. Similarly, [JSON-LD serialized SKOS Collections have been established for some organism groups](https://tdwg.github.io/rs.tdwg.org/cvJson/acpart_collection.json) to indicate which subject parts exist for members of those groups. These collections are provided to aid application developers in filtering the concepts that should be presented to users and they may also be used for validation.
+
+Neither of these Collections are normative and they are maintained outside of the Audubon Core standards framework in order to make their development agile.
+
+## 3 Term index
+
+
+[abaxial side](#acorient_r0009) |
+[adaxial side](#acorient_r0008) |
+[anterior side](#acorient_r0001) |
+[apical side](#acorient_r0010) |
+[basal side](#acorient_r0011) |
+[dorsal side](#acorient_r0006) |
+[lateral side](#acorient_r0003) |
+[left side](#acorient_r0005) |
+[posterior side](#acorient_r0002) |
+[right side](#acorient_r0004) |
+[subject orientation concept scheme](#acorient_r) |
+[unspecified orientation](#acorient_r0000) |
+[ventral side](#acorient_r0007) 
+
+## 4 Vocabulary
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acorient_r"></a>Term Name  acorient:r</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/r">http://rs.tdwg.org/acorient/values/r</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-01-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r-2022-01-01">http://rs.tdwg.org/acorient/values/version/r-2022-01-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>subject orientation concept scheme</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>a SKOS concept scheme for orientation</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>http://www.w3.org/2004/02/skos/core#ConceptScheme</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acorient_r0000"></a>Term Name  acorient:r0000</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/r0000">http://rs.tdwg.org/acorient/values/r0000</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-01-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0000-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0000-2022-01-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>unspecified orientation</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>orientation is not known because it is not specified</td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>unspecifiedOrientation</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Concept</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acorient_r0001"></a>Term Name  acorient:r0001</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/r0001">http://rs.tdwg.org/acorient/values/r0001</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-01-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0001-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0001-2022-01-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>anterior side</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>view of the anterior side of the part</td>
+		</tr>
+		<tr>
+			<td>Definition derived from:</td>
+			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000055">http://purl.obolibrary.org/obo/BSPO_0000055</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>anterior</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Concept</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acorient_r0002"></a>Term Name  acorient:r0002</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/r0002">http://rs.tdwg.org/acorient/values/r0002</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-01-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0002-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0002-2022-01-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>posterior side</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>view of the posterior side of the part</td>
+		</tr>
+		<tr>
+			<td>Definition derived from:</td>
+			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000056">http://purl.obolibrary.org/obo/BSPO_0000056</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>posterior</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Concept</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acorient_r0003"></a>Term Name  acorient:r0003</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/r0003">http://rs.tdwg.org/acorient/values/r0003</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-01-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0003-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0003-2022-01-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>lateral side</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>view of a lateral side of a part</td>
+		</tr>
+		<tr>
+			<td>Definition derived from:</td>
+			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000066">http://purl.obolibrary.org/obo/BSPO_0000066</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>lateral</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Concept</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acorient_r0004"></a>Term Name  acorient:r0004</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/r0004">http://rs.tdwg.org/acorient/values/r0004</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-01-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0004-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0004-2022-01-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>right side</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>view of the right side of a whole bilaterally symmetric organism</td>
+		</tr>
+		<tr>
+			<td>Definition derived from:</td>
+			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000007">http://purl.obolibrary.org/obo/BSPO_0000007</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>right</td>
+		</tr>
+		<tr>
+			<td>Has broader concept</td>
+			<td><a href="#acorient_r0003">acorient:r0003</a></td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Concept</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acorient_r0005"></a>Term Name  acorient:r0005</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/r0005">http://rs.tdwg.org/acorient/values/r0005</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-01-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0005-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0005-2022-01-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>left side</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>view of the left side of a whole bilaterally symmetric organism</td>
+		</tr>
+		<tr>
+			<td>Definition derived from:</td>
+			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000000">http://purl.obolibrary.org/obo/BSPO_0000000</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>left</td>
+		</tr>
+		<tr>
+			<td>Has broader concept</td>
+			<td><a href="#acorient_r0003">acorient:r0003</a></td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Concept</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acorient_r0006"></a>Term Name  acorient:r0006</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/r0006">http://rs.tdwg.org/acorient/values/r0006</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-01-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0006-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0006-2022-01-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>dorsal side</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>view of the dorsal side of the part</td>
+		</tr>
+		<tr>
+			<td>Definition derived from:</td>
+			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000063">http://purl.obolibrary.org/obo/BSPO_0000063</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>dorsal</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Concept</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acorient_r0007"></a>Term Name  acorient:r0007</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/r0007">http://rs.tdwg.org/acorient/values/r0007</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-01-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0007-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0007-2022-01-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>ventral side</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>view of the ventral side of the part</td>
+		</tr>
+		<tr>
+			<td>Definition derived from:</td>
+			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000068">http://purl.obolibrary.org/obo/BSPO_0000068</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>ventral</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Concept</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acorient_r0008"></a>Term Name  acorient:r0008</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/r0008">http://rs.tdwg.org/acorient/values/r0008</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-01-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0008-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0008-2022-01-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>adaxial side</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>view of the adaxial side of the part</td>
+		</tr>
+		<tr>
+			<td>Definition derived from:</td>
+			<td><a href="http://purl.obolibrary.org/obo/PATO_0002047">http://purl.obolibrary.org/obo/PATO_0002047</a></td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>BSPO has adaxial/abaxial axis <a href="http://purl.obolibrary.org/obo/BSPO_0000195">http://purl.obolibrary.org/obo/BSPO_0000195</a> but not the sides defined by that axis</td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>adaxial</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Concept</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acorient_r0009"></a>Term Name  acorient:r0009</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/r0009">http://rs.tdwg.org/acorient/values/r0009</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-01-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0009-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0009-2022-01-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>abaxial side</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>view of the abaxial side of the part</td>
+		</tr>
+		<tr>
+			<td>Definition derived from:</td>
+			<td><a href="http://purl.obolibrary.org/obo/PATO_0002046">http://purl.obolibrary.org/obo/PATO_0002046</a></td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>BSPO has adaxial/abaxial axis <a href="http://purl.obolibrary.org/obo/BSPO_0000195">http://purl.obolibrary.org/obo/BSPO_0000195</a> but not the sides defined by that axis</td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>abaxial</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Concept</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acorient_r0010"></a>Term Name  acorient:r0010</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/r0010">http://rs.tdwg.org/acorient/values/r0010</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-01-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0010-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0010-2022-01-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>apical side</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>view of the apical side of the part</td>
+		</tr>
+		<tr>
+			<td>Definition derived from:</td>
+			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000057">http://purl.obolibrary.org/obo/BSPO_0000057</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>apical</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Concept</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acorient_r0011"></a>Term Name  acorient:r0011</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/r0011">http://rs.tdwg.org/acorient/values/r0011</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-01-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0011-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0011-2022-01-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>basal side</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>view of the basal side of a part</td>
+		</tr>
+		<tr>
+			<td>Definition derived from:</td>
+			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000058">http://purl.obolibrary.org/obo/BSPO_0000058</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>basal</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Concept</td>
+		</tr>
+	</tbody>
+</table>
+
+

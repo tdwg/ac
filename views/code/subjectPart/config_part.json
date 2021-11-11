@@ -1,0 +1,16 @@
+{
+    "date_issued": "2022-01-01",
+    "local_offset_from_utc": "-06:00",
+    "vocab_type": 3,
+    "namespaces": [
+        {
+            "namespace_uri": "http://rs.tdwg.org/acpart/values/",
+            "database": "acpart",
+            "borrowed": false,
+            "new_term_list": true,
+            "utility_namespace": false,
+            "modifications_file_path": "ac-revisions/ac-views-cv-2021-11-07/subjectPart_cv.csv",
+            "termlist_uri": ""
+        }
+    ]
+}
