@@ -69,6 +69,7 @@ These fields will have values of "x" (utilized) or "o" (not utilized) depending 
 | machine_matching | concepts were determined without human intervention by matching to existing text view descriptions | 
 | qc | possible errors were flagged by testing whether parts or orientations were present in collections appropriate for that concept scheme | 
 | entailment | additional concepts were generated automatically by asserting broader concepts when narrower ones were selected |
+| ml_part | used computer vision (machine learning) to automatically detect organism parts |
 
 # General feedback (free response)
 
