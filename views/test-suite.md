@@ -71,7 +71,9 @@ These fields will have values of "x" (utilized) or "o" (not utilized) depending 
 | entailment | additional concepts were generated automatically by asserting broader concepts when narrower ones were selected |
 | ml_part | used computer vision (machine learning) to automatically detect organism parts |
 
-# General feedback (free response)
+# General feedback
+
+These are free response fields
 
 1. Please provide information about any circumstances where human users had difficulty selecting an appropriate concept for a view.
 
