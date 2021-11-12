@@ -32,6 +32,8 @@ The contents of this folder are items that are primarily of historical interest.
 
 [2020-08-25](2020-05-25-meeting-notes.pdf)
 
+[2020-09-21 Annual meeting notes](2020-09-21-annual-meeting-notes.pdf)
+
 [2021-01-13](2021-01-13-meeting-notes.pdf)
 
 [2021-02-17](2021-02-17-meeting-notes.pdf)
@@ -44,6 +46,8 @@ The contents of this folder are items that are primarily of historical interest.
 
 [2021-06-08](2021-06-08-meeting-notes.pdf)
 
+[2021-11-10 Working session (Annual meeting) notes](2021-11-10-working-session-notes.pdf)
+
 **Annual reports to the Executive Committee**
 
 [2018](ac-2018-annual-report.md)
@@ -51,6 +55,8 @@ The contents of this folder are items that are primarily of historical interest.
 [2019](ac-2019-annual-report.md)
 
 [2020](ac-2020-annual-report.pdf)
+
+[2021](ac-2021-annual-report.md)
 
 **Record of Public Review in 2013 during the standards ratification process:**
 
