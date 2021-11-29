@@ -1531,7 +1531,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 		</tr>
 		<tr>
 			<td>Controlled value</td>
-			<td>‎video/3gpp</td>
+			<td>video/3gpp</td>
 		</tr>
 		<tr>
 			<td>Has broader concept</td>
