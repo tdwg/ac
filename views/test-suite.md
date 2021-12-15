@@ -46,7 +46,7 @@ These fields will have values of "x" (utilized) or "o" (not utilized) depending 
 | ----- | ----------- | ----------- |
 | select_group | users selected a collection of part concepts appropriate for a particular organism group | 1-CATEGORIZE-1 |
 | select_part | users selected a collection of orientation concepts appropriate for a particluar part | 1-CATEGORIZE-2 |
-| broader | users had the option to select broader or narrower categories (e.g. male/female cones vs. "cone", left/right side vs. lateral view) | not coded |
+| broader | users had the option to select broader or narrower concepts (e.g. male/female cones vs. "cone", left/right side vs. lateral view) | not coded |
 | roi | users applied concepts to Regions of Interest (ROIs) as opposed to only whole images | 2-FILTER-1 |
 | multiple | users sometimes applied concepts to more than one ROI per image | 7-CLARITY-2 |
 
@@ -57,7 +57,7 @@ These fields will have values of "x" (utilized) or "o" (not utilized) depending 
 | select_group | users selected a collection of part concepts appropriate for a particular organism group | 1-CATEGORIZE-1 |
 | restrict_part | users were restricted to a collection of orientation concepts appropriate for a particluar part | 8-ORIENT-1 |
 | ontology_link | users were directed to an ontology term to clarify a concept definition | 6-ANATOMY-1 |
-| broader | users had the option to select broader or narrower categories (e.g. male/female cones vs. "cone", left/right side vs. lateral view) | not coded |
+| broader | users had the option to select broader or narrower concepts (e.g. male/female cones vs. "cone", left/right side vs. lateral view) | not coded |
 | roi | users applied concepts to Regions of Interest (ROIs) as opposed to only whole images | 2-FILTER-1 |
 | multiple | users sometimes applied concepts to more than one ROI per image | 7-CLARITY-2 |
 
