@@ -48,6 +48,8 @@ The contents of this folder are items that are primarily of historical interest.
 
 [2021-11-10 Working session (Annual meeting) notes](2021-11-10-working-session-notes.pdf)
 
+[2021-12-15](2021-12-15-meeting-notes.pdf)
+
 **Annual reports to the Executive Committee**
 
 [2018](ac-2018-annual-report.md)
