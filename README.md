@@ -14,9 +14,9 @@ Audubon Core is maintained by a specialized [Interest Group](http://www.tdwg.org
 
 Currently, core members of the group are:
 
-Ed Baker - Natural History Museum, London and University of York, UK - [edwbaker@gmail.com](mailto:edwbaker@gmail.com)
+Ed Baker - Natural History Museum, London and University of York, UK (Convener) - [edwbaker@gmail.com](mailto:edwbaker@gmail.com)
 
-Steve Baskauf - Vanderbilt University Jean & Alexander Heard Library (Convener) - [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@vanderbilt.edu)
+Steve Baskauf - Vanderbilt University Jean & Alexander Heard Library - [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@vanderbilt.edu)
 
 Douglas Boyer -Department of Evolutionary Anthropology, Duke University, Director of MorphoSource open access 3D repository - [douglasmb@gmail.com](mailto:douglasmb@gmail.com)
 
@@ -112,4 +112,4 @@ The repository structure is described below.
 ```
 
 -----
-Revised 2021-02-18
+Revised 2021-12-15
