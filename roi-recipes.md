@@ -13,25 +13,25 @@ This example involves a still image of a plant. The image was intended to illust
 **Table 1. Metadata about the abstract media item.**
 <https://github.com/tdwg/ac/blob/master/fragments/transformation_examples/media.csv>
 
-|| dcterms:identifier | dcterms:title | ac:metadataLanguage | dc:rights | dcterms:type ||
-|| ---- | ---- | ---- | ---- | ---- ||
-|| http://bioimages.vanderbilt.edu/hessd/e5384 | Tragia cordata (Euphorbiaceae) - fruit – juvenile | http://id.loc.gov/vocabulary/iso639-2/eng | (c) 2008 Darel Hess | http://purl.org/dc/dcmitype/StillImage
+| dcterms:identifier | dcterms:title | ac:metadataLanguage | dc:rights | dcterms:type |
+| ---- | ---- | ---- | ---- | ---- |
+| http://bioimages.vanderbilt.edu/hessd/e5384 | Tragia cordata (Euphorbiaceae) - fruit – juvenile | http://id.loc.gov/vocabulary/iso639-2/eng | (c) 2008 Darel Hess | http://purl.org/dc/dcmitype/StillImage |
 
 **Table 2. Metadata about service access points (SAP) for the media item.**
 <https://github.com/tdwg/ac/blob/master/fragments/transformation_examples/sap.csv>
 
-|| dcterms:identifier | ac:variantLiteral | dc:format | exif:PixelXDimension | exif:PixelYDimension | ac:accessURI ||
-|| ---- | ---- | ---- | ----- | ----- | ---- ||
-|| http://bioimages.vanderbilt.edu/hessd/e5384 | Best Quality | image/jpeg | 2112 | 2526 | https://iiif.library.vanderbilt.edu/iiif/3/bioimages%2Fhessd%2Ftrco--fr040529-17e5384.jpg/full/max/0/default.jpg ||
-|| http://bioimages.vanderbilt.edu/hessd/e5384 | Good Quality | image/jpeg | 856 | 1024 | https://iiif.library.vanderbilt.edu/iiif/3/bioimages%2Fhessd%2Ftrco--fr040529-17e5384.jpg/full/856,/0/default.jpg ||
+| dcterms:identifier | ac:variantLiteral | dc:format | exif:PixelXDimension | exif:PixelYDimension | ac:accessURI |
+| ---- | ---- | ---- | ----- | ----- | ---- |
+| http://bioimages.vanderbilt.edu/hessd/e5384 | Best Quality | image/jpeg | 2112 | 2526 | https://iiif.library.vanderbilt.edu/iiif/3/bioimages%2Fhessd%2Ftrco--fr040529-17e5384.jpg/full/max/0/default.jpg |
+| http://bioimages.vanderbilt.edu/hessd/e5384 | Good Quality | image/jpeg | 856 | 1024 | https://iiif.library.vanderbilt.edu/iiif/3/bioimages%2Fhessd%2Ftrco--fr040529-17e5384.jpg/full/856,/0/default.jpg |
 
 **Table 3. Metadata about regions of interest (ROI) within the media item**
 <https://github.com/tdwg/ac/blob/master/fragments/transformation_examples/roi.csv>
 
-|| dcterms:identifier | ac:isROIOf | ac:xFrac |ac:yFrac | ac:widthFrac | ac:heightFrac | dcterm:description | dwc:scientificName | dwc:identifiedBy | ac:associatedObservationReference ||
-|| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- ||
-|| http://bioimages.vanderbilt.edu/hessd/e538#roi1 | http://bioimages.vanderbilt.edu/hessd/e5384 | 0.28939 | 0.23674 | 0.09066 | 0.26373 | mine | Cyphacma tragiae | Terry Harrison | https://www.gbif.org/occurrence/930742101 ||
-|| http://bioimages.vanderbilt.edu/hessd/e538#roi2 | http://bioimages.vanderbilt.edu/hessd/e5384 | 0.21892 | 0.44792 | 0.28147 | 0.34612 | fruit | Tragia cordata | Darel Hess | || 
+| dcterms:identifier | ac:isROIOf | ac:xFrac |ac:yFrac | ac:widthFrac | ac:heightFrac | dcterm:description | dwc:scientificName | dwc:identifiedBy | ac:associatedObservationReference |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| http://bioimages.vanderbilt.edu/hessd/e538#roi1 | http://bioimages.vanderbilt.edu/hessd/e5384 | 0.28939 | 0.23674 | 0.09066 | 0.26373 | mine | Cyphacma tragiae | Terry Harrison | https://www.gbif.org/occurrence/930742101 |
+| http://bioimages.vanderbilt.edu/hessd/e538#roi2 | http://bioimages.vanderbilt.edu/hessd/e5384 | 0.21892 | 0.44792 | 0.28147 | 0.34612 | fruit | Tragia cordata | Darel Hess | |
 
 ### JSON-LD serialization of the data
 
