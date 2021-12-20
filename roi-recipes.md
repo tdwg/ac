@@ -6,7 +6,7 @@
 
 **Part of TDWG Standard:** Not part of any standard
 
-**Abstract:** This document provides examples showing how to use terms related to Regions of Interest (ROIs).  
+**Abstract:** This document provides examples showing how to use Audubon Core terms related to Regions of Interest (ROIs).  
 
 **Contributors:** Steve Baskauf
 
