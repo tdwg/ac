@@ -1,8 +1,18 @@
 # Regions of Interest (ROI) Recipes
 
-The complete draft is [here](https://docs.google.com/document/d/1oTbL_RdtlO288Ixw9vYK7DQgBH6UXfRadvD5s4CER6g/edit?usp=sharing).
+*Title:** Regions of Interest (ROI) Recipes
 
-This page will eventually hold the document, which is currently under construction.
+**Date modified:** 2021-12-20
+
+**Part of TDWG Standard:** Not part of any standard
+
+**Abstract:** This document provides examples showing how to use terms related to Regions of Interest (ROIs).  
+
+**Contributors:** Steve Baskauf
+
+**Creator:** Audubon Core Maintenance Group
+
+**Bibliographic citation:** Audubon Core Maintenance Group. 2021. Regions of Interest (ROI) Recipes. Biodiversity Information Standards (TDWG). https://github.com/tdwg/ac/blob/master/roi-recipes.md
 
 ## 1. Still image
 
