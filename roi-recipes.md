@@ -117,7 +117,8 @@ This example involves a still image of a plant. The image was intended to illust
             ]
         }
     ]
-}```
+}
+```
 
 ### Recipes
 
@@ -291,7 +292,8 @@ This example is from the Cornell Lab of Ornithology Macaulay Library: <https://m
             ]
         }
     ]
-}```
+}
+```
 
 Sound recording (audio file SAP available)
 This example involves a real recording from iNaturalist. However, the timestamp information is artificially created for this example. The cicada identification is also fanciful. The associated observation for the cicada at GBIF is made up, the cardinal occurrence identifier from GBIF is real. 
