@@ -326,7 +326,7 @@ The recording from iNaturalist includes three regions of interest in which a Nor
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | https://www.inaturalist.org/observations/82716069#cc1 | https://www.inaturalist.org/observations/82716069 | 2021-06-12T14:08:12.1-04:00 | 2021-06-12T14:08:15.4-04:00 | song of Northern Cardinal | Cardinalis cardinalis | cecildev8n5 \| Caleb Helsel | 2021-06-12| https://www.gbif.org/occurrence/3307164054 |
 | https://www.inaturalist.org/observations/82716069#nl | https://www.inaturalist.org/observations/82716069 | 2021-06-12T14:08:16.5-04:00 | 2021-06-12T14:08:20.2-04:00 | cicada song | Neotibicen linnei | Steven J. Baskauf | 2021-06-14 | https://www.gbif.org/occurrence/987654321 |
-| https://www.inaturalist.org/observations/82716069#cc2 | https://www.inaturalist.org/observations/82716069 |2021-06-12T14:08:21.2-04:00 | 2021-06-12T14:08:24.1-04:00 | song of Northern Cardinal | Cardinalis cardinalis | cecildev8n5 | Caleb Helsel | 2021-06-12 | https://www.gbif.org/occurrence/3307164054 |
+| https://www.inaturalist.org/observations/82716069#cc2 | https://www.inaturalist.org/observations/82716069 |2021-06-12T14:08:21.2-04:00 | 2021-06-12T14:08:24.1-04:00 | song of Northern Cardinal | Cardinalis cardinalis | cecildev8n5 \| Caleb Helsel | 2021-06-12 | https://www.gbif.org/occurrence/3307164054 |
 | https://www.inaturalist.org/observations/82716069#cc3 | https://www.inaturalist.org/observations/82716069 | 2021-06-12T14:08:32.8-04:00 | 2021-06-12T14:08:36.4-04:00 | song of Northern Cardinal | Cardinalis cardinalis | cecildev8n5 \| Caleb Helsel | 2021-06-12 | https://www.gbif.org/occurrence/3307164054
 
 ### JSON-LD serialization of the data
