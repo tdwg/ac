@@ -135,7 +135,7 @@ x = round(730.99914)
 x = 731
 ```
 
-Note that ac:xFrac was provided with sufficient precision to specify the exact pixel used to originally delineate the bounding box.
+Note that `ac:xFrac` was provided with sufficient precision to specify the exact pixel used to originally delineate the bounding box.
 
 ```
 y = round(ac:yFrac * exif:PixelYDimension)
@@ -295,107 +295,44 @@ This example is from the Cornell Lab of Ornithology Macaulay Library: <https://m
 }
 ```
 
-Sound recording (audio file SAP available)
+## 3. Sound recording (audio file SAP available)
+
 This example involves a real recording from iNaturalist. However, the timestamp information is artificially created for this example. The cicada identification is also fanciful. The associated observation for the cicada at GBIF is made up, the cardinal occurrence identifier from GBIF is real. 
 
 In this example, there are two SAPs from which MP4 audio files can be retrieved (one real and one fake). 
 
-The recording from iNaturalist includes three regions of interest in which a Northern Cardinal sings. Between the first and second cardinal song, a cicada can be heard singing. This is noted by the submitter, but it does not get picked up by the iNaturalist AI. The metadata describe the region of interest of the cicada as a fourth ROI. Since the same cardinal is singing in the three ROIs, all three ROIs have been given the same value for ac:associatedObservationReference.
+The recording from iNaturalist includes three regions of interest in which a Northern Cardinal sings. Between the first and second cardinal song, a cicada can be heard singing. This is noted by the submitter, but it does not get picked up by the iNaturalist AI. The metadata describe the region of interest of the cicada as a fourth ROI. Since the same cardinal is singing in the three ROIs, all three ROIs have been given the same value for `ac:associatedObservationReference`.
 
-
-Tabular serialization of the data
+### Tabular serialization of the data
                              
-Table 6. Metadata about the abstract media item.
-https://github.com/tdwg/ac/blob/master/fragments/inat/media.csv
+**Table 6. Metadata about the abstract media item.**
+<https://github.com/tdwg/ac/blob/master/fragments/inat/media.csv>
                              
-dcterms:identifier
-dcterms:title
-ac:metadataLanguage
-dc:rights
-dcterms:type
-xmp:CreateDate
-https://www.inaturalist.org/observations/82716069
-Northern Cardinal (Cardinalis cardinalis) on June 12, 2021 at 02:08 PM by cecildev8n5
-http://id.loc.gov/vocabulary/iso639-2/eng
-(c) 2021 cecildev8n5
-http://purl.org/dc/dcmitype/Sound
-2021-06-12T14:08:10.3-04:00
-
+| dcterms:identifier | dcterms:title | ac:metadataLanguage | dc:rights | dcterms:type | xmp:CreateDate |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| https://www.inaturalist.org/observations/82716069 | Northern Cardinal (Cardinalis cardinalis) on June 12, 2021 at 02:08 PM by cecildev8n5 | http://id.loc.gov/vocabulary/iso639-2/eng | (c) 2021 cecildev8n5 | http://purl.org/dc/dcmitype/Sound | 2021-06-12T14:08:10.3-04:00 |
  
-Table 7. Metadata about service access points (SAP) available for the media item.
-https://github.com/tdwg/ac/blob/master/fragments/inat/sap.csv
+**Table 7. Metadata about service access points (SAP) available for the media item.**
+<https://github.com/tdwg/ac/blob/master/fragments/inat/sap.csv>
                              
-dcterms:identifier
-dc:format
-ac:mediaSpeed
-ac:mediaDuration
-ac:accessURI
-https://www.inaturalist.org/observations/82716069
-audio/mp4
-1
-30.186
-https://static.inaturalist.org/sounds/251609.m4a?1623521443
-https://www.inaturalist.org/observations/82716069
-audio/mp4
-0.2
-150.93
-https://example.org/slomo/001
+| dcterms:identifier | dc:format | ac:mediaSpeed | ac:mediaDuration | ac:accessURI |
+| ---- | ---- | ---- | ---- | ---- |
+| https://www.inaturalist.org/observations/82716069 | audio/mp4 | 1 | 30.186 | https://static.inaturalist.org/sounds/251609.m4a?1623521443 | https://www.inaturalist.org/observations/82716069 | audio/mp4 | 0.2 | 150.93 | https://example.org/slomo/001 |
 
-Table 8. Metadata about regions of interest (ROI) within the media item. 
-https://github.com/tdwg/ac/blob/master/fragments/inat/roi.csv
-                             
-dcterms:identifier
-ac:isROIOf
-ac:startTimestamp
-ac:endTimestamp
-dcterm:description
-dwc:scientificName
-dwc:identifiedBy
-dwc:dateIdentified
-ac:associatedObservationReference
-https://www.inaturalist.org/observations/82716069#cc1
-https://www.inaturalist.org/observations/82716069
-2021-06-12T14:08:12.1-04:00
-2021-06-12T14:08:15.4-04:00
-song of Northern Cardinal
-Cardinalis cardinalis
-cecildev8n5 | Caleb Helsel
-2021-06-12
-https://www.gbif.org/occurrence/3307164054
-https://www.inaturalist.org/observations/82716069#nl
-https://www.inaturalist.org/observations/82716069
-2021-06-12T14:08:16.5-04:00
-2021-06-12T14:08:20.2-04:00
-cicada song
-Neotibicen linnei
-Steven J. Baskauf
-2021-06-14
-https://www.gbif.org/occurrence/987654321
-https://www.inaturalist.org/observations/82716069#cc2
-https://www.inaturalist.org/observations/82716069
-2021-06-12T14:08:21.2-04:00
-2021-06-12T14:08:24.1-04:00
-song of Northern Cardinal
-Cardinalis cardinalis
-cecildev8n5 | Caleb Helsel
-2021-06-12
-https://www.gbif.org/occurrence/3307164054
-https://www.inaturalist.org/observations/82716069#cc3
-https://www.inaturalist.org/observations/82716069
-2021-06-12T14:08:32.8-04:00
-2021-06-12T14:08:36.4-04:00
-song of Northern Cardinal
-Cardinalis cardinalis
-cecildev8n5 | Caleb Helsel
-2021-06-12
-https://www.gbif.org/occurrence/3307164054
+**Table 8. Metadata about regions of interest (ROI) within the media item.**
+<https://github.com/tdwg/ac/blob/master/fragments/inat/roi.csv>
 
+| dcterms:identifier | ac:isROIOf | ac:startTimestamp | ac:endTimestamp | dcterm:description | dwc:scientificName | dwc:identifiedBy | dwc:dateIdentified | ac:associatedObservationReference |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| https://www.inaturalist.org/observations/82716069#cc1 | https://www.inaturalist.org/observations/82716069 | 2021-06-12T14:08:12.1-04:00 | 2021-06-12T14:08:15.4-04:00 | song of Northern Cardinal | Cardinalis cardinalis | cecildev8n5 \| Caleb Helsel | 2021-06-12 |
+| https://www.gbif.org/occurrence/3307164054 | https://www.inaturalist.org/observations/82716069#nl | https://www.inaturalist.org/observations/82716069 | 2021-06-12T14:08:16.5-04:00 | 2021-06-12T14:08:20.2-04:00 | cicada song | Neotibicen linnei | Steven J. Baskauf | 2021-06-14 | 
+| https://www.gbif.org/occurrence/987654321 | https://www.inaturalist.org/observations/82716069#cc2 | https://www.inaturalist.org/observations/82716069 |2021-06-12T14:08:21.2-04:00 | 2021-06-12T14:08:24.1-04:00 | song of Northern Cardinal | Cardinalis cardinalis | cecildev8n5 | Caleb Helsel | 2021-06-12 |
+| https://www.gbif.org/occurrence/3307164054 | https://www.inaturalist.org/observations/82716069#cc3 | https://www.inaturalist.org/observations/82716069 | 2021-06-12T14:08:32.8-04:00 | 2021-06-12T14:08:36.4-04:00 | song of Northern Cardinal | Cardinalis cardinalis | cecildev8n5 \| Caleb Helsel | 2021-06-12 | https://www.gbif.org/occurrence/3307164054
 
+### JSON-LD serialization of the data
 
-
-JSON-LD serialization of the data
-Serialization 3.
-https://github.com/tdwg/ac/blob/master/fragments/inat/inat.json
+**Serialization 3.**
+<https://github.com/tdwg/ac/blob/master/fragments/inat/inat.json>
 
 ```
 {
@@ -505,13 +442,15 @@ https://github.com/tdwg/ac/blob/master/fragments/inat/inat.json
     ]
 }```
 
-Recipes
-Recipe 3.1 Calculate bounds of cicada ROI expressed as ac:startTime and ac:endTime
+### Recipes
 
+**Recipe 3.1 Calculate bounds of cicada ROI expressed as `ac:startTime` and `ac:endTime`**
+
+```
 ac:startTime = ac:startTimestamp - xmp:CreateDate
 ac:startTime = 2021-06-12T14:08:16.5-04:00 - 2021-06-12T14:08:10.3-04:00
 ac:startTime = 6.2
 ac:endTime = ac:endTimestamp - xmp:CreateDate
 ac:endTime = 2021-06-12T14:08:20.2-04:00 - 2021-06-12T14:08:10.3-04:00
 ac:endTime = 9.9
-
+```
