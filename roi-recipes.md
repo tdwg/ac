@@ -41,78 +41,83 @@ This example involves a still image of a plant. The image was intended to illust
 
 ```
 {
-    "@context": 
-        {
-            "ac": "http://rs.tdwg.org/ac/terms/",
-            "dwc": "http://rs.tdwg.org/dwc/terms/",
-            "dc": "http://purl.org/dc/elements/1.1/",
-            "dcterms": "http://purl.org/dc/terms/",
-            "exif": "http://ns.adobe.com/exif/1.0/",
-            "ac:metadataLanguage": {"@type": "@id"},
-            "ac:accessURI": {"@type": "@id"},
-            "ac:associatedObservationReference": {"@type": "@id"},
-            "dcterms:type": {"@type": "@id"},
-            "dcterms:format": {"@type": "@id"}
+    "@context": {
+        "ac": "http://rs.tdwg.org/ac/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "exif": "http://ns.adobe.com/exif/1.0/",
+        "ac:metadataLanguage": {
+            "@type": "@id"
         },
-    "@graph": 
-        [
-            {
-                "@id": "http://bioimages.vanderbilt.edu/hessd/e5384",
-                "@type": "http://purl.org/dc/dcmitype/StillImage",
-                "dcterms:title": "Tragia cordata (Euphorbiaceae) - fruit – juvenile",
-                "dcterms:identifier": "http://bioimages.vanderbilt.edu/hessd/e5384",
-                "dcterms:type": "http://purl.org/dc/dcmitype/StillImage",
-                "ac:metadataLanguage": "http://id.loc.gov/vocabulary/iso639-2/eng",
-                "dc:rights": "(c) 2008 Darel Hess",
-                "ac:hasServiceAccessPoint": 
-                    [
-                        {
-                            "ac:accessURI": "https://iiif.library.vanderbilt.edu/iiif/3/bioimages%2Fhessd%2Ftrco--fr040529-17e5384.jpg/full/max/0/default.jpg",
-                            "dc:format": "image/jpeg",
-                            "dcterms:format": "http://rs.tdwg.org/format/values/m008",
-                            "ac:variant": "http://rs.tdwg.org/acvariant/values/v006",
-                            "ac:variantLiteral": "Best Quality",
-                            "exif:PixelYDimension": 2112,
-                            "exif:PixelXDimension": 2526
-                        },
-                        {
-                            "ac:accessURI": "https://iiif.library.vanderbilt.edu/iiif/3/bioimages%2Fhessd%2Ftrco--fr040529-17e5384.jpg/full/856,/0/default.jpg",
-                            "dc:format": "image/jpeg",
-                            "dcterms:format": "http://rs.tdwg.org/format/values/m008",
-                            "ac:variant": "http://rs.tdwg.org/acvariant/values/v005",
-                            "ac:variantLiteral": "Good Quality",
-                            "exif:PixelYDimension": 856,
-                            "exif:PixelXDimension": 1024
-                        }
-                    ],
-            "ac:hasROI": 
-                [
-                    {
-                        "@id": "http://bioimages.vanderbilt.edu/hessd/e5384#roi1",
-                        "dwc:scientificName": "Cyphacma tragiae",
-                        "dwc:identifiedBy": "Terry Harrison",
-                        "dcterms:description": "mine",
-                        "ac:xFrac": 0.28939,
-                        "ac:yFrac": 0.23674,
-                        "ac:widthFrac": 0.09066,
-                        "ac:heightFrac": 0.26373
-                    },
-                    {
-                        "@id": "http://bioimages.vanderbilt.edu/hessd/e5384#roi2",
-                        "dwc:scientificName": "Tragia cordata",
-                        "dwc:identifiedBy": "Darel Hess",
-                        "ac:associatedObservationReference": "https://www.gbif.org/occurrence/930742101",
-                        "dcterms:description": "fruit",
-                        "ac:xFrac": 0.21892,
-                        "ac:yFrac": 0.44792,
-                        "ac:widthFrac": 0.28147,
-                        "ac:heightFrac": 0.34612
-                    }
-                ]
-            }
-        ]
-}
-```
+        "ac:accessURI": {
+            "@type": "@id"
+        },
+        "ac:associatedObservationReference": {
+            "@type": "@id"
+        },
+        "dcterms:type": {
+            "@type": "@id"
+        },
+        "dcterms:format": {
+            "@type": "@id"
+        }
+    },
+    "@graph": [
+        {
+            "@id": "http://bioimages.vanderbilt.edu/hessd/e5384",
+            "@type": "http://purl.org/dc/dcmitype/StillImage",
+            "dcterms:title": "Tragia cordata (Euphorbiaceae) - fruit – juvenile",
+            "dcterms:identifier": "http://bioimages.vanderbilt.edu/hessd/e5384",
+            "dcterms:type": "http://purl.org/dc/dcmitype/StillImage",
+            "ac:metadataLanguage": "http://id.loc.gov/vocabulary/iso639-2/eng",
+            "dc:rights": "(c) 2008 Darel Hess",
+            "ac:hasServiceAccessPoint": [
+                {
+                    "ac:accessURI": "https://iiif.library.vanderbilt.edu/iiif/3/bioimages%2Fhessd%2Ftrco--fr040529-17e5384.jpg/full/max/0/default.jpg",
+                    "dc:format": "image/jpeg",
+                    "dcterms:format": "http://rs.tdwg.org/format/values/m008",
+                    "ac:variant": "http://rs.tdwg.org/acvariant/values/v006",
+                    "ac:variantLiteral": "Best Quality",
+                    "exif:PixelYDimension": 2112,
+                    "exif:PixelXDimension": 2526
+                },
+                {
+                    "ac:accessURI": "https://iiif.library.vanderbilt.edu/iiif/3/bioimages%2Fhessd%2Ftrco--fr040529-17e5384.jpg/full/856,/0/default.jpg",
+                    "dc:format": "image/jpeg",
+                    "dcterms:format": "http://rs.tdwg.org/format/values/m008",
+                    "ac:variant": "http://rs.tdwg.org/acvariant/values/v005",
+                    "ac:variantLiteral": "Good Quality",
+                    "exif:PixelYDimension": 856,
+                    "exif:PixelXDimension": 1024
+                }
+            ],
+            "ac:hasROI": [
+                {
+                    "@id": "http://bioimages.vanderbilt.edu/hessd/e5384#roi1",
+                    "dwc:scientificName": "Cyphacma tragiae",
+                    "dwc:identifiedBy": "Terry Harrison",
+                    "dcterms:description": "mine",
+                    "ac:xFrac": 0.28939,
+                    "ac:yFrac": 0.23674,
+                    "ac:widthFrac": 0.09066,
+                    "ac:heightFrac": 0.26373
+                },
+                {
+                    "@id": "http://bioimages.vanderbilt.edu/hessd/e5384#roi2",
+                    "dwc:scientificName": "Tragia cordata",
+                    "dwc:identifiedBy": "Darel Hess",
+                    "ac:associatedObservationReference": "https://www.gbif.org/occurrence/930742101",
+                    "dcterms:description": "fruit",
+                    "ac:xFrac": 0.21892,
+                    "ac:yFrac": 0.44792,
+                    "ac:widthFrac": 0.28147,
+                    "ac:heightFrac": 0.34612
+                }
+            ]
+        }
+    ]
+}```
 
 ### Recipes
 
@@ -218,69 +223,75 @@ This example is from the Cornell Lab of Ornithology Macaulay Library: <https://m
 
 ```
 {
-  "@context": {
-    "ac": "http://rs.tdwg.org/ac/terms/",
-    "dwc": "http://rs.tdwg.org/dwc/terms/",
-    "dc": "http://purl.org/dc/elements/1.1/",
-    "dcterms": "http://purl.org/dc/terms/",
-    "ac:metadataLanguage": {"@type": "@id"},
-    "dcterms:type": {"@type": "@id"},
-    "dwc:dateIdentified": {"@type": "http://www.w3.org/2001/XMLSchema#date"}
-  },
-  "@graph": [
-    {
-    "@id": "https://macaulaylibrary.org/asset/245266991",
-    "@type": "http://purl.org/dc/dcmitype/Sound",
-    "dcterms:title": "ML245266991 Broad-winged Hawk Macaulay Library",
-    "dcterms:identifier": "https://macaulaylibrary.org/asset/245266991",
-    "dcterms:type": "http://purl.org/dc/dcmitype/Sound",
-    "ac:metadataLanguage": "http://id.loc.gov/vocabulary/iso639-2/eng",
-    "dc:rights": "(c) 2020 Daniel Jauvin",
-    "ac:hasROI": [
-      {
-        "@id": "https://macaulaylibrary.org/asset/245266991#bp1",
-        "dwc:scientificName": "Buteo platypterus",
-        "dwc:identifiedBy": "Daniel Jauvin",
-        "dwc:dateIdentified": "2020-06-18",
-        "dcterms:description": "flight song of red-winged hawk",
-        "ac:startTime": 11.2,
-        "ac:endTime": 11.9
-      },
-      {
-        "@id": "https://macaulaylibrary.org/asset/245266991#vo1",
-        "dwc:scientificName": "Vireo olivaceus",
-        "dwc:dateIdentified": "2021-06-14",
-        "dwc:identifiedBy": "Steven J. Baskauf",
-        "dcterms:description": "song of red-eyed vireo",
-        "ac:startTime": 3.0,
-        "ac:endTime": 3.6
-      },
-      {
-        "@id": "https://macaulaylibrary.org/asset/245266991#bp2",
-        "dwc:scientificName": "Buteo platypterus",
-        "dwc:identifiedBy": "Daniel Jauvin",
-        "dwc:dateIdentified": "2020-06-18",
-        "dcterms:description": "flight song of red-winged hawk",
-        "ac:startTime": 0.2,
-        "ac:endTime": 1.2,
-        "ac:freqLow": 2000,
-        "ac:freqHigh": 4200
-      },
-      {
-        "@id": "https://macaulaylibrary.org/asset/245266991#vo2",
-        "dwc:scientificName": "Vireo olivaceus",
-        "dwc:identifiedBy": "Steven J. Baskauf",
-        "dwc:dateIdentified": "2021-06-14",
-        "dcterms:description": "song of red-eyed vireo",
-        "ac:startTime": 0.4,
-        "ac:endTime": 1.2,
-        "ac:freqLow": 4200,
-        "ac:freqHigh": 5000
-      }
-      ]
-    }
-  ]}
-```
+    "@context": {
+        "ac": "http://rs.tdwg.org/ac/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "ac:metadataLanguage": {
+            "@type": "@id"
+        },
+        "dcterms:type": {
+            "@type": "@id"
+        },
+        "dwc:dateIdentified": {
+            "@type": "http://www.w3.org/2001/XMLSchema#date"
+        }
+    },
+    "@graph": [
+        {
+            "@id": "https://macaulaylibrary.org/asset/245266991",
+            "@type": "http://purl.org/dc/dcmitype/Sound",
+            "dcterms:title": "ML245266991 Broad-winged Hawk Macaulay Library",
+            "dcterms:identifier": "https://macaulaylibrary.org/asset/245266991",
+            "dcterms:type": "http://purl.org/dc/dcmitype/Sound",
+            "ac:metadataLanguage": "http://id.loc.gov/vocabulary/iso639-2/eng",
+            "dc:rights": "(c) 2020 Daniel Jauvin",
+            "ac:hasROI": [
+                {
+                    "@id": "https://macaulaylibrary.org/asset/245266991#bp1",
+                    "dwc:scientificName": "Buteo platypterus",
+                    "dwc:identifiedBy": "Daniel Jauvin",
+                    "dwc:dateIdentified": "2020-06-18",
+                    "dcterms:description": "flight song of red-winged hawk",
+                    "ac:startTime": 11.2,
+                    "ac:endTime": 11.9
+                },
+                {
+                    "@id": "https://macaulaylibrary.org/asset/245266991#vo1",
+                    "dwc:scientificName": "Vireo olivaceus",
+                    "dwc:dateIdentified": "2021-06-14",
+                    "dwc:identifiedBy": "Steven J. Baskauf",
+                    "dcterms:description": "song of red-eyed vireo",
+                    "ac:startTime": 3.0,
+                    "ac:endTime": 3.6
+                },
+                {
+                    "@id": "https://macaulaylibrary.org/asset/245266991#bp2",
+                    "dwc:scientificName": "Buteo platypterus",
+                    "dwc:identifiedBy": "Daniel Jauvin",
+                    "dwc:dateIdentified": "2020-06-18",
+                    "dcterms:description": "flight song of red-winged hawk",
+                    "ac:startTime": 0.2,
+                    "ac:endTime": 1.2,
+                    "ac:freqLow": 2000,
+                    "ac:freqHigh": 4200
+                },
+                {
+                    "@id": "https://macaulaylibrary.org/asset/245266991#vo2",
+                    "dwc:scientificName": "Vireo olivaceus",
+                    "dwc:identifiedBy": "Steven J. Baskauf",
+                    "dwc:dateIdentified": "2021-06-14",
+                    "dcterms:description": "song of red-eyed vireo",
+                    "ac:startTime": 0.4,
+                    "ac:endTime": 1.2,
+                    "ac:freqLow": 4200,
+                    "ac:freqHigh": 5000
+                }
+            ]
+        }
+    ]
+}```
 
 Sound recording (audio file SAP available)
 This example involves a real recording from iNaturalist. However, the timestamp information is artificially created for this example. The cicada identification is also fanciful. The associated observation for the cicada at GBIF is made up, the cardinal occurrence identifier from GBIF is real. 
@@ -386,94 +397,111 @@ https://github.com/tdwg/ac/blob/master/fragments/inat/inat.json
 
 ```
 {
-  "@context": {
-    "ac": "http://rs.tdwg.org/ac/terms/",
-    "dwc": "http://rs.tdwg.org/dwc/terms/",
-    "dc": "http://purl.org/dc/elements/1.1/",
-    "dcterms": "http://purl.org/dc/terms/",
-    "xmp": "http://ns.adobe.com/xap/1.0/",
-    "ac:metadataLanguage": {"@type": "@id"},
-    "ac:accessURI": {"@type": "@id"},
-   "ac:associatedObservationReference": {"@type": "@id"},
-    "ac:startTimestamp": {"@type": "http://www.w3.org/2001/XMLSchema#dateTime"},
-    "ac:endTimestamp": {"@type": "http://www.w3.org/2001/XMLSchema#dateTime"},
-    "dcterms:type": {"@type": "@id"},
-    "dcterms:format": {"@type": "@id"},
-    "xmp:CreateDate": {"@type": "http://www.w3.org/2001/XMLSchema#dateTime"},
-    "dwc:dateIdentified": {"@type": "http://www.w3.org/2001/XMLSchema#date"}
-   },
-  "@graph": [
-  {
-    "@id": "https://www.inaturalist.org/observations/82716069",
-    "@type": "http://purl.org/dc/dcmitype/Sound",
-    "dcterms:title": "Northern Cardinal (Cardinalis cardinalis) on June 12, 2021 at 02:08 PM by cecildev8n5",
-    "dcterms:identifier": "https://www.inaturalist.org/observations/82716069",
-    "dcterms:type": "http://purl.org/dc/dcmitype/Sound",
-    "ac:metadataLanguage": "http://id.loc.gov/vocabulary/iso639-2/eng",
-    "dc:rights": "(c) 2021 cecildev8n5",
-    "xmp:CreateDate": "2021-06-12T14:08:10.3-04:00",
-    "ac:hasServiceAccessPoint": [
-      {
-        "ac:accessURI": "https://static.inaturalist.org/sounds/251609.m4a?1623521443",
-        "dc:format": "audio/mp4",
-        "dcterms:format": "http://rs.tdwg.org/format/values/m015",
-        "ac:mediaDuration": 30.186,
-        "ac:mediaSpeed": 1.0
-      },
-      {
-        "ac:accessURI": "https://example.org/slomo/001",
-        "dc:format": "audio/mp4",
-        "dcterms:format": "http://rs.tdwg.org/format/values/m015",
-        "ac:mediaDuration": 150.93,
-        "ac:mediaSpeed": 0.2
-      }
-    ],
-    "ac:hasROI": [
-      {
-        "@id": "https://www.inaturalist.org/observations/82716069#cc1",
-        "dwc:scientificName": "Cardinalis cardinalis",
-        "dwc:identifiedBy": "cecildev8n5 | Caleb Helsel",
-        "dwc:dateIdentified": "2021-06-12",
-        "ac:associatedObservationReference": "https://www.gbif.org/occurrence/123456789",
-        "dcterms:description": "song of Northern Cardinal",
-        "ac:startTimestamp": "2021-06-12T14:08:12.1-04:00",
-        "ac:endTimestamp": "2021-06-12T14:08:15.4-04:00"
-      },
-      {
-        "@id": "https://www.inaturalist.org/observations/82716069#m",
-        "dwc:scientificName": "Neotibicen linnei",
-        "dwc:identifiedBy": "Steven J. Baskauf",
-        "dwc:dateIdentified": "2021-06-14",
-        "ac:associatedObservationReference": "https://www.gbif.org/occurrence/987654321",
-        "dcterms:description": "cicada song",
-        "ac:startTimestamp": "2021-06-12T14:08:16.5-04:00",
-        "ac:endTimestamp": "2021-06-12T14:08:20.2-04:00"
-      },
-      {
-        "@id": "https://www.inaturalist.org/observations/82716069#cc2",
-        "dwc:scientificName": "Cardinalis cardinalis",
-        "dwc:identifiedBy": "cecildev8n5 | Caleb Helsel",
-        "dwc:dateIdentified": "2021-06-12",
-        "ac:associatedObservationReference": "https://www.gbif.org/occurrence/123456789",
-        "dcterms:description": "song of Northern Cardinal",
-        "ac:startTimestamp": "2021-06-12T14:08:21.2-04:00",
-        "ac:endTimestamp": "2021-06-12T14:08:24.1-04:00"
-      },
-      {
-        "@id": "https://www.inaturalist.org/observations/82716069#cc3",
-        "dwc:scientificName": "Cardinalis cardinalis",
-        "dwc:identifiedBy": "cecildev8n5 | Caleb Helsel",
-        "dwc:dateIdentified": "2021-06-12",
-        "ac:associatedObservationReference": "https://www.gbif.org/occurrence/123456789",
-        "dcterms:description": "song of Northern Cardinal",
-        "ac:startTimestamp": "2021-06-12T14:08:32.8-04:00",
-        "ac:endTimestamp": "2021-06-12T14:08:36.4-04:00"
-      }
-      ]
-    }
-  ]
-}
-```
+    "@context": {
+        "ac": "http://rs.tdwg.org/ac/terms/",
+        "dwc": "http://rs.tdwg.org/dwc/terms/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "xmp": "http://ns.adobe.com/xap/1.0/",
+        "ac:metadataLanguage": {
+            "@type": "@id"
+        },
+        "ac:accessURI": {
+            "@type": "@id"
+        },
+        "ac:associatedObservationReference": {
+            "@type": "@id"
+        },
+        "ac:startTimestamp": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "ac:endTimestamp": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "dcterms:type": {
+            "@type": "@id"
+        },
+        "dcterms:format": {
+            "@type": "@id"
+        },
+        "xmp:CreateDate": {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "dwc:dateIdentified": {
+            "@type": "http://www.w3.org/2001/XMLSchema#date"
+        }
+    },
+    "@graph": [
+        {
+            "@id": "https://www.inaturalist.org/observations/82716069",
+            "@type": "http://purl.org/dc/dcmitype/Sound",
+            "dcterms:title": "Northern Cardinal (Cardinalis cardinalis) on June 12, 2021 at 02:08 PM by cecildev8n5",
+            "dcterms:identifier": "https://www.inaturalist.org/observations/82716069",
+            "dcterms:type": "http://purl.org/dc/dcmitype/Sound",
+            "ac:metadataLanguage": "http://id.loc.gov/vocabulary/iso639-2/eng",
+            "dc:rights": "(c) 2021 cecildev8n5",
+            "xmp:CreateDate": "2021-06-12T14:08:10.3-04:00",
+            "ac:hasServiceAccessPoint": [
+                {
+                    "ac:accessURI": "https://static.inaturalist.org/sounds/251609.m4a?1623521443",
+                    "dc:format": "audio/mp4",
+                    "dcterms:format": "http://rs.tdwg.org/format/values/m015",
+                    "ac:mediaDuration": 30.186,
+                    "ac:mediaSpeed": 1.0
+                },
+                {
+                    "ac:accessURI": "https://example.org/slomo/001",
+                    "dc:format": "audio/mp4",
+                    "dcterms:format": "http://rs.tdwg.org/format/values/m015",
+                    "ac:mediaDuration": 150.93,
+                    "ac:mediaSpeed": 0.2
+                }
+            ],
+            "ac:hasROI": [
+                {
+                    "@id": "https://www.inaturalist.org/observations/82716069#cc1",
+                    "dwc:scientificName": "Cardinalis cardinalis",
+                    "dwc:identifiedBy": "cecildev8n5 | Caleb Helsel",
+                    "dwc:dateIdentified": "2021-06-12",
+                    "ac:associatedObservationReference": "https://www.gbif.org/occurrence/123456789",
+                    "dcterms:description": "song of Northern Cardinal",
+                    "ac:startTimestamp": "2021-06-12T14:08:12.1-04:00",
+                    "ac:endTimestamp": "2021-06-12T14:08:15.4-04:00"
+                },
+                {
+                    "@id": "https://www.inaturalist.org/observations/82716069#m",
+                    "dwc:scientificName": "Neotibicen linnei",
+                    "dwc:identifiedBy": "Steven J. Baskauf",
+                    "dwc:dateIdentified": "2021-06-14",
+                    "ac:associatedObservationReference": "https://www.gbif.org/occurrence/987654321",
+                    "dcterms:description": "cicada song",
+                    "ac:startTimestamp": "2021-06-12T14:08:16.5-04:00",
+                    "ac:endTimestamp": "2021-06-12T14:08:20.2-04:00"
+                },
+                {
+                    "@id": "https://www.inaturalist.org/observations/82716069#cc2",
+                    "dwc:scientificName": "Cardinalis cardinalis",
+                    "dwc:identifiedBy": "cecildev8n5 | Caleb Helsel",
+                    "dwc:dateIdentified": "2021-06-12",
+                    "ac:associatedObservationReference": "https://www.gbif.org/occurrence/123456789",
+                    "dcterms:description": "song of Northern Cardinal",
+                    "ac:startTimestamp": "2021-06-12T14:08:21.2-04:00",
+                    "ac:endTimestamp": "2021-06-12T14:08:24.1-04:00"
+                },
+                {
+                    "@id": "https://www.inaturalist.org/observations/82716069#cc3",
+                    "dwc:scientificName": "Cardinalis cardinalis",
+                    "dwc:identifiedBy": "cecildev8n5 | Caleb Helsel",
+                    "dwc:dateIdentified": "2021-06-12",
+                    "ac:associatedObservationReference": "https://www.gbif.org/occurrence/123456789",
+                    "dcterms:description": "song of Northern Cardinal",
+                    "ac:startTimestamp": "2021-06-12T14:08:32.8-04:00",
+                    "ac:endTimestamp": "2021-06-12T14:08:36.4-04:00"
+                }
+            ]
+        }
+    ]
+}```
 
 Recipes
 Recipe 3.1 Calculate bounds of cicada ROI expressed as ac:startTime and ac:endTime
