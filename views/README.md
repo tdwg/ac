@@ -12,7 +12,7 @@ Currently, core members of the group are:
 
 Steve Baskauf (Convener) [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@vanderbilt.edu) - Vanderbilt University
 
-Neil S. Cobb [neil.cobb@nau.edu](mailto:neil.cobb@nau.edu) - Merriam-Powell Center for Environmental Research, Northern Arizona University
+Neil S. Cobb [neilscobb@gmail.com](mailto:neilscobb@gmail.com) - Merriam-Powell Center for Environmental Research, Northern Arizona University
 
 Jennifer C. Girón Duque [jennifer.giron@ttu.edu](mailto:jennifer.giron@ttu.edu) - Natural Science Research Laboratory, Museum of Texas Tech University
 
