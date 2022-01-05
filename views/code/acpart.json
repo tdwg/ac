@@ -4,6 +4,7 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "sawsdlrdf": "http://www.w3.org/ns/sawsdl#",
     "skos:inScheme": {
       "@type": "@id"
     },
@@ -51,6 +52,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "entireOrganism",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/CARO_0000012",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -69,6 +71,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "bark",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PO_0004518",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -87,6 +90,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "twig",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PO_0025073",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -105,6 +109,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "stem",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PO_0009047",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -123,6 +128,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "leaf",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PO_0025034",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -141,6 +147,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "strobilis",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PO_0025083",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -159,6 +166,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "inflorescence",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PO_0009049",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -177,6 +185,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "fruit",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PO_0009001",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -195,6 +204,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "seed",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PO_0009010",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -214,6 +224,7 @@
       "rdf:value": "maleCone",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
       "skos:broader": "http://rs.tdwg.org/acpart/values/p0006",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PO_0005031",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -233,6 +244,7 @@
       "rdf:value": "femaleCone",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
       "skos:broader": "http://rs.tdwg.org/acpart/values/p0006",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PO_0005032",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -252,6 +264,7 @@
       "rdf:value": "flower",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
       "skos:broader": "http://rs.tdwg.org/acpart/values/p0007",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PO_0009046",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -270,6 +283,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "head",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/UBERON_0000033",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -288,6 +302,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "thorax",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/UBERON_6000015",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -306,6 +321,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "abdomen",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/UBERON_6000020",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -324,6 +340,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "leg",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/UBERON_0002101",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -342,6 +359,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "wing",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/UBERON_0000023",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -360,6 +378,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "antenna",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/UBERON_0000972",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -379,6 +398,7 @@
       "rdf:value": "forewing",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
       "skos:broader": "http://rs.tdwg.org/acpart/values/p0017",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/AISM_0000037",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -398,6 +418,7 @@
       "rdf:value": "hindwing",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
       "skos:broader": "http://rs.tdwg.org/acpart/values/p0017",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/AISM_0000038",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -417,6 +438,7 @@
       "rdf:value": "foreleg",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
       "skos:broader": "http://rs.tdwg.org/acpart/values/p0016",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/UBERON_6004663",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -436,6 +458,7 @@
       "rdf:value": "midleg",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
       "skos:broader": "http://rs.tdwg.org/acpart/values/p0016",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/FBbt_00004685",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -455,6 +478,7 @@
       "rdf:value": "hindleg",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
       "skos:broader": "http://rs.tdwg.org/acpart/values/p0016",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/FBbt_00004707",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -473,6 +497,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "eye",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/UBERON_0000970",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -491,6 +516,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "shell",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/UBERON_0006612",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -509,6 +535,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "genitalia",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/UBERON_0004176",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -527,6 +554,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "skull",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/UBERON_0003129",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -546,6 +574,7 @@
       "rdf:value": "cranium",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
       "skos:broader": "http://rs.tdwg.org/acpart/values/p0027",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/UBERON_0003128",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -565,6 +594,7 @@
       "rdf:value": "mandible",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
       "skos:broader": "http://rs.tdwg.org/acpart/values/p0027",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/UBERON_0001684",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -583,6 +613,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "fin",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/UBERON_0008897",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -601,6 +632,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "egg",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/UBERON_0007379",
       "skos:prefLabel": [
         {
           "@language": "en",
