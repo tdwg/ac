@@ -4,6 +4,7 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "sawsdlrdf": "http://www.w3.org/ns/sawsdl#",
     "skos:inScheme": {
       "@type": "@id"
     },
@@ -51,6 +52,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "anterior",
       "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/BSPO_0000055",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -69,6 +71,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "posterior",
       "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/BSPO_0000056",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -87,6 +90,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "lateral",
       "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/BSPO_0000066",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -106,6 +110,7 @@
       "rdf:value": "right",
       "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
       "skos:broader": "http://rs.tdwg.org/acorient/values/r0003",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/BSPO_0000007",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -125,6 +130,7 @@
       "rdf:value": "left",
       "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
       "skos:broader": "http://rs.tdwg.org/acorient/values/r0003",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/BSPO_0000000",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -143,6 +149,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "dorsal",
       "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/BSPO_0000063",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -161,6 +168,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "ventral",
       "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/BSPO_0000068",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -179,6 +187,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "adaxial",
       "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PATO_0002047",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -197,6 +206,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "abaxial",
       "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PATO_0002046",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -215,6 +225,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "apical",
       "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/BSPO_0000057",
       "skos:prefLabel": [
         {
           "@language": "en",
@@ -233,6 +244,7 @@
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
       "rdf:value": "basal",
       "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/BSPO_0000058",
       "skos:prefLabel": [
         {
           "@language": "en",
