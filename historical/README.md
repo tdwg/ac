@@ -70,3 +70,7 @@ The contents of this folder are items that are primarily of historical interest.
 [Audubon Core for Biologists](wiki/AC_ForBiologists.wiki)
 
 [Introduction to commenting on Google Code Issue Tracker](wiki/AboutIssueTracker.wiki)
+
+**Audubon Core paper**
+
+[Morris et al. 2013. Discovery and publishing of primary biodiversity data associated with multimedia resources: The Audubon Core strategies and approaches](morris-et-al-2013-audubon-core.pdf) from <https://doi.org/10.17161/bi.v8i2.4117>
