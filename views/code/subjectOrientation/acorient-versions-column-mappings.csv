@@ -10,7 +10,7 @@ label,rdfs:label,language,,en,$root
 label,skos:prefLabel,language,,en,$root
 definition,rdfs:comment,language,,en,$root
 definition,skos:definition,language,,en,$root
-definition_derived_from ,tdwgutility:definitionDerivedFrom,iri,,,$root
+definition_derived_from ,sawsdlrdf:modelReference,iri,,,$root
 usage,skos:scopeNote,language,,en,$root
 notes,dcterms:description,language,,en,$root
 examples,skos:example,language,,en,$root

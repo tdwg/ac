@@ -12,3 +12,5 @@ r0008,adaxial side,,r,view of the adaxial side of the part,http://purl.obolibrar
 r0009,abaxial side,,r,view of the abaxial side of the part,http://purl.obolibrary.org/obo/PATO_0002046,,BSPO has adaxial/abaxial axis http://purl.obolibrary.org/obo/BSPO_0000195 but not the sides defined by that axis,,abaxial,http://www.w3.org/2004/02/skos/core#Concept
 r0010,apical side,,r,view of the apical side of the part,http://purl.obolibrary.org/obo/BSPO_0000057,,,,apical,http://www.w3.org/2004/02/skos/core#Concept
 r0011,basal side,,r,view of the basal side of a part,http://purl.obolibrary.org/obo/BSPO_0000058,,,,basal,http://www.w3.org/2004/02/skos/core#Concept
+r0012,marginal,,r,needs definition,,,,,marginal,http://www.w3.org/2004/02/skos/core#Concept
+r0013,medial,,r,needs definition,,,,,medial,http://www.w3.org/2004/02/skos/core#Concept

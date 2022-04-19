@@ -70,6 +70,22 @@ g012,insects,p0022,midleg
 g012,insects,p0023,hindleg
 g012,insects,p0024,eye
 g012,insects,p0026,genitalia
+g013,bryophytes,p0000,unspecified part
+g013,bryophytes,p0001,entire organism
+g013,bryophytes,p0004,stem
+g013,bryophytes,p0005,leaf
+g013,bryophytes,p0032,archegoniophore
+g013,bryophytes,p0033,antheridiophore
+g013,bryophytes,p0034,antheridium
+g013,bryophytes,p0035,archegonium
+g013,bryophytes,p0036,gemma cup
+g013,bryophytes,p0037,thallus
+g013,bryophytes,p0038,sporophyte
+g014,ferns,p0000,unspecified part
+g014,ferns,p0001,entire organism
+g014,ferns,p0039,sori
+g014,ferns,p0040,rhizome
+g014,ferns,p0005,leaf
 p0000,unspecified morphological feature,r0000,unspecified orientation
 p0001,entire organism,r0000,unspecified orientation
 p0001,entire organism,r0001,anterior side
@@ -157,3 +173,18 @@ p0010,male cone,r0011,basal (back) side
 p0011,female cone,r0010,apical (front) side
 p0011,female cone,r0003,lateral side
 p0011,female cone,r0011,basal (back) side
+p0032,archegoniophore,r0010,apical (front) side
+p0032,archegoniophore,r0003,lateral side
+p0033,antheridiophore,r0010,apical (front) side
+p0033,antheridiophore,r0003,lateral side
+p0034,antheridium,r0003,lateral side
+p0035,archegonium,r0003,lateral side
+p0036,gemma cup,r0010,apical (front) side
+p0036,gemma cup,r0003,lateral side
+p0037,thallus,r0006,dorsal side
+p0037,thallus,r0007,ventral side
+p0038,sporophyte,r0003,lateral side
+p0039,rhizome,r0003,lateral side
+p0040,sori,r0010,apical (front) side
+p0040,sori,r0012,marginal
+p0040,sori,r0013,medial
