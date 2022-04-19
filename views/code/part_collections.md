@@ -105,3 +105,27 @@
 <li>genitalia</li>
 </ul>
 
+## bryophytes
+<ul>
+<li>unspecifiedPart</li>
+<li>entireOrganism</li>
+<li>stem</li>
+<li>leaf</li>
+<li>archegoniophore</li>
+<li>antheridiophore</li>
+<li>antheridium</li>
+<li>archegonium</li>
+<li>gemmaCup</li>
+<li>thallus</li>
+<li>sporophyte</li>
+</ul>
+
+## ferns
+<ul>
+<li>unspecifiedPart</li>
+<li>entireOrganism</li>
+<li></li>
+<li></li>
+<li>leaf</li>
+</ul>
+
