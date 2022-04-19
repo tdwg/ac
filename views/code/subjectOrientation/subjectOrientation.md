@@ -65,6 +65,8 @@ Neither of these Collections are normative and they are maintained outside of th
 [dorsal side](#acorient_r0006) |
 [lateral side](#acorient_r0003) |
 [left side](#acorient_r0005) |
+[marginal](#acorient_r0012) |
+[medial](#acorient_r0013) |
 [posterior side](#acorient_r0002) |
 [right side](#acorient_r0004) |
 [subject orientation concept scheme](#acorient_r) |
@@ -295,7 +297,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>view of the right side of a whole bilaterally symmetric organism</td>
+			<td>vied of the right side of a whole bilaterally symmetric organism</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
@@ -614,6 +616,82 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Controlled value</td>
 			<td>basal</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Concept</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acorient_r0012"></a>Term Name  acorient:r0012</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/r0012">http://rs.tdwg.org/acorient/values/r0012</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-04-19</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0012-2022-04-19">http://rs.tdwg.org/acorient/values/version/r0012-2022-04-19</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>marginal</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>needs definition</td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>marginal</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Concept</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acorient_r0013"></a>Term Name  acorient:r0013</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/r0013">http://rs.tdwg.org/acorient/values/r0013</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2022-04-19</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0013-2022-04-19">http://rs.tdwg.org/acorient/values/version/r0013-2022-04-19</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>medial</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>needs definition</td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>medial</td>
 		</tr>
 		<tr>
 			<td>Type</td>
