@@ -18,7 +18,7 @@
 
 **Abstract:** The Audubon Core term `subjectOrientation` describes the viewing orientation relative to an organism or part of an organism depicted in a media item or region of interest. The subjectOrientation Controlled Vocabulary provides terms that should be used as values for `ac:subjectOrientation` and its literal-valued analog `ac:subjectOrientationLiteral`. 
 
-**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (Stockholm University), Randy Singer (University of Michigan)
+**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (Stockholm University), Mervin E. Pérez (University of Puerto Rico), Randy Singer (University of Michigan)
 
 **Creator:** TDWG Views Controlled Vocabularies Task Group
 
