@@ -774,7 +774,8 @@
     },
     {
       "@id": "http://rs.tdwg.org/acpart/values/p0039",
-      "@type": "",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "sori",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
       "skos:prefLabel": [
         {
@@ -791,7 +792,8 @@
     },
     {
       "@id": "http://rs.tdwg.org/acpart/values/p0040",
-      "@type": "",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "rhizome",
       "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
       "skos:prefLabel": [
         {

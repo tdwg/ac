@@ -124,8 +124,8 @@
 <ul>
 <li>unspecifiedPart</li>
 <li>entireOrganism</li>
-<li></li>
-<li></li>
+<li>sori</li>
+<li>rhizome</li>
 <li>leaf</li>
 </ul>
 

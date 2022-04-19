@@ -1813,8 +1813,12 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>A cluster of spore-producing receptacles on the underside of a fern frond</td>
 		</tr>
 		<tr>
+			<td>Controlled value</td>
+			<td>sori</td>
+		</tr>
+		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Concept</td>
 		</tr>
 	</tbody>
 </table>
@@ -1847,8 +1851,12 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>A modified subterranean stem that sends out roots and shoots from its nodes</td>
 		</tr>
 		<tr>
+			<td>Controlled value</td>
+			<td>rhizome</td>
+		</tr>
+		<tr>
 			<td>Type</td>
-			<td></td>
+			<td>Concept</td>
 		</tr>
 	</tbody>
 </table>
