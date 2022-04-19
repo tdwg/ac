@@ -257,6 +257,42 @@
           "@value": "view of the basal side of a part"
         }
       ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/values/r0012",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "marginal",
+      "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "marginal"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "needs definition"
+        }
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/values/r0013",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "medial",
+      "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "medial"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "needs definition"
+        }
+      ]
     }
   ]
 }

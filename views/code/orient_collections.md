@@ -215,3 +215,54 @@
 <li>lateral</li>
 </ul>
 
+## archegoniophore
+<ul>
+<li>apical</li>
+<li>lateral</li>
+</ul>
+
+## antheridiophore
+<ul>
+<li>apical</li>
+<li>lateral</li>
+</ul>
+
+## antheridium
+<ul>
+<li>lateral</li>
+</ul>
+
+## archegonium
+<ul>
+<li>lateral</li>
+</ul>
+
+## gemma cup
+<ul>
+<li>apical</li>
+<li>lateral</li>
+</ul>
+
+## thallus
+<ul>
+<li>dorsal</li>
+<li>ventral</li>
+</ul>
+
+## sporophyte
+<ul>
+<li>lateral</li>
+</ul>
+
+## sori
+<ul>
+<li>lateral</li>
+</ul>
+
+## rhizome
+<ul>
+<li>apical</li>
+<li>marginal</li>
+<li>medial</li>
+</ul>
+

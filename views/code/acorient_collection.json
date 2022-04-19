@@ -705,6 +705,192 @@
       "skos:member": [
         "http://rs.tdwg.org/acorient/values/r0003"
       ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0032",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:ofConcept": "http://rs.tdwg.org/acpart/values/p0032",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "archegoniophore"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for archegoniophore"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0010",
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0033",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:ofConcept": "http://rs.tdwg.org/acpart/values/p0033",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "antheridiophore"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for antheridiophore"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0010",
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0034",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:ofConcept": "http://rs.tdwg.org/acpart/values/p0034",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "antheridium"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for antheridium"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0035",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:ofConcept": "http://rs.tdwg.org/acpart/values/p0035",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "archegonium"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for archegonium"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0036",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:ofConcept": "http://rs.tdwg.org/acpart/values/p0036",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "gemma cup"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for gemma cup"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0010",
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0037",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:ofConcept": "http://rs.tdwg.org/acpart/values/p0037",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "thallus"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for thallus"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0006",
+        "http://rs.tdwg.org/acorient/values/r0007"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0038",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:ofConcept": "http://rs.tdwg.org/acpart/values/p0038",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "sporophyte"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for sporophyte"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0039",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:ofConcept": "http://rs.tdwg.org/acpart/values/p0039",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "sori"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for sori"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0003"
+      ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acorient/collection/p0040",
+      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
+      "tdwgutility:ofConcept": "http://rs.tdwg.org/acpart/values/p0040",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "rhizome"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "collection of concepts appropriate for rhizome"
+        }
+      ],
+      "skos:member": [
+        "http://rs.tdwg.org/acorient/values/r0010",
+        "http://rs.tdwg.org/acorient/values/r0012",
+        "http://rs.tdwg.org/acorient/values/r0013"
+      ]
     }
   ]
 }
