@@ -6,17 +6,17 @@ permalink: /termlist/
 
 **Title:** Audubon Core Term List
 
-**Date version issued:** 2021-10-05
+**Date version issued:** 2022-02-23
 
 **Date created:** 2013-10-23
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** <http://rs.tdwg.org/ac/doc/termlist/2021-10-05>
+**This version:** <http://rs.tdwg.org/ac/doc/termlist/2022-02-23>
 
 **Latest version:** <http://rs.tdwg.org/ac/doc/termlist/>
 
-**Previous version:** <http://rs.tdwg.org/ac/doc/termlist/2021-02-01>
+**Previous version:** <http://rs.tdwg.org/ac/doc/termlist/2021-10-05>
 
 **Abstract:** The Audubon Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
@@ -36,12 +36,12 @@ may not be changed without due process.
 
 **Creator:** GBIF/TDWG Multimedia Resources Task Group and Audubon Core Maintenance Group
 
-**Bibliographic citation:** Audubon Core Maintenance Group. 2021. Audubon Core Term List. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/termlist/2021-10-05
+**Bibliographic citation:** Audubon Core Maintenance Group. 2022. Audubon Core Term List. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/termlist/2022-02-23>
 
 
 ## 1 Introduction
 
-There are a number of documents included in the Aububon Core Standard.  This document provides details about the terms included in the 2021-10-05 version of the Audubon Core vocabulary. The [Audubon Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
+There are a number of documents included in the Aububon Core Standard.  This document provides details about the terms included in the 2022-02-23 version of the Audubon Core vocabulary. The [Audubon Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
 
 
 ### 1.1 Status of the content of this document
