@@ -185,6 +185,4 @@ p0037,thallus,r0006,dorsal side
 p0037,thallus,r0007,ventral side
 p0038,sporophyte,r0003,lateral side
 p0039,rhizome,r0003,lateral side
-p0040,sori,r0010,apical (front) side
-p0040,sori,r0012,marginal
-p0040,sori,r0013,medial
+p0040,sori,r0010,lateral side

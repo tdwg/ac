@@ -1,16 +1,14 @@
 term_localName,label,skos_broader,skos_inScheme,definition,definition_derived_from,usage,notes,examples,controlled_value_string,type
 r,subject orientation concept scheme,,,a SKOS concept scheme for orientation,,,,,,http://www.w3.org/2004/02/skos/core#ConceptScheme
 r0000,unspecified orientation,,r,orientation is not known because it is not specified,,,,,unspecifiedOrientation,http://www.w3.org/2004/02/skos/core#Concept
-r0001,anterior side,,r,view of the anterior side of the part,http://purl.obolibrary.org/obo/BSPO_0000055,,,,anterior,http://www.w3.org/2004/02/skos/core#Concept
-r0002,posterior side,,r,view of the posterior side of the part,http://purl.obolibrary.org/obo/BSPO_0000056,,,,posterior,http://www.w3.org/2004/02/skos/core#Concept
-r0003,lateral side,,r,view of a lateral side of a part,http://purl.obolibrary.org/obo/BSPO_0000066,,,,lateral,http://www.w3.org/2004/02/skos/core#Concept
+r0001,anterior side,,r,view of the side towards the head or forward end of the organism,http://purl.obolibrary.org/obo/BSPO_0000055,,,,anterior,http://www.w3.org/2004/02/skos/core#Concept
+r0002,posterior side,,r,view of the side away from the head or towards the rear end of the organism,http://purl.obolibrary.org/obo/BSPO_0000056,,,,posterior,http://www.w3.org/2004/02/skos/core#Concept
+r0003,lateral side,,r,view of the side perpendicular to the main axis of the organism,http://purl.obolibrary.org/obo/BSPO_0000066,,,,lateral,http://www.w3.org/2004/02/skos/core#Concept
 r0004,right side,r0003,r,view of the right side of a whole bilaterally symmetric organism,http://purl.obolibrary.org/obo/BSPO_0000007,,,,right,http://www.w3.org/2004/02/skos/core#Concept
 r0005,left side,r0003,r,view of the left side of a whole bilaterally symmetric organism,http://purl.obolibrary.org/obo/BSPO_0000000,,,,left,http://www.w3.org/2004/02/skos/core#Concept
-r0006,dorsal side,,r,view of the dorsal side of the part,http://purl.obolibrary.org/obo/BSPO_0000063,,,,dorsal,http://www.w3.org/2004/02/skos/core#Concept
-r0007,ventral side,,r,view of the ventral side of the part,http://purl.obolibrary.org/obo/BSPO_0000068,,,,ventral,http://www.w3.org/2004/02/skos/core#Concept
-r0008,adaxial side,,r,view of the adaxial side of the part,http://purl.obolibrary.org/obo/PATO_0002047,,BSPO has adaxial/abaxial axis http://purl.obolibrary.org/obo/BSPO_0000195 but not the sides defined by that axis,,adaxial,http://www.w3.org/2004/02/skos/core#Concept
-r0009,abaxial side,,r,view of the abaxial side of the part,http://purl.obolibrary.org/obo/PATO_0002046,,BSPO has adaxial/abaxial axis http://purl.obolibrary.org/obo/BSPO_0000195 but not the sides defined by that axis,,abaxial,http://www.w3.org/2004/02/skos/core#Concept
-r0010,apical side,,r,view of the apical side of the part,http://purl.obolibrary.org/obo/BSPO_0000057,,,,apical,http://www.w3.org/2004/02/skos/core#Concept
-r0011,basal side,,r,view of the basal side of a part,http://purl.obolibrary.org/obo/BSPO_0000058,,,,basal,http://www.w3.org/2004/02/skos/core#Concept
-r0012,marginal,,r,needs definition,,,,,marginal,http://www.w3.org/2004/02/skos/core#Concept
-r0013,medial,,r,needs definition,,,,,medial,http://www.w3.org/2004/02/skos/core#Concept
+r0006,dorsal side,,r,view of the side dorsal to the frontal plane of a bilaterally symmetric organism,http://purl.obolibrary.org/obo/BSPO_0000063,,,,dorsal,http://www.w3.org/2004/02/skos/core#Concept
+r0007,ventral side,,r,view of the side ventral to the frontal plane of a bilaterally symmetric organism,http://purl.obolibrary.org/obo/BSPO_0000068,,,,ventral,http://www.w3.org/2004/02/skos/core#Concept
+r0008,upper side,,r,view of the side of the part oriented toward the central axis of a plant (adaxial),http://purl.obolibrary.org/obo/PATO_0002047,"In plants, use this term rather than ""dorsal"". For types of plants or fungi having horizontal parts and lacking a clear central axis, this is the surface away from the ground. ",BSPO has adaxial/abaxial axis http://purl.obolibrary.org/obo/BSPO_0000195 but not the sides defined by that axis,,upper,http://www.w3.org/2004/02/skos/core#Concept
+r0009,lower side,,r,view of the side of the part oriented away from the central axis of a plant (abaxial),http://purl.obolibrary.org/obo/PATO_0002046,"In plants, use this term rather than ""ventral"". For types of plants or fungi having horizontal parts and lacking a clear central axis, this is the surface towards the ground. ",BSPO has adaxial/abaxial axis http://purl.obolibrary.org/obo/BSPO_0000195 but not the sides defined by that axis,,lower,http://www.w3.org/2004/02/skos/core#Concept
+r0010,apical side,,r,view of the side of the part oriented towards the end of the axis away from its attachment point (the apex),http://purl.obolibrary.org/obo/BSPO_0000057,,,,apical,http://www.w3.org/2004/02/skos/core#Concept
+r0011,basal side,,r,view of the side of the part oriented towards the attachment point of the axis,http://purl.obolibrary.org/obo/BSPO_0000058,,,,basal,http://www.w3.org/2004/02/skos/core#Concept
