@@ -10,15 +10,17 @@ permalink: /subtype/
 
 **Preferred namespace abbreviation:** acsubtype:
 
-**Date version issued:** 2020-10-13
+**Date version issued:** 2022-02-23
 
 **Date created:** 2020-10-13
 
-**Part of TDWG Standard:** http://www.tdwg.org/standards/638
+**Part of TDWG Standard:** <http://www.tdwg.org/standards/638>
 
-**This version:** http://rs.tdwg.org/ac/doc/subtype/2020-10-13
+**This version:** <http://rs.tdwg.org/ac/doc/subtype/2022-02-23>
 
-**Latest version:** http://rs.tdwg.org/ac/doc/subtype/
+**Latest version:** <http://rs.tdwg.org/ac/doc/subtype/>
+
+**Previous version:** <http://rs.tdwg.org/ac/doc/subtype/2020-10-13>
 
 **Abstract:** Audubon Core uses the terms `ac:subtype` and `ac:subtypeLiteral` to refine the type of a media item to a level more specific than the Dublin Core Type Vocabulary, `http://purl.org/dc/dcmitype/`. This controlled vocabulary provides values for `ac:subtype` and `ac:subtypeLiteral`. 
 
