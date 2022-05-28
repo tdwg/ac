@@ -4,7 +4,7 @@ This is the main entry point to the work of the Audubon Core Maintenance Group. 
 
 The Audubon Core (AC) is a set of vocabularies designed to represent metadata for biodiversity multimedia resources and collections. These vocabularies aim to represent information that will help to determine whether a particular resource or collection will be fit for some particular biodiversity science application before acquiring the media. Among others, the vocabularies address such concerns as the management of the media and collections, descriptions of their content, their taxonomic, geographic, and temporal coverage, and the appropriate ways to retrieve, attribute and reproduce them.
 
-The current release (2021-10-05) is archived at <a href="https://doi.org/10.5281/zenodo.5663897"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5663897.svg" alt="DOI"></a>
+The current release (2022-02-23) is archived at <a href="https://doi.org/10.5281/zenodo.6590205"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6590205.svg" alt="DOI"></a>
 
 ## The Audubon Core Maintenance Group
 
@@ -112,4 +112,4 @@ The repository structure is described below.
 ```
 
 -----
-Revised 2021-12-15
+Revised 2022-05-28
