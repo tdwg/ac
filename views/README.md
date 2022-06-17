@@ -16,7 +16,7 @@ Neil S. Cobb [neilscobb@gmail.com](mailto:neilscobb@gmail.com) - Merriam-Powell 
 
 Jennifer C. Girón Duque [jennifer.giron@ttu.edu](mailto:jennifer.giron@ttu.edu) - Natural Science Research Laboratory, Museum of Texas Tech University
 
-Matthew Nielsen [matthew.nielsen@zoologi.su.se](mailto:matthew.nielsen@zoologi.su.se) - Stockholm University
+Matthew Nielsen [matthew.nielsen@oulu.fi](mailto:matthew.nielsen@oulu.fi) - University of Oulu
 
 Randy Singer [randalas@umich.edu](mailto:randalas@umich.edu) - University of Michigan
 
@@ -83,4 +83,4 @@ Our charter as submitted is [here](https://github.com/tdwg/ac/blob/master/views/
 [2021 Annual Report](historical/vtg-2021-annual-report.md)
 
 ---
-Revised 2022-05-05
+Revised 2022-06-17
