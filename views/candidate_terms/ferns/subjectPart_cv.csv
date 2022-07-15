@@ -1,0 +1,3 @@
+term_localName,label,skos_broader,skos_inScheme,definition,definition_derived_from,usage,notes,examples,controlled_value_string,type
+p0039,sori,,p,A cluster of spore-producing receptacles on the underside of a fern frond,,,,,sori,http://www.w3.org/2004/02/skos/core#Concept
+p0040,rhizome,,p,A modified subterranean stem that sends out roots and shoots from its nodes,,,,,rhizome,http://www.w3.org/2004/02/skos/core#Concept
