@@ -104,3 +104,9 @@
 <li>eye</li>
 <li>genitalia</li>
 </ul>
+
+## non-bilaterally symmetric animals
+<ul>
+<li>unspecifiedPart</li>
+<li>entireOrganism</li>
+</ul>
