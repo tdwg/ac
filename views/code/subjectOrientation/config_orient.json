@@ -12,7 +12,7 @@
             "label": "subjectOrientation controlled values list",
             "description": "Controlled values list for the Audubon Core term subjectOrientation",
             "utility_namespace": false,
-            "modifications_file_path": "ac-revisions/ac-views-cv-2021-11-07/subjectOrientation_cv.csv",
+            "modifications_file_path": "ac-revisions/ac-views-cv-2022-07-25/subjectOrientation_cv.csv",
             "termlist_uri": ""
         }
     ]
