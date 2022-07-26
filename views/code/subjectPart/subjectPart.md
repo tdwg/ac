@@ -18,7 +18,7 @@
 
 **Abstract:** The Audubon Core term `subjectPart` describes the part of an organism morphology, behaviour, environment depicted in a media item or region of interest. The subjectPart Controlled Vocabulary provides terms that should be used as values for `ac:subjectPart` and its literal-valued analog `ac:subjectPartLiteral`. 
 
-**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (Stockholm University), Mervin E. Pérez (University of Puerto Rico), Randy Singer (University of Michigan)
+**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (Stockholm University), Mervin E. Pérez (Universidad de San Carlos de Guatemala), Randy Singer (University of Michigan)
 
 **Creator:** TDWG Views Controlled Vocabularies Task Group
 
@@ -59,10 +59,6 @@ Neither of these Collections are normative and they are maintained outside of th
 
 [abdomen](#acpart_p0015) |
 [antenna](#acpart_p0018) |
-[antheridiophore](#acpart_p0033) |
-[antheridium](#acpart_p0034) |
-[archegoniophore](#acpart_p0032) |
-[archegonium](#acpart_p0035) |
 [bark](#acpart_p0002) |
 [cranium](#acpart_p0028) |
 [egg](#acpart_p0031) |
@@ -74,7 +70,6 @@ Neither of these Collections are normative and they are maintained outside of th
 [foreleg](#acpart_p0021) |
 [forewing](#acpart_p0019) |
 [fruit](#acpart_p0008) |
-[gemma cup](#acpart_p0036) |
 [genitalia](#acpart_p0026) |
 [head](#acpart_p0013) |
 [hindleg](#acpart_p0023) |
@@ -85,16 +80,12 @@ Neither of these Collections are normative and they are maintained outside of th
 [male cone](#acpart_p0010) |
 [mandible](#acpart_p0029) |
 [midleg](#acpart_p0022) |
-[rhizome](#acpart_p0040) |
 [seed](#acpart_p0009) |
 [shell](#acpart_p0025) |
 [skull](#acpart_p0027) |
-[sori](#acpart_p0039) |
-[sporophyte](#acpart_p0038) |
 [stem](#acpart_p0004) |
 [strobilis (cone)](#acpart_p0006) |
 [subject part concept scheme](#acpart_p) |
-[thallus](#acpart_p0037) |
 [thorax](#acpart_p0014) |
 [twig](#acpart_p0003) |
 [unspecified part](#acpart_p0000) |
@@ -114,11 +105,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p-2022-01-01">http://rs.tdwg.org/acpart/values/version/p-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p-2022-07-25">http://rs.tdwg.org/acpart/values/version/p-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -148,11 +139,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0000-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0000-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0000-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0000-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -186,11 +177,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0001-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0001-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0001-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0001-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -228,11 +219,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0002-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0002-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0002-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0002-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -270,11 +261,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0003-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0003-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0003-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0003-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -312,11 +303,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0004-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0004-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0004-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0004-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -354,11 +345,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0005-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0005-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0005-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0005-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -396,11 +387,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0006-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0006-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0006-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0006-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -438,11 +429,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0007-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0007-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0007-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0007-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -480,11 +471,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0008-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0008-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0008-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0008-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -522,11 +513,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0009-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0009-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0009-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0009-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -564,11 +555,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0010-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0010-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0010-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0010-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -610,11 +601,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0011-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0011-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0011-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0011-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -656,11 +647,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0012-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0012-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0012-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0012-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -702,11 +693,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0013-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0013-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0013-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0013-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -744,11 +735,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0014-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0014-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0014-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0014-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -786,11 +777,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0015-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0015-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0015-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0015-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -828,11 +819,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0016-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0016-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0016-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0016-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -870,11 +861,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0017-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0017-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0017-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0017-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -912,11 +903,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0018-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0018-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0018-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0018-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -954,11 +945,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0019-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0019-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0019-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0019-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1000,11 +991,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0020-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0020-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0020-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0020-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1046,11 +1037,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0021-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0021-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0021-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0021-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1092,11 +1083,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0022-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0022-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0022-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0022-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1138,11 +1129,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0023-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0023-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0023-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0023-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1184,11 +1175,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0024-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0024-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0024-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0024-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1226,11 +1217,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0025-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0025-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0025-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0025-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1268,11 +1259,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0026-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0026-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0026-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0026-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1310,11 +1301,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0027-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0027-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0027-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0027-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1352,11 +1343,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0028-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0028-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0028-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0028-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1398,11 +1389,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0029-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0029-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0029-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0029-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1444,11 +1435,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0030-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0030-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0030-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0030-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1486,11 +1477,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0031-2022-01-01">http://rs.tdwg.org/acpart/values/version/p0031-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0031-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0031-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1507,352 +1498,6 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Controlled value</td>
 			<td>egg</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Concept</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="acpart_p0032"></a>Term Name  acpart:p0032</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/p0032">http://rs.tdwg.org/acpart/values/p0032</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-04-19</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0032-2022-04-19">http://rs.tdwg.org/acpart/values/version/p0032-2022-04-19</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>archegoniophore</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>A specialized archegonial-bearing branch; the female gamentangiophore</td>
-		</tr>
-		<tr>
-			<td>Controlled value</td>
-			<td>archegoniophore</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Concept</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="acpart_p0033"></a>Term Name  acpart:p0033</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/p0033">http://rs.tdwg.org/acpart/values/p0033</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-04-19</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0033-2022-04-19">http://rs.tdwg.org/acpart/values/version/p0033-2022-04-19</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>antheridiophore</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>A specialized antheridium-bearing branch; the male gamentangiophore</td>
-		</tr>
-		<tr>
-			<td>Controlled value</td>
-			<td>antheridiophore</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Concept</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="acpart_p0034"></a>Term Name  acpart:p0034</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/p0034">http://rs.tdwg.org/acpart/values/p0034</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-04-19</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0034-2022-04-19">http://rs.tdwg.org/acpart/values/version/p0034-2022-04-19</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>antheridium</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>Male gametangium; a multicellular globose to broadly cylindric, stalked structure containing spermatozoides</td>
-		</tr>
-		<tr>
-			<td>Controlled value</td>
-			<td>antheridium</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Concept</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="acpart_p0035"></a>Term Name  acpart:p0035</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/p0035">http://rs.tdwg.org/acpart/values/p0035</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-04-19</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0035-2022-04-19">http://rs.tdwg.org/acpart/values/version/p0035-2022-04-19</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>archegonium</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>Female gametangium; a multicellular, flask-shaped structure consisting of a stalk, venter, neck and containing an ovum</td>
-		</tr>
-		<tr>
-			<td>Controlled value</td>
-			<td>archegonium</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Concept</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="acpart_p0036"></a>Term Name  acpart:p0036</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/p0036">http://rs.tdwg.org/acpart/values/p0036</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-04-19</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0036-2022-04-19">http://rs.tdwg.org/acpart/values/version/p0036-2022-04-19</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>gemma cup</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>Cup or moon-shaped, gemmae-containing structure of thalline or foliar origin</td>
-		</tr>
-		<tr>
-			<td>Controlled value</td>
-			<td>gemmaCup</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Concept</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="acpart_p0037"></a>Term Name  acpart:p0037</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/p0037">http://rs.tdwg.org/acpart/values/p0037</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-04-19</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0037-2022-04-19">http://rs.tdwg.org/acpart/values/version/p0037-2022-04-19</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>thallus</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>A more of less flattened, gametophyte, not differentiated into a stem and leaves</td>
-		</tr>
-		<tr>
-			<td>Controlled value</td>
-			<td>thallus</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Concept</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="acpart_p0038"></a>Term Name  acpart:p0038</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/p0038">http://rs.tdwg.org/acpart/values/p0038</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-04-19</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0038-2022-04-19">http://rs.tdwg.org/acpart/values/version/p0038-2022-04-19</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>sporophyte</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>The spore-bearing new generation; initiated by the fertilization of an egg; remaining attached to the gametophyte and partially dependent on it</td>
-		</tr>
-		<tr>
-			<td>Notes</td>
-			<td>Typically consisting of foot, seta, and capsule</td>
-		</tr>
-		<tr>
-			<td>Controlled value</td>
-			<td>sporophyte</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Concept</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="acpart_p0039"></a>Term Name  acpart:p0039</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/p0039">http://rs.tdwg.org/acpart/values/p0039</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-04-19</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0039-2022-04-19">http://rs.tdwg.org/acpart/values/version/p0039-2022-04-19</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>sori</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>A cluster of spore-producing receptacles on the underside of a fern frond</td>
-		</tr>
-		<tr>
-			<td>Controlled value</td>
-			<td>sori</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Concept</td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="acpart_p0040"></a>Term Name  acpart:p0040</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/p0040">http://rs.tdwg.org/acpart/values/p0040</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2022-04-19</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0040-2022-04-19">http://rs.tdwg.org/acpart/values/version/p0040-2022-04-19</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>rhizome</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>A modified subterranean stem that sends out roots and shoots from its nodes</td>
-		</tr>
-		<tr>
-			<td>Controlled value</td>
-			<td>rhizome</td>
 		</tr>
 		<tr>
 			<td>Type</td>
