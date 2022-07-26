@@ -5,9 +5,12 @@
     "namespaces": [
         {
             "namespace_uri": "http://rs.tdwg.org/acorient/values/",
+            "pref_namespace_prefix": "acorient",
             "database": "acorient",
             "borrowed": false,
             "new_term_list": true,
+            "label": "subjectOrientation controlled values list",
+            "description": "Controlled values list for the Audubon Core term subjectOrientation",
             "utility_namespace": false,
             "modifications_file_path": "ac-revisions/ac-views-cv-2021-11-07/subjectOrientation_cv.csv",
             "termlist_uri": ""

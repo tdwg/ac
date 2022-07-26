@@ -5,9 +5,12 @@
     "namespaces": [
         {
             "namespace_uri": "http://rs.tdwg.org/acpart/values/",
+            "pref_namespace_prefix": "acpart",
             "database": "acpart",
             "borrowed": false,
             "new_term_list": true,
+            "label": "subjectPart controlled values list",
+            "description": "Controlled values list for the Audubon Core term subjectPart",
             "utility_namespace": false,
             "modifications_file_path": "ac-revisions/ac-views-cv-2021-11-07/subjectPart_cv.csv",
             "termlist_uri": ""
