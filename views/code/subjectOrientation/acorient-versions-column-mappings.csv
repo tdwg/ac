@@ -14,8 +14,8 @@ definition_derived_from ,sawsdlrdf:modelReference,iri,,,$root
 usage,skos:scopeNote,language,,en,$root
 notes,dcterms:description,language,,en,$root
 examples,skos:example,language,,en,$root
-skos_inScheme,skos:inScheme,iri,http://rs.tdwg.org/acpart/values/,,$root
+skos_inScheme,skos:inScheme,iri,http://rs.tdwg.org/acorient/values/,,$root
 controlled_value_string,rdf:value,plain,,,$root
-skos_broader,skos:broader,iri,http://rs.tdwg.org/acpart/values/,,$root
+skos_broader,skos:broader,iri,http://rs.tdwg.org/acorient/values/,,$root
 type,rdf:type,iri,,,$root
-term_localName,dcterms:isVersionOf,iri,http://rs.tdwg.org/acpart/values/,,$root
+term_localName,dcterms:isVersionOf,iri,http://rs.tdwg.org/acorient/values/,,$root
