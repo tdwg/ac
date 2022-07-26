@@ -18,7 +18,7 @@
 
 **Abstract:** The Audubon Core term `subjectOrientation` describes the viewing orientation relative to an organism or part of an organism depicted in a media item or region of interest. The subjectOrientation Controlled Vocabulary provides terms that should be used as values for `ac:subjectOrientation` and its literal-valued analog `ac:subjectOrientationLiteral`. 
 
-**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (Stockholm University), Mervin E. Pérez (University of Puerto Rico), Randy Singer (University of Michigan)
+**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (Stockholm University), Mervin E. Pérez (Universidad de San Carlos de Guatemala), Randy Singer (University of Michigan)
 
 **Creator:** TDWG Views Controlled Vocabularies Task Group
 
@@ -57,20 +57,20 @@ Neither of these Collections are normative and they are maintained outside of th
 ## 3 Term index
 
 
-[abaxial side](#acorient_r0009) |
-[adaxial side](#acorient_r0008) |
+[aboral side](#acorient_r0013) |
 [anterior side](#acorient_r0001) |
 [apical side](#acorient_r0010) |
 [basal side](#acorient_r0011) |
 [dorsal side](#acorient_r0006) |
 [lateral side](#acorient_r0003) |
 [left side](#acorient_r0005) |
-[marginal](#acorient_r0012) |
-[medial](#acorient_r0013) |
+[lower side](#acorient_r0009) |
+[oral side](#acorient_r0012) |
 [posterior side](#acorient_r0002) |
 [right side](#acorient_r0004) |
 [subject orientation concept scheme](#acorient_r) |
 [unspecified orientation](#acorient_r0000) |
+[upper side](#acorient_r0008) |
 [ventral side](#acorient_r0007) 
 
 ## 4 Vocabulary
@@ -87,11 +87,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acorient/values/version/r-2022-01-01">http://rs.tdwg.org/acorient/values/version/r-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r-2022-07-25">http://rs.tdwg.org/acorient/values/version/r-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -121,11 +121,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acorient/values/version/r0000-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0000-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0000-2022-07-25">http://rs.tdwg.org/acorient/values/version/r0000-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -159,11 +159,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acorient/values/version/r0001-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0001-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0001-2022-07-25">http://rs.tdwg.org/acorient/values/version/r0001-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -171,7 +171,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>view of the anterior side of the part</td>
+			<td>view of the side towards the head or forward end of the organism</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
@@ -201,11 +201,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acorient/values/version/r0002-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0002-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0002-2022-07-25">http://rs.tdwg.org/acorient/values/version/r0002-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -213,7 +213,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>view of the posterior side of the part</td>
+			<td>view of the side away from the head or towards the rear end of the organism</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
@@ -243,11 +243,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acorient/values/version/r0003-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0003-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0003-2022-07-25">http://rs.tdwg.org/acorient/values/version/r0003-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -255,7 +255,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>view of a lateral side of a part</td>
+			<td>view of the side perpendicular to the main axis of the organism</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
@@ -285,11 +285,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acorient/values/version/r0004-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0004-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0004-2022-07-25">http://rs.tdwg.org/acorient/values/version/r0004-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -297,7 +297,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>vied of the right side of a whole bilaterally symmetric organism</td>
+			<td>view of the right side of a whole bilaterally symmetric organism</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
@@ -331,11 +331,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acorient/values/version/r0005-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0005-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0005-2022-07-25">http://rs.tdwg.org/acorient/values/version/r0005-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -377,11 +377,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acorient/values/version/r0006-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0006-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0006-2022-07-25">http://rs.tdwg.org/acorient/values/version/r0006-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -389,7 +389,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>view of the dorsal side of the part</td>
+			<td>view of the side dorsal to the frontal plane of a bilaterally symmetric organism</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
@@ -419,11 +419,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acorient/values/version/r0007-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0007-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0007-2022-07-25">http://rs.tdwg.org/acorient/values/version/r0007-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -431,7 +431,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>view of the ventral side of the part</td>
+			<td>view of the side ventral to the frontal plane of a bilaterally symmetric organism</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
@@ -461,23 +461,27 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acorient/values/version/r0008-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0008-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0008-2022-07-25">http://rs.tdwg.org/acorient/values/version/r0008-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>adaxial side</td>
+			<td>upper side</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>view of the adaxial side of the part</td>
+			<td>view of the side of the part oriented toward the central axis of a plant (adaxial)</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/PATO_0002047">http://purl.obolibrary.org/obo/PATO_0002047</a></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>In plants, use this term rather than "dorsal". For types of plants or fungi having horizontal parts and lacking a clear central axis, this is the surface away from the ground. </td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -485,7 +489,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Controlled value</td>
-			<td>adaxial</td>
+			<td>upper</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -507,23 +511,27 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acorient/values/version/r0009-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0009-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0009-2022-07-25">http://rs.tdwg.org/acorient/values/version/r0009-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>abaxial side</td>
+			<td>lower side</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>view of the abaxial side of the part</td>
+			<td>view of the side of the part oriented away from the central axis of a plant (abaxial)</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/PATO_0002046">http://purl.obolibrary.org/obo/PATO_0002046</a></td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>In plants, use this term rather than "ventral". For types of plants or fungi having horizontal parts and lacking a clear central axis, this is the surface towards the ground. </td>
 		</tr>
 		<tr>
 			<td>Notes</td>
@@ -531,7 +539,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Controlled value</td>
-			<td>abaxial</td>
+			<td>lower</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -553,11 +561,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acorient/values/version/r0010-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0010-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0010-2022-07-25">http://rs.tdwg.org/acorient/values/version/r0010-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -565,7 +573,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>view of the apical side of the part</td>
+			<td>view of the side of the part oriented towards the end of the axis away from its attachment point (the apex)</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
@@ -595,11 +603,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-01-01</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acorient/values/version/r0011-2022-01-01">http://rs.tdwg.org/acorient/values/version/r0011-2022-01-01</a></td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0011-2022-07-25">http://rs.tdwg.org/acorient/values/version/r0011-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -607,7 +615,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>view of the basal side of a part</td>
+			<td>view of the side of the part oriented towards the attachment point of the axis</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
@@ -637,23 +645,27 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-04-19</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acorient/values/version/r0012-2022-04-19">http://rs.tdwg.org/acorient/values/version/r0012-2022-04-19</a></td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0012-2022-07-25">http://rs.tdwg.org/acorient/values/version/r0012-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>marginal</td>
+			<td>oral side</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>needs definition</td>
+			<td>view of the side of the organism oriented towards the oral opening</td>
+		</tr>
+		<tr>
+			<td>Definition derived from:</td>
+			<td><a href="http://purl.obolibrary.org/obo/BSPO_0015201">http://purl.obolibrary.org/obo/BSPO_0015201</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
-			<td>marginal</td>
+			<td>oral</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -675,23 +687,27 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-04-19</td>
+			<td>2022-07-25</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acorient/values/version/r0013-2022-04-19">http://rs.tdwg.org/acorient/values/version/r0013-2022-04-19</a></td>
+			<td><a href="http://rs.tdwg.org/acorient/values/version/r0013-2022-07-25">http://rs.tdwg.org/acorient/values/version/r0013-2022-07-25</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>medial</td>
+			<td>aboral side</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>needs definition</td>
+			<td>view of the side of the organism oriented away from the oral opening</td>
+		</tr>
+		<tr>
+			<td>Definition derived from:</td>
+			<td><a href="http://purl.obolibrary.org/obo/BSPO_0015202">http://purl.obolibrary.org/obo/BSPO_0015202</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
-			<td>medial</td>
+			<td>aboral</td>
 		</tr>
 		<tr>
 			<td>Type</td>
