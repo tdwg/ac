@@ -246,50 +246,18 @@
       "skos:prefLabel": [
         {
           "@language": "en",
-          "@value": "bryophytes"
+          "@value": "non-bilaterally symmetric animals"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "collection of concepts that apply to bryophytes"
+          "@value": "collection of concepts that apply to non-bilaterally symmetric animals"
         }
       ],
       "skos:member": [
         "http://rs.tdwg.org/acpart/values/p0000",
-        "http://rs.tdwg.org/acpart/values/p0001",
-        "http://rs.tdwg.org/acpart/values/p0004",
-        "http://rs.tdwg.org/acpart/values/p0005",
-        "http://rs.tdwg.org/acpart/values/p0032",
-        "http://rs.tdwg.org/acpart/values/p0033",
-        "http://rs.tdwg.org/acpart/values/p0034",
-        "http://rs.tdwg.org/acpart/values/p0035",
-        "http://rs.tdwg.org/acpart/values/p0036",
-        "http://rs.tdwg.org/acpart/values/p0037",
-        "http://rs.tdwg.org/acpart/values/p0038"
-      ]
-    },
-    {
-      "@id": "http://rs.tdwg.org/acpart/collection/g014",
-      "@type": "http://www.w3.org/2004/02/skos/core#Collection",
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "ferns"
-        }
-      ],
-      "skos:definition": [
-        {
-          "@language": "en",
-          "@value": "collection of concepts that apply to ferns"
-        }
-      ],
-      "skos:member": [
-        "http://rs.tdwg.org/acpart/values/p0000",
-        "http://rs.tdwg.org/acpart/values/p0001",
-        "http://rs.tdwg.org/acpart/values/p0039",
-        "http://rs.tdwg.org/acpart/values/p0040",
-        "http://rs.tdwg.org/acpart/values/p0005"
+        "http://rs.tdwg.org/acpart/values/p0001"
       ]
     }
   ]

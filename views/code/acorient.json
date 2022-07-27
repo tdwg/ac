@@ -62,7 +62,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "view of the anterior side of the part"
+          "@value": "view of the side towards the head or forward end of the organism"
         }
       ]
     },
@@ -81,7 +81,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "view of the posterior side of the part"
+          "@value": "view of the side away from the head or towards the rear end of the organism"
         }
       ]
     },
@@ -100,7 +100,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "view of a lateral side of a part"
+          "@value": "view of the side perpendicular to the main axis of the organism"
         }
       ]
     },
@@ -120,7 +120,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "vied of the right side of a whole bilaterally symmetric organism"
+          "@value": "view of the right side of a whole bilaterally symmetric organism"
         }
       ]
     },
@@ -159,7 +159,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "view of the dorsal side of the part"
+          "@value": "view of the side dorsal to the frontal plane of a bilaterally symmetric organism"
         }
       ]
     },
@@ -178,45 +178,45 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "view of the ventral side of the part"
+          "@value": "view of the side ventral to the frontal plane of a bilaterally symmetric organism"
         }
       ]
     },
     {
       "@id": "http://rs.tdwg.org/acorient/values/r0008",
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-      "rdf:value": "adaxial",
+      "rdf:value": "upper",
       "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
       "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PATO_0002047",
       "skos:prefLabel": [
         {
           "@language": "en",
-          "@value": "adaxial side"
+          "@value": "upper side"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "view of the adaxial side of the part"
+          "@value": "view of the side of the part oriented toward the central axis of a plant (adaxial)"
         }
       ]
     },
     {
       "@id": "http://rs.tdwg.org/acorient/values/r0009",
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-      "rdf:value": "abaxial",
+      "rdf:value": "lower",
       "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
       "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PATO_0002046",
       "skos:prefLabel": [
         {
           "@language": "en",
-          "@value": "abaxial side"
+          "@value": "lower side"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "view of the abaxial side of the part"
+          "@value": "view of the side of the part oriented away from the central axis of a plant (abaxial)"
         }
       ]
     },
@@ -235,7 +235,7 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "view of the apical side of the part"
+          "@value": "view of the side of the part oriented towards the end of the axis away from its attachment point (the apex)"
         }
       ]
     },
@@ -254,43 +254,45 @@
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "view of the basal side of a part"
+          "@value": "view of the side of the part oriented towards the attachment point of the axis"
         }
       ]
     },
     {
       "@id": "http://rs.tdwg.org/acorient/values/r0012",
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-      "rdf:value": "marginal",
+      "rdf:value": "oral",
       "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/BSPO_0015201",
       "skos:prefLabel": [
         {
           "@language": "en",
-          "@value": "marginal"
+          "@value": "oral side"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "needs definition"
+          "@value": "view of the side of the organism oriented towards the oral opening"
         }
       ]
     },
     {
       "@id": "http://rs.tdwg.org/acorient/values/r0013",
       "@type": "http://www.w3.org/2004/02/skos/core#Concept",
-      "rdf:value": "medial",
+      "rdf:value": "aboral",
       "skos:inScheme": "http://rs.tdwg.org/acorient/values/r",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/BSPO_0015202",
       "skos:prefLabel": [
         {
           "@language": "en",
-          "@value": "medial"
+          "@value": "aboral side"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
-          "@value": "needs definition"
+          "@value": "view of the side of the organism oriented away from the oral opening"
         }
       ]
     }

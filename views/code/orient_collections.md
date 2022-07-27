@@ -15,10 +15,10 @@
 <li>left</li>
 <li>dorsal</li>
 <li>ventral</li>
-<li>apical</li>
-<li>basal</li>
 <li>oral</li>
 <li>aboral</li>
+<li>apical</li>
+<li>basal</li>
 </ul>
 
 ## bark
@@ -38,8 +38,8 @@
 
 ## leaf
 <ul>
-<li>adaxial</li>
-<li>abaxial</li>
+<li>upper</li>
+<li>lower</li>
 </ul>
 
 ## strobilis (cone)
@@ -216,3 +216,4 @@
 <ul>
 <li>lateral</li>
 </ul>
+
