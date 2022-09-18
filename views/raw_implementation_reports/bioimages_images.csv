@@ -1,0 +1,25 @@
+image_iri,filename,ac:subjectPartLiteral,ac:subjectOrientationLiteral,notes
+http://bioimages.vanderbilt.edu/baskauf/25638,ggydi--wp25638.jpg,entireOrganism,lateral,
+http://bioimages.vanderbilt.edu/baskauf/12625,gqupa2-wplookup-large12625.jpg,entireOrganism,lateral,"The part is more like ""trunk"" than whole organism."
+http://bioimages.vanderbilt.edu/baskauf/41910,glide3-brlarge41910.jpg,bark,lateral,
+http://bioimages.vanderbilt.edu/baskauf/63779,ggydi--twwinter63779.jpg,twig,lateral,
+http://bioimages.vanderbilt.edu/baskauf/41905,glide3-lf41905.jpg,leaf,adaxial,"Hard to remember that ""adaxial"" is the upper leaf surface."
+http://bioimages.vanderbilt.edu/baskauf/41902,glide3-lfmargin-uplow41902.jpg,leaf,adaxial,About half of the image is adaxial of one leaf and abaxial of another.
+http://bioimages.vanderbilt.edu/baskauf/41887,glide3-lfseveral41887.jpg,leaf,adaxial,"Image shows many leaves, all of the adaxial side, but probably needs to use ROIs."
+http://bioimages.vanderbilt.edu/baskauf/42310,glide3-flinflor42310.jpg,inflorescence,lateral,Orientation not clear as there are various inflorescences sticking out.
+http://bioimages.vanderbilt.edu/baskauf/50597,gcaca18flfemale50597.jpg,inflorescence,lateral,Not sure if I should call this a flower or inflorescence
+http://bioimages.vanderbilt.edu/baskauf/50743,gmaso9-flfront50743.jpg,flower,apical,
+http://bioimages.vanderbilt.edu/baskauf/50741,gmaso9-flclose50741.jpg,flower,apical,Just part of the flower
+http://bioimages.vanderbilt.edu/baskauf/41891,tlide3-fr41891.jpg,fruit,lateral,
+http://bioimages.vanderbilt.edu/baskauf/24261,ggydi--frseeds24261.jpg,fruit,lateral,"Not really lateral, the fruit is dehiscing"
+http://bioimages.vanderbilt.edu/baskauf/65236,goslo--st65236.jpg,stem,lateral,
+http://bioimages.vanderbilt.edu/baskauf/57859,garpe3-wpjuvenile-habit57859.jpg,entireOrganism,apical,"Several plants, some more lateral than apical"
+http://bioimages.vanderbilt.edu/baskauf/27473,gimca--flfront27473.jpg,flower,apical,
+http://bioimages.vanderbilt.edu/baskauf/61716,gpial--lf61716.jpg,leaf,abaxial,not sure how you can tell the orientation for needles
+http://bioimages.vanderbilt.edu/baskauf/51363,gpivi2-cofem-2year51363.jpg,femaleCone,lateral,
+http://bioimages.vanderbilt.edu/baskauf/51365,gpivi2-comale51365.jpg,maleCone,lateral,"several cones, a variety of orientations"
+http://bioimages.vanderbilt.edu/baskauf/33496,gpopr--lfstem33496.jpg,leaf,adaxial,
+http://bioimages.vanderbilt.edu/baskauf/33504,gpopr--flinflor33504.jpg,inflorescence,lateral,
+http://bioimages.vanderbilt.edu/thomas/0627-01-01,g0627-01-01.jpg,entireOrganism,lateral,
+http://bioimages.vanderbilt.edu/baskauf/21935,gsepu--lf21935.jpg,leaf,abaxial,"difficult to say if this is leaf or stem and the leaves are not really laminate, so orientation is difficult"
+http://bioimages.vanderbilt.edu/baskauf/14597,gyusc--lf14597.jpg,leaf,adaxial,"because of the whorled nature of this, both abaxial and adaxial orientations are present"
