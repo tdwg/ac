@@ -1,4 +1,4 @@
-# Final Requirements - draft 2021-11-07
+# Final Requirements
 
 These requirements were filtered from an [original list of candidate requirements](https://github.com/tdwg/ac/blob/master/views/candidate-requirements.md) at the 2021-05-19 Task Group meeting. The links following a requirement lead to the [submitted use cases](https://github.com/tdwg/ac/blob/master/views/submitted-use-cases.md) that generated that requirement.
 
