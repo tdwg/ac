@@ -1,4 +1,4 @@
-# Workflow for generating Views controllde vocabularies
+# Workflow for generating Views controlled vocabularies
 
 Unless otherwise noted, the location of files mentioned here are in this directory.
 
