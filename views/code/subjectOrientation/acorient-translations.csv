@@ -1,16 +1,16 @@
-term_localName,label_en,definition_en
-r,subject orientation concept scheme,a SKOS concept scheme for orientation
-r0000,unspecified orientation,orientation is not known because it is not specified
-r0001,anterior side,view of the side towards the head or forward end of the organism
-r0002,posterior side,view of the side away from the head or towards the rear end of the organism
-r0003,lateral side,view of the side perpendicular to the main axis of the organism
-r0004,right side,view of the right side of a whole bilaterally symmetric organism
-r0005,left side,view of the left side of a whole bilaterally symmetric organism
-r0006,dorsal side,view of the side dorsal to the frontal plane of a bilaterally symmetric organism
-r0007,ventral side,view of the side ventral to the frontal plane of a bilaterally symmetric organism
-r0008,adaxial side,view of the side of the part oriented toward the central axis of a plant (adaxial)
-r0009,abaxial side,view of the side of the part oriented away from the central axis of a plant (abaxial)
-r0010,apical side,view of the side of the part oriented towards the end of the axis away from its attachment point (the apex)
-r0011,basal side,view of the side of the part oriented towards the attachment point of the axis
-r0012,oral side,view of the side of the organism oriented towards the oral opening
-r0013,aboral side,view of the side of the organism oriented away from the oral opening
+term_localName,label_en,definition_en,label_es,definition_es
+r,subject orientation concept scheme,a SKOS concept scheme for orientation,esquema de concepto de orientación de sujeto,un esquema de concepto SKOS para la orientación
+r0000,unspecified orientation,orientation is not known because it is not specified,orientación no especificada,la orientación no se conoce porque no se especifica
+r0001,anterior side,view of the side towards the head or forward end of the organism,cara anterior,vista del lado hacia la cabeza o extremo delantero del organismo
+r0002,posterior side,view of the side away from the head or towards the rear end of the organism,cara posterior,vista del lado opuesto a la cabeza o hacia el extremo posterior del organismo
+r0003,lateral side,view of the side perpendicular to the main axis of the organism,cara lateral,vista del lado perpendicular al eje principal del organismo
+r0004,right side,view of the right side of a whole bilaterally symmetric organism,lado derecho,vista del lado derecho de todo un organismo con simetría bilateral
+r0005,left side,view of the left side of a whole bilaterally symmetric organism,lado izquierdo,vista del lado izquierdo de todo un organismo bilateralmente simétrico
+r0006,dorsal side,view of the side dorsal to the frontal plane of a bilaterally symmetric organism,cara dorsal,vista del lado dorsal al plano frontal de un organismo bilateralmente simétrico
+r0007,ventral side,view of the side ventral to the frontal plane of a bilaterally symmetric organism,cara ventral,vista del lado ventral al plano frontal de un organismo bilateralmente simétrico
+r0008,adaxial side,view of the side of the part oriented toward the central axis of a plant (adaxial),cara adaxial,vista del lado de la parte orientada hacia el eje central de una planta (adaxial)
+r0009,abaxial side,view of the side of the part oriented away from the central axis of a plant (abaxial),cara abaxial,vista del lado de la parte orientada lejos del eje central de una planta (abaxial)
+r0010,apical side,view of the side of the part oriented towards the end of the axis away from its attachment point (the apex),lado apical,vista del lado de la parte orientada hacia el final del eje lejos de su punto de unión (el vértice)
+r0011,basal side,view of the side of the part oriented towards the attachment point of the axis,lado basal,vista del lado de la parte orientada hacia el punto de unión del eje
+r0012,oral side,view of the side of the organism oriented towards the oral opening,cara oral,vista del lado del organismo orientado hacia la abertura oral
+r0013,aboral side,view of the side of the organism oriented away from the oral opening,cara aboral,vista del lado del organismo orientado lejos de la abertura oral
