@@ -20,12 +20,20 @@
         {
           "@language": "en",
           "@value": "subject orientation concept scheme"
+        },
+        {
+          "@language": "es",
+          "@value": "esquema de concepto de orientación de sujeto"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
           "@value": "a SKOS concept scheme for orientation"
+        },
+        {
+          "@language": "es",
+          "@value": "un esquema de concepto SKOS para la orientación"
         }
       ]
     },
@@ -38,12 +46,20 @@
         {
           "@language": "en",
           "@value": "unspecified orientation"
+        },
+        {
+          "@language": "es",
+          "@value": "orientación no especificada"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
           "@value": "orientation is not known because it is not specified"
+        },
+        {
+          "@language": "es",
+          "@value": "la orientación no se conoce porque no se especifica"
         }
       ]
     },
@@ -57,12 +73,20 @@
         {
           "@language": "en",
           "@value": "anterior side"
+        },
+        {
+          "@language": "es",
+          "@value": "cara anterior"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
           "@value": "view of the side towards the head or forward end of the organism"
+        },
+        {
+          "@language": "es",
+          "@value": "vista del lado hacia la cabeza o extremo delantero del organismo"
         }
       ]
     },
@@ -76,12 +100,20 @@
         {
           "@language": "en",
           "@value": "posterior side"
+        },
+        {
+          "@language": "es",
+          "@value": "cara posterior"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
           "@value": "view of the side away from the head or towards the rear end of the organism"
+        },
+        {
+          "@language": "es",
+          "@value": "vista del lado opuesto a la cabeza o hacia el extremo posterior del organismo"
         }
       ]
     },
@@ -95,12 +127,20 @@
         {
           "@language": "en",
           "@value": "lateral side"
+        },
+        {
+          "@language": "es",
+          "@value": "cara lateral"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
           "@value": "view of the side perpendicular to the main axis of the organism"
+        },
+        {
+          "@language": "es",
+          "@value": "vista del lado perpendicular al eje principal del organismo"
         }
       ]
     },
@@ -115,12 +155,20 @@
         {
           "@language": "en",
           "@value": "right side"
+        },
+        {
+          "@language": "es",
+          "@value": "lado derecho"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
           "@value": "view of the right side of a whole bilaterally symmetric organism"
+        },
+        {
+          "@language": "es",
+          "@value": "vista del lado derecho de todo un organismo con simetría bilateral"
         }
       ]
     },
@@ -135,12 +183,20 @@
         {
           "@language": "en",
           "@value": "left side"
+        },
+        {
+          "@language": "es",
+          "@value": "lado izquierdo"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
           "@value": "view of the left side of a whole bilaterally symmetric organism"
+        },
+        {
+          "@language": "es",
+          "@value": "vista del lado izquierdo de todo un organismo bilateralmente simétrico"
         }
       ]
     },
@@ -154,12 +210,20 @@
         {
           "@language": "en",
           "@value": "dorsal side"
+        },
+        {
+          "@language": "es",
+          "@value": "cara dorsal"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
           "@value": "view of the side dorsal to the frontal plane of a bilaterally symmetric organism"
+        },
+        {
+          "@language": "es",
+          "@value": "vista del lado dorsal al plano frontal de un organismo bilateralmente simétrico"
         }
       ]
     },
@@ -173,12 +237,20 @@
         {
           "@language": "en",
           "@value": "ventral side"
+        },
+        {
+          "@language": "es",
+          "@value": "cara ventral"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
           "@value": "view of the side ventral to the frontal plane of a bilaterally symmetric organism"
+        },
+        {
+          "@language": "es",
+          "@value": "vista del lado ventral al plano frontal de un organismo bilateralmente simétrico"
         }
       ]
     },
@@ -192,12 +264,20 @@
         {
           "@language": "en",
           "@value": "upper side"
+        },
+        {
+          "@language": "es",
+          "@value": "cara adaxial"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
           "@value": "view of the side of the part oriented toward the central axis of a plant (adaxial)"
+        },
+        {
+          "@language": "es",
+          "@value": "vista del lado de la parte orientada hacia el eje central de una planta (adaxial)"
         }
       ]
     },
@@ -211,12 +291,20 @@
         {
           "@language": "en",
           "@value": "lower side"
+        },
+        {
+          "@language": "es",
+          "@value": "cara abaxial"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
           "@value": "view of the side of the part oriented away from the central axis of a plant (abaxial)"
+        },
+        {
+          "@language": "es",
+          "@value": "vista del lado de la parte orientada lejos del eje central de una planta (abaxial)"
         }
       ]
     },
@@ -230,12 +318,20 @@
         {
           "@language": "en",
           "@value": "apical side"
+        },
+        {
+          "@language": "es",
+          "@value": "lado apical"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
           "@value": "view of the side of the part oriented towards the end of the axis away from its attachment point (the apex)"
+        },
+        {
+          "@language": "es",
+          "@value": "vista del lado de la parte orientada hacia el final del eje lejos de su punto de unión (el vértice)"
         }
       ]
     },
@@ -249,12 +345,20 @@
         {
           "@language": "en",
           "@value": "basal side"
+        },
+        {
+          "@language": "es",
+          "@value": "lado basal"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
           "@value": "view of the side of the part oriented towards the attachment point of the axis"
+        },
+        {
+          "@language": "es",
+          "@value": "vista del lado de la parte orientada hacia el punto de unión del eje"
         }
       ]
     },
@@ -268,12 +372,20 @@
         {
           "@language": "en",
           "@value": "oral side"
+        },
+        {
+          "@language": "es",
+          "@value": "cara oral"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
           "@value": "view of the side of the organism oriented towards the oral opening"
+        },
+        {
+          "@language": "es",
+          "@value": "vista del lado del organismo orientado hacia la abertura oral"
         }
       ]
     },
@@ -287,12 +399,20 @@
         {
           "@language": "en",
           "@value": "aboral side"
+        },
+        {
+          "@language": "es",
+          "@value": "cara aboral"
         }
       ],
       "skos:definition": [
         {
           "@language": "en",
           "@value": "view of the side of the organism oriented away from the oral opening"
+        },
+        {
+          "@language": "es",
+          "@value": "vista del lado del organismo orientado lejos de la abertura oral"
         }
       ]
     }
