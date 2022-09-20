@@ -1,34 +1,34 @@
-term_localName,label_en,definition_en
-p,subject part concept scheme,a SKOS concept scheme for ac:subjectOrientation
-p0000,unspecified part,Part is not known because it is not specified
-p0001,entire organism,An entire multicellular organism
-p0002,bark,Plant tissue outside the vascular cambium
-p0003,twig,Plant shoot axis developed from axillary buds
-p0004,stem,Plant shoot axis that is the primary axis as defined by
-p0005,leaf,Plant non-reproductive phyllome
-p0006,strobilis (cone),Plant reproductive system consisting of sporophylls
-p0007,inflorescence,Plant reproductive shoot system containing flowers
-p0008,fruit,Plant structure developing from a flower
-p0009,seed,Plant structure containing dormant embryo
-p0010,male cone,Plant strobilis bearing pollen
-p0011,female cone,Plant strobilis bearing ovules
-p0012,flower,Plant reproductive shoot system containing a carpel
-p0013,head,Anterior-most division of the body
-p0014,thorax,The main middle section of the insect body
-p0015,abdomen,The most posterior of the three tagma
-p0016,leg,Walking appendage
-p0017,wing,Appendage that is shaped in order to produce lift for flight through the air
-p0018,antenna,"The paired, usually multiple jointed, sensory organs on the head"
-p0019,forewing,The paired insect wing that is continuous with the mesonotum
-p0020,hindwing,The paired insect wing that is continuous with the metanotum
-p0021,foreleg,Leg of the prothoracic segment
-p0022,midleg,Leg of the mesothoracic segment
-p0023,hindleg,Leg of the metathoracic segment
-p0024,eye,An organ that detects light
-p0025,shell,A rigid covering that envelops an object
-p0026,genitalia,The outer sex organs
-p0027,skull,The part of the head consisting entirely of cranium and mandible
-p0028,cranium,Upper portion of the skull
-p0029,mandible,A dentary bone that is the only bone in one of the lateral halves of the lower jaw
-p0030,fin,An external projection of an aquatic animal used in propelling or guiding the body
-p0031,egg,The hard-shelled reproductive body produced by a bird or a reptile
+term_localName,label_en,definition_en,label_es,definition_es
+p,subject part concept scheme,a SKOS concept scheme for ac:subjectOrientation,esquema de concepto de parte de sujeto,un esquema conceptual de SKOS para ac:subjectOrientation
+p0000,unspecified part,Part is not known because it is not specified,parte no especificada,No se conoce la parte porque no se especifica
+p0001,entire organism,An entire multicellular organism,organismo entero,Un organismo multicelular entero
+p0002,bark,Plant tissue outside the vascular cambium,corteza,Tejido vegetal fuera del cambium vascular
+p0003,twig,Plant shoot axis developed from axillary buds,rama,Eje del brote de la planta desarrollado a partir de yemas axilares.
+p0004,stem,Plant shoot axis that defines the primary axis,tronco,Eje del brote de la planta que define el eje principal
+p0005,leaf,Plant non-reproductive phyllome,hoja,Filoma no reproductivo de plantas
+p0006,strobilis (cone),Plant reproductive system consisting of sporophylls,estróbilo (cono),Sistema reproductivo vegetal que consta de esporófilos
+p0007,inflorescence,Plant reproductive shoot system containing flowers,inflorescencia,Sistema de brotes reproductivos de plantas que contienen flores
+p0008,fruit,Plant structure developing from a flower,fruto,Estructura vegetal que se desarrolla a partir de una flor
+p0009,seed,Plant structure containing dormant embryo,semilla,Estructura vegetal que contiene un embrión latente
+p0010,male cone,Plant strobilis bearing pollen,cono masculino,Estróbilo de la planta que contiene polen
+p0011,female cone,Plant strobilis bearing ovules,cono femenino,Estróbilo de la planta que contiene óvulos
+p0012,flower,Plant reproductive shoot system containing a carpel,flor,Sistema de brotes reproductivos de plantas que contienen un carpelo
+p0013,head,Anterior-most division of the body,cabeza,División más anterior del cuerpo
+p0014,thorax,The middle division of the insect body bearing locomotor appendages,tórax,División media del cuerpo de un insecto que lleva apéndices locomotores
+p0015,abdomen,The posterior-most division of the insect body,abdomen,División más posterior del cuerpo de un insecto
+p0016,leg,Walking appendage,pata,Apéndice caminador
+p0017,wing,Appendage that is shaped in order to produce lift for flight through the air,ala,Apéndice que tiene forma para producir y sustentar vuelo en el aire
+p0018,antenna,"The paired, usually multiple jointed, sensory organs on the head",antena,"Los órganos sensoriales pareados de la cabeza, generalmente con múltiples artejos"
+p0019,forewing,The paired insect wing that is continuous with the mesonotum,ala anterior,Ala de insecto pareada que se continúa con el mesonoto
+p0020,hindwing,The paired insect wing that is continuous with the metanotum,ala posterior,Ala de insecto pareada que se continúa con el metanoto
+p0021,foreleg,Leg of the prothoracic segment,pata anterior,Pata del segmento protorácico
+p0022,midleg,Leg of the mesothoracic segment,pata media,Pata del segmento mesotorácico
+p0023,hindleg,Leg of the metathoracic segment,pata posterior,Pata del segmento metatorácico
+p0024,eye,An organ that detects light,ojo,Un órgano que percibe luz
+p0025,shell,A rigid covering that envelops an object,cascarón,Una cubierta rígida que envuelve un objeto
+p0026,genitalia,The outer sex organs,genitalia,Órganos sexuales externos
+p0027,skull,The part of the head consisting entirely of cranium and mandible,calavera,Parte de la cabeza que consiste enteramente en el cráneo y la mandíbula
+p0028,cranium,Upper portion of the skull,cráneo,Parte superior del cráneo
+p0029,mandible,A dentary bone that is the only bone in one of the lateral halves of the lower jaw,mandíbula,Hueso dentario que es el único hueso en una de las mitades laterales de la mandíbula inferior
+p0030,fin,An external projection of an aquatic animal used in propelling or guiding the body,aleta,Proyección externa de un animal acuático utilizada para impulsar o guiar el cuerpo
+p0031,egg,The hard-shelled reproductive body produced by an animal,huevo,Cuerpo reproductivo de cascarón duro o coriáceo producido por un animal
