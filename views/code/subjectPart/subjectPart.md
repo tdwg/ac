@@ -18,7 +18,7 @@
 
 **Abstract:** The Audubon Core term `subjectPart` describes the part of an organism morphology, behaviour, environment depicted in a media item or region of interest. The subjectPart Controlled Vocabulary provides terms that should be used as values for `ac:subjectPart` and its literal-valued analog `ac:subjectPartLiteral`. 
 
-**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (Stockholm University), Mervin E. Pérez (Universidad de San Carlos de Guatemala), Randy Singer (University of Michigan)
+**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (Stockholm University), Mervin E. Pérez (Universidad de San Carlos de Guatemala), Randy Singer (University of Michigan), Anna M. L. Klompen (University of Kansas)
 
 **Creator:** TDWG Views Controlled Vocabularies Task Group
 
@@ -303,11 +303,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2022-09-19</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0004-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0004-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0004-2022-09-19">http://rs.tdwg.org/acpart/values/version/p0004-2022-09-19</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -315,7 +315,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Plant shoot axis that is the primary axis as defined by</td>
+			<td>Plant shoot axis that defines the primary axis</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
@@ -735,11 +735,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2022-09-19</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0014-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0014-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0014-2022-09-19">http://rs.tdwg.org/acpart/values/version/p0014-2022-09-19</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -747,7 +747,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The main middle section of the insect body</td>
+			<td>The middle division of the insect body bearing locomotor appendages</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
@@ -777,11 +777,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2022-09-19</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0015-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0015-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0015-2022-09-19">http://rs.tdwg.org/acpart/values/version/p0015-2022-09-19</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -789,7 +789,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The most posterior of the three tagma</td>
+			<td>The posterior-most division of the insect body</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
@@ -1477,11 +1477,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2022-09-19</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0031-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0031-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0031-2022-09-19">http://rs.tdwg.org/acpart/values/version/p0031-2022-09-19</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1489,7 +1489,7 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>The hard-shelled reproductive body produced by a bird or a reptile</td>
+			<td>The hard-shelled reproductive body produced by an animal</td>
 		</tr>
 		<tr>
 			<td>Definition derived from:</td>
