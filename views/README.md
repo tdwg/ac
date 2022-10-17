@@ -2,9 +2,13 @@
 
 This is the homepage of the Views Controlled Vocabularies Task Group chartered by the Audubon Core Maintenance Group.  If you are looking for the Audubon Core Maintenance Group page, it's [here](https://github.com/tdwg/ac/blob/master/README.md).
 
-Our group has been approved by the TDWG Executive Committee.
+Deliverables:
 
-The main deliverables of the group's work will be controlled vocabulary terms for to serve as values for `ac:subjectOrientation` and `ac:subjectPart`.  
+[Proposed controlled vocabularies](https://github.com/tdwg/ac/issues/245)
+
+[Testing notes/user guide](https://github.com/tdwg/ac/blob/master/views/views_cv_testing_notes.pdf)
+
+[Implementation experience report (as submitted to BISS)](https://github.com/tdwg/ac/blob/master/views/implementation_experience_report_submitted_20582.pdf)
 
 ## Core Members of the group
 
