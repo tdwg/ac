@@ -52,6 +52,10 @@ The contents of this folder are items that are primarily of historical interest.
 
 [2022-02-02](2022-02-02-meeting-notes.pdf)
 
+[2022-10-28](2022-10-28-meeting-notes.pdf)
+
+[2022-11-10 Working session (Annual meeting) notes](2022-11-10-working-session-notes.pdf)
+
 **Annual reports to the Executive Committee**
 
 [2018](ac-2018-annual-report.md)
