@@ -32,3 +32,10 @@ p0028,cranium,p0027,p,Upper portion of the skull,http://purl.obolibrary.org/obo/
 p0029,mandible,p0027,p,A dentary bone that is the only bone in one of the lateral halves of the lower jaw,http://purl.obolibrary.org/obo/UBERON_0001684,,,,mandible,http://www.w3.org/2004/02/skos/core#Concept
 p0030,fin,,p,An external projection of an aquatic animal used in propelling or guiding the body,http://purl.obolibrary.org/obo/UBERON_0008897,,,,fin,http://www.w3.org/2004/02/skos/core#Concept
 p0031,egg,,p,The hard-shelled reproductive body produced by an animal,http://purl.obolibrary.org/obo/UBERON_0007379,,,,egg,http://www.w3.org/2004/02/skos/core#Concept
+p0032,bud,,p,An undeveloped shoot system,http://purl.obolibrary.org/obo/PO_0000055,,,,bud,http://www.w3.org/2004/02/skos/core#Concept
+p0033,underground structure,,p,Underground plant parts having unspecified morphology,,,,,undergroundStructure,http://www.w3.org/2004/02/skos/core#Concept
+p0034,root,p0033,p,A plant axis lacking shoot nodes and having indeterminate growth,http://purl.obolibrary.org/obo/PO_0009005,,,,root,http://www.w3.org/2004/02/skos/core#Concept
+p0035,corm,p0033,p,"An underground shoot system consisting of a short, enlarged stem and buds",http://purl.obolibrary.org/obo/PO_0025355,,,,corm,http://www.w3.org/2004/02/skos/core#Concept
+p0036,tuber,p0033,p,A radially enlarged underground plant axis,http://purl.obolibrary.org/obo/PO_0025522,,,,tuber,http://www.w3.org/2004/02/skos/core#Concept
+p0037,rhizome,p0033,p,"A swollen, horizontal underground shoot axis",http://purl.obolibrary.org/obo/PO_0004542,,,,rhizome,http://www.w3.org/2004/02/skos/core#Concept
+p0038,bulb,p0033,p,An underground shoot system having a short stem and bud enclosed by fleshy leaves,http://purl.obolibrary.org/obo/PO_0025356,,,,bulb,http://www.w3.org/2004/02/skos/core#Concept
