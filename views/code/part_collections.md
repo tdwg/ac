@@ -17,6 +17,7 @@
 <li>fruit</li>
 <li>seed</li>
 <li>flower</li>
+<li>bud</li>
 </ul>
 
 ## herbaceous angiosperms
@@ -29,6 +30,7 @@
 <li>fruit</li>
 <li>seed</li>
 <li>flower</li>
+<li>bud</li>
 </ul>
 
 ## gymnosperms
@@ -42,6 +44,7 @@
 <li>seed</li>
 <li>maleCone</li>
 <li>femaleCone</li>
+<li>bud</li>
 </ul>
 
 ## fish

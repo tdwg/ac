@@ -909,6 +909,33 @@
           "@value": "Cuerpo reproductivo de cascarón duro o coriáceo producido por un animal"
         }
       ]
+    },
+    {
+      "@id": "http://rs.tdwg.org/acpart/values/p0032",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+      "rdf:value": "bud",
+      "skos:inScheme": "http://rs.tdwg.org/acpart/values/p",
+      "sawsdlrdf:modelReference": "http://purl.obolibrary.org/obo/PO_0000055",
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "bud"
+        },
+        {
+          "@language": "es",
+          "@value": ""
+        }
+      ],
+      "skos:definition": [
+        {
+          "@language": "en",
+          "@value": "An undeveloped shoot system"
+        },
+        {
+          "@language": "es",
+          "@value": ""
+        }
+      ]
     }
   ]
 }

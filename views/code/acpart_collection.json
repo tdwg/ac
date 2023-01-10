@@ -53,7 +53,8 @@
         "http://rs.tdwg.org/acpart/values/p0007",
         "http://rs.tdwg.org/acpart/values/p0008",
         "http://rs.tdwg.org/acpart/values/p0009",
-        "http://rs.tdwg.org/acpart/values/p0012"
+        "http://rs.tdwg.org/acpart/values/p0012",
+        "http://rs.tdwg.org/acpart/values/p0032"
       ]
     },
     {
@@ -79,7 +80,8 @@
         "http://rs.tdwg.org/acpart/values/p0007",
         "http://rs.tdwg.org/acpart/values/p0008",
         "http://rs.tdwg.org/acpart/values/p0009",
-        "http://rs.tdwg.org/acpart/values/p0012"
+        "http://rs.tdwg.org/acpart/values/p0012",
+        "http://rs.tdwg.org/acpart/values/p0032"
       ]
     },
     {
@@ -106,7 +108,8 @@
         "http://rs.tdwg.org/acpart/values/p0006",
         "http://rs.tdwg.org/acpart/values/p0009",
         "http://rs.tdwg.org/acpart/values/p0010",
-        "http://rs.tdwg.org/acpart/values/p0011"
+        "http://rs.tdwg.org/acpart/values/p0011",
+        "http://rs.tdwg.org/acpart/values/p0032"
       ]
     },
     {
