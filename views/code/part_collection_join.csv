@@ -10,6 +10,7 @@ g001,woody angiosperms,p0007,inflorescence
 g001,woody angiosperms,p0008,fruit
 g001,woody angiosperms,p0009,seed
 g001,woody angiosperms,p0012,flower
+g001,woody angiosperms,p0032,bud
 g002,herbaceous angiosperms,p0000,unspecified part
 g002,herbaceous angiosperms,p0001,entire organism
 g002,herbaceous angiosperms,p0004,stem
@@ -18,6 +19,7 @@ g002,herbaceous angiosperms,p0007,inflorescence
 g002,herbaceous angiosperms,p0008,fruit
 g002,herbaceous angiosperms,p0009,seed
 g002,herbaceous angiosperms,p0012,flower
+g002,herbaceous angiosperms,p0032,bud
 g003,gymnosperms,p0000,unspecified part
 g003,gymnosperms,p0001,entire organism
 g003,gymnosperms,p0002,bark
@@ -27,6 +29,7 @@ g003,gymnosperms,p0006,cone
 g003,gymnosperms,p0009,seed
 g003,gymnosperms,p0010,male cone
 g003,gymnosperms,p0011,female cone
+g003,gymnosperms,p0032,bud
 g007,fishes,p0001,entire organism
 g007,fishes,p0000,unspecified part
 g007,fishes,p0013,head
@@ -161,3 +164,5 @@ p0010,male cone,r0011,basal (back) side
 p0011,female cone,r0010,apical (front) side
 p0011,female cone,r0003,lateral side
 p0011,female cone,r0011,basal (back) side
+p0032,bud,r0003,lateral side
+p0032,bud,r0010,apical (front) side
