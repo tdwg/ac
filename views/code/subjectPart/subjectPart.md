@@ -22,7 +22,7 @@
 
 **Creator:** TDWG Views Controlled Vocabularies Task Group
 
-**Bibliographic citation:** Views Controlled Vocabularies Task Group. 2022. subjectPart Controlled Vocabulary. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/part/>
+**Bibliographic citation:** Views Controlled Vocabularies Task Group. 2023. subjectPart Controlled Vocabulary. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/part/>
 
 
 ## 1 Introduction (informative)
@@ -37,10 +37,13 @@ Section 2 is normative except as noted.
 
 Section 3 is informative.
 
-In Section 4, the values of the `Term IRI`, `Definition`, and `Controlled value` are normative. The value of `Usage` (if it exists for a given term) is normative.  The value of `Has broader concept` is normative. The values of `Term Name` are non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  `Label` and the values of all other properties (such as `Notes`) are non-normative.
+In Section 4, the values of the `Term IRI`, `Definition`, and `Controlled value` are normative. The value of `Usage` (if it exists for a given term) is normative.  The value of `Has broader concept` is normative. The values of `Term Name` are non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  `Label` and the values of all other properties (such as `Examples` or `Notes`) are non-normative.
 
 ### 1.2 RFC 2119 key words
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
+
+### 1.3 User feedback reports
+For perspective on the development of this [vocabulary enhancement](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#4-vocabulary-enhancements), refer to the [final Feature Report](https://github.com/tdwg/ac/blob/master/views/final-requirements.md) used to determine the requirements for the vocabulary. The Implementation Experience Report was published in *Biodiversity Information Science and Standards* 7:e94188 and is available at <http://doi.org/10.3897/biss.7.94188>
 
 ## 2 Use of Terms
 
@@ -60,6 +63,7 @@ Neither of these Collections are normative and they are maintained outside of th
 [abdomen](#acpart_p0015) |
 [antenna](#acpart_p0018) |
 [bark](#acpart_p0002) |
+[bud](#acpart_p0032) |
 [cranium](#acpart_p0028) |
 [egg](#acpart_p0031) |
 [entire organism](#acpart_p0001) |
@@ -105,11 +109,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p-2022-07-25">http://rs.tdwg.org/acpart/values/version/p-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p-2023-01-09">http://rs.tdwg.org/acpart/values/version/p-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -139,11 +143,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0000-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0000-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0000-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0000-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -177,11 +181,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0001-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0001-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0001-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0001-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -194,6 +198,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/CARO_0000012">http://purl.obolibrary.org/obo/CARO_0000012</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="http://bioimages.vanderbilt.edu/baskauf/25638">http://bioimages.vanderbilt.edu/baskauf/25638</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -219,11 +227,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0002-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0002-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0002-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0002-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -236,6 +244,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0004518">http://purl.obolibrary.org/obo/PO_0004518</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="http://bioimages.vanderbilt.edu/baskauf/41910">http://bioimages.vanderbilt.edu/baskauf/41910</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -261,11 +273,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0003-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0003-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0003-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0003-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -278,6 +290,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0025073">http://purl.obolibrary.org/obo/PO_0025073</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="http://bioimages.vanderbilt.edu/baskauf/63779">http://bioimages.vanderbilt.edu/baskauf/63779</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -303,11 +319,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-09-19</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0004-2022-09-19">http://rs.tdwg.org/acpart/values/version/p0004-2022-09-19</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0004-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0004-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -320,6 +336,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0009047">http://purl.obolibrary.org/obo/PO_0009047</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="http://bioimages.vanderbilt.edu/baskauf/65236">http://bioimages.vanderbilt.edu/baskauf/65236</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -345,11 +365,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0005-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0005-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0005-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0005-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -362,6 +382,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0025034">http://purl.obolibrary.org/obo/PO_0025034</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="http://bioimages.vanderbilt.edu/baskauf/41905">http://bioimages.vanderbilt.edu/baskauf/41905</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -387,11 +411,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0006-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0006-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0006-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0006-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -404,6 +428,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0025083">http://purl.obolibrary.org/obo/PO_0025083</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="http://bioimages.vanderbilt.edu/baskauf/60561">http://bioimages.vanderbilt.edu/baskauf/60561</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -429,11 +457,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0007-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0007-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0007-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0007-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -446,6 +474,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0009049">http://purl.obolibrary.org/obo/PO_0009049</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="http://bioimages.vanderbilt.edu/baskauf/57919">http://bioimages.vanderbilt.edu/baskauf/57919</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -471,11 +503,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0008-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0008-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0008-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0008-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -488,6 +520,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0009001">http://purl.obolibrary.org/obo/PO_0009001</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="http://bioimages.vanderbilt.edu/baskauf/41891">http://bioimages.vanderbilt.edu/baskauf/41891</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -513,11 +549,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0009-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0009-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0009-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0009-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -530,6 +566,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0009010">http://purl.obolibrary.org/obo/PO_0009010</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="http://bioimages.vanderbilt.edu/baskauf/30744">http://bioimages.vanderbilt.edu/baskauf/30744</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -555,11 +595,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0010-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0010-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0010-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0010-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -572,6 +612,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0005031">http://purl.obolibrary.org/obo/PO_0005031</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="http://bioimages.vanderbilt.edu/baskauf/51365">http://bioimages.vanderbilt.edu/baskauf/51365</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -601,11 +645,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0011-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0011-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0011-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0011-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -618,6 +662,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0005032">http://purl.obolibrary.org/obo/PO_0005032</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="http://bioimages.vanderbilt.edu/baskauf/51363">http://bioimages.vanderbilt.edu/baskauf/51363</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -647,11 +695,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0012-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0012-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0012-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0012-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -664,6 +712,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0009046">http://purl.obolibrary.org/obo/PO_0009046</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="http://bioimages.vanderbilt.edu/baskauf/52498">http://bioimages.vanderbilt.edu/baskauf/52498</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -693,11 +745,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0013-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0013-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0013-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0013-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -710,6 +762,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0000033">http://purl.obolibrary.org/obo/UBERON_0000033</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://monarch.calacademy.org/mnt/target-images/CASTYPE/00001/CASTYPE1503_h.jpg">https://monarch.calacademy.org/mnt/target-images/CASTYPE/00001/CASTYPE1503_h.jpg</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -735,11 +791,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-09-19</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0014-2022-09-19">http://rs.tdwg.org/acpart/values/version/p0014-2022-09-19</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0014-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0014-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -752,6 +808,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_6000015">http://purl.obolibrary.org/obo/UBERON_6000015</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://mczbase.mcz.harvard.edu/specimen_images/entomology/large/MCZ-ENT00610536_Lasioglossum_oblongum_thl.jpg">https://mczbase.mcz.harvard.edu/specimen_images/entomology/large/MCZ-ENT00610536_Lasioglossum_oblongum_thl.jpg</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -777,11 +837,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-09-19</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0015-2022-09-19">http://rs.tdwg.org/acpart/values/version/p0015-2022-09-19</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0015-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0015-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -794,6 +854,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_6000020">http://purl.obolibrary.org/obo/UBERON_6000020</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://commons.wikimedia.org/wiki/File:Halictus_scabiosae,_specimen_exonie54,_from_Botevgrad,_Bulgaria_10_(dorsal,_abdomen).jpg">https://commons.wikimedia.org/wiki/File:Halictus_scabiosae,_specimen_exonie54,_from_Botevgrad,_Bulgaria_10_(dorsal,_abdomen).jpg</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -819,11 +883,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0016-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0016-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0016-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0016-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -836,6 +900,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0002101">http://purl.obolibrary.org/obo/UBERON_0002101</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://mczbase.mcz.harvard.edu/specimen_images/entomology/large/MCZ-ENT00000547_Halictus_albitarsis_hlg.jpg">https://mczbase.mcz.harvard.edu/specimen_images/entomology/large/MCZ-ENT00000547_Halictus_albitarsis_hlg.jpg</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -861,11 +929,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0017-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0017-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0017-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0017-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -878,6 +946,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0000023">http://purl.obolibrary.org/obo/UBERON_0000023</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Danaus_plexippus_Wing_2400px.jpg">https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Danaus_plexippus_Wing_2400px.jpg</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -903,11 +975,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0018-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0018-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0018-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0018-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -920,6 +992,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0000972">http://purl.obolibrary.org/obo/UBERON_0000972</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://commons.wikimedia.org/wiki/File:Blatta_orientalis_male_from_Botevgrad,_Bulgaria_05.jpg">https://commons.wikimedia.org/wiki/File:Blatta_orientalis_male_from_Botevgrad,_Bulgaria_05.jpg</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -945,11 +1021,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0019-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0019-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0019-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0019-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -962,6 +1038,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/AISM_0000037">http://purl.obolibrary.org/obo/AISM_0000037</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://mczbase.mcz.harvard.edu/specimen_images/entomology/large/MCZ-ENT00017211_Melissa_porteri_fwg.jpg">https://mczbase.mcz.harvard.edu/specimen_images/entomology/large/MCZ-ENT00017211_Melissa_porteri_fwg.jpg</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -991,11 +1071,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0020-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0020-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0020-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0020-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1008,6 +1088,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/AISM_0000038">http://purl.obolibrary.org/obo/AISM_0000038</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://mczbase.mcz.harvard.edu/specimen_images/entomology/large/MCZ-ENT00610195_Agapostemon_texanus_hwg.jpg">https://mczbase.mcz.harvard.edu/specimen_images/entomology/large/MCZ-ENT00610195_Agapostemon_texanus_hwg.jpg</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -1037,11 +1121,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0021-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0021-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0021-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0021-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1054,6 +1138,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_6004663">http://purl.obolibrary.org/obo/UBERON_6004663</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://www.morphbank.net/?id=861240">https://www.morphbank.net/?id=861240</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -1083,11 +1171,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0022-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0022-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0022-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0022-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1100,6 +1188,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/FBbt_00004685">http://purl.obolibrary.org/obo/FBbt_00004685</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://www.morphbank.net/?id=102967">https://www.morphbank.net/?id=102967</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -1129,11 +1221,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0023-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0023-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0023-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0023-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1146,6 +1238,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/FBbt_00004707">http://purl.obolibrary.org/obo/FBbt_00004707</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://www.morphbank.net/?id=468627">https://www.morphbank.net/?id=468627</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -1175,11 +1271,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0024-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0024-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0024-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0024-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1192,6 +1288,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0000970">http://purl.obolibrary.org/obo/UBERON_0000970</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://commons.wikimedia.org/wiki/File:Compound_eye_of_a_Bumblebee.jpg">https://commons.wikimedia.org/wiki/File:Compound_eye_of_a_Bumblebee.jpg</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -1217,11 +1317,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0025-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0025-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0025-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0025-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1234,6 +1334,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0006612">http://purl.obolibrary.org/obo/UBERON_0006612</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://www.inaturalist.org/photos/251026905">https://www.inaturalist.org/photos/251026905</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -1259,11 +1363,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0026-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0026-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0026-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0026-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1276,6 +1380,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0004176">http://purl.obolibrary.org/obo/UBERON_0004176</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://commons.wikimedia.org/wiki/File:Dragonfly,_U,_genitalia_top_2013-01-11-14.10.09_ZS_PMax_(8372440610).jpg">https://commons.wikimedia.org/wiki/File:Dragonfly,_U,_genitalia_top_2013-01-11-14.10.09_ZS_PMax_(8372440610).jpg</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -1301,11 +1409,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0027-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0027-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0027-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0027-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1318,6 +1426,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0003129">http://purl.obolibrary.org/obo/UBERON_0003129</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://www.inaturalist.org/photos/251216754">https://www.inaturalist.org/photos/251216754</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -1343,11 +1455,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0028-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0028-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0028-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0028-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1360,6 +1472,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0003128">http://purl.obolibrary.org/obo/UBERON_0003128</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="http://arctos.database.museum/media/10508734">http://arctos.database.museum/media/10508734</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -1389,11 +1505,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0029-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0029-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0029-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0029-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1406,6 +1522,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0001684">http://purl.obolibrary.org/obo/UBERON_0001684</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="http://arctos.database.museum/media/10473443">http://arctos.database.museum/media/10473443</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -1435,11 +1555,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-07-25</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0030-2022-07-25">http://rs.tdwg.org/acpart/values/version/p0030-2022-07-25</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0030-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0030-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1452,6 +1572,10 @@ Neither of these Collections are normative and they are maintained outside of th
 		<tr>
 			<td>Definition derived from:</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0008897">http://purl.obolibrary.org/obo/UBERON_0008897</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="https://www.inaturalist.org/photos/249623779">https://www.inaturalist.org/photos/249623779</a></td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
@@ -1477,11 +1601,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2022-09-19</td>
+			<td>2023-01-09</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0031-2022-09-19">http://rs.tdwg.org/acpart/values/version/p0031-2022-09-19</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0031-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0031-2023-01-09</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1496,8 +1620,58 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0007379">http://purl.obolibrary.org/obo/UBERON_0007379</a></td>
 		</tr>
 		<tr>
+			<td>Examples</td>
+			<td><a href="http://arctos.database.museum/media/10517057">http://arctos.database.museum/media/10517057</a></td>
+		</tr>
+		<tr>
 			<td>Controlled value</td>
 			<td>egg</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Concept</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="acpart_p0032"></a>Term Name  acpart:p0032</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/acpart/values/p0032">http://rs.tdwg.org/acpart/values/p0032</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2023-01-09</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0032-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0032-2023-01-09</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>bud</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>An undeveloped shoot system</td>
+		</tr>
+		<tr>
+			<td>Definition derived from:</td>
+			<td><a href="http://purl.obolibrary.org/obo/PO_0000055">http://purl.obolibrary.org/obo/PO_0000055</a></td>
+		</tr>
+		<tr>
+			<td>Examples</td>
+			<td><a href="http://bioimages.vanderbilt.edu/baskauf/16256">http://bioimages.vanderbilt.edu/baskauf/16256</a></td>
+		</tr>
+		<tr>
+			<td>Controlled value</td>
+			<td>bud</td>
 		</tr>
 		<tr>
 			<td>Type</td>
