@@ -27,7 +27,7 @@
 
 ## 1 Introduction (informative)
 
-This document includes terms intended to be used as controlled values for the Audubon Core terms `ac:subjectOrientation` and `ac:subjectOrientationLiteral`. A [JSON-LD representation](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient.json) of this SKOS Concept Scheme is available.
+This document includes terms intended to be used as controlled values for the Audubon Core terms `ac:subjectOrientation` and `ac:subjectOrientationLiteral`. A [JSON-LD representation](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient.json) of this SKOS Concept Scheme is available. For more information about how to use this vocabulary, see the [subjectPart and subjectOrientation Controlled Vocabularies User Guide](https://github.com/tdwg/ac/blob/master/views/views_user_guide.pdf).
 
 ### 1.1 Status of the content of this document
 
