@@ -8,7 +8,7 @@ Deliverables:
 
 [Testing notes/user guide](https://github.com/tdwg/ac/blob/master/views/views_cv_testing_notes.pdf)
 
-[Implementation experience report (as submitted to BISS)](https://github.com/tdwg/ac/blob/master/views/implementation_experience_report_submitted_20582.pdf)
+Implementation experience report <http://doi.org/10.3897/biss.7.94188>
 
 ## Core Members of the group
 
