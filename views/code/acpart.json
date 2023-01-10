@@ -923,7 +923,7 @@
         },
         {
           "@language": "es",
-          "@value": ""
+          "@value": "brote"
         }
       ],
       "skos:definition": [
@@ -933,7 +933,7 @@
         },
         {
           "@language": "es",
-          "@value": ""
+          "@value": "Un sistema de tallo sin desarrollar"
         }
       ]
     }
