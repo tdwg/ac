@@ -1,0 +1,7 @@
+term_localName,label,skos_broader,skos_inScheme,definition,definition_derived_from,usage,notes,examples,controlled_value_string,type
+p0033,underground structure,,p,Underground plant parts having unspecified morphology,,,,,undergroundStructure,http://www.w3.org/2004/02/skos/core#Concept
+p0034,root,p0033,p,A plant axis lacking shoot nodes and having indeterminate growth,http://purl.obolibrary.org/obo/PO_0009005,,,http://bioimages.vanderbilt.edu/baskauf/25437,root,http://www.w3.org/2004/02/skos/core#Concept
+p0035,corm,p0033,p,"An underground shoot system consisting of a short, enlarged stem and buds",http://purl.obolibrary.org/obo/PO_0025355,,,,corm,http://www.w3.org/2004/02/skos/core#Concept
+p0036,tuber,p0033,p,A radially enlarged underground plant axis,http://purl.obolibrary.org/obo/PO_0025522,,,,tuber,http://www.w3.org/2004/02/skos/core#Concept
+p0037,rhizome,p0033,p,"A swollen, horizontal underground shoot axis",http://purl.obolibrary.org/obo/PO_0004542,,,,rhizome,http://www.w3.org/2004/02/skos/core#Concept
+p0038,bulb,p0033,p,An underground shoot system having a short stem and bud enclosed by fleshy leaves,http://purl.obolibrary.org/obo/PO_0025356,,,,bulb,http://www.w3.org/2004/02/skos/core#Concept

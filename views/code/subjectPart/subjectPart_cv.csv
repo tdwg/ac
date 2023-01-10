@@ -1,41 +1,35 @@
 term_localName,label,skos_broader,skos_inScheme,definition,definition_derived_from,usage,notes,examples,controlled_value_string,type
 p,subject part concept scheme,,,a SKOS concept scheme for ac:subjectOrientation,,,,,,http://www.w3.org/2004/02/skos/core#ConceptScheme
 p0000,unspecified part,,p,Part is not known because it is not specified,,,,,unspecifiedPart,http://www.w3.org/2004/02/skos/core#Concept
-p0001,entire organism,,p,An entire multicellular organism,http://purl.obolibrary.org/obo/CARO_0000012,,,,entireOrganism,http://www.w3.org/2004/02/skos/core#Concept
-p0002,bark,,p,Plant tissue outside the vascular cambium,http://purl.obolibrary.org/obo/PO_0004518,,,,bark,http://www.w3.org/2004/02/skos/core#Concept
-p0003,twig,,p,Plant shoot axis developed from axillary buds,http://purl.obolibrary.org/obo/PO_0025073,,,,twig,http://www.w3.org/2004/02/skos/core#Concept
-p0004,stem,,p,Plant shoot axis that defines the primary axis,http://purl.obolibrary.org/obo/PO_0009047,,,,stem,http://www.w3.org/2004/02/skos/core#Concept
-p0005,leaf,,p,Plant non-reproductive phyllome,http://purl.obolibrary.org/obo/PO_0025034,,,,leaf,http://www.w3.org/2004/02/skos/core#Concept
-p0006,strobilis (cone),,p,Plant reproductive system consisting of sporophylls,http://purl.obolibrary.org/obo/PO_0025083,,,,strobilis,http://www.w3.org/2004/02/skos/core#Concept
-p0007,inflorescence,,p,Plant reproductive shoot system containing flowers,http://purl.obolibrary.org/obo/PO_0009049,,,,inflorescence,http://www.w3.org/2004/02/skos/core#Concept
-p0008,fruit,,p,Plant structure developing from a flower,http://purl.obolibrary.org/obo/PO_0009001,,,,fruit,http://www.w3.org/2004/02/skos/core#Concept
-p0009,seed,,p,Plant structure containing dormant embryo,http://purl.obolibrary.org/obo/PO_0009010,,,,seed,http://www.w3.org/2004/02/skos/core#Concept
-p0010,male cone,p0006,p,Plant strobilis bearing pollen,http://purl.obolibrary.org/obo/PO_0005031,,,,maleCone,http://www.w3.org/2004/02/skos/core#Concept
-p0011,female cone,p0006,p,Plant strobilis bearing ovules,http://purl.obolibrary.org/obo/PO_0005032,,,,femaleCone,http://www.w3.org/2004/02/skos/core#Concept
-p0012,flower,p0007,p,Plant reproductive shoot system containing a carpel,http://purl.obolibrary.org/obo/PO_0009046,,,,flower,http://www.w3.org/2004/02/skos/core#Concept
-p0013,head,,p,Anterior-most division of the body,http://purl.obolibrary.org/obo/UBERON_0000033,,,,head,http://www.w3.org/2004/02/skos/core#Concept
-p0014,thorax,,p,The middle division of the insect body bearing locomotor appendages,http://purl.obolibrary.org/obo/UBERON_6000015,,,,thorax,http://www.w3.org/2004/02/skos/core#Concept
-p0015,abdomen,,p,The posterior-most division of the insect body,http://purl.obolibrary.org/obo/UBERON_6000020,,,,abdomen,http://www.w3.org/2004/02/skos/core#Concept
-p0016,leg,,p,Walking appendage,http://purl.obolibrary.org/obo/UBERON_0002101,,,,leg,http://www.w3.org/2004/02/skos/core#Concept
-p0017,wing,,p,Appendage that is shaped in order to produce lift for flight through the air,http://purl.obolibrary.org/obo/UBERON_0000023,,,,wing,http://www.w3.org/2004/02/skos/core#Concept
-p0018,antenna,,p,"The paired, usually multiple jointed, sensory organs on the head",http://purl.obolibrary.org/obo/UBERON_0000972,,,,antenna,http://www.w3.org/2004/02/skos/core#Concept
-p0019,forewing,p0017,p,The paired insect wing that is continuous with the mesonotum,http://purl.obolibrary.org/obo/AISM_0000037,,,,forewing,http://www.w3.org/2004/02/skos/core#Concept
-p0020,hindwing,p0017,p,The paired insect wing that is continuous with the metanotum,http://purl.obolibrary.org/obo/AISM_0000038,,,,hindwing,http://www.w3.org/2004/02/skos/core#Concept
-p0021,foreleg,p0016,p,Leg of the prothoracic segment,http://purl.obolibrary.org/obo/UBERON_6004663,,,,foreleg,http://www.w3.org/2004/02/skos/core#Concept
-p0022,midleg,p0016,p,Leg of the mesothoracic segment,http://purl.obolibrary.org/obo/FBbt_00004685,,,,midleg,http://www.w3.org/2004/02/skos/core#Concept
-p0023,hindleg,p0016,p,Leg of the metathoracic segment,http://purl.obolibrary.org/obo/FBbt_00004707,,,,hindleg,http://www.w3.org/2004/02/skos/core#Concept
-p0024,eye,,p,An organ that detects light,http://purl.obolibrary.org/obo/UBERON_0000970,,,,eye,http://www.w3.org/2004/02/skos/core#Concept
-p0025,shell,,p,A rigid covering that envelops an object,http://purl.obolibrary.org/obo/UBERON_0006612,,,,shell,http://www.w3.org/2004/02/skos/core#Concept
-p0026,genitalia,,p,The outer sex organs,http://purl.obolibrary.org/obo/UBERON_0004176,,,,genitalia,http://www.w3.org/2004/02/skos/core#Concept
-p0027,skull,,p,The part of the head consisting entirely of cranium and mandible,http://purl.obolibrary.org/obo/UBERON_0003129,,,,skull,http://www.w3.org/2004/02/skos/core#Concept
-p0028,cranium,p0027,p,Upper portion of the skull,http://purl.obolibrary.org/obo/UBERON_0003128,,,,cranium,http://www.w3.org/2004/02/skos/core#Concept
-p0029,mandible,p0027,p,A dentary bone that is the only bone in one of the lateral halves of the lower jaw,http://purl.obolibrary.org/obo/UBERON_0001684,,,,mandible,http://www.w3.org/2004/02/skos/core#Concept
-p0030,fin,,p,An external projection of an aquatic animal used in propelling or guiding the body,http://purl.obolibrary.org/obo/UBERON_0008897,,,,fin,http://www.w3.org/2004/02/skos/core#Concept
-p0031,egg,,p,The hard-shelled reproductive body produced by an animal,http://purl.obolibrary.org/obo/UBERON_0007379,,,,egg,http://www.w3.org/2004/02/skos/core#Concept
-p0032,bud,,p,An undeveloped shoot system,http://purl.obolibrary.org/obo/PO_0000055,,,,bud,http://www.w3.org/2004/02/skos/core#Concept
-p0033,underground structure,,p,Underground plant parts having unspecified morphology,,,,,undergroundStructure,http://www.w3.org/2004/02/skos/core#Concept
-p0034,root,p0033,p,A plant axis lacking shoot nodes and having indeterminate growth,http://purl.obolibrary.org/obo/PO_0009005,,,,root,http://www.w3.org/2004/02/skos/core#Concept
-p0035,corm,p0033,p,"An underground shoot system consisting of a short, enlarged stem and buds",http://purl.obolibrary.org/obo/PO_0025355,,,,corm,http://www.w3.org/2004/02/skos/core#Concept
-p0036,tuber,p0033,p,A radially enlarged underground plant axis,http://purl.obolibrary.org/obo/PO_0025522,,,,tuber,http://www.w3.org/2004/02/skos/core#Concept
-p0037,rhizome,p0033,p,"A swollen, horizontal underground shoot axis",http://purl.obolibrary.org/obo/PO_0004542,,,,rhizome,http://www.w3.org/2004/02/skos/core#Concept
-p0038,bulb,p0033,p,An underground shoot system having a short stem and bud enclosed by fleshy leaves,http://purl.obolibrary.org/obo/PO_0025356,,,,bulb,http://www.w3.org/2004/02/skos/core#Concept
+p0001,entire organism,,p,An entire multicellular organism,http://purl.obolibrary.org/obo/CARO_0000012,,,http://bioimages.vanderbilt.edu/baskauf/25638,entireOrganism,http://www.w3.org/2004/02/skos/core#Concept
+p0002,bark,,p,Plant tissue outside the vascular cambium,http://purl.obolibrary.org/obo/PO_0004518,,,http://bioimages.vanderbilt.edu/baskauf/41910,bark,http://www.w3.org/2004/02/skos/core#Concept
+p0003,twig,,p,Plant shoot axis developed from axillary buds,http://purl.obolibrary.org/obo/PO_0025073,,,http://bioimages.vanderbilt.edu/baskauf/63779,twig,http://www.w3.org/2004/02/skos/core#Concept
+p0004,stem,,p,Plant shoot axis that defines the primary axis,http://purl.obolibrary.org/obo/PO_0009047,,,http://bioimages.vanderbilt.edu/baskauf/65236,stem,http://www.w3.org/2004/02/skos/core#Concept
+p0005,leaf,,p,Plant non-reproductive phyllome,http://purl.obolibrary.org/obo/PO_0025034,,,http://bioimages.vanderbilt.edu/baskauf/41905,leaf,http://www.w3.org/2004/02/skos/core#Concept
+p0006,strobilis (cone),,p,Plant reproductive system consisting of sporophylls,http://purl.obolibrary.org/obo/PO_0025083,,,http://bioimages.vanderbilt.edu/baskauf/60561,strobilis,http://www.w3.org/2004/02/skos/core#Concept
+p0007,inflorescence,,p,Plant reproductive shoot system containing flowers,http://purl.obolibrary.org/obo/PO_0009049,,,http://bioimages.vanderbilt.edu/baskauf/57919,inflorescence,http://www.w3.org/2004/02/skos/core#Concept
+p0008,fruit,,p,Plant structure developing from a flower,http://purl.obolibrary.org/obo/PO_0009001,,,http://bioimages.vanderbilt.edu/baskauf/41891,fruit,http://www.w3.org/2004/02/skos/core#Concept
+p0009,seed,,p,Plant structure containing dormant embryo,http://purl.obolibrary.org/obo/PO_0009010,,,http://bioimages.vanderbilt.edu/baskauf/30744,seed,http://www.w3.org/2004/02/skos/core#Concept
+p0010,male cone,p0006,p,Plant strobilis bearing pollen,http://purl.obolibrary.org/obo/PO_0005031,,,http://bioimages.vanderbilt.edu/baskauf/51365,maleCone,http://www.w3.org/2004/02/skos/core#Concept
+p0011,female cone,p0006,p,Plant strobilis bearing ovules,http://purl.obolibrary.org/obo/PO_0005032,,,http://bioimages.vanderbilt.edu/baskauf/51363,femaleCone,http://www.w3.org/2004/02/skos/core#Concept
+p0012,flower,p0007,p,Plant reproductive shoot system containing a carpel,http://purl.obolibrary.org/obo/PO_0009046,,,http://bioimages.vanderbilt.edu/baskauf/52498,flower,http://www.w3.org/2004/02/skos/core#Concept
+p0013,head,,p,Anterior-most division of the body,http://purl.obolibrary.org/obo/UBERON_0000033,,,https://monarch.calacademy.org/mnt/target-images/CASTYPE/00001/CASTYPE1503_h.jpg,head,http://www.w3.org/2004/02/skos/core#Concept
+p0014,thorax,,p,The middle division of the insect body bearing locomotor appendages,http://purl.obolibrary.org/obo/UBERON_6000015,,,https://mczbase.mcz.harvard.edu/specimen_images/entomology/large/MCZ-ENT00610536_Lasioglossum_oblongum_thl.jpg,thorax,http://www.w3.org/2004/02/skos/core#Concept
+p0015,abdomen,,p,The posterior-most division of the insect body,http://purl.obolibrary.org/obo/UBERON_6000020,,,"https://commons.wikimedia.org/wiki/File:Halictus_scabiosae,_specimen_exonie54,_from_Botevgrad,_Bulgaria_10_(dorsal,_abdomen).jpg",abdomen,http://www.w3.org/2004/02/skos/core#Concept
+p0016,leg,,p,Walking appendage,http://purl.obolibrary.org/obo/UBERON_0002101,,,https://mczbase.mcz.harvard.edu/specimen_images/entomology/large/MCZ-ENT00000547_Halictus_albitarsis_hlg.jpg,leg,http://www.w3.org/2004/02/skos/core#Concept
+p0017,wing,,p,Appendage that is shaped in order to produce lift for flight through the air,http://purl.obolibrary.org/obo/UBERON_0000023,,,https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Danaus_plexippus_Wing_2400px.jpg,wing,http://www.w3.org/2004/02/skos/core#Concept
+p0018,antenna,,p,"The paired, usually multiple jointed, sensory organs on the head",http://purl.obolibrary.org/obo/UBERON_0000972,,,"https://commons.wikimedia.org/wiki/File:Blatta_orientalis_male_from_Botevgrad,_Bulgaria_05.jpg",antenna,http://www.w3.org/2004/02/skos/core#Concept
+p0019,forewing,p0017,p,The paired insect wing that is continuous with the mesonotum,http://purl.obolibrary.org/obo/AISM_0000037,,,https://mczbase.mcz.harvard.edu/specimen_images/entomology/large/MCZ-ENT00017211_Melissa_porteri_fwg.jpg,forewing,http://www.w3.org/2004/02/skos/core#Concept
+p0020,hindwing,p0017,p,The paired insect wing that is continuous with the metanotum,http://purl.obolibrary.org/obo/AISM_0000038,,,https://mczbase.mcz.harvard.edu/specimen_images/entomology/large/MCZ-ENT00610195_Agapostemon_texanus_hwg.jpg,hindwing,http://www.w3.org/2004/02/skos/core#Concept
+p0021,foreleg,p0016,p,Leg of the prothoracic segment,http://purl.obolibrary.org/obo/UBERON_6004663,,,https://www.morphbank.net/?id=861240,foreleg,http://www.w3.org/2004/02/skos/core#Concept
+p0022,midleg,p0016,p,Leg of the mesothoracic segment,http://purl.obolibrary.org/obo/FBbt_00004685,,,https://www.morphbank.net/?id=102967,midleg,http://www.w3.org/2004/02/skos/core#Concept
+p0023,hindleg,p0016,p,Leg of the metathoracic segment,http://purl.obolibrary.org/obo/FBbt_00004707,,,https://www.morphbank.net/?id=468627,hindleg,http://www.w3.org/2004/02/skos/core#Concept
+p0024,eye,,p,An organ that detects light,http://purl.obolibrary.org/obo/UBERON_0000970,,,https://commons.wikimedia.org/wiki/File:Compound_eye_of_a_Bumblebee.jpg,eye,http://www.w3.org/2004/02/skos/core#Concept
+p0025,shell,,p,A rigid covering that envelops an object,http://purl.obolibrary.org/obo/UBERON_0006612,,,https://www.inaturalist.org/photos/251026905,shell,http://www.w3.org/2004/02/skos/core#Concept
+p0026,genitalia,,p,The outer sex organs,http://purl.obolibrary.org/obo/UBERON_0004176,,,"https://commons.wikimedia.org/wiki/File:Dragonfly,_U,_genitalia_top_2013-01-11-14.10.09_ZS_PMax_(8372440610).jpg",genitalia,http://www.w3.org/2004/02/skos/core#Concept
+p0027,skull,,p,The part of the head consisting entirely of cranium and mandible,http://purl.obolibrary.org/obo/UBERON_0003129,,,https://www.inaturalist.org/photos/251216754,skull,http://www.w3.org/2004/02/skos/core#Concept
+p0028,cranium,p0027,p,Upper portion of the skull,http://purl.obolibrary.org/obo/UBERON_0003128,,,http://arctos.database.museum/media/10508734,cranium,http://www.w3.org/2004/02/skos/core#Concept
+p0029,mandible,p0027,p,A dentary bone that is the only bone in one of the lateral halves of the lower jaw,http://purl.obolibrary.org/obo/UBERON_0001684,,,http://arctos.database.museum/media/10473443,mandible,http://www.w3.org/2004/02/skos/core#Concept
+p0030,fin,,p,An external projection of an aquatic animal used in propelling or guiding the body,http://purl.obolibrary.org/obo/UBERON_0008897,,,https://www.inaturalist.org/photos/249623779,fin,http://www.w3.org/2004/02/skos/core#Concept
+p0031,egg,,p,The hard-shelled reproductive body produced by an animal,http://purl.obolibrary.org/obo/UBERON_0007379,,,http://arctos.database.museum/media/10517057,egg,http://www.w3.org/2004/02/skos/core#Concept
+p0032,bud,,p,An undeveloped shoot system,http://purl.obolibrary.org/obo/PO_0000055,,,http://bioimages.vanderbilt.edu/baskauf/16256,bud,http://www.w3.org/2004/02/skos/core#Concept
