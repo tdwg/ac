@@ -2,9 +2,9 @@
 permalink: /variant/
 ---
 
-# Controlled Vocabulary for Audubon Core variant: List of Terms
+# Controlled Vocabulary for Audiovisual Core variant: List of Terms
 
-**Title:** Controlled Vocabulary for Audubon Core variant: List of Terms
+**Title:** Controlled Vocabulary for Audiovisual Core variant: List of Terms
 
 **Namespace URI:** http://rs.tdwg.org/acvariant/values/
 
@@ -20,18 +20,18 @@ permalink: /variant/
 
 **Latest version:** http://rs.tdwg.org/ac/doc/variant/
 
-**Abstract:** Audubon Core uses the terms `ac:variant` and `ac:variantLiteral` to provide information about the size, extent, and availability of the Service Access Point of a media item. This controlled vocabulary provides values for those terms. 
+**Abstract:** Audiovisual Core uses the terms `ac:variant` and `ac:variantLiteral` to provide information about the size, extent, and availability of the Service Access Point of a media item. This controlled vocabulary provides values for those terms. 
 
 **Contributors:** Steven J Baskauf (Vanderbilt University Heard Libraries), Ed Baker (Natural History Museum, London), Dan Stowell (Queen Mary University of London / Alan Turing Institute)
 
-**Creator:** TDWG Audubon Core Maintenance Group
+**Creator:** TDWG Audiovisual Core Maintenance Group
 
-**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Controlled Vocabulary for Audubon Core variant: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/variant/2020-10-13>
+**Bibliographic citation:** Audiovisual Core Maintenance Group. 2020. Controlled Vocabulary for Audiovisual Core variant: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/variant/2020-10-13>
 
 
 ## 1 Introduction (informative)
 
-This document includes terms intended to be used as a controlled value for Audubon Core terms `ac:variant` and `ac:variantLiteral`.
+This document includes terms intended to be used as a controlled value for Audiovisual Core terms `ac:variant` and `ac:variantLiteral`.
 
 ### 1.1 Status of the content of this document
 
@@ -50,7 +50,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### 2.1 Relationship of value types to property terms
 
-In accordance with [the Audubon Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs SHOULD be used as values of the property `ac:variant`. Controlled value strings SHOULD be used as values of the property `ac:variantLiteral`.
+In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs SHOULD be used as values of the property `ac:variant`. Controlled value strings SHOULD be used as values of the property `ac:variantLiteral`.
 
 ### 2.2 Relationship between values of ac:variantLiteral and ac:variant
 

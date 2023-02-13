@@ -20,18 +20,18 @@ permalink: /format/
 
 **Latest version:** http://rs.tdwg.org/ac/doc/format/
 
-**Abstract:** Audubon Core borrows the Dublin Core terms `dc:format` and `dcterms:format` to provide information about the physical or electronic format of a media item. This controlled vocabulary provides values for those two terms. 
+**Abstract:** Audiovisual Core borrows the Dublin Core terms `dc:format` and `dcterms:format` to provide information about the physical or electronic format of a media item. This controlled vocabulary provides values for those two terms. 
 
 **Contributors:** Steven J Baskauf (Vanderbilt University Heard Libraries), Matthew Blissett (GBIF), Douglas Boyer (Duke University)
 
-**Creator:** TDWG Audubon Core Maintenance Group
+**Creator:** TDWG Audiovisual Core Maintenance Group
 
-**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Controlled Vocabulary for Dublin Core format: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/format/2020-10-13>
+**Bibliographic citation:** Audiovisual Core Maintenance Group. 2020. Controlled Vocabulary for Dublin Core format: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/format/2020-10-13>
 
 
 ## 1 Introduction (informative)
 
-This document includes terms intended to be used as a controlled value for Dublin Core terms `dc:format` and `dcterms:format`, which are borrowed by Audubon Core.
+This document includes terms intended to be used as a controlled value for Dublin Core terms `dc:format` and `dcterms:format`, which are borrowed by Audiovisual Core.
 
 ### 1.1 Status of the content of this document
 
@@ -50,11 +50,11 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### 2.1 Relationship of value types to property terms
 
-In accordance with [the Audubon Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs MUST be used as values of the property `dcterms:format`. Controlled value strings SHOULD be used as values of the property `dc:format`.
+In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs MUST be used as values of the property `dcterms:format`. Controlled value strings SHOULD be used as values of the property `dc:format`.
 
 ### 2.2 Relationship between concepts and concept schemes
 
-The entry for the property `dc:format` in the [Audubon Core term list document](http://rs.tdwg.org/ac/doc/termlist/#dc_format) specifies that three kinds of string values are RECOMMENDED: Internet Media Types (MIME types), special string values for physical media, or commonly used file extensions. This controlled vocabulary defines two SKOS concept schemes, a concept scheme for media types and physical media (the first two kinds of values specified for `dc:type`) and a concept scheme for file extensions (the last recommended kind of value). Because the Internet Assigned Numbers Authority (IANA) maintains a [registry of media types](https://www.iana.org/assignments/media-types/media-types.xhtml) and Audubon Core maintains a controlled list of physical media types, using values from the media types and physical media concept scheme is RECOMMENDED over the file extensions concept scheme. 
+The entry for the property `dc:format` in the [Audiovisual Core term list document](http://rs.tdwg.org/ac/doc/termlist/#dc_format) specifies that three kinds of string values are RECOMMENDED: Internet Media Types (MIME types), special string values for physical media, or commonly used file extensions. This controlled vocabulary defines two SKOS concept schemes, a concept scheme for media types and physical media (the first two kinds of values specified for `dc:type`) and a concept scheme for file extensions (the last recommended kind of value). Because the Internet Assigned Numbers Authority (IANA) maintains a [registry of media types](https://www.iana.org/assignments/media-types/media-types.xhtml) and Audiovisual Core maintains a controlled list of physical media types, using values from the media types and physical media concept scheme is RECOMMENDED over the file extensions concept scheme. 
 
 The concept scheme for media types and physical media defines a `skos:broader` relation between each specific media type or physical medium and one of the six [Top-level Media Types defined by RFC 2046](https://tools.ietf.org/html/rfc2046#page-4V) that are related to multimedia: application, audio, image, model, text, and video. This relation MAY be used by clients to infer the general category of the media item format.
 

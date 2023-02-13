@@ -2,9 +2,9 @@
 permalink: /subtype/
 ---
 
-# Controlled Vocabulary for Audubon Core subtype: List of Terms
+# Controlled Vocabulary for Audiovisual Core subtype: List of Terms
 
-**Title:** Controlled Vocabulary for Audubon Core subtype: List of Terms
+**Title:** Controlled Vocabulary for Audiovisual Core subtype: List of Terms
 
 **Namespace URI:** http://rs.tdwg.org/acsubtype/values/
 
@@ -22,18 +22,18 @@ permalink: /subtype/
 
 **Previous version:** <http://rs.tdwg.org/ac/doc/subtype/2020-10-13>
 
-**Abstract:** Audubon Core uses the terms `ac:subtype` and `ac:subtypeLiteral` to refine the type of a media item to a level more specific than the Dublin Core Type Vocabulary, `http://purl.org/dc/dcmitype/`. This controlled vocabulary provides values for `ac:subtype` and `ac:subtypeLiteral`. 
+**Abstract:** Audiovisual Core uses the terms `ac:subtype` and `ac:subtypeLiteral` to refine the type of a media item to a level more specific than the Dublin Core Type Vocabulary, `http://purl.org/dc/dcmitype/`. This controlled vocabulary provides values for `ac:subtype` and `ac:subtypeLiteral`. 
 
 **Contributors:** Steven J Baskauf (Vanderbilt University Heard Libraries)
 
-**Creator:** TDWG Audubon Core Maintenance Group
+**Creator:** TDWG Audiovisual Core Maintenance Group
 
-**Bibliographic citation:** Audubon Core Maintenance Group. 2020. Controlled Vocabulary for Audubon Core subtype: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/subtype/2020-10-13>
+**Bibliographic citation:** Audiovisual Core Maintenance Group. 2020. Controlled Vocabulary for Audiovisual Core subtype: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/subtype/2020-10-13>
 
 
 ## 1 Introduction (informative)
 
-This document includes terms intended to be used as a controlled value for Audubon Core terms `ac:subtype` and `ac:subtypeLiteral`. **Note:** Although this is a controlled vocabulary, the type of its terms is `rdfs:Class` rather than `skos:Concept` as in other controlled vocabularies because it indicates the type of the media item.
+This document includes terms intended to be used as a controlled value for Audiovisual Core terms `ac:subtype` and `ac:subtypeLiteral`. **Note:** Although this is a controlled vocabulary, the type of its terms is `rdfs:Class` rather than `skos:Concept` as in other controlled vocabularies because it indicates the type of the media item.
 
 ### 1.1 Status of the content of this document
 
@@ -52,7 +52,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ### 2.1 Relationship of value types to property terms
 
-In accordance with [the Audubon Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs SHOULD be used as values of the property `ac:subtype`. Controlled value strings SHOULD be used as values of the property `ac:subtypeLiteral`.
+In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs SHOULD be used as values of the property `ac:subtype`. Controlled value strings SHOULD be used as values of the property `ac:subtypeLiteral`.
 
 ### 2.2 Relationship between values of ac:subtypeLiteral and ac:subtype
 
