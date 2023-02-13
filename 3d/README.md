@@ -1,6 +1,6 @@
 # 3D Imagery and Data Task Group (3DTG)
 
-This is the homepage of the 3D Imagery and Data Task Group chartered by the Audubon Core Maintenance Group.  If you are looking for the Audubon Core Maintenance Group page, it's [here](https://github.com/tdwg/ac/blob/master/README.md).
+This is the homepage of the 3D Imagery and Data Task Group chartered by the Audiovisual Core Maintenance Group.  If you are looking for the Audiovisual Core Maintenance Group page, it's [here](https://github.com/tdwg/ac/blob/master/README.md).
 
 Our group has been approved by the TDWG Executive Committee.
 
@@ -26,13 +26,13 @@ To see all of the people who are paying attention to our work, see the list of [
 
 If you would like to participate in this group, contact the convener or one of the core members.  
 
-To participate in the communication system of the group, watch the repo and follow the [Issues tracker](https://github.com/tdwg/ac/issues) (look for issues tagged as "3D").  This issues tracker is the mechanism for suggesting specific changes to the Audubon Core standard as well as to raise issues for discussion by the group.
+To participate in the communication system of the group, watch the repo and follow the [Issues tracker](https://github.com/tdwg/ac/issues) (look for issues tagged as "3D").  This issues tracker is the mechanism for suggesting specific changes to the Audiovisual Core standard as well as to raise issues for discussion by the group.
 
 ## Documentation
 
 To see what issues we are currently addressing, see our [Issue Tracker](https://github.com/tdwg/ac/issues).  
 
-Our charter is [here](https://github.com/tdwg/ac/blob/master/3d/charter_3d_task_group_of_audubon_core_2019-06-11.pdf)
+Our charter is [here](https://github.com/tdwg/ac/blob/master/3d/charter_3d_task_group_of_Audiovisual_core_2019-06-11.pdf)
 
 ---
 Revised 2020-01-28
