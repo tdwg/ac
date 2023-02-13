@@ -4,17 +4,17 @@
 
 **Part of TDWG Standard:** Not part of any standard
 
-**Abstract:** This document includes examples of Audubon Core still image records.  
+**Abstract:** This document includes examples of Audiovisual Core still image records.  
 
 **Contributors:** Kate Webbink
 
-**Creator:** Audubon Core Maintenance Group
+**Creator:** Audiovisual Core Maintenance Group
 
-**Bibliographic citation:** Audubon Core Maintenance Group. 2021. Still image examples. Biodiversity Information Standards (TDWG). https://github.com/tdwg/ac/blob/master/image/examples.md
+**Bibliographic citation:** Audiovisual Core Maintenance Group. 2021. Still image examples. Biodiversity Information Standards (TDWG). https://github.com/tdwg/ac/blob/master/image/examples.md
 
 ## 1 Introduction
 
-This document is intended to provide the community with examples "from the wild" of how providers have successfully used Audubon Core terms to describe still images.
+This document is intended to provide the community with examples "from the wild" of how providers have successfully used Audiovisual Core terms to describe still images.
 
 
 ### 1.1 Status of the content of this document
@@ -26,9 +26,9 @@ All parts of this document are non-normative.
 [RFC 2119](https://tools.ietf.org/html/rfc2119) are not used in this document.
 
 
-## 2 Audubon Core terms used with still images
+## 2 Audiovisual Core terms used with still images
 
-Audubon Core terms (and values) for Image records include:
+Audiovisual Core terms (and values) for Image records include:
 
 **Required Terms**:
   - [dcterms:identifier](https://tdwg.github.io/ac/termlist/#dcterms_identifier)
@@ -59,12 +59,12 @@ occurrenceId|identifier|type|subtypeLiteral|title|MetadataDate|metadataLanguageL
 -|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
 04d9efc4-8b47-4545-b9d9-781508392b44|00a1388e-bc5c-46f2-ab3f-d5b7ce4d6655|StillImage||PP29675_image_1|2019-04-09|eng|744562|https://mm.fieldmuseum.org/00a1388e-bc5c-46f2-ab3f-d5b7ce4d6655|[Copyright] Field Museum of Natural History - CC BY-NC|Field Museum of Natural History|https://www.fieldmuseum.org/field-museum-natural-history-conditions-and-suggested-norms-use-collections|Please cite this as: (c) The Field Museum (DATE) CC-BY-NC|Field Museum of Natural History - Botany Department | Robert North : Field Museum of Natural History\|Field Museum of Natural History|PP 29675 A+B [HS, M] Pinnularia, Moscovian / Desmoinesian, Francis Creek Shale Member, United States of America, Illinois, Will, Mazon Creek Region|Fossil Ferns|22 Jul 2014|http://biocol.org/urn:lsid:biocol.org:col:34795|https://fm-digital-assets.fieldmuseum.org/744/562/PP29675_image_1.jpg|jpeg|mediumQualityFurtherInformationURL|MD5|9b7ad87adb8f5ada19e91a202f4339b1|1500|1908
 
-The following Audubon Core terms are recommended for describing an image's alternate resolutions, formats, or other versions:
+The following Audiovisual Core terms are recommended for describing an image's alternate resolutions, formats, or other versions:
 - [accessURI](https://tdwg.github.io/ac/termlist/#ac_accessURI)
 - [ac:hasServiceAccessPoint](https://tdwg.github.io/ac/termlist/#ac_hasServiceAccessPoint)
 - [ac:variantLiteral](https://tdwg.github.io/ac/termlist/#ac_variantLiteral) or [ac:variant](https://tdwg.github.io/ac/termlist/#ac_variant)
 
-Further information on how to handle multiple versions is available in [section 3.2 of the Audubon Core Structure document](https://tdwg.github.io/ac/structure/#3-multiplicity-and-cardinality).
+Further information on how to handle multiple versions is available in [section 3.2 of the Audiovisual Core Structure document](https://tdwg.github.io/ac/structure/#3-multiplicity-and-cardinality).
 
 In the example-record:
 - [ac:variant](https://tdwg.github.io/ac/termlist/#ac_variant) indicates that a "medium-Quality" version of the image is available with "Further-Information."
@@ -81,7 +81,7 @@ Similarly, visualizations of sound (e.g. Spectrograms) should be documented as t
 
 ### 3.2 Photographs of Living Organisms vs Museum Specimens
 The differences between a photograph of a living organism and one of a museum specimen is mainly reflected in the related Darwin Core occurrence records.
-If the photographs were both recorded with similar camera-setups, the recommended Audubon Core terms would be the same, with one distinction:
+If the photographs were both recorded with similar camera-setups, the recommended Audiovisual Core terms would be the same, with one distinction:
 
 - [ac:associatedSpecimenReference](https://tdwg.github.io/ac/termlist/#ac_associatedSpecimenReference) to link related occurrences for specimens
 - [ac:associatedObservationReference](https://tdwg.github.io/ac/termlist/#ac_associatedObservationReference) to link related occurrences for observations
