@@ -2,7 +2,7 @@
 
 ## Background
 
-The [Views Controlled Vocabularies Task Group](https://github.com/tdwg/ac/tree/master/views) is collecting use cases to guide the development process of controlled vocabularies for the Audubon Core terms `ac:subjectOrientation` and `ac:subjectPart`.  For reference, here are the definitions of the two terms:
+The [Views Controlled Vocabularies Task Group](https://github.com/tdwg/ac/tree/master/views) is collecting use cases to guide the development process of controlled vocabularies for the Audiovisual Core terms `ac:subjectOrientation` and `ac:subjectPart`.  For reference, here are the definitions of the two terms:
 
 ---
 
