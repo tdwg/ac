@@ -98,8 +98,8 @@ The repository structure is described below.
 │
 ├── 3D                                 : Directory to store documents related to proposed 3D task group
 │   ├── README.md                      : Homepage of the 3D Imagery and Data Task Group (3DTG)
-│   ├── charter_3d_task_group_of_audiovisual_core_2019-06-11.docx   : Word version of submitted charter
-│   ├── charter_3d_task_group_of_audiovisual_core_2019-06-11.pdf    : PDF version of submitted charter
+│   ├── charter_3d_task_group_of_audubon_core_2019-06-11.docx   : Word version of submitted charter
+│   ├── charter_3d_task_group_of_audubon_core_2019-06-11.pdf    : PDF version of submitted charter
 │   └── proposed-3d-metadata-terms-from-dwc-hour.csv            : notes from Darwin Core hour
 │
 ├── views                              : Directory to store documents related to proposed 3D task group

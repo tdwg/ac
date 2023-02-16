@@ -32,7 +32,7 @@ To participate in the communication system of the group, watch the repo and foll
 
 To see what issues we are currently addressing, see our [Issue Tracker](https://github.com/tdwg/ac/issues).  
 
-Our charter is [here](https://github.com/tdwg/ac/blob/master/3d/charter_3d_task_group_of_Audiovisual_core_2019-06-11.pdf)
+Our charter is [here](https://github.com/tdwg/ac/blob/master/3d/charter_3d_task_group_of_audubon_core_2019-06-11.pdf)
 
 ---
 Revised 2020-01-28
