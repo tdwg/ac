@@ -2,9 +2,9 @@
 permalink: /structure/2013-10-23
 ---
 
-# Audiovisual Core Structure
+# Audubon Core Structure
 
-**Title:** Audiovisual Core Structure
+**Title:** Audubon Core Structure
 
 **Date version issued:** 2013-10-23
 
@@ -18,7 +18,7 @@ permalink: /structure/2013-10-23
 
 **Replaced by:** [http://rs.tdwg.org/ac/doc/structure/2020-01-27](2020-01-27)
 
-**Abstract:** The Audiovisual Core is a set of vocabularies designed to
+**Abstract:** The Audubon Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
 collections. These vocabularies aim to represent information that will
 help to determine whether a particular resource or collection will be
@@ -27,7 +27,7 @@ acquiring the media. Among others, the vocabularies address such
 concerns as the management of the media and collections, descriptions of
 their content, their taxonomic, geographic, and temporal coverage, and
 the appropriate ways to retrieve, attribute and reproduce them. This
-document contains material introductory to the **[Audiovisual Core Term
+document contains material introductory to the **[Audubon Core Term
 List](./terms)**
 
 **Contributors:** Robert A. Morris, Vijay Barve, Mihail Carausu, Vishwas
@@ -36,26 +36,26 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 **Creator:** GBIF/TDWG Multimedia Resources Task Group
 
-**Bibliographic citation:** Multimedia Resources Task Group. 2013. Audiovisual Core Structure. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/structure/2013-10-23
+**Bibliographic citation:** Multimedia Resources Task Group. 2013. Audubon Core Structure. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/structure/2013-10-23
 
 ## 1 Introduction
 
 This documentation describes the structure of the [TDWG](http://tdwg.org)
-Audiovisual Core Multimedia Resources Metadata Standard (Audiovisual Core, or
+Audubon Core Multimedia Resources Metadata Standard (Audubon Core, or
 simply AC).
 
-**If you are unfamiliar with the Audiovisual Core, *please* read the
-[Audiovisual Core Introduction](./) before
+**If you are unfamiliar with the Audubon Core, *please* read the
+[Audubon Core Introduction](./) before
 reading this document.** The introduction lays out why there is perceived a need for a
 biodiversity media resource metadata schema, and how the standard
 attempts to use existing metadata standards where
 possible.
 
-For term details, see the [Audiovisual Core Terms List](./terms) document and for a more detailed guide to the use of Audiovisual Core, see the [Audiovisual Core Guide](./guide) document.
+For term details, see the [Audubon Core Terms List](./terms) document and for a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](./guide) document.
 
-During development, Audiovisual core was colloquially known as MRTG, after
+During development, Audubon core was colloquially known as MRTG, after
 its developers, the GBIF-TDWG Joint Multimedia Resources Metadata Task
-Group. Please see the [Audiovisual Core Guide](./guide) and
+Group. Please see the [Audubon Core Guide](./guide) and
 also [MRTG Development History](http://www.keytonature.eu/wiki/MRTG_Development_History) for
 the development history in detail.
 
@@ -69,7 +69,7 @@ Sections 2 through 4 of this document are normative except for example sections,
 
 There are many ways to organize metadata specifications, particularly as
 to the nomenclature of the constituents of the metadata. Note the
-following as they apply to the Audiovisual Core:
+following as they apply to the Audubon Core:
 
   - A *Multimedia Resource* is anything that a provider identifies as
     belonging to one of the possible values of the AC *Type* term and
@@ -78,7 +78,7 @@ following as they apply to the Audiovisual Core:
     that will not collide with the AC defined Subtype values.
   - An AC *record* is a set of terms with any values conforming to this
     document, and which contain at least the four mandatory terms
-    described in the [Audiovisual Core Core Term List](./terms), and
+    described in the [Audubon Core Core Term List](./terms), and
     which describes a single multimedia resource (possibly including a
     Collection). One of these, the value of *Identifier* is a Globally
     Unique IDentifier (GUID), which may have been assigned to the
@@ -92,7 +92,7 @@ following as they apply to the Audiovisual Core:
     implementers of this normative specification. It could be as simple
     as "gracefully ignore".
 
-In the [Audiovisual Core Term List](terms), every AC
+In the [Audubon Core Term List](terms), every AC
 term has a *term name* following a table entry *"Term:"*, a *URI*, a
 plain text normative *Definition*, a recommended English *Label*, an
 optional *Notes* attribute. In addition, a term has an attribute telling
@@ -143,7 +143,7 @@ term.
 ## 3 Multiplicity and Cardinality
 
 A number of terms are repeatable. How to implement repeatability in a
-given serialization is not defined by Audiovisual Core. The following
+given serialization is not defined by Audubon Core. The following
 section gives advice on some best practices in the context of
 repeatability.
 
@@ -158,12 +158,12 @@ separators to support a list of values within a single element (e.g.
 "...&lt;dcterms:identifier&gt;http&#58;//example.com/123;
 http&#58;//example.com/456&lt;dcterms:identifier&gt;...").
 
-In certain cases pairs or tuples of properties are repeated. In Audiovisual
+In certain cases pairs or tuples of properties are repeated. In Audubon
 Core this situation occurs, for example, in the following cases:
 
   - The language-dependent metadata like title, description, etc. need
     to be associated with ac:metadataLanguage. One approach here is to
-    use complete Audiovisual Core records together with the [Metadata Language](./terms#ac_metadataLanguage)
+    use complete Audubon Core records together with the [Metadata Language](./terms#ac_metadataLanguage)
     property; see there for further detail.
   - The values of properties about a Service Access Point must remain
     associated with that Service Access Point even if there are multiple
@@ -334,7 +334,7 @@ properties in a new namespace.
   </tbody>
 </table>
 
-Note: acf: (for "Audiovisual Core Flat") is a made-up namespace.  Communities of interest might mint such terms in order to use this kind of structure.
+Note: acf: (for "Audubon Core Flat") is a made-up namespace.  Communities of interest might mint such terms in order to use this kind of structure.
 
 ## 4 Lists of plain text values
 
