@@ -59,7 +59,7 @@ def retrieveTermListMetadata(githubBaseUri):
                 listNamespace[termList] = table[row][prefixColumn] # make a dictionary of namespaces
                 listUri[termList] = table[row][uriColumn] # make a dictionary of URIs
                 if table[row][prefixColumn] == 'ac':
-                    listFilename[termList] = 'Audiovisual'
+                    listFilename[termList] = 'audubon'
                 else:
                     listFilename[termList] = table[row][prefixColumn] + '-for-ac' # make a dictionary of filenames
     return [listFilename, listNamespace, listUri]
