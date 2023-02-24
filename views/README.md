@@ -1,6 +1,6 @@
 # Views Controlled Vocabularies Task Group
 
-This is the homepage of the Views Controlled Vocabularies Task Group chartered by the Audubon Core Maintenance Group.  If you are looking for the Audubon Core Maintenance Group page, it's [here](https://github.com/tdwg/ac/blob/master/README.md).
+This is the homepage of the Views Controlled Vocabularies Task Group chartered by the Audiovisual Core Maintenance Group.  If you are looking for the Audiovisual Core Maintenance Group page, it's [here](https://github.com/tdwg/ac/blob/master/README.md).
 
 Deliverables:
 
@@ -30,7 +30,7 @@ To see all of the people who are paying attention to our work, see the list of [
 
 If you would like to participate in this group, contact the convener or one of the core members.  
 
-To participate in the communication system of the group, watch the repo and follow the [Issues tracker](https://github.com/tdwg/ac/issues) (look for issues tagged as "views").  This issues tracker is the mechanism for suggesting specific changes to the Audubon Core standard as well as to raise issues for discussion by the group.
+To participate in the communication system of the group, watch the repo and follow the [Issues tracker](https://github.com/tdwg/ac/issues) (look for issues tagged as "views").  This issues tracker is the mechanism for suggesting specific changes to the Audiovisual Core standard as well as to raise issues for discussion by the group.
 
 The task group is collecting use cases to aid in developing the requirements for the controlled vocabularies.  The submission deadline has been extended and submissions will be accepted until 2019-12-01.  To submit a use case, fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdR7fsy7DbdBT2jflQ-3NEbtYKYnO2Hq3x24RDxw3D0PbcYDQ/viewform?usp=sf_link).  For more information and examples, see [this page](use-case-examples.md).
 

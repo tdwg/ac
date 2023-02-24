@@ -1,14 +1,14 @@
-# Audio-visual Core (AC)
+# Audiovisual Core (AC)
 
-This is the main entry point to the work of the Audio-visual Core Maintenance Group.  If you are looking for the landing page of the standard itself, go to <https://www.tdwg.org/standards/ac/>. To find the website containing the standards documents, go to <https://ac.tdwg.org/>.
+This is the main entry point to the work of the Audiovisual Core Maintenance Group.  If you are looking for the landing page of the standard itself, go to <https://www.tdwg.org/standards/ac/>. To find the website containing the standards documents, go to <https://ac.tdwg.org/>.
 
-The Audio-visual Core (AC), previously known as Audubon Core, is a set of vocabularies designed to represent metadata for biodiversity multimedia resources and collections. These vocabularies aim to represent information that will help to determine whether a particular resource or collection will be fit for some particular biodiversity science application before acquiring the media. Among others, the vocabularies address such concerns as the management of the media and collections, descriptions of their content, their taxonomic, geographic, and temporal coverage, and the appropriate ways to retrieve, attribute and reproduce them.
+The Audiovisual Core (AC), previously known as Audubon Core, is a set of vocabularies designed to represent metadata for biodiversity multimedia resources and collections. These vocabularies aim to represent information that will help to determine whether a particular resource or collection will be fit for some particular biodiversity science application before acquiring the media. Among others, the vocabularies address such concerns as the management of the media and collections, descriptions of their content, their taxonomic, geographic, and temporal coverage, and the appropriate ways to retrieve, attribute and reproduce them.
 
 The current release (2022-02-23) is archived at <a href="https://doi.org/10.5281/zenodo.6590205"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6590205.svg" alt="DOI"></a>
 
-## The Audio-visual Core Maintenance Group
+## The Audiovisual Core Maintenance Group
 
-Audio-visual Core is maintained by a specialized [Interest Group](http://www.tdwg.org/about-tdwg/process/) whose [charter](audubon-core_maintenance-group_charter.md) was approved in January 2018.  The functions of the Audio-visual Core Maintenance Group are described in detail in [Section 2 of the TDWG Vocabulary Maintenance Specification](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#2-administration).  In brief, the Maintenance Group manages vocabulary term additions and changes, and maintains the documentation that helps users to understand and apply the standard.  As an Interest Group, it may establish Task Groups to accomplish broader changes to the standard.  
+Audiovisual Core is maintained by a specialized [Interest Group](http://www.tdwg.org/about-tdwg/process/) whose [charter](audiovisual-core_maintenance-group_charter.md) was approved in January 2018.  The functions of the Audiovisual Core Maintenance Group are described in detail in [Section 2 of the TDWG Vocabulary Maintenance Specification](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#2-administration).  In brief, the Maintenance Group manages vocabulary term additions and changes, and maintains the documentation that helps users to understand and apply the standard.  As an Interest Group, it may establish Task Groups to accomplish broader changes to the standard.  
 
 ## Core Members of the AC Maintenance Group
 
@@ -30,13 +30,13 @@ Kate Webbink - Field Museum of Natural History - [kwebbink@fieldmuseum.org](mail
 
 To see all of the people who are paying attention to our work, see the list of ["watchers"](https://github.com/tdwg/ac/watchers).  The people on this list are effectively the "regular members" of the group.
 
-The Maintenance Group would like to recognize Robert A. Morris who passed away in 2021. Bob can be considered the "father of Audio-visual Core" and led the task group through the development and process of ratifying of the standard. Thanks, Bob, for your vision and leadership!
+The Maintenance Group would like to recognize Robert A. Morris who passed away in 2021. Bob can be considered the "father of Audiovisual Core" and led the task group through the development and process of ratifying of the standard. Thanks, Bob, for your vision and leadership!
 
 ## Task Groups
 
-In the [TDWG Process](https://www.tdwg.org/about/process/) for creating and modifying standards, Task Groups are formed to create particular deliverables of interest to an Interest Group.  As an Interest Group, the Audio-visual Core Maintenance Group periodically establishes Task Groups.
+In the [TDWG Process](https://www.tdwg.org/about/process/) for creating and modifying standards, Task Groups are formed to create particular deliverables of interest to an Interest Group.  As an Interest Group, the Audiovisual Core Maintenance Group periodically establishes Task Groups.
 
-We have chartered a 3D Imagery and Data Task Group (3DTG) to look at possible additions to Audio-visual Core for describing 3D images.  For more information, see the [Task Group's home page](3d/README.md).  If you are interested in the work of this group, contact its convener, [Doug Boyer](mailto:douglasmb@gmail.com).
+We have chartered a 3D Imagery and Data Task Group (3DTG) to look at possible additions to Audiovisual Core for describing 3D images.  For more information, see the [Task Group's home page](3d/README.md).  If you are interested in the work of this group, contact its convener, [Doug Boyer](mailto:douglasmb@gmail.com).
 
 We have also chartered a Views Controlled Vocabularies task group to create controlled vocabularies for `ac:subjectPart` and `ac:subjectOrientation`.  For more information, see the [Task Group's home page](views/README.md).  If you are interested in the work of this group, contact its convener, [Steve Baskauf](mailto:steve.baskauf@vanderbilt.edu).
 
@@ -48,7 +48,7 @@ To participate in the communication system of the group, "watch" the group's [Is
 
 ## Policies
 
-Policies established by the Maintenance Group are listed [here](policies.md).  Please note that the policy document is not included with the Audio-visual Core Standard and is therefore not subject to any standards-related processes requiring public comment, Executive Committee approval, etc. Rather, the policies are established through consensus of the Maintenance Group, in consultation (when necessary) with the [Technical Architecture Group](https://github.com/tdwg/tag).
+Policies established by the Maintenance Group are listed [here](policies.md).  Please note that the policy document is not included with the Audiovisual Core Standard and is therefore not subject to any standards-related processes requiring public comment, Executive Committee approval, etc. Rather, the policies are established through consensus of the Maintenance Group, in consultation (when necessary) with the [Technical Architecture Group](https://github.com/tdwg/tag).
 
 ## Documentation
 
@@ -71,12 +71,12 @@ The repository structure is described below.
 ```
 ├── README.md             : Description of this repository
 ├── license.md            : Repository license
-├── policies.md           : Audio-visual Core maintenance policies
+├── policies.md           : Audiovisual Core maintenance policies
 │
 ├── docs                  : Standards documents live here.  However, do not hyperlink to them here because they are rendered as HTML at https://tdwg.github.io/ac/.
 │   ├── _config.yml       : Jekyll configuration file
 │   ├── introduction.md   : Brief introduction to the standard
-│   ├── structure.md      : Describes the structure of Audio-visual Core
+│   ├── structure.md      : Describes the structure of Audiovisual Core
 │   ├── termlist.md       : AC Term List, including normative definitions. DO NOT EDIT MANUALLY!
 │   ├── guide.md          : More detailed user guide
 │   ├── 04_AudubonCore1.0NonNormative_docV1.95.doc     : version 1.95 of the reference guide

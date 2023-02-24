@@ -1,6 +1,6 @@
 # Site settings
-title: Audubon Core
-description: Website for the Audubon Core standard.
+title: Audiovisual Core
+description: Website for the Audiovisual Core standard.
 url: "https://tdwg.github.io"
 baseurl: "/ac"
 
@@ -10,7 +10,7 @@ navbar:
     href: introduction/
   - text: Terms
     menu:
-    - text: Audubon Core main vocabulary
+    - text: Audiovisual Core main vocabulary
       href: termlist/
     - text: format controlled vocabulary
       href: format/

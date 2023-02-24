@@ -10,7 +10,7 @@
             "borrowed": false,
             "new_term_list": true,
             "label": "subjectPart controlled values list",
-            "description": "Controlled values list for the Audubon Core term subjectPart",
+            "description": "Controlled values list for the Audiovisual Core term subjectPart",
             "utility_namespace": false,
             "modifications_file_path": "ac-revisions/ac-views-cv-2022-07-25/subjectPart_cv.csv",
             "termlist_uri": ""

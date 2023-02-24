@@ -2,9 +2,9 @@
 permalink: /termlist/
 ---
 
-# Audubon Core Term List
+# Audiovisual Core Term List
 
-**Title:** Audubon Core Term List
+**Title:** Audiovisual Core Term List
 
 **Date version issued:** 2022-02-23
 
@@ -18,7 +18,7 @@ permalink: /termlist/
 
 **Previous version:** <http://rs.tdwg.org/ac/doc/termlist/2021-10-05>
 
-**Abstract:** The Audubon Core is a set of vocabularies designed to
+**Abstract:** The Audiovisual Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
 collections. It aims to represent information that will help to
 determine whether a particular resource or collection will be fit for
@@ -27,33 +27,33 @@ media. Among others, the vocabularies address such concerns as the
 management of the media and collections, descriptions of their content,
 their taxonomic, geographic, and temporal coverage, and the appropriate
 ways to retrieve, attribute and reproduce them. This document contains a
-list of attributes of each Audubon Core term, including a documentation
+list of attributes of each Audiovisual Core term, including a documentation
 name, a specified URI, a recommended English label for user interfaces,
 a definition, and some ancillary notes. This document contains normative content that
 may not be changed without due process.
 
 **Contributors:** Robert A. Morris, Gregor Hagedorn, Annette Olson, Steve Baskauf, Vijay Barve, Mihail Carausu, Vishwas Chavan, José Cuadra, Chris Freeland, Patrick Leary, Dimitry Mozzherin, Greg Riccardi, Ivan Teage, Dan Stowell, Edward Baker, Richard Pyle
 
-**Creator:** GBIF/TDWG Multimedia Resources Task Group and Audubon Core Maintenance Group
+**Creator:** GBIF/TDWG Multimedia Resources Task Group and Audiovisual Core Maintenance Group
 
-**Bibliographic citation:** Audubon Core Maintenance Group. 2022. Audubon Core Term List. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/termlist/2022-02-23>
+**Bibliographic citation:** Audiovisual Core Maintenance Group. 2022. Audiovisual Core Term List. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/termlist/2022-02-23>
 
 
 ## 1 Introduction
 
-There are a number of documents included in the Aububon Core Standard.  This document provides details about the terms included in the 2022-02-23 version of the Audubon Core vocabulary. The [Audubon Core Introduction](introduction.md) document provides a brief introduction to the Audubon Core Standard. For information about the structure of Audubon Core, see the [Audubon Core Structure](structure.md) document.  For a more detailed guide to the use of Audubon Core, see the [Audubon Core Guide](guide.md) document.
+There are a number of documents included in the Aububon Core Standard.  This document provides details about the terms included in the 2022-02-23 version of the Audiovisual Core vocabulary. The [Audiovisual Core Introduction](introduction.md) document provides a brief introduction to the Audiovisual Core Standard. For information about the structure of Audiovisual Core, see the [Audiovisual Core Structure](structure.md) document.  For a more detailed guide to the use of Audiovisual Core, see the [Audiovisual Core Guide](guide.md) document.
 
 
 ### 1.1 Status of the content of this document
 
-Sections 1.3 through 5 are normative, except for Table 1.  In Section 7 and its subparts, the values of the Normative URI, Definition, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Audubon Core.  The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
+Sections 1.3 through 5 are normative, except for Table 1.  In Section 7 and its subparts, the values of the Normative URI, Definition, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Audiovisual Core.  The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
 
 ### 1.2 RFC 2119 key words
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
 ### 1.3 Categories of terms
 
-An Audubon Core (AC) record is a description of a multimedia resource
+An Audiovisual Core (AC) record is a description of a multimedia resource
 using the AC vocabularies. Three kinds of terms are specified by this
 document: those terms which describe representation-independent aspects
 of the media, those which describe representation-dependent aspects, and those that designate specified parts of the media item.
@@ -118,12 +118,12 @@ implementations of AC, because
 some implementations may not provide enough structure to clearly state
 the association between the members of a pair in the case of multiple
 values of each. This is a special case of the issue treated in the
-normative material on [Multiplicity and Cardinality](structure.md#3-multiplicity-and-cardinality) in the Audubon Core Structure document.
+normative material on [Multiplicity and Cardinality](structure.md#3-multiplicity-and-cardinality) in the Audiovisual Core Structure document.
 
 
 ## 4 Layers
 
-(The Audubon Core layer property has been deprecated as of 2020-01-27)
+(The Audiovisual Core layer property has been deprecated as of 2020-01-27)
 
 
 ## 5 Literal- vs. URI-valued Terms

@@ -1,4 +1,4 @@
-suggested by,category,modality,MorphoSource Field,Field Description,AudubonCore term
+suggested by,category,modality,MorphoSource Field,Field Description,AudiovisualCore term
 DM Boyer,Related Resources Vocabulary,All,parent media file MorphoSource number,the MorphoSource media number pertaining to the dataset used to create a media file,ac:derivedFrom
 DM Boyer,Related Resources Vocabulary,All,parent media file DOI,the DOI of the media file pertaining to the dataset used to create a media file (this need not be a morphosource derived DOI),ac:derivedFrom
 DM Boyer,Resource Creation Vocabulary,All,scan compilation software,any software used to create the final media file from 'raw scan data' whatever that may be,ac:resourceCreationTechnique

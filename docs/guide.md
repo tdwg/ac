@@ -2,9 +2,9 @@
 permalink: /guide/
 ---
 
-# Audubon Core Guide
+# Audiovisual Core Guide
 
-**Title:** Audubon Core Guide
+**Title:** Audiovisual Core Guide
 
 **Date version issued:** 2013-10-15
 
@@ -16,7 +16,7 @@ permalink: /guide/
 
 **Latest version:** http://rs.tdwg.org/ac/doc/guide/
 
-**Abstract:** The Audubon Core is a set of vocabularies designed to represent metadata for biodiversity multimedia resources and collections. This non-normative document provides some background to the aims and uses of the standard.
+**Abstract:** The Audiovisual Core is a set of vocabularies designed to represent metadata for biodiversity multimedia resources and collections. This non-normative document provides some background to the aims and uses of the standard.
 
 **Contributors:** Robert A. Morris, Vijay Barve, Mihail Carausu, Vishwas
 Chavan, José Cuadra, Chris Freeland, Gregor Hagedorn, Patrick Leary,
@@ -24,14 +24,14 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 **Creator:** GBIF/TDWG Multimedia Resources Task Group
 
-**Bibliographic citation:** Multimedia Resources Task Group. 2013. Audubon Core Guide. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/guide/
+**Bibliographic citation:** Multimedia Resources Task Group. 2013. Audiovisual Core Guide. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/guide/
 
 ## 1 Introduction
 
-The Audubon Core Multimedia Resources Metadata Schema (Audubon Core) is a data standard for exchanging data describing biodiversity multimedia
+The Audiovisual Core Multimedia Resources Metadata Schema (Audiovisual Core) is a data standard for exchanging data describing biodiversity multimedia
 resources and collections produced by the GBIF/TDWG joint Multimedia
-Resources Metadata Task Group (MRTG).  The standard consists of four documents.  This document is a guide to the aims and uses of the standard. The [Audubon
-Core Introduction](./) document provides a brief introduction to the Audubon Core Standard. For detailed information about the structure of Audubon Core, see the [Audubon Core Structure](structure) document.  For term details, see the [Audubon Core Terms List](terms) document.
+Resources Metadata Task Group (MRTG).  The standard consists of four documents.  This document is a guide to the aims and uses of the standard. The [Audiovisual
+Core Introduction](./) document provides a brief introduction to the Audiovisual Core Standard. For detailed information about the structure of Audiovisual Core, see the [Audiovisual Core Structure](structure) document.  For term details, see the [Audiovisual Core Terms List](terms) document.
 
 Acronyms and named institutions and projects are listed in a Glossary in
 Appendix I.
@@ -44,7 +44,7 @@ All sections of this document are non-normative.
 
 ## 2 Summary
 
-The Audubon Core Multimedia Resources Metadata schema (“AC schema”, or
+The Audiovisual Core Multimedia Resources Metadata schema (“AC schema”, or
 simply “AC”) is a set of metadata vocabularies for describing
 biodiversity-related multimedia resources and collections. The
 specification is independent of how these vocabularies may be
@@ -81,7 +81,7 @@ which are included in two documents: one that describes the structure of the doc
 and a Term List document <sup id="cit-2">[\[2\]](#fn-2)</sup>. The Term List
 documents a series of terms, each of which is identified by a unique
 Uniform Resource Identifier (URI), together with normative definitions.
-In addition, the Audubon Core Maintenance Group may develop recommended representations for AC
+In addition, the Audiovisual Core Maintenance Group may develop recommended representations for AC
 descriptions in several important forms including RDF <sup id="cit-3">[\[3\]](#fn-3)</sup>, XML
 Schema <sup id="cit-4">[\[4\]](#fn-4)</sup>, and Comma Separated Values (CSV) <sup id="cit-5">[\[5\]](#fn-5)</sup>.
 
@@ -102,7 +102,7 @@ recognition, and these images remain available as sources for any
 subsequent derived products. Thus digitized legacy literature is
 documented by the page images. Most scientific literature of course is
 also illustrated by photographs, graphs, or other artifacts in the
-purview of the Audubon Core. Even the providers of “Molecular DNA"
+purview of the Audiovisual Core. Even the providers of “Molecular DNA"
 resources sometimes will offer original data as digital images of
 microarray chips.
 
@@ -112,9 +112,9 @@ Figure 1. Relationships of Multimedia Resources to primary types of
 biodiversity resources
 
 
-## 3 Audubon Core Terms
+## 3 Audiovisual Core Terms
 
-An Audubon Core record is a description, using the Audubon Core terms,
+An Audiovisual Core record is a description, using the Audiovisual Core terms,
 of a multimedia resource. Two kinds of terms are specified by AC:
 *record-level terms* and *access-level terms.* Record-level terms apply
 to the media resource being described. Almost all terms are record-level
@@ -126,15 +126,15 @@ terms provide such things as a web address at which a digital
 representation of the resource can be retrieved, the size of such a
 retrieved object, etc.
 
-An Audubon Core record is thus a set of terms that conforms to the
+An Audiovisual Core record is thus a set of terms that conforms to the
 normative documents, contains at least the four mandatory terms
 described below, and which provides metadata that describes a single
 multimedia resource (possibly including a Collection). It usually
 includes an identifier that may have been assigned to the resource by an
 external authority or by the provider of the metadata record.
 
-Every Audubon Core term has a plain text Name, a URI, and a plain text
-normative Definition. Terms may also have Usage instructions explaining how the term is used in the context of Audubon Core and Notes that provide additional information and examples.  URIs for terms conform to the http URI scheme.
+Every Audiovisual Core term has a plain text Name, a URI, and a plain text
+normative Definition. Terms may also have Usage instructions explaining how the term is used in the context of Audiovisual Core and Notes that provide additional information and examples.  URIs for terms conform to the http URI scheme.
 Informally, one may understand this thusly: an http URI has the syntax
 of an http URL, but there is no expectation that putting it in a web
 browser will result in any information being returned to the browser,
@@ -193,7 +193,7 @@ below.
 		</tr>
 		<tr>
 			<td>Notes:</td>
-			<td>Following the DC recommendations for the Text type, <a href="http://purl.org/dc/terms/DCMIType" rel="nofollow">http://purl.org/dc/terms/DCMIType</a>, images of text should be given as http://purl.org/dc/dcmitype/Text when given as a URI. See also the entry for dc:type in the Audubon Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md" rel="nofollow">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails.</td>
+			<td>Following the DC recommendations for the Text type, <a href="http://purl.org/dc/terms/DCMIType" rel="nofollow">http://purl.org/dc/terms/DCMIType</a>, images of text should be given as http://purl.org/dc/dcmitype/Text when given as a URI. See also the entry for dc:type in the Audiovisual Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md" rel="nofollow">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails.</td>
 		</tr>
 	</tbody>
 </table>
@@ -222,7 +222,7 @@ below.
 		</tr>
 		<tr>
 			<td>Notes:</td>
-			<td>Provider is asserting they accept this review as competent. See also ac:reviewer and the section Namespaces, Prefixes and Term Names in the Audubon Core Term List document for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>Provider is asserting they accept this review as competent. See also ac:reviewer and the section Namespaces, Prefixes and Term Names in the Audiovisual Core Term List document for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
@@ -240,7 +240,7 @@ The principal namespace qualifiers for term URIs in this document are
   http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf
 
 - **ac:** Terms in the namespace http://rs.tdwg.org/ac/terms not derived
-  from other controlled vocabularies.  The normative definitions of these documents can be found in the [Audubon Core Term List document](termlist.md)
+  from other controlled vocabularies.  The normative definitions of these documents can be found in the [Audiovisual Core Term List document](termlist.md)
 
 - **xmp:** The Adobe XMP vocabularies with namespace
   http://ns.adobe.com/xap/1.0/ documented in Section 8.4 of
@@ -261,7 +261,7 @@ Many valuable multimedia resources exist that have no information stored
 in databases. Some may have a web presence and others not. Even those
 available online may not be adequately discoverable by search engines,
 or may be lost in the noise of images from unreliable sources. A brief
-descriptive record as defined by the Audubon Core standard can act as
+descriptive record as defined by the Audiovisual Core standard can act as
 the “business card” for a multimedia resource, providing enough
 information to identify and locate media resources by researchers,
 aggregators, decision makers, educators, or the general public.
@@ -294,7 +294,7 @@ by the metadata, are:
     expertise or support.
 
 To ensure that the barriers to use are as low as possible, only four
-properties of an Audubon Core record are considered to be mandatory:
+properties of an Audiovisual Core record are considered to be mandatory:
 
 1.  Identifier (dcterms:identifier): An arbitrary code that is unique
     for the resource, with the resource being either a provider,
@@ -326,7 +326,7 @@ resource, using dcterms:title
 
 ## 5 Existing Standards
 
-The Audubon Core intends to provide metadata that describe either media
+The Audiovisual Core intends to provide metadata that describe either media
 resources themselves or collections of them. There are several
 well-known or newly emerging standards that address these concerns, so
 one may ask: why not simply use them? In fact, AC does exactly that in
@@ -347,7 +347,7 @@ mechanisms for capturing technical metadata, such as EXIF, which the
 imaging systems themselves, or metadata embedding tools, such as Adobe
 Photoshop(tm) and the GIMP open source image editor, can insert into
 media files and streams. To address this, and in furtherance of the
-above goals, the Audubon Core should be regarded as a synthesis of DC,
+above goals, the Audiovisual Core should be regarded as a synthesis of DC,
 DwC, and, where those are inadequate, some forward looking metadata
 standards that the camera manufacturers are presently planning to
 support within the cameras themselves, much as they now use EXIF <sup id="cit-9">[\[9\]](#fn-9)</sup>.
@@ -385,16 +385,16 @@ metadata and references to its media resources.
 
 ## 6 Common Concerns with Other Biodiversity Information Standards
 
-The Audubon Core regards Collections of Multimedia Resources themselves
+The Audiovisual Core regards Collections of Multimedia Resources themselves
 as a kind of Resource. Many types of Collections are describable in the
 pending TDWG Natural History Collections (NCD) proposed standard. If a
 provider wishes only to provide for discovery of a multimedia Collection
 without regard to discovery of and access to its contents (other than
 sub Collections), it will often be immaterial whether NCD or AC
 metadata, or both, are served. This is all the more so if the NCD
-CollectionIdentifier and the Audubon Core Identifier have the same
-value. While Audubon Core Collection types are richer than NCD types, it
-is an open question whether Audubon Core's variety in this case is
+CollectionIdentifier and the Audiovisual Core Identifier have the same
+value. While Audiovisual Core Collection types are richer than NCD types, it
+is an open question whether Audiovisual Core's variety in this case is
 useful.
 
 There is substantial overlap with use of Darwin Core terms, notably with
@@ -437,12 +437,12 @@ how and when the data may have been changed from its original gathering.
 This is particularly important for media, which are commonly edited for
 one or another purpose. If carelessly done, this may destroy some if the
 modified object's utility. No TDWG standards or proposed standards seem
-very robust about provenance, including Audubon Core, which provides
+very robust about provenance, including Audiovisual Core, which provides
 only the Derived From property in order to provide a reference to
 another resource. This is somewhat akin to the NCD DerivedCollection
 term, which identifies a Collection record as having been produced by a
 query to another Collection. However, that apparently does not identify
-the source collection or the query. A future version of Audubon Core
+the source collection or the query. A future version of Audiovisual Core
 will add more provenance terms.
 
 
@@ -476,7 +476,7 @@ is itself of scientific and educational use even if the object is not
 conveniently accessible. Evidence for georeferenced taxon occurrence is
 one such use.
 
-Audubon Core metadata also can describe resources less often thought of
+Audiovisual Core metadata also can describe resources less often thought of
 as multimedia objects. These include:
 
   - Interactive software applications, either on the web or available
@@ -489,15 +489,15 @@ as multimedia objects. These include:
   - Web sites not otherwise falling into one of the above categories
 
 
-## 9 Audubon Core Records
+## 9 Audiovisual Core Records
 
-The normative Audubon Core metadata record specification is independent
+The normative Audiovisual Core metadata record specification is independent
 of the way in which those records are rendered into electronic form.
 MRTG intends to publish specifications for such rendering represented
 in, represented in XML constrained by an XML-Schema, and represented in
 plain text as comma separated values (CSV). [Sections 4.4 to 4.5 of the TDWG Standards Documentation Specification](https://github.com/tdwg/vocab/blob/master/sds/documentation-specification.md#44-vocabularies-term-lists-and-terms) describe how basic term metadata should be expressed in machine-readable forms such as RDF serializations.  A future task group might develop a more semantically rich machine-readable ontology following the procedures listed in [Section 4 of the TDWG Vocabulary Maintenance Specification](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#4-vocabulary-enhancements).
 
-The language of the normative Audubon Core specification is English, but
+The language of the normative Audiovisual Core specification is English, but
 this in no way constrains applications from using labels or content of
 the metadata in local languages. Because its language is English, each
 metadata item in the normative document has an English label (which
@@ -505,13 +505,13 @@ might, for example be part of a user interface), but these, too, are not
 required to be used by applications, although their use is strongly
 encouraged, at least in documentation.
 
-As mentioned earlier, an Audubon Core metadata record is a set of terms
+As mentioned earlier, an Audiovisual Core metadata record is a set of terms
 describing the underlying multimedia resource that the record describes.
 Each term is identified by a Uniform Resource Identifier (URI). These
 are URIs of the attribute, not of the underlying resource, and they
 simply specify which term is being provided. There are many URI schemes,
 some of which have been registered with the Internet Assigned Names
-Authority (IANA). All Audubon Core term URIs, conform to the http URI
+Authority (IANA). All Audiovisual Core term URIs, conform to the http URI
 Scheme. This is chosen because this widely used URI scheme uses the
 familiar internet URL syntax as its URI syntax. But this familiarity
 gives rise to a common misconception, namely that pasting the URI into a
@@ -519,13 +519,13 @@ browser URL line, or providing it to some other application that
 respects the http protocol, should result in the application returning
 some information about the object identified by the URI. Such behavior
 is usually called resolution (or, more technically, resolution and
-dereferencing) of the URI and is in no way guaranteed for Audubon Core
+dereferencing) of the URI and is in no way guaranteed for Audiovisual Core
 term URIs. Where possible, we in fact try to make http URIs be
 resolvable, with the information returned being documentation for how
 the metadata attribute identified by that URI is defined or use. To
-reiterate: for Audubon Core term URIs, any such resolution will never
+reiterate: for Audiovisual Core term URIs, any such resolution will never
 contain information about the underlying multimedia resource being
-described. For this reason, few human-centric Audubon Core applications
+described. For this reason, few human-centric Audiovisual Core applications
 should ever present the URIs to users, nor use them as linking
 mechanisms. (One possible exception is an application for assigning
 metadata to multimedia resources, where such a use may provide a
@@ -539,31 +539,31 @@ cases, any resolution available from the normative document may only
 link to the beginning of the document, leaving it necessary to search in
 the document for the referenced definition.
 
-Associated to each Audubon Core property is its value. The datatype of
+Associated to each Audiovisual Core property is its value. The datatype of
 this value is also specified in the normative document. Datatypes can
 include free text, specific literals taken from a controlled vocabulary
 specified in the normative document, or a number of other datatypes
 specified and described in the normative document. In the case of a
 controlled vocabulary, it is important to note that whatever an
-application may present in a user interface, any Audubon Core metadata
+application may present in a user interface, any Audiovisual Core metadata
 interchange should use the literals from a specified controlled
 vocabulary when one is specified, even if the record is declared to be a
 record in a different language than that of the controlled term. An
 important example is the Type metadata field, which is recommended to
 come from the corresponding vocabulary from Dublin Core, augmented by
 some recommended in the normative document. (We also add to that an
-optional field Subtype.) Similarly, agents answering Audubon Core
+optional field Subtype.) Similarly, agents answering Audiovisual Core
 metadata queries MUST be able to consume and respond to queries framed
 with the controlled vocabulary. Nothing in the normative document
-prevents an Audubon Core data provider from asserting it has no records
+prevents an Audiovisual Core data provider from asserting it has no records
 with a given controlled term, nor from internally mapping between a
 controlled vocabulary and its internal attributes, whose names may well
-be in a language other than English. Only a small number of Audubon Core
+be in a language other than English. Only a small number of Audiovisual Core
 properties take values in a specific, English-based controlled
 vocabulary. This will become relevant only for metadata interchange. Of
 the mandatory terms, only Type has any such requirements.
 
-An Audubon Core record consists minimally of the four mandatory fields
+An Audiovisual Core record consists minimally of the four mandatory fields
 (Identifier, Type, Metadata Language, and Copyright Statement).
 
 In some cases, some metadata terms are necessarily related to others
@@ -571,13 +571,13 @@ In some cases, some metadata terms are necessarily related to others
 version). However, spreadsheets and other flat sources of contributor
 metadata are regarded as particularly important, and in many of these it
 is difficult to represent such structural relationships. Consequently an
-Audubon Core record is itself mainly flat, the exception being the
+Audiovisual Core record is itself mainly flat, the exception being the
 object of a property named *hasServiceAccessPoint*. This object itself
 has further properties that describe how to fetch the actual media
 described by the AC record. One consequence of this is that, for some
 purposes, a metadata Provider might have to make several metadata
 records available about the same underlying resource, because the
-representation-neutral Audubon Core specification does not provide for
+representation-neutral Audiovisual Core specification does not provide for
 “subproperties” on its properties, or for relations in most cases. An
 important case surrounds multilingual metadata. Because each metadata
 record is in a fixed language specified by the Metadata Language
@@ -592,7 +592,7 @@ in the sense that its optional terms may be regarded as defaults for any
 not specified in other records about the same resource. This point is
 under discussion on the MRTG Wiki.
 
-Many items may be repeated in an Audubon Core record, but some may not,
+Many items may be repeated in an Audiovisual Core record, but some may not,
 as indicated in the normative document. For example the Modified item
 corresponds to a date at which the media resource was modified and may
 be repeated to reflect the history of the resource. By contrast, Date
@@ -602,7 +602,7 @@ underlying resource became, or will become, available.
 
 ## 10 Implementation and Compliance
 
-Audubon Core is defined in a way that is as representation-neutral as
+Audiovisual Core is defined in a way that is as representation-neutral as
 possible. It provides natural language definitions of classes,
 properties and instances that are identified by URIs and it makes
 recommendations on the use and content of properties from other
@@ -614,17 +614,17 @@ headings in comma delimited text files.
 
 This approach facilitates:
 
-  - Embedding of Audubon Core data within other standards such as
+  - Embedding of Audiovisual Core data within other standards such as
     descriptions of specimens or literature.
 
-  - The extension of Audubon Core records with other data types such as
+  - The extension of Audiovisual Core records with other data types such as
     the extensive geographic controlled vocabularies of the Open
     Geospatial Consortium (OGC)
 
   - Cross walking between technologies such as a Comma Separated Value
     file, an RDF graph, an XML document and a JSON object.
 
-The Audubon Core representation-neutral normative standard itself does
+The Audiovisual Core representation-neutral normative standard itself does
 not provide an off-the-shelf, self validating exchange format. Multiple
 such exchange formats meeting different requirements can be defined and
 this standard allows mapping between them.
@@ -632,11 +632,11 @@ this standard allows mapping between them.
 
 ## 11 Further Information
 
-  - Audubon Core Maintenance Group Charter
-    https://github.com/tdwg/ac/blob/master/audubon-core_maintenance-group_charter.md
+  - Audiovisual Core Maintenance Group Charter
+    https://github.com/tdwg/ac/blob/master/Audiovisual-core_maintenance-group_charter.md
 
 
-  - Discussion of the Audubon Core takes place at
+  - Discussion of the Audiovisual Core takes place at
     https://github.com/tdwg/ac/issues
 
   - Register for the mailing list tdwg-content@lists.tdwg.org at http://lists.tdwg.org/mailman/listinfo/tdwg-content. This email list tracks all discussion about the content of TDWG standards.
@@ -726,9 +726,9 @@ this standard allows mapping between them.
 </table>
 
 
-## 13 Appendix II: Audubon Core Development History
+## 13 Appendix II: Audiovisual Core Development History
 
-The Audubon Core Multimedia Resources Metadata Schema (Audubon Core) standard is the culmination of work on multimedia
+The Audiovisual Core Multimedia Resources Metadata Schema (Audiovisual Core) standard is the culmination of work on multimedia
 resource descriptions carried out by Key to Nature, the NBII Digital
 Image Library, Morphbank, and others, together with input from a number
 of other stakeholder communities including Encyclopedia of Life (EOL),
@@ -803,7 +803,7 @@ Denmark to refine the metadata schema
 2010, July TDWG Internal Review 1 completed
 
 2010, November v1.0 submitted to TDWG Executive committee with response
-to Internal Review 1. Proposed Standard renamed Audubon Core Multimedia
+to Internal Review 1. Proposed Standard renamed Audiovisual Core Multimedia
 Resources Metadata Schema (AC).
 
 2011, June Response to Internal Review 2 under way.
@@ -829,11 +829,11 @@ to have public comment
 
 **ACv1.0 docv1.0**
 
-- Harmonized to v1.0: replace “MRTG” with “Audubon Core” where used as name of schema. Correct minor typos. Add “dcterms” as prefix.
+- Harmonized to v1.0: replace “MRTG” with “Audiovisual Core” where used as name of schema. Correct minor typos. Add “dcterms” as prefix.
 
 **ACv1.0 docv1.0**
 
-- Further replacement of MRTG with “Audubon Core” or “AC”.
+- Further replacement of MRTG with “Audiovisual Core” or “AC”.
 
 **AC v1.0 docv 1.2**
 
@@ -922,7 +922,7 @@ consumer applications, over two dozen open source and commercial
 software products and platforms support XMP and Adobe has placed a
 Developers' Toolkit under an open source license. Along with
 proposals for standard serializations of the representation-neutral
-Audubon Core schema, MRTG intends to propose a TDWG Best Practice
+Audiovisual Core schema, MRTG intends to propose a TDWG Best Practice
 for embedding such serializations in multimedia files using XMP.
 
 <sup id="fn-10">[\[10\]](#cit-10)</sup>
