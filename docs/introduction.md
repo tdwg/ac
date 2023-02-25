@@ -6,15 +6,17 @@ permalink: /introduction/
 
 **Title:** Audiovisual Core Introduction
 
-**Date version issued:** 2013-10-23
+**Date version issued:** 2023-02-24
 
 **Date created:** 2013-10-23
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** http://rs.tdwg.org/ac/doc/introduction/2013-10-23
+**This version:** http://rs.tdwg.org/ac/doc/introduction/2023-02-24
 
 **Latest version:** http://rs.tdwg.org/ac/doc/introduction/
+
+**Previous version:** <http://rs.tdwg.org/ac/doc/introduction/2013-10-23>
 
 **Abstract:** The **Audiovisual Core** is a set of vocabularies designed to represent
 metadata for biodiversity multimedia resources and collections. These
@@ -32,7 +34,7 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 **Creator:** GBIF/TDWG Multimedia Resources Task Group
 
-**Bibliographic citation:** Multimedia Resources Task Group. 2013. Audiovisual Core Introduction. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/introduction/
+**Bibliographic citation:** Audiovisual Core Maintenance Group. 2023. Audiovisual Core Introduction. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/introduction/2023-02-24
 
 ## 1 Introduction
 

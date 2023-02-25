@@ -6,17 +6,17 @@ permalink: /termlist/
 
 **Title:** Audiovisual Core Term List
 
-**Date version issued:** 2022-02-23
+**Date version issued:** 2023-02-24
 
 **Date created:** 2013-10-23
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** <http://rs.tdwg.org/ac/doc/termlist/2022-02-23>
+**This version:** <http://rs.tdwg.org/ac/doc/termlist/2023-02-24>
 
 **Latest version:** <http://rs.tdwg.org/ac/doc/termlist/>
 
-**Previous version:** <http://rs.tdwg.org/ac/doc/termlist/2021-10-05>
+**Previous version:** <http://rs.tdwg.org/ac/doc/termlist/2022-02-23>
 
 **Abstract:** The Audiovisual Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
@@ -36,7 +36,7 @@ may not be changed without due process.
 
 **Creator:** GBIF/TDWG Multimedia Resources Task Group and Audiovisual Core Maintenance Group
 
-**Bibliographic citation:** Audiovisual Core Maintenance Group. 2022. Audiovisual Core Term List. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/termlist/2022-02-23>
+**Bibliographic citation:** Audiovisual Core Maintenance Group. 2023. Audiovisual Core Term List. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/termlist/2023-02-24>
 
 
 ## 1 Introduction

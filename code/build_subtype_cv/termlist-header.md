@@ -10,17 +10,17 @@ permalink: /subtype/
 
 **Preferred namespace abbreviation:** acsubtype:
 
-**Date version issued:** 2022-02-23
+**Date version issued:** 2023-02-24
 
 **Date created:** 2020-10-13
 
 **Part of TDWG Standard:** <http://www.tdwg.org/standards/638>
 
-**This version:** <http://rs.tdwg.org/ac/doc/subtype/2022-02-23>
+**This version:** <http://rs.tdwg.org/ac/doc/subtype/2023-02-24>
 
 **Latest version:** <http://rs.tdwg.org/ac/doc/subtype/>
 
-**Previous version:** <http://rs.tdwg.org/ac/doc/subtype/2020-10-13>
+**Previous version:** <http://rs.tdwg.org/ac/doc/subtype/2022-02-23>
 
 **Abstract:** Audiovisual Core uses the terms `ac:subtype` and `ac:subtypeLiteral` to refine the type of a media item to a level more specific than the Dublin Core Type Vocabulary, `http://purl.org/dc/dcmitype/`. This controlled vocabulary provides values for `ac:subtype` and `ac:subtypeLiteral`. 
 
@@ -28,7 +28,7 @@ permalink: /subtype/
 
 **Creator:** TDWG Audiovisual Core Maintenance Group
 
-**Bibliographic citation:** Audiovisual Core Maintenance Group. 2020. Controlled Vocabulary for Audiovisual Core subtype: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/subtype/2020-10-13>
+**Bibliographic citation:** Audiovisual Core Maintenance Group. 2023. Controlled Vocabulary for Audiovisual Core subtype: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/subtype/2023-02-24>
 
 
 ## 1 Introduction (informative)

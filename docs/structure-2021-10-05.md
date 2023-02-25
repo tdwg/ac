@@ -16,7 +16,9 @@ permalink: /structure/
 
 **Latest version:** http://rs.tdwg.org/ac/doc/structure/
 
-**Previous version:** [http://rs.tdwg.org/ac/doc/structure/2020-01-27](2020-01-27)
+**Previous version:** <http://rs.tdwg.org/ac/doc/structure/2020-01-27>
+
+**Replaced by:** <http://rs.tdwg.org/ac/doc/structure/2023-02-24>
 
 **Abstract:** The Audubon Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and

@@ -10,15 +10,17 @@ permalink: /variant/
 
 **Preferred namespace abbreviation:** acvariant:
 
-**Date version issued:** 2020-10-13
+**Date version issued:** 2023-02-24
 
 **Date created:** 2020-10-13
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** http://rs.tdwg.org/ac/doc/variant/2020-10-13
+**This version:** http://rs.tdwg.org/ac/doc/variant/2023-02-24
 
 **Latest version:** http://rs.tdwg.org/ac/doc/variant/
+
+**Previous version:** <http://rs.tdwg.org/ac/doc/variant/2020-10-13>
 
 **Abstract:** Audiovisual Core uses the terms `ac:variant` and `ac:variantLiteral` to provide information about the size, extent, and availability of the Service Access Point of a media item. This controlled vocabulary provides values for those terms. 
 
@@ -26,7 +28,7 @@ permalink: /variant/
 
 **Creator:** TDWG Audiovisual Core Maintenance Group
 
-**Bibliographic citation:** Audiovisual Core Maintenance Group. 2020. Controlled Vocabulary for Audiovisual Core variant: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/variant/2020-10-13>
+**Bibliographic citation:** Audiovisual Core Maintenance Group. 2023. Controlled Vocabulary for Audiovisual Core variant: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/variant/2023-02-24>
 
 
 ## 1 Introduction (informative)

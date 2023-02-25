@@ -16,6 +16,8 @@ permalink: /introduction/
 
 **Latest version:** http://rs.tdwg.org/ac/doc/introduction/
 
+**Replaced by:** <http://rs.tdwg.org/ac/doc/introduction/2023-02-24>
+
 **Abstract:** The **Audubon Core** is a set of vocabularies designed to represent
 metadata for biodiversity multimedia resources and collections. These
 vocabularies aim to represent information that will help to determine
@@ -32,7 +34,7 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage
 
 **Creator:** GBIF/TDWG Multimedia Resources Task Group
 
-**Bibliographic citation:** Multimedia Resources Task Group. 2013. Audubon Core Introduction. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/introduction/
+**Bibliographic citation:** Multimedia Resources Task Group. 2013. Audubon Core Introduction. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/introduction/2013-10-23
 
 ## 1 Introduction
 

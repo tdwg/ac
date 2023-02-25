@@ -6,17 +6,17 @@ permalink: /structure/
 
 **Title:** Audiovisual Core Structure
 
-**Date version issued:** 2021-10-05
+**Date version issued:** 2023-02-24
 
 **Date created:** 2013-10-23
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** http://rs.tdwg.org/ac/doc/structure/2021-10-05
+**This version:** http://rs.tdwg.org/ac/doc/structure/2023-02-24
 
 **Latest version:** http://rs.tdwg.org/ac/doc/structure/
 
-**Previous version:** [http://rs.tdwg.org/ac/doc/structure/2020-01-27](2020-01-27)
+**Previous version:** <http://rs.tdwg.org/ac/doc/structure/2021-10-05>
 
 **Abstract:** The Audiovisual Core is a set of vocabularies designed to
 represent metadata for biodiversity multimedia resources and
@@ -36,7 +36,7 @@ Dimitry Mozzherin, Annette Olson, Greg Riccardi, Ivan Teage, Steve Baskauf
 
 **Creator:** GBIF/TDWG Multimedia Resources Task Group and Audiovisual Core Maintenance Group
 
-**Bibliographic citation:** Audiovisual Core Maintenance Group. 2021. Audiovisual Core Structure. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/structure/2021-10-05
+**Bibliographic citation:** Audiovisual Core Maintenance Group. 2023. Audiovisual Core Structure. Biodiversity Information Standards (TDWG). http://rs.tdwg.org/ac/doc/structure/2023-02-24
 
 ## 1 Introduction
 
