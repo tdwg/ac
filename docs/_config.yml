@@ -4,29 +4,6 @@ description: Website for the Audiovisual Core standard.
 url: "https://tdwg.github.io"
 baseurl: "/ac"
 
-navbar:
-  left:
-  - text: Introduction
-    href: introduction/
-  - text: Terms
-    menu:
-    - text: Audiovisual Core main vocabulary
-      href: termlist/
-    - text: format controlled vocabulary
-      href: format/
-    - text: subtype controlled vocabulary
-      href: subtype/
-    - text: variant controlled vocabulary
-      href: variant/
-  - text: Guides
-    menu:
-    - text: User guide
-      href: guide/
-    - text: Structure
-      href: structure/
-  right:
-  - text: GitHub
-    href: https://github.com/tdwg/ac
 
 js: >-
   

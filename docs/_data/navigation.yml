@@ -1,0 +1,24 @@
+# Links listed below will be included in your site's navbar (navigation at the top)
+
+- text: Home
+  href: /
+- text: Introduction
+  href: /introduction/
+- text: Terms
+  menu:
+  - text: Audiovisual Core main vocabulary
+    href: /termlist/
+  - text: format controlled vocabulary
+    href: /format/
+  - text: subtype controlled vocabulary
+    href: /subtype/
+  - text: variant controlled vocabulary
+    href: /variant/
+- text: Guides
+  menu:
+  - text: User guide
+    href: /guide/
+  - text: Structure
+    href: /structure/
+- text: GitHub
+  href: https://github.com/tdwg/ac
