@@ -1,5 +1,5 @@
 ---
-permalink: /introduction/
+permalink: /introduction/2013-10-23
 ---
 
 # Audubon Core Introduction
