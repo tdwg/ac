@@ -6,13 +6,16 @@
   href: /introduction/
 - text: Terms
   menu:
-  - text: Audiovisual Core main vocabulary
+  - text: Main vocabulary
+  - text: Audiovisual Core
     href: /termlist/
-  - text: format controlled vocabulary
+  - text: "---"
+  - text: Controlled vocabularies
+  - text: format
     href: /format/
-  - text: subtype controlled vocabulary
+  - text: subtype
     href: /subtype/
-  - text: variant controlled vocabulary
+  - text: variant
     href: /variant/
 - text: Guides
   menu:
