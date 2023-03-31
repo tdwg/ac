@@ -1,5 +1,5 @@
 ---
-permalink: /structure/
+permalink: /structure/2020-01-27
 ---
 
 # Audubon Core Structure
