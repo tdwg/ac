@@ -1,4 +1,4 @@
-term_localName,label_en,definition_en,label_es,definition_es,label_pt,definition_pt,label_de,label_de
+term_localName,label_en,definition_en,label_es,definition_es,label_pt,definition_pt,label_de,definition_de
 p,subject part concept scheme,a SKOS concept scheme for ac:subjectOrientation,esquema de concepto de parte de sujeto,un esquema conceptual de SKOS para ac:subjectOrientation,esquema de conceito de partes de assunto,um esquema conceitual de SKOS para ac:subjectOrientation,Schemenkonzept für die Orientierung des Objektes,ein SKOS Schemenkonzept für die Orientierung
 p0000,unspecified part,Part is not known because it is not specified,parte no especificada,No se conoce la parte porque no se especifica,parte não especificada,a parte não é conhecida porque não foi especificada,nicht spezifizier Teil,"Teil ist nicht bekannt, da es nicht spezifiziert ist"
 p0001,entire organism,An entire multicellular organism,organismo entero,Un organismo multicelular entero,organismo inteiro,um organismo multicelular inteiro,vollständiger Organismus,Ein volständiger mehrzelliger Organismus
