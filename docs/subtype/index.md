@@ -1,7 +1,3 @@
----
-permalink: /subtype/
----
-
 # Controlled Vocabulary for Audiovisual Core subtype: List of Terms
 
 **Title:** Controlled Vocabulary for Audiovisual Core subtype: List of Terms

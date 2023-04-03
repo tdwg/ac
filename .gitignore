@@ -1,3 +1,9 @@
+# Python
 **/__pycache__/
-.DS_Store
 .ipynb_checkpoints
+
+# Jekyll
+docs/_site/*
+
+# Mac OS
+.DS_Store

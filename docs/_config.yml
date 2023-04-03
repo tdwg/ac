@@ -1,39 +1,32 @@
-# Site settings
+# SITE SETTINGS
 title: Audiovisual Core
-description: Website for the Audiovisual Core standard.
-url: "https://tdwg.github.io"
-baseurl: "/ac"
+url: "https://ac.tdwg.org"
 
-navbar:
-  left:
-  - text: Introduction
-    href: introduction/
-  - text: Terms
-    menu:
-    - text: Audiovisual Core main vocabulary
-      href: termlist/
-    - text: format controlled vocabulary
-      href: format/
-    - text: subtype controlled vocabulary
-      href: subtype/
-    - text: variant controlled vocabulary
-      href: variant/
-  - text: Guides
-    menu:
-    - text: User guide
-      href: guide/
-    - text: Structure
-      href: structure/
-  right:
-  - text: GitHub
-    href: https://github.com/tdwg/ac
+# SOCIAL PROFILES
+social:
+  github: tdwg/ac
 
-js: >-
-  
+# THEME SETTINGS
+theme: minima
+remote_theme: tdwg/petridish
+github_edit: false
+logo: /assets/theme/images/tdwg-logo-short.svg
 
-# Build settings
+# BUILD SETTINGS
 markdown: kramdown
-# theme: tdwg-theme-jekyll
-remote_theme: tdwg/tdwg-theme-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+
+# FRONTMATTER DEFAULTS
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      toc: true

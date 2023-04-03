@@ -1,7 +1,3 @@
----
-permalink: /format/
----
-
 # Controlled Vocabulary for Dublin Core format: List of Terms
 
 **Title:** Controlled Vocabulary for Dublin Core format: List of Terms
