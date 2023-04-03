@@ -1,7 +1,3 @@
----
-permalink: /guide/
----
-
 # Audiovisual Core Guide
 
 **Title:** Audiovisual Core Guide

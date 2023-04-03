@@ -1,7 +1,3 @@
----
-permalink: /introduction/
----
-
 # Audiovisual Core Introduction
 
 **Title:** Audiovisual Core Introduction

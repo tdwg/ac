@@ -1,7 +1,3 @@
----
-permalink: /structure/
----
-
 # Audiovisual Core Structure
 
 **Title:** Audiovisual Core Structure

@@ -1,7 +1,3 @@
----
-permalink: /variant/
----
-
 # Controlled Vocabulary for Audiovisual Core variant: List of Terms
 
 **Title:** Controlled Vocabulary for Audiovisual Core variant: List of Terms
