@@ -28,6 +28,10 @@
         {
           "@language": "pt",
           "@value": "esquema de conceito de orientação de sujeito"
+        },
+        {
+          "@language": "de",
+          "@value": "Schemenkonzept der Orientierung"
         }
       ],
       "skos:definition": [
@@ -42,6 +46,10 @@
         {
           "@language": "pt",
           "@value": "um esquema de conceito SKOS para orientação"
+        },
+        {
+          "@language": "de",
+          "@value": "Schemenkonzept der Orientierung"
         }
       ]
     },
@@ -62,6 +70,10 @@
         {
           "@language": "pt",
           "@value": "orientação não especificada"
+        },
+        {
+          "@language": "de",
+          "@value": "Ansichtsseite unbekannt"
         }
       ],
       "skos:definition": [
@@ -76,6 +88,10 @@
         {
           "@language": "pt",
           "@value": "a orientação não é conhecida porque não foi especificada"
+        },
+        {
+          "@language": "de",
+          "@value": "Ansichtsseite unbekannt"
         }
       ]
     },
@@ -97,6 +113,10 @@
         {
           "@language": "pt",
           "@value": "lado anterior"
+        },
+        {
+          "@language": "de",
+          "@value": "Vorderseite"
         }
       ],
       "skos:definition": [
@@ -111,6 +131,10 @@
         {
           "@language": "pt",
           "@value": "vista do lado em direção à cabeça ou extremidade anterior do organismo"
+        },
+        {
+          "@language": "de",
+          "@value": "Ansicht der Vorderseite (zum Kopf oder zum Vorderende gerichtet) des Organismus"
         }
       ]
     },
@@ -132,6 +156,10 @@
         {
           "@language": "pt",
           "@value": "lado posterior"
+        },
+        {
+          "@language": "de",
+          "@value": "Hinterseite"
         }
       ],
       "skos:definition": [
@@ -146,6 +174,10 @@
         {
           "@language": "pt",
           "@value": "vista do lado afastado da cabeça ou em direção à extremidade posterior do organismo"
+        },
+        {
+          "@language": "de",
+          "@value": "Ansicht der Hinterseite (zum Hinterende gerichtet) des Organismus"
         }
       ]
     },
@@ -167,6 +199,10 @@
         {
           "@language": "pt",
           "@value": "vista lateral"
+        },
+        {
+          "@language": "de",
+          "@value": "seitlich/Lateralseite"
         }
       ],
       "skos:definition": [
@@ -181,6 +217,10 @@
         {
           "@language": "pt",
           "@value": "vista do lado perpendicular ao eixo principal do organismo"
+        },
+        {
+          "@language": "de",
+          "@value": "seitliche Ansicht des Körpers"
         }
       ]
     },
@@ -203,6 +243,10 @@
         {
           "@language": "pt",
           "@value": "lado direito"
+        },
+        {
+          "@language": "de",
+          "@value": "rechte Seite"
         }
       ],
       "skos:definition": [
@@ -217,6 +261,10 @@
         {
           "@language": "pt",
           "@value": "vista do lado direito de um organismo completamente simétrico bilateralmente"
+        },
+        {
+          "@language": "de",
+          "@value": "Ansicht der rechten Seite eines bilateralen Organismus"
         }
       ]
     },
@@ -239,6 +287,10 @@
         {
           "@language": "pt",
           "@value": "lado esquerdo"
+        },
+        {
+          "@language": "de",
+          "@value": "linke Seite"
         }
       ],
       "skos:definition": [
@@ -253,6 +305,10 @@
         {
           "@language": "pt",
           "@value": "vista do lado esquerdo de um organismo completamente simétrico bilateralmente"
+        },
+        {
+          "@language": "de",
+          "@value": "Ansicht  der linken Seite eines bilateralen Organismus"
         }
       ]
     },
@@ -274,6 +330,10 @@
         {
           "@language": "pt",
           "@value": "face dorsal"
+        },
+        {
+          "@language": "de",
+          "@value": "Dorsalseite"
         }
       ],
       "skos:definition": [
@@ -288,6 +348,10 @@
         {
           "@language": "pt",
           "@value": "vista da face dorsal em relação ao plano frontal de um organismo completamente simétrico bilateralmente"
+        },
+        {
+          "@language": "de",
+          "@value": "Ansicht der Oberseite (Dorsum) eines bilateralen Organsimus"
         }
       ]
     },
@@ -309,6 +373,10 @@
         {
           "@language": "pt",
           "@value": "face ventral"
+        },
+        {
+          "@language": "de",
+          "@value": "Ventralseite"
         }
       ],
       "skos:definition": [
@@ -323,6 +391,10 @@
         {
           "@language": "pt",
           "@value": "vista da face ventral em relação ao plano frontal de um organismo completamente simétrico bilateralmente"
+        },
+        {
+          "@language": "de",
+          "@value": "Ansicht der Unterseite (Ventrum) eines bilateralen Organsimus"
         }
       ]
     },
@@ -344,6 +416,10 @@
         {
           "@language": "pt",
           "@value": "face adaxial"
+        },
+        {
+          "@language": "de",
+          "@value": "Adaxialseite"
         }
       ],
       "skos:definition": [
@@ -358,6 +434,10 @@
         {
           "@language": "pt",
           "@value": "vista da face da estrutura orientada para o eixo central de uma planta (adaxial)"
+        },
+        {
+          "@language": "de",
+          "@value": "Ansicht der zur Zentralachse gerichteten Seite einer Pflanze"
         }
       ]
     },
@@ -379,6 +459,10 @@
         {
           "@language": "pt",
           "@value": "vista abaxial"
+        },
+        {
+          "@language": "de",
+          "@value": "Abaxialseite"
         }
       ],
       "skos:definition": [
@@ -393,6 +477,10 @@
         {
           "@language": "pt",
           "@value": "vista da face da estrutura orientada para fora do eixo central de uma planta (abaxial)"
+        },
+        {
+          "@language": "de",
+          "@value": "Ansicht der von der Zentralachse weggerichteten Seite einer Pflanze"
         }
       ]
     },
@@ -414,6 +502,10 @@
         {
           "@language": "pt",
           "@value": "face apical"
+        },
+        {
+          "@language": "de",
+          "@value": "Apikalseite"
         }
       ],
       "skos:definition": [
@@ -428,6 +520,10 @@
         {
           "@language": "pt",
           "@value": "vista da face da estrutura voltada para a extremidade do eixo afastada de seu ponto de fixação (o ápice)"
+        },
+        {
+          "@language": "de",
+          "@value": "Ansicht der von der Zentralachse abgewandten (äußeren) Seite  eines Merkmals"
         }
       ]
     },
@@ -449,6 +545,10 @@
         {
           "@language": "pt",
           "@value": "face basal"
+        },
+        {
+          "@language": "de",
+          "@value": "Basalseite"
         }
       ],
       "skos:definition": [
@@ -463,6 +563,10 @@
         {
           "@language": "pt",
           "@value": "vista da face da estrutura voltada para o ponto de fixação de seu eixo"
+        },
+        {
+          "@language": "de",
+          "@value": "Ansicht der von der Zentralachse zugewandten (inneren) Seite eines Merkmals"
         }
       ]
     },
@@ -484,6 +588,10 @@
         {
           "@language": "pt",
           "@value": "vista oral"
+        },
+        {
+          "@language": "de",
+          "@value": "Oralseite"
         }
       ],
       "skos:definition": [
@@ -498,6 +606,10 @@
         {
           "@language": "pt",
           "@value": "vista da face do organismo voltada para a abertura oral"
+        },
+        {
+          "@language": "de",
+          "@value": "Ansicht der von der Mundöffnung zugewandten Seite"
         }
       ]
     },
@@ -519,6 +631,10 @@
         {
           "@language": "pt",
           "@value": "vista aboral"
+        },
+        {
+          "@language": "de",
+          "@value": "Aboralseite"
         }
       ],
       "skos:definition": [
@@ -533,6 +649,10 @@
         {
           "@language": "pt",
           "@value": "vista do lado do organismo orientado contrário da abertura oral"
+        },
+        {
+          "@language": "de",
+          "@value": "Ansicht der von der Mundöffnung abgewandten Seite"
         }
       ]
     }

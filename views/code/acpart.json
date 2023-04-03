@@ -28,6 +28,10 @@
         {
           "@language": "pt",
           "@value": "esquema de conceito de partes de assunto"
+        },
+        {
+          "@language": "de",
+          "@value": "Schemenkonzept für die Orientierung des Objektes"
         }
       ],
       "skos:definition": [
@@ -42,6 +46,10 @@
         {
           "@language": "pt",
           "@value": "um esquema conceitual de SKOS para ac:subjectOrientation"
+        },
+        {
+          "@language": "de",
+          "@value": "ein SKOS Schemenkonzept für die Orientierung"
         }
       ]
     },
@@ -62,6 +70,10 @@
         {
           "@language": "pt",
           "@value": "parte não especificada"
+        },
+        {
+          "@language": "de",
+          "@value": "nicht spezifizier Teil"
         }
       ],
       "skos:definition": [
@@ -76,6 +88,10 @@
         {
           "@language": "pt",
           "@value": "a parte não é conhecida porque não foi especificada"
+        },
+        {
+          "@language": "de",
+          "@value": "Teil ist nicht bekannt, da es nicht spezifiziert ist"
         }
       ]
     },
@@ -97,6 +113,10 @@
         {
           "@language": "pt",
           "@value": "organismo inteiro"
+        },
+        {
+          "@language": "de",
+          "@value": "vollständiger Organismus"
         }
       ],
       "skos:definition": [
@@ -111,6 +131,10 @@
         {
           "@language": "pt",
           "@value": "um organismo multicelular inteiro"
+        },
+        {
+          "@language": "de",
+          "@value": "Ein volständiger mehrzelliger Organismus"
         }
       ]
     },
@@ -132,6 +156,10 @@
         {
           "@language": "pt",
           "@value": "casca"
+        },
+        {
+          "@language": "de",
+          "@value": "Rinde"
         }
       ],
       "skos:definition": [
@@ -146,6 +174,10 @@
         {
           "@language": "pt",
           "@value": "Tecido vegetal fora do câmbio vascular"
+        },
+        {
+          "@language": "de",
+          "@value": "Pflanzengewebe außerhalb des Zentralzylinders"
         }
       ]
     },
@@ -167,6 +199,10 @@
         {
           "@language": "pt",
           "@value": "galho"
+        },
+        {
+          "@language": "de",
+          "@value": "Zweig"
         }
       ],
       "skos:definition": [
@@ -181,6 +217,10 @@
         {
           "@language": "pt",
           "@value": "Eixo do caule da planta desenvolvido a partir de gemas axilares"
+        },
+        {
+          "@language": "de",
+          "@value": "Pflanzentriebachse, die sich aus Achselknospen entwickelt"
         }
       ]
     },
@@ -202,6 +242,10 @@
         {
           "@language": "pt",
           "@value": "tronco"
+        },
+        {
+          "@language": "de",
+          "@value": "Stamm"
         }
       ],
       "skos:definition": [
@@ -216,6 +260,10 @@
         {
           "@language": "pt",
           "@value": "Eixo do caule da planta que define o eixo principal"
+        },
+        {
+          "@language": "de",
+          "@value": "Pflanzentriebachse, die die Hauptachse der Pflanze definiert"
         }
       ]
     },
@@ -237,6 +285,10 @@
         {
           "@language": "pt",
           "@value": "folha"
+        },
+        {
+          "@language": "de",
+          "@value": "Blatt"
         }
       ],
       "skos:definition": [
@@ -251,6 +303,10 @@
         {
           "@language": "pt",
           "@value": "Filoma não reprodutivo da planta"
+        },
+        {
+          "@language": "de",
+          "@value": "Nicht reproduktives Phyllom von Pflanzen"
         }
       ]
     },
@@ -272,6 +328,10 @@
         {
           "@language": "pt",
           "@value": "estróbilo (cone)"
+        },
+        {
+          "@language": "de",
+          "@value": "Strobilus ( Zapfen)"
         }
       ],
       "skos:definition": [
@@ -286,6 +346,10 @@
         {
           "@language": "pt",
           "@value": "Sistema reprodutivo vegetal constituído por esporófilos"
+        },
+        {
+          "@language": "de",
+          "@value": "Reproduktionssystem der Pflanzen bestehend aus Sporophyllen"
         }
       ]
     },
@@ -307,6 +371,10 @@
         {
           "@language": "pt",
           "@value": "inflorescência"
+        },
+        {
+          "@language": "de",
+          "@value": "Infloreszenz (Blütenstand)"
         }
       ],
       "skos:definition": [
@@ -321,6 +389,10 @@
         {
           "@language": "pt",
           "@value": "Sistema reprodutivo de plantas contendo flores"
+        },
+        {
+          "@language": "de",
+          "@value": "Reproduktives Verzerigungssystem einer Pflanze, die zur Blütenbildung dienen"
         }
       ]
     },
@@ -342,6 +414,10 @@
         {
           "@language": "pt",
           "@value": "fruta"
+        },
+        {
+          "@language": "de",
+          "@value": "Frucht"
         }
       ],
       "skos:definition": [
@@ -356,6 +432,10 @@
         {
           "@language": "pt",
           "@value": "Estrutura da planta se desenvolvendo a partir de uma flor"
+        },
+        {
+          "@language": "de",
+          "@value": "Pflanzenstruktur, die sich von einer Blüte entwickelt"
         }
       ]
     },
@@ -377,6 +457,10 @@
         {
           "@language": "pt",
           "@value": "semente"
+        },
+        {
+          "@language": "de",
+          "@value": "Samen"
         }
       ],
       "skos:definition": [
@@ -391,6 +475,10 @@
         {
           "@language": "pt",
           "@value": "Estrutura da planta contendo embrião dormente"
+        },
+        {
+          "@language": "de",
+          "@value": "Pflanzenstruktur, die einen ruhenden Embryo enthält"
         }
       ]
     },
@@ -413,6 +501,10 @@
         {
           "@language": "pt",
           "@value": "cone masculino"
+        },
+        {
+          "@language": "de",
+          "@value": "männlicher Zapfen"
         }
       ],
       "skos:definition": [
@@ -427,6 +519,10 @@
         {
           "@language": "pt",
           "@value": "Estróbilos de plantas contendo pólen"
+        },
+        {
+          "@language": "de",
+          "@value": "Pollen-tragender Strobilus einer Pflanze"
         }
       ]
     },
@@ -449,6 +545,10 @@
         {
           "@language": "pt",
           "@value": "cone feminino"
+        },
+        {
+          "@language": "de",
+          "@value": "weiblicher Zapfen"
         }
       ],
       "skos:definition": [
@@ -463,6 +563,10 @@
         {
           "@language": "pt",
           "@value": "Estróbilos de plantas contendo óvulos"
+        },
+        {
+          "@language": "de",
+          "@value": "Ovulae-tragender Strobilus einer Pflanze"
         }
       ]
     },
@@ -485,6 +589,10 @@
         {
           "@language": "pt",
           "@value": "flor"
+        },
+        {
+          "@language": "de",
+          "@value": "Blüte"
         }
       ],
       "skos:definition": [
@@ -499,6 +607,10 @@
         {
           "@language": "pt",
           "@value": "Sistema reprodutivo de plantas contendo um carpelo"
+        },
+        {
+          "@language": "de",
+          "@value": "Reproduktives Sprosssystem der Pflanzen, das ein Karpell enthällt"
         }
       ]
     },
@@ -520,6 +632,10 @@
         {
           "@language": "pt",
           "@value": "cabeça"
+        },
+        {
+          "@language": "de",
+          "@value": "Kopf"
         }
       ],
       "skos:definition": [
@@ -534,6 +650,10 @@
         {
           "@language": "pt",
           "@value": "Divisão mais anterior do corpo"
+        },
+        {
+          "@language": "de",
+          "@value": "Vorderster Abschnitt des Körpers"
         }
       ]
     },
@@ -555,6 +675,10 @@
         {
           "@language": "pt",
           "@value": "tórax"
+        },
+        {
+          "@language": "de",
+          "@value": "Thorax (Brust)"
         }
       ],
       "skos:definition": [
@@ -569,6 +693,10 @@
         {
           "@language": "pt",
           "@value": "A divisão do meio do corpo do inseto com apêndices locomotores"
+        },
+        {
+          "@language": "de",
+          "@value": "Mittlerer Körperabschnitt eines Insekts, welcher die Gliedmaße zur Bewegung trägt"
         }
       ]
     },
@@ -590,6 +718,10 @@
         {
           "@language": "pt",
           "@value": "abdomen"
+        },
+        {
+          "@language": "de",
+          "@value": "Abdomen (Hinterleib)"
         }
       ],
       "skos:definition": [
@@ -604,6 +736,10 @@
         {
           "@language": "pt",
           "@value": "A divisão mais posterior do corpo do inseto"
+        },
+        {
+          "@language": "de",
+          "@value": "Hinterster Körperabschitt eines Insekts"
         }
       ]
     },
@@ -625,6 +761,10 @@
         {
           "@language": "pt",
           "@value": "perna"
+        },
+        {
+          "@language": "de",
+          "@value": "Bein"
         }
       ],
       "skos:definition": [
@@ -639,6 +779,10 @@
         {
           "@language": "pt",
           "@value": "Apêndice locomotor"
+        },
+        {
+          "@language": "de",
+          "@value": "Gliedmaß zum Laufen"
         }
       ]
     },
@@ -660,6 +804,10 @@
         {
           "@language": "pt",
           "@value": "asa"
+        },
+        {
+          "@language": "de",
+          "@value": "Flügel"
         }
       ],
       "skos:definition": [
@@ -674,6 +822,10 @@
         {
           "@language": "pt",
           "@value": "Apêndice que é moldado para produzir sustentação para o vôo pelo ar"
+        },
+        {
+          "@language": "de",
+          "@value": "für den Flug angepasster Fortsatz"
         }
       ]
     },
@@ -695,6 +847,10 @@
         {
           "@language": "pt",
           "@value": "antena"
+        },
+        {
+          "@language": "de",
+          "@value": "Antenne"
         }
       ],
       "skos:definition": [
@@ -709,6 +865,10 @@
         {
           "@language": "pt",
           "@value": "Os órgãos sensoriais pareados da cabeça, geralmente com múltiplas articulações"
+        },
+        {
+          "@language": "de",
+          "@value": "Paarige Sinnesorgane am Kof, meistens mit mehreren Segmenten"
         }
       ]
     },
@@ -731,6 +891,10 @@
         {
           "@language": "pt",
           "@value": "asa dianteira"
+        },
+        {
+          "@language": "de",
+          "@value": "Vorderflügel"
         }
       ],
       "skos:definition": [
@@ -745,6 +909,10 @@
         {
           "@language": "pt",
           "@value": "A asa emparelhada de um inseto emparelhada que é contínua com o mesonoto"
+        },
+        {
+          "@language": "de",
+          "@value": "Paariger Insektenflügel, der am Mesonotum ansetzt"
         }
       ]
     },
@@ -767,6 +935,10 @@
         {
           "@language": "pt",
           "@value": "asa posterior"
+        },
+        {
+          "@language": "de",
+          "@value": "Hinterflügel"
         }
       ],
       "skos:definition": [
@@ -781,6 +953,10 @@
         {
           "@language": "pt",
           "@value": "A asa emparelhada de um inseto emparelhada que é contínua com o metanoto"
+        },
+        {
+          "@language": "de",
+          "@value": "Paariger Insektenflügel, der am Metanotum ansetzt"
         }
       ]
     },
@@ -803,6 +979,10 @@
         {
           "@language": "pt",
           "@value": "perna dianteira"
+        },
+        {
+          "@language": "de",
+          "@value": "Vorderbein"
         }
       ],
       "skos:definition": [
@@ -817,6 +997,10 @@
         {
           "@language": "pt",
           "@value": "Perna do segmento protorácico"
+        },
+        {
+          "@language": "de",
+          "@value": "Bein des Prothorax"
         }
       ]
     },
@@ -839,6 +1023,10 @@
         {
           "@language": "pt",
           "@value": "perna do meio"
+        },
+        {
+          "@language": "de",
+          "@value": "Mittleres Bein"
         }
       ],
       "skos:definition": [
@@ -853,6 +1041,10 @@
         {
           "@language": "pt",
           "@value": "Perna do segmento mesotorácico"
+        },
+        {
+          "@language": "de",
+          "@value": "Bein des Mesothorax"
         }
       ]
     },
@@ -875,6 +1067,10 @@
         {
           "@language": "pt",
           "@value": "perna traseira"
+        },
+        {
+          "@language": "de",
+          "@value": "Hinterbein"
         }
       ],
       "skos:definition": [
@@ -889,6 +1085,10 @@
         {
           "@language": "pt",
           "@value": "Perna do segmento metatorácico"
+        },
+        {
+          "@language": "de",
+          "@value": "Bein des Metathorax"
         }
       ]
     },
@@ -910,6 +1110,10 @@
         {
           "@language": "pt",
           "@value": "olho"
+        },
+        {
+          "@language": "de",
+          "@value": "Auge"
         }
       ],
       "skos:definition": [
@@ -924,6 +1128,10 @@
         {
           "@language": "pt",
           "@value": "um órgão que detecta luz"
+        },
+        {
+          "@language": "de",
+          "@value": "Lichtempfindliches Sinnesorgan"
         }
       ]
     },
@@ -945,6 +1153,10 @@
         {
           "@language": "pt",
           "@value": "concha"
+        },
+        {
+          "@language": "de",
+          "@value": "Schale"
         }
       ],
       "skos:definition": [
@@ -959,6 +1171,10 @@
         {
           "@language": "pt",
           "@value": "Uma cobertura rígida que envolve um objeto"
+        },
+        {
+          "@language": "de",
+          "@value": "Harte Schicht, die ein Objekt umgibt"
         }
       ]
     },
@@ -980,6 +1196,10 @@
         {
           "@language": "pt",
           "@value": "genitália"
+        },
+        {
+          "@language": "de",
+          "@value": "Genitalien"
         }
       ],
       "skos:definition": [
@@ -994,6 +1214,10 @@
         {
           "@language": "pt",
           "@value": "órgãos sexuais externos"
+        },
+        {
+          "@language": "de",
+          "@value": "äußere Geschlechtsorgane"
         }
       ]
     },
@@ -1015,6 +1239,10 @@
         {
           "@language": "pt",
           "@value": "caveira"
+        },
+        {
+          "@language": "de",
+          "@value": "Schädel"
         }
       ],
       "skos:definition": [
@@ -1029,6 +1257,10 @@
         {
           "@language": "pt",
           "@value": "A parte da cabeça que consiste inteiramente de crânio e mandíbula"
+        },
+        {
+          "@language": "de",
+          "@value": "Aus Cranium und Mandibel bestehender Teil des Kopfes"
         }
       ]
     },
@@ -1051,6 +1283,10 @@
         {
           "@language": "pt",
           "@value": "crânio"
+        },
+        {
+          "@language": "de",
+          "@value": "Kranium"
         }
       ],
       "skos:definition": [
@@ -1065,6 +1301,10 @@
         {
           "@language": "pt",
           "@value": "Parte superior do crânio"
+        },
+        {
+          "@language": "de",
+          "@value": "Oberer Teil des Schädels"
         }
       ]
     },
@@ -1087,6 +1327,10 @@
         {
           "@language": "pt",
           "@value": "mandíbula"
+        },
+        {
+          "@language": "de",
+          "@value": "Manibula"
         }
       ],
       "skos:definition": [
@@ -1101,6 +1345,10 @@
         {
           "@language": "pt",
           "@value": "Um osso dentário que é o único osso em uma das metades laterais do maxilar inferior"
+        },
+        {
+          "@language": "de",
+          "@value": "Der einzige Knochen im Unterkiefer"
         }
       ]
     },
@@ -1122,6 +1370,10 @@
         {
           "@language": "pt",
           "@value": "barbatana"
+        },
+        {
+          "@language": "de",
+          "@value": "Flosse"
         }
       ],
       "skos:definition": [
@@ -1136,6 +1388,10 @@
         {
           "@language": "pt",
           "@value": "Uma projeção externa de um animal aquático usado para impulsionar ou guiar o corpo"
+        },
+        {
+          "@language": "de",
+          "@value": "äußerliche Projektion eines aquatischen Tiers für die Fortbewegung oder Steuerung des Körpers"
         }
       ]
     },
@@ -1157,6 +1413,10 @@
         {
           "@language": "pt",
           "@value": "ovo"
+        },
+        {
+          "@language": "de",
+          "@value": "Ei"
         }
       ],
       "skos:definition": [
@@ -1171,6 +1431,10 @@
         {
           "@language": "pt",
           "@value": "O corpo reprodutivo de casca dura produzido por um animal"
+        },
+        {
+          "@language": "de",
+          "@value": "Hartschaliges reproduktives System, das von einem Tier produziert wird"
         }
       ]
     },
@@ -1192,6 +1456,10 @@
         {
           "@language": "pt",
           "@value": "broto"
+        },
+        {
+          "@language": "de",
+          "@value": "Knospe"
         }
       ],
       "skos:definition": [
@@ -1206,6 +1474,10 @@
         {
           "@language": "pt",
           "@value": "Um sistema de caule vegetal não desenvolvido"
+        },
+        {
+          "@language": "de",
+          "@value": "Ein unentwickeltes Triebsystem"
         }
       ]
     }
