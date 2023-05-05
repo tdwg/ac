@@ -245,7 +245,7 @@ as unnecessary.
 
 #### 3.2.1 Example of a table with each service access point in a separate row (non-normative)
 
-<table class="table-responsive">
+<table>
   <tbody>
     <tr>
       <td><strong>dcterms:identifier</strong></td>
@@ -287,7 +287,7 @@ properties in a new namespace.
 
 #### 3.2.2 Example of a table with metadata for all service access points in the same row (non-normative)
 
-<table class="table-responsive">
+<table>
   <tbody>
     <tr>
       <td><strong>dcterms:identifier</strong></td>
