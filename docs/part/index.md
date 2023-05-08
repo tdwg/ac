@@ -109,11 +109,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p-2023-01-09">http://rs.tdwg.org/acpart/values/version/p-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p-2023-04-26">http://rs.tdwg.org/acpart/values/version/p-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -143,11 +143,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0000-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0000-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0000-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0000-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -185,11 +185,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0001-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0001-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0001-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0001-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -235,11 +235,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0002-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0002-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0002-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0002-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -285,11 +285,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0003-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0003-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0003-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0003-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -335,11 +335,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0004-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0004-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0004-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0004-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -385,11 +385,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0005-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0005-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0005-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0005-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -435,11 +435,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0006-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0006-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0006-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0006-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -485,11 +485,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0007-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0007-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0007-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0007-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -535,11 +535,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0008-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0008-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0008-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0008-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -585,11 +585,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0009-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0009-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0009-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0009-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -635,11 +635,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0010-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0010-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0010-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0010-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -689,11 +689,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0011-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0011-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0011-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0011-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -743,11 +743,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0012-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0012-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0012-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0012-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -797,11 +797,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0013-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0013-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0013-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0013-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -847,11 +847,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0014-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0014-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0014-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0014-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -897,11 +897,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0015-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0015-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0015-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0015-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -947,11 +947,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0016-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0016-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0016-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0016-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -997,11 +997,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0017-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0017-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0017-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0017-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1047,11 +1047,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0018-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0018-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0018-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0018-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1097,11 +1097,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0019-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0019-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0019-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0019-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1151,11 +1151,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0020-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0020-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0020-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0020-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1205,11 +1205,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0021-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0021-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0021-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0021-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1259,11 +1259,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0022-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0022-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0022-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0022-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1313,11 +1313,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0023-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0023-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0023-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0023-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1367,11 +1367,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0024-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0024-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0024-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0024-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1417,11 +1417,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0025-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0025-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0025-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0025-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1467,11 +1467,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0026-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0026-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0026-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0026-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1517,11 +1517,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0027-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0027-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0027-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0027-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1567,11 +1567,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0028-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0028-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0028-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0028-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1621,11 +1621,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0029-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0029-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0029-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0029-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1675,11 +1675,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0030-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0030-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0030-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0030-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1725,11 +1725,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0031-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0031-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0031-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0031-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -1775,11 +1775,11 @@ Neither of these Collections are normative and they are maintained outside of th
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2023-01-09</td>
+			<td>2023-04-26</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/acpart/values/version/p0032-2023-01-09">http://rs.tdwg.org/acpart/values/version/p0032-2023-01-09</a></td>
+			<td><a href="http://rs.tdwg.org/acpart/values/version/p0032-2023-04-26">http://rs.tdwg.org/acpart/values/version/p0032-2023-04-26</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>

@@ -19,7 +19,7 @@ import pandas as pd
 
 # This is the base URL for raw files from the branch of the repo that has been pushed to GitHub. In this example,
 # the branch is named "pathway"
-githubBaseUri = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/views/'
+githubBaseUri = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/master/'
 
 headerFileName = 'termlist-header.md'
 footerFileName = 'termlist-footer.md'

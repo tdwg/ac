@@ -13,6 +13,10 @@
   - text: Controlled vocabularies
   - text: format
     href: /format/
+  - text: subjectOrientation
+    href: /orient/
+  - text: subjectPart
+    href: /part/
   - text: subtype
     href: /subtype/
   - text: variant
