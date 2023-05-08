@@ -290,7 +290,7 @@ for out_filename in [database_name + '_collection.json', database_name + '_colle
     outputObject.write(jsonld_output)
     outputObject.close()
     
-with open(selection + '_collections.md', 'wt', encoding='utf-8') as fileObject:
+with open('../../docs/' + selection + '_collections.md', 'wt', encoding='utf-8') as fileObject:
     fileObject.write(markdown_string)
     
 print('Done writing SKOS Collections.')
