@@ -1,5 +1,5 @@
 {
-    "date_issued": "2022-07-25",
+    "date_issued": "2023-04-26",
     "local_offset_from_utc": "-05:00",
     "vocab_type": 3,
     "namespaces": [
@@ -12,7 +12,7 @@
             "label": "subjectOrientation controlled values list",
             "description": "Controlled values list for the Audiovisual Core term subjectOrientation",
             "utility_namespace": false,
-            "modifications_file_path": "ac-revisions/ac-views-cv-2022-07-25/subjectOrientation_cv.csv",
+            "modifications_file_path": "ac-revisions/ac-views-cv-2023-04-26/subjectOrientation_cv.csv",
             "termlist_uri": ""
         }
     ]
