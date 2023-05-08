@@ -1,0 +1,168 @@
+collection_id,collection_label,member_id,part_label
+g000,unspecified organism group,p0000,unspecified part
+g000,unspecified organism group,p0001,entire organism
+g001,woody angiosperms,p0000,unspecified part
+g001,woody angiosperms,p0001,entire organism
+g001,woody angiosperms,p0002,bark
+g001,woody angiosperms,p0003,twig
+g001,woody angiosperms,p0005,leaf
+g001,woody angiosperms,p0007,inflorescence
+g001,woody angiosperms,p0008,fruit
+g001,woody angiosperms,p0009,seed
+g001,woody angiosperms,p0012,flower
+g001,woody angiosperms,p0032,bud
+g002,herbaceous angiosperms,p0000,unspecified part
+g002,herbaceous angiosperms,p0001,entire organism
+g002,herbaceous angiosperms,p0004,stem
+g002,herbaceous angiosperms,p0005,leaf
+g002,herbaceous angiosperms,p0007,inflorescence
+g002,herbaceous angiosperms,p0008,fruit
+g002,herbaceous angiosperms,p0009,seed
+g002,herbaceous angiosperms,p0012,flower
+g002,herbaceous angiosperms,p0032,bud
+g003,gymnosperms,p0000,unspecified part
+g003,gymnosperms,p0001,entire organism
+g003,gymnosperms,p0002,bark
+g003,gymnosperms,p0003,twig
+g003,gymnosperms,p0005,leaf
+g003,gymnosperms,p0006,cone
+g003,gymnosperms,p0009,seed
+g003,gymnosperms,p0010,male cone
+g003,gymnosperms,p0011,female cone
+g003,gymnosperms,p0032,bud
+g007,fishes,p0001,entire organism
+g007,fishes,p0000,unspecified part
+g007,fishes,p0013,head
+g007,fishes,p0027,skull
+g007,fishes,p0030,fin
+g009,mammals,p0001,entire organism
+g009,mammals,p0000,unspecified part
+g009,mammals,p0013,head
+g009,mammals,p0028,cranium
+g009,mammals,p0029,mandible
+g009,mammals,p0027,skull
+g010,birds,p0001,entire organism
+g010,birds,p0000,unspecified part
+g010,birds,p0013,head
+g010,birds,p0028,cranium
+g010,birds,p0029,mandible
+g010,birds,p0027,skull
+g010,birds,p0017,wing
+g010,birds,p0031,egg
+g011,reptiles/amphibians,p0001,entire organism
+g011,reptiles/amphibians,p0000,unspecified part
+g011,reptiles/amphibians,p0013,head
+g011,reptiles/amphibians,p0028,cranium
+g011,reptiles/amphibians,p0029,mandible
+g011,reptiles/amphibians,p0027,skull
+g011,reptiles/amphibians,p0026,genitalia
+g008,grasses,p0000,unspecified part
+g008,grasses,p0001,entire organism
+g012,insects,p0000,unspecified part
+g012,insects,p0001,entire organism
+g012,insects,p0013,head
+g012,insects,p0014,thorax
+g012,insects,p0015,abdomen
+g012,insects,p0016,leg
+g012,insects,p0017,wing
+g012,insects,p0018,antenna
+g012,insects,p0019,forewing
+g012,insects,p0020,hindwing
+g012,insects,p0021,foreleg
+g012,insects,p0022,midleg
+g012,insects,p0023,hindleg
+g012,insects,p0024,eye
+g012,insects,p0026,genitalia
+g013,non-bilaterally symmetric animals,p0000,unspecified part
+g013,non-bilaterally symmetric animals,p0001,entire organism
+p0000,unspecified morphological feature,r0000,unspecified orientation
+p0001,entire organism,r0000,unspecified orientation
+p0001,entire organism,r0001,anterior side
+p0001,entire organism,r0002,posterior side
+p0001,entire organism,r0003,lateral side
+p0001,entire organism,r0004,right side
+p0001,entire organism,r0005,left side
+p0001,entire organism,r0006,dorsal side
+p0001,entire organism,r0007,ventral side
+p0001,entire organism,r0012,oral side
+p0001,entire organism,r0013,aboral side
+p0013,head,r0000,unspecified orientation
+p0013,head,r0001,anterior side
+p0013,head,r0003,lateral side
+p0013,head,r0004,right side
+p0013,head,r0005,left side
+p0013,head,r0006,dorsal side
+p0013,head,r0007,ventral side
+p0014,thorax,r0000,unspecified orientation
+p0014,thorax,r0003,lateral side
+p0014,thorax,r0004,right side
+p0014,thorax,r0005,left side
+p0014,thorax,r0006,dorsal side
+p0014,thorax,r0007,ventral side
+p0015,abdomen,r0000,unspecified orientation
+p0015,abdomen,r0002,posterior side
+p0015,abdomen,r0003,lateral side
+p0015,abdomen,r0004,right side
+p0015,abdomen,r0005,left side
+p0015,abdomen,r0006,dorsal side
+p0015,abdomen,r0007,ventral side
+p0016,leg,r0003,lateral side
+p0017,wing,r0000,unspecified orientation
+p0017,wing,r0006,dorsal side
+p0017,wing,r0007,ventral side
+p0018,antenna,r0003,lateral side
+p0019,forewing,r0000,unspecified orientation
+p0019,forewing,r0006,dorsal side
+p0019,forewing,r0007,ventral side
+p0020,hindwing,r0000,unspecified orientation
+p0020,hindwing,r0006,dorsal side
+p0020,hindwing,r0007,ventral side
+p0021,foreleg,r0003,lateral side
+p0022,midleg,r0003,lateral side
+p0023,hindleg,r0003,lateral side
+p0024,eye,r0003,lateral side
+p0026,genitalia,r0000,unspecified orientation
+p0026,genitalia,r0002,posterior side
+p0026,genitalia,r0003,lateral side
+p0026,genitalia,r0004,right side
+p0026,genitalia,r0005,left side
+p0026,genitalia,r0006,dorsal side
+p0026,genitalia,r0007,ventral side
+p0002,bark,r0003,lateral side
+p0003,twig,r0003,lateral side
+p0005,leaf,r0008,adaxial (top) side
+p0005,leaf,r0009,abaxial (bottom) side
+p0004,stem,r0003,lateral side
+p0001,entire organism,r0010,apical side
+p0007,inflorescence,r0003,lateral side
+p0007,inflorescence,r0010,apical side
+p0008,fruit,r0010,apical side
+p0008,fruit,r0003,lateral side
+p0001,entire organism,r0011,basal side
+p0008,fruit,r0011,basal side
+p0009,seed,r0003,lateral side
+p0012,flower,r0010,apical (front) side
+p0012,flower,r0003,lateral side
+p0012,flower,r0011,basal (back) side
+p0006,cone,r0010,apical (front) side
+p0006,cone,r0003,lateral side
+p0006,cone,r0011,basal (back) side
+p0027,skull,r0006,dorsal side
+p0027,skull,r0007,ventral side
+p0027,skull,r0003,lateral side
+p0028,cranium,r0006,dorsal side
+p0028,cranium,r0007,ventral side
+p0028,cranium,r0003,lateral side
+p0029,mandible,r0006,dorsal side
+p0029,mandible,r0007,ventral side
+p0029,mandible,r0003,lateral side
+p0030,fin,r0003,lateral side
+p0031,egg,r0003,lateral side
+p0010,male cone,r0010,apical (front) side
+p0010,male cone,r0003,lateral side
+p0010,male cone,r0011,basal (back) side
+p0011,female cone,r0010,apical (front) side
+p0011,female cone,r0003,lateral side
+p0011,female cone,r0011,basal (back) side
+p0032,bud,r0003,lateral side
+p0032,bud,r0010,apical (front) side
