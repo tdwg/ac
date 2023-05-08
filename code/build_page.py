@@ -293,7 +293,7 @@ def outputMarkdown(text, headerFileName, footerFileName, outFileName):
 githubBaseUri = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/master/'
 headerFileName = 'termlist-header.md'
 footerFileName = 'termlist-footer.md'
-outFileName = '../docs/termlist.md'
+outFileName = '../docs/termlist/index.md'
 
 displayOrder = ['http://rs.tdwg.org/dwc/terms/attributes/Management', 
 'http://rs.tdwg.org/dwc/terms/attributes/Attribution', 
