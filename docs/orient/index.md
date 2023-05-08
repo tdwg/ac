@@ -6,13 +6,13 @@
 
 **Preferred namespace abbreviation:** acorient:
 
-**Date version issued:** put ratification date here
+**Date version issued:** 2023-04-26
 
-**Date created:** put ratification date here
+**Date created:** 2023-04-26
 
 **Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-**This version:** http://rs.tdwg.org/ac/doc/orient/iso-date-here
+**This version:** http://rs.tdwg.org/ac/doc/orient/2023-04-26
 
 **Latest version:** http://rs.tdwg.org/ac/doc/orient/
 
@@ -22,7 +22,7 @@
 
 **Creator:** TDWG Views Controlled Vocabularies Task Group
 
-**Bibliographic citation:** Views Controlled Vocabularies Task Group. 2023. subjectOrientation Controlled Vocabulary. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/orient/>
+**Bibliographic citation:** Views Controlled Vocabularies Task Group. 2023. subjectOrientation Controlled Vocabulary. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/orient/2023-04-26>
 
 
 ## 1 Introduction (informative)
