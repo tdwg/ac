@@ -1,6 +1,6 @@
-# subjectOrientation Controlled Vocabulary
+# Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms
 
-**Title:** subjectOrientation Controlled Vocabulary
+**Title:** Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms
 
 **Namespace URI:** http://rs.tdwg.org/acorient/values/
 
@@ -18,11 +18,11 @@
 
 **Abstract:** The Audiovisual Core term `subjectOrientation` describes the viewing orientation relative to an organism or part of an organism depicted in a media item or region of interest. The subjectOrientation Controlled Vocabulary provides terms that should be used as values for `ac:subjectOrientation` and its literal-valued analog `ac:subjectOrientationLiteral`. 
 
-**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (Stockholm University), Mervin E. Pérez (Universidad de San Carlos de Guatemala), Randy Singer (University of Michigan)
+**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (University of Oulu), Mervin E. Pérez (Universidad de San Carlos de Guatemala), Randy Singer (University of Michigan)
 
 **Creator:** TDWG Views Controlled Vocabularies Task Group
 
-**Bibliographic citation:** Views Controlled Vocabularies Task Group. 2023. subjectOrientation Controlled Vocabulary. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/orient/2023-04-26>
+**Bibliographic citation:** Views Controlled Vocabularies Task Group. 2023. Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/orient/2023-04-26>
 
 
 ## 1 Introduction (informative)

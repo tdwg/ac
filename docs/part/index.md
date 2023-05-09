@@ -1,6 +1,6 @@
-# subjectPart Controlled Vocabulary
+# Controlled Vocabulary for Audiovisual Core subjectPart: List of Terms
 
-**Title:** subjectPart Controlled Vocabulary
+**Title:** Controlled Vocabulary for Audiovisual Core subjectPart: List of Terms
 
 **Namespace URI:** http://rs.tdwg.org/acpart/values/
 
@@ -18,11 +18,11 @@
 
 **Abstract:** The Audiovisual Core term `subjectPart` describes the part of an organism morphology, behaviour, environment depicted in a media item or region of interest. The subjectPart Controlled Vocabulary provides terms that should be used as values for `ac:subjectPart` and its literal-valued analog `ac:subjectPartLiteral`. 
 
-**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (Stockholm University), Mervin E. Pérez (Universidad de San Carlos de Guatemala), Randy Singer (University of Michigan), Anna M. L. Klompen (University of Kansas)
+**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (University of Oulu), Mervin E. Pérez (Universidad de San Carlos de Guatemala), Randy Singer (University of Michigan), Anna M. L. Klompen (University of Kansas)
 
 **Creator:** TDWG Views Controlled Vocabularies Task Group
 
-**Bibliographic citation:** Views Controlled Vocabularies Task Group. 2023. subjectPart Controlled Vocabulary. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/part/2023-04-26>
+**Bibliographic citation:** Views Controlled Vocabularies Task Group. 2023. Controlled Vocabulary for Audiovisual Core subjectPart: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/part/2023-04-26>
 
 
 ## 1 Introduction (informative)
