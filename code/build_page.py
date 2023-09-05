@@ -358,7 +358,7 @@ def outputMarkdown(text, headerFileName, footerFileName, outFileName):
 # main routine
 
 # constants
-github_branch = 'revise-build-script' # "main" for production, something else for development
+github_branch = 'ac_fix' # "main" for production, something else for development
 
 # This is the base URL for raw files from the branch of the repo that has been pushed to GitHub
 githubBaseUri = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/' + github_branch + '/'
