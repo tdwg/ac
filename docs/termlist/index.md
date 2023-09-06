@@ -1,7 +1,3 @@
----
-permalink: /termlist/
----
-
 # Audiovisual Core Term List
 
 Title

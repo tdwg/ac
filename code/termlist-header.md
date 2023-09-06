@@ -1,7 +1,3 @@
----
-permalink: /termlist/
----
-
 # {document_title}
 
 Title
