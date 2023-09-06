@@ -1,40 +1,47 @@
-# {document_title}
+---
+permalink: /termlist/
+---
 
-Title
-: {document_title}
+# Audiovisual Core Term List
 
-Date version issued
-: {ratification_date}
+**Title:** Audiovisual Core Term List
 
-Date created
-: {created_date}
+**Date version issued:** 2023-02-24
 
-Part of TDWG Standard
-: <{standard_iri}>
+**Date created:** 2013-10-23
 
-This version
-: <{current_iri}{ratification_date}>
+**Part of TDWG Standard:** http://www.tdwg.org/standards/638
 
-Latest version
-: <{current_iri}>
+**This version:** <http://rs.tdwg.org/ac/doc/termlist/2023-02-24>
 
-{previous_version_slot}
+**Latest version:** <http://rs.tdwg.org/ac/doc/termlist/>
 
-Abstract
-: {abstract}
+**Previous version:** <http://rs.tdwg.org/ac/doc/termlist/2022-02-23>
 
-Contributors
-: {contributors}
+**Abstract:** The Audiovisual Core is a set of vocabularies designed to
+represent metadata for biodiversity multimedia resources and
+collections. It aims to represent information that will help to
+determine whether a particular resource or collection will be fit for
+some particular biodiversity science application before acquiring the
+media. Among others, the vocabularies address such concerns as the
+management of the media and collections, descriptions of their content,
+their taxonomic, geographic, and temporal coverage, and the appropriate
+ways to retrieve, attribute and reproduce them. This document contains a
+list of attributes of each Audiovisual Core term, including a documentation
+name, a specified URI, a recommended English label for user interfaces,
+a definition, and some ancillary notes. This document contains normative content that
+may not be changed without due process.
 
-Creator
-: {creator}
+**Contributors:** Robert A. Morris, Gregor Hagedorn, Annette Olson, Steve Baskauf, Vijay Barve, Mihail Carausu, Vishwas Chavan, José Cuadra, Chris Freeland, Patrick Leary, Dimitry Mozzherin, Greg Riccardi, Ivan Teage, Dan Stowell, Edward Baker, Richard Pyle
 
-Bibliographic citation
-: {creator}. {year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
+**Creator:** GBIF/TDWG Multimedia Resources Task Group and Audiovisual Core Maintenance Group
+
+**Bibliographic citation:** Audiovisual Core Maintenance Group. 2023. Audiovisual Core Term List. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/termlist/2023-02-24>
+
 
 ## 1 Introduction
 
-There are a number of documents included in the Aububon Core Standard.  This document provides details about the terms included in the {ratification_date} version of the Audiovisual Core vocabulary. The [Audiovisual Core Introduction](introduction.md) document provides a brief introduction to the Audiovisual Core Standard. For information about the structure of Audiovisual Core, see the [Audiovisual Core Structure](structure.md) document.  For a more detailed guide to the use of Audiovisual Core, see the [Audiovisual Core Guide](guide.md) document.
+There are a number of documents included in the Aububon Core Standard.  This document provides details about the terms included in the 2022-02-23 version of the Audiovisual Core vocabulary. The [Audiovisual Core Introduction](introduction.md) document provides a brief introduction to the Audiovisual Core Standard. For information about the structure of Audiovisual Core, see the [Audiovisual Core Structure](structure.md) document.  For a more detailed guide to the use of Audiovisual Core, see the [Audiovisual Core Guide](guide.md) document.
 
 
 ### 1.1 Status of the content of this document
@@ -42,7 +49,7 @@ There are a number of documents included in the Aububon Core Standard.  This doc
 Sections 1.3 through 5 are normative, except for Table 1.  In Section 7 and its subparts, the values of the Normative URI, Definition, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Audiovisual Core.  The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
 
 ### 1.2 RFC 2119 key words
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [BCP 14](https://www.rfc-editor.org/info/bcp14) [\[RFC 2119\]](https://datatracker.ietf.org/doc/html/rfc2119) and [\[RFC 8174\]](https://datatracker.ietf.org/doc/html/rfc8174) when, and only when, they appear in all capitals, as shown here.
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
 ### 1.3 Categories of terms
 
