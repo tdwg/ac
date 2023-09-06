@@ -336,7 +336,7 @@ def outputMarkdown(text, headerFileName, footerFileName, outFileName):
         previous_version_metadata_string = '''Previous version
 : <''' + most_recent_version_iri + '''>
 
-    '''
+'''
         # Insert the previous version information into the designated slot.
         header = header.replace('{previous_version_slot}\n\n', previous_version_metadata_string)
     else:
