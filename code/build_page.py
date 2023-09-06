@@ -298,7 +298,10 @@ def outputMarkdown(text, headerFileName, footerFileName, outFileName):
     for contributor in contributors_yaml:
         contributors += '[' + contributor['contributor_literal'] + '](' + contributor['contributor_iri'] + ')'
         if contributor['affiliation'] != '':
-            contributors += ' ([' + contributor['affiliation'] + '](' + contributor['affiliation_uri'] + '))'
+            contributors += ' ([' + contributor['affiliation'] + '](' + contributor['affiliation_uri'] + ')'
+            if contributor['contributor_role'] == 'review manager':
+                contributors += ', review manager'
+            contributors += ')'
         contributors += ', '
     contributors = contributors[:-2] # Remove the last comma and space
 
@@ -331,7 +334,7 @@ def outputMarkdown(text, headerFileName, footerFileName, outFileName):
 
         # Insert the previous version information into the header
         previous_version_metadata_string = '''Previous version
-    : <''' + most_recent_version_iri + '''>
+: <''' + most_recent_version_iri + '''>
 
     '''
         # Insert the previous version information into the designated slot.
