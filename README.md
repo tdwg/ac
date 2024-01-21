@@ -8,13 +8,13 @@ The current release (2022-02-23) is archived at <a href="https://doi.org/10.5281
 
 ## The Audiovisual Core Maintenance Group
 
-Audiovisual Core is maintained by a specialized [Interest Group](http://www.tdwg.org/about-tdwg/process/) whose [charter](audiovisual-core_maintenance-group_charter.md) was approved in January 2018.  The functions of the Audiovisual Core Maintenance Group are described in detail in [Section 2 of the TDWG Vocabulary Maintenance Specification](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#2-administration).  In brief, the Maintenance Group manages vocabulary term additions and changes, and maintains the documentation that helps users to understand and apply the standard.  As an Interest Group, it may establish Task Groups to accomplish broader changes to the standard.  
+Audiovisual Core is maintained by a specialized [Interest Group](http://www.tdwg.org/about-tdwg/process/) whose [charter](audiovisual-core_maintenance-group_charter.md) was approved in January 2018.  The functions of the Audiovisual Core Maintenance Group are described in detail in [Section 2 of the TDWG Vocabulary Maintenance Specification](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#2-administration).  In brief, the Maintenance Group manages vocabulary term additions and changes, and maintains the documentation that helps users to understand and apply the standard.  As an Interest Group, it may establish Task Groups to accomplish broader changes to the standard. The Maintenance Group generally meets on the third Wedensday of the month.
 
 ## Core Members of the AC Maintenance Group
 
 Currently, core members of the group are:
 
-Ed Baker - Natural History Museum, London and University of York, UK (Convener) - [edwbaker@gmail.com](mailto:edwbaker@gmail.com)
+Ed Baker - Natural History Museum, London, UK (Convener) - [edward.baker@nhm.ac.uk](mailto:edward.baker@nhm.ac.uk)
 
 Steve Baskauf - Vanderbilt University Jean & Alexander Heard Library - [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@vanderbilt.edu)
 
