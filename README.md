@@ -42,9 +42,13 @@ We have also chartered a Views Controlled Vocabularies task group to create cont
 
 ## Participating in the Maintenance Group
 
-If you would like to participate in this group, contact the convener or one of the core members.  
+If you would like to participate in this group, contact the convener or one of the core members.
 
 To participate in the communication system of the group, "watch" the group's [Issues tracker](https://github.com/tdwg/ac/issues).  This issues tracker is the mechanism for suggesting specific changes to the standard as well as to raise issues for discussion by the group.
+
+### Maintenance Group Meetings
+
+The Maintenance Group meets via Zoom, usually at 17:00 UTC, on the third Wednesday of the month. These meetings are open to anyone interested in joining; please contact the convenor for the Zoom link. [Next meeting agenda](https://github.com/tdwg/ac/issues?q=is%3Aissue+is%3Aopen+label%3A%22next+meeting+agenda%22).
 
 ## Policies
 
