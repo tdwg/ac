@@ -227,7 +227,7 @@ Data were converted from RDF/XML to JSON-LD
 
 Metadata derived from <https://www.idigbio.org/portal/mediarecords/344d88c0-31c9-4067-9502-a310a0ab942b>
 
-Note: this example flattens the record to include data on only a single ServiceAccessPoint, whose metadata are included with the image level metadata.
+Note: this example flattens the record to include data on only a single ServiceAccessPoint, whose metadata are included with the image level metadata. For an example of normalized records with multiple ServiceAccessPoints, see the [Regions of Interest Recipes](https://github.com/tdwg/ac/blob/master/roi-recipes.md) document.
 
 ### Tabular serialization of the data
 
