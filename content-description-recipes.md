@@ -332,6 +332,10 @@ ac:heightFrac: 0.07197<br/>
 
 <https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:66.131,68.259,12.385,7.197/!500,500/0/default.jpg>
 
+Image displayed:
+
+<img src="https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:66.131,68.259,12.385,7.197/!500,500/0/default.jpg">
+
 Click to view:
 
 [color and grayscale bar](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:0,3.985,10.499,94.33/!500,500/0/default.jpg)
