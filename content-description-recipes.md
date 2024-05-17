@@ -22,7 +22,7 @@ When the subjectPart and subjectOrientation terms are used either the literal or
 
 ## 1. An image showing a label
 
-<img href="https://medialib.naturalis.nl/file/id/RMNH.INS.661199_LAB/format/large" width="500">
+<img src="https://medialib.naturalis.nl/file/id/RMNH.INS.661199_LAB/format/large" width="500">
 
 Metadata at <https://www.idigbio.org/portal/mediarecords/ede483c1-3cb6-45b7-a538-a3dceb2f272f>
 
@@ -67,7 +67,7 @@ Additional JSON was added to make the example valid JSON-LD.
 
 ## 2. An image showing a part of an insect
 
-<img href="https://images.collections.yale.edu/iiif/2/ypm:e246d7d1-bdc4-4a47-877e-07ca729bd917/full/!1920,1920/0/default.jpg" width="500">
+<img src="https://images.collections.yale.edu/iiif/2/ypm:e246d7d1-bdc4-4a47-877e-07ca729bd917/full/!1920,1920/0/default.jpg" width="500">
 
 Metadata at <https://www.idigbio.org/portal/mediarecords/dd468f12-0389-4299-87c1-cf1921974325>
 
@@ -130,7 +130,7 @@ Additional JSON was added to make the example valid JSON-LD.
 
 ## 3. An image showing plants in their habitat
 
-<img href="http://bioimages.vanderbilt.edu/lq/baskauf/wecte3-wpin-glade12735.jpg">
+<img src="http://bioimages.vanderbilt.edu/lq/baskauf/wecte3-wpin-glade12735.jpg">
 
 Metadata derived from <http://bioimages.vanderbilt.edu/baskauf/12735.rdf>
 
@@ -189,7 +189,7 @@ Data were converted from RDF/XML to JSON-LD
 
 ## 4. A specimen image with multiple regions of interest
 
-<img href="https://s.idigbio.org/idigbio-images-prod-webview/bf1abe6bcc595f295d50c84d422f00ab.jpg" width="500">
+<img src="https://s.idigbio.org/idigbio-images-prod-webview/bf1abe6bcc595f295d50c84d422f00ab.jpg" width="500">
 
 Metadata derived from <https://www.idigbio.org/portal/mediarecords/344d88c0-31c9-4067-9502-a310a0ab942b>
 
@@ -330,25 +330,25 @@ ac:yFrac: 0.68259<br/>
 ac:widthFrac: 0.12385<br/>
 ac:heightFrac: 0.07197<br/>
 
-<https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:66.131,68.259,12.385,7.197/1280,/0/default.jpg>
+<https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:66.131,68.259,12.385,7.197/!500,500/0/default.jpg>
 
 Click to view:
 
-[color and grayscale bar](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:0,3.985,10.499,94.33/1280,/0/default.jpg)
+[color and grayscale bar](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:0,3.985,10.499,94.33/!500,500/0/default.jpg)
 
-[scale bar with logo](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:91.386,31.8,6.244,34.14/1280,/0/default.jpg)
+[scale bar with logo](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:91.386,31.8,6.244,34.14/!500,500/0/default.jpg)
 
-[determination label](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:45.617,87.431,26.121,9.536/1280,/0/default.jpg)
+[determination label](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:45.617,87.431,26.121,9.536/!500,500/0/default.jpg)
 
-[original collector's label](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:11.137,87.708,29.613,10.408/1280,/0/default.jpg)
+[original collector's label](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:11.137,87.708,29.613,10.408/!500,500/0/default.jpg)
 
-[bar code](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:51.631,84.794,12.003,2.815/1280,/0/default.jpg)
+[bar code](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:51.631,84.794,12.003,2.815/!500,500/0/default.jpg)
 
-[accession stamp](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:77.497,83.723,12.385,6.8/1280,/0/default.jpg)
+[accession stamp](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:77.497,83.723,12.385,6.8/!500,500/0/default.jpg)
 
-[winged fruits](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:66.131,68.259,12.385,7.197/1280,/0/default.jpg)
+[winged fruits](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:66.131,68.259,12.385,7.197/!500,500/0/default.jpg)
 
-[compound leaf](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:26.988,14.869,59.76,70.301/1280,/0/default.jpg)
+[compound leaf](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:26.988,14.869,59.76,70.301/!500,500/0/default.jpg)
 
 Under construction...
 
