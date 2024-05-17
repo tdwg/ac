@@ -20,6 +20,8 @@ Either of `ac:CVtermLiteral` or `Iptc4xmpExt:CVterm` may be used (both are not r
 
 When the subjectPart and subjectOrientation terms are used, either the literal or IRI forms can be used. The examples show both, but only one form is required for each of the properties.
 
+To validate the JSON-LD examples and convert them to RDF (N-Quads), paste them into the [JSON-LD Playground](https://json-ld.org/playground/)
+
 ## Example 1. An image depicting labels
 
 <img src="https://medialib.naturalis.nl/file/id/RMNH.INS.661199_LAB/format/large" width="500">
@@ -118,6 +120,9 @@ Additional JSON was added to make the example valid JSON-LD.
             "@type": "@id"
         },
         "ac:subjectPart": {
+            "@type": "@id"
+        },
+        "ac:subjectOrientation": {
             "@type": "@id"
         },
         "ac:accessURI": {
@@ -245,7 +250,7 @@ Some ROIs omitted for brevity. See the JSON-LD for more complete metadata.
 
 | dcterms:identifier | dcterm:description | ac:isROIOf | ac:xFrac |ac:yFrac | ac:widthFrac | ac:heightFrac | ac:CVtermLiteral | Iptc4xmpExt:CVterm | ac:subjectPartLiteral | ac:subjectPart | ac:subjectOrientationLiteral | ac:subjectOrientation |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| https://collections.nmnh.si.edu/media/?i=10395311#roi1 | color and grayscale bar | https://collections.nmnh.si.edu/media/?i=10395311 | 0 | 0.03985 | 0.10499 | 0.9433 | colorBar | http://rs.tdwg.org/accontent/values/c003 | | | | |
+| https://collections.nmnh.si.edu/media/?i=10395311#roi1 | color and grayscale bar | https://collections.nmnh.si.edu/media/?i=10395311 | 0.0000 | 0.03985 | 0.10499 | 0.9433 | colorBar | http://rs.tdwg.org/accontent/values/c003 | | | | |
 | https://collections.nmnh.si.edu/media/?i=10395311#roi2 | scale bar with logo | https://collections.nmnh.si.edu/media/?i=10395311 | 0.91386 | 0.318 | 0.06244 | 0.3414 | scaleBar | http://rs.tdwg.org/accontent/values/c002 | | | | |
 | https://collections.nmnh.si.edu/media/?i=10395311#roi3 | determination label | https://collections.nmnh.si.edu/media/?i=10395311 | 0.45617 | 0.87431 | 0.26121 | 0.09536 | label | http://rs.tdwg.org/accontent/values/c000 | | | | |
 | https://collections.nmnh.si.edu/media/?i=10395311#roi7 | winged fruits | https://collections.nmnh.si.edu/media/?i=10395311 | 0.66131 | 0.68259 | 0.12385 | 0.07197 | organismPart | http://rs.tdwg.org/accontent/values/c00 | fruit | http://rs.tdwg.org/acpart/values/p0008 | lateral | http://rs.tdwg.org/acorient/values/r0003 |
@@ -269,6 +274,12 @@ Note: the metadata in the media item part of this example came generally from th
             "@type": "@id"
         },
         "xmpRights:WebStatement": {
+            "@type": "@id"
+        },
+        "ac:subjectPart": {
+            "@type": "@id"
+        },
+        "ac:subjectOrientation": {
             "@type": "@id"
         },
         "ac:accessURI": {
@@ -295,7 +306,7 @@ Note: the metadata in the media item part of this example came generally from th
                 {
                     "@id": "https://collections.nmnh.si.edu/media/?i=10395311#roi1",
                     "dcterms:description": "color and grayscale bar",
-                    "ac:xFrac": 0,
+                    "ac:xFrac": 0.0000,
                     "ac:yFrac": 0.03985,
                     "ac:widthFrac": 0.10499,
                     "ac:heightFrac": 0.9433,
