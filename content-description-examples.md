@@ -396,11 +396,11 @@ ac:heightFrac: 0.07197<br/>
 
 <https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:66.131,68.259,12.385,7.197/!500,500/0/default.jpg>
 
-Image displayed:
+Region of Interest displayed:
 
 <img src="https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:66.131,68.259,12.385,7.197/!500,500/0/default.jpg">
 
-Click to view:
+Click to view the regions of interest described in the example (via IIIF Image API URLs constructed as above):
 
 [color and grayscale bar](https://iiif.library.vanderbilt.edu/iiif/2/test%2FNMNH-01075361.jpg/pct:0,3.985,10.499,94.33/!500,500/0/default.jpg)
 
