@@ -16,7 +16,9 @@ Currently, core members of the group are:
 
 Ed Baker - Natural History Museum, London, UK (Convener) - [edward.baker@nhm.ac.uk](mailto:edward.baker@nhm.ac.uk)
 
-Steve Baskauf - Vanderbilt University Jean & Alexander Heard Library - [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@vanderbilt.edu)
+Vijay Barve - Natural History Museum of Los Angeles [vbarve@nhm.org](mailto:vbarve@nhm.org) 
+
+Steve Baskauf - Vanderbilt University Jean & Alexander Heard Library (retired) - [steve.baskauf@gmail.com](mailto:steve.baskauf@gmail.com)
 
 Douglas Boyer -Department of Evolutionary Anthropology, Duke University, Director of MorphoSource open access 3D repository - [douglasmb@gmail.com](mailto:douglasmb@gmail.com)
 
