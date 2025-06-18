@@ -20,13 +20,15 @@ Vijay Barve - Natural History Museum of Los Angeles [vbarve@nhm.org](mailto:vbar
 
 Steve Baskauf - Vanderbilt University Jean & Alexander Heard Library (retired) - [steve.baskauf@gmail.com](mailto:steve.baskauf@gmail.com)
 
-Douglas Boyer -Department of Evolutionary Anthropology, Duke University, Director of MorphoSource open access 3D repository - [douglasmb@gmail.com](mailto:douglasmb@gmail.com)
+Douglas Boyer - Department of Evolutionary Anthropology, Duke University, Director of MorphoSource open access 3D repository - [douglasmb@gmail.com](mailto:douglasmb@gmail.com)
 
 Niels Klazenga - Royal Botanic Gardens Victoria - [Niels.Klazenga@rbg.vic.gov.au](mailto:Niels.Klazenga@rbg.vic.gov.au)
 
 Rebecca Snyder - Smithsonian Institution, National Museum of Natural History - [SNYDERR@si.edu](mailto:SNYDERR@si.edu)
 
 Dan Stowell - Tilburg University and Naturalis Biodiversity Centre - [dstowell@tilburguniversity.edu](mailto:dstowell@tilburguniversity.edu)
+
+Jocelyn Triplett - Duke University, MorphoSource.org - [jocelyn.triplett@duke.edu](mailto:jocelyn.triplett@duke.edu)
 
 Kate Webbink - Field Museum of Natural History - [kwebbink@fieldmuseum.org](mailto:kwebbink@fieldmuseum.org)
 
