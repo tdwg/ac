@@ -1,6 +1,34 @@
 # Notes on generating new Audiovisual Core list of terms documents
 
-Add generic notes here.
+## Workflow for generating the main Audiovisual Core List of Terms page
+
+**Note:** This describes the process for using scripts as they exist 2025-08-27. Eventually the scripts should be modified to follow the procedures used with the scripts that generate the Darwin Core Lists of Terms documents, which are more streamlined, include all of the controlled vocabularies, and facilitate non-English translations. 
+
+1. Carry out the steps for updating the underlying metadata in the rs.tdwg.org GitHub repository, outlined [here](https://github.com/tdwg/rs.tdwg.org/blob/master/process/process-vocabulary.md#3-detailed-workflow-steps) in Section 3.
+
+2. It is best to create a branch of the `ac` repo before generating the new page. The avoids messing up the existing page in the event that something goes wrong and also makes it possible to create drafts that can be viewed prior to ratification, or for proofreading. When ratified changes have been proofread, the branch can be merged into the `master` branch to make the updated page go live on the AC website.
+
+3. The current Markdown file for the current List of Terms document must be renamed to be a dated version, with updated  interversion links. This is done using the [update_previous_doc.py](https://github.com/tdwg/ac/blob/master/code/update_previous_doc.py) Python script in the `code` directory of the ac GitHub repo. The script must be run with the following command line arguments:
+
+```
+python update_previous_doc.py --dir ac_doc_termlist --slug termlist 
+```
+
+If the data in rs.tdwg.org are provisional and present in a branch other than `master`, the `--branch` argument can be used to specify the branch of rs.tdwg.org to be used as the data source, e.g. 
+
+```
+python update_previous_doc.py --dir ac_doc_termlist --slug termlist --branch ac-revisions
+
+4. After running the script, check the diffs to make sure that the new dated version of the file has been added and that the `index.md` version was deleted. It is best to not yet make a commit, so that the changes in the `index.md` files can be seen in the diff after the next script is run.
+
+5. To generate the new list of terms, run the Python script [build_page.py](https://github.com/tdwg/ac/blob/master/code/build_page.py). The command line arguments are the same as with the `update_previous_doc.py` script above:
+
+```
+python build_page.py --dir ac_doc_termlist --slug termlist
+
+As above, you can supply a branch of rs.tdwg.org other than `master` using the `--branch` argument.
+
+6. After the script has been run, check the diffs for the `index.md` file to make sure that the changes make sense. If they do, commit and push the changes to GitHub. If the changes have been ratified, make a pull request to merge the provisional branch of the ac repo into the `master` branch.
 
 ## Workflow for generating Views controlled vocabularies
 
