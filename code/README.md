@@ -18,6 +18,7 @@ If the data in rs.tdwg.org are provisional and present in a branch other than `m
 
 ```
 python update_previous_doc.py --dir ac_doc_termlist --slug termlist --branch ac-revisions
+```
 
 4. After running the script, check the diffs to make sure that the new dated version of the file has been added and that the `index.md` version was deleted. It is best to not yet make a commit, so that the changes in the `index.md` files can be seen in the diff after the next script is run.
 
@@ -25,6 +26,7 @@ python update_previous_doc.py --dir ac_doc_termlist --slug termlist --branch ac-
 
 ```
 python build_page.py --dir ac_doc_termlist --slug termlist
+```
 
 As above, you can supply a branch of rs.tdwg.org other than `master` using the `--branch` argument.
 
