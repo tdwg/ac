@@ -3,6 +3,7 @@
 # Updated 2020-01-28
 # Updated 2020-08-23 to handle examples in borrowed Darwin Core terms
 # Updated 2021-10-07 to add Regions of Interest section
+# Updated 2025-08-27 to support command line arguments instead of hard-coded locations
 # This script merges static Markdown header and footer documents with term information tables (in Markdown) generated from data in the rs.tdwg.org repo from the TDWG Github site
 
 # Note: this script calls a function from http_library.py, which requires importing the requests, csv, and json modules
@@ -11,6 +12,35 @@ import re
 import pandas as pd
 import yaml
 import requests
+import sys
+
+# -----------------
+# Command line arguments
+# -----------------
+
+arg_vals = sys.argv[1:]
+opts = [opt for opt in arg_vals if opt.startswith('-')]
+args = [arg for arg in arg_vals if not arg.startswith('-')]
+
+# Name of the last part of the URL of the doc
+if '--slug' in opts:
+    document_slug = args[opts.index('--slug')]
+else:
+    print('Must specify URL slug for document using --slug option')
+    exit()
+
+# Used as the directory name
+if '--dir' in opts:
+    directory_name = args[opts.index('--dir')]
+else:
+    print('Must specify name of directory containing document_configuration.yaml using --dir option')
+    exit()
+
+# "master" for production, something else for development
+if '--branch' in opts:
+    github_branch = args[opts.index('--branch')]
+else:
+    github_branch = 'master'
 
 # ---------------------------------------------------------------------------
 # retrieve vocabularies members metadata from Github
@@ -241,17 +271,6 @@ def buildMarkdown(table, displayOrder, displayLabel, displayComments, displayId)
         text += '\n'
     return text
 # ---------------------------------------------------------------------------
-# replace URL with link (no longer used)
-#
-def createLinks(text):
-    def repl(match):
-        if match.group(1)[-1] == '.':
-            return '<a href="' + match.group(1)[:-1] + '">' + match.group(1)[:-1] + '</a>.'
-        return '<a href="' + match.group(1) + '">' + match.group(1) + '</a>'
-
-    pattern = '(https?://[^\s,;\)"<]*)' # had to add left angle bracket after </code> tags inserted
-    result = re.sub(pattern, repl, text)
-    return result
 
 # 2021-08-05 Add code to convert backticks copied from the DwC QRG build script written by S. Van Hoey
 def convert_code(text_with_backticks):
@@ -269,7 +288,7 @@ def convert_link(text_with_urls):
         url = inputstring.group()
         return "<a href=\"{}\">{}</a>".format(url, url)
 
-    regx = "(http[s]?://[\w\d:#@%/;$()~_?\+-;=\\\.&]*)(?<![\)\.,])"
+    regx = r"(http[s]?://[\w\d:#@%/;$()~_?\+-;=\\\.&]*)(?<![\)\.,])"
     return re.sub(regx, _handle_matched, text_with_urls)
 
 # ---------------------------------------------------------------------------
@@ -360,17 +379,14 @@ def outputMarkdown(text, headerFileName, footerFileName, outFileName):
 # ---------------------------------------------------------------------------
 # main routine
 
-# constants
-github_branch = 'ac_fix' # "main" for production, something else for development
-
 # This is the base URL for raw files from the branch of the repo that has been pushed to GitHub
 githubBaseUri = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/' + github_branch + '/'
 
 headerFileName = 'termlist-header.md'
 footerFileName = 'termlist-footer.md'
-outFileName = '../docs/termlist/index.md'
+outFileName = '../docs/' + document_slug + '/index.md'
 
-config_file_path = 'process/document_metadata_processing/ac_doc_termlist/'
+config_file_path = 'process/document_metadata_processing/' + directory_name + '/'
 contributors_yaml_file = 'authors_configuration.yaml'
 document_configuration_yaml_file = 'document_configuration.yaml'
 
