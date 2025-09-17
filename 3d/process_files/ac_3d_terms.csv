@@ -15,22 +15,6 @@ ac:pixelZSpacing:,Pixel Z Spacing,"Resolution: The linear distance between each 
 - ac:3DResourceType is any of: multi-file projection series, multi-file image slice series, single file image slice series
 - and dc:format(s) is any of: ""raw"", dcm, tiff, bmp, png, jpeg, nifti, nrrd, ""zip""
 - and ac:captureModality(s) is any of: CT, MRI, PET, Neutron, Synchotron, confocal microscopy, optical image stacking",,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,not in ABCD,Service Access Point Vocabulary,https://github.com/tdwg/ac/issues/243,
-bf:Unit,Unit,Resolution: Units in which a value is expressed,"This term shall be used to specify the units of numbers entered into ac:PixelXSpacing, ac:PixelYSpacing, ac:PixelZSpacing for raster data. 
-For 2D photographs that are part of a photogrammetry deposit, it shall be used to specify units of a scale bar or targets included in the image. 
-When used for mesh files, it shall be used to indicate the units of the coordinate system specifying the position of the vertices of the polygonal mesh.
-
-Use this term in combination with these other AC terms -- i.e., when: 
-- ac:3DResourceType is any
-- and dc:format(s) is any
-- any ac:captureModality(s)",,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,not in ABCD,Service Access Point Vocabulary,https://github.com/tdwg/ac/issues/243,
-exif:imageWidth,Image Width,"Dimensions: The number of columns of image data, equal to the number of pixels per row. In JPEG compressed data a JPEG marker is used instead of this tag","Use this term in combination with these other AC terms -- i.e., when: 
-- ac:3DResourceType is a subtype that is encoded as a raster format
-- and dc:format(s) is any raster formats
-- and ac:captureModality(s) is any of: CT, MRI, PET, Neutron, Synchotron, confocal microscopy, optical image stacking, photogrammetry",,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,not in ABCD,Service Access Point Vocabulary,https://github.com/tdwg/ac/issues/243,
-exif:imageLength,Image Length,Dimensions: The number of rows of image data. In JPEG compressed data a JPEG marker is used,"Use this term in combination with these other AC terms -- i.e., when: 
-- ac:3DResourceType is any subtype that is encoded as a raster format
-- and dc:format(s) is any raster format
-- and ac:captureModality(s) is any of: CT, MRI, PET, Neutron, Synchrotron, confocal microscopy, optical image stacking, photogrammetry",,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,not in ABCD,Service Access Point Vocabulary,https://github.com/tdwg/ac/issues/243,
 ac:numberOfImages,Number of Images,Dimensions: The number of images or z-axis pixels that provide information on a 3D scene,"Additional usage notes for “numberOfImages”: This term shall be used to specify the number of files or slices in a projection series (CT), reconstructed image series (CT, MRI), or that were collected in a photogrammetry session. In cases where volume raster data is represented as a single file (Nifti, NRRD, 3D tiff, dicom Multi-files) it should be used to give the number of Z axis pixels. Other possible uses include any case where each file in a collection represents a part or a view of a single or multiple focal objects that together can be used to understand the 3D nature of the focal object(s). For instance, raw data from laser scans and structured light scans often include a number of partial meshes that represent different parts of the scanned object which need to be processed through alignment and merging before rendering as a full 3D object.
 
 Use this term in combination with these other AC terms -- i.e., when: 
