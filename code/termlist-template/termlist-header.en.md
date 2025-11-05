@@ -34,7 +34,7 @@ Bibliographic citation
 
 ## 1 Introduction
 
-There are a number of documents included in the Aububon Core Standard.  This document provides details about the terms included in the {ratification_date} version of the Audiovisual Core vocabulary. The [Audiovisual Core Introduction](../introduction/) document provides a brief introduction to the Audiovisual Core Standard. For information about the structure of Audiovisual Core, see the [Audiovisual Core Structure](../structure/) document.  For a more detailed guide to the use of Audiovisual Core, see the [Audiovisual Core Guide](../guide/) document.
+There are a number of documents included in the Audiovisual Core Standard.  This document provides details about the terms included in the {ratification_date} version of the Audiovisual Core vocabulary. The [Audiovisual Core Introduction](../introduction/) document provides a brief introduction to the Audiovisual Core Standard. For information about the structure of Audiovisual Core, see the [Audiovisual Core Structure](../structure/) document.  For a more detailed guide to the use of Audiovisual Core, see the [Audiovisual Core Guide](../guide/) document.
 
 ### 1.1 Status of the content of this document
 
