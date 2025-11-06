@@ -16,6 +16,7 @@
     "definition": "Definition",
     "notes": "Notes",
     "controlled_value": "Controlled value",
+    "definition_derived_from": "Definition derived from",
     "usage": "Usage",
     "examples": "Examples",
     "type": "Type",
@@ -25,5 +26,6 @@
     "executive_committee_decision": "Executive Committee decision",
     "term_deprecated": "This term is deprecated and should no longer be used.",
     "term_replaced_by": "Is replaced by",
-    "has_broader_concept": "Has broader concept"
+    "has_broader_concept": "Has broader concept",
+    "has_exact_match": "Has exact match"
 }
