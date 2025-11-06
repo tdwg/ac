@@ -129,35 +129,40 @@ class TermList:
         """
 
         print('Generating term index by CURIE')
-        text = '### 3.1 %s\n\n' % self.t('index_by_term_name')
-        text += '%s\n\n' % self.t('see_also_index_by_label')
 
-        text += '**%s**\n' % self.t('classes')
-        text += '\n'
-        for row_index,row in self.terms.terms_sorted_by_localname.iterrows():
-            if row['rdf_type'] == 'http://www.w3.org/2000/01/rdf-schema#Class':
-                curie = row['pref_ns_prefix'] + ":" + row['term_localName']
-                curie_anchor = curie.replace(':','_')
-                text += '[' + curie + '](#' + curie_anchor + ') |\n'
-        text = text[:len(text)-3] # remove final trailing " |\n"
-        text += '\n\n' # put back removed newline
+        text = ''
 
-        for category in range(0,len(self.display_order)):
-            text += '**%s**\n' % self.display_label[category]
+        if self.vocab_type==1: # controlled vocabularies only have one index (of labels)
+            text += '### {index_section_string}.1 %s\n\n' % self.t('index_by_term_name')
+            text += '(%s {index_section_string}.2 %s)\n\n' % (self.t('see_also'), self.t('index_by_label'))
+
+    
+            text += '**%s**\n' % self.t('classes')
             text += '\n'
-            if self.organized_in_categories:
-                filtered_table = self.terms.terms_sorted_by_localname[self.terms.terms_sorted_by_localname['tdwgutility_organizedInClass']==self.display_order[category]]
-                filtered_table.reset_index(drop=True, inplace=True)
-            else:
-                filtered_table = self.terms.terms_sorted_by_localname
-
-            for row_index,row in filtered_table.iterrows():
-                if row['rdf_type'] != 'http://www.w3.org/2000/01/rdf-schema#Class':
+            for row_index,row in self.terms.terms_sorted_by_localname.iterrows():
+                if row['rdf_type'] == 'http://www.w3.org/2000/01/rdf-schema#Class':
                     curie = row['pref_ns_prefix'] + ":" + row['term_localName']
                     curie_anchor = curie.replace(':','_')
                     text += '[' + curie + '](#' + curie_anchor + ') |\n'
             text = text[:len(text)-3] # remove final trailing " |\n"
             text += '\n\n' # put back removed newline
+
+            for category in range(0,len(self.display_order)):
+                text += '**%s**\n' % self.display_label[category]
+                text += '\n'
+                if self.organized_in_categories:
+                    filtered_table = self.terms.terms_sorted_by_localname[self.terms.terms_sorted_by_localname['tdwgutility_organizedInClass']==self.display_order[category]]
+                    filtered_table.reset_index(drop=True, inplace=True)
+                else:
+                    filtered_table = self.terms.terms_sorted_by_localname
+
+                for row_index,row in filtered_table.iterrows():
+                    if row['rdf_type'] != 'http://www.w3.org/2000/01/rdf-schema#Class':
+                        curie = row['pref_ns_prefix'] + ":" + row['term_localName']
+                        curie_anchor = curie.replace(':','_')
+                        text += '[' + curie + '](#' + curie_anchor + ') |\n'
+                text = text[:len(text)-3] # remove final trailing " |\n"
+                text += '\n\n' # put back removed newline
 
         index_by_name = text
 
@@ -174,13 +179,14 @@ class TermList:
         print('Generating term index by label')
         text = '\n\n'
 
-        if self.organized_in_categories:
-            text += '### 3.2 %s\n\n' % self.t('index_by_label')
-            text += '%s\n\n' % self.t('see_also_index_by_term_name')
+        if self.vocab_type==1: # controlled vocabularies only have one index (of labels)
+            text += '### {index_section_string}.2 %s\n\n' % self.t('index_by_label')
+            text += '(%s {index_section_string}.1 %s)\n\n' % (self.t('see_also'), self.t('index_by_term_name'))
 
+        # Create a table of classes if the vocabulary is not a controlled vocabulary
         seen_class = False
         for row_index,row in self.terms.terms_sorted_by_label.iterrows():
-            if row['rdf_type'] == 'http://www.w3.org/2000/01/rdf-schema#Class':
+            if row['rdf_type'] == 'http://www.w3.org/2000/01/rdf-schema#Class' and self.vocab_type==1:
                 if not seen_class:
                     text += '**%s**\n' % self.t('classes')
                     text += '\n'
@@ -190,7 +196,9 @@ class TermList:
         text = text[:len(text)-3] # remove final trailing " |\n"
         text += '\n\n' # put back removed newline
 
+        # Create rows for all terms, but remove class terms if they were pulled out in the previous section.
         for category in range(0,len(self.display_order)):
+            # If there are categories, start each section with the category label
             if self.organized_in_categories:
                 text += '**%s**\n\n' % self.display_label[category]
                 filtered_table = self.terms.terms_sorted_by_label[self.terms.terms_sorted_by_label['tdwgutility_organizedInClass']==self.display_order[category]]
@@ -198,10 +206,13 @@ class TermList:
             else:
                 filtered_table = self.terms.terms_sorted_by_label
 
+            # Now list the term. Skip it if is a class, unless it's a controlled vocabulary
             for row_index,row in filtered_table.iterrows():
-                if 'rdf_type' in row and row['rdf_type'] != 'http://www.w3.org/2000/01/rdf-schema#Class':
-                    curie_anchor = row['pref_ns_prefix'] + "_" + row['term_localName']
-                    text += '[' + row['label'] + '](#' + curie_anchor + ') |\n'
+                if ('rdf_type' in row and row['rdf_type'] != 'http://www.w3.org/2000/01/rdf-schema#Class') or self.vocab_type!=1:
+                    # Hack to prevent duplicate labels. Don't add to index if the label is the same as the previous one.
+                    if row_index == 0 or (row_index != 0 and filtered_table.loc[row_index,'label'] != filtered_table.loc[row_index-1,'label']):
+                        curie_anchor = row['pref_ns_prefix'] + "_" + row['term_localName']
+                        text += '[' + row['label'] + '](#' + curie_anchor + ') |\n'
             text = text[:len(text)-3] # remove final trailing " |\n"
             text += '\n\n' # put back removed newline
 
@@ -223,19 +234,29 @@ class TermList:
             l = '_' + locale
 
         # generate the Markdown for the terms table
-        text = '## 4 %s\n' % self.t('vocabulary')
-        if True:
-            filtered_table = self.terms.terms_sorted_by_localname
 
-        #for category in range(0,len(display_order)):
-        #    if organized_in_categories:
-        #        text += '### 4.' + str(category + 1) + ' ' + display_label[category] + '\n'
-        #        text += '\n'
-        #        text += display_comments[category] # insert the comments for the category, if any.
-        #        filtered_table = self.terms_sorted_by_localname[self.terms_sorted_by_localname['tdwgutility_organizedInClass']==display_order[category]]
-        #        filtered_table.reset_index(drop=True, inplace=True)
-        #    else:
-        #        filtered_table = self.terms_sorted_by_localname
+        # Hack to control whether "Vocabulary" or "Vocabularies".
+        # In Audiovisual Core, traditionally, the terms have been subdivided into categories called "vocabularies".
+        # Technically all of these "vocabularies" are actually in one vocabulary: the main AC vocabulary. 
+        # But to maintain this convention, we apply the following hack. In the controlled vocabularies, they are considered 
+        # to be only one "Vocabulary". If there is every a second vocabulary that is not a controlled vocabulary, this hack 
+        # won't work.
+        if self.vocab_type==1: # the main vocabulary is a "simple vocabulary"
+            text = '## {vocabulary_section_string} %s\n' % self.t('vocabularies')
+        else: # controlled vocabularies are either type 2 or 3
+            text = '## {vocabulary_section_string} %s\n' % self.t('vocabulary')
+        #if True:
+        #    filtered_table = self.terms.terms_sorted_by_localname
+
+        for category in range(0,len(self.display_order)):
+            if self.organized_in_categories:
+                text += '### {vocabulary_section_string}.' + str(category + 1) + ' ' + self.display_label[category] + '\n'
+                text += '\n'
+                text += self.display_comments[category] # insert the comments for the category, if any.
+                filtered_table = self.terms.terms_sorted_by_localname[self.terms.terms_sorted_by_localname['tdwgutility_organizedInClass']==self.display_order[category]]
+                filtered_table.reset_index(drop=True, inplace=True)
+            else:
+                filtered_table = self.terms.terms_sorted_by_localname
 
             for row_index,row in filtered_table.iterrows():
                 text += '<table>\n'
@@ -268,6 +289,13 @@ class TermList:
                 text += '\t\t\t<td>%s</td>\n' % self.t_val(row, 'label', l)
                 text += '\t\t</tr>\n'
 
+                # Terms are only required or repeatable if they are NOT part of a controlled vocabulary (i.e. vocabulary type 1)
+                if self.vocab_type == 1:
+                    text += '\t\t<tr>\n'
+                    text += '\t\t\t<td></td>\n'
+                    text += '\t\t\t<td><b>%s:</b> %s -- <b>%s:</b> %s</td>\n' % (self.t('required'), self.t_val(row, 'tdwgutility_required', l), self.t('repeatable'), self.t_val(row, 'tdwgutility_repeatable', l))
+                    text += '\t\t</tr>\n'
+
                 if row['term_deprecated'] != '':
                     text += '\t\t<tr>\n'
                     text += '\t\t\t<td></td>\n'
@@ -288,10 +316,28 @@ class TermList:
                     text += '\t\t\t<td>' + self.t_val(row, 'definition', l) + '</td>\n'
                 text += '\t\t</tr>\n'
 
-                if 'usage' in row and row['usage'] != '':
+                # Used when there's a machine link (IRI) to a semantic model.
+                # Note: inconsistent use of column headers between subjectPart/subjectOrientation and subtype tables
+                if 'sawsdlrdf_modelReference' in row and row['sawsdlrdf_modelReference'] != '':
+                    text += '\t\t<tr>\n'
+                    text += '\t\t\t<td>%s</td>\n' % self.t('definition_derived_from')
+                    text += '\t\t\t<td>' + self.convert_link(self.convert_code(row['sawsdlrdf_modelReference'])) + '</td>\n'
+                    text += '\t\t</tr>\n'
+                elif 'definition_derived_from' in row and row['definition_derived_from'] != '':
+                    text += '\t\t<tr>\n'
+                    text += '\t\t\t<td>%s</td>\n' % self.t('definition_derived_from')
+                    text += '\t\t\t<td>' + self.convert_link(self.convert_code(row['definition_derived_from'])) + '</td>\n'
+                    text += '\t\t</tr>\n'
+
+                if 'skos_scopeNote' in row and row['skos_scopeNote'] != '':
                     text += '\t\t<tr>\n'
                     text += '\t\t\t<td>%s</td>\n' % self.t('usage')
-                    text += '\t\t\t<td>%s</td>\n' % self.convert_examples(self.convert_link(self.convert_code(self.t_val(row, 'usage', l))))
+                    text += '\t\t\t<td>%s</td>\n' % self.convert_link(self.convert_code(self.t_val(row, 'skos_scopeNote', l)))
+                    text += '\t\t</tr>\n'
+                elif 'usage' in row and row['usage'] != '':
+                    text += '\t\t<tr>\n'
+                    text += '\t\t\t<td>%s</td>\n' % self.t('usage')
+                    text += '\t\t\t<td>%s</td>\n' % self.convert_link(self.convert_code(self.t_val(row, 'usage', l)))
                     text += '\t\t</tr>\n'
 
                 if 'dcterms_description' in row and row['dcterms_description'] != '':
@@ -329,6 +375,12 @@ class TermList:
                     text += '\t\t\t<td><a href="#%s_%s">%s:%s</a></td>\n' % (row['pref_ns_prefix'], row['skos_broader'], row['pref_ns_prefix'], row['skos_broader'])
                     text += '\t\t</tr>\n'
 
+                if 'skos_exactMatch' in row and row['skos_exactMatch'] != '':
+                    text += '\t\t<tr>\n'
+                    text += '\t\t\t<td>%s</td>\n' % self.t('has_exact_match')
+                    text += '\t\t\t<td><a href="#%s_%s">%s:%s</a></td>\n' % (row['pref_ns_prefix'], row['skos_exactMatch'], row['pref_ns_prefix'], row['skos_exactMatch'])
+                    text += '\t\t</tr>\n'
+
                 text += '\t\t<tr>\n'
                 text += '\t\t\t<td>%s</td>\n' % self.t('type')
                 if row['rdf_type'] == 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property':
@@ -361,7 +413,7 @@ class TermList:
         return term_table
 
 
-    def generate_term_list_markdown(self, locale, outFileName, dictionaryFileName, headerFileName):
+    def generate_term_list_markdown(self, locale, outFileName, dictionaryFileName, headerFileName, index_section_number):
         """
         Merge term table with header Markdown, then save file
         """
@@ -385,8 +437,13 @@ class TermList:
         # Build the Markdown for the contributors list
         contributors = ''
         for contributor in self.terms.contributors_yaml:
-            contributors += '[' + contributor['contributor_literal'] + '](' + contributor['contributor_iri'] + ') '
-            contributors += '([' + contributor['affiliation'] + '](' + contributor['affiliation_uri'] + ')), '
+            contributors += '[' + contributor['contributor_literal'] + '](' + contributor['contributor_iri'] + ')'
+            if contributor['affiliation'] != '':
+                contributors += ' ([' + contributor['affiliation'] + '](' + contributor['affiliation_uri'] + ')'
+                if contributor['contributor_role'] == 'review manager':
+                    contributors += ', review manager'
+                contributors += ')'
+            contributors += ', '
         contributors = contributors[:-2] # Remove the last comma and space
 
         # Substitute values of ratification_date and contributors into the header template
@@ -425,6 +482,13 @@ class TermList:
             header = header.replace('{previous_version_slot}\n\n', '')
 
         output = header + text
+
+        # Substitute the indices and vocabulary section numbers
+        index_section_string = str(index_section_number)
+        output = output.replace('{index_section_string}', index_section_string)
+        vocabulary_section_string = str(index_section_number + 1)
+        output = output.replace('{vocabulary_section_string}', vocabulary_section_string)
+
         outputObject = open(outFileName, 'wt', encoding='utf-8')
         outputObject.write(output)
         outputObject.close()
@@ -528,7 +592,7 @@ class TermList:
         return template_data
 
 
-def generate_all_markdown(termList, path, locales):
+def generate_all_markdown(termList, path, locales, index_section_number):
     """
     Generate a Darwin Core term list for DWC terms or one of its vocabularies.
 
@@ -550,7 +614,7 @@ def generate_all_markdown(termList, path, locales):
             os.makedirs(outFilePath, exist_ok=True)
             outFileName = outFilePath + '/index.md'
 
-        termList.generate_term_list_markdown(locale, outFileName, dictionaryFileName, headerFileName)
+        termList.generate_term_list_markdown(locale, outFileName, dictionaryFileName, headerFileName, index_section_number)
         print("")
 
 def retrieve_databases_for_vocabulary(vocabulary_iri):
@@ -639,15 +703,18 @@ ac_list = TermList(
 ]
 )
 
-# Darwin Core Terms HTML
-generate_all_markdown(ac_list, 'termlist', languages)
-'''
-# Establishment Means Vocabulary
-em = dwcterms.DwcTerms(
-    termLists = ['establishmentMeans'],
-    docMetadataFilePath = 'dwc_doc_em/')
-em_list = TermList(
-    terms = em,
+# Because different docs have a different section number for the indices, indicate it here.
+# The Vocabulary section is assumed to be the next section after the indices.
+index_section_number = 6
+# List of Terms HTML
+generate_all_markdown(ac_list, 'termlist', languages, index_section_number)
+
+# Variant Vocabulary
+variant = dwcterms.DwcTerms(
+    termLists = ['acvariant'],
+    docMetadataFilePath = 'ac_doc_variant/')
+variant_list = TermList(
+    terms = variant,
     vocabType = 2,
     organizedInCategories = False,
     displayOrder = [''],
@@ -656,15 +723,18 @@ em_list = TermList(
     displayId = ['Vocabulary']
 )
 
-# Establishment Means HTML
-generate_all_markdown(em_list, 'em', languages)
+# Because different docs have a different section number for the indices, indicate it here.
+# The Vocabulary section is assumed to be the next section after the indices.
+index_section_number = 3
+# Variant HTML
+generate_all_markdown(variant_list, 'variant', languages, index_section_number)
 
-# Degree of Establishment Vocabulary
-doe = dwcterms.DwcTerms(
-    termLists = ['degreeOfEstablishment'],
-    docMetadataFilePath = 'dwc_doc_doe/')
-doe_list = TermList(
-    terms = doe,
+# Subtype Vocabulary
+subtype = dwcterms.DwcTerms(
+    termLists = ['acsubtype'],
+    docMetadataFilePath = 'ac_doc_subtype/')
+subtype_list = TermList(
+    terms = subtype,
     vocabType = 2,
     organizedInCategories = False,
     displayOrder = [''],
@@ -673,15 +743,38 @@ doe_list = TermList(
     displayId = ['Vocabulary']
 )
 
-# Degree of Establishment HTML
-generate_all_markdown(doe_list, 'doe', languages)
+# Because different docs have a different section number for the indices, indicate it here.
+# The Vocabulary section is assumed to be the next section after the indices.
+index_section_number = 3
+# Subtype HTML
+generate_all_markdown(subtype_list, 'subtype', languages, index_section_number)
 
-# Pathway Vocabulary
-pw = dwcterms.DwcTerms(
-    termLists = ['pathway'],
-    docMetadataFilePath = 'dwc_doc_pw/')
-pw_list = TermList(
-    terms = pw,
+# Format Vocabulary
+format = dwcterms.DwcTerms(
+    termLists = ['format'],
+    docMetadataFilePath = 'ac_doc_format/')
+format_list = TermList(
+    terms = format,
+    vocabType = 3,
+    organizedInCategories = True,
+    displayOrder = ['', 'm', 'e'],
+    displayLabel = ['Concept schemes', 'Media types and physical media concept scheme', 'File extensions concept scheme'],
+    displayComments = ['','',''],
+    displayId = ['general_types', 'media_types', 'file_extensions']
+)
+
+# Because different docs have a different section number for the indices, indicate it here.
+# The Vocabulary section is assumed to be the next section after the indices.
+index_section_number = 3
+# Format HTML
+generate_all_markdown(format_list, 'format', languages, index_section_number)
+
+# Subject Part Vocabulary
+subjectPart = dwcterms.DwcTerms(
+    termLists = ['acpart'],
+    docMetadataFilePath = 'ac_doc_part/')
+subjectPart_list = TermList(
+    terms = subjectPart,
     vocabType = 3,
     organizedInCategories = False,
     displayOrder = [''],
@@ -690,6 +783,29 @@ pw_list = TermList(
     displayId = ['Vocabulary']
 )
 
-# Pathway HTML
-generate_all_markdown(pw_list, 'pw', languages)
-'''
+# Because different docs have a different section number for the indices, indicate it here.
+# The Vocabulary section is assumed to be the next section after the indices.
+index_section_number = 3
+# Subject Part HTML
+generate_all_markdown(subjectPart_list, 'part', languages, index_section_number)
+
+
+# Subject Orientation Vocabulary
+subjectOrientation = dwcterms.DwcTerms(
+    termLists = ['acorient'],
+    docMetadataFilePath = 'ac_doc_orient/')
+subjectOrientation_list = TermList(
+    terms = subjectOrientation,
+    vocabType = 3,
+    organizedInCategories = False,
+    displayOrder = [''],
+    displayLabel = ['Vocabulary'],
+    displayComments = [''],
+    displayId = ['Vocabulary']
+)
+
+# Because different docs have a different section number for the indices, indicate it here.
+# The Vocabulary section is assumed to be the next section after the indices.
+index_section_number = 3
+# Subject Orientation HTML
+generate_all_markdown(subjectOrientation_list, 'orient', languages, index_section_number)

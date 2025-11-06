@@ -170,7 +170,8 @@ class DwcTerms:
 
         frame = frame.fillna('')
 
-        self.terms_sorted_by_label = frame.sort_values(by='label')
+        # This produces a case-insensitive sort
+        self.terms_sorted_by_label = frame.iloc[frame.label.str.lower().argsort()]
 
         # This makes sort case insensitive
         self.terms_sorted_by_localname = frame.iloc[frame.term_localName.str.lower().argsort()]
