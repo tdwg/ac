@@ -1,31 +1,43 @@
 # Controlled Vocabulary for Audiovisual Core subtype: List of Terms
 
-**Title:** Controlled Vocabulary for Audiovisual Core subtype: List of Terms
+Title
+: Controlled Vocabulary for Audiovisual Core subtype: List of Terms
 
-**Namespace URI:** http://rs.tdwg.org/acsubtype/values/
+Namespace IRI
+: <http://rs.tdwg.org/acsubtype/values/>
 
-**Preferred namespace abbreviation:** acsubtype:
+Preferred namespace abbreviation
+: acsubtype:
 
-**Date version issued:** 2023-02-24
+Date version issued
+: 2023-02-24
 
-**Date created:** 2020-10-13
+Date created
+: 2020-10-13
 
-**Part of TDWG Standard:** <http://www.tdwg.org/standards/638>
+Part of TDWG Standard
+: <http://www.tdwg.org/standards/638>
 
-**This version:** <http://rs.tdwg.org/ac/doc/subtype/2023-02-24>
+This version
+: <http://rs.tdwg.org/ac/doc/subtype/2023-02-24>
 
-**Latest version:** <http://rs.tdwg.org/ac/doc/subtype/>
+Latest version
+: <http://rs.tdwg.org/ac/doc/subtype/>
 
-**Previous version:** <http://rs.tdwg.org/ac/doc/subtype/2022-02-23>
+Previous version
+: <http://rs.tdwg.org/ac/doc/subtype/2022-02-23>
 
-**Abstract:** Audiovisual Core uses the terms `ac:subtype` and `ac:subtypeLiteral` to refine the type of a media item to a level more specific than the Dublin Core Type Vocabulary, `http://purl.org/dc/dcmitype/`. This controlled vocabulary provides values for `ac:subtype` and `ac:subtypeLiteral`. 
+Abstract
+: Audiovisual Core uses the terms ac:subtype and ac:subtypeLiteral to refine the type of a media item to a level more specific than the Dublin Core Type Vocabulary, http://purl.org/dc/dcmitype/. This controlled vocabulary provides values for ac:subtype and ac:subtypeLiteral.
 
-**Contributors:** Steven J Baskauf (Vanderbilt University Heard Libraries)
+Contributors
+: [Steven J Baskauf](https://orcid.org/0000-0003-4365-3135) ([Vanderbilt University Heard Libraries](http://www.wikidata.org/entity/Q16849893))
 
-**Creator:** TDWG Audiovisual Core Maintenance Group
+Creator
+: TDWG Audiovisual Core Maintenance Group
 
-**Bibliographic citation:** Audiovisual Core Maintenance Group. 2023. Controlled Vocabulary for Audiovisual Core subtype: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/subtype/2023-02-24>
-
+Bibliographic citation
+: TDWG Audiovisual Core Maintenance Group. 2023. Controlled Vocabulary for Audiovisual Core subtype: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/subtype/2023-02-24>
 
 ## 1 Introduction (informative)
 
@@ -57,6 +69,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 ## 3 Term index
 
 
+
 [Animation](#acsubtype_Animation) |
 [Design Plan](#acsubtype_DesignPlan) |
 [Diagram](#acsubtype_Diagram) |
@@ -78,13 +91,13 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 [Scanned Text](#acsubtype_ScannedText) |
 [Slide Show](#acsubtype_SlideShow) |
 [Taxon Page](#acsubtype_TaxonPage) |
-[Virtual Reality Environment](#acsubtype_VirtualRealityEnvironment) 
+[Virtual Reality Environment](#acsubtype_VirtualRealityEnvironment)
 
 ## 4 Vocabulary
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_Animation"></a>Term Name  acsubtype:Animation</th>
+			<th colspan="2"><a id="acsubtype_Animation"></a>Term Name acsubtype:Animation</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -109,12 +122,12 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Works that present the illusion of movement and that may be created by a number of techniques including successive drawings, photographing positions of puppets or models, or using computers.</td>
 		</tr>
 		<tr>
-			<td>Controlled value</td>
-			<td>Animation</td>
+			<td>Definition derived from</td>
+			<td><a href="http://vocab.getty.edu/page/aat/300411663">http://vocab.getty.edu/page/aat/300411663</a></td>
 		</tr>
 		<tr>
-			<td>Refer to semantic model:</td>
-			<td><a href="http://vocab.getty.edu/page/aat/300411663">http://vocab.getty.edu/page/aat/300411663</a></td>
+			<td>Controlled value</td>
+			<td>Animation</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -134,7 +147,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_DesignPlan"></a>Term Name  acsubtype:DesignPlan</th>
+			<th colspan="2"><a id="acsubtype_DesignPlan"></a>Term Name acsubtype:DesignPlan</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -159,12 +172,12 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Refers to drawings, sketches, prints, computer graphics, or works in other media depicting a building or any object viewed from above, geometrically represented as projected on a horizontal plane.</td>
 		</tr>
 		<tr>
-			<td>Controlled value</td>
-			<td>DesignPlan</td>
+			<td>Definition derived from</td>
+			<td><a href="http://vocab.getty.edu/page/aat/300034104">http://vocab.getty.edu/page/aat/300034104</a></td>
 		</tr>
 		<tr>
-			<td>Refer to semantic model:</td>
-			<td><a href="http://vocab.getty.edu/page/aat/300034104">http://vocab.getty.edu/page/aat/300034104</a></td>
+			<td>Controlled value</td>
+			<td>DesignPlan</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -184,7 +197,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_Diagram"></a>Term Name  acsubtype:Diagram</th>
+			<th colspan="2"><a id="acsubtype_Diagram"></a>Term Name acsubtype:Diagram</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -209,16 +222,16 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Graphic designs intended to explain rather than simply represent. </td>
 		</tr>
 		<tr>
+			<td>Definition derived from</td>
+			<td><a href="http://vocab.getty.edu/page/aat/300015387">http://vocab.getty.edu/page/aat/300015387</a></td>
+		</tr>
+		<tr>
 			<td>Examples</td>
 			<td>in geometry, a diagram may be a figure composed of lines, serving to illustrate a definition or statement, or to aid in the proof of a proposition</td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
 			<td>Diagram</td>
-		</tr>
-		<tr>
-			<td>Refer to semantic model:</td>
-			<td><a href="http://vocab.getty.edu/page/aat/300015387">http://vocab.getty.edu/page/aat/300015387</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -238,7 +251,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_Drawing"></a>Term Name  acsubtype:Drawing</th>
+			<th colspan="2"><a id="acsubtype_Drawing"></a>Term Name acsubtype:Drawing</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -263,12 +276,12 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Visual works produced by drawing, which is the application of lines on a surface, often paper, by using a pencil, pen, chalk, or some other tracing instrument to focus on the delineation of form rather than the application of color.</td>
 		</tr>
 		<tr>
-			<td>Controlled value</td>
-			<td>Drawing</td>
+			<td>Definition derived from</td>
+			<td><a href="http://vocab.getty.edu/page/aat/300033973">http://vocab.getty.edu/page/aat/300033973</a></td>
 		</tr>
 		<tr>
-			<td>Refer to semantic model:</td>
-			<td><a href="http://vocab.getty.edu/page/aat/300033973">http://vocab.getty.edu/page/aat/300033973</a></td>
+			<td>Controlled value</td>
+			<td>Drawing</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -288,7 +301,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_Film"></a>Term Name  acsubtype:Film</th>
+			<th colspan="2"><a id="acsubtype_Film"></a>Term Name acsubtype:Film</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -313,16 +326,16 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Works presented in the form of a series of pictures carried on photographic film or video tape, presented to the eye in such rapid succession as to give the illusion of natural movement.</td>
 		</tr>
 		<tr>
+			<td>Definition derived from</td>
+			<td><a href="http://vocab.getty.edu/page/aat/300136900">http://vocab.getty.edu/page/aat/300136900</a></td>
+		</tr>
+		<tr>
 			<td>Notes</td>
 			<td>Also known as motion pictures.</td>
 		</tr>
 		<tr>
 			<td>Controlled value</td>
 			<td>Film</td>
-		</tr>
-		<tr>
-			<td>Refer to semantic model:</td>
-			<td><a href="http://vocab.getty.edu/page/aat/300136900">http://vocab.getty.edu/page/aat/300136900</a></td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -342,7 +355,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_GlossaryPage"></a>Term Name  acsubtype:GlossaryPage</th>
+			<th colspan="2"><a id="acsubtype_GlossaryPage"></a>Term Name acsubtype:GlossaryPage</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -367,12 +380,12 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Alphabetical lists of terms related to a particular subject or area of interest, including definitions or explanations of usage.</td>
 		</tr>
 		<tr>
-			<td>Controlled value</td>
-			<td>GlossaryPage</td>
+			<td>Definition derived from</td>
+			<td><a href="http://vocab.getty.edu/page/aat/300026189">http://vocab.getty.edu/page/aat/300026189</a></td>
 		</tr>
 		<tr>
-			<td>Refer to semantic model:</td>
-			<td><a href="http://vocab.getty.edu/page/aat/300026189">http://vocab.getty.edu/page/aat/300026189</a></td>
+			<td>Controlled value</td>
+			<td>GlossaryPage</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -392,7 +405,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_Graphic"></a>Term Name  acsubtype:Graphic</th>
+			<th colspan="2"><a id="acsubtype_Graphic"></a>Term Name acsubtype:Graphic</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -434,7 +447,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_Icon"></a>Term Name  acsubtype:Icon</th>
+			<th colspan="2"><a id="acsubtype_Icon"></a>Term Name acsubtype:Icon</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -459,12 +472,12 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Small pictures, pictograms, or symbols used on computer displays or in graphical user interfaces meant to represent files, objects, applications, actions, or messages.</td>
 		</tr>
 		<tr>
-			<td>Controlled value</td>
-			<td>Icon</td>
+			<td>Definition derived from</td>
+			<td><a href="http://vocab.getty.edu/page/aat/300266210">http://vocab.getty.edu/page/aat/300266210</a></td>
 		</tr>
 		<tr>
-			<td>Refer to semantic model:</td>
-			<td><a href="http://vocab.getty.edu/page/aat/300266210">http://vocab.getty.edu/page/aat/300266210</a></td>
+			<td>Controlled value</td>
+			<td>Icon</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -484,7 +497,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_IdentificationKey"></a>Term Name  acsubtype:IdentificationKey</th>
+			<th colspan="2"><a id="acsubtype_IdentificationKey"></a>Term Name acsubtype:IdentificationKey</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -526,7 +539,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_Illustration"></a>Term Name  acsubtype:Illustration</th>
+			<th colspan="2"><a id="acsubtype_Illustration"></a>Term Name acsubtype:Illustration</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -551,12 +564,12 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Pictures or diagrams that clarify or provide an example or visualization. They usually accompany a text; the term is most often used to refer to pictures in books or published journal.</td>
 		</tr>
 		<tr>
-			<td>Controlled value</td>
-			<td>Illustration</td>
+			<td>Definition derived from</td>
+			<td><a href="http://vocab.getty.edu/page/aat/300015578">http://vocab.getty.edu/page/aat/300015578</a></td>
 		</tr>
 		<tr>
-			<td>Refer to semantic model:</td>
-			<td><a href="http://vocab.getty.edu/page/aat/300015578">http://vocab.getty.edu/page/aat/300015578</a></td>
+			<td>Controlled value</td>
+			<td>Illustration</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -576,7 +589,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_Logo"></a>Term Name  acsubtype:Logo</th>
+			<th colspan="2"><a id="acsubtype_Logo"></a>Term Name acsubtype:Logo</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -601,12 +614,12 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Devices that are specifically symbol- or picture based, designed for ready recognition to identify a product, company, or organization and sometimes used as trademarks.</td>
 		</tr>
 		<tr>
-			<td>Controlled value</td>
-			<td>Logo</td>
+			<td>Definition derived from</td>
+			<td><a href="http://vocab.getty.edu/page/aat/300028715">http://vocab.getty.edu/page/aat/300028715</a></td>
 		</tr>
 		<tr>
-			<td>Refer to semantic model:</td>
-			<td><a href="http://vocab.getty.edu/page/aat/300028715">http://vocab.getty.edu/page/aat/300028715</a></td>
+			<td>Controlled value</td>
+			<td>Logo</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -626,7 +639,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_Map"></a>Term Name  acsubtype:Map</th>
+			<th colspan="2"><a id="acsubtype_Map"></a>Term Name acsubtype:Map</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -651,12 +664,12 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Refers to graphic or photogrammetric representations of the Earth's surface or a part of it, including physical features and political boundaries, where each point corresponds to a geographical or celestial position according to a definite scale or projection.</td>
 		</tr>
 		<tr>
-			<td>Controlled value</td>
-			<td>Map</td>
+			<td>Definition derived from</td>
+			<td><a href="http://vocab.getty.edu/page/aat/300028094">http://vocab.getty.edu/page/aat/300028094</a></td>
 		</tr>
 		<tr>
-			<td>Refer to semantic model:</td>
-			<td><a href="http://vocab.getty.edu/page/aat/300028094">http://vocab.getty.edu/page/aat/300028094</a></td>
+			<td>Controlled value</td>
+			<td>Map</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -676,7 +689,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_MultimediaLearningObject"></a>Term Name  acsubtype:MultimediaLearningObject</th>
+			<th colspan="2"><a id="acsubtype_MultimediaLearningObject"></a>Term Name acsubtype:MultimediaLearningObject</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -718,7 +731,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_MusicalNotation"></a>Term Name  acsubtype:MusicalNotation</th>
+			<th colspan="2"><a id="acsubtype_MusicalNotation"></a>Term Name acsubtype:MusicalNotation</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -743,12 +756,12 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>General term for systems used to visually represent music through written words or standard notations.</td>
 		</tr>
 		<tr>
-			<td>Controlled value</td>
-			<td>MusicalNotation</td>
+			<td>Definition derived from</td>
+			<td><a href="http://vocab.getty.edu/page/aat/300417622">http://vocab.getty.edu/page/aat/300417622</a></td>
 		</tr>
 		<tr>
-			<td>Refer to semantic model:</td>
-			<td><a href="http://vocab.getty.edu/page/aat/300417622">http://vocab.getty.edu/page/aat/300417622</a></td>
+			<td>Controlled value</td>
+			<td>MusicalNotation</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -768,7 +781,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_Painting"></a>Term Name  acsubtype:Painting</th>
+			<th colspan="2"><a id="acsubtype_Painting"></a>Term Name acsubtype:Painting</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -793,12 +806,12 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Unique works in which images are formed primarily by the direct application of pigments suspended in oil, water, egg yolk, molten wax, or other liquid, arranged in masses of color, onto a generally two-dimensional surface.</td>
 		</tr>
 		<tr>
-			<td>Controlled value</td>
-			<td>Painting</td>
+			<td>Definition derived from</td>
+			<td><a href="http://vocab.getty.edu/page/aat/300033618">http://vocab.getty.edu/page/aat/300033618</a></td>
 		</tr>
 		<tr>
-			<td>Refer to semantic model:</td>
-			<td><a href="http://vocab.getty.edu/page/aat/300033618">http://vocab.getty.edu/page/aat/300033618</a></td>
+			<td>Controlled value</td>
+			<td>Painting</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -818,7 +831,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_Photograph"></a>Term Name  acsubtype:Photograph</th>
+			<th colspan="2"><a id="acsubtype_Photograph"></a>Term Name acsubtype:Photograph</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -843,12 +856,12 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Refers to still images produced from radiation-sensitive materials (sensitive to light, electron beams, or nuclear radiation), generally by means of the chemical action of light on a sensitive film, paper, glass, or metal. Photographs may be positive or negative, opaque or transparent. The concept may include photographs made by digital means.</td>
 		</tr>
 		<tr>
-			<td>Controlled value</td>
-			<td>Photograph</td>
+			<td>Definition derived from</td>
+			<td><a href="http://vocab.getty.edu/page/aat/300046300">http://vocab.getty.edu/page/aat/300046300</a></td>
 		</tr>
 		<tr>
-			<td>Refer to semantic model:</td>
-			<td><a href="http://vocab.getty.edu/page/aat/300046300">http://vocab.getty.edu/page/aat/300046300</a></td>
+			<td>Controlled value</td>
+			<td>Photograph</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -868,7 +881,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_RecordedOrganism"></a>Term Name  acsubtype:RecordedOrganism</th>
+			<th colspan="2"><a id="acsubtype_RecordedOrganism"></a>Term Name acsubtype:RecordedOrganism</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -910,7 +923,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_RecordedText"></a>Term Name  acsubtype:RecordedText</th>
+			<th colspan="2"><a id="acsubtype_RecordedText"></a>Term Name acsubtype:RecordedText</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -952,7 +965,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_ScannedText"></a>Term Name  acsubtype:ScannedText</th>
+			<th colspan="2"><a id="acsubtype_ScannedText"></a>Term Name acsubtype:ScannedText</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -994,7 +1007,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_SlideShow"></a>Term Name  acsubtype:SlideShow</th>
+			<th colspan="2"><a id="acsubtype_SlideShow"></a>Term Name acsubtype:SlideShow</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1019,12 +1032,12 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Visual representations of information for the purpose of achieving favorable visibility and persuading an audience to believe or support the presentor's ideas, projects, or goals.</td>
 		</tr>
 		<tr>
-			<td>Controlled value</td>
-			<td>SlideShow</td>
+			<td>Definition derived from</td>
+			<td><a href="http://vocab.getty.edu/page/aat/300258677">http://vocab.getty.edu/page/aat/300258677</a></td>
 		</tr>
 		<tr>
-			<td>Refer to semantic model:</td>
-			<td><a href="http://vocab.getty.edu/page/aat/300258677">http://vocab.getty.edu/page/aat/300258677</a></td>
+			<td>Controlled value</td>
+			<td>SlideShow</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1044,7 +1057,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_TaxonPage"></a>Term Name  acsubtype:TaxonPage</th>
+			<th colspan="2"><a id="acsubtype_TaxonPage"></a>Term Name acsubtype:TaxonPage</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1086,7 +1099,7 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acsubtype_VirtualRealityEnvironment"></a>Term Name  acsubtype:VirtualRealityEnvironment</th>
+			<th colspan="2"><a id="acsubtype_VirtualRealityEnvironment"></a>Term Name acsubtype:VirtualRealityEnvironment</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1111,12 +1124,12 @@ An IRI for a term in this vocabulary denotes the same class as the class denoted
 			<td>Use with regard to types of computer interface that produce compelling sensory output in response to user selections or movements.</td>
 		</tr>
 		<tr>
-			<td>Controlled value</td>
-			<td>VirtualRealityEnvironment</td>
+			<td>Definition derived from</td>
+			<td><a href="http://vocab.getty.edu/page/aat/300238469">http://vocab.getty.edu/page/aat/300238469</a></td>
 		</tr>
 		<tr>
-			<td>Refer to semantic model:</td>
-			<td><a href="http://vocab.getty.edu/page/aat/300238469">http://vocab.getty.edu/page/aat/300238469</a></td>
+			<td>Controlled value</td>
+			<td>VirtualRealityEnvironment</td>
 		</tr>
 		<tr>
 			<td>Type</td>

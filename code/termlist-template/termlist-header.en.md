@@ -34,8 +34,7 @@ Bibliographic citation
 
 ## 1 Introduction
 
-There are a number of documents included in the Aububon Core Standard.  This document provides details about the terms included in the {ratification_date} version of the Audiovisual Core vocabulary. The [Audiovisual Core Introduction](introduction.md) document provides a brief introduction to the Audiovisual Core Standard. For information about the structure of Audiovisual Core, see the [Audiovisual Core Structure](structure.md) document.  For a more detailed guide to the use of Audiovisual Core, see the [Audiovisual Core Guide](guide.md) document.
-
+There are a number of documents included in the Audiovisual Core Standard.  This document provides details about the terms included in the {ratification_date} version of the Audiovisual Core vocabulary. The [Audiovisual Core Introduction](../introduction/) document provides a brief introduction to the Audiovisual Core Standard. For information about the structure of Audiovisual Core, see the [Audiovisual Core Structure](../structure/) document.  For a more detailed guide to the use of Audiovisual Core, see the [Audiovisual Core Guide](../guide/) document.
 
 ### 1.1 Status of the content of this document
 
@@ -74,7 +73,7 @@ Note: URIs for terms in most of these namespaces do not dereference to anything.
 
 | Vocabulary | Abbreviation | Namespaces and abbreviations |
 |------------|--------------|------------------------------|
-| [Darwin Core](https://dwc.tdwg.org/terms/) | DwC         | `dwc: = http://rs.tdwg.org/dwc/terms/`
+| [Darwin Core](http://rs.tdwg.org/dwc/doc/list/) | DwC         | `dwc: = http://rs.tdwg.org/dwc/terms/`
 | [Dublin Core](http://dublincore.org/documents/dcmi-terms/) | DC          | `dc: = http://purl.org/dc/elements/1.1/, dcterms: = http://purl.org/dc/terms/` |
 | [Adobe XMP Core Properties](https://github.com/adobe/XMP-Toolkit-SDK/blob/main/docs/XMPSpecificationPart1.pdf) | XMP | `xmp: = http://ns.adobe.com/xap/1.0/, xmpRights: = http://ns.adobe.com/xap/1.0/rights/` |
 | [Adobe XMP Additional Properties](https://github.com/adobe/XMP-Toolkit-SDK/blob/main/docs/XMPSpecificationPart2.pdf) | XMP | `photoshop: = http://ns.adobe.com/photoshop/1.0/` |
@@ -93,12 +92,12 @@ a row with the term name. This term name is generally an "unqualified
 name" preceded by a widely accepted prefix designating an abbreviation
 for the namespace It is RECOMMENDED that implementers who need a
 namespace prefix for the AC namespace use `ac`. In this web document,
-hovering over a term in the [Index By Term Name](#index-by-term-name)
+hovering over a term in the [Index By Term Name](#61-index-by-term-name)
 list below will reveal a complete URL that can be used in other web
 documents to link to *this* document's treatment of that term, even if
 it is from a borrowed vocabulary. It is very important to note that some
 vocabularies, e.g those of the
-[Dublin Core Metadata Initiative (DCMI)](http://dublincore.org/),
+[Dublin Core Metadata Initiative (DCMI)](https://www.dublincore.org/),
 provide versions of the same term in two different namespaces, one
 providing for string values and one providing for URIs, even where that
 separation is simply a recommendation, not a mandate. See this
@@ -111,7 +110,7 @@ implementations of AC, because
 some implementations may not provide enough structure to clearly state
 the association between the members of a pair in the case of multiple
 values of each. This is a special case of the issue treated in the
-normative material on [Multiplicity and Cardinality](structure.md#3-multiplicity-and-cardinality) in the Audiovisual Core Structure document.
+normative material on [Multiplicity and Cardinality](../structure/#3-multiplicity-and-cardinality) in the Audiovisual Core Structure document.
 
 
 ## 4 Layers
@@ -133,3 +132,4 @@ required values are strings or URIs.
 
 
 ## 6 Vocabulary Indices (non-normative)
+
