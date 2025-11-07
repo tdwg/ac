@@ -16,8 +16,6 @@ import os
 import sys
 import pandas as pd
 
-from jinja2 import FileSystemLoader, Environment
-
 import dwcterms
 
 # -----------------
@@ -493,7 +491,7 @@ class TermList:
         # Determine whether there was a previous version of the document.
         if self.terms.document_configuration_yaml['doc_created'] != self.terms.document_configuration_yaml['doc_modified']:
             # Load versions list from document versions data in the rs.tdwg.org repo and find most recent version.
-            versions_data_url = dwcterms.githubBaseUri + 'docs/docs-versions.csv'
+            versions_data_url = self.terms.githubBaseUri + 'docs/docs-versions.csv'
             versions_list_df = pd.read_csv(versions_data_url, na_filter=False)
             # Slice all rows for versions of this document.
             matching_versions = versions_list_df[versions_list_df['current_iri']==self.terms.document_configuration_yaml['current_iri']]
@@ -657,17 +655,20 @@ def retrieve_databases_for_vocabulary(vocabulary_iri):
     Then retrieve the rs.tdwg.org database names (i.e. directories) for each of those term lists,
     using the term-lists table in the rs.tdwg.org GitHub repository.
 
+    NOTE: Currently operates only on remote GitHub data (local filesystem not yet supported).
+
     Returns
     -------
     List of database names
     """
+    githubBaseUri = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/' + github_branch + '/'
 
     # Load the table of term lists into a DataFrame with the list IRI as the row label index
-    term_lists_df = pd.read_csv(dwcterms.githubBaseUri + 'term-lists/term-lists.csv', na_filter=False)
+    term_lists_df = pd.read_csv(githubBaseUri + 'term-lists/term-lists.csv', na_filter=False)
     term_lists_df = term_lists_df.set_index('list')
 
     # Load the table of vocabulary members into a DataFrame with the vocabulary IRI as the row label index
-    vocabulary_members_df = pd.read_csv(dwcterms.githubBaseUri + 'vocabularies/vocabularies-members.csv', na_filter=False)
+    vocabulary_members_df = pd.read_csv(githubBaseUri + 'vocabularies/vocabularies-members.csv', na_filter=False)
     vocabulary_members_df = vocabulary_members_df.set_index('vocabulary')
 
     # Slice rows in the vocabulary members DataFrame that match the vocabulary IRI, and extract the term list IRI column.
