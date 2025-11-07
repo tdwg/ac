@@ -675,20 +675,26 @@ def retrieve_databases_for_vocabulary(vocabulary_iri):
     # Result is a Series.
     matching_members = vocabulary_members_df.loc[vocabulary_iri, 'termList']
     # Use the series values as the selector for slicing the term lists dataframe to extract the rows whose indices are the term list IRIs.
-    # Return the database column as a list (coerced from a Series).
-    return term_lists_df.loc[matching_members, 'database'].tolist()
+    result = term_lists_df.loc[matching_members, 'database']
+    # Return the database column as a list
+    # If multiple values coerce from a Series. Otherwise it is a single string value.
+    try:
+        result_list = result.tolist()
+    except:
+        result_list = [result]
+    return result_list
 
 # -----------------
 # Main routine
 # -----------------
 
 # List of Terms for the main vocabulary
-document_iri = 'http://rs.tdwg.org/ac/doc/terms/'
+document_iri = 'http://rs.tdwg.org/ac/doc/termlist/'
 databases = retrieve_databases_for_vocabulary('http://rs.tdwg.org/ac/')
 
 ac = dwcterms.DwcTerms(
     termLists = databases,
-    docMetadataFilePath = 'ac_doc_termlist/',
+    docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
     githubBranch = github_branch)
 ac_list = TermList(
@@ -748,13 +754,16 @@ ac_list = TermList(
 # Because different docs have a different section number for the indices, indicate it here.
 # The Vocabulary section is assumed to be the next section after the indices.
 index_section_number = 6
-# List of Terms HTML
-generate_all_markdown(ac_list, 'termlist', languages, index_section_number)
+# List of Terms HTML. document_iri[19:-1].split('/')[2] gets the page slug
+generate_all_markdown(ac_list, document_iri[19:-1].split('/')[2], languages, index_section_number)
+
 
 # Variant Vocabulary
+document_iri = 'http://rs.tdwg.org/ac/doc/variant/'
+databases = retrieve_databases_for_vocabulary('http://rs.tdwg.org/acvariant/')
 variant = dwcterms.DwcTerms(
-    termLists = ['acvariant'],
-    docMetadataFilePath = 'ac_doc_variant/',
+    termLists = databases,
+    docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
     githubBranch = github_branch)
 variant_list = TermList(
@@ -770,13 +779,16 @@ variant_list = TermList(
 # Because different docs have a different section number for the indices, indicate it here.
 # The Vocabulary section is assumed to be the next section after the indices.
 index_section_number = 3
-# Variant HTML
-generate_all_markdown(variant_list, 'variant', languages, index_section_number)
+# List of Terms HTML. document_iri[19:-1].split('/')[2] gets the page slug
+generate_all_markdown(variant_list, document_iri[19:-1].split('/')[2], languages, index_section_number)
+
 
 # Subtype Vocabulary
+document_iri = 'http://rs.tdwg.org/ac/doc/subtype/'
+databases = retrieve_databases_for_vocabulary('http://rs.tdwg.org/acsubtype/')
 subtype = dwcterms.DwcTerms(
-    termLists = ['acsubtype'],
-    docMetadataFilePath = 'ac_doc_subtype/',
+    termLists = databases,
+    docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
     githubBranch = github_branch)
 subtype_list = TermList(
@@ -792,13 +804,16 @@ subtype_list = TermList(
 # Because different docs have a different section number for the indices, indicate it here.
 # The Vocabulary section is assumed to be the next section after the indices.
 index_section_number = 3
-# Subtype HTML
-generate_all_markdown(subtype_list, 'subtype', languages, index_section_number)
+# List of Terms HTML. document_iri[19:-1].split('/')[2] gets the page slug
+generate_all_markdown(subtype_list, document_iri[19:-1].split('/')[2], languages, index_section_number)
+
 
 # Format Vocabulary
+document_iri = 'http://rs.tdwg.org/ac/doc/format/'
+databases = retrieve_databases_for_vocabulary('http://rs.tdwg.org/format/')
 format = dwcterms.DwcTerms(
-    termLists = ['format'],
-    docMetadataFilePath = 'ac_doc_format/',
+    termLists = databases,
+    docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
     githubBranch = github_branch)
 format_list = TermList(
@@ -814,13 +829,16 @@ format_list = TermList(
 # Because different docs have a different section number for the indices, indicate it here.
 # The Vocabulary section is assumed to be the next section after the indices.
 index_section_number = 3
-# Format HTML
-generate_all_markdown(format_list, 'format', languages, index_section_number)
+# List of Terms HTML. document_iri[19:-1].split('/')[2] gets the page slug
+generate_all_markdown(format_list, document_iri[19:-1].split('/')[2], languages, index_section_number)
+
 
 # Subject Part Vocabulary
+document_iri = 'http://rs.tdwg.org/ac/doc/part/'
+databases = retrieve_databases_for_vocabulary('http://rs.tdwg.org/acpart/')
 subjectPart = dwcterms.DwcTerms(
-    termLists = ['acpart'],
-    docMetadataFilePath = 'ac_doc_part/',
+    termLists = databases,
+    docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
     githubBranch = github_branch)
 subjectPart_list = TermList(
@@ -836,14 +854,16 @@ subjectPart_list = TermList(
 # Because different docs have a different section number for the indices, indicate it here.
 # The Vocabulary section is assumed to be the next section after the indices.
 index_section_number = 3
-# Subject Part HTML
-generate_all_markdown(subjectPart_list, 'part', languages, index_section_number)
+# List of Terms HTML. document_iri[19:-1].split('/')[2] gets the page slug
+generate_all_markdown(subjectPart_list, document_iri[19:-1].split('/')[2], languages, index_section_number)
 
 
 # Subject Orientation Vocabulary
+document_iri = 'http://rs.tdwg.org/ac/doc/orient/'
+databases = retrieve_databases_for_vocabulary('http://rs.tdwg.org/acorient/')
 subjectOrientation = dwcterms.DwcTerms(
-    termLists = ['acorient'],
-    docMetadataFilePath = 'ac_doc_orient/',
+    termLists = databases,
+    docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
     githubBranch = github_branch)
 subjectOrientation_list = TermList(
@@ -859,5 +879,5 @@ subjectOrientation_list = TermList(
 # Because different docs have a different section number for the indices, indicate it here.
 # The Vocabulary section is assumed to be the next section after the indices.
 index_section_number = 3
-# Subject Orientation HTML
-generate_all_markdown(subjectOrientation_list, 'orient', languages, index_section_number)
+# List of Terms HTML. document_iri[19:-1].split('/')[2] gets the page slug
+generate_all_markdown(subjectOrientation_list, document_iri[19:-1].split('/')[2], languages, index_section_number)
