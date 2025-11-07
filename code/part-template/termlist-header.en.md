@@ -1,33 +1,46 @@
-# Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms
+# {document_title}
 
-**Title:** Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms
+Title
+: {document_title}
 
-**Namespace URI:** http://rs.tdwg.org/acorient/values/
+Namespace IRI
+: <http://rs.tdwg.org/acpart/values/>
 
-**Preferred namespace abbreviation:** acorient:
+Preferred namespace abbreviation
+: acpart:
 
-**Date version issued:** 2023-04-26
+Date version issued
+: {ratification_date}
 
-**Date created:** 2023-04-26
+Date created
+: {created_date}
 
-**Part of TDWG Standard:** http://www.tdwg.org/standards/638
+Part of TDWG Standard
+: <{standard_iri}>
 
-**This version:** http://rs.tdwg.org/ac/doc/orient/2023-04-26
+This version
+: <{current_iri}{ratification_date}>
 
-**Latest version:** http://rs.tdwg.org/ac/doc/orient/
+Latest version
+: <{current_iri}>
 
-**Abstract:** The Audiovisual Core term `subjectOrientation` describes the viewing orientation relative to an organism or part of an organism depicted in a media item or region of interest. The subjectOrientation Controlled Vocabulary provides terms that should be used as values for `ac:subjectOrientation` and its literal-valued analog `ac:subjectOrientationLiteral`. 
+{previous_version_slot}
 
-**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (University of Oulu), Mervin E. Pérez (Universidad de San Carlos de Guatemala), Randy Singer (University of Michigan)
+Abstract
+: {abstract}
 
-**Creator:** TDWG Views Controlled Vocabularies Task Group
+Contributors
+: {contributors}
 
-**Bibliographic citation:** Views Controlled Vocabularies Task Group. 2023. Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/orient/2023-04-26>
+Creator
+: {creator}
 
+Bibliographic citation
+: {creator}. {year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
 
 ## 1 Introduction (informative)
 
-This document includes terms intended to be used as controlled values for the Audiovisual Core terms `ac:subjectOrientation` and `ac:subjectOrientationLiteral`. A [JSON-LD representation](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient.json) (including translations to multiple languages) of this SKOS Concept Scheme is available. For more information about how to use this vocabulary, see the [subjectPart and subjectOrientation Controlled Vocabularies User Guide](https://github.com/tdwg/ac/blob/master/views/views_user_guide.pdf).
+This document includes terms intended to be used as controlled values for the Audiovisual Core terms `ac:subjectPart` and `ac:subjectPartLiteral`. A [JSON-LD representation](https://tdwg.github.io/rs.tdwg.org/cvJson/acpart.json) (including translations to multiple languages) of this SKOS Concept Scheme is available. For more information about how to use this vocabulary, see the [subjectPart and subjectOrientation Controlled Vocabularies User Guide](https://github.com/tdwg/ac/blob/master/views/views_user_guide.pdf).
 
 ### 1.1 Status of the content of this document
 
@@ -49,7 +62,7 @@ For perspective on the development of this [vocabulary enhancement](https://gith
 
 ### 2.1 Relationship of value types to property terms
 
-In accordance with the [Audiovisual Core Term List](http://rs.tdwg.org/ac/doc/termlist/) document, unabbreviated term IRIs MUST be used as values of the property `ac:subjectOrientation`. Controlled value strings SHOULD be used as values of the property `ac:subjectOrientationLiteral`.
+In accordance with the [Audiovisual Core Term List](http://rs.tdwg.org/ac/doc/termlist/) document, unabbreviated term IRIs MUST be used as values of the property `ac:subjectPart`. Controlled value strings SHOULD be used as values of the property `ac:subjectPartLiteral`.
 
 ### 2.2 Relationships with other concept schemes and collections (informative)
 

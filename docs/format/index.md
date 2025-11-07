@@ -1,31 +1,43 @@
 # Controlled Vocabulary for Dublin Core format: List of Terms
 
-**Title:** Controlled Vocabulary for Dublin Core format: List of Terms
+Title
+: Controlled Vocabulary for Dublin Core format: List of Terms
 
-**Namespace URI:** http://rs.tdwg.org/format/values/
+Namespace IRI
+: <http://rs.tdwg.org/acformat/values/>
 
-**Preferred namespace abbreviation:** acformat:
+Preferred namespace abbreviation
+: acformat:
 
-**Date version issued:** 2023-02-24
+Date version issued
+: 2023-02-24
 
-**Date created:** 2020-10-13
+Date created
+: 2020-10-13
 
-**Part of TDWG Standard:** http://www.tdwg.org/standards/638
+Part of TDWG Standard
+: <http://www.tdwg.org/standards/638>
 
-**This version:** http://rs.tdwg.org/ac/doc/format/2023-02-24
+This version
+: <http://rs.tdwg.org/ac/doc/format/2023-02-24>
 
-**Latest version:** http://rs.tdwg.org/ac/doc/format/
+Latest version
+: <http://rs.tdwg.org/ac/doc/format/>
 
-**Previous version:** <http://rs.tdwg.org/ac/doc/format/2020-10-13>
+Previous version
+: <http://rs.tdwg.org/ac/doc/format/2020-10-13>
 
-**Abstract:** Audiovisual Core borrows the Dublin Core terms `dc:format` and `dcterms:format` to provide information about the physical or electronic format of a media item. This controlled vocabulary provides values for those two terms. 
+Abstract
+: Audiovisual Core borrows the Dublin Core terms dc:format and dcterms:format to provide information about the physical or electronic format of a media item. This controlled vocabulary provides values for those two terms.
 
-**Contributors:** Steven J Baskauf (Vanderbilt University Heard Libraries), Matthew Blissett (GBIF), Douglas Boyer (Duke University)
+Contributors
+: [Steven J Baskauf](https://orcid.org/0000-0003-4365-3135) ([Vanderbilt University Heard Libraries](http://www.wikidata.org/entity/Q16849893)), [Matthew Blissett](https://orcid.org/0000-0003-0623-6682) ([Global Biodiversity Information Facility](http://www.wikidata.org/entity/Q1531570)), [Douglas Boyer](http://www.wikidata.org/entity/Q100599637) ([Duke University](http://www.wikidata.org/entity/Q168751))
 
-**Creator:** TDWG Audiovisual Core Maintenance Group
+Creator
+: TDWG Audiovisual Core Maintenance Group
 
-**Bibliographic citation:** Audiovisual Core Maintenance Group. 2023. Controlled Vocabulary for Dublin Core format: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/format/2023-02-24>
-
+Bibliographic citation
+: TDWG Audiovisual Core Maintenance Group. 2023. Controlled Vocabulary for Dublin Core format: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/format/2023-02-24>
 
 ## 1 Introduction (informative)
 
@@ -69,10 +81,11 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 ## 3 Term index
 
 
+
 **Concept schemes**
 
 [file extensions concept scheme](#acformat_e) |
-[media types and physical media concept scheme](#acformat_m) 
+[media types and physical media concept scheme](#acformat_m)
 
 **Media types and physical media concept scheme**
 
@@ -147,7 +160,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 [Word (pre-2003) document](#acformat_m020) |
 [X3D VRML](#acformat_m017) |
 [X3D XML](#acformat_m068) |
-[ZVI](#acformat_m054) 
+[ZVI](#acformat_m054)
 
 **File extensions concept scheme**
 
@@ -198,7 +211,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 [Word (pre-2003) document](#acformat_e002) |
 [X3D VRML](#acformat_e043) |
 [X3D XML](#acformat_e044) |
-[ZVI](#acformat_e022) 
+[ZVI](#acformat_e022)
 
 ## 4 Vocabulary
 ### 4.1 Concept schemes
@@ -206,7 +219,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e"></a>Term Name  acformat:e</th>
+			<th colspan="2"><a id="acformat_e"></a>Term Name acformat:e</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -244,7 +257,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m"></a>Term Name  acformat:m</th>
+			<th colspan="2"><a id="acformat_m"></a>Term Name acformat:m</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -285,7 +298,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m001"></a>Term Name  acformat:m001</th>
+			<th colspan="2"><a id="acformat_m001"></a>Term Name acformat:m001</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -327,7 +340,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m002"></a>Term Name  acformat:m002</th>
+			<th colspan="2"><a id="acformat_m002"></a>Term Name acformat:m002</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -369,7 +382,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m003"></a>Term Name  acformat:m003</th>
+			<th colspan="2"><a id="acformat_m003"></a>Term Name acformat:m003</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -411,7 +424,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m004"></a>Term Name  acformat:m004</th>
+			<th colspan="2"><a id="acformat_m004"></a>Term Name acformat:m004</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -453,7 +466,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m005"></a>Term Name  acformat:m005</th>
+			<th colspan="2"><a id="acformat_m005"></a>Term Name acformat:m005</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -495,7 +508,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m006"></a>Term Name  acformat:m006</th>
+			<th colspan="2"><a id="acformat_m006"></a>Term Name acformat:m006</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -537,7 +550,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m007"></a>Term Name  acformat:m007</th>
+			<th colspan="2"><a id="acformat_m007"></a>Term Name acformat:m007</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -583,7 +596,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m008"></a>Term Name  acformat:m008</th>
+			<th colspan="2"><a id="acformat_m008"></a>Term Name acformat:m008</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -629,7 +642,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m009"></a>Term Name  acformat:m009</th>
+			<th colspan="2"><a id="acformat_m009"></a>Term Name acformat:m009</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -675,7 +688,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m010"></a>Term Name  acformat:m010</th>
+			<th colspan="2"><a id="acformat_m010"></a>Term Name acformat:m010</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -721,7 +734,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m011"></a>Term Name  acformat:m011</th>
+			<th colspan="2"><a id="acformat_m011"></a>Term Name acformat:m011</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -767,7 +780,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m012"></a>Term Name  acformat:m012</th>
+			<th colspan="2"><a id="acformat_m012"></a>Term Name acformat:m012</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -813,7 +826,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m013"></a>Term Name  acformat:m013</th>
+			<th colspan="2"><a id="acformat_m013"></a>Term Name acformat:m013</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -859,7 +872,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m014"></a>Term Name  acformat:m014</th>
+			<th colspan="2"><a id="acformat_m014"></a>Term Name acformat:m014</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -905,7 +918,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m015"></a>Term Name  acformat:m015</th>
+			<th colspan="2"><a id="acformat_m015"></a>Term Name acformat:m015</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -951,7 +964,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m016"></a>Term Name  acformat:m016</th>
+			<th colspan="2"><a id="acformat_m016"></a>Term Name acformat:m016</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -997,7 +1010,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m017"></a>Term Name  acformat:m017</th>
+			<th colspan="2"><a id="acformat_m017"></a>Term Name acformat:m017</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1043,7 +1056,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m018"></a>Term Name  acformat:m018</th>
+			<th colspan="2"><a id="acformat_m018"></a>Term Name acformat:m018</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1089,7 +1102,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m019"></a>Term Name  acformat:m019</th>
+			<th colspan="2"><a id="acformat_m019"></a>Term Name acformat:m019</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1135,7 +1148,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m020"></a>Term Name  acformat:m020</th>
+			<th colspan="2"><a id="acformat_m020"></a>Term Name acformat:m020</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1181,7 +1194,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m021"></a>Term Name  acformat:m021</th>
+			<th colspan="2"><a id="acformat_m021"></a>Term Name acformat:m021</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1227,7 +1240,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m022"></a>Term Name  acformat:m022</th>
+			<th colspan="2"><a id="acformat_m022"></a>Term Name acformat:m022</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1273,7 +1286,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m023"></a>Term Name  acformat:m023</th>
+			<th colspan="2"><a id="acformat_m023"></a>Term Name acformat:m023</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1319,7 +1332,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m024"></a>Term Name  acformat:m024</th>
+			<th colspan="2"><a id="acformat_m024"></a>Term Name acformat:m024</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1365,7 +1378,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m025"></a>Term Name  acformat:m025</th>
+			<th colspan="2"><a id="acformat_m025"></a>Term Name acformat:m025</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1411,7 +1424,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m026"></a>Term Name  acformat:m026</th>
+			<th colspan="2"><a id="acformat_m026"></a>Term Name acformat:m026</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1457,7 +1470,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m027"></a>Term Name  acformat:m027</th>
+			<th colspan="2"><a id="acformat_m027"></a>Term Name acformat:m027</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1503,7 +1516,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m028"></a>Term Name  acformat:m028</th>
+			<th colspan="2"><a id="acformat_m028"></a>Term Name acformat:m028</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1549,7 +1562,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m029"></a>Term Name  acformat:m029</th>
+			<th colspan="2"><a id="acformat_m029"></a>Term Name acformat:m029</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1595,7 +1608,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m030"></a>Term Name  acformat:m030</th>
+			<th colspan="2"><a id="acformat_m030"></a>Term Name acformat:m030</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1641,7 +1654,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m031"></a>Term Name  acformat:m031</th>
+			<th colspan="2"><a id="acformat_m031"></a>Term Name acformat:m031</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1687,7 +1700,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m032"></a>Term Name  acformat:m032</th>
+			<th colspan="2"><a id="acformat_m032"></a>Term Name acformat:m032</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1733,7 +1746,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m033"></a>Term Name  acformat:m033</th>
+			<th colspan="2"><a id="acformat_m033"></a>Term Name acformat:m033</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1779,7 +1792,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m034"></a>Term Name  acformat:m034</th>
+			<th colspan="2"><a id="acformat_m034"></a>Term Name acformat:m034</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1825,7 +1838,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m035"></a>Term Name  acformat:m035</th>
+			<th colspan="2"><a id="acformat_m035"></a>Term Name acformat:m035</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1871,7 +1884,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m036"></a>Term Name  acformat:m036</th>
+			<th colspan="2"><a id="acformat_m036"></a>Term Name acformat:m036</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1917,7 +1930,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m037"></a>Term Name  acformat:m037</th>
+			<th colspan="2"><a id="acformat_m037"></a>Term Name acformat:m037</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1963,7 +1976,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m038"></a>Term Name  acformat:m038</th>
+			<th colspan="2"><a id="acformat_m038"></a>Term Name acformat:m038</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2009,7 +2022,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m039"></a>Term Name  acformat:m039</th>
+			<th colspan="2"><a id="acformat_m039"></a>Term Name acformat:m039</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2055,7 +2068,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m040"></a>Term Name  acformat:m040</th>
+			<th colspan="2"><a id="acformat_m040"></a>Term Name acformat:m040</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2101,7 +2114,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m041"></a>Term Name  acformat:m041</th>
+			<th colspan="2"><a id="acformat_m041"></a>Term Name acformat:m041</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2147,7 +2160,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m042"></a>Term Name  acformat:m042</th>
+			<th colspan="2"><a id="acformat_m042"></a>Term Name acformat:m042</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2193,7 +2206,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m043"></a>Term Name  acformat:m043</th>
+			<th colspan="2"><a id="acformat_m043"></a>Term Name acformat:m043</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2239,7 +2252,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m044"></a>Term Name  acformat:m044</th>
+			<th colspan="2"><a id="acformat_m044"></a>Term Name acformat:m044</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2285,7 +2298,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m045"></a>Term Name  acformat:m045</th>
+			<th colspan="2"><a id="acformat_m045"></a>Term Name acformat:m045</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2331,7 +2344,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m046"></a>Term Name  acformat:m046</th>
+			<th colspan="2"><a id="acformat_m046"></a>Term Name acformat:m046</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2377,7 +2390,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m047"></a>Term Name  acformat:m047</th>
+			<th colspan="2"><a id="acformat_m047"></a>Term Name acformat:m047</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2423,7 +2436,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m048"></a>Term Name  acformat:m048</th>
+			<th colspan="2"><a id="acformat_m048"></a>Term Name acformat:m048</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2469,7 +2482,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m049"></a>Term Name  acformat:m049</th>
+			<th colspan="2"><a id="acformat_m049"></a>Term Name acformat:m049</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2515,7 +2528,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m050"></a>Term Name  acformat:m050</th>
+			<th colspan="2"><a id="acformat_m050"></a>Term Name acformat:m050</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2561,7 +2574,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m051"></a>Term Name  acformat:m051</th>
+			<th colspan="2"><a id="acformat_m051"></a>Term Name acformat:m051</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2607,7 +2620,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m052"></a>Term Name  acformat:m052</th>
+			<th colspan="2"><a id="acformat_m052"></a>Term Name acformat:m052</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2653,7 +2666,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m053"></a>Term Name  acformat:m053</th>
+			<th colspan="2"><a id="acformat_m053"></a>Term Name acformat:m053</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2699,7 +2712,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m054"></a>Term Name  acformat:m054</th>
+			<th colspan="2"><a id="acformat_m054"></a>Term Name acformat:m054</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2749,7 +2762,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m055"></a>Term Name  acformat:m055</th>
+			<th colspan="2"><a id="acformat_m055"></a>Term Name acformat:m055</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2795,7 +2808,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m056"></a>Term Name  acformat:m056</th>
+			<th colspan="2"><a id="acformat_m056"></a>Term Name acformat:m056</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2841,7 +2854,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m057"></a>Term Name  acformat:m057</th>
+			<th colspan="2"><a id="acformat_m057"></a>Term Name acformat:m057</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2887,7 +2900,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m058"></a>Term Name  acformat:m058</th>
+			<th colspan="2"><a id="acformat_m058"></a>Term Name acformat:m058</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2933,7 +2946,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m059"></a>Term Name  acformat:m059</th>
+			<th colspan="2"><a id="acformat_m059"></a>Term Name acformat:m059</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -2979,7 +2992,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m060"></a>Term Name  acformat:m060</th>
+			<th colspan="2"><a id="acformat_m060"></a>Term Name acformat:m060</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3025,7 +3038,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m061"></a>Term Name  acformat:m061</th>
+			<th colspan="2"><a id="acformat_m061"></a>Term Name acformat:m061</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3071,7 +3084,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m062"></a>Term Name  acformat:m062</th>
+			<th colspan="2"><a id="acformat_m062"></a>Term Name acformat:m062</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3117,7 +3130,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m063"></a>Term Name  acformat:m063</th>
+			<th colspan="2"><a id="acformat_m063"></a>Term Name acformat:m063</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3163,7 +3176,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m064"></a>Term Name  acformat:m064</th>
+			<th colspan="2"><a id="acformat_m064"></a>Term Name acformat:m064</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3209,7 +3222,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m065"></a>Term Name  acformat:m065</th>
+			<th colspan="2"><a id="acformat_m065"></a>Term Name acformat:m065</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3255,7 +3268,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m066"></a>Term Name  acformat:m066</th>
+			<th colspan="2"><a id="acformat_m066"></a>Term Name acformat:m066</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3301,7 +3314,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m067"></a>Term Name  acformat:m067</th>
+			<th colspan="2"><a id="acformat_m067"></a>Term Name acformat:m067</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3347,7 +3360,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m068"></a>Term Name  acformat:m068</th>
+			<th colspan="2"><a id="acformat_m068"></a>Term Name acformat:m068</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3393,7 +3406,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m069"></a>Term Name  acformat:m069</th>
+			<th colspan="2"><a id="acformat_m069"></a>Term Name acformat:m069</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3443,7 +3456,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m070"></a>Term Name  acformat:m070</th>
+			<th colspan="2"><a id="acformat_m070"></a>Term Name acformat:m070</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3493,7 +3506,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m071"></a>Term Name  acformat:m071</th>
+			<th colspan="2"><a id="acformat_m071"></a>Term Name acformat:m071</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3543,7 +3556,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_m072"></a>Term Name  acformat:m072</th>
+			<th colspan="2"><a id="acformat_m072"></a>Term Name acformat:m072</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3596,7 +3609,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e001"></a>Term Name  acformat:e001</th>
+			<th colspan="2"><a id="acformat_e001"></a>Term Name acformat:e001</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3642,7 +3655,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e002"></a>Term Name  acformat:e002</th>
+			<th colspan="2"><a id="acformat_e002"></a>Term Name acformat:e002</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3688,7 +3701,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e003"></a>Term Name  acformat:e003</th>
+			<th colspan="2"><a id="acformat_e003"></a>Term Name acformat:e003</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3734,7 +3747,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e004"></a>Term Name  acformat:e004</th>
+			<th colspan="2"><a id="acformat_e004"></a>Term Name acformat:e004</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3780,7 +3793,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e005"></a>Term Name  acformat:e005</th>
+			<th colspan="2"><a id="acformat_e005"></a>Term Name acformat:e005</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3826,7 +3839,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e006"></a>Term Name  acformat:e006</th>
+			<th colspan="2"><a id="acformat_e006"></a>Term Name acformat:e006</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3872,7 +3885,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e007"></a>Term Name  acformat:e007</th>
+			<th colspan="2"><a id="acformat_e007"></a>Term Name acformat:e007</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3918,7 +3931,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e008"></a>Term Name  acformat:e008</th>
+			<th colspan="2"><a id="acformat_e008"></a>Term Name acformat:e008</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -3964,7 +3977,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e009"></a>Term Name  acformat:e009</th>
+			<th colspan="2"><a id="acformat_e009"></a>Term Name acformat:e009</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4010,7 +4023,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e010"></a>Term Name  acformat:e010</th>
+			<th colspan="2"><a id="acformat_e010"></a>Term Name acformat:e010</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4056,7 +4069,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e011"></a>Term Name  acformat:e011</th>
+			<th colspan="2"><a id="acformat_e011"></a>Term Name acformat:e011</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4102,7 +4115,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e012"></a>Term Name  acformat:e012</th>
+			<th colspan="2"><a id="acformat_e012"></a>Term Name acformat:e012</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4148,7 +4161,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e013"></a>Term Name  acformat:e013</th>
+			<th colspan="2"><a id="acformat_e013"></a>Term Name acformat:e013</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4194,7 +4207,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e014"></a>Term Name  acformat:e014</th>
+			<th colspan="2"><a id="acformat_e014"></a>Term Name acformat:e014</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4240,7 +4253,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e015"></a>Term Name  acformat:e015</th>
+			<th colspan="2"><a id="acformat_e015"></a>Term Name acformat:e015</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4286,7 +4299,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e016"></a>Term Name  acformat:e016</th>
+			<th colspan="2"><a id="acformat_e016"></a>Term Name acformat:e016</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4332,7 +4345,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e017"></a>Term Name  acformat:e017</th>
+			<th colspan="2"><a id="acformat_e017"></a>Term Name acformat:e017</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4378,7 +4391,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e018"></a>Term Name  acformat:e018</th>
+			<th colspan="2"><a id="acformat_e018"></a>Term Name acformat:e018</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4424,7 +4437,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e019"></a>Term Name  acformat:e019</th>
+			<th colspan="2"><a id="acformat_e019"></a>Term Name acformat:e019</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4470,7 +4483,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e020"></a>Term Name  acformat:e020</th>
+			<th colspan="2"><a id="acformat_e020"></a>Term Name acformat:e020</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4516,7 +4529,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e021"></a>Term Name  acformat:e021</th>
+			<th colspan="2"><a id="acformat_e021"></a>Term Name acformat:e021</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4562,7 +4575,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e022"></a>Term Name  acformat:e022</th>
+			<th colspan="2"><a id="acformat_e022"></a>Term Name acformat:e022</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4608,7 +4621,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e023"></a>Term Name  acformat:e023</th>
+			<th colspan="2"><a id="acformat_e023"></a>Term Name acformat:e023</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4654,7 +4667,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e024"></a>Term Name  acformat:e024</th>
+			<th colspan="2"><a id="acformat_e024"></a>Term Name acformat:e024</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4700,7 +4713,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e025"></a>Term Name  acformat:e025</th>
+			<th colspan="2"><a id="acformat_e025"></a>Term Name acformat:e025</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4746,7 +4759,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e026"></a>Term Name  acformat:e026</th>
+			<th colspan="2"><a id="acformat_e026"></a>Term Name acformat:e026</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4792,7 +4805,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e027"></a>Term Name  acformat:e027</th>
+			<th colspan="2"><a id="acformat_e027"></a>Term Name acformat:e027</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4838,7 +4851,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e028"></a>Term Name  acformat:e028</th>
+			<th colspan="2"><a id="acformat_e028"></a>Term Name acformat:e028</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4884,7 +4897,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e029"></a>Term Name  acformat:e029</th>
+			<th colspan="2"><a id="acformat_e029"></a>Term Name acformat:e029</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4930,7 +4943,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e030"></a>Term Name  acformat:e030</th>
+			<th colspan="2"><a id="acformat_e030"></a>Term Name acformat:e030</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -4976,7 +4989,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e031"></a>Term Name  acformat:e031</th>
+			<th colspan="2"><a id="acformat_e031"></a>Term Name acformat:e031</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5022,7 +5035,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e032"></a>Term Name  acformat:e032</th>
+			<th colspan="2"><a id="acformat_e032"></a>Term Name acformat:e032</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5068,7 +5081,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e033"></a>Term Name  acformat:e033</th>
+			<th colspan="2"><a id="acformat_e033"></a>Term Name acformat:e033</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5114,7 +5127,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e034"></a>Term Name  acformat:e034</th>
+			<th colspan="2"><a id="acformat_e034"></a>Term Name acformat:e034</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5160,7 +5173,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e035"></a>Term Name  acformat:e035</th>
+			<th colspan="2"><a id="acformat_e035"></a>Term Name acformat:e035</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5206,7 +5219,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e036"></a>Term Name  acformat:e036</th>
+			<th colspan="2"><a id="acformat_e036"></a>Term Name acformat:e036</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5252,7 +5265,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e037"></a>Term Name  acformat:e037</th>
+			<th colspan="2"><a id="acformat_e037"></a>Term Name acformat:e037</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5298,7 +5311,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e038"></a>Term Name  acformat:e038</th>
+			<th colspan="2"><a id="acformat_e038"></a>Term Name acformat:e038</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5344,7 +5357,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e039"></a>Term Name  acformat:e039</th>
+			<th colspan="2"><a id="acformat_e039"></a>Term Name acformat:e039</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5390,7 +5403,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e040"></a>Term Name  acformat:e040</th>
+			<th colspan="2"><a id="acformat_e040"></a>Term Name acformat:e040</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5436,7 +5449,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e041"></a>Term Name  acformat:e041</th>
+			<th colspan="2"><a id="acformat_e041"></a>Term Name acformat:e041</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5482,7 +5495,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e042"></a>Term Name  acformat:e042</th>
+			<th colspan="2"><a id="acformat_e042"></a>Term Name acformat:e042</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5528,7 +5541,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e043"></a>Term Name  acformat:e043</th>
+			<th colspan="2"><a id="acformat_e043"></a>Term Name acformat:e043</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5574,7 +5587,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e044"></a>Term Name  acformat:e044</th>
+			<th colspan="2"><a id="acformat_e044"></a>Term Name acformat:e044</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5620,7 +5633,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e045"></a>Term Name  acformat:e045</th>
+			<th colspan="2"><a id="acformat_e045"></a>Term Name acformat:e045</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5666,7 +5679,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e046"></a>Term Name  acformat:e046</th>
+			<th colspan="2"><a id="acformat_e046"></a>Term Name acformat:e046</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5712,7 +5725,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e047"></a>Term Name  acformat:e047</th>
+			<th colspan="2"><a id="acformat_e047"></a>Term Name acformat:e047</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -5758,7 +5771,7 @@ Workflow 3: A data aggregator harvests media items from an open data repository.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acformat_e048"></a>Term Name  acformat:e048</th>
+			<th colspan="2"><a id="acformat_e048"></a>Term Name acformat:e048</th>
 		</tr>
 	</thead>
 	<tbody>

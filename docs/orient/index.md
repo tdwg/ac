@@ -1,29 +1,40 @@
 # Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms
 
-**Title:** Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms
+Title
+: Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms
 
-**Namespace URI:** http://rs.tdwg.org/acorient/values/
+Namespace IRI
+: <http://rs.tdwg.org/acorient/values/>
 
-**Preferred namespace abbreviation:** acorient:
+Preferred namespace abbreviation
+: acorient:
 
-**Date version issued:** 2023-04-26
+Date version issued
+: 2023-04-26
 
-**Date created:** 2023-04-26
+Date created
+: 2023-04-26
 
-**Part of TDWG Standard:** http://www.tdwg.org/standards/638
+Part of TDWG Standard
+: <http://www.tdwg.org/standards/638>
 
-**This version:** http://rs.tdwg.org/ac/doc/orient/2023-04-26
+This version
+: <http://rs.tdwg.org/ac/doc/orient/2023-04-26>
 
-**Latest version:** http://rs.tdwg.org/ac/doc/orient/
+Latest version
+: <http://rs.tdwg.org/ac/doc/orient/>
 
-**Abstract:** The Audiovisual Core term `subjectOrientation` describes the viewing orientation relative to an organism or part of an organism depicted in a media item or region of interest. The subjectOrientation Controlled Vocabulary provides terms that should be used as values for `ac:subjectOrientation` and its literal-valued analog `ac:subjectOrientationLiteral`. 
+Abstract
+: The Audiovisual Core term subjectOrientation describes the viewing orientation relative to an organism or part of an organism depicted in a media item or region of interest. The subjectOrientation Controlled Vocabulary provides terms that should be used as values for ac:subjectOrientation and its literal-valued analog ac:subjectOrientationLiteral.
 
-**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (University of Oulu), Mervin E. Pérez (Universidad de San Carlos de Guatemala), Randy Singer (University of Michigan)
+Contributors
+: [Steven J. Baskauf](https://orcid.org/0000-0003-4365-3135) ([Vanderbilt University Libraries, Nashville, TN, USA](http://www.wikidata.org/entity/Q16849893)), [Neil S. Cobb](https://orcid.org/0000-0002-6155-9444) ([Merriam-Powell Center for Environmental Research, Northern Arizona University, Flagstaff, AZ, USA](http://www.wikidata.org/entity/Q139901)), [Jennifer C. Girón Duque](https://orcid.org/0000-0002-0851-6883) ([Natural Science Research Laboratory, Museum of Texas Tech University, Lubbock, TX, USA](http://www.wikidata.org/entity/Q6941030)), [Matthew Nielsen](https://orcid.org/0000-0002-0388-1187) ([University of Oulu, Oulu, Finland](http://www.wikidata.org/entity/Q1357517)), [Mervin E. Pérez](https://orcid.org/0000-0003-4277-8948) ([Universidad de San Carlos de Guatemala, Guatemala City, Guatemala](http://www.wikidata.org/entity/Q607331)), [Randy Singer](https://orcid.org/0000-0003-2440-7625) ([University of Michigan, Ann Arbor, MI, USA](http://www.wikidata.org/entity/Q230492))
 
-**Creator:** TDWG Views Controlled Vocabularies Task Group
+Creator
+: TDWG Views Controlled Vocabularies Task Group
 
-**Bibliographic citation:** Views Controlled Vocabularies Task Group. 2023. Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/orient/2023-04-26>
-
+Bibliographic citation
+: TDWG Views Controlled Vocabularies Task Group. 2023. Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/orient/2023-04-26>
 
 ## 1 Introduction (informative)
 
@@ -62,6 +73,7 @@ Neither of these Collections are normative and they are maintained outside of th
 ## 3 Term index
 
 
+
 [aboral side](#acorient_r0013) |
 [anterior side](#acorient_r0001) |
 [apical side](#acorient_r0010) |
@@ -76,13 +88,13 @@ Neither of these Collections are normative and they are maintained outside of th
 [subject orientation concept scheme](#acorient_r) |
 [unspecified orientation](#acorient_r0000) |
 [upper side](#acorient_r0008) |
-[ventral side](#acorient_r0007) 
+[ventral side](#acorient_r0007)
 
 ## 4 Vocabulary
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acorient_r"></a>Term Name  acorient:r</th>
+			<th colspan="2"><a id="acorient_r"></a>Term Name acorient:r</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -116,7 +128,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acorient_r0000"></a>Term Name  acorient:r0000</th>
+			<th colspan="2"><a id="acorient_r0000"></a>Term Name acorient:r0000</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -158,7 +170,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acorient_r0001"></a>Term Name  acorient:r0001</th>
+			<th colspan="2"><a id="acorient_r0001"></a>Term Name acorient:r0001</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -183,7 +195,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>view of the side towards the head or forward end of the organism</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000055">http://purl.obolibrary.org/obo/BSPO_0000055</a></td>
 		</tr>
 		<tr>
@@ -204,7 +216,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acorient_r0002"></a>Term Name  acorient:r0002</th>
+			<th colspan="2"><a id="acorient_r0002"></a>Term Name acorient:r0002</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -229,7 +241,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>view of the side away from the head or towards the rear end of the organism</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000056">http://purl.obolibrary.org/obo/BSPO_0000056</a></td>
 		</tr>
 		<tr>
@@ -250,7 +262,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acorient_r0003"></a>Term Name  acorient:r0003</th>
+			<th colspan="2"><a id="acorient_r0003"></a>Term Name acorient:r0003</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -275,7 +287,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>view of the side perpendicular to the main axis of the organism</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000066">http://purl.obolibrary.org/obo/BSPO_0000066</a></td>
 		</tr>
 		<tr>
@@ -296,7 +308,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acorient_r0004"></a>Term Name  acorient:r0004</th>
+			<th colspan="2"><a id="acorient_r0004"></a>Term Name acorient:r0004</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -321,7 +333,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>view of the right side of a whole bilaterally symmetric organism</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000007">http://purl.obolibrary.org/obo/BSPO_0000007</a></td>
 		</tr>
 		<tr>
@@ -346,7 +358,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acorient_r0005"></a>Term Name  acorient:r0005</th>
+			<th colspan="2"><a id="acorient_r0005"></a>Term Name acorient:r0005</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -371,7 +383,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>view of the left side of a whole bilaterally symmetric organism</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000000">http://purl.obolibrary.org/obo/BSPO_0000000</a></td>
 		</tr>
 		<tr>
@@ -396,7 +408,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acorient_r0006"></a>Term Name  acorient:r0006</th>
+			<th colspan="2"><a id="acorient_r0006"></a>Term Name acorient:r0006</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -421,7 +433,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>view of the side dorsal to the frontal plane of a bilaterally symmetric organism</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000063">http://purl.obolibrary.org/obo/BSPO_0000063</a></td>
 		</tr>
 		<tr>
@@ -442,7 +454,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acorient_r0007"></a>Term Name  acorient:r0007</th>
+			<th colspan="2"><a id="acorient_r0007"></a>Term Name acorient:r0007</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -467,7 +479,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>view of the side ventral to the frontal plane of a bilaterally symmetric organism</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000068">http://purl.obolibrary.org/obo/BSPO_0000068</a></td>
 		</tr>
 		<tr>
@@ -488,7 +500,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acorient_r0008"></a>Term Name  acorient:r0008</th>
+			<th colspan="2"><a id="acorient_r0008"></a>Term Name acorient:r0008</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -513,7 +525,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>view of the side of the part oriented toward the central axis of a plant (adaxial)</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/PATO_0002047">http://purl.obolibrary.org/obo/PATO_0002047</a></td>
 		</tr>
 		<tr>
@@ -542,7 +554,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acorient_r0009"></a>Term Name  acorient:r0009</th>
+			<th colspan="2"><a id="acorient_r0009"></a>Term Name acorient:r0009</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -567,7 +579,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>view of the side of the part oriented away from the central axis of a plant (abaxial)</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/PATO_0002046">http://purl.obolibrary.org/obo/PATO_0002046</a></td>
 		</tr>
 		<tr>
@@ -596,7 +608,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acorient_r0010"></a>Term Name  acorient:r0010</th>
+			<th colspan="2"><a id="acorient_r0010"></a>Term Name acorient:r0010</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -621,7 +633,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>view of the side of the part oriented towards the end of the axis away from its attachment point (the apex)</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000057">http://purl.obolibrary.org/obo/BSPO_0000057</a></td>
 		</tr>
 		<tr>
@@ -642,7 +654,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acorient_r0011"></a>Term Name  acorient:r0011</th>
+			<th colspan="2"><a id="acorient_r0011"></a>Term Name acorient:r0011</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -667,7 +679,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>view of the side of the part oriented towards the attachment point of the axis</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/BSPO_0000058">http://purl.obolibrary.org/obo/BSPO_0000058</a></td>
 		</tr>
 		<tr>
@@ -688,7 +700,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acorient_r0012"></a>Term Name  acorient:r0012</th>
+			<th colspan="2"><a id="acorient_r0012"></a>Term Name acorient:r0012</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -713,7 +725,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>view of the side of the organism oriented towards the oral opening</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/BSPO_0015201">http://purl.obolibrary.org/obo/BSPO_0015201</a></td>
 		</tr>
 		<tr>
@@ -734,7 +746,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acorient_r0013"></a>Term Name  acorient:r0013</th>
+			<th colspan="2"><a id="acorient_r0013"></a>Term Name acorient:r0013</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -759,7 +771,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>view of the side of the organism oriented away from the oral opening</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/BSPO_0015202">http://purl.obolibrary.org/obo/BSPO_0015202</a></td>
 		</tr>
 		<tr>

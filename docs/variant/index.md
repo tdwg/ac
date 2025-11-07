@@ -1,31 +1,43 @@
 # Controlled Vocabulary for Audiovisual Core variant: List of Terms
 
-**Title:** Controlled Vocabulary for Audiovisual Core variant: List of Terms
+Title
+: Controlled Vocabulary for Audiovisual Core variant: List of Terms
 
-**Namespace URI:** http://rs.tdwg.org/acvariant/values/
+Namespace IRI
+: <http://rs.tdwg.org/acvariant/values/>
 
-**Preferred namespace abbreviation:** acvariant:
+Preferred namespace abbreviation
+: acvariant:
 
-**Date version issued:** 2023-02-24
+Date version issued
+: 2023-02-24
 
-**Date created:** 2020-10-13
+Date created
+: 2020-10-13
 
-**Part of TDWG Standard:** http://www.tdwg.org/standards/638
+Part of TDWG Standard
+: <http://www.tdwg.org/standards/638>
 
-**This version:** http://rs.tdwg.org/ac/doc/variant/2023-02-24
+This version
+: <http://rs.tdwg.org/ac/doc/variant/2023-02-24>
 
-**Latest version:** http://rs.tdwg.org/ac/doc/variant/
+Latest version
+: <http://rs.tdwg.org/ac/doc/variant/>
 
-**Previous version:** <http://rs.tdwg.org/ac/doc/variant/2020-10-13>
+Previous version
+: <http://rs.tdwg.org/ac/doc/variant/2020-10-13>
 
-**Abstract:** Audiovisual Core uses the terms `ac:variant` and `ac:variantLiteral` to provide information about the size, extent, and availability of the Service Access Point of a media item. This controlled vocabulary provides values for those terms. 
+Abstract
+: Audiovisual Core uses the terms ac:variant and ac:variantLiteral to provide information about the size, extent, and availability of the Service Access Point of a media item. This controlled vocabulary provides values for those terms.
 
-**Contributors:** Steven J Baskauf (Vanderbilt University Heard Libraries), Ed Baker (Natural History Museum, London), Dan Stowell (Queen Mary University of London / Alan Turing Institute)
+Contributors
+: [Steven J Baskauf](https://orcid.org/0000-0003-4365-3135) ([Vanderbilt University Heard Libraries](http://www.wikidata.org/entity/Q16849893)), [Ed Baker](https://orcid.org/0000-0002-5887-9543) ([Natural History Museum, London](http://www.wikidata.org/entity/Q309388)), [Dan Stowell](https://orcid.org/0000-0001-8068-3769) ([Queen Mary University of London / Alan Turing Institute](http://www.wikidata.org/entity/Q195668))
 
-**Creator:** TDWG Audiovisual Core Maintenance Group
+Creator
+: TDWG Audiovisual Core Maintenance Group
 
-**Bibliographic citation:** Audiovisual Core Maintenance Group. 2023. Controlled Vocabulary for Audiovisual Core variant: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/variant/2023-02-24>
-
+Bibliographic citation
+: TDWG Audiovisual Core Maintenance Group. 2023. Controlled Vocabulary for Audiovisual Core variant: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/variant/2023-02-24>
 
 ## 1 Introduction (informative)
 
@@ -57,6 +69,7 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 ## 3 Term index
 
 
+
 [Best Quality](#acvariant_v006) |
 [Good Quality](#acvariant_v005) |
 [Lower Quality](#acvariant_v003) |
@@ -64,14 +77,14 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 [Offline](#acvariant_v007) |
 [Thumbnail](#acvariant_v001) |
 [Trailer](#acvariant_v002) |
-[Visual](#acvariant_v008) |
-[variant concept scheme](#acvariant_v) 
+[variant concept scheme](#acvariant_v) |
+[Visual](#acvariant_v008)
 
 ## 4 Vocabulary
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acvariant_v"></a>Term Name  acvariant:v</th>
+			<th colspan="2"><a id="acvariant_v"></a>Term Name acvariant:v</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -109,7 +122,7 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acvariant_v001"></a>Term Name  acvariant:v001</th>
+			<th colspan="2"><a id="acvariant_v001"></a>Term Name acvariant:v001</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -155,7 +168,7 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acvariant_v002"></a>Term Name  acvariant:v002</th>
+			<th colspan="2"><a id="acvariant_v002"></a>Term Name acvariant:v002</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -197,7 +210,7 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acvariant_v003"></a>Term Name  acvariant:v003</th>
+			<th colspan="2"><a id="acvariant_v003"></a>Term Name acvariant:v003</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -243,7 +256,7 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acvariant_v004"></a>Term Name  acvariant:v004</th>
+			<th colspan="2"><a id="acvariant_v004"></a>Term Name acvariant:v004</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -289,7 +302,7 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acvariant_v005"></a>Term Name  acvariant:v005</th>
+			<th colspan="2"><a id="acvariant_v005"></a>Term Name acvariant:v005</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -335,7 +348,7 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acvariant_v006"></a>Term Name  acvariant:v006</th>
+			<th colspan="2"><a id="acvariant_v006"></a>Term Name acvariant:v006</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -377,7 +390,7 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acvariant_v007"></a>Term Name  acvariant:v007</th>
+			<th colspan="2"><a id="acvariant_v007"></a>Term Name acvariant:v007</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -419,7 +432,7 @@ An IRI for a term in this vocabulary denotes the same concept as the concept den
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acvariant_v008"></a>Term Name  acvariant:v008</th>
+			<th colspan="2"><a id="acvariant_v008"></a>Term Name acvariant:v008</th>
 		</tr>
 	</thead>
 	<tbody>

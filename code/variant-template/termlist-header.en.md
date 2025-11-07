@@ -1,35 +1,42 @@
----
-permalink: /variant/
----
+# {document_title}
 
-# Controlled Vocabulary for Audiovisual Core variant: List of Terms
+Title
+: {document_title}
 
-**Title:** Controlled Vocabulary for Audiovisual Core variant: List of Terms
+Namespace IRI
+: <http://rs.tdwg.org/acvariant/values/>
 
-**Namespace URI:** http://rs.tdwg.org/acvariant/values/
+Preferred namespace abbreviation
+: acvariant:
 
-**Preferred namespace abbreviation:** acvariant:
+Date version issued
+: {ratification_date}
 
-**Date version issued:** 2023-02-24
+Date created
+: {created_date}
 
-**Date created:** 2020-10-13
+Part of TDWG Standard
+: <{standard_iri}>
 
-**Part of TDWG Standard:** http://www.tdwg.org/standards/638
+This version
+: <{current_iri}{ratification_date}>
 
-**This version:** http://rs.tdwg.org/ac/doc/variant/2023-02-24
+Latest version
+: <{current_iri}>
 
-**Latest version:** http://rs.tdwg.org/ac/doc/variant/
+{previous_version_slot}
 
-**Previous version:** <http://rs.tdwg.org/ac/doc/variant/2020-10-13>
+Abstract
+: {abstract}
 
-**Abstract:** Audiovisual Core uses the terms `ac:variant` and `ac:variantLiteral` to provide information about the size, extent, and availability of the Service Access Point of a media item. This controlled vocabulary provides values for those terms. 
+Contributors
+: {contributors}
 
-**Contributors:** Steven J Baskauf (Vanderbilt University Heard Libraries), Ed Baker (Natural History Museum, London), Dan Stowell (Queen Mary University of London / Alan Turing Institute)
+Creator
+: {creator}
 
-**Creator:** TDWG Audiovisual Core Maintenance Group
-
-**Bibliographic citation:** Audiovisual Core Maintenance Group. 2023. Controlled Vocabulary for Audiovisual Core variant: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/variant/2023-02-24>
-
+Bibliographic citation
+: {creator}. {year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
 
 ## 1 Introduction (informative)
 

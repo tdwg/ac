@@ -1,29 +1,40 @@
 # Controlled Vocabulary for Audiovisual Core subjectPart: List of Terms
 
-**Title:** Controlled Vocabulary for Audiovisual Core subjectPart: List of Terms
+Title
+: Controlled Vocabulary for Audiovisual Core subjectPart: List of Terms
 
-**Namespace URI:** http://rs.tdwg.org/acpart/values/
+Namespace IRI
+: <http://rs.tdwg.org/acpart/values/>
 
-**Preferred namespace abbreviation:** acpart:
+Preferred namespace abbreviation
+: acpart:
 
-**Date version issued:** 2023-04-26
+Date version issued
+: 2023-04-26
 
-**Date created:** 2023-04-26
+Date created
+: 2023-04-26
 
-**Part of TDWG Standard:** http://www.tdwg.org/standards/638
+Part of TDWG Standard
+: <http://www.tdwg.org/standards/638>
 
-**This version:** http://rs.tdwg.org/ac/doc/part/2023-04-26
+This version
+: <http://rs.tdwg.org/ac/doc/part/2023-04-26>
 
-**Latest version:** http://rs.tdwg.org/ac/doc/part/
+Latest version
+: <http://rs.tdwg.org/ac/doc/part/>
 
-**Abstract:** The Audiovisual Core term `subjectPart` describes the part of an organism morphology, behaviour, environment depicted in a media item or region of interest. The subjectPart Controlled Vocabulary provides terms that should be used as values for `ac:subjectPart` and its literal-valued analog `ac:subjectPartLiteral`. 
+Abstract
+: The Audiovisual Core term subjectPart describes the part of an organism morphology, behaviour, environment depicted in a media item or region of interest. The subjectPart Controlled Vocabulary provides terms that should be used as values for ac:subjectPart and its literal-valued analog ac:subjectPartLiteral.
 
-**Contributors:** Steven J. Baskauf (Vanderbilt University Libraries), Neil S. Cobb (Merriam-Powell Center for Environmental Research, Northern Arizona University), Jennifer C. Girón Duque (Natural Science Research Laboratory, Museum of Texas Tech University), Matthew Nielsen (University of Oulu), Mervin E. Pérez (Universidad de San Carlos de Guatemala), Randy Singer (University of Michigan), Anna M. L. Klompen (University of Kansas)
+Contributors
+: [Steven J. Baskauf](https://orcid.org/0000-0003-4365-3135) ([Vanderbilt University Libraries, Nashville, TN, USA](http://www.wikidata.org/entity/Q16849893)), [Neil S. Cobb](https://orcid.org/0000-0002-6155-9444) ([Merriam-Powell Center for Environmental Research, Northern Arizona University, Flagstaff, AZ, USA](http://www.wikidata.org/entity/Q139901)), [Jennifer C. Girón Duque](https://orcid.org/0000-0002-0851-6883) ([Natural Science Research Laboratory, Museum of Texas Tech University, Lubbock, TX, USA](http://www.wikidata.org/entity/Q6941030)), [Matthew Nielsen](https://orcid.org/0000-0002-0388-1187) ([University of Oulu, Oulu, Finland](http://www.wikidata.org/entity/Q1357517)), [Mervin E. Pérez](https://orcid.org/0000-0003-4277-8948) ([Universidad de San Carlos de Guatemala, Guatemala City, Guatemala](http://www.wikidata.org/entity/Q607331)), [Randy Singer](https://orcid.org/0000-0003-2440-7625) ([University of Michigan, Ann Arbor, MI, USA](http://www.wikidata.org/entity/Q230492)), [Anna M. L. Klompen](https://orcid.org/0000-0001-8939-0057) ([University of Kansas, Lawrence, KS, USA](http://www.wikidata.org/entity/Q52413))
 
-**Creator:** TDWG Views Controlled Vocabularies Task Group
+Creator
+: TDWG Views Controlled Vocabularies Task Group
 
-**Bibliographic citation:** Views Controlled Vocabularies Task Group. 2023. Controlled Vocabulary for Audiovisual Core subjectPart: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/part/2023-04-26>
-
+Bibliographic citation
+: TDWG Views Controlled Vocabularies Task Group. 2023. Controlled Vocabulary for Audiovisual Core subjectPart: List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/part/2023-04-26>
 
 ## 1 Introduction (informative)
 
@@ -62,6 +73,7 @@ Neither of these Collections are normative and they are maintained outside of th
 ## 3 Term index
 
 
+
 [abdomen](#acpart_p0015) |
 [antenna](#acpart_p0018) |
 [bark](#acpart_p0002) |
@@ -95,13 +107,13 @@ Neither of these Collections are normative and they are maintained outside of th
 [thorax](#acpart_p0014) |
 [twig](#acpart_p0003) |
 [unspecified part](#acpart_p0000) |
-[wing](#acpart_p0017) 
+[wing](#acpart_p0017)
 
 ## 4 Vocabulary
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p"></a>Term Name  acpart:p</th>
+			<th colspan="2"><a id="acpart_p"></a>Term Name acpart:p</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -135,7 +147,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0000"></a>Term Name  acpart:p0000</th>
+			<th colspan="2"><a id="acpart_p0000"></a>Term Name acpart:p0000</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -177,7 +189,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0001"></a>Term Name  acpart:p0001</th>
+			<th colspan="2"><a id="acpart_p0001"></a>Term Name acpart:p0001</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -202,7 +214,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>An entire multicellular organism</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/CARO_0000012">http://purl.obolibrary.org/obo/CARO_0000012</a></td>
 		</tr>
 		<tr>
@@ -227,7 +239,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0002"></a>Term Name  acpart:p0002</th>
+			<th colspan="2"><a id="acpart_p0002"></a>Term Name acpart:p0002</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -252,7 +264,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Plant tissue outside the vascular cambium</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0004518">http://purl.obolibrary.org/obo/PO_0004518</a></td>
 		</tr>
 		<tr>
@@ -277,7 +289,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0003"></a>Term Name  acpart:p0003</th>
+			<th colspan="2"><a id="acpart_p0003"></a>Term Name acpart:p0003</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -302,7 +314,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Plant shoot axis developed from axillary buds</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0025073">http://purl.obolibrary.org/obo/PO_0025073</a></td>
 		</tr>
 		<tr>
@@ -327,7 +339,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0004"></a>Term Name  acpart:p0004</th>
+			<th colspan="2"><a id="acpart_p0004"></a>Term Name acpart:p0004</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -352,7 +364,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Plant shoot axis that defines the primary axis</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0009047">http://purl.obolibrary.org/obo/PO_0009047</a></td>
 		</tr>
 		<tr>
@@ -377,7 +389,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0005"></a>Term Name  acpart:p0005</th>
+			<th colspan="2"><a id="acpart_p0005"></a>Term Name acpart:p0005</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -402,7 +414,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Plant non-reproductive phyllome</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0025034">http://purl.obolibrary.org/obo/PO_0025034</a></td>
 		</tr>
 		<tr>
@@ -427,7 +439,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0006"></a>Term Name  acpart:p0006</th>
+			<th colspan="2"><a id="acpart_p0006"></a>Term Name acpart:p0006</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -452,7 +464,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Plant reproductive system consisting of sporophylls</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0025083">http://purl.obolibrary.org/obo/PO_0025083</a></td>
 		</tr>
 		<tr>
@@ -477,7 +489,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0007"></a>Term Name  acpart:p0007</th>
+			<th colspan="2"><a id="acpart_p0007"></a>Term Name acpart:p0007</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -502,7 +514,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Plant reproductive shoot system containing flowers</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0009049">http://purl.obolibrary.org/obo/PO_0009049</a></td>
 		</tr>
 		<tr>
@@ -527,7 +539,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0008"></a>Term Name  acpart:p0008</th>
+			<th colspan="2"><a id="acpart_p0008"></a>Term Name acpart:p0008</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -552,7 +564,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Plant structure developing from a flower</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0009001">http://purl.obolibrary.org/obo/PO_0009001</a></td>
 		</tr>
 		<tr>
@@ -577,7 +589,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0009"></a>Term Name  acpart:p0009</th>
+			<th colspan="2"><a id="acpart_p0009"></a>Term Name acpart:p0009</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -602,7 +614,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Plant structure containing dormant embryo</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0009010">http://purl.obolibrary.org/obo/PO_0009010</a></td>
 		</tr>
 		<tr>
@@ -627,7 +639,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0010"></a>Term Name  acpart:p0010</th>
+			<th colspan="2"><a id="acpart_p0010"></a>Term Name acpart:p0010</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -652,7 +664,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Plant strobilis bearing pollen</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0005031">http://purl.obolibrary.org/obo/PO_0005031</a></td>
 		</tr>
 		<tr>
@@ -681,7 +693,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0011"></a>Term Name  acpart:p0011</th>
+			<th colspan="2"><a id="acpart_p0011"></a>Term Name acpart:p0011</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -706,7 +718,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Plant strobilis bearing ovules</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0005032">http://purl.obolibrary.org/obo/PO_0005032</a></td>
 		</tr>
 		<tr>
@@ -735,7 +747,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0012"></a>Term Name  acpart:p0012</th>
+			<th colspan="2"><a id="acpart_p0012"></a>Term Name acpart:p0012</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -760,7 +772,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Plant reproductive shoot system containing a carpel</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0009046">http://purl.obolibrary.org/obo/PO_0009046</a></td>
 		</tr>
 		<tr>
@@ -789,7 +801,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0013"></a>Term Name  acpart:p0013</th>
+			<th colspan="2"><a id="acpart_p0013"></a>Term Name acpart:p0013</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -814,7 +826,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Anterior-most division of the body</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0000033">http://purl.obolibrary.org/obo/UBERON_0000033</a></td>
 		</tr>
 		<tr>
@@ -839,7 +851,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0014"></a>Term Name  acpart:p0014</th>
+			<th colspan="2"><a id="acpart_p0014"></a>Term Name acpart:p0014</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -864,7 +876,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>The middle division of the insect body bearing locomotor appendages</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_6000015">http://purl.obolibrary.org/obo/UBERON_6000015</a></td>
 		</tr>
 		<tr>
@@ -889,7 +901,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0015"></a>Term Name  acpart:p0015</th>
+			<th colspan="2"><a id="acpart_p0015"></a>Term Name acpart:p0015</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -914,7 +926,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>The posterior-most division of the insect body</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_6000020">http://purl.obolibrary.org/obo/UBERON_6000020</a></td>
 		</tr>
 		<tr>
@@ -939,7 +951,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0016"></a>Term Name  acpart:p0016</th>
+			<th colspan="2"><a id="acpart_p0016"></a>Term Name acpart:p0016</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -964,7 +976,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Walking appendage</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0002101">http://purl.obolibrary.org/obo/UBERON_0002101</a></td>
 		</tr>
 		<tr>
@@ -989,7 +1001,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0017"></a>Term Name  acpart:p0017</th>
+			<th colspan="2"><a id="acpart_p0017"></a>Term Name acpart:p0017</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1014,7 +1026,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Appendage that is shaped in order to produce lift for flight through the air</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0000023">http://purl.obolibrary.org/obo/UBERON_0000023</a></td>
 		</tr>
 		<tr>
@@ -1039,7 +1051,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0018"></a>Term Name  acpart:p0018</th>
+			<th colspan="2"><a id="acpart_p0018"></a>Term Name acpart:p0018</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1064,7 +1076,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>The paired, usually multiple jointed, sensory organs on the head</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0000972">http://purl.obolibrary.org/obo/UBERON_0000972</a></td>
 		</tr>
 		<tr>
@@ -1089,7 +1101,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0019"></a>Term Name  acpart:p0019</th>
+			<th colspan="2"><a id="acpart_p0019"></a>Term Name acpart:p0019</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1114,7 +1126,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>The paired insect wing that is continuous with the mesonotum</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/AISM_0000037">http://purl.obolibrary.org/obo/AISM_0000037</a></td>
 		</tr>
 		<tr>
@@ -1143,7 +1155,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0020"></a>Term Name  acpart:p0020</th>
+			<th colspan="2"><a id="acpart_p0020"></a>Term Name acpart:p0020</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1168,7 +1180,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>The paired insect wing that is continuous with the metanotum</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/AISM_0000038">http://purl.obolibrary.org/obo/AISM_0000038</a></td>
 		</tr>
 		<tr>
@@ -1197,7 +1209,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0021"></a>Term Name  acpart:p0021</th>
+			<th colspan="2"><a id="acpart_p0021"></a>Term Name acpart:p0021</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1222,7 +1234,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Leg of the prothoracic segment</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_6004663">http://purl.obolibrary.org/obo/UBERON_6004663</a></td>
 		</tr>
 		<tr>
@@ -1251,7 +1263,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0022"></a>Term Name  acpart:p0022</th>
+			<th colspan="2"><a id="acpart_p0022"></a>Term Name acpart:p0022</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1276,7 +1288,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Leg of the mesothoracic segment</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/FBbt_00004685">http://purl.obolibrary.org/obo/FBbt_00004685</a></td>
 		</tr>
 		<tr>
@@ -1305,7 +1317,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0023"></a>Term Name  acpart:p0023</th>
+			<th colspan="2"><a id="acpart_p0023"></a>Term Name acpart:p0023</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1330,7 +1342,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Leg of the metathoracic segment</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/FBbt_00004707">http://purl.obolibrary.org/obo/FBbt_00004707</a></td>
 		</tr>
 		<tr>
@@ -1359,7 +1371,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0024"></a>Term Name  acpart:p0024</th>
+			<th colspan="2"><a id="acpart_p0024"></a>Term Name acpart:p0024</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1384,7 +1396,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>An organ that detects light</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0000970">http://purl.obolibrary.org/obo/UBERON_0000970</a></td>
 		</tr>
 		<tr>
@@ -1409,7 +1421,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0025"></a>Term Name  acpart:p0025</th>
+			<th colspan="2"><a id="acpart_p0025"></a>Term Name acpart:p0025</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1434,7 +1446,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>A rigid covering that envelops an object</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0006612">http://purl.obolibrary.org/obo/UBERON_0006612</a></td>
 		</tr>
 		<tr>
@@ -1459,7 +1471,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0026"></a>Term Name  acpart:p0026</th>
+			<th colspan="2"><a id="acpart_p0026"></a>Term Name acpart:p0026</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1484,7 +1496,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>The outer sex organs</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0004176">http://purl.obolibrary.org/obo/UBERON_0004176</a></td>
 		</tr>
 		<tr>
@@ -1509,7 +1521,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0027"></a>Term Name  acpart:p0027</th>
+			<th colspan="2"><a id="acpart_p0027"></a>Term Name acpart:p0027</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1534,7 +1546,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>The part of the head consisting entirely of cranium and mandible</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0003129">http://purl.obolibrary.org/obo/UBERON_0003129</a></td>
 		</tr>
 		<tr>
@@ -1559,7 +1571,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0028"></a>Term Name  acpart:p0028</th>
+			<th colspan="2"><a id="acpart_p0028"></a>Term Name acpart:p0028</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1584,7 +1596,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>Upper portion of the skull</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0003128">http://purl.obolibrary.org/obo/UBERON_0003128</a></td>
 		</tr>
 		<tr>
@@ -1613,7 +1625,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0029"></a>Term Name  acpart:p0029</th>
+			<th colspan="2"><a id="acpart_p0029"></a>Term Name acpart:p0029</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1638,7 +1650,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>A dentary bone that is the only bone in one of the lateral halves of the lower jaw</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0001684">http://purl.obolibrary.org/obo/UBERON_0001684</a></td>
 		</tr>
 		<tr>
@@ -1667,7 +1679,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0030"></a>Term Name  acpart:p0030</th>
+			<th colspan="2"><a id="acpart_p0030"></a>Term Name acpart:p0030</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1692,7 +1704,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>An external projection of an aquatic animal used in propelling or guiding the body</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0008897">http://purl.obolibrary.org/obo/UBERON_0008897</a></td>
 		</tr>
 		<tr>
@@ -1717,7 +1729,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0031"></a>Term Name  acpart:p0031</th>
+			<th colspan="2"><a id="acpart_p0031"></a>Term Name acpart:p0031</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1742,7 +1754,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>The hard-shelled reproductive body produced by an animal</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/UBERON_0007379">http://purl.obolibrary.org/obo/UBERON_0007379</a></td>
 		</tr>
 		<tr>
@@ -1767,7 +1779,7 @@ Neither of these Collections are normative and they are maintained outside of th
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="acpart_p0032"></a>Term Name  acpart:p0032</th>
+			<th colspan="2"><a id="acpart_p0032"></a>Term Name acpart:p0032</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -1792,7 +1804,7 @@ Neither of these Collections are normative and they are maintained outside of th
 			<td>An undeveloped shoot system</td>
 		</tr>
 		<tr>
-			<td>Definition derived from:</td>
+			<td>Definition derived from</td>
 			<td><a href="http://purl.obolibrary.org/obo/PO_0000055">http://purl.obolibrary.org/obo/PO_0000055</a></td>
 		</tr>
 		<tr>
