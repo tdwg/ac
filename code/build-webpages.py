@@ -2,11 +2,18 @@
 # Steve Baskauf 2020-08-12 CC0
 # updated 2021-02-11
 # Updated by Matthew Blissett 2025-03.
+# Modified by Steve Baskauf on 2025-11-05 from the Darwin Core webpage build script at https://github.com/tdwg/dwc/blob/b13e56eb337c51c54dee59ff17152d8bcba5bac1/build/build-webpages.py
+
 # This script merges static Markdown header documents with term information tables (in Markdown) generated from data in the rs.tdwg.org repo from the TDWG Github site
+# It replaces the previous build scripts at https://github.com/tdwg/ac/tree/56884de53008f195b07207cb5631cf6c754d5de1/code and 
+# incorporates some code from https://github.com/tdwg/ac/blob/56884de53008f195b07207cb5631cf6c754d5de1/code/build_page.py ,
+# https://github.com/tdwg/ac/blob/56884de53008f195b07207cb5631cf6c754d5de1/code/build_subtype_cv/build-page-simple.ipynb , and
+# some of the other idiosyncratic controlled vocabulary build scripts in that commit.
 
 import re
 import json       # library to convert JSON to Python data structures
 import os
+import sys
 import pandas as pd
 
 from jinja2 import FileSystemLoader, Environment
@@ -17,6 +24,30 @@ import dwcterms
 # Configuration section
 # -----------------
 languages = ['en']
+
+# -----------------
+# Command line arguments
+# -----------------
+
+arg_vals = sys.argv[1:]
+opts = [opt for opt in arg_vals if opt.startswith('-')]
+args = [arg for arg in arg_vals if not arg.startswith('-')]
+
+# "master" for production, something else for development
+if '--branch' in opts:
+    github_branch = args[opts.index('--branch')]
+else:
+    github_branch = 'master'
+
+if '--rspath' in opts:
+    local_path_to_rs = args[opts.index('--rspath')]
+else:
+    local_path_to_rs = None
+
+
+# -----------------
+# Classes
+# -----------------
 
 class TermList:
     def __init__(self, terms, vocabType, organizedInCategories, displayOrder, displayLabel, displayComments, displayId):
@@ -591,6 +622,9 @@ class TermList:
         template_data.append(class_group)
         return template_data
 
+# -----------------
+# Functions
+# -----------------
 
 def generate_all_markdown(termList, path, locales, index_section_number):
     """
@@ -643,12 +677,19 @@ def retrieve_databases_for_vocabulary(vocabulary_iri):
     # Return the database column as a list (coerced from a Series).
     return term_lists_df.loc[matching_members, 'database'].tolist()
 
+# -----------------
+# Main routine
+# -----------------
 
 # List of Terms for the main vocabulary
-ac = dwcterms.DwcTerms(
-    termLists = retrieve_databases_for_vocabulary('http://rs.tdwg.org/ac/'),
-    docMetadataFilePath = 'ac_doc_termlist/')
+document_iri = 'http://rs.tdwg.org/ac/doc/terms/'
+databases = retrieve_databases_for_vocabulary('http://rs.tdwg.org/ac/')
 
+ac = dwcterms.DwcTerms(
+    termLists = databases,
+    docMetadataFilePath = 'ac_doc_termlist/',
+    rsPath = local_path_to_rs,
+    githubBranch = github_branch)
 ac_list = TermList(
     terms = ac,
     vocabType = 1,
@@ -712,7 +753,9 @@ generate_all_markdown(ac_list, 'termlist', languages, index_section_number)
 # Variant Vocabulary
 variant = dwcterms.DwcTerms(
     termLists = ['acvariant'],
-    docMetadataFilePath = 'ac_doc_variant/')
+    docMetadataFilePath = 'ac_doc_variant/',
+    rsPath = local_path_to_rs,
+    githubBranch = github_branch)
 variant_list = TermList(
     terms = variant,
     vocabType = 2,
@@ -732,7 +775,9 @@ generate_all_markdown(variant_list, 'variant', languages, index_section_number)
 # Subtype Vocabulary
 subtype = dwcterms.DwcTerms(
     termLists = ['acsubtype'],
-    docMetadataFilePath = 'ac_doc_subtype/')
+    docMetadataFilePath = 'ac_doc_subtype/',
+    rsPath = local_path_to_rs,
+    githubBranch = github_branch)
 subtype_list = TermList(
     terms = subtype,
     vocabType = 2,
@@ -752,7 +797,9 @@ generate_all_markdown(subtype_list, 'subtype', languages, index_section_number)
 # Format Vocabulary
 format = dwcterms.DwcTerms(
     termLists = ['format'],
-    docMetadataFilePath = 'ac_doc_format/')
+    docMetadataFilePath = 'ac_doc_format/',
+    rsPath = local_path_to_rs,
+    githubBranch = github_branch)
 format_list = TermList(
     terms = format,
     vocabType = 3,
@@ -772,7 +819,9 @@ generate_all_markdown(format_list, 'format', languages, index_section_number)
 # Subject Part Vocabulary
 subjectPart = dwcterms.DwcTerms(
     termLists = ['acpart'],
-    docMetadataFilePath = 'ac_doc_part/')
+    docMetadataFilePath = 'ac_doc_part/',
+    rsPath = local_path_to_rs,
+    githubBranch = github_branch)
 subjectPart_list = TermList(
     terms = subjectPart,
     vocabType = 3,
@@ -793,7 +842,9 @@ generate_all_markdown(subjectPart_list, 'part', languages, index_section_number)
 # Subject Orientation Vocabulary
 subjectOrientation = dwcterms.DwcTerms(
     termLists = ['acorient'],
-    docMetadataFilePath = 'ac_doc_orient/')
+    docMetadataFilePath = 'ac_doc_orient/',
+    rsPath = local_path_to_rs,
+    githubBranch = github_branch)
 subjectOrientation_list = TermList(
     terms = subjectOrientation,
     vocabType = 3,
