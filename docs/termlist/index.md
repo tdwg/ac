@@ -8300,3 +8300,56 @@ Currently spatial ROIs are limited to two dimensions and can only be defined by 
 </table>
 
 
+### 7.12 Digital 3D Resource Vocabulary
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="ac_Digital3DResource"></a>Term Name ac:Digital3DResource</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/Digital3DResource">http://rs.tdwg.org/ac/terms/Digital3DResource</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2025-09-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/Digital3DResource-2025-09-01">http://rs.tdwg.org/ac/terms/version/Digital3DResource-2025-09-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Digital 3D Resource</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> </td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>One or more binary files primarily intended to hold information about the three-dimensional geometry (surface or volume) of a real or non-real object, set of objects, or scene.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>The term IRI should be used as a value for dcterms:type (<a href="http://purl.org/dc/terms/type">http://purl.org/dc/terms/type</a>). The controlled value string should be used as a value for dc:type (<a href="http://purl.org/dc/elements/1.1/type">http://purl.org/dc/elements/1.1/type</a>).</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Such files can be used by software to digitally render views of the subject, make measurements, conduct analyses, and create physical 3D replicas. This term includes resources composed of one or more files that are used to compute a 3D geometry (e.g., X-ray projections for computed tomography scans or photograph sets for photogrammetry). For avoidance of doubt, 2D renderings (views) produced from a Digital3DResource should not be included in this class, but stereo image pairs, anaglyphs, and other formats that hold information about 3D geometry may be included.</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2025-09-01_52">http://rs.tdwg.org/decisions/decision-2025-09-01_52</a></td>
+		</tr>
+	</tbody>
+</table>
+
+
