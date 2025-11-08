@@ -640,7 +640,9 @@ def generate_all_markdown(termList, path, locales, index_section_number):
         headerFileName = path + '-template/termlist-header.%s.md' % locale
 
         if locale == 'en':
-            outFileName = '../docs/%s/index.md' % path
+            outFilePath = '../docs/%s' % (path)
+            os.makedirs(outFilePath, exist_ok=True)
+            outFileName = outFilePath + '/index.md'
         else:
             outFilePath = '../docs/%s/%s' % (locale, path)
             os.makedirs(outFilePath, exist_ok=True)
@@ -881,3 +883,27 @@ subjectOrientation_list = TermList(
 index_section_number = 3
 # List of Terms HTML. document_iri[19:-1].split('/')[2] gets the page slug
 generate_all_markdown(subjectOrientation_list, document_iri[19:-1].split('/')[2], languages, index_section_number)
+
+# Content Description Controlled Vocabulary
+document_iri = 'http://rs.tdwg.org/ac/doc/cd/'
+databases = retrieve_databases_for_vocabulary('http://rs.tdwg.org/accd/')
+cd = dwcterms.DwcTerms(
+    termLists = databases,
+    docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
+    rsPath = local_path_to_rs,
+    githubBranch = github_branch)
+cd_list = TermList(
+    terms = cd,
+    vocabType = 2,
+    organizedInCategories = False,
+    displayOrder = [''],
+    displayLabel = ['Vocabulary'],
+    displayComments = [''],
+    displayId = ['Vocabulary']
+)
+
+# Because different docs have a different section number for the indices, indicate it here.
+# The Vocabulary section is assumed to be the next section after the indices.
+index_section_number = 3
+# List of Terms HTML. document_iri[19:-1].split('/')[2] gets the page slug
+generate_all_markdown(cd_list, document_iri[19:-1].split('/')[2], languages, index_section_number)
