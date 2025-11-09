@@ -51,6 +51,52 @@
 <table>
 	<thead>
 		<tr>
+			<th colspan="2"><a id="ac_commentDate"></a>Term Name ac:commentDate</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/commentDate">http://rs.tdwg.org/ac/terms/commentDate</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2025-09-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/commentDate-2025-09-01">http://rs.tdwg.org/ac/terms/version/commentDate-2025-09-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Date and Time of Comment</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>The date and time that a comment was created.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>The date and time MUST comply with the World Wide Web Consortium (W3C) datetime practice, <a href="https://www.w3.org/TR/NOTE-datetime">https://www.w3.org/TR/NOTE-datetime</a>, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004, <a href="https://www.iso.org/standard/40874.html">https://www.iso.org/standard/40874.html</a>. AC datetime values MAY also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/').</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Property</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2025-09-01_52">http://rs.tdwg.org/decisions/decision-2025-09-01_52</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
 			<th colspan="2"><a id="Iptc4xmpExt_CVterm"></a>Term Name Iptc4xmpExt:CVterm</th>
 		</tr>
 	</thead>
