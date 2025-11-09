@@ -178,6 +178,59 @@
 	</tbody>
 </table>
 
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="ac_subjectCategoryVocabulary"></a>Term Name ac:subjectCategoryVocabulary</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/subjectCategoryVocabulary">http://rs.tdwg.org/ac/terms/subjectCategoryVocabulary</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2025-09-01</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/subjectCategoryVocabulary-2025-09-01">http://rs.tdwg.org/ac/terms/version/subjectCategoryVocabulary-2025-09-01</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Subject Category Vocabulary</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Any controlled vocabulary from which values for ac:CVtermLiteral have been drawn.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>The value SHOULD be a stable URL for the vocabulary if one is available.</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>If controlled string values for ac:CVtermLiteral are taken from the Audiovisual Core Subject Category controlled vocabulary, it is not necessary to provide a value for this property. If pipe separated strings are used to provide multiple values for ac:CVtermLiteral, this term MUST NOT be repeated. It MAY be repeated if data structuring allows particular ac:CVtermLiteral string values to be associated with particular values for this term.</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Property</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2019-12-01_19">http://rs.tdwg.org/decisions/decision-2019-12-01_19</a></td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2025-09-01_52">http://rs.tdwg.org/decisions/decision-2025-09-01_52</a></td>
+		</tr>
+	</tbody>
+</table>
 
 <table>
 	<thead>
@@ -270,58 +323,3 @@
 		</tr>
 	</tbody>
 </table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="ac_subjectCategoryVocabulary"></a>Term Name ac:subjectCategoryVocabulary</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://rs.tdwg.org/ac/terms/subjectCategoryVocabulary">http://rs.tdwg.org/ac/terms/subjectCategoryVocabulary</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2025-09-01</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/ac/terms/version/subjectCategoryVocabulary-2025-09-01">http://rs.tdwg.org/ac/terms/version/subjectCategoryVocabulary-2025-09-01</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Subject Category Vocabulary</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>Any controlled vocabulary from which values for ac:CVtermLiteral have been drawn.</td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td>The value SHOULD be a stable URL for the vocabulary if one is available.</td>
-		</tr>
-		<tr>
-			<td>Notes</td>
-			<td>If controlled string values for ac:CVtermLiteral are taken from the Audiovisual Core Subject Category controlled vocabulary, it is not necessary to provide a value for this property. If pipe separated strings are used to provide multiple values for ac:CVtermLiteral, this term MUST NOT be repeated. It MAY be repeated if data structuring allows particular ac:CVtermLiteral string values to be associated with particular values for this term.</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Property</td>
-		</tr>
-		<tr>
-			<td>Executive Committee decision</td>
-			<td><a href="http://rs.tdwg.org/decisions/decision-2019-12-01_19">http://rs.tdwg.org/decisions/decision-2019-12-01_19</a></td>
-		</tr>
-		<tr>
-			<td>Executive Committee decision</td>
-			<td><a href="http://rs.tdwg.org/decisions/decision-2025-09-01_52">http://rs.tdwg.org/decisions/decision-2025-09-01_52</a></td>
-		</tr>
-	</tbody>
-</table>
-
