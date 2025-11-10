@@ -1,37 +1,36 @@
-# Audiovisual Core Structure
+# {document_title}
 
 Title
-: Audiovisual Core Structure
+: {document_title}
 
 Date version issued
-: 2023-02-24
+: {ratification_date}
 
 Date created
-: 2013-10-23
+: {created_date}
 
 Part of TDWG Standard
-: <http://www.tdwg.org/standards/638>
+: <{standard_iri}>
 
 This version
-: <http://rs.tdwg.org/ac/doc/structure/2023-02-24>
+: <{current_iri}{ratification_date}>
 
 Latest version
-: <http://rs.tdwg.org/ac/doc/structure/>
+: <{current_iri}>
 
-Previous version
-: <http://rs.tdwg.org/ac/doc/structure/2021-10-05>
+{previous_version_slot}
 
 Abstract
-: The Audiovisual Core Structure document provides guidance on how multimedia records can be serialized as XML and in tabular form. It also suggests how text list values can be separated.
+: {abstract}
 
 Contributors
-: [Robert A. Morris](https://orcid.org/0000-0002-6992-9446) ([University of Massachusetts at Boston, USA](http://www.wikidata.org/entity/Q15144)), [Vijay Barve](https://orcid.org/0000-0002-4852-2567) ([]()), [Mihail Carausu](https://orcid.org/0000-0002-8234-0599) ([Danish Biodiversity Information Facility (DanBIF), Copenhagen, Denmark](http://www.wikidata.org/entity/Q1531570)), [Vishwas Chavan](https://orcid.org/0000-0002-3425-6499) ([Global Biodiversity Information Facility, Copenhagen, Denmark](http://www.wikidata.org/entity/Q1531570)), [José Cuadra](http://www.wikidata.org/entity/Q51883873) ([]()), [Chris Freeland](https://orcid.org/0000-0002-2541-5822) ([Missouri Botanical Garden, St. Louis, USA](http://www.wikidata.org/entity/Q1852803)), [Gregor Hagedorn](https://orcid.org/0000-0001-7023-7386) ([JKI, Federal Research Institute for Cultivated Plants, Berlin, Germany](http://www.wikidata.org/entity/Q832099)), [Patrick Leary](https://orcid.org/0000-0001-5172-8577) ([]()), [Dimitry Mozzherin](https://orcid.org/0000-0003-1593-1417) ([Encyclopedia of Life, Woods Hole, USA](http://www.wikidata.org/entity/Q82486)), [Annette Olson](https://orcid.org/0000-0002-0772-0022) ([American Association for the Advancement of Science](http://www.wikidata.org/entity/Q40358)), [Greg Riccardi](https://orcid.org/0000-0002-3850-9983) ([Florida State University, Tallahassee, USA](http://www.wikidata.org/entity/Q861548)), [Ivan Teage](https://orcid.org/0000-0003-4176-2274) ([]()), [Steve Baskauf](https://orcid.org/0000-0003-4365-3135) ([Vanderbilt University, Nashville, TN, USA](http://www.wikidata.org/entity/Q29052)), [Steve Baskauf](https://orcid.org/0000-0003-4365-3135) ([Vanderbilt University, Nashville, TN, USA](http://www.wikidata.org/entity/Q29052))
+: {contributors}
 
 Creator
-: GBIF/TDWG Multimedia Resources Task Group and Audiovisual Core Maintenance Group
+: {creator}
 
 Bibliographic citation
-: GBIF/TDWG Multimedia Resources Task Group and Audiovisual Core Maintenance Group. 2023. Audiovisual Core Structure. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/structure/2023-02-24>
+: {creator}. {year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
 
 ## 1 Introduction
 
