@@ -34,13 +34,13 @@ jobs:
         with:
           python-version: 3.12
           cache: 'pip'
-          cache-dependency-path: build/requirements.txt
+          cache-dependency-path: code/requirements.txt
       - name: Install dependencies
         run: |
-          cd build && pip3 install -r requirements.txt
+          cd code && pip3 install -r requirements.txt
       - name: Create Python-generated pages
         run: |
-          cd build && python3 build-webpages.py
+          cd code && python3 build-webpages.py
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
