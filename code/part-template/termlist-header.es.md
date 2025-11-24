@@ -32,6 +32,9 @@ Abstract
 Contributors
 : {contributors}
 
+Translator
+: [Jennifer C. Girón Duque](https://orcid.org/0000-0002-0851-6883) ([Museum of Texas Tech University](http://www.wikidata.org/entity/Q6941030))
+
 Creator
 : {creator}
 

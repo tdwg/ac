@@ -32,6 +32,9 @@ Abstract
 Contributors
 : {contributors}
 
+Translator
+: [Vinicius Ferreira](https://orcid.org/0000-0001-8748-0358) ([Natural History Museum of Denmark, Zoological Museum, University of Copenhagen, Denmark](http://www.wikidata.org/entity/Q978464))
+
 Creator
 : {creator}
 
