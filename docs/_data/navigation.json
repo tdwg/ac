@@ -1,0 +1,74 @@
+[
+  {
+    "text": "Home",
+    "href": "/"
+  },
+  {
+    "text": "Introduction",
+    "href": "/introduction/"
+  },
+  {
+    "text": "Terms",
+    "menu": [
+      {
+        "text": "Main vocabulary"
+      },
+      {
+        "text": "Audiovisual Core",
+        "href": "/termlist/"
+      },
+      {
+        "text": "---"
+      },
+      {
+        "text": "Controlled vocabularies"
+      },
+      {
+        "text": "format",
+        "href": "/format/"
+      },
+      {
+        "text": "subjectOrientation",
+        "href": "/orient/"
+      },
+      {
+        "text": "subjectPart",
+        "href": "/part/"
+      },
+      {
+        "text": "subtype",
+        "href": "/subtype/"
+      },
+      {
+        "text": "variant",
+        "href": "/variant/"
+      }
+    ]
+  },
+  {
+    "text": "Guides",
+    "menu": [
+      {
+        "text": "User guide",
+        "href": "/guide/"
+      },
+      {
+        "text": "Structure",
+        "href": "/structure/"
+      }
+    ]
+  },
+  {
+    "text": "GitHub",
+    "href": "https://github.com/tdwg/ac"
+  },
+  {
+    "text": "文A",
+    "menu": [
+      {
+        "text": "English",
+        "href": "/"
+      }
+    ]
+  }
+]
