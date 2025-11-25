@@ -1,7 +1,7 @@
-# {document_title}
+# Controlled Vocabulary for Dublin Core format: List of Terms
 
 Title
-: {document_title}
+: Controlled Vocabulary for Dublin Core format: List of Terms
 
 Namespace IRI
 : <http://rs.tdwg.org/acformat/values/>
@@ -27,10 +27,13 @@ Latest version
 {previous_version_slot}
 
 Abstract
-: {abstract}
+: Audiovisual Core borrows the Dublin Core terms dc:format and dcterms:format to provide information about the physical or electronic format of a media item. This controlled vocabulary provides values for those two terms.
 
 Contributors
 : {contributors}
+
+Translators
+: [Paul Braun](https://orcid.org/0000-0002-3620-6188) ([Musée national d’histoire naturelle du Luxembourg](http://www.wikidata.org/entity/Q6974489)), [Anke Penzlin](https://orcid.org/0000-0003-2183-893X) ([Senckenberg – Leibniz Institution for Biodiversity](http://www.wikidata.org/entity/Q880568)), [Mareike Petersen](https://orcid.org/0000-0001-8666-1931) ([Museum für Naturkunde - Leibniz-Institut für Evolutions- und Biodiversitätsforschung: Berlin](http://www.wikidata.org/entity/Q233098))
 
 Creator
 : {creator}

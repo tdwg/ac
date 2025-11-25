@@ -32,9 +32,10 @@ Abstract
 Contributors
 : {contributors}
 
-CreatorTranslator
-: [translator name](https://orcid.org/) ([translator institution](http://www.wikidata.org/entity/Q))
+Translator
+: [柯智仁 (Chihjen Ko)](https://orcid.org/0000-0001-5912-1761) ([GBIF Asia Regional Support](http://www.wikidata.org/entity/Q1531570))
 
+Creator
 : {creator}
 
 Bibliographic citation

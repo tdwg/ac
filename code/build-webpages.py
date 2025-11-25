@@ -21,7 +21,7 @@ import dwcterms
 # -----------------
 # Configuration section
 # -----------------
-languages = ['en', 'es', 'pt', 'de']
+languages = ['en', 'es', 'pt', 'de', 'fr', 'ko', 'nl', 'ru', 'zh-Hant']
 
 # -----------------
 # Command line arguments

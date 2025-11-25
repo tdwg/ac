@@ -1,13 +1,13 @@
-# Controlled Vocabulary for Audiovisual Core subjectPart: List of Terms
+# Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms
 
 Title
-: Controlled Vocabulary for Audiovisual Core subjectPart: List of Terms
+: Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms
 
 Namespace IRI
-: <http://rs.tdwg.org/acpart/values/>
+: <http://rs.tdwg.org/acorient/values/>
 
 Preferred namespace abbreviation
-: acpart:
+: acorient:
 
 Date version issued
 : {ratification_date}
@@ -27,13 +27,13 @@ Latest version
 {previous_version_slot}
 
 Abstract
-: The Audiovisual Core term subjectPart describes the part of an organism morphology, behaviour, environment depicted in a media item or region of interest. The subjectPart Controlled Vocabulary provides terms that should be used as values for ac:subjectPart and its literal-valued analog ac:subjectPartLiteral.
+: The Audiovisual Core term subjectOrientation describes the viewing orientation relative to an organism or part of an organism depicted in a media item or region of interest. The subjectOrientation Controlled Vocabulary provides terms that should be used as values for ac:subjectOrientation and its literal-valued analog ac:subjectOrientationLiteral.
 
 Contributors
 : {contributors}
 
-Translators
-: [Torsten Dikow](https://orcid.org/0000-0003-4816-2909) ([Smithsonian Institution](http://www.wikidata.org/entity/Q131626)), [Laura Breitkreuz](https://orcid.org/0000-0003-4776-5011)
+Translator
+: [translator name](https://orcid.org/) ([institution name](https://www.wikidata.org/wiki/Q))
 
 Creator
 : {creator}
@@ -43,7 +43,7 @@ Bibliographic citation
 
 ## 1 Introduction (informative)
 
-This document includes terms intended to be used as controlled values for the Audiovisual Core terms `ac:subjectPart` and `ac:subjectPartLiteral`. A [JSON-LD representation](https://tdwg.github.io/rs.tdwg.org/cvJson/acpart.json) (including translations to multiple languages) of this SKOS Concept Scheme is available. For more information about how to use this vocabulary, see the [subjectPart and subjectOrientation Controlled Vocabularies User Guide](https://github.com/tdwg/ac/blob/master/views/views_user_guide.pdf).
+This document includes terms intended to be used as controlled values for the Audiovisual Core terms `ac:subjectOrientation` and `ac:subjectOrientationLiteral`. A [JSON-LD representation](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient.json) (including translations to multiple languages) of this SKOS Concept Scheme is available. For more information about how to use this vocabulary, see the [subjectPart and subjectOrientation Controlled Vocabularies User Guide](https://github.com/tdwg/ac/blob/master/views/views_user_guide.pdf).
 
 ### 1.1 Status of the content of this document
 
@@ -65,7 +65,7 @@ For perspective on the development of this [vocabulary enhancement](https://gith
 
 ### 2.1 Relationship of value types to property terms
 
-In accordance with the [Audiovisual Core Term List](http://rs.tdwg.org/ac/doc/termlist/) document, unabbreviated term IRIs MUST be used as values of the property `ac:subjectPart`. Controlled value strings SHOULD be used as values of the property `ac:subjectPartLiteral`.
+In accordance with the [Audiovisual Core Term List](http://rs.tdwg.org/ac/doc/termlist/) document, unabbreviated term IRIs MUST be used as values of the property `ac:subjectOrientation`. Controlled value strings SHOULD be used as values of the property `ac:subjectOrientationLiteral`.
 
 ### 2.2 Relationships with other concept schemes and collections (informative)
 

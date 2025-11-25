@@ -32,9 +32,10 @@ Abstract
 Contributors
 : {contributors}
 
-CreatorTranslator
-: [translator name](https://orcid.org/) ([translator institution](http://www.wikidata.org/entity/Q))
+Translator
+: [Нина В. Филиппова (Nina V. Filippova)](https://orcid.org/0000-0002-9506-0991) ([Югорский государственный университет (Yugra State University](http://www.wikidata.org/entity/Q4533707))
 
+Creator
 : {creator}
 
 Bibliographic citation

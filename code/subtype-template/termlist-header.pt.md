@@ -1,7 +1,7 @@
-# {document_title}
+# Controlled Vocabulary for Audiovisual Core subtype: List of Terms
 
 Title
-: {document_title}
+: Controlled Vocabulary for Audiovisual Core subtype: List of Terms
 
 Namespace IRI
 : <http://rs.tdwg.org/acsubtype/values/>
@@ -27,10 +27,13 @@ Latest version
 {previous_version_slot}
 
 Abstract
-: {abstract}
+: Audiovisual Core uses the terms ac:subtype and ac:subtypeLiteral to refine the type of a media item to a level more specific than the Dublin Core Type Vocabulary, http://purl.org/dc/dcmitype/. This controlled vocabulary provides values for ac:subtype and ac:subtypeLiteral.
 
 Contributors
 : {contributors}
+
+Translator
+: [translator name](https://orcid.org/) ([translator institution](http://www.wikidata.org/entity/Q))
 
 Creator
 : {creator}

@@ -32,6 +32,9 @@ Abstract
 Contributors
 : {contributors}
 
+Translator
+: [柯智仁 (Chihjen Ko)](https://orcid.org/0000-0001-5912-1761) ([GBIF Asia Regional Support](http://www.wikidata.org/entity/Q1531570))
+
 Creator
 : {creator}
 

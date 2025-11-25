@@ -32,6 +32,9 @@ Abstract
 Contributors
 : {contributors}
 
+Translator
+: [김목영 (Mokyoung Kim)](https://orcid.org/0000-0001-6690-2486) ([국립생태원 National Institute of Ecology](http://www.wikidata.org/entity/Q16094640))
+
 Creator
 : {creator}
 

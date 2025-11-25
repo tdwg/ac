@@ -32,8 +32,8 @@ Abstract
 Contributors
 : {contributors}
 
-Translators
-: [Torsten Dikow](https://orcid.org/0000-0003-4816-2909) ([Smithsonian Institution](http://www.wikidata.org/entity/Q131626)), [Laura Breitkreuz](https://orcid.org/0000-0003-4776-5011)
+Translator
+: [translator name](https://orcid.org/) ([translator institution](http://www.wikidata.org/entity/Q))
 
 Creator
 : {creator}

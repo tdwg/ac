@@ -32,6 +32,9 @@ Abstract
 Contributors
 : {contributors}
 
+Translator
+: [Jorrit H. Poelen](https://orcid.org/0000-0003-3138-4118) ([Ronin Institute](http://www.wikidata.org/entity/Q27207785))
+
 Creator
 : {creator}
 

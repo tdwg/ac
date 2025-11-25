@@ -32,6 +32,9 @@ Abstract
 Contributors
 : {contributors}
 
+Translator
+: [Sophie Pamerlon](https://orcid.org/0000-0003-4736-7419) ([GBIF France](http://www.wikidata.org/entity/Q16094640))
+
 Creator
 : {creator}
 
