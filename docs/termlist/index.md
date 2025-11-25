@@ -1,7 +1,7 @@
-# Audiovisual Core Term List
+# Audiovisual Core List of Terms
 
 Title
-: Audiovisual Core Term List
+: Audiovisual Core List of Terms
 
 Date version issued
 : 2023-09-05
@@ -31,7 +31,7 @@ Creator
 : GBIF/TDWG Multimedia Resources Task Group and Audiovisual Core Maintenance Group
 
 Bibliographic citation
-: GBIF/TDWG Multimedia Resources Task Group and Audiovisual Core Maintenance Group. 2023. Audiovisual Core Term List. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/termlist/2023-09-05>
+: GBIF/TDWG Multimedia Resources Task Group and Audiovisual Core Maintenance Group. 2023. Audiovisual Core List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/termlist/2023-09-05>
 
 ## 1 Introduction
 
