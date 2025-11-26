@@ -1,0 +1,74 @@
+[
+  {
+    "text": "",
+    "href": "/pt/"
+  },
+  {
+    "text": "",
+    "href": "/pt/introduction/"
+  },
+  {
+    "text": "",
+    "menu": [
+      {
+        "text": ""
+      },
+      {
+        "text": "",
+        "href": "/pt/termlist/"
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "",
+        "href": "/pt/format/"
+      },
+      {
+        "text": "",
+        "href": "/pt/orient/"
+      },
+      {
+        "text": "",
+        "href": "/pt/part/"
+      },
+      {
+        "text": "",
+        "href": "/pt/subtype/"
+      },
+      {
+        "text": "",
+        "href": "/pt/variant/"
+      }
+    ]
+  },
+  {
+    "text": "",
+    "menu": [
+      {
+        "text": "",
+        "href": "/pt/guide/"
+      },
+      {
+        "text": "",
+        "href": "/pt/structure/"
+      }
+    ]
+  },
+  {
+    "text": "",
+    "href": ""
+  },
+  {
+    "text": "文A",
+    "menu": [
+      {
+        "text": "English",
+        "href": "/"
+      }
+    ]
+  }
+]

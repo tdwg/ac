@@ -1,0 +1,74 @@
+[
+  {
+    "text": "",
+    "href": "/zh-Hans/"
+  },
+  {
+    "text": "",
+    "href": "/zh-Hans/introduction/"
+  },
+  {
+    "text": "",
+    "menu": [
+      {
+        "text": ""
+      },
+      {
+        "text": "",
+        "href": "/zh-Hans/termlist/"
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "",
+        "href": "/zh-Hans/format/"
+      },
+      {
+        "text": "",
+        "href": "/zh-Hans/orient/"
+      },
+      {
+        "text": "",
+        "href": "/zh-Hans/part/"
+      },
+      {
+        "text": "",
+        "href": "/zh-Hans/subtype/"
+      },
+      {
+        "text": "",
+        "href": "/zh-Hans/variant/"
+      }
+    ]
+  },
+  {
+    "text": "",
+    "menu": [
+      {
+        "text": "",
+        "href": "/zh-Hans/guide/"
+      },
+      {
+        "text": "",
+        "href": "/zh-Hans/structure/"
+      }
+    ]
+  },
+  {
+    "text": "",
+    "href": ""
+  },
+  {
+    "text": "文A",
+    "menu": [
+      {
+        "text": "English",
+        "href": "/"
+      }
+    ]
+  }
+]

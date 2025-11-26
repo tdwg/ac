@@ -1,0 +1,74 @@
+[
+  {
+    "text": "首頁",
+    "href": "/zh-Hant/"
+  },
+  {
+    "text": "",
+    "href": "/zh-Hant/introduction/"
+  },
+  {
+    "text": "條款",
+    "menu": [
+      {
+        "text": ""
+      },
+      {
+        "text": "",
+        "href": "/zh-Hant/termlist/"
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "",
+        "href": "/zh-Hant/format/"
+      },
+      {
+        "text": "",
+        "href": "/zh-Hant/orient/"
+      },
+      {
+        "text": "",
+        "href": "/zh-Hant/part/"
+      },
+      {
+        "text": "",
+        "href": "/zh-Hant/subtype/"
+      },
+      {
+        "text": "",
+        "href": "/zh-Hant/variant/"
+      }
+    ]
+  },
+  {
+    "text": "指南",
+    "menu": [
+      {
+        "text": "",
+        "href": "/zh-Hant/guide/"
+      },
+      {
+        "text": "",
+        "href": "/zh-Hant/structure/"
+      }
+    ]
+  },
+  {
+    "text": "GitHub",
+    "href": ""
+  },
+  {
+    "text": "文A",
+    "menu": [
+      {
+        "text": "English",
+        "href": "/"
+      }
+    ]
+  }
+]

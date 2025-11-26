@@ -1,0 +1,74 @@
+[
+  {
+    "text": "ホーム",
+    "href": "/ja/"
+  },
+  {
+    "text": "",
+    "href": "/ja/introduction/"
+  },
+  {
+    "text": "用語",
+    "menu": [
+      {
+        "text": ""
+      },
+      {
+        "text": "",
+        "href": "/ja/termlist/"
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "",
+        "href": "/ja/format/"
+      },
+      {
+        "text": "",
+        "href": "/ja/orient/"
+      },
+      {
+        "text": "",
+        "href": "/ja/part/"
+      },
+      {
+        "text": "",
+        "href": "/ja/subtype/"
+      },
+      {
+        "text": "",
+        "href": "/ja/variant/"
+      }
+    ]
+  },
+  {
+    "text": "ガイド",
+    "menu": [
+      {
+        "text": "",
+        "href": "/ja/guide/"
+      },
+      {
+        "text": "",
+        "href": "/ja/structure/"
+      }
+    ]
+  },
+  {
+    "text": "GitHub",
+    "href": ""
+  },
+  {
+    "text": "文A",
+    "menu": [
+      {
+        "text": "English",
+        "href": "/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "text": "Главная",
+    "href": "/ru/"
+  },
+  {
+    "text": "",
+    "href": "/ru/introduction/"
+  },
+  {
+    "text": "Условия использования",
+    "menu": [
+      {
+        "text": ""
+      },
+      {
+        "text": "",
+        "href": "/ru/termlist/"
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "",
+        "href": "/ru/format/"
+      },
+      {
+        "text": "",
+        "href": "/ru/orient/"
+      },
+      {
+        "text": "",
+        "href": "/ru/part/"
+      },
+      {
+        "text": "",
+        "href": "/ru/subtype/"
+      },
+      {
+        "text": "",
+        "href": "/ru/variant/"
+      }
+    ]
+  },
+  {
+    "text": "Инструкции",
+    "menu": [
+      {
+        "text": "",
+        "href": "/ru/guide/"
+      },
+      {
+        "text": "",
+        "href": "/ru/structure"
+      }
+    ]
+  },
+  {
+    "text": "GitHub",
+    "href": ""
+  },
+  {
+    "text": "文A",
+    "menu": [
+      {
+        "text": "English",
+        "href": "/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "text": "Inicio",
+    "href": "/es/"
+  },
+  {
+    "text": "",
+    "href": ""
+  },
+  {
+    "text": "Términos",
+    "menu": [
+      {
+        "text": ""
+      },
+      {
+        "text": "",
+        "href": "/es/termlist/"
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "",
+        "href": "/es/format/"
+      },
+      {
+        "text": "",
+        "href": "/es/orient/"
+      },
+      {
+        "text": "",
+        "href": "/es/part/"
+      },
+      {
+        "text": "",
+        "href": "/es/subtype/"
+      },
+      {
+        "text": "",
+        "href": "/es/variant/"
+      }
+    ]
+  },
+  {
+    "text": "Guías",
+    "menu": [
+      {
+        "text": "",
+        "href": "/es/guide/"
+      },
+      {
+        "text": "",
+        "href": "/es/structure/"
+      }
+    ]
+  },
+  {
+    "text": "GitHub",
+    "href": ""
+  },
+  {
+    "text": "文A",
+    "menu": [
+      {
+        "text": "English",
+        "href": "/"
+      }
+    ]
+  }
+]

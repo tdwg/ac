@@ -1,7 +1,7 @@
-# Controlled Vocabulary for Audiovisual Core variant: List of Terms
+# {document_title}
 
 Title
-: Controlled Vocabulary for Audiovisual Core variant: List of Terms
+: {document_title}
 
 Namespace IRI
 : <http://rs.tdwg.org/acvariant/values/>
@@ -9,56 +9,53 @@ Namespace IRI
 Preferred namespace abbreviation
 : acvariant:
 
-Date version issued
+版本發行日期
 : {ratification_date}
 
-Date created
-: {created_date}
+建立日期
 
-Part of TDWG Standard
+生物多樣性訊息標準的一部分
 : <{standard_iri}>
 
-This version
+此版本
 : <{current_iri}{ratification_date}>
 
-Latest version
+最新版本
 : <{current_iri}>
 
 {previous_version_slot}
 
 Abstract
-: Audiovisual Core uses the terms ac:variant and ac:variantLiteral to provide information about the size, extent, and availability of the Service Access Point of a media item. This controlled vocabulary provides values for those terms.
+: {abstract}
 
-Contributors
+貢獻者
 : {contributors}
 
-Translator
-: [柯智仁 (Chihjen Ko)](https://orcid.org/0000-0001-5912-1761) ([GBIF Asia Regional Support](http://www.wikidata.org/entity/Q1531570))
-
-Creator
+建立者
 : {creator}
 
-Bibliographic citation
+書目引用
 : {creator}. {year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
 
 ## 1 Introduction (informative)
 
 This document includes terms intended to be used as a controlled value for Audiovisual Core terms `ac:variant` and `ac:variantLiteral`.
 
-### 1.1 Status of the content of this document
+### 1.1 本文件內容的現況
 
 Section 1 is informative (non-normative).
 
-Section 2 is normative.
+第 2 節為規範性。
 
 Section 3 is informative (non-normative).
 
-In Section 4, the values of the `Term IRI`, `Definition`, and `Controlled value` are normative. The value of `Usage` (if it exists for a given term) is normative. The values of `Term Name` are non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  `Label` and the values of all other properties are non-normative.
+在第 4 節中，`Term IRI`、`Definition`和`Controlled value`的值為規範性。 `Usage`的值 (如果它存在於特定術語中) 為規範性。 `Term Name`的值為非規範性，不過可以預期命名空間縮寫是術語命名空間的常用前綴。  `Label` and the values of all other properties are non-normative.
 
-### 1.2 RFC 2119 key words
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [BCP 14](https://www.rfc-editor.org/info/bcp14) [\[RFC 2119\]](https://datatracker.ietf.org/doc/html/rfc2119) and [\[RFC 8174\]](https://datatracker.ietf.org/doc/html/rfc8174) when, and only when, they appear in all capitals, as shown here.
+### 1.2 RFC 2119 關鍵字
 
-## 2 Use of Terms
+關鍵字「必須」、「不得」、「要求」、「應」、「不應」、「應當」、「不應當」、「建議」、「可」、「可選」的定義，請參照[BCP 14](https://www.rfc-editor.org/info/bcp14) [\[RFC 2119\]](https://datatracker.ietf.org/doc/html/rfc2119) 及 [\[RFC 8174\]](https://datatracker.ietf.org/doc/html/rfc8174) 所定義之含義，惟詞彙須以全大寫形式呈現時方適用。
+
+## 2 使用條款
 
 ### 2.1 Relationship of value types to property terms
 
@@ -66,6 +63,6 @@ In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/
 
 ### 2.2 Relationship between values of ac:variantLiteral and ac:variant
 
-An IRI for a term in this vocabulary denotes the same concept as the concept denoted by the controlled value string for the same term. Thus a client MAY infer an IRI value for `ac:variant` given a controlled value string for `ac:variantLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:variant` property in cases where providers only provide values for `ac:variantLiteral`. 
+An IRI for a term in this vocabulary denotes the same concept as the concept denoted by the controlled value string for the same term. Thus a client MAY infer an IRI value for `ac:variant` given a controlled value string for `ac:variantLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:variant` property in cases where providers only provide values for `ac:variantLiteral`.
 
-## 3 Term index
+## 3 術語索引
