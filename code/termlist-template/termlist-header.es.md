@@ -1,6 +1,6 @@
 # {document_title}
 
-Title
+Título
 : {document_title}
 
 Fecha de publicación de la versión
@@ -20,7 +20,7 @@ Esta versión
 
 {previous_version_slot}
 
-Abstract
+Resumen
 : {abstract}
 
 Colaboradores
