@@ -1,12 +1,12 @@
 # {document_title}
 
-Title
+Název
 : {document_title}
 
-Namespace IRI
+IRI Jmenného prostoru
 : <http://rs.tdwg.org/acorient/values/>
 
-Preferred namespace abbreviation
+Preferovaná zkratka jmenného prostoru
 : acorient:
 
 Datum vydání verze
@@ -26,7 +26,7 @@ Aktuální verze
 
 {previous_version_slot}
 
-Abstract
+Abstrakt
 : {abstract}
 
 Přispěvatelé
@@ -38,17 +38,17 @@ Tvůrce
 Bibliografická citace
 : {creator}. {year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
 
-## 1 Introduction (informative)
+## 1 Úvod (informativní)
 
-This document includes terms intended to be used as controlled values for the Audiovisual Core terms `ac:subjectOrientation` and `ac:subjectOrientationLiteral`. A [JSON-LD representation](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient.json) (including translations to multiple languages) of this SKOS Concept Scheme is available. For more information about how to use this vocabulary, see the [subjectPart and subjectOrientation Controlled Vocabularies User Guide](https://github.com/tdwg/ac/blob/master/views/views_user_guide.pdf).
+Tento dokument obsahuje termíny, které mají být použity jako řízené hodnoty pro Audiovisual Core termíny `ac:subjectOrientation` a `ac:subjectOrientationLiteral`. K dispozici je [JSON-LD reprezentace](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient.json) (včetně překladů do více jazyků) tohoto schématu pojmů SKOS. For more information about how to use this vocabulary, see the [subjectPart and subjectOrientation Controlled Vocabularies User Guide](https://github.com/tdwg/ac/blob/master/views/views_user_guide.pdf).
 
 ### 1.1 Status obsahu tohoto dokumentu
 
-Section 1 is informative (non-normative).
+Oddíl 1 je informativní (nenormativní).
 
-Section 2 is normative except as noted.
+Oddíl 2 je normativní, pokud není uvedeno jinak.
 
-Section 3 is informative.
+Oddíl 3 je informativní.
 
 V oddíle 4 jsou hodnoty `Term IRI`, `Definice` a `Kontrolovaná hodnota` normativní. Hodnota `Použití` (pokud pro daný termín existuje) je normativní.  Hodnota `Má širší pojem` je normativní. Hodnoty `Název termínu` nejsou normativní, ačkoli lze očekávat, že prefix zkratky jmenného prostoru je prefix běžně používaný pro jmenný prostor termínu.  `Label` and the values of all other properties (such as `Examples` or `Notes`) are non-normative.
 
@@ -62,7 +62,7 @@ For perspective on the development of this [vocabulary enhancement](https://gith
 
 ## 2 Použití termínů
 
-### 2.1 Relationship of value types to property terms
+### 2.1 Vztah hodnotových typů k pojmům vlastnictví
 
 In accordance with the [Audiovisual Core Term List](http://rs.tdwg.org/ac/doc/termlist/) document, unabbreviated term IRIs MUST be used as values of the property `ac:subjectOrientation`. Controlled value strings SHOULD be used as values of the property `ac:subjectOrientationLiteral`.
 
