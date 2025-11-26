@@ -6,7 +6,7 @@ import os
 languages = [
   {'text': 'Čeština', 'href': '/cs/'},
   {'text': 'Español', 'href': '/es/'},
-  {'text': 'Français', 'href': '/fr/'}
+  {'text': 'Français', 'href': '/fr/'},
   {'text': '日本語', 'href': '/ja/'},
   {'text': '한국어', 'href': '/ko/'},
   {'text': 'Русский', 'href': '/ru/'},
