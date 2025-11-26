@@ -34,24 +34,24 @@ Bibliografická citace
 
 ## 1. Úvod
 
-There are a number of documents included in the Audiovisual Core Standard.  This document provides details about the terms included in the {ratification_date} version of the Audiovisual Core vocabulary. The [Audiovisual Core Introduction](../introduction/) document provides a brief introduction to the Audiovisual Core Standard. For information about the structure of Audiovisual Core, see the [Audiovisual Core Structure](../structure/) document.  For a more detailed guide to the use of Audiovisual Core, see the [Audiovisual Core Guide](../guide/) document.
+Audiovisual Core Standard obsahuje řadu dokumentů.  Tento dokument obsahuje podrobné informace o podmínkách obsažených ve verzi {ratification_date} slovníku Audiovisual Core. Dokument [Audiovisual Core Introduction](../introduction/) poskytuje stručný úvod do Audiovisual Core Standard. Informace o struktuře Audiovisual Core naleznete v dokumentu [Audiovisual Core Structure](../structure/).  Podrobnější návod k používání Audiovisual Core naleznete v dokumentu [Audiovisual Core Guide](../guide/).
 
 ### 1.1 Status obsahu tohoto dokumentu
 
-Sections 1.3 through 5 are normative, except for Table 1.  In Section 7 and its subparts, the values of the Normative URI, Definition, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Audiovisual Core.  The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  Labels and the values of all other properties (such as notes) are non-normative.
+Oddíly 1.3 až 5 jsou normativní, s výjimkou tabulky 1.  V oddíle 7 a jeho pododdílech jsou hodnoty Normativní URI, Definice, Požadované a Opakovatelné normativní. Hodnota použití (pokud existuje pro daný termín) je normativní v tom smyslu, že určuje, jak by měl být vypůjčený termín používán jako součást Audiovisual Core.  Hodnoty Term Name nejsou normativní, i když lze očekávat, že předpona zkratky jmenného prostoru je běžně používaná pro jmenný prostor termínů.  Štítky a hodnoty všech ostatních vlastností (například poznámky) nejsou normativní.
 
 ### 1.2 Klíčová slova RFC 2119
 
 Klíčová slova "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY" a "OPTIONAL" v tomto dokumentu je třeba interpretovat tak, jak je popsáno v [BCP 14](https://www.rfc-editor.org/info/bcp14) [\[RFC 2119\]](https://datatracker.ietf.org/doc/html/rfc2119) a [\[RFC 8174\]](https://datatracker.ietf.org/doc/html/rfc8174), pokud a pouze pokud jsou uvedena velkými písmeny, jak je uvedeno zde.
 
-### 1.3 Categories of terms
+### 1.3 Kategorie pojmů
 
-An Audiovisual Core (AC) record is a description of a multimedia resource
-using the AC vocabularies. Three kinds of terms are specified by this
-document: those terms which describe representation-independent aspects
-of the media, those which describe representation-dependent aspects, and those that designate specified parts of the media item.
-Most terms are representation-independent, referring to an "abstract
-multimedia resource". One such term, `ac:hasServiceAccessPoint`, refers to
+Záznam Audiovisual Core (AC) je popis multimediálního zdroje
+pomocí slovníků AC. Tento dokument specifikuje tři druhy termínů:
+termíny, které popisují aspekty médií nezávislé na reprezentaci,
+termíny, které popisují aspekty závislé na reprezentaci, a termíny, které označují specifikované části mediálního prvku.
+Většina termínů je nezávislá na reprezentaci a odkazuje na „abstraktní
+multimediální zdroj“. One such term, `ac:hasServiceAccessPoint`, refers to
 or contains representation-dependent service access point metadata
 describing a digital representation of the abstract multimedia resource (an instance of the `ac:ServiceAccessPoint` class).
 These metadata describe such things as a web address at which a digital
