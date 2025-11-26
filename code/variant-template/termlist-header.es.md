@@ -38,19 +38,19 @@ Creador
 Cita bibliográfica
 : {creator}. {year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
 
-## 1 Introduction (informative)
+## 1. Introducción (Informativa)
 
 This document includes terms intended to be used as a controlled value for Audiovisual Core terms `ac:variant` and `ac:variantLiteral`.
 
 ### 1.1 Estado del contenido de este documento
 
-Section 1 is informative (non-normative).
+La Sección 1 es informativa (no normativa).
 
 La sección 2 es normativa.
 
 Section 3 is informative (non-normative).
 
-En la Sección 4, los valores de `Término IRI`, `Definición` y `Valor controlado` son normativos. El valor de `Uso` (si existe para un término determinado) también es normativo. Los valores del `Nombre del término` no son normativos, aunque se puede esperar que el prefijo del namespace abreviado sea uno comúnmente utilizado para ese namespace.  `Label` and the values of all other properties are non-normative.
+En la Sección 4, los valores de `Término IRI`, `Definición` y `Valor controlado` son normativos. El valor de `Uso` (si existe para un término determinado) también es normativo. Los valores del `Nombre del término` no son normativos, aunque se puede esperar que el prefijo del namespace abreviado sea uno comúnmente utilizado para ese namespace.  La `Etiqueta` y los valores de todas las demás propiedades no son normativos.
 
 ### 1.2 Palabras clave RFC 2119
 
@@ -58,7 +58,7 @@ Las palabras clave "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD
 
 ## 2 Uso de los Términos
 
-### 2.1 Relationship of value types to property terms
+### 2.1 Relación de los tipos de valor con los términos de propiedad
 
 In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs SHOULD be used as values of the property `ac:variant`. Controlled value strings SHOULD be used as values of the property `ac:variantLiteral`.
 
