@@ -15,7 +15,7 @@
       },
       {
         "text": "",
-        "href": ""
+        "href": "/fr/termlist/"
       },
       {
         "text": ""
@@ -25,23 +25,23 @@
       },
       {
         "text": "",
-        "href": ""
+        "href": "/fr/format/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/fr/orient/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/fr/part/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/fr/subtype/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/fr/variant/"
       }
     ]
   },
@@ -50,11 +50,11 @@
     "menu": [
       {
         "text": "",
-        "href": ""
+        "href": "/fr/guide/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/fr/structure/"
       }
     ]
   },
@@ -67,7 +67,7 @@
     "menu": [
       {
         "text": "English",
-        "href": "/fr/"
+        "href": "/"
       }
     ]
   }
