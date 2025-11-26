@@ -38,17 +38,17 @@ Creador
 Cita bibliográfica
 : {creator}. {year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
 
-## 1 Introduction (informative)
+## 1. Introducción (Informativa)
 
 This document includes terms intended to be used as controlled values for the Audiovisual Core terms `ac:subjectPart` and `ac:subjectPartLiteral`. A [JSON-LD representation](https://tdwg.github.io/rs.tdwg.org/cvJson/acpart.json) (including translations to multiple languages) of this SKOS Concept Scheme is available. For more information about how to use this vocabulary, see the [subjectPart and subjectOrientation Controlled Vocabularies User Guide](https://github.com/tdwg/ac/blob/master/views/views_user_guide.pdf).
 
 ### 1.1 Estado del contenido de este documento
 
-Section 1 is informative (non-normative).
+La Sección 1 es informativa (no normativa).
 
-Section 2 is normative except as noted.
+La Sección 2 es normativa salvo que se indique lo contrario.
 
-Section 3 is informative.
+La Sección 3 es informativa.
 
 En la Sección 4, los valores de `Término IRI`, `Definición` y `Valor controlado` son normativos. El valor de `Uso` (si existe para un término determinado) también es normativo.  El valor de `tiene un concepto más amplio` es normativo. Los valores del `Nombre del término` no son normativos, aunque se puede esperar que el prefijo del namespace abreviado sea uno comúnmente utilizado para ese namespace.  `Label` and the values of all other properties (such as `Examples` or `Notes`) are non-normative.
 
@@ -62,7 +62,7 @@ For perspective on the development of this [vocabulary enhancement](https://gith
 
 ## 2 Uso de los Términos
 
-### 2.1 Relationship of value types to property terms
+### 2.1 Relación de los tipos de valor con los términos de propiedad
 
 In accordance with the [Audiovisual Core Term List](http://rs.tdwg.org/ac/doc/termlist/) document, unabbreviated term IRIs MUST be used as values of the property `ac:subjectPart`. Controlled value strings SHOULD be used as values of the property `ac:subjectPartLiteral`.
 
