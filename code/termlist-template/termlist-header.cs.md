@@ -1,6 +1,6 @@
 # {document_title}
 
-Title
+Název
 : {document_title}
 
 Datum vydání verze
@@ -20,7 +20,7 @@ Aktuální verze
 
 {previous_version_slot}
 
-Abstract
+Abstrakt
 : {abstract}
 
 Přispěvatelé
