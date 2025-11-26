@@ -5,7 +5,7 @@
   },
   {
     "text": "",
-    "href": ""
+    "href": "/cs/introduction/"
   },
   {
     "text": "Termíny",
@@ -15,7 +15,7 @@
       },
       {
         "text": "",
-        "href": ""
+        "href": "/cs/termlist/"
       },
       {
         "text": ""
@@ -25,23 +25,23 @@
       },
       {
         "text": "",
-        "href": ""
+        "href": "/cs/format/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/cs/orient/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/cs/part/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/cs/subtype/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/cs/variant/"
       }
     ]
   },
@@ -50,11 +50,11 @@
     "menu": [
       {
         "text": "",
-        "href": ""
+        "href": "/cs/guide/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/cs/structure/"
       }
     ]
   },
@@ -67,7 +67,7 @@
     "menu": [
       {
         "text": "English",
-        "href": "/cs/"
+        "href": "/"
       }
     ]
   }
