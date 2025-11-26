@@ -1,6 +1,6 @@
 # {document_title}
 
-Title
+Título
 : {document_title}
 
 Namespace IRI
@@ -26,7 +26,7 @@ Esta versión
 
 {previous_version_slot}
 
-Abstract
+Resumen
 : {abstract}
 
 Colaboradores
