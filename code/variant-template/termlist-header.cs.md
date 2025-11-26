@@ -1,6 +1,6 @@
 # {document_title}
 
-Title
+Název
 : {document_title}
 
 Namespace IRI
@@ -26,7 +26,7 @@ Aktuální verze
 
 {previous_version_slot}
 
-Abstract
+Abstrakt
 : {abstract}
 
 Přispěvatelé
@@ -38,19 +38,19 @@ Tvůrce
 Bibliografická citace
 : {creator}. {year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
 
-## 1 Introduction (informative)
+## 1 Úvod (informativní)
 
 This document includes terms intended to be used as a controlled value for Audiovisual Core terms `ac:variant` and `ac:variantLiteral`.
 
 ### 1.1 Status obsahu tohoto dokumentu
 
-Section 1 is informative (non-normative).
+Oddíl 1 je informativní (nenormativní).
 
 Oddíl 2 je normativní.
 
 Section 3 is informative (non-normative).
 
-V oddíle 4 jsou hodnoty `Term IRI`, `Definice` a `Kontrolovaná hodnota` normativní. Hodnota `Použití` (pokud pro daný termín existuje) je normativní. Hodnoty `Název termínu` nejsou normativní, ačkoli lze očekávat, že prefix zkratky jmenného prostoru je prefix běžně používaný pro jmenný prostor termínu.  `Label` and the values of all other properties are non-normative.
+V oddíle 4 jsou hodnoty `Term IRI`, `Definice` a `Kontrolovaná hodnota` normativní. Hodnota `Použití` (pokud pro daný termín existuje) je normativní. Hodnoty `Název termínu` nejsou normativní, ačkoli lze očekávat, že prefix zkratky jmenného prostoru je prefix běžně používaný pro jmenný prostor termínu.  `Štítek` a hodnoty všech ostatních vlastností nejsou normativní.
 
 ### 1.2 Klíčová slova RFC 2119
 
@@ -58,7 +58,7 @@ Klíčová slova "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 
 ## 2 Použití termínů
 
-### 2.1 Relationship of value types to property terms
+### 2.1 Vztah hodnotových typů k pojmům vlastnictví
 
 In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs SHOULD be used as values of the property `ac:variant`. Controlled value strings SHOULD be used as values of the property `ac:variantLiteral`.
 
