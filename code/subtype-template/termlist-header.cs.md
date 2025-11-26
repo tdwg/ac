@@ -60,10 +60,10 @@ Klíčová slova "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 
 ### 2.1 Vztah hodnotových typů k pojmům vlastnictví
 
-In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs SHOULD be used as values of the property `ac:subtype`. Controlled value strings SHOULD be used as values of the property `ac:subtypeLiteral`.
+V souladu s [dokumentem Audiovisual Core Term List](http://rs.tdwg.org/ac/doc/termlist/) by se jako hodnoty vlastnosti `ac:subtype` MĚLY používat nezkrácené termíny IRI. Jako hodnoty vlastnosti `ac:subtypeLiteral` by se MĚLY používat řízené hodnotové řetězce.
 
-### 2.2 Relationship between values of ac:subtypeLiteral and ac:subtype
+### 2.2 Vztah mezi hodnotami ac:subtypeLiteral a ac:subtype
 
-An IRI for a term in this vocabulary denotes the same class as the class denoted by the controlled value string for the same term. Thus a client MAY infer an IRI value for `ac:subtype` given a controlled value string for `ac:subtypeLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:subtype` property in cases where providers only provide values for `ac:subtypeLiteral`.
+IRI pro termín v tomto slovníku označuje stejnou třídu jako třída označená řetězcem řízené hodnoty pro stejný termín. Klient tedy MŮŽE odvodit hodnotu IRI pro `ac:subtype` na základě kontrolovaného řetězce hodnoty pro `ac:subtypeLiteral`, i když tato hodnota IRI není výslovně uvedena. Praktickým důsledkem je, že agregátoři dat MOHOU materializovat hodnoty pro preferovanou vlastnost `ac:subtype` v případech, kdy poskytovatelé poskytují pouze hodnoty pro `ac:subtypeLiteral`.
 
 ## 3 Index termínů
