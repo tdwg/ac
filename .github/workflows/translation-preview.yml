@@ -48,8 +48,8 @@ jobs:
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
           chmod 0600 ~/.ssh/id_ed25519
           echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-          rsync -rv --delete --checksum ./_site/ dwc-translation-preview@tdwgstatic-vh.tdwg.org:/
+          rsync -rv --delete --checksum ./_site/ ac-translation-preview@tdwgstatic-vh.tdwg.org:/
         shell: bash
         env:
-          SSH_PRIVATE_KEY: ${{secrets.DWC_TRANSLATION_PREVIEW_TDWG_ORG}}
+          SSH_PRIVATE_KEY: ${{secrets.AC_TRANSLATION_PREVIEW_TDWG_ORG}}
           SSH_KNOWN_HOSTS: ${{vars.SSH_KNOWN_HOSTS}}
