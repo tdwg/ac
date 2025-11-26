@@ -5,7 +5,7 @@
   },
   {
     "text": "",
-    "href": ""
+    "href": "/ar/introduction/"
   },
   {
     "text": "",
@@ -15,7 +15,7 @@
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ar/termlist/"
       },
       {
         "text": ""
@@ -25,23 +25,23 @@
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ar/format/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ar/orient/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ar/part/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ar/subtype/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ar/variant/"
       }
     ]
   },
@@ -50,11 +50,11 @@
     "menu": [
       {
         "text": "",
-        "href": ""
+        "href": "/ar/guide/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ar/structure/"
       }
     ]
   },
@@ -67,7 +67,7 @@
     "menu": [
       {
         "text": "English",
-        "href": "/ar/"
+        "href": "/"
       }
     ]
   }
