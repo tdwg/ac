@@ -1,12 +1,12 @@
 # {document_title}
 
-Title
+Título
 : {document_title}
 
-Namespace IRI
+Espacio de nombres IRI
 : <http://rs.tdwg.org/acformat/values/>
 
-Preferred namespace abbreviation
+Abreviatura preferida del espacio de nombres
 : acformat:
 
 Fecha de publicación de la versión
@@ -26,7 +26,7 @@ Esta versión
 
 {previous_version_slot}
 
-Abstract
+Resumen
 : {abstract}
 
 Colaboradores
