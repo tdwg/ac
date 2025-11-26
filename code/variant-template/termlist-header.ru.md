@@ -1,7 +1,7 @@
-# Controlled Vocabulary for Audiovisual Core variant: List of Terms
+# {document_title}
 
 Title
-: Controlled Vocabulary for Audiovisual Core variant: List of Terms
+: {document_title}
 
 Namespace IRI
 : <http://rs.tdwg.org/acvariant/values/>
@@ -9,56 +9,50 @@ Namespace IRI
 Preferred namespace abbreviation
 : acvariant:
 
-Date version issued
+Дата публикации версии
 : {ratification_date}
 
-Date created
+Дата создания
 : {created_date}
 
-Part of TDWG Standard
+Часть стандарта TDWG
 : <{standard_iri}>
 
-This version
+Текущая версия
 : <{current_iri}{ratification_date}>
 
-Latest version
-: <{current_iri}>
+Последняя версия: {current_iri}
 
-{previous_version_slot}
+Предыдущая версия {previous_version_slot}
 
 Abstract
-: Audiovisual Core uses the terms ac:variant and ac:variantLiteral to provide information about the size, extent, and availability of the Service Access Point of a media item. This controlled vocabulary provides values for those terms.
+: {abstract}
 
-Contributors
-: {contributors}
+Авторы: {contributors}
 
-Translator
-: [Нина В. Филиппова (Nina V. Filippova)](https://orcid.org/0000-0002-9506-0991) ([Югорский государственный университет (Yugra State University](http://www.wikidata.org/entity/Q4533707))
+Создатель:{creator}
 
-Creator
-: {creator}
-
-Bibliographic citation
-: {creator}. {year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
+Библиографическая ссылка:{creator}. Год{year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
 
 ## 1 Introduction (informative)
 
 This document includes terms intended to be used as a controlled value for Audiovisual Core terms `ac:variant` and `ac:variantLiteral`.
 
-### 1.1 Status of the content of this document
+### 1.1 Статус содержания документа
 
 Section 1 is informative (non-normative).
 
-Section 2 is normative.
+Раздел 2 является нормативным.
 
 Section 3 is informative (non-normative).
 
-In Section 4, the values of the `Term IRI`, `Definition`, and `Controlled value` are normative. The value of `Usage` (if it exists for a given term) is normative. The values of `Term Name` are non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  `Label` and the values of all other properties are non-normative.
+В разделе 4 значения `Термина IRI` и `Определения` являются нормативными. Значение `Использование` (если оно существует для данного термина) является нормативным. Значения `Term Name` не являются нормативными, хотя можно ожидать, что префикс сокращения пространства имен является одним из общепринятых префиксов, используемых для термина пространство имен.  `Label` and the values of all other properties are non-normative.
 
-### 1.2 RFC 2119 key words
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [BCP 14](https://www.rfc-editor.org/info/bcp14) [\[RFC 2119\]](https://datatracker.ietf.org/doc/html/rfc2119) and [\[RFC 8174\]](https://datatracker.ietf.org/doc/html/rfc8174) when, and only when, they appear in all capitals, as shown here.
+### 1.2 Ключевые слова RFC 2119
 
-## 2 Use of Terms
+Ключевые слова «MUST», «MUST NOT», «REQUIRED», «SHALL», «SHALL NOT», «SHOULD», «SHOULD NOT», «RECOMMENDED», «MAY» и «OPTIONAL» в настоящем документе должны толковаться так, как это описано в [BCP 14] (https://www.rfc-editor.org/info/bcp14) [\[RFC 2119\]](https://datatracker.ietf.org/doc/html/rfc2119) и [\[RFC 8174\]](https://datatracker.ietf.org/doc/html/rfc8174) только тогда, когда они написаны заглавными буквами.
+
+## 2 Применение терминов
 
 ### 2.1 Relationship of value types to property terms
 
@@ -66,6 +60,6 @@ In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/
 
 ### 2.2 Relationship between values of ac:variantLiteral and ac:variant
 
-An IRI for a term in this vocabulary denotes the same concept as the concept denoted by the controlled value string for the same term. Thus a client MAY infer an IRI value for `ac:variant` given a controlled value string for `ac:variantLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:variant` property in cases where providers only provide values for `ac:variantLiteral`. 
+An IRI for a term in this vocabulary denotes the same concept as the concept denoted by the controlled value string for the same term. Thus a client MAY infer an IRI value for `ac:variant` given a controlled value string for `ac:variantLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:variant` property in cases where providers only provide values for `ac:variantLiteral`.
 
-## 3 Term index
+## 3 Индексы терминов
