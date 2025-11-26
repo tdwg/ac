@@ -5,7 +5,7 @@
   },
   {
     "text": "",
-    "href": ""
+    "href": "/ja/introduction/"
   },
   {
     "text": "用語",
@@ -15,7 +15,7 @@
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ja/termlist/"
       },
       {
         "text": ""
@@ -25,23 +25,23 @@
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ja/format/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ja/orient/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ja/part/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ja/subtype/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ja/variant/"
       }
     ]
   },
@@ -50,11 +50,11 @@
     "menu": [
       {
         "text": "",
-        "href": ""
+        "href": "/ja/guide/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ja/structure/"
       }
     ]
   },
@@ -67,7 +67,7 @@
     "menu": [
       {
         "text": "English",
-        "href": "/ja/"
+        "href": "/"
       }
     ]
   }
