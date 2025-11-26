@@ -48,7 +48,7 @@ Oddíl 1 je informativní (nenormativní).
 
 Oddíl 2 je normativní.
 
-Section 3 is informative (non-normative).
+Oddíl 3 je informativní (nenormativní).
 
 V oddíle 4 jsou hodnoty `Term IRI`, `Definice` a `Kontrolovaná hodnota` normativní. Hodnota `Použití` (pokud pro daný termín existuje) je normativní. Hodnoty `Název termínu` nejsou normativní, ačkoli lze očekávat, že prefix zkratky jmenného prostoru je prefix běžně používaný pro jmenný prostor termínu.  `Štítek` a hodnoty všech ostatních vlastností nejsou normativní.
 
