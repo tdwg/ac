@@ -3,10 +3,10 @@
 Název
 : {document_title}
 
-Namespace IRI
+IRI Jmenného prostoru
 : <http://rs.tdwg.org/acsubtype/values/>
 
-Preferred namespace abbreviation
+Preferovaná zkratka jmenného prostoru
 : acsubtype:
 
 Datum vydání verze
@@ -40,7 +40,7 @@ Bibliografická citace
 
 ## 1 Úvod (informativní)
 
-This document includes terms intended to be used as a controlled value for Audiovisual Core terms `ac:subtype` and `ac:subtypeLiteral`. **Note:** Although this is a controlled vocabulary, the type of its terms is `rdfs:Class` rather than `skos:Concept` as in other controlled vocabularies because it indicates the type of the media item.
+Tento dokument obsahuje termíny, které mají být použity jako řízené hodnoty pro audiovizuální základní termíny `ac:subtype` a `ac:subtypeLiteral`. **Poznámka:** Ačkoli se jedná o řízený slovník, typ jeho termínů je `rdfs:Class`, nikoli `skos:Concept` jako v jiných kontrolovaných slovnících, protože označuje typ mediálního prvku.
 
 ### 1.1 Status obsahu tohoto dokumentu
 
@@ -48,7 +48,7 @@ Oddíl 1 je informativní (nenormativní).
 
 Oddíl 2 je normativní.
 
-Section 3 is informative (non-normative).
+Oddíl 3 je informativní (nenormativní).
 
 V oddíle 4 jsou hodnoty `Term IRI`, `Definice` a `Kontrolovaná hodnota` normativní. Hodnota `Použití` (pokud pro daný termín existuje) je normativní. Hodnoty `Název termínu` nejsou normativní, ačkoli lze očekávat, že prefix zkratky jmenného prostoru je prefix běžně používaný pro jmenný prostor termínu.  `Štítek` a hodnoty všech ostatních vlastností nejsou normativní.
 
