@@ -5,7 +5,7 @@
   },
   {
     "text": "",
-    "href": ""
+    "href": "/zh-Hans/introduction/"
   },
   {
     "text": "",
@@ -15,7 +15,7 @@
       },
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hans/termlist/"
       },
       {
         "text": ""
@@ -25,23 +25,23 @@
       },
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hans/format/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hans/orient/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hans/part/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hans/subtype/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hans/variant/"
       }
     ]
   },
@@ -50,11 +50,11 @@
     "menu": [
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hans/guide/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hans/structure/"
       }
     ]
   },
@@ -67,7 +67,7 @@
     "menu": [
       {
         "text": "English",
-        "href": "/zh-Hans/"
+        "href": "/"
       }
     ]
   }
