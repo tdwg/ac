@@ -5,7 +5,7 @@
   },
   {
     "text": "",
-    "href": ""
+    "href": "/zh-Hant/introduction/"
   },
   {
     "text": "條款",
@@ -15,7 +15,7 @@
       },
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hant/termlist/"
       },
       {
         "text": ""
@@ -25,23 +25,23 @@
       },
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hant/format/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hant/orient/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hant/part/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hant/subtype/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hant/variant/"
       }
     ]
   },
@@ -50,11 +50,11 @@
     "menu": [
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hant/guide/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/zh-Hant/structure/"
       }
     ]
   },
