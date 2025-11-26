@@ -5,7 +5,7 @@
   },
   {
     "text": "",
-    "href": ""
+    "href": "/ru/introduction/"
   },
   {
     "text": "Условия использования",
@@ -15,7 +15,7 @@
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ru/termlist/"
       },
       {
         "text": ""
@@ -25,23 +25,23 @@
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ru/format/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ru/orient/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ru/part/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ru/subtype/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ru/variant/"
       }
     ]
   },
@@ -50,11 +50,11 @@
     "menu": [
       {
         "text": "",
-        "href": ""
+        "href": "/ru/guide/"
       },
       {
         "text": "",
-        "href": ""
+        "href": "/ru/structure"
       }
     ]
   },
@@ -67,7 +67,7 @@
     "menu": [
       {
         "text": "English",
-        "href": "/ru/"
+        "href": "/"
       }
     ]
   }
