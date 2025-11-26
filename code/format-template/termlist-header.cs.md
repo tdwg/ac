@@ -1,12 +1,12 @@
 # {document_title}
 
-Title
+Název
 : {document_title}
 
-Namespace IRI
+IRI jmenného prostoru
 : <http://rs.tdwg.org/acformat/values/>
 
-Preferred namespace abbreviation
+Preferovaná zkratka jmenného prostoru
 : acformat:
 
 Datum vydání verze
@@ -26,7 +26,7 @@ Aktuální verze
 
 {previous_version_slot}
 
-Abstract
+Abstrakt
 : {abstract}
 
 Přispěvatelé
@@ -38,19 +38,19 @@ Tvůrce
 Bibliografická citace
 : {creator}. {year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
 
-## 1 Introduction (informative)
+## 1 Úvod (informativní)
 
-This document includes terms intended to be used as a controlled value for Dublin Core terms `dc:format` and `dcterms:format`, which are borrowed by Audiovisual Core.
+Tento dokument obsahuje termíny, které mají být použity jako řízené hodnoty pro termíny Dublin Core `dc:format` a `dcterms:format`, které jsou převzaty z Audiovisual Core.
 
 ### 1.1 Status obsahu tohoto dokumentu
 
-Section 1 is informative (non-normative).
+Oddíl 1 je informativní (nenormativní).
 
-Section 2 is normative except as noted.
+Oddíl 2 je normativní, pokud není uvedeno jinak.
 
-Section 3 is informative.
+Oddíl 3 je informativní.
 
-V oddíle 4 jsou hodnoty `Term IRI`, `Definice` a `Kontrolovaná hodnota` normativní. Hodnota `Použití` (pokud pro daný termín existuje) je normativní.  The values of `Has broader concept` and `Has exact match` are normative. Hodnoty `Název termínu` nejsou normativní, ačkoli lze očekávat, že prefix zkratky jmenného prostoru je prefix běžně používaný pro jmenný prostor termínu.  `Label` and the values of all other properties are non-normative.
+V oddíle 4 jsou hodnoty `Term IRI`, `Definice` a `Kontrolovaná hodnota` normativní. Hodnota `Použití` (pokud pro daný termín existuje) je normativní.  Hodnoty `Má širší pojem` a `Má přesnou shodu` jsou normativní. Hodnoty `Název termínu` nejsou normativní, ačkoli lze očekávat, že prefix zkratky jmenného prostoru je prefix běžně používaný pro jmenný prostor termínu.  `Štítek` a hodnoty všech ostatních vlastností nejsou normativní.
 
 ### 1.2 Klíčová slova RFC 2119
 
@@ -58,24 +58,24 @@ Klíčová slova "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 
 ## 2 Použití termínů
 
-### 2.1 Relationship of value types to property terms
+### 2.1 Vztah hodnotových typů k pojmům vlastnictví
 
-In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs MUST be used as values of the property `dcterms:format`. Controlled value strings SHOULD be used as values of the property `dc:format`.
+V souladu s [dokumentem Audiovisual Core Term List](http://rs.tdwg.org/ac/doc/termlist/) MUSÍ být jako hodnoty vlastnosti `dcterms:format` použity nezkrácené termíny IRI. Jako hodnoty vlastnosti `dc:format` by se MĚLY používat řízené hodnotové řetězce.
 
-### 2.2 Relationship between concepts and concept schemes
+### 2.2 Vztah mezi pojmy a pojmovými schématy
 
-The entry for the property `dc:format` in the [Audiovisual Core term list document](http://rs.tdwg.org/ac/doc/termlist/#dc_format) specifies that three kinds of string values are RECOMMENDED: Internet Media Types (MIME types), special string values for physical media, or commonly used file extensions. This controlled vocabulary defines two SKOS concept schemes, a concept scheme for media types and physical media (the first two kinds of values specified for `dc:type`) and a concept scheme for file extensions (the last recommended kind of value). Because the Internet Assigned Numbers Authority (IANA) maintains a [registry of media types](https://www.iana.org/assignments/media-types/media-types.xhtml) and Audiovisual Core maintains a controlled list of physical media types, using values from the media types and physical media concept scheme is RECOMMENDED over the file extensions concept scheme.
+Záznam pro vlastnost `dc:format` v [dokumentu se seznamem základních audiovizuálních termínů](http://rs.tdwg.org/ac/doc/termlist/#dc_format) uvádí, že se DOPORUČUJÍ tři druhy řetězcových hodnot: typy internetových médií (typy MIME), speciální řetězcové hodnoty pro fyzická média nebo běžně používané přípony souborů. Tento řízený slovník definuje dvě schémata pojmů SKOS, schéma pojmů pro typy médií a fyzická média (první dva druhy hodnot specifikované pro `dc:type`) a schéma pojmů pro přípony souborů (poslední doporučený druh hodnoty). Protože organizace Internet Assigned Numbers Authority (IANA) vede [registr typů médií](https://www.iana.org/assignments/media-types/media-types.xhtml) a Audiovisual Core vede řízený seznam typů fyzických médií, DOPORUČUJE se používat hodnoty z koncepčního schématu typů médií a fyzických médií namísto koncepčního schématu přípon souborů.
 
-The concept scheme for media types and physical media defines a `skos:broader` relation between each specific media type or physical medium and one of the six [Top-level Media Types defined by RFC 2046](https://tools.ietf.org/html/rfc2046#page-4V) that are related to multimedia: application, audio, image, model, text, and video. This relation MAY be used by clients to infer the general category of the media item format.
+Koncepční schéma pro typy médií a fyzická média definuje vztah `skos:broader` mezi každým konkrétním typem média nebo fyzickým médiem a jedním ze šesti [typů médií nejvyšší úrovně definovaných v RFC 2046](https://tools.ietf.org/html/rfc2046#page-4V), které souvisejí s multimédii: aplikace, zvuk, obraz, model, text a video. Tento vztah MŮŽE být použit klienty k odvození obecné kategorie formátu mediálního prvku.
 
-The concept scheme for file extensions defines concepts for many common file extensions used for digital media files. These concepts are usually related to one of the media types and physical media by a `skos:exactMatch` relation. Metadata creators MAY use a controlled value from the file extensions concept scheme, but because of the asserted `skos:exactMatch` relation aggregators MAY substitute the equivalent value from the media types and physical media concept scheme.
+Koncepční schéma pro přípony souborů definuje pojmy pro mnoho běžných přípon souborů používaných pro soubory digitálních médií. Tyto pojmy jsou obvykle spojeny s jedním z typů médií a fyzickými médii pomocí relace `skos:exactMatch`. Tvůrci metadat MOHOU použít řízenou hodnotu ze schématu pojmů přípon souborů, ale kvůli deklarované relaci `skos:exactMatch` MOHOU agregátoři nahradit ekvivalentní hodnotu ze schématu pojmů typů médií a fyzických médií.
 
-### 2.3 Example workflows (non-normative)
+### 2.3 Příklady pracovních postupů (nenormativní)
 
-Workflow 1: A data provider uses spreadsheets containing a column for literal values for `dc:format`. The spreadsheets are populated with file extensions that are controlled string values from the concept scheme for file extensions. The spreadsheets are provided to an aggregator whose software "looks up" the controlled string values in the concept scheme for file extensions and determines the equivalent concepts from the concept scheme for media types and physical media. The IRIs from the concept scheme for media types and physical media are used as standardized values for `dcterms:format` in the aggregator's database.
+Pracovní postup 1: Poskytovatel dat používá tabulky obsahující sloupec pro doslovné hodnoty pro `dc:format`. Tabulky jsou vyplněny příponami souborů, které jsou řízenými hodnotami řetězců z koncepčního schématu pro přípony souborů. Tabulky jsou poskytovány agregátoru, jehož software „vyhledává“ kontrolované řetězcové hodnoty v koncepčním schématu pro přípony souborů a určuje ekvivalentní pojmy z koncepčního schématu pro typy médií a fyzická média. IRI z koncepčního schématu pro typy médií a fyzická média se používají jako standardizované hodnoty pro `dcterms:format` v databázi agregátoru.
 
-Workflow 2: A data aggregator acquires data about multimedia items that includes file names or URLs, but no format information. The aggregator extracts the file extensions from the files or URLs and uses the concept schemes to assign a `dcterms:format` IRI value from the concept scheme for media types and physical media to each item. In cases where an item has a file extension that does not correspond to one of the controlled value strings in the concept scheme for file extensions, the aggregator uses a community-maintained table of alternate file extension values to determine the appropriate format concept for the media item.
+Pracovní postup 2: Agregátor dat získává data o multimediálních položkách, která zahrnují názvy souborů nebo adresy URL, ale neobsahují informace o formátu. Agregátor extrahuje přípony souborů ze souborů nebo adres URL a pomocí schémat pojmů přiřadí každé položce hodnotu IRI `dcterms:format` ze schématu pojmů pro typy médií a fyzická média. V případech, kdy má položka příponu souboru, která neodpovídá žádné z kontrolovaných hodnot v koncepčním schématu pro přípony souborů, agregátor použije tabulku alternativních hodnot přípon souborů spravovanou komunitou k určení vhodného formátu pro danou mediální položku.
 
-Workflow 3: A data aggregator harvests media items from an open data repository. The remote server provides the media type via a `Content-Type` header and the file extension is determined from the file name. The aggregator cross-checks the media type value against the file extension value and uses the `skos:exactMatch` relations in the SKOS concept schemes to determine whether the values are consistent. Inconsistent pairs of values are flagged for manual checking. Previously unknown file extensions are flagged for additional research and possible inclusion in the community-maintained table of alternate file extension values.
+Pracovní postup 3: Agregátor dat shromažďuje mediální položky z otevřeného úložiště dat. Vzdálený server poskytuje typ média prostřednictvím hlavičky `Content-Type` a přípona souboru se určuje podle názvu souboru. Agregátor porovnává hodnotu typu média s hodnotou přípony souboru a pomocí vztahů `skos:exactMatch` v koncepčních schématech SKOS určuje, zda jsou hodnoty konzistentní. Nekonzistentní páry hodnot jsou označeny pro ruční kontrolu. Dosud neznámé přípony souborů jsou označeny pro další výzkum a možné zařazení do komunitou spravované tabulky alternativních hodnot přípon souborů.
 
 ## 3 Index termínů
