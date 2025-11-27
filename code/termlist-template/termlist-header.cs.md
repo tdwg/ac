@@ -121,10 +121,10 @@ Některé termíny mají dvě verze, jedna očekává hodnotu doslovného řetě
 druhá URI. Za těchto okolností je verze očekávající řetězec
 pojmenována s příponou „Literal“, např. `ac:metadataLanguageLiteral`. V
 takových případech MŮŽOU být poskytnuty obě formy, ale je třeba dbát na to,
-aby použití odráželo stejný záměr. In case of ambiguity, the
-URI version prevails. All terms, including those whether or not with a
-specific "Literal" suffix, specify in their definition whether the
-required values are strings or URIs.
+aby použití odráželo stejný záměr. V případě nejednoznačnosti má přednost
+verze URI. Všechny termíny, včetně těch, které mají nebo nemají
+specifickou příponu „Literal“, specifikují ve své definici, zda jsou
+požadované hodnoty řetězce nebo URI.
 
-## 6 Vocabulary Indices (non-normative)
+## 6 Slovníkové indexy (nenormativní)
 
