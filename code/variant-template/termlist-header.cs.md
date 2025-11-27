@@ -64,6 +64,6 @@ V souladu s [dokumentem Audiovisual Core Term List](http://rs.tdwg.org/ac/doc/te
 
 ### 2.2 Vztah mezi hodnotami ac:variantLiteral a ac:variant
 
-IRI pro termín v tomto slovníku označuje stejný pojem jako pojem označený řízeným řetězcem hodnot pro stejný termín. Thus a client MAY infer an IRI value for `ac:variant` given a controlled value string for `ac:variantLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:variant` property in cases where providers only provide values for `ac:variantLiteral`.
+IRI pro termín v tomto slovníku označuje stejný pojem jako pojem označený řízeným řetězcem hodnot pro stejný termín. Klient tedy MŮŽE odvodit hodnotu IRI pro `ac:variant` na základě řízeného řetězce hodnot pro `ac:variantLiteral`, i když tato hodnota IRI není výslovně uvedena. Praktickým důsledkem je, že agregátoři dat MOHOU materializovat hodnoty pro preferovanou vlastnost `ac:variant` v případech, kdy poskytovatelé poskytují pouze hodnoty pro `ac:variantLiteral`.
 
 ## 3 Index termínů
