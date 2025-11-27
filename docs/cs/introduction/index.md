@@ -61,32 +61,31 @@ interactive online media including, e.g., identification tools. A
 multimedia collection is an assemblage of such objects, whether curated
 or not, and whether electronically accessible or not. For the purposes
 of this document we regard a collection of multimedia resources itself
-as a ‘multimedia resource’. Wherever discussion or specification can
-apply only to a collection or only to a single media resource, we say so
-explicitly.
+as a ‘multimedia resource’. Kdykoli se diskuse nebo specifikace může
+vztahovat pouze na sbírku nebo pouze na jeden mediální zdroj, výslovně to uvádíme.
 
-Multimedia descriptions are digital records that document underlying
-multimedia resources or collections. AC is focused on
-biodiversity-related multimedia resources. It shares terminology and
-concerns with many well-known and important standards for describing
-access to resources such as Dublin Core (DC), Darwin Core (DwC), the
-Adobe Extensible Metadata Platform (XMP), the International Press and
-Telecommunications Council (IPTC), the Metadata Working Group (MWG)
-schema, the Natural Collections Schema (NCD), and others. Where there is
-an exact match to the usage of such standards, AC adopts their
-identifiers and definitions. Many collections of biodiversity multimedia
-already have descriptions of their media expressed in DwC or DC. By
-using those vocabularies where suitable, AC particularly intends to make
-it easy for such collections to reuse their existing descriptions,
-augmented where necessary by other
-terms
+Multimediální popisy jsou digitální záznamy, které dokumentují základní
+multimediální zdroje nebo sbírky. AC se zaměřuje na
+multimediální zdroje související s biologickou rozmanitostí. Sdílí terminologii a
+zájmy s mnoha známými a důležitými standardy pro popis
+přístupu k zdrojům, jako jsou Dublin Core (DC), Darwin Core (DwC),
+Adobe Extensible Metadata Platform (XMP), International Press and
+Telecommunications Council (IPTC), Metadata Working Group (MWG)
+schema, Natural Collections Schema (NCD) a další. V případě
+přesné shody s použitím těchto standardů přijímá AC jejich
+identifikátory a definice. Mnohé sbírky multimédií o biologické rozmanitosti
+již obsahují popisy svých médií vyjádřené v DwC nebo DC. Používáním
+těchto slovníků tam, kde je to vhodné, chce AC zejména usnadnit
+opětovné použití stávajících popisů v těchto sbírkách,
+v případě potřeby doplněných o další
+termíny
 
-**See also:** Discovery and Publishing of Primary Biodiversity Data
-associated with Multimedia Resources: The Audiovisual Core Strategies and
-Approaches. R.
-Morris et al., _Biodiversity Informatics,_ 8, jul. 2013.
+**Viz také:** Objevování a publikování primárních dat o biologické rozmanitosti
+spojených s multimediálními zdroji: Audiovizuální základní strategie a
+přístupy. R.
+Morris et al., _Biodiversity Informatics,_ 8, červenec. 2013.
 
-## 2 Audiovisual Core terms
+## 2 Základní pojmy Audiovisual Core
 
 An Audiovisual Core record is a description of a multimedia resource using
 the [Audiovisual Core terms](./terms). Two kinds
