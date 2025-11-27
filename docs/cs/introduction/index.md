@@ -12,13 +12,13 @@ Date created
 Part of TDWG Standard
 : <http://www.tdwg.org/standards/638>
 
-This version
+Tato verze
 : <http://rs.tdwg.org/ac/doc/introduction/2023-02-24>
 
-Latest version
+Poslední verze
 : <http://rs.tdwg.org/ac/doc/introduction/>
 
-Previous version
+Předchozí verze
 : <http://rs.tdwg.org/ac/doc/introduction/2013-10-23>
 
 Abstract
