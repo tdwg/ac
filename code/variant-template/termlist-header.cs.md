@@ -3,10 +3,10 @@
 Název
 : {document_title}
 
-Namespace IRI
+IRI Jmenného prostoru
 : <http://rs.tdwg.org/acvariant/values/>
 
-Preferred namespace abbreviation
+Preferovaná zkratka jmenného prostoru
 : acvariant:
 
 Datum vydání verze
@@ -40,7 +40,7 @@ Bibliografická citace
 
 ## 1 Úvod (informativní)
 
-This document includes terms intended to be used as a controlled value for Audiovisual Core terms `ac:variant` and `ac:variantLiteral`.
+Tento dokument obsahuje termíny, které mají být použity jako řízené hodnoty pro Audiovisual Core termíny `ac:variant` and `ac:variantLiteral`.
 
 ### 1.1 Status obsahu tohoto dokumentu
 
@@ -60,10 +60,10 @@ Klíčová slova "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 
 ### 2.1 Vztah hodnotových typů k pojmům vlastnictví
 
-In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs SHOULD be used as values of the property `ac:variant`. Controlled value strings SHOULD be used as values of the property `ac:variantLiteral`.
+V souladu s [dokumentem Audiovisual Core Term List](http://rs.tdwg.org/ac/doc/termlist/) by se jako hodnoty vlastnosti `ac:variant` MĚLY používat nezkrácené termíny IRI. Jako hodnoty vlastnosti `ac:variantLiteral` by se MĚLY používat řízené hodnotové řetězce.
 
-### 2.2 Relationship between values of ac:variantLiteral and ac:variant
+### 2.2 Vztah mezi hodnotami ac:variantLiteral a ac:variant
 
-An IRI for a term in this vocabulary denotes the same concept as the concept denoted by the controlled value string for the same term. Thus a client MAY infer an IRI value for `ac:variant` given a controlled value string for `ac:variantLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:variant` property in cases where providers only provide values for `ac:variantLiteral`.
+IRI pro termín v tomto slovníku označuje stejný pojem jako pojem označený řízeným řetězcem hodnot pro stejný termín. Thus a client MAY infer an IRI value for `ac:variant` given a controlled value string for `ac:variantLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:variant` property in cases where providers only provide values for `ac:variantLiteral`.
 
 ## 3 Index termínů
