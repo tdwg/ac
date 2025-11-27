@@ -51,60 +51,60 @@ pomocí slovníků AC. Tento dokument specifikuje tři druhy termínů:
 termíny, které popisují aspekty médií nezávislé na reprezentaci,
 termíny, které popisují aspekty závislé na reprezentaci, a termíny, které označují specifikované části mediálního prvku.
 Většina termínů je nezávislá na reprezentaci a odkazuje na „abstraktní
-multimediální zdroj“. One such term, `ac:hasServiceAccessPoint`, refers to
-or contains representation-dependent service access point metadata
-describing a digital representation of the abstract multimedia resource (an instance of the `ac:ServiceAccessPoint` class).
-These metadata describe such things as a web address at which a digital
-representation can be retrieved, and the format, extent, or licenses
-that describe a particular such representation. A multimedia resource
-may provide several access points for different representations (e.g.,
-different resolutions). The resource may also be linked to one or more Regions of Interest (ROI) that define parts within the media item (instances of the `ac:RegionOfInterest` class).
+multimediální zdroj“. Jeden z těchto termínů, `ac:hasServiceAccessPoint`, odkazuje na
+nebo obsahuje metadata přístupového bodu služby závislá na reprezentaci,
+která popisují digitální reprezentaci abstraktního multimediálního zdroje (instance třídy `ac:ServiceAccessPoint`).
+Tato metadata popisují například webovou adresu, na které lze digitální
+reprezentaci získat, a formát, rozsah nebo licence,
+které popisují konkrétní reprezentaci. Multimediální zdroj
+může poskytovat několik přístupových bodů pro různé reprezentace (např.
+různá rozlišení). Zdroj může být také propojen s jednou nebo více oblastmi zájmu (ROI), které definují části v rámci mediální položky (instance třídy `ac:RegionOfInterest`).
 
-## 2 Borrowed Vocabulary
+## 2 Převzatý slovník
 
-When terms are borrowed from other vocabularies, AC uses the URIs,
-common abbreviations, and namespace prefixes in use in those
-vocabularies. The URIs are normative, but abbreviations and namespace
-prefixes have no impact except as an aid to reading the documentation.
+Při přebírání termínů z jiných slovníků používá AC URI,
+běžné zkratky a předpony jmenných prostorů používané v těchto
+slovnících. URI jsou normativní, ale zkratky a předpony jmenných prostorů
+nemají žádný vliv, kromě toho, že usnadňují čtení dokumentace.
 
-Table 1. Vocabularies from which terms have been borrowed (non-normative)
+Tabulka 1. Slovníky, ze kterých byly termíny převzaty (nenormativní)
 
-Note: URIs for terms in most of these namespaces do not dereference to anything.  The authoritative documentation can be obtained by clicking on the vocabulary names in the table.
+Poznámka: URI pro termíny ve většině těchto jmenných prostorů neodkazují na nic.  Autoritativní dokumentaci lze získat kliknutím na názvy slovníku v tabulce.
 
-| Slovník                                                                                                                                                                                                | Abbreviation | Namespaces and abbreviations                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------- |
-| [Darwin Core](http://rs.tdwg.org/dwc/doc/list/)                                                                                                                                                        | DwC          | `dwc: = http://rs.tdwg.org/dwc/terms/`                                                  |
-| [Dublin Core](http://dublincore.org/documents/dcmi-terms/)                                                                                                                                             | DC           | `dc: = http://purl.org/dc/elements/1.1/, dcterms: = http://purl.org/dc/terms/`          |
-| [Adobe XMP Core Properties](https://github.com/adobe/XMP-Toolkit-SDK/blob/main/docs/XMPSpecificationPart1.pdf)                                                                                         | XMP          | `xmp: = http://ns.adobe.com/xap/1.0/, xmpRights: = http://ns.adobe.com/xap/1.0/rights/` |
-| [Adobe XMP Additional Properties](https://github.com/adobe/XMP-Toolkit-SDK/blob/main/docs/XMPSpecificationPart2.pdf)                                                                                   | XMP          | `photoshop: = http://ns.adobe.com/photoshop/1.0/`                                       |
-| [International Press and Telecommunications Council Photo Metadata Standard,Extension Schema 1.1](http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf) | IPTC         | `Iptc4xmpExt: = http://iptc.org/std/Iptc4xmpExt/2008-02-29/`                            |
-| [Camera and Imaging Products Association Exchangeable Image File Format](http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf)                                                                         | EXIF         | `exif: = http://ns.adobe.com/exif/1.0/`                                                 |
-| [Music Ontology](http://musicontology.com/specification/)                                                                                                                                              | MO           | `mo: = http://purl.org/ontology/mo/`                                                    |
-| [TDWG Natural Collection Description LSID Ontology](https://github.com/tdwg/ontology/blob/master/ontology/voc/Collection.rdf) (referenced in metadata, but no terms borrowed)       | NCD          | `ncd: = http://rs.tdwg.org/ontology/voc/Collection#`                                    |
+| Slovník                                                                                                                                                                                                | Zkratka | Jmenné prostory a zkratky                                                               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- | --------------------------------------------------------------------------------------- |
+| [Darwin Core](http://rs.tdwg.org/dwc/doc/list/)                                                                                                                                                        | DwC     | `dwc: = http://rs.tdwg.org/dwc/terms/`                                                  |
+| [Dublin Core](http://dublincore.org/documents/dcmi-terms/)                                                                                                                                             | DC      | `dc: = http://purl.org/dc/elements/1.1/, dcterms: = http://purl.org/dc/terms/`          |
+| [Adobe XMP Core Properties](https://github.com/adobe/XMP-Toolkit-SDK/blob/main/docs/XMPSpecificationPart1.pdf)                                                                                         | XMP     | `xmp: = http://ns.adobe.com/xap/1.0/, xmpRights: = http://ns.adobe.com/xap/1.0/rights/` |
+| [Adobe XMP Additional Properties](https://github.com/adobe/XMP-Toolkit-SDK/blob/main/docs/XMPSpecificationPart2.pdf)                                                                                   | XMP     | `photoshop: = http://ns.adobe.com/photoshop/1.0/`                                       |
+| [International Press and Telecommunications Council Photo Metadata Standard,Extension Schema 1.1](http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf) | IPTC    | `Iptc4xmpExt: = http://iptc.org/std/Iptc4xmpExt/2008-02-29/`                            |
+| [Camera and Imaging Products Association Exchangeable Image File Format](http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf)                                                                         | EXIF    | `exif: = http://ns.adobe.com/exif/1.0/`                                                 |
+| [Music Ontology](http://musicontology.com/specification/)                                                                                                                                              | MO      | `mo: = http://purl.org/ontology/mo/`                                                    |
+| [TDWG Natural Collection Description LSID Ontology](https://github.com/tdwg/ontology/blob/master/ontology/voc/Collection.rdf) (odkazováno v metadatech, ale žádné výrazy převzaty)  | NCD     | `ncd: = http://rs.tdwg.org/ontology/voc/Collection#`                                    |
 
-## 3 Namespaces, Prefixes and Term Names
+## 3 Jmenné prostory, předpony a názvy termínů
 
-The namespace of terms borrowed from other vocabularies is that of the
-original. The namespace of de novo AC terms is
-`http://rs.tdwg.org/ac/terms/`. In the table of terms, each term entry has
-a row with the term name. This term name is generally an "unqualified
-name" preceded by a widely accepted prefix designating an abbreviation
-for the namespace It is RECOMMENDED that implementers who need a
-namespace prefix for the AC namespace use `ac`. In this web document,
-hovering over a term in the [Index By Term Name](#61-index-by-term-name)
-list below will reveal a complete URL that can be used in other web
-documents to link to _this_ document's treatment of that term, even if
-it is from a borrowed vocabulary. It is very important to note that some
-vocabularies, e.g those of the
+Jmenný prostor termínů převzatých z jiných slovníků je stejný jako
+původní. Jmenný prostor termínů de novo AC je
+`http://rs.tdwg.org/ac/terms/`. V tabulce termínů má každý termínový záznam
+řádek s názvem termínu. Tento termín je obecně „nekvalifikovaným
+názvem“, před kterým je široce přijímaná předpona označující zkratku
+pro jmenný prostor. DOPORUČUJE se, aby implementátoři, kteří potřebují
+předponu jmenného prostoru pro jmenný prostor AC, použili `ac`. V tomto webovém dokumentu
+se po najetí kurzorem na termín v seznamu [Index podle názvu termínu](#61-index-by-term-name)
+zobrazí úplná URL adresa, kterou lze použít v jiných webových
+dokumentech k odkazování na _tento_ dokument, který se zabývá daným termínem, i když
+pochází z převzatého slovníku. Je velmi důležité si uvědomit, že některé
+slovníky, např. slovníky
 [Dublin Core Metadata Initiative (DCMI)](https://www.dublincore.org/),
-provide versions of the same term in two different namespaces, one
-providing for string values and one providing for URIs, even where that
-separation is simply a recommendation, not a mandate. See this
-[DCMI wiki entry](https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md)
-on this topic. For vocabularies where such a practice is in place, we
-often follow it and signal a reference in the Notes of our term
-descriptions to the sister version of the term. An example is the pair
-[dc:type](#dc_type) and [dcterms:type](#dcterms_type). When such a pair allows repeated instances (e.g. as for [dc:source](#dc_source) and [dcterms:source](#dcterms_source)), particular care may be required in some
+poskytují verze stejného termínu ve dvou různých jmenných prostorech, z nichž jeden
+poskytuje řetězcové hodnoty a druhý poskytuje URI, i když je toto
+oddělení pouze doporučením, nikoli povinností. Viz tento
+[záznam na wiki DCMI](https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md)
+k tomuto tématu. U slovníků, kde se taková praxe používá, ji
+často dodržujeme a v poznámkách k popisu termínů odkazujeme
+na sesterskou verzi termínu. Příkladem je dvojice
+[dc:type](#dc_type) a [dcterms:type](#dcterms_type). When such a pair allows repeated instances (e.g. as for [dc:source](#dc_source) and [dcterms:source](#dcterms_source)), particular care may be required in some
 implementations of AC, because
 some implementations may not provide enough structure to clearly state
 the association between the members of a pair in the case of multiple
