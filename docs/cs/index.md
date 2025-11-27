@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: domů
 ---
 
 # Audiovisual Core
