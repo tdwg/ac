@@ -104,24 +104,24 @@ oddělení pouze doporučením, nikoli povinností. Viz tento
 k tomuto tématu. U slovníků, kde se taková praxe používá, ji
 často dodržujeme a v poznámkách k popisu termínů odkazujeme
 na sesterskou verzi termínu. Příkladem je dvojice
-[dc:type](#dc_type) a [dcterms:type](#dcterms_type). When such a pair allows repeated instances (e.g. as for [dc:source](#dc_source) and [dcterms:source](#dcterms_source)), particular care may be required in some
-implementations of AC, because
-some implementations may not provide enough structure to clearly state
-the association between the members of a pair in the case of multiple
-values of each. This is a special case of the issue treated in the
-normative material on [Multiplicity and Cardinality](../structure/#3-multiplicity-and-cardinality) in the Audiovisual Core Structure document.
+[dc:type](#dc_type) a [dcterms:type](#dcterms_type). Pokud takový pár umožňuje opakované instance (např. jako u [dc:source](#dc_source) a [dcterms:source](#dcterms_source)), může být v některých
+implementacích AC zapotřebí zvláštní opatrnost, protože
+některé implementace nemusí poskytovat dostatečnou strukturu k jasnému vyjádření
+vztahu mezi členy páru v případě více
+hodnot každého z nich. Jedná se o zvláštní případ problému, který je řešen v
+normativním materiálu o [multiplicitě a kardinalitě](../structure/#3-multiplicity-and-cardinality) v dokumentu Audiovisual Core Structure.
 
-## 4 Layers
+## 4 Vrstvy
 
-(The Audiovisual Core layer property has been deprecated as of 2020-01-27)
+(Vlastnost Audiovisual Core layer byla k 27. 1. 2020 označena jako zastaralá)
 
-## 5 Literal- vs. URI-valued Terms
+## 5 Termíny s doslovnou hodnotou vs. termíny s hodnotou URI
 
-Some terms have two versions, one expecting a string literal value and
-the other a URI. In these circumstances, the version expecting a string
-is named with the suffix "Literal", e.g. `ac:metadataLanguageLiteral`. In
-such cases, both forms MAY be provided, but care should be taken to
-ensure that the uses reflect the same intent. In case of ambiguity, the
+Některé termíny mají dvě verze, jedna očekává hodnotu doslovného řetězce a
+druhá URI. Za těchto okolností je verze očekávající řetězec
+pojmenována s příponou „Literal“, např. `ac:metadataLanguageLiteral`. V
+takových případech MŮŽOU být poskytnuty obě formy, ale je třeba dbát na to,
+aby použití odráželo stejný záměr. In case of ambiguity, the
 URI version prevails. All terms, including those whether or not with a
 specific "Literal" suffix, specify in their definition whether the
 required values are strings or URIs.
