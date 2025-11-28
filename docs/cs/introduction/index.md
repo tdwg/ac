@@ -1,9 +1,9 @@
-# Audiovisual Core Introduction
+# Úvod do Audiovisual Core
 
-Title
-: Audiovisual Core Introduction
+Název
+: Úvod do Audiovisual Core
 
-Date version issued
+Datum vydání verze
 : 2023-02-24
 
 Datum vytvoření
@@ -49,16 +49,16 @@ Všechny části tohoto dokumentu jsou nenormativní.
 
 Audiovisual Core Multimedia Resources Metadata schema („schéma AC“ nebo
 jednoduše „AC“) je soubor slovníků metadat pro popis
-multimediálních zdrojů a sbírek souvisejících s biologickou rozmanitostí. The
-specification is independent of how these vocabularies may be
-represented for machine use.
+multimediálních zdrojů a sbírek souvisejících s biologickou rozmanitostí. Specifikace
+je nezávislá na tom, jak mohou být tyto slovníky
+zobrazeny pro strojové využití.
 
-Multimedia Resources are digital or physical artifacts which normally
-comprise more than text. These include pictures, artwork, drawings,
-photographs, sound, video, animations, presentation materials, and
-interactive online media including, e.g., identification tools. A
-multimedia collection is an assemblage of such objects, whether curated
-or not, and whether electronically accessible or not. For the purposes
+Multimediální zdroje jsou digitální nebo fyzické artefakty, které obvykle
+obsahují více než jen text. Mezi ně patří obrázky, umělecká díla, kresby,
+fotografie, zvukové záznamy, videa, animace, prezentační materiály a
+interaktivní online média, včetně např. identifikačních nástrojů. Multimediální
+sbírka je souborem takovýchto objektů, ať už kurátorských
+či nikoli, a ať už elektronicky přístupných či nikoli. For the purposes
 of this document we regard a collection of multimedia resources itself
 as a ‘multimedia resource’. Kdykoli se diskuse nebo specifikace může
 vztahovat pouze na sbírku nebo pouze na jeden mediální zdroj, výslovně to uvádíme.
