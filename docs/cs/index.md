@@ -4,7 +4,7 @@ layout: domů
 
 # Audiovisual Core
 
-<p class="lead">Audiovisual Core is a <a href="https://www.tdwg.org/">TDWG</a> standard maintained by the <a href="https://www.tdwg.org/community/ac/">Audiovisual Core Maintenance Interest Group</a>. It includes a <a href="termlist/">main vocabulary</a> and several controlled vocabularies, as well as several guides that explain how the vocabularies should be used. The purpose of Audiovisual Core is to represent metadata for biodiversity multimedia resources and collections, and to make it possible for users to determine whether those resources would be fit for some biodiversity science application before acquiring the media.</p>
+<p class="lead">Audiovisual Core je standard <a href="https://www.tdwg.org/">TDWG</a> spravovaný skupinou <a href="https://www.tdwg.org/community/ac/">Audiovisual Core Maintenance Interest Group</a>. Zahrnuje <a href="termlist/">hlavní slovník</a> a několik řízených slovníků, stejně jako několik příruček, které vysvětlují, jak by se slovníky měly používat. Účelem Audiovisual Core je reprezentovat metadata pro multimediální zdroje a sbírky týkající se biologické rozmanitosti a umožnit uživatelům před pořízením médií určit, zda jsou tyto zdroje vhodné pro některé aplikace v oblasti vědy o biologické rozmanitosti.</p>
 
 ## Začínáme
 
