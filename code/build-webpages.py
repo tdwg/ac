@@ -21,7 +21,7 @@ import dwcterms
 # -----------------
 # Configuration section
 # -----------------
-languages = ['en', 'es', 'pt', 'de', 'fr', 'ko', 'nl', 'ru', 'zh-Hant']
+languages = ['en', 'cs', 'de', 'es', 'fr', 'ja', 'ko', 'nl', 'pt', 'ru', 'zh-Hant']
 
 # -----------------
 # Command line arguments
@@ -701,54 +701,54 @@ ac_list = TermList(
     terms = ac,
     vocabType = 1,
     organizedInCategories = True,
-    displayOrder = ['http://rs.tdwg.org/dwc/terms/attributes/Management', 
-'http://rs.tdwg.org/dwc/terms/attributes/Attribution', 
-'http://purl.org/dc/terms/Agent', 
-'http://rs.tdwg.org/dwc/terms/attributes/ContentCoverage', 
-'http://purl.org/dc/terms/Location', 
-'http://purl.org/dc/terms/PeriodOfTime', 
-'http://rs.tdwg.org/dwc/terms/attributes/TaxonomicCoverage', 
-'http://rs.tdwg.org/dwc/terms/attributes/ResourceCreation', 
-'http://rs.tdwg.org/dwc/terms/attributes/RelatedResources', 
-'http://rs.tdwg.org/ac/terms/ServiceAccessPoint',
-'http://rs.tdwg.org/ac/terms/RegionOfInterest'
-],
-    displayLabel = ['Management Vocabulary', 
-'Attribution Vocabulary', 
-'Agents Vocabulary', 
-'Content Coverage Vocabulary', 
-'Geography Vocabulary', 
-'Temporal Coverage Vocabulary', 
-'Taxonomic Coverage Vocabulary', 
-'Resource Creation Vocabulary', 
-'Related Resources Vocabulary', 
-'Service Access Point Vocabulary',
-'Region of Interest Vocabulary'
-],
+    displayOrder = ['http://rs.tdwg.org/dwc/terms/attributes/Management',
+                    'http://rs.tdwg.org/dwc/terms/attributes/Attribution',
+                    'http://purl.org/dc/terms/Agent',
+                    'http://rs.tdwg.org/dwc/terms/attributes/ContentCoverage',
+                    'http://purl.org/dc/terms/Location',
+                    'http://purl.org/dc/terms/PeriodOfTime',
+                    'http://rs.tdwg.org/dwc/terms/attributes/TaxonomicCoverage',
+                    'http://rs.tdwg.org/dwc/terms/attributes/ResourceCreation',
+                    'http://rs.tdwg.org/dwc/terms/attributes/RelatedResources',
+                    'http://rs.tdwg.org/ac/terms/ServiceAccessPoint',
+                    'http://rs.tdwg.org/ac/terms/RegionOfInterest'
+                    ],
+    displayLabel = ['Management Vocabulary',
+                    'Attribution Vocabulary',
+                    'Agents Vocabulary',
+                    'Content Coverage Vocabulary',
+                    'Geography Vocabulary',
+                    'Temporal Coverage Vocabulary',
+                    'Taxonomic Coverage Vocabulary',
+                    'Resource Creation Vocabulary',
+                    'Related Resources Vocabulary',
+                    'Service Access Point Vocabulary',
+                    'Region of Interest Vocabulary'
+                    ],
     displayComments = ['',
-'',
-'',
-'',
-'Note that [dwc:locality](http://rs.tdwg.org/dwc/terms/locality) may be used, but as applied to media this term may be ambiguous as to whether it applies to the location depicted or the location at which the media was created. When disambiguating information is available, it is better to use the terms Location Shown and Location Created. The latter is in the Resource Creation Vocabulary.\n\nLocation Created and Location Shown are separated in the current version of IPTC, and the Metadata Working Group ([Metadata Working Group Guidelines for Handling Image Metadata, Version 2.0, November 2010](https://web.archive.org/web/20180919181934/http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf)) also recommends this. We follow this below in order to support the expected future increase of automatic GPS-based coordinate recording. As a special case, the AC group recommends to change the semantics of Location Shown in the case of biodiversity specimens, where the original location may differ from the current location at which the specimen is held in a collection. In this case, Location Shown should exclusively refer to the location where a specimen was originally collected (gathering or sampling location). Use Location Created to express the location where the resource was created (a specimen was digitized).\n\n',
-'',
-'',
-'',
-'',
-'These terms are representation-dependent metadata, referring to specific digital representations of a resource (e.g., a specific resolution, quality, or format). They are used within whatever a particular AC implementation assigns to the value of `ac:hasServiceAccessPoint`, whose label is simply "Service Access Point." Note that it is possible for an implementation to use syntactic conventions that avoid direct use of `ac:hasServiceAccessPoint`, as illustrated in the final example in the section [Multiplicity/Cardinality in the Audiovisual Core Structure document](structure.md#3-multiplicity-and-cardinality).\n\n', 
-'Regions of Interest (ROI) designate specific parts of media items. Features within these regions can be taxonomically identified or linked to occurrence records. ROI metadata may also be used to generate annotations of the media item or to facilitate display or highlighting of specific parts. \n\nCurrently spatial ROIs are limited to two dimensions and can only be defined by rectangles or arcs (including circles). The terms in this group are not repeatable within a single ROI instance, although a media item may be linked to more than one ROI by the `ac:hasROI` property.\n\n For examples showing how to use these terms, see the <a href="https://github.com/tdwg/ac/blob/master/roi-recipes.md">ROI Recipes</a> page.\n\n'
+                       '',
+                       '',
+                       '',
+                       'Note that [dwc:locality](http://rs.tdwg.org/dwc/terms/locality) may be used, but as applied to media this term may be ambiguous as to whether it applies to the location depicted or the location at which the media was created. When disambiguating information is available, it is better to use the terms Location Shown and Location Created. The latter is in the Resource Creation Vocabulary.\n\nLocation Created and Location Shown are separated in the current version of IPTC, and the Metadata Working Group ([Metadata Working Group Guidelines for Handling Image Metadata, Version 2.0, November 2010](https://web.archive.org/web/20180919181934/http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf)) also recommends this. We follow this below in order to support the expected future increase of automatic GPS-based coordinate recording. As a special case, the AC group recommends to change the semantics of Location Shown in the case of biodiversity specimens, where the original location may differ from the current location at which the specimen is held in a collection. In this case, Location Shown should exclusively refer to the location where a specimen was originally collected (gathering or sampling location). Use Location Created to express the location where the resource was created (a specimen was digitized).\n\n',
+                       '',
+                       '',
+                       '',
+                       '',
+                       'These terms are representation-dependent metadata, referring to specific digital representations of a resource (e.g., a specific resolution, quality, or format). They are used within whatever a particular AC implementation assigns to the value of `ac:hasServiceAccessPoint`, whose label is simply "Service Access Point." Note that it is possible for an implementation to use syntactic conventions that avoid direct use of `ac:hasServiceAccessPoint`, as illustrated in the final example in the section [Multiplicity/Cardinality in the Audiovisual Core Structure document](structure.md#3-multiplicity-and-cardinality).\n\n',
+                       'Regions of Interest (ROI) designate specific parts of media items. Features within these regions can be taxonomically identified or linked to occurrence records. ROI metadata may also be used to generate annotations of the media item or to facilitate display or highlighting of specific parts. \n\nCurrently spatial ROIs are limited to two dimensions and can only be defined by rectangles or arcs (including circles). The terms in this group are not repeatable within a single ROI instance, although a media item may be linked to more than one ROI by the `ac:hasROI` property.\n\n For examples showing how to use these terms, see the <a href="https://github.com/tdwg/ac/blob/master/roi-recipes.md">ROI Recipes</a> page.\n\n'
 ],
-    displayId = ['Management_Vocabulary', 
-'Attribution_Vocabulary', 
-'Agents_Vocabulary', 
-'Content_Coverage_Vocabulary', 
-'Geography_Vocabulary', 
-'Temporal_Coverage_Vocabulary', 
-'Taxonomic_Coverage_Vocabulary', 
-'Resource_Creation_Vocabulary', 
-'Related_Resources_Vocabulary', 
-'Service_Access_Point_Vocabulary',
-'Region_of_Interest_Vocabulary'
-]
+    displayId = ['Management_Vocabulary',
+                 'Attribution_Vocabulary',
+                 'Agents_Vocabulary',
+                 'Content_Coverage_Vocabulary',
+                 'Geography_Vocabulary',
+                 'Temporal_Coverage_Vocabulary',
+                 'Taxonomic_Coverage_Vocabulary',
+                 'Resource_Creation_Vocabulary',
+                 'Related_Resources_Vocabulary',
+                 'Service_Access_Point_Vocabulary',
+                 'Region_of_Interest_Vocabulary'
+                 ]
 )
 
 # Because different docs have a different section number for the indices, indicate it here.
