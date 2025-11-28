@@ -1,5 +1,5 @@
 ---
-layout: domů
+layout: home
 ---
 
 # Audiovisual Core
@@ -8,8 +8,8 @@ layout: domů
 
 ## Začínáme
 
-- [Introduction to Audiovisual Core](introduction/)
+- [Úvod do Audiovisual Core](introduction/)
 - [Term list](termlist/): list of all terms included in the main Audiovisual Core vocabulary
-- Usage guides: [detailed guide to aims and uses](guide/) and [guide for structuring records](structure/)
-- Examples: work-in-progress pages to document how Audiovisual Core is used "in the wild" for [still images](https://github.com/tdwg/ac/blob/master/image/examples.md). Pages for sound and video to come...
-- [GitHub repository](https://github.com/tdwg/ac): where Audiovisual Core is maintained. It includes detailed records of the development of the standard and information about the day-to-day operations of the Maintenance Group. This is the place to go if you want to become involved in improving Audiovisual Core.
+- Návody k použití: [podrobný návod k cílům a použití](guide/) a [návod ke strukturování záznamů](structure/)
+- Příklady: stránky ve vývoji, které dokumentují, jak se Audiovisual Core používá „v praxi“ pro [statické obrázky](https://github.com/tdwg/ac/blob/master/image/examples.md). Stránky pro zvuk a video budou brzy k dispozici...
+- [repozitář GitHub](https://github.com/tdwg/ac): kde je udržován Audiovisual Core. It includes detailed records of the development of the standard and information about the day-to-day operations of the Maintenance Group. This is the place to go if you want to become involved in improving Audiovisual Core.
