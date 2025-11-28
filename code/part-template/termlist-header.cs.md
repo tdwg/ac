@@ -50,7 +50,7 @@ Oddíl 2 je normativní, pokud není uvedeno jinak.
 
 Oddíl 3 je informativní.
 
-V oddíle 4 jsou hodnoty `Term IRI`, `Definice` a `Kontrolovaná hodnota` normativní. Hodnota `Použití` (pokud pro daný termín existuje) je normativní.  Hodnota `Má širší pojem` je normativní. Hodnoty `Název termínu` nejsou normativní, ačkoli lze očekávat, že prefix zkratky jmenného prostoru je prefix běžně používaný pro jmenný prostor termínu.  `Label` and the values of all other properties (such as `Examples` or `Notes`) are non-normative.
+V oddíle 4 jsou hodnoty `Term IRI`, `Definice` a `Kontrolovaná hodnota` normativní. Hodnota `Použití` (pokud pro daný termín existuje) je normativní.  Hodnota `Má širší pojem` je normativní. Hodnoty `Název termínu` nejsou normativní, ačkoli lze očekávat, že prefix zkratky jmenného prostoru je prefix běžně používaný pro jmenný prostor termínu.  `Štítek` a hodnoty všech ostatních vlastností (například `Příklady` nebo `Poznámky`) nejsou normativní.
 
 ### 1.2 Klíčová slova RFC 2119
 
