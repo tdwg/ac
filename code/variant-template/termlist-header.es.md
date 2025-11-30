@@ -3,7 +3,7 @@
 Título
 : {document_title}
 
-Namespace IRI
+IRI del espacio de nombres
 : <http://rs.tdwg.org/acvariant/values/>
 
 Preferred namespace abbreviation
@@ -48,7 +48,7 @@ La Sección 1 es informativa (no normativa).
 
 La sección 2 es normativa.
 
-Section 3 is informative (non-normative).
+La Sección 3 es informativa (no normativa).
 
 En la Sección 4, los valores de `Término IRI`, `Definición` y `Valor controlado` son normativos. El valor de `Uso` (si existe para un término determinado) también es normativo. Los valores del `Nombre del término` no son normativos, aunque se puede esperar que el prefijo del namespace abreviado sea uno comúnmente utilizado para ese namespace.  La `Etiqueta` y los valores de todas las demás propiedades no son normativos.
 
