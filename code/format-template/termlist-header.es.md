@@ -60,7 +60,7 @@ Las palabras clave "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD
 
 ### 2.1 Relación de los tipos de valor con los términos de propiedad
 
-De acuerdo con el [documento de la Lista de términos básicos audiovisuales](http://rs.tdwg.org/ac/doc/termlist/), los términos IRI no abreviados DEBEN usarse como valores de la propiedad `dcterms:format`. Las cadenas de valores controlados DEBEN usarse como valores de la propiedad `dc:format`.
+De acuerdo con el [documento de la Lista de términos del Audiovisual Core](http://rs.tdwg.org/ac/doc/termlist/), los términos IRI no abreviados DEBEN usarse como valores de la propiedad `dcterms:format`. Las cadenas de valores controlados DEBEN usarse como valores de la propiedad `dc:format`.
 
 ### 2.2 Relación entre conceptos y esquemas de conceptos
 
@@ -76,6 +76,6 @@ Flujo de trabajo 1: Un proveedor de datos utiliza hojas de cálculo que contiene
 
 Flujo de trabajo 2: Un agregador de datos adquiere datos sobre elementos multimedia que incluyen nombres de archivos o URL, pero ninguna información de formato. El agregador extrae las extensiones de archivo de los archivos o URL y utiliza los esquemas de concepto para asignar un valor IRI `dcterms:format` del esquema de concepto para tipos de medios y medios físicos a cada elemento. En los casos en que un elemento tiene una extensión de archivo que no corresponde a una de las cadenas de valores controlados en el esquema de conceptos para extensiones de archivo, el agregador utiliza una tabla de valores de extensión de archivo alternativos, mantenida por la comunidad, para determinar el concepto de formato apropiado para el elemento multimedia.
 
-Flujo de trabajo 3: Un agregador de datos recopila elementos multimedia de un repositorio de datos abierto. The remote server provides the media type via a `Content-Type` header and the file extension is determined from the file name. The aggregator cross-checks the media type value against the file extension value and uses the `skos:exactMatch` relations in the SKOS concept schemes to determine whether the values are consistent. Inconsistent pairs of values are flagged for manual checking. Previously unknown file extensions are flagged for additional research and possible inclusion in the community-maintained table of alternate file extension values.
+Flujo de trabajo 3: Un agregador de datos recopila elementos multimedia de un repositorio de datos abierto. El servidor remoto proporciona el tipo de medio a través de un encabezado `Content-Type` y la extensión del archivo se determina a partir del nombre del archivo. El agregador verifica el valor del tipo de medio con el valor de la extensión del archivo y utiliza las relaciones `skos:exactMatch` en los esquemas de conceptos de SKOS para determinar si los valores son consistentes. Los pares de valores inconsistentes se marcan para verificación manual. Las extensiones de archivos previamente desconocidas se marcan para investigación adicional y posible inclusión en la tabla de valores de extensiones de archivos alternativos mantenida por la comunidad.
 
 ## 3 Índice de Términos
