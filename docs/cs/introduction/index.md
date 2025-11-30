@@ -103,32 +103,31 @@ které poskytují identifikátor, typ zdroje, jazyk
 popisu a informace o autorských právech. Každý takový záznam popisuje
 jediný multimediální zdroj (případně včetně sbírky). Identifikátor
 mohl být zdroji přidělen externím
-orgánem nebo poskytovatelem záznamu. Strictly speaking, the
-identifier is required only for Collections, but is strongly recommended
-in general.
+orgánem nebo poskytovatelem záznamu. Přísně vzato je
+identifikátor vyžadován pouze pro Sbírky, ale obecně se jeho použití důrazně doporučuje.
 
-Every Audiovisual Core term has a plain text Name, a term identifier and a
-plain text normative Definition. Term identifiers conform to the
-Universal Resource Identifier (URI)
-specification.
-Typically these identifiers have a form familiar to browser users as the
-addresses of web pages, beginning with "http://". Informally, one may
-understand this thusly: an http URI has the syntax of a web address, but
-there is no expectation that putting it in a web browser will result in
-any information being returned to the browser, and if it does, the
-return may have no relevance.
+Každý termín Audiovisual Core má název v prostém textu, identifikátor termínu a
+normativní definici v prostém textu. Identifikátory termínů odpovídají
+specifikaci
+[Universal Resource Identifier (URI)](http://tools.ietf.org/html/rfc2616#section-3.2).
+Tyto identifikátory mají obvykle podobu, která je uživatelům prohlížečů známá jako
+adresy webových stránek, začínající „http://“. Neformálně lze
+toto pochopit takto: http URI má syntaxi webové adresy, ale
+nelze očekávat, že jeho zadání do webového prohlížeče povede k
+vrácení jakýchkoli informací do prohlížeče, a pokud ano,
+vrácené informace nemusí mít žádný význam.
 
-Because http URIs are rather lengthy, AC documents follow a standard
-practice of introducing a short prefix comprising a "namespace
-qualifier" separated by a colon from a mnemonic name closely related to
-the term's Name. The namespace of the roughly 50% of the terms that are
-borrowed from other vocabularies is the namespace of the original. The
-namespace of de novo AC terms is http://rs.tdwg.org/ac/terms/. In the [Audiovisual Core Term List](../termlist/), each
-term entry has a row with the term name. Following the practice of the
-[Darwin Core terms](http://rs.tdwg.org/dwc/terms/), this term name
-is generally an "unqualified name" preceded by a widely accepted prefix
-designating an abbreviation for the namespace. The result is known as a
-qualified name. For example the normative wiki documentation for the
+Protože adresy URL jsou poměrně dlouhé, dokumenty AC se řídí standardní
+praxí zavádění krátké předpony sestávající z „kvalifikátoru jmenného prostoru“
+odděleného dvojtečkou od mnemotechnického názvu úzce souvisejícího s
+názvem termínu. Jmenný prostor s přibližně 50 % termínů, které jsou
+převzaty z jiných slovníků, je jmenný prostor originálu. Jmenný prostor
+termínů de novo AC je http://rs.tdwg.org/ac/terms/. V [Audiovisual Core Term List](../termlist/) má každý
+záznam termínu řádek s názvem termínu. V souladu s praxí
+[Darwin Core terms](http://rs.tdwg.org/dwc/terms/) je tento termín
+obecně „nekvalifikovaným názvem“, před kterým je široce přijímaná předpona
+označující zkratku pro jmenný prostor. Výsledek se nazývá
+kvalifikovaný název. For example the normative wiki documentation for the
 borrowed term dcterms:identifier has URI
 http://purl.org/dc/terms/identifier. The first part,
 "http://purl.org/dc/terms/" corresponds to the namespace. Most of the
