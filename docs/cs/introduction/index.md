@@ -133,9 +133,9 @@ http://purl.org/dc/terms/identifier. První část,
 "http://purl.org/dc/terms/", odpovídá jmennému prostoru. Většina
 URI pro termíny převzaté z externích slovníků ve skutečnosti vytváří
 relevantní dokumentaci pro daný externí standard, pokud jsou použity jako
-URL webové stránky. Sometimes it is not precise because the documentation is a PDF
-document and several (different!) URIs might apparently lead
-to the same place.
+URL webové stránky. Někdy to není přesné, protože dokumentace je ve formátu PDF
+a několik (různých!) URI mohou zjevně vést
+na stejné místo.
 
 ## 3 Implementace
 
@@ -143,10 +143,10 @@ The [AC Term List](../termlist/) and
 [Audiovisual Core Structure](../structure/)
 documents represent a _data model._ For actual use of Audiovisual Core, it
 is necessary to select an implementation, preferably one with some
-status designated by [TDWG](http://www.tdwg.org/). Known
-implementations will be listed in ancillary documents not included as part of the Audiovisual Core standard.
+status designated by [TDWG](http://www.tdwg.org/). Známé
+implementace budou uvedeny v doplňkových dokumentech, které nejsou součástí standardu Audiovisual Core.
 
-## 4 References
+## 4 Odkazy
 
 \|   |  
 \---|---|---
