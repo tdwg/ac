@@ -100,10 +100,10 @@ velikost takového získaného objektu atd. Záznam Audiovisual Core
 je tedy popis používající sadu termínů, která odpovídá
 normativním dokumentům a obsahuje alespoň čtyři povinné termíny,
 které poskytují identifikátor, typ zdroje, jazyk
-popisu a informace o autorských právech. Every such record describes a
-single multimedia resource (possibly including a Collection). The
-identifier may have been assigned to the resource by an external
-authority or by the provider of the record. Strictly speaking, the
+popisu a informace o autorských právech. Každý takový záznam popisuje
+jediný multimediální zdroj (případně včetně sbírky). Identifikátor
+mohl být zdroji přidělen externím
+orgánem nebo poskytovatelem záznamu. Strictly speaking, the
 identifier is required only for Collections, but is strongly recommended
 in general.
 
