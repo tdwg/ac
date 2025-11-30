@@ -1,161 +1,78 @@
-# Audiovisual Core Introduction
+# Introducción al Audiovisual Core
 
-Title
-: Audiovisual Core Introduction
+Título
+: Introducción al Audiovisual Core
 
-Date version issued
+Fecha de publicación de la versión
 : 2023-02-24
 
-Date created
+Fecha de creación
 : 2013-10-23
 
-Part of TDWG Standard
+Parte del Estándar TDWG
 : <http://www.tdwg.org/standards/638>
 
-This version
+Esta versión
 : <http://rs.tdwg.org/ac/doc/introduction/2023-02-24>
 
-Latest version
+Última versión
 : <http://rs.tdwg.org/ac/doc/introduction/>
 
-Previous version
+Versión anterior
 : <http://rs.tdwg.org/ac/doc/introduction/2013-10-23>
 
-Abstract
-: The Audiovisual Core is a set of vocabularies designed to represent metadata for biodiversity multimedia resources and collections. These vocabularies aim to represent information that will help to determine whether a particular resource or collection will be fit for some particular biodiversity science application before acquiring the media. Among others, the vocabularies address such concerns as the management of the media and collections, descriptions of their content, their taxonomic, geographic, and temporal coverage, and the appropriate ways to retrieve, attribute and reproduce them.
+Resumen:
+El Audiovisual Core es un conjunto de vocabularios diseñados para representar metadatos de recursos y colecciones multimedia sobre biodiversidad. Estos vocabularios tienen como objetivo representar información que ayudará a determinar si un recurso o colección en particular será adecuado para alguna aplicación particular de la ciencia de la biodiversidad antes de adquirir los medios. Entre otras cosas, los vocabularios abordan cuestiones como la gestión de los medios y las colecciones, las descripciones de su contenido, su cobertura taxonómica, geográfica y temporal, y las formas apropiadas de recuperarlos, atribuirlos y reproducirlos.
 
-Contributors
+Contribuyentes
 : [Robert A. Morris](https://orcid.org/0000-0002-6992-9446) ([University of Massachusetts at Boston, USA](http://www.wikidata.org/entity/Q15144)), [Vijay Barve](https://orcid.org/0000-0002-4852-2567) (), [Mihail Carausu](https://orcid.org/0000-0002-8234-0599) ([Danish Biodiversity Information Facility (DanBIF), Copenhagen, Denmark](http://www.wikidata.org/entity/Q1531570)), [Vishwas Chavan](https://orcid.org/0000-0002-3425-6499) ([Global Biodiversity Information Facility, Copenhagen, Denmark](http://www.wikidata.org/entity/Q1531570)), [José Cuadra](http://www.wikidata.org/entity/Q51883873) (), [Chris Freeland](https://orcid.org/0000-0002-2541-5822) ([Missouri Botanical Garden, St. Louis, USA](http://www.wikidata.org/entity/Q1852803)), [Gregor Hagedorn](https://orcid.org/0000-0001-7023-7386) ([JKI, Federal Research Institute for Cultivated Plants, Berlin, Germany](http://www.wikidata.org/entity/Q832099)), [Patrick Leary](https://orcid.org/0000-0001-5172-8577) (), [Dimitry Mozzherin](https://orcid.org/0000-0003-1593-1417) ([Encyclopedia of Life, Woods Hole, USA](http://www.wikidata.org/entity/Q82486)), [Annette Olson](https://orcid.org/0000-0002-0772-0022) ([American Association for the Advancement of Science](http://www.wikidata.org/entity/Q40358)), [Greg Riccardi](https://orcid.org/0000-0002-3850-9983) ([Florida State University, Tallahassee, USA](http://www.wikidata.org/entity/Q861548)), [Ivan Teage](https://orcid.org/0000-0003-4176-2274) (), [Steve Baskauf](https://orcid.org/0000-0003-4365-3135) ([Vanderbilt University, Nashville, TN, USA](http://www.wikidata.org/entity/Q29052))
 
-Creator
-: GBIF/TDWG Multimedia Resources Task Group and Audiovisual Core Maintenance Group
+Creador
+: Grupo de Trabajo de Recursos Multimedia y Grupo de Mantenimiento del Audiovisual Core de GBIF/TDWG
 
-Bibliographic citation
-: GBIF/TDWG Multimedia Resources Task Group and Audiovisual Core Maintenance Group. 2023. Audiovisual Core Introduction. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/introduction/2023-02-24>
+Citación bibliográfica
+: Grupo de Trabajo de Recursos Multimedia y Grupo de Mantenimiento del Audiovisual Core de GBIF/TDWG. 2023. Introducción al Audiovisual Core. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/introduction/2023-02-24>
 
 ## 1 Introducción
 
-There are four documents included in the Aububon Core Standard.  This document
-provides a general introduction to the Audiovisual Core Standard. For information
-about the structure of Audiovisual Core, see the [Audiovisual Core Structure](../structure/)
-document.  For term details, see the [Audiovisual Core Terms List](../termlist/) document.  
-For a more detailed guide to the use of Audiovisual Core, see the
-[Audiovisual Core Guide](../guide/) document.
+Hay cuatro documentos incluidos en el Estándar Audiovisual Core.  Este documento ofrece una introducción general al Estándar Audiovisual Core. Para obtener información sobre la estructura del Audiovisual Core, consulte el documento [Estructura del Audiovisual Core](../structure/).  Para conocer detalles de los términos, consulte el documento [Lista de términos del Audiovisual Core](../termlist/).  
+Para obtener una guía más detallada sobre el uso de Audiovisual Core, consulte el documento [Guía de Audiovisual Core](../guide/).
 
 ### 1.1 Estado del contenido de este documento
 
-All sections of this document are non-normative.
+Todas las secciones de este documento no son normativas.
 
-### 1.2 The scope of Audiovisual Core
+### 1.2 El alcance del Audiovisual Core
 
-The Audiovisual Core Multimedia Resources Metadata schema (“AC schema”, or
-simply “AC”) is a set of metadata vocabularies for describing
-biodiversity-related multimedia resources and collections. The
-specification is independent of how these vocabularies may be
-represented for machine use.
+El esquema de metadatos de recursos multimedia del Audiovisual Core ("esquema AC" o simplemente "AC") es un conjunto de vocabularios de metadatos para describir recursos y colecciones multimedia relacionados con la biodiversidad. La especificación es independiente de cómo se puedan representar estos vocabularios para su uso por máquinas.
 
-Multimedia Resources are digital or physical artifacts which normally
-comprise more than text. These include pictures, artwork, drawings,
-photographs, sound, video, animations, presentation materials, and
-interactive online media including, e.g., identification tools. A
-multimedia collection is an assemblage of such objects, whether curated
-or not, and whether electronically accessible or not. For the purposes
-of this document we regard a collection of multimedia resources itself
-as a ‘multimedia resource’. Wherever discussion or specification can
-apply only to a collection or only to a single media resource, we say so
-explicitly.
+Los recursos multimedia son artefactos digitales o físicos que normalmente comprenden más que texto. Estos incluyen imágenes, obras de arte, dibujos, fotografías, sonido, videos, animaciones, materiales de presentación y medios interactivos en línea, incluidas, por ejemplo, herramientas de identificación. Una colección multimedia es un conjunto de dichos objetos, ya sean curados o no, y accesibles electrónicamente o no. A los efectos de este documento, consideramos que una colección de recursos multimedia en sí misma es un «recurso multimedia». Siempre que una discusión o especificación pueda aplicarse únicamente a una colección o a un único recurso multimedia, lo decimos explícitamente.
 
-Multimedia descriptions are digital records that document underlying
-multimedia resources or collections. AC is focused on
-biodiversity-related multimedia resources. It shares terminology and
-concerns with many well-known and important standards for describing
-access to resources such as Dublin Core (DC), Darwin Core (DwC), the
-Adobe Extensible Metadata Platform (XMP), the International Press and
-Telecommunications Council (IPTC), the Metadata Working Group (MWG)
-schema, the Natural Collections Schema (NCD), and others. Where there is
-an exact match to the usage of such standards, AC adopts their
-identifiers and definitions. Many collections of biodiversity multimedia
-already have descriptions of their media expressed in DwC or DC. By
-using those vocabularies where suitable, AC particularly intends to make
-it easy for such collections to reuse their existing descriptions,
-augmented where necessary by other
-terms
+Las descripciones multimedia son registros digitales que documentan recursos o colecciones multimedia subyacentes. AC se enfoca en recursos multimedia relacionados con la biodiversidad. Comparte terminología y asuntos con muchos estándares conocidos e importantes para describir el acceso a recursos, como Dublin Core (DC), Darwin Core (DwC), Adobe Extensible Metadata Platform (XMP), el Consejo Internacional de Prensa y Telecomunicaciones (IPTC), el esquema del Grupo de Trabajo de Metadatos (MWG), el Esquema de Colecciones Naturales (NCD) y otros. Cuando existe una coincidencia exacta con el uso de dichos estándares, AC adopta sus identificadores y definiciones. Muchas colecciones de multimedia sobre biodiversidad ya cuentan con descripciones de sus medios expresadas en DwC o DC. Al utilizar dichos vocabularios cuando sea adecuado, AC pretende facilitar que dichas colecciones reutilicen sus descripciones existentes, complementadas con otros términos cuando sea necesario.
 
-**See also:** Discovery and Publishing of Primary Biodiversity Data
-associated with Multimedia Resources: The Audiovisual Core Strategies and
-Approaches. R.
-Morris et al., _Biodiversity Informatics,_ 8, jul. 2013.
+**Véase también:** [Descubrimiento y publicación de datos primarios sobre biodiversidad asociados con recursos multimedia: Estrategias y enfoques audiovisuales centrales.](https://journals.ku.edu/index.php/jbi/article/view/4117) R. Morris et al., _Biodiversity Informatics_, 8 de julio. 2013.
 
-## 2 Audiovisual Core terms
+## 2 Términos del Audiovisual Core
 
-An Audiovisual Core record is a description of a multimedia resource using
-the [Audiovisual Core terms](./terms). Two kinds
-of terms are specified by AC: record-level terms and access-level terms.
-Record-level terms apply to the media resource being described. Almost
-all terms are record-level terms. One such term, _hasServiceAccessPoint_
-plays a special role in helping to retrieve the resource that the record
-describes. A multimedia resource may have more than one
-hasServiceAccessPoint, each of which provides values of one or more
-access-level terms. The access-level terms document such things as a web
-address at which a digital representation of the resource can be
-retrieved, the size of such a retrieved object, etc. An Audiovisual Core
-record is thus a description using a set of terms that conforms to the
-normative documents, and contains at least the four mandatory terms,
-which provide an identifier, a resource type, the language of the
-description, and copyright information. Every such record describes a
-single multimedia resource (possibly including a Collection). The
-identifier may have been assigned to the resource by an external
-authority or by the provider of the record. Strictly speaking, the
-identifier is required only for Collections, but is strongly recommended
-in general.
+Un registro del Núcleo Audiovisual es una descripción de un recurso multimedia que utiliza los [términos del Audiovisual Core](./terms). AC especifica dos tipos de términos: términos a nivel de registro y términos a nivel de acceso.
+Los términos a nivel de registro se aplican al recurso multimedia que se describe. Casi todos los términos son términos a nivel de registro. Uno de estos términos, _hasServiceAccessPoint_, desempeña un papel especial al ayudar a recuperar el recurso que el registro describe. Un recurso multimedia puede tener más de un hasServiceAccessPoint, cada uno de los cuales proporciona valores de uno o más términos de nivel de acceso. Los términos de nivel de acceso documentan aspectos como la dirección web en la que se puede recuperar una representación digital del recurso, el tamaño del objeto recuperado, etc. Un registro de Audiovisual Core es, por lo tanto, una descripción que utiliza un conjunto de términos que se ajusta a los documentos normativos y que contiene al menos los cuatro términos obligatorios, que proporcionan un identificador, un tipo de recurso, el idioma de la descripción e información sobre derechos de autor. Cada uno de estos registros describe un único recurso multimedia (que posiblemente incluya una colección). El identificador puede haber sido asignado al recurso por una autoridad externa o por el proveedor del registro. En sentido estricto, el identificador es obligatorio solo para colecciones, pero en general, es altamente recomendado.
 
-Every Audiovisual Core term has a plain text Name, a term identifier and a
-plain text normative Definition. Term identifiers conform to the
-Universal Resource Identifier (URI)
-specification.
-Typically these identifiers have a form familiar to browser users as the
-addresses of web pages, beginning with "http://". Informally, one may
-understand this thusly: an http URI has the syntax of a web address, but
-there is no expectation that putting it in a web browser will result in
-any information being returned to the browser, and if it does, the
-return may have no relevance.
+Cada término del Audiovisual Core tiene un nombre en texto plano, un identificador del término y una definición normativa en texto plano. Los identificadores de términos cumplen con la [especificación del Identificador Universal de Recursos (URI)](http://tools.ietf.org/html/rfc2616#section-3.2).
+Normalmente, estos identificadores tienen un formato familiar para los usuarios del navegador, como las direcciones de las páginas web, que comienzan con "http://". De manera informal, esto se puede entender así: una URI http tiene la sintaxis de una dirección web, pero no se espera que al introducirla en un navegador web se devuelva información al navegador, y si así fuera, la información devuelta podría no ser relevante.
 
-Because http URIs are rather lengthy, AC documents follow a standard
-practice of introducing a short prefix comprising a "namespace
-qualifier" separated by a colon from a mnemonic name closely related to
-the term's Name. The namespace of the roughly 50% of the terms that are
-borrowed from other vocabularies is the namespace of the original. The
-namespace of de novo AC terms is http://rs.tdwg.org/ac/terms/. In the [Audiovisual Core Term List](../termlist/), each
-term entry has a row with the term name. Following the practice of the
-[Darwin Core terms](http://rs.tdwg.org/dwc/terms/), this term name
-is generally an "unqualified name" preceded by a widely accepted prefix
-designating an abbreviation for the namespace. The result is known as a
-qualified name. For example the normative wiki documentation for the
-borrowed term dcterms:identifier has URI
-http://purl.org/dc/terms/identifier. The first part,
-"http://purl.org/dc/terms/" corresponds to the namespace. Most of the
-URIs for terms borrowed from external vocabularies do in fact produce
-relevant documentation for that external standard when used as a web
-page URL. Sometimes it is not precise because the documentation is a PDF
-document and several (different!) URIs might apparently lead
-to the same place.
+Debido a que las URL http son bastante largas, los documentos AC siguen la práctica estándar de introducir un prefijo corto que comprende un "calificador de espacio de nombres" separado por dos puntos de un nombre mnemónico estrechamente relacionado con el nombre del término. El espacio de nombres de aproximadamente el 50% de los términos que se toman prestados de otros vocabularios es el espacio de nombres del original. El espacio de nombres de los términos nuevos del AC es http://rs.tdwg.org/ac/terms/. En la [Lista de términos básicos audiovisuales](../termlist/), cada entrada de término tiene una fila con el nombre del término. Siguiendo la práctica de los [términos del Darwin Core](http://rs.tdwg.org/dwc/terms/), este nombre de término es generalmente un "nombre no calificado" precedido por un prefijo ampliamente aceptado que designa una abreviatura para el espacio de nombres. El resultado se conoce como un nombre calificado. Por ejemplo, la documentación wiki normativa para el término prestado dcterms:identifier tiene el URI http://purl.org/dc/terms/identifier. La primera parte, "http://purl.org/dc/terms/", corresponde al espacio de nombres. La mayoría de las URL de términos tomados de vocabularios externos, de hecho, generan documentación relevante para ese estándar externo cuando se utilizan como URL de una página web. A veces no es preciso porque la documentación es un documento PDF y varios URI (¡diferentes!) podrían aparentemente conducir al mismo lugar.
 
-## 3 Implementations
+## 3 Implementaciones
 
-The [AC Term List](../termlist/) and
-[Audiovisual Core Structure](../structure/)
-documents represent a _data model._ For actual use of Audiovisual Core, it
-is necessary to select an implementation, preferably one with some
-status designated by [TDWG](http://www.tdwg.org/). Known
-implementations will be listed in ancillary documents not included as part of the Audiovisual Core standard.
+Los documentos [Lista de términos de AC](../termlist/) y [Estructura del Audiovisual Core](../structure/) representan un _modelo de datos_. Para el uso real del Audiovisual Core, es necesario seleccionar una implementación, preferiblemente una con algún estatus designado por [TDWG](http://www.tdwg.org/). Las implementaciones conocidas se enumerarán en documentos complementarios que no se incluyen como parte del estándar Audiovisual Core.
 
-## 4 References
+## 4 Referencias
 
 \|   |  
 \---|---|---
-[\[ACISS\]](https://github.com/tdwg/ac/issues) | https://github.com/tdwg/ac/issues | AC issue tracker
-[\[CHANGE\]](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#3-change-process) | http://rs.tdwg.org/vms/doc/specification/#3-change-process | TDWG vocabulary change policy |
-[\[DCMIU\]](http://wiki.dublincore.org/index.php/User_Guide) | http://wiki.dublincore.org/index.php/User_Guide | Dublin Core User Guide                         |
-[\[GUIDE\]](../guide/) | http://rs.tdwg.org/ac/doc/guide/ | AC User Guide
-[\[STRCT\]](../structure/) | http://rs.tdwg.org/ac/doc/structure/ | Introduction to AC structure
-[\[TERMS\]](../termlist/) | http://rs.tdwg.org/ac/doc/termlist/ | AC Term List                            |
+[\[ACISS\]](https://github.com/tdwg/ac/issues) | https://github.com/tdwg/ac/issues | Rastreador de problemas del AC
+[\[CHANGE\]](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#3-change-process) | http://rs.tdwg.org/vms/doc/specification/#3-change-process | Política de cambio de vocabulario de TDWG |
+[\[DCMIU\]](http://wiki.dublincore.org/index.php/User_Guide) | http://wiki.dublincore.org/index.php/User_Guide | Manual del usuario del Dublin Core                          |
+[\[GUIDE\]](../guide/) | http://rs.tdwg.org/ac/doc/guide/ | Manual del usuario del AC
+[\[STRCT\]](../structure/) | http://rs.tdwg.org/ac/doc/structure/ | Introducción a la estructura del AC
+[\[TERMS\]](../termlist/) | http://rs.tdwg.org/ac/doc/termlist/ | Lista de términos del AC                           |
