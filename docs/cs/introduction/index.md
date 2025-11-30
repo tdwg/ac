@@ -58,9 +58,9 @@ obsahují více než jen text. Mezi ně patří obrázky, umělecká díla, kres
 fotografie, zvukové záznamy, videa, animace, prezentační materiály a
 interaktivní online média, včetně např. identifikačních nástrojů. Multimediální
 sbírka je souborem takovýchto objektů, ať už kurátorských
-či nikoli, a ať už elektronicky přístupných či nikoli. For the purposes
-of this document we regard a collection of multimedia resources itself
-as a ‘multimedia resource’. Kdykoli se diskuse nebo specifikace může
+či nikoli, a ať už elektronicky přístupných či nikoli. Pro účely
+tohoto dokumentu považujeme soubor multimediálních zdrojů sám o sobě
+za ‘multimediální zdroj’. Kdykoli se diskuse nebo specifikace může
 vztahovat pouze na sbírku nebo pouze na jeden mediální zdroj, výslovně to uvádíme.
 
 Multimediální popisy jsou digitální záznamy, které dokumentují základní
@@ -86,21 +86,21 @@ Morris et al., _Biodiversity Informatics,_ 8, červenec. 2013.
 
 ## 2 Základní pojmy Audiovisual Core
 
-An Audiovisual Core record is a description of a multimedia resource using
-the [Audiovisual Core terms](./terms). Two kinds
-of terms are specified by AC: record-level terms and access-level terms.
-Record-level terms apply to the media resource being described. Almost
-all terms are record-level terms. One such term, _hasServiceAccessPoint_
-plays a special role in helping to retrieve the resource that the record
-describes. A multimedia resource may have more than one
-hasServiceAccessPoint, each of which provides values of one or more
-access-level terms. The access-level terms document such things as a web
-address at which a digital representation of the resource can be
-retrieved, the size of such a retrieved object, etc. An Audiovisual Core
-record is thus a description using a set of terms that conforms to the
-normative documents, and contains at least the four mandatory terms,
-which provide an identifier, a resource type, the language of the
-description, and copyright information. Every such record describes a
+Záznam Audiovisual Core je popis multimediálního zdroje pomocí
+[termínů Audiovisual Core](./terms). AC specifikuje dva druhy
+termínů: termíny na úrovni záznamů a termíny na úrovni přístupu.
+Termíny na úrovni záznamu se vztahují na popisovaný mediální zdroj. Téměř
+všechny termíny jsou termíny na úrovni záznamu. Jeden z těchto termínů, _hasServiceAccessPoint_,
+hraje zvláštní roli při získávání zdroje, který záznam
+popisuje. Multimediální zdroj může mít více než jeden
+hasServiceAccessPoint, z nichž každý poskytuje hodnoty jednoho nebo více
+termínů přístupové úrovně. Podmínky přístupu dokumentují takové věci, jako je webová
+adresa, na které lze získat digitální reprezentaci zdroje,
+velikost takového získaného objektu atd. Záznam Audiovisual Core
+je tedy popis používající sadu termínů, která odpovídá
+normativním dokumentům a obsahuje alespoň čtyři povinné termíny,
+které poskytují identifikátor, typ zdroje, jazyk
+popisu a informace o autorských právech. Every such record describes a
 single multimedia resource (possibly including a Collection). The
 identifier may have been assigned to the resource by an external
 authority or by the provider of the record. Strictly speaking, the
