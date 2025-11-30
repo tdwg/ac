@@ -11,8 +11,12 @@
     "modified": "Modificado",
     "term_version_iri": "Versión de Término IRI",
     "label": "Etiqueta",
+    "required": "Requerido",
+    "repeatable": "Repetible",
     "definition": "Definición",
+    "notes": "Notas",
     "controlled_value": "Valor controlado",
+    "definition_derived_from": "Definición derivada de",
     "usage": "Uso",
     "examples": "Ejemplos",
     "type": "Tipo",
@@ -22,5 +26,6 @@
     "executive_committee_decision": "Decisión del Comité Ejecutivo",
     "term_deprecated": "Este término está obsoleto y no debería utilizarse más.",
     "term_replaced_by": "Es reemplazado por",
-    "has_broader_concept": "Tiene un concepto más amplio"
+    "has_broader_concept": "Tiene un concepto más amplio",
+    "has_exact_match": "Tiene coincidencia exacta"
 }
