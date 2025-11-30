@@ -6,7 +6,7 @@ Título
 IRI del espacio de nombres
 : <http://rs.tdwg.org/acvariant/values/>
 
-Preferred namespace abbreviation
+Abreviatura preferida del espacio de nombres
 : acvariant:
 
 Fecha de publicación de la versión
@@ -40,7 +40,7 @@ Cita bibliográfica
 
 ## 1. Introducción (Informativa)
 
-This document includes terms intended to be used as a controlled value for Audiovisual Core terms `ac:variant` and `ac:variantLiteral`.
+Este documento incluye términos destinados a ser utilizados como un valor controlado para los términos del Audiovisual Core `ac:variant` y `ac:variantLiteral`.
 
 ### 1.1 Estado del contenido de este documento
 
@@ -60,10 +60,10 @@ Las palabras clave "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD
 
 ### 2.1 Relación de los tipos de valor con los términos de propiedad
 
-In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs SHOULD be used as values of the property `ac:variant`. Controlled value strings SHOULD be used as values of the property `ac:variantLiteral`.
+De acuerdo con el [documento de la Lista de términos del Audiovisual Core](http://rs.tdwg.org/ac/doc/termlist/), los términos IRI no abreviados DEBEN usarse como valores de la propiedad `ac:variant`. Las cadenas de valores controlados DEBEN usarse como valores de la propiedad ac:variantLiteral\`.
 
-### 2.2 Relationship between values of ac:variantLiteral and ac:variant
+### 2.2 Relación entre los valores de ac:variantLiteral y ac:variant
 
-An IRI for a term in this vocabulary denotes the same concept as the concept denoted by the controlled value string for the same term. Thus a client MAY infer an IRI value for `ac:variant` given a controlled value string for `ac:variantLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:variant` property in cases where providers only provide values for `ac:variantLiteral`.
+Una IRI para un término en este vocabulario denota la misma clase que la clase denotada por la cadena de valor controlado para el mismo término. De esta manera, un usuario PUEDE inferir un valor IRI para `ac:subtype` dada una cadena de valor controlado para `ac:subtypeLiteral` incluso si ese IRI no se indica explícitamente. La implicación práctica es que los agregadores de datos PUEDEN materializar valores para la propiedad `ac:variant` preferida en casos donde los proveedores solo proporcionan valores para `ac:variantLiteral`.
 
 ## 3 Índice de Términos
