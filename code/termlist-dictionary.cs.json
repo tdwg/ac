@@ -3,14 +3,20 @@
     "term_indices": "Indexy termínů",
     "index_by_term_name": "Index podle názvu termínu",
     "index_by_label": "Index podle štítku",
+    "see_also": "Viz také",
     "vocabulary": "Slovník",
+    "vocabularies": "Slovníky",
     "term_name": "Název termínu",
     "term_iri": "Termín IRI",
     "modified": "Změněno",
     "term_version_iri": "Verze termínu IRI",
     "label": "Štítek",
+    "required": "Vyžadováno",
+    "repeatable": "Opakovatelné",
     "definition": "Definice",
+    "notes": "Poznámky",
     "controlled_value": "Řízená hodnota",
+    "definition_derived_from": "Definice odvozená z",
     "usage": "Použití",
     "examples": "Příklady",
     "type": "Typ",
@@ -20,5 +26,6 @@
     "executive_committee_decision": "Rozhodnutí výkonného výboru",
     "term_deprecated": "Tento termín je zastaralý a již by se neměl používat.",
     "term_replaced_by": "Je nahrazen",
-    "has_broader_concept": "Má širší pojem"
+    "has_broader_concept": "Má širší pojem",
+    "has_exact_match": "Má přesnou shodu"
 }

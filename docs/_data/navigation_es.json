@@ -4,43 +4,43 @@
     "href": "/es/"
   },
   {
-    "text": "",
-    "href": ""
+    "text": "Introducción",
+    "href": "/introducción/"
   },
   {
     "text": "Términos",
     "menu": [
       {
-        "text": ""
+        "text": "Vocabulario Principal"
       },
       {
-        "text": "",
+        "text": "Audiovisual Core",
         "href": "/es/termlist/"
       },
       {
-        "text": ""
+        "text": "---"
       },
       {
-        "text": ""
+        "text": "Vocabularios controlados"
       },
       {
-        "text": "",
+        "text": "formato",
         "href": "/es/format/"
       },
       {
-        "text": "",
+        "text": "subjectOrientation",
         "href": "/es/orient/"
       },
       {
-        "text": "",
+        "text": "subjectPart",
         "href": "/es/part/"
       },
       {
-        "text": "",
+        "text": "subtipo",
         "href": "/es/subtype/"
       },
       {
-        "text": "",
+        "text": "variante",
         "href": "/es/variant/"
       }
     ]
@@ -49,18 +49,18 @@
     "text": "Guías",
     "menu": [
       {
-        "text": "",
+        "text": "Manual del Usuario",
         "href": "/es/guide/"
       },
       {
-        "text": "",
+        "text": "Estructura",
         "href": "/es/structure/"
       }
     ]
   },
   {
     "text": "GitHub",
-    "href": ""
+    "href": "https://github.com/tdwg/ac"
   },
   {
     "text": "文A",
