@@ -104,7 +104,7 @@ popisu a informace o autorských právech. Každý takový záznam popisuje
 jediný multimediální zdroj (případně včetně sbírky). Identifikátor
 mohl být zdroji přidělen externím
 orgánem nebo poskytovatelem záznamu. Přísně vzato je
-identifikátor vyžadován pouze pro Sbírky, ale obecně se jeho použití důrazně doporučuje.
+identifikátor vyžadován pouze pro sbírky, ale obecně se jeho použití důrazně doporučuje.
 
 Každý termín Audiovisual Core má název v prostém textu, identifikátor termínu a
 normativní definici v prostém textu. Identifikátory termínů odpovídají
@@ -127,13 +127,13 @@ záznam termínu řádek s názvem termínu. V souladu s praxí
 [Darwin Core terms](http://rs.tdwg.org/dwc/terms/) je tento termín
 obecně „nekvalifikovaným názvem“, před kterým je široce přijímaná předpona
 označující zkratku pro jmenný prostor. Výsledek se nazývá
-kvalifikovaný název. For example the normative wiki documentation for the
-borrowed term dcterms:identifier has URI
-http://purl.org/dc/terms/identifier. The first part,
-"http://purl.org/dc/terms/" corresponds to the namespace. Most of the
-URIs for terms borrowed from external vocabularies do in fact produce
-relevant documentation for that external standard when used as a web
-page URL. Sometimes it is not precise because the documentation is a PDF
+kvalifikovaný název. Například normativní wiki dokumentace pro
+vypůjčený termín dcterms:identifier má URI
+http://purl.org/dc/terms/identifier. První část,
+"http://purl.org/dc/terms/", odpovídá jmennému prostoru. Většina
+URI pro termíny převzaté z externích slovníků ve skutečnosti vytváří
+relevantní dokumentaci pro daný externí standard, pokud jsou použity jako
+URL webové stránky. Sometimes it is not precise because the documentation is a PDF
 document and several (different!) URIs might apparently lead
 to the same place.
 
