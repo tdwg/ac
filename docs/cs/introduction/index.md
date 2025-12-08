@@ -139,11 +139,11 @@ na stejné místo.
 
 ## 3 Implementace
 
-The [AC Term List](../termlist/) and
+Dokumenty [AC Term List](../termlist/) a
 [Audiovisual Core Structure](../structure/)
-documents represent a _data model._ For actual use of Audiovisual Core, it
-is necessary to select an implementation, preferably one with some
-status designated by [TDWG](http://www.tdwg.org/). Známé
+představují _datový model._ Pro skutečné použití Audiovisual Core je
+nutné vybrat implementaci, nejlépe takovou, která má nějaký
+status určený [TDWG](http://www.tdwg.org/). Známé
 implementace budou uvedeny v doplňkových dokumentech, které nejsou součástí standardu Audiovisual Core.
 
 ## 4 Odkazy
