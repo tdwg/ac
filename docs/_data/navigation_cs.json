@@ -24,7 +24,7 @@
         "text": "Řízené slovníky"
       },
       {
-        "text": "cs/format",
+        "text": "format",
         "href": "/cs/format/"
       },
       {
@@ -36,11 +36,11 @@
         "href": "/cs/part/"
       },
       {
-        "text": "cs/subtype",
+        "text": "subtype",
         "href": "/cs/subtype/"
       },
       {
-        "text": "cs/variant",
+        "text": "variant",
         "href": "/cs/variant/"
       }
     ]
@@ -53,7 +53,7 @@
         "href": "/cs/guide/"
       },
       {
-        "text": "cs/structure",
+        "text": "",
         "href": "/cs/structure/"
       }
     ]
