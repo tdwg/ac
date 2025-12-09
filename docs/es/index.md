@@ -1,5 +1,5 @@
 ---
-layout: inicio
+layout: ""
 ---
 
 # Audiovisual Core
