@@ -1,7 +1,7 @@
-# {document_title}
+# Controlled Vocabulary for Audiovisual Core subjectPart: List of Terms
 
-Título
-: {document_title}
+Title
+: Controlled Vocabulary for Audiovisual Core subjectPart: List of Terms
 
 IRI del espacio de nombres
 : <http://rs.tdwg.org/acpart/values/>
@@ -26,8 +26,8 @@ Esta versión
 
 {previous_version_slot}
 
-Resumen
-: {abstract}
+Abstract
+: The Audiovisual Core term subjectPart describes the part of an organism morphology, behaviour, environment depicted in a media item or region of interest. The subjectPart Controlled Vocabulary provides terms that should be used as values for ac:subjectPart and its literal-valued analog ac:subjectPartLiteral.
 
 Colaboradores
 : {contributors}
