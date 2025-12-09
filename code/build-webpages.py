@@ -322,7 +322,7 @@ class TermList:
                 if self.vocab_type == 1:
                     text += '\t\t<tr>\n'
                     text += '\t\t\t<td></td>\n'
-                    text += '\t\t\t<td><b>%s:</b> %s -- <b>%s:</b> %s</td>\n' % (self.t('required'), self.t_val(row, 'tdwgutility_required', l), self.t('repeatable'), self.t_val(row, 'tdwgutility_repeatable', l))
+                    text += '\t\t\t<td><b>%s:</b> %s – <b>%s:</b> %s</td>\n' % (self.t('required'), self.t_val(row, 'tdwgutility_required', l), self.t('repeatable'), self.t_val(row, 'tdwgutility_repeatable', l))
                     text += '\t\t</tr>\n'
 
                 if row['term_deprecated'] != '':
