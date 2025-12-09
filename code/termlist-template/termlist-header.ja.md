@@ -1,7 +1,7 @@
-# {document_title}
+# Audiovisual Core List of Terms
 
 Title
-: {document_title}
+: Audiovisual Core List of Terms
 
 バージョン発行日
 : {ratification_date}
@@ -22,7 +22,7 @@ TDWG標準での該当箇所
 {previous_version_slot}
 
 Abstract
-: {abstract}
+: The Audiovisual Core is a set of vocabularies designed to represent metadata for biodiversity multimedia resources and collections. It aims to represent information that will help to determine whether a particular resource or collection will be fit for some particular biodiversity science application before acquiring the media. Among others, the vocabularies address such concerns as the management of the media and collections, descriptions of their content, their taxonomic, geographic, and temporal coverage, and the appropriate ways to retrieve, attribute and reproduce them. This document contains a list of attributes of each Audiovisual Core term, including a documentation name, a specified URI, a recommended English label for user interfaces, a definition, and some ancillary notes. This document contains normative content that may not be changed without due process.
 
 貢献者
 : {contributors}
@@ -128,4 +128,3 @@ specific "Literal" suffix, specify in their definition whether the
 required values are strings or URIs.
 
 ## 6 Vocabulary Indices (non-normative)
-
