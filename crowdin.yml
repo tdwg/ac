@@ -120,6 +120,64 @@ files:
         ru-RU: ru
         zh-CN: zh-Hans
         zh-TW: zh-Hant
+  - source: /docs/guide/index.md
+    translation: /docs/%locale%/guide/%original_file_name%
+    type: md
+    languages_mapping:
+      locale:
+        ar: ar
+        ar-SA: ar
+        cs: cs
+        cs-CZ: cs
+        de: de
+        de-DE: de
+        es: es
+        es-ES: es
+        fr: fr
+        fr-FR: fr
+        ja: ja
+        ja-JP: ja
+        km: km
+        km-KH: km
+        ko: ko
+        ko-KR: ko
+        nl: nl
+        nl-NL: nl
+        pt: pt
+        pt-PT: pt
+        ru: ru
+        ru-RU: ru
+        zh-CN: zh-Hans
+        zh-TW: zh-Hant
+  - source: /docs/structure/index.md
+    translation: /docs/%locale%/structure/%original_file_name%
+    type: md
+    languages_mapping:
+      locale:
+        ar: ar
+        ar-SA: ar
+        cs: cs
+        cs-CZ: cs
+        de: de
+        de-DE: de
+        es: es
+        es-ES: es
+        fr: fr
+        fr-FR: fr
+        ja: ja
+        ja-JP: ja
+        km: km
+        km-KH: km
+        ko: ko
+        ko-KR: ko
+        nl: nl
+        nl-NL: nl
+        pt: pt
+        pt-PT: pt
+        ru: ru
+        ru-RU: ru
+        zh-CN: zh-Hans
+        zh-TW: zh-Hant
   - source: /docs/_data/navigation.json
     translation: /%original_path%/%file_name%_%locale%.json
     type: json

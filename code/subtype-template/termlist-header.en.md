@@ -1,7 +1,7 @@
-# {document_title}
+# Controlled Vocabulary for Audiovisual Core subtype: List of Terms
 
 Title
-: {document_title}
+: Controlled Vocabulary for Audiovisual Core subtype: List of Terms
 
 Namespace IRI
 : <http://rs.tdwg.org/acsubtype/values/>
@@ -27,7 +27,7 @@ Latest version
 {previous_version_slot}
 
 Abstract
-: {abstract}
+: Audiovisual Core uses the terms ac:subtype and ac:subtypeLiteral to refine the type of a media item to a level more specific than the Dublin Core Type Vocabulary, http://purl.org/dc/dcmitype/. This controlled vocabulary provides values for ac:subtype and ac:subtypeLiteral.
 
 Contributors
 : {contributors}
@@ -63,6 +63,6 @@ In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/
 
 ### 2.2 Relationship between values of ac:subtypeLiteral and ac:subtype
 
-An IRI for a term in this vocabulary denotes the same class as the class denoted by the controlled value string for the same term. Thus a client MAY infer an IRI value for `ac:subtype` given a controlled value string for `ac:subtypeLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:subtype` property in cases where providers only provide values for `ac:subtypeLiteral`. 
+An IRI for a term in this vocabulary denotes the same class as the class denoted by the controlled value string for the same term. Thus a client MAY infer an IRI value for `ac:subtype` given a controlled value string for `ac:subtypeLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:subtype` property in cases where providers only provide values for `ac:subtypeLiteral`.
 
 ## 3 Term index

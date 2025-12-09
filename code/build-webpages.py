@@ -5,7 +5,7 @@
 # Modified by Steve Baskauf on 2025-11-05 from the Darwin Core webpage build script at https://github.com/tdwg/dwc/blob/b13e56eb337c51c54dee59ff17152d8bcba5bac1/build/build-webpages.py
 
 # This script merges static Markdown header documents with term information tables (in Markdown) generated from data in the rs.tdwg.org repo from the TDWG Github site
-# It replaces the previous build scripts at https://github.com/tdwg/ac/tree/56884de53008f195b07207cb5631cf6c754d5de1/code and 
+# It replaces the previous build scripts at https://github.com/tdwg/ac/tree/56884de53008f195b07207cb5631cf6c754d5de1/code and
 # incorporates some code from https://github.com/tdwg/ac/blob/56884de53008f195b07207cb5631cf6c754d5de1/code/build_page.py ,
 # https://github.com/tdwg/ac/blob/56884de53008f195b07207cb5631cf6c754d5de1/code/build_subtype_cv/build-page-simple.ipynb , and
 # some of the other idiosyncratic controlled vocabulary build scripts in that commit.
@@ -165,7 +165,7 @@ class TermList:
             text += '### {index_section_string}.1 %s\n\n' % self.t('index_by_term_name')
             text += '(%s {index_section_string}.2 %s)\n\n' % (self.t('see_also'), self.t('index_by_label'))
 
-    
+
             text += '**%s**\n' % self.t('classes')
             text += '\n'
             for row_index,row in self.terms.terms_sorted_by_localname.iterrows():
@@ -177,7 +177,7 @@ class TermList:
             text += '\n\n' # put back removed newline
 
             for category in range(0,len(self.display_order)):
-                text += '**%s**\n' % self.display_label[category]
+                text += '**%s**\n' % self.t(self.display_label[category])
                 text += '\n'
                 if self.organized_in_categories:
                     filtered_table = self.terms.terms_sorted_by_localname[self.terms.terms_sorted_by_localname['tdwgutility_organizedInClass']==self.display_order[category]]
@@ -229,7 +229,7 @@ class TermList:
         for category in range(0,len(self.display_order)):
             # If there are categories, start each section with the category label
             if self.organized_in_categories:
-                text += '**%s**\n\n' % self.display_label[category]
+                text += '**%s**\n\n' % self.t(self.display_label[category])
                 filtered_table = self.terms.terms_sorted_by_label[self.terms.terms_sorted_by_label['tdwgutility_organizedInClass']==self.display_order[category]]
                 filtered_table.reset_index(drop=True, inplace=True)
             else:
@@ -266,9 +266,9 @@ class TermList:
 
         # Hack to control whether "Vocabulary" or "Vocabularies".
         # In Audiovisual Core, traditionally, the terms have been subdivided into categories called "vocabularies".
-        # Technically all of these "vocabularies" are actually in one vocabulary: the main AC vocabulary. 
-        # But to maintain this convention, we apply the following hack. In the controlled vocabularies, they are considered 
-        # to be only one "Vocabulary". If there is every a second vocabulary that is not a controlled vocabulary, this hack 
+        # Technically all of these "vocabularies" are actually in one vocabulary: the main AC vocabulary.
+        # But to maintain this convention, we apply the following hack. In the controlled vocabularies, they are considered
+        # to be only one "Vocabulary". If there is every a second vocabulary that is not a controlled vocabulary, this hack
         # won't work.
         if self.vocab_type==1: # the main vocabulary is a "simple vocabulary"
             text = '## {vocabulary_section_string} %s\n' % self.t('vocabularies')
@@ -279,9 +279,9 @@ class TermList:
 
         for category in range(0,len(self.display_order)):
             if self.organized_in_categories:
-                text += '### {vocabulary_section_string}.' + str(category + 1) + ' ' + self.display_label[category] + '\n'
+                text += '### {vocabulary_section_string}.' + str(category + 1) + ' ' + self.t(self.display_label[category]) + '\n'
                 text += '\n'
-                text += self.display_comments[category] # insert the comments for the category, if any.
+                text += self.t(self.display_comments[category]) # insert the comments for the category, if any.
                 filtered_table = self.terms.terms_sorted_by_localname[self.terms.terms_sorted_by_localname['tdwgutility_organizedInClass']==self.display_order[category]]
                 filtered_table.reset_index(drop=True, inplace=True)
             else:
@@ -651,7 +651,7 @@ def generate_all_markdown(termList, path, locales, index_section_number):
 
 def retrieve_databases_for_vocabulary(vocabulary_iri):
     """Use the vocabulary IRI to determine which term lists are members of that vocabulary,
-    by searching the table of vocabulary members in the rs.tdwg.org GitHub repository. 
+    by searching the table of vocabulary members in the rs.tdwg.org GitHub repository.
     Then retrieve the rs.tdwg.org database names (i.e. directories) for each of those term lists,
     using the term-lists table in the rs.tdwg.org GitHub repository.
 
@@ -701,54 +701,55 @@ ac_list = TermList(
     terms = ac,
     vocabType = 1,
     organizedInCategories = True,
-    displayOrder = ['http://rs.tdwg.org/dwc/terms/attributes/Management', 
-'http://rs.tdwg.org/dwc/terms/attributes/Attribution', 
-'http://purl.org/dc/terms/Agent', 
-'http://rs.tdwg.org/dwc/terms/attributes/ContentCoverage', 
-'http://purl.org/dc/terms/Location', 
-'http://purl.org/dc/terms/PeriodOfTime', 
-'http://rs.tdwg.org/dwc/terms/attributes/TaxonomicCoverage', 
-'http://rs.tdwg.org/dwc/terms/attributes/ResourceCreation', 
-'http://rs.tdwg.org/dwc/terms/attributes/RelatedResources', 
-'http://rs.tdwg.org/ac/terms/ServiceAccessPoint',
-'http://rs.tdwg.org/ac/terms/RegionOfInterest'
-],
-    displayLabel = ['Management Vocabulary', 
-'Attribution Vocabulary', 
-'Agents Vocabulary', 
-'Content Coverage Vocabulary', 
-'Geography Vocabulary', 
-'Temporal Coverage Vocabulary', 
-'Taxonomic Coverage Vocabulary', 
-'Resource Creation Vocabulary', 
-'Related Resources Vocabulary', 
-'Service Access Point Vocabulary',
-'Region of Interest Vocabulary'
-],
+    displayOrder = ['http://rs.tdwg.org/dwc/terms/attributes/Management',
+                    'http://rs.tdwg.org/dwc/terms/attributes/Attribution',
+                    'http://purl.org/dc/terms/Agent',
+                    'http://rs.tdwg.org/dwc/terms/attributes/ContentCoverage',
+                    'http://purl.org/dc/terms/Location',
+                    'http://purl.org/dc/terms/PeriodOfTime',
+                    'http://rs.tdwg.org/dwc/terms/attributes/TaxonomicCoverage',
+                    'http://rs.tdwg.org/dwc/terms/attributes/ResourceCreation',
+                    'http://rs.tdwg.org/dwc/terms/attributes/RelatedResources',
+                    'http://rs.tdwg.org/ac/terms/ServiceAccessPoint',
+                    'http://rs.tdwg.org/ac/terms/RegionOfInterest'
+    ],
+    # Note: translated using termlist-dictionary.en.json
+    displayLabel = ['management_vocabulary',
+                    'attribution_vocabulary',
+                    'agents_vocabulary',
+                    'content_coverage_vocabulary',
+                    'geography_vocabulary',
+                    'temporal_coverage_vocabulary',
+                    'taxonomic_coverage_vocabulary',
+                    'resource_creation_vocabulary',
+                    'related_resources_vocabulary',
+                    'service_access_point_vocabulary',
+                    'region_of_interest_vocabulary'
+    ],
     displayComments = ['',
-'',
-'',
-'',
-'Note that [dwc:locality](http://rs.tdwg.org/dwc/terms/locality) may be used, but as applied to media this term may be ambiguous as to whether it applies to the location depicted or the location at which the media was created. When disambiguating information is available, it is better to use the terms Location Shown and Location Created. The latter is in the Resource Creation Vocabulary.\n\nLocation Created and Location Shown are separated in the current version of IPTC, and the Metadata Working Group ([Metadata Working Group Guidelines for Handling Image Metadata, Version 2.0, November 2010](https://web.archive.org/web/20180919181934/http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf)) also recommends this. We follow this below in order to support the expected future increase of automatic GPS-based coordinate recording. As a special case, the AC group recommends to change the semantics of Location Shown in the case of biodiversity specimens, where the original location may differ from the current location at which the specimen is held in a collection. In this case, Location Shown should exclusively refer to the location where a specimen was originally collected (gathering or sampling location). Use Location Created to express the location where the resource was created (a specimen was digitized).\n\n',
-'',
-'',
-'',
-'',
-'These terms are representation-dependent metadata, referring to specific digital representations of a resource (e.g., a specific resolution, quality, or format). They are used within whatever a particular AC implementation assigns to the value of `ac:hasServiceAccessPoint`, whose label is simply "Service Access Point." Note that it is possible for an implementation to use syntactic conventions that avoid direct use of `ac:hasServiceAccessPoint`, as illustrated in the final example in the section [Multiplicity/Cardinality in the Audiovisual Core Structure document](structure.md#3-multiplicity-and-cardinality).\n\n', 
-'Regions of Interest (ROI) designate specific parts of media items. Features within these regions can be taxonomically identified or linked to occurrence records. ROI metadata may also be used to generate annotations of the media item or to facilitate display or highlighting of specific parts. \n\nCurrently spatial ROIs are limited to two dimensions and can only be defined by rectangles or arcs (including circles). The terms in this group are not repeatable within a single ROI instance, although a media item may be linked to more than one ROI by the `ac:hasROI` property.\n\n For examples showing how to use these terms, see the <a href="https://github.com/tdwg/ac/blob/master/roi-recipes.md">ROI Recipes</a> page.\n\n'
-],
-    displayId = ['Management_Vocabulary', 
-'Attribution_Vocabulary', 
-'Agents_Vocabulary', 
-'Content_Coverage_Vocabulary', 
-'Geography_Vocabulary', 
-'Temporal_Coverage_Vocabulary', 
-'Taxonomic_Coverage_Vocabulary', 
-'Resource_Creation_Vocabulary', 
-'Related_Resources_Vocabulary', 
-'Service_Access_Point_Vocabulary',
-'Region_of_Interest_Vocabulary'
-]
+                       '',
+                       '',
+                       '',
+                       'geography_vocabulary_comments',
+                       '',
+                       '',
+                       '',
+                       '',
+                       'service_access_point_vocabulary_comments',
+                       'region_of_interest_vocabulary_comments'
+    ],
+    displayId = ['Management_Vocabulary',
+                 'Attribution_Vocabulary',
+                 'Agents_Vocabulary',
+                 'Content_Coverage_Vocabulary',
+                 'Geography_Vocabulary',
+                 'Temporal_Coverage_Vocabulary',
+                 'Taxonomic_Coverage_Vocabulary',
+                 'Resource_Creation_Vocabulary',
+                 'Related_Resources_Vocabulary',
+                 'Service_Access_Point_Vocabulary',
+                 'Region_of_Interest_Vocabulary'
+    ]
 )
 
 # Because different docs have a different section number for the indices, indicate it here.
@@ -771,7 +772,7 @@ variant_list = TermList(
     vocabType = 2,
     organizedInCategories = False,
     displayOrder = [''],
-    displayLabel = ['Vocabulary'],
+    displayLabel = ['vocabulary'],
     displayComments = [''],
     displayId = ['Vocabulary']
 )
@@ -796,7 +797,7 @@ subtype_list = TermList(
     vocabType = 2,
     organizedInCategories = False,
     displayOrder = [''],
-    displayLabel = ['Vocabulary'],
+    displayLabel = ['vocabulary'],
     displayComments = [''],
     displayId = ['Vocabulary']
 )
@@ -821,7 +822,8 @@ format_list = TermList(
     vocabType = 3,
     organizedInCategories = True,
     displayOrder = ['', 'm', 'e'],
-    displayLabel = ['Concept schemes', 'Media types and physical media concept scheme', 'File extensions concept scheme'],
+    # Note: translated using termlist-dictionary.en.json
+    displayLabel = ['concept_schemes', 'media_types_and_physical_media_concept_scheme', 'file_extensions_concept_scheme'],
     displayComments = ['','',''],
     displayId = ['general_types', 'media_types', 'file_extensions']
 )
@@ -846,7 +848,7 @@ subjectPart_list = TermList(
     vocabType = 3,
     organizedInCategories = False,
     displayOrder = [''],
-    displayLabel = ['Vocabulary'],
+    displayLabel = ['vocabulary'],
     displayComments = [''],
     displayId = ['Vocabulary']
 )
@@ -871,7 +873,7 @@ subjectOrientation_list = TermList(
     vocabType = 3,
     organizedInCategories = False,
     displayOrder = [''],
-    displayLabel = ['Vocabulary'],
+    displayLabel = ['vocabulary'],
     displayComments = [''],
     displayId = ['Vocabulary']
 )
