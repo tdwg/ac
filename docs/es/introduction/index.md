@@ -68,11 +68,11 @@ Los documentos [Lista de términos de AC](../termlist/) y [Estructura del Audiov
 
 ## 4 Referencias
 
-\|   |  
-\---|---|---
-[\[ACISS\]](https://github.com/tdwg/ac/issues) | https://github.com/tdwg/ac/issues | Rastreador de problemas del AC
-[\[CHANGE\]](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#3-change-process) | http://rs.tdwg.org/vms/doc/specification/#3-change-process | Política de cambio de vocabulario de TDWG |
-[\[DCMIU\]](http://wiki.dublincore.org/index.php/User_Guide) | http://wiki.dublincore.org/index.php/User_Guide | Manual del usuario del Dublin Core                          |
-[\[GUIDE\]](../guide/) | http://rs.tdwg.org/ac/doc/guide/ | Manual del usuario del AC
-[\[STRCT\]](../structure/) | http://rs.tdwg.org/ac/doc/structure/ | Introducción a la estructura del AC
-[\[TERMS\]](../termlist/) | http://rs.tdwg.org/ac/doc/termlist/ | Lista de términos del AC                           |
+|                                                                                                                                                                 |                                                                                                                                      |                               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------- |
+| [\[ACISS\]](https://github.com/tdwg/ac/issues)                                                            | https://github.com/tdwg/ac/issues                                                                    | AC issue tracker              |
+| [\[CHANGE\]](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#3-change-process) | http://rs.tdwg.org/vms/doc/specification/#3-change-process                           | TDWG vocabulary change policy |
+| [\[DCMIU\]](http://wiki.dublincore.org/index.php/User_Guide)                                              | http://wiki.dublincore.org/index.php/User_Guide | Dublin Core User Guide        |
+| [\[GUIDE\]](../guide/)                                                                                    | http://rs.tdwg.org/ac/doc/guide/                                                     | AC User Guide                 |
+| [\[STRCT\]](../structure/)                                                                                | http://rs.tdwg.org/ac/doc/structure/                                                 | Introduction to AC structure  |
+| [\[TERMS\]](../termlist/)                                                                                 | http://rs.tdwg.org/ac/doc/termlist/                                                  | AC Term List                  |
