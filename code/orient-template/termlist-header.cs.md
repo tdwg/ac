@@ -1,7 +1,7 @@
-# {document_title}
+# Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms
 
-Název
-: {document_title}
+Title
+: Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms
 
 IRI Jmenného prostoru
 : <http://rs.tdwg.org/acorient/values/>
@@ -26,8 +26,8 @@ Aktuální verze
 
 {previous_version_slot}
 
-Abstrakt
-: {abstract}
+Abstract
+: The Audiovisual Core term subjectOrientation describes the viewing orientation relative to an organism or part of an organism depicted in a media item or region of interest. The subjectOrientation Controlled Vocabulary provides terms that should be used as values for ac:subjectOrientation and its literal-valued analog ac:subjectOrientationLiteral.
 
 Přispěvatelé
 : {contributors}
