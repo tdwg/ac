@@ -148,11 +148,11 @@ implementace budou uvedeny v doplňkových dokumentech, které nejsou součást�
 
 ## 4 Odkazy
 
-\|   |  
-\---|---|---
-[\[ACISS\]](https://github.com/tdwg/ac/issues) | https://github.com/tdwg/ac/issues | AC issue tracker
-[\[CHANGE\]](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#3-change-process) | http://rs.tdwg.org/vms/doc/specification/#3-change-process | TDWG vocabulary change policy |
-[\[DCMIU\]](http://wiki.dublincore.org/index.php/User_Guide) | http://wiki.dublincore.org/index.php/User_Guide | Dublin Core User Guide                         |
-[\[GUIDE\]](../guide/) | http://rs.tdwg.org/ac/doc/guide/ | AC User Guide
-[\[STRCT\]](../structure/) | http://rs.tdwg.org/ac/doc/structure/ | Introduction to AC structure
-[\[TERMS\]](../termlist/) | http://rs.tdwg.org/ac/doc/termlist/ | AC Term List                            |
+|                                                                                                                                                                 |                                                                                                                                      |                               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------- |
+| [\[ACISS\]](https://github.com/tdwg/ac/issues)                                                            | https://github.com/tdwg/ac/issues                                                                    | AC issue tracker              |
+| [\[CHANGE\]](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#3-change-process) | http://rs.tdwg.org/vms/doc/specification/#3-change-process                           | TDWG vocabulary change policy |
+| [\[DCMIU\]](http://wiki.dublincore.org/index.php/User_Guide)                                              | http://wiki.dublincore.org/index.php/User_Guide | Dublin Core User Guide        |
+| [\[GUIDE\]](../guide/)                                                                                    | http://rs.tdwg.org/ac/doc/guide/                                                     | AC User Guide                 |
+| [\[STRCT\]](../structure/)                                                                                | http://rs.tdwg.org/ac/doc/structure/                                                 | Introduction to AC structure  |
+| [\[TERMS\]](../termlist/)                                                                                 | http://rs.tdwg.org/ac/doc/termlist/                                                  | AC Term List                  |
