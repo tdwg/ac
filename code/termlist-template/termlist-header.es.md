@@ -1,7 +1,7 @@
-# {document_title}
+# Audiovisual Core List of Terms
 
-Título
-: {document_title}
+Title
+: Audiovisual Core List of Terms
 
 Fecha de publicación de la versión
 : {ratification_date}
@@ -20,8 +20,8 @@ Esta versión
 
 {previous_version_slot}
 
-Resumen
-: {abstract}
+Resumen:
+El Audiovisual Core es un conjunto de vocabularios diseñados para representar metadatos de recursos y colecciones multimedia sobre biodiversidad. It aims to represent information that will help to determine whether a particular resource or collection will be fit for some particular biodiversity science application before acquiring the media. Entre otras cosas, los vocabularios abordan cuestiones como la gestión de los medios y las colecciones, las descripciones de su contenido, su cobertura taxonómica, geográfica y temporal, y las formas apropiadas de recuperarlos, atribuirlos y reproducirlos. This document contains a list of attributes of each Audiovisual Core term, including a documentation name, a specified URI, a recommended English label for user interfaces, a definition, and some ancillary notes. This document contains normative content that may not be changed without due process.
 
 Colaboradores
 : {contributors}
@@ -86,4 +86,3 @@ sobre este tema. En los vocabularios donde se utiliza esta práctica, a menudo l
 Algunos términos tienen dos versiones: una que espera un valor literal de cadena y la otra, un URI. En estas circunstancias, la versión que espera una cadena se nombra con el sufijo "Literal", por ejemplo, `ac:metadataLanguageLiteral`. En tales casos, se PUEDEN proporcionar ambas formas, pero se debe tener cuidado para garantizar que los usos reflejen la misma intención. En caso de ambigüedad, prevalece la versión URI. Todos los términos, incluidos aquellos con o sin el sufijo "Literal" específico, especifican en su definición si los valores requeridos son cadenas o URI.
 
 ## 6 Índices de vocabulario (no normativos)
-
