@@ -137,17 +137,16 @@ includes an identifier that may have been assigned to the resource by an
 external authority or by the provider of the metadata record.
 
 Every Audiovisual Core term has a plain text Name, a URI, and a plain text
-normative Definition. Termíny mohou také obsahovat pokyny k použití, které vysvětlují, jak se termín používá v kontextu Audiovisual Core, a poznámky, které poskytují další informace a příklady.  URIs for terms conform to the http URI scheme.
-Informally, one may understand this thusly: an http URI has the syntax
-of an http URL, but there is no expectation that putting it in a web
-browser will result in any information being returned to the browser,
-and if it does, the return may have no relevance.
+normative Definition. Termíny mohou také obsahovat pokyny k použití, které vysvětlují, jak se termín používá v kontextu Audiovisual Core, a poznámky, které poskytují další informace a příklady.  URI pro termíny odpovídají schématu http URI.
+Neformálně lze toto pochopit takto: http URI má syntaxi
+http URL, ale neočekává se, že jeho zadání do webového
+prohlížeče povede k vrácení jakýchkoli informací do prohlížeče,
+a pokud ano, vrácené informace nemusí mít žádný význam.
 
 Protože adresy URL jsou poměrně dlouhé, dokumenty AC se řídí standardní
 praxí zavádění krátké předpony sestávající z „kvalifikátoru jmenného prostoru“
 odděleného dvojtečkou od mnemotechnického názvu úzce souvisejícího s
-názvem termínu. The namespace of terms borrowed from other vocabularies
-is that of the original. The namespace of denovo AC terms is
+názvem termínu. Jmenný prostor termínů převzatých z jiných slovníků je stejný jako jmenný prostor původních termínů. The namespace of denovo AC terms is
 http://rs.tdwg.org/ac/terms/. V tabulce termínů má každý termínový záznam
 řádek s názvem termínu. Following the practice of the Darwin Core term
 list <sup id="cit-7">[\[7\]](#fn-7)</sup>, for borrowed terms, this term name is generally an
@@ -187,15 +186,15 @@ below.
 			<td>Layer:&nbsp;1 —&nbsp;Required:&nbsp;Yes —&nbsp;Repeatable:&nbsp;No</td>
 		</tr>
 		<tr>
-			<td>Definition:</td>
+			<td>Definice:</td>
 			<td>Povaha nebo druh zdroje.</td>
 		</tr>
 		<tr>
-			<td>Usage:</td>
+			<td>Použití:</td>
 			<td>A full URI preferably from among the type URIs specified in the DCMI Type Vocabulary, <a href="http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary" rel="nofollow">http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary</a>. Recommended terms are those URIs whose labels are Collection, StillImage, Sound, MovingImage, InteractiveResource, or Text (e.g. . Also recommended are the full URIs of ac:PanAndZoomImage, ac:3DStillImage, and ac: 3DMovingImage. Values MUST NOT be a string, but a URI with full namespace (e. g. from a controlled vocabulary. Implementers and communities of practice may determine whether specific controlled vocabularies must be used. If the resource is a Collection, this item does not identify what types of objects it may contain. Following the DC recommendations at <a href="http://purl.org/dc/dcmitype/Text" rel="nofollow">http://purl.org/dc/dcmitype/Text</a>, images of text should be with this URI.</td>
 		</tr>
 		<tr>
-			<td>Notes:</td>
+			<td>Poznámky:</td>
 			<td>Following the DC recommendations for the Text type, <a href="http://purl.org/dc/terms/DCMIType" rel="nofollow">http://purl.org/dc/terms/DCMIType</a>, images of text should be given as http://purl.org/dc/dcmitype/Text when given as a URI. See also the entry for dc:type in the Audiovisual Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md" rel="nofollow">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails.</td>
 		</tr>
 	</tbody>
@@ -220,7 +219,7 @@ below.
 			<td>Layer:&nbsp;2 —&nbsp;Required:&nbsp;No —&nbsp;Repeatable:&nbsp;Yes</td>
 		</tr>
 		<tr>
-			<td>Definition:</td>
+			<td>Definice:</td>
 			<td>String providing the name of a reviewer. If present, then resource is peer-reviewed, even if Reviewer Comments is absent or empty. Its presence tells whether an expert in the subject featured in the media has reviewed the media item or collection and approved its metadata description; must display a name or the literal "anonymous" (= anonymously reviewed).</td>
 		</tr>
 		<tr>
