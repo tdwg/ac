@@ -12,7 +12,7 @@ Date created
 Součást TDWG Standardu
 : <http://www.tdwg.org/standards/638>
 
-This version
+Tato verze
 : <http://rs.tdwg.org/ac/doc/guide/2023-02-24>
 
 Latest version
@@ -137,7 +137,7 @@ includes an identifier that may have been assigned to the resource by an
 external authority or by the provider of the metadata record.
 
 Every Audiovisual Core term has a plain text Name, a URI, and a plain text
-normative Definition. Terms may also have Usage instructions explaining how the term is used in the context of Audiovisual Core and Notes that provide additional information and examples.  URIs for terms conform to the http URI scheme.
+normative Definition. Termíny mohou také obsahovat pokyny k použití, které vysvětlují, jak se termín používá v kontextu Audiovisual Core, a poznámky, které poskytují další informace a příklady.  URIs for terms conform to the http URI scheme.
 Informally, one may understand this thusly: an http URI has the syntax
 of an http URL, but there is no expectation that putting it in a web
 browser will result in any information being returned to the browser,
