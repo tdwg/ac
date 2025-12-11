@@ -712,6 +712,7 @@ ac_list = TermList(
                     'http://rs.tdwg.org/dwc/terms/attributes/RelatedResources',
                     'http://rs.tdwg.org/ac/terms/ServiceAccessPoint',
                     'http://rs.tdwg.org/ac/terms/RegionOfInterest'
+    ]
     # Note: translated using termlist-dictionary.en.json
     displayLabel = ['management_vocabulary',
                     'attribution_vocabulary',
