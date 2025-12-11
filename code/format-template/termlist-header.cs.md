@@ -25,8 +25,8 @@ Aktuální verze
 
 {previous_version_slot}
 
-Abstract
-: Audiovisual Core borrows the Dublin Core terms dc:format and dcterms:format to provide information about the physical or electronic format of a media item. This controlled vocabulary provides values for those two terms.
+Abstrakt
+: Audiovisual Core přebírá termíny Dublin Core dc:format a dcterms:format, aby poskytoval informace o fyzickém nebo elektronickém formátu mediálního prvku. This controlled vocabulary provides values for those two terms.
 
 Přispěvatelé
 : {contributors}
