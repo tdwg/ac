@@ -1,7 +1,7 @@
-# {document_title}
+# Controlled Vocabulary for Audiovisual Core variant: List of Terms
 
 Title
-: {document_title}
+: Controlled Vocabulary for Audiovisual Core variant: List of Terms
 
 Namespace IRI
 : <http://rs.tdwg.org/acvariant/values/>
@@ -27,7 +27,7 @@ Latest version
 {previous_version_slot}
 
 Abstract
-: {abstract}
+: Audiovisual Core uses the terms ac:variant and ac:variantLiteral to provide information about the size, extent, and availability of the Service Access Point of a media item. This controlled vocabulary provides values for those terms.
 
 Contributors
 : {contributors}
@@ -63,6 +63,6 @@ In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/
 
 ### 2.2 Relationship between values of ac:variantLiteral and ac:variant
 
-An IRI for a term in this vocabulary denotes the same concept as the concept denoted by the controlled value string for the same term. Thus a client MAY infer an IRI value for `ac:variant` given a controlled value string for `ac:variantLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:variant` property in cases where providers only provide values for `ac:variantLiteral`. 
+An IRI for a term in this vocabulary denotes the same concept as the concept denoted by the controlled value string for the same term. Thus a client MAY infer an IRI value for `ac:variant` given a controlled value string for `ac:variantLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:variant` property in cases where providers only provide values for `ac:variantLiteral`.
 
 ## 3 Term index

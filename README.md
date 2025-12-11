@@ -16,7 +16,7 @@ Currently, core members of the group are:
 
 Ed Baker - Natural History Museum, London, UK (Convener) - [edward.baker@nhm.ac.uk](mailto:edward.baker@nhm.ac.uk)
 
-Vijay Barve - Natural History Museum of Los Angeles [vbarve@nhm.org](mailto:vbarve@nhm.org) 
+Vijay Barve - Natural History Museum of Los Angeles [vbarve@nhm.org](mailto:vbarve@nhm.org)
 
 Steve Baskauf - Vanderbilt University Jean & Alexander Heard Library (retired) - [steve.baskauf@gmail.com](mailto:steve.baskauf@gmail.com)
 
@@ -66,11 +66,55 @@ Policies established by the Maintenance Group are listed [here](policies.md).  P
 
 [Regions of Interest (ROI) recipes document](https://github.com/tdwg/ac/blob/master/roi-recipes.md)
 
-To see what issues we are currently addressing, see our [Issue Tracker](https://github.com/tdwg/ac/issues).  
+To see what issues we are currently addressing, see our [Issue Tracker](https://github.com/tdwg/ac/issues).
 
 For notes of Maintenance group meetings and other historical documents, see [this page](historical/README.md).  To see what we've been working on in the past, see the [list of closed issues](https://github.com/tdwg/ac/issues?q=is%3Aissue+is%3Aclosed)
 
 For the details of most of the documents in this repo, see the diagram below.
+
+## Term and website translation
+
+### For users
+
+The Audiovisual Core website is available in multiple languages, see the "文A" menu.
+
+Translations in machine-readable format are in the [rs.tdwg.org repository](https://github.com/tdwg/rs.tdwg.org), you will need several files:
+
+* [Iptc4xmpExt-for-ac/Iptc4xmpExt-for-ac-translations.csv](https://github.com/tdwg/rs.tdwg.org/blob/master/Iptc4xmpExt-for-ac/Iptc4xmpExt-for-ac-translations.csv)
+* [ac-for-dwc/ac-for-dwc-translations.csv](https://github.com/tdwg/rs.tdwg.org/blob/master/ac-for-dwc/ac-for-dwc-translations.csv)
+* [acorient/acorient-translations.csv](https://github.com/tdwg/rs.tdwg.org/blob/master/acorient/acorient-translations.csv)
+* [acpart/acpart-translations.csv](https://github.com/tdwg/rs.tdwg.org/blob/master/acpart/acpart-translations.csv)
+* [acsubtype/acsubtype-translations.csv](https://github.com/tdwg/rs.tdwg.org/blob/master/acsubtype/acsubtype-translations.csv)
+* [acvariant/acvariant-translations.csv](https://github.com/tdwg/rs.tdwg.org/blob/master/acvariant/acvariant-translations.csv)
+* [dc-for-ac/dc-for-ac-translations.csv](https://github.com/tdwg/rs.tdwg.org/blob/master/dc-for-ac/dc-for-ac-translations.csv)
+* [dcterms-for-ac/dcterms-for-ac-translations.csv](https://github.com/tdwg/rs.tdwg.org/blob/master/dcterms-for-ac/dcterms-for-ac-translations.csv)
+* [dwc-for-ac/dwc-for-ac-translations.csv](https://github.com/tdwg/rs.tdwg.org/blob/master/dwc-for-ac/dwc-for-ac-translations.csv)
+* [exif-for-ac/exif-for-ac-translations.csv](https://github.com/tdwg/rs.tdwg.org/blob/master/exif-for-ac/exif-for-ac-translations.csv)
+* [mo-for-ac/mo-for-ac-translations.csv](https://github.com/tdwg/rs.tdwg.org/blob/master/mo-for-ac/mo-for-ac-translations.csv)
+* [photoshop-for-ac/photoshop-for-ac-translations.csv](https://github.com/tdwg/rs.tdwg.org/blob/master/photoshop-for-ac/photoshop-for-ac-translations.csv)
+* [xmp-for-ac/xmp-for-ac-translations.csv](https://github.com/tdwg/rs.tdwg.org/blob/master/xmp-for-ac/xmp-for-ac-translations.csv)
+* [xmpRights-for-ac/xmpRights-for-ac-translations.csv](https://github.com/tdwg/rs.tdwg.org/blob/master/xmpRights-for-ac/xmpRights-for-ac-translations.csv)
+
+### For translators
+
+Translations are managed within Crowdin, which makes it easy to keep up with any changes to Darwin Core.  If you wish to contribute please go to the [Crowdin project](https://crowdin.com/project/darwin-core) and request to join, then email the Audiovisual Core Maintenance Group.
+
+The Crowdin project has two sections:
+
+* `[tdwg.rs.tdwg.org] translations` – this contains term definitions for several standards.  Audiovisual Core's definitions are labelled "Audiovisual Core", corresponding to the list of files just above.
+* `[tdwg.ac] master` — this contains the website, such as the home page, navigation menu, and the text surrounding the lists of terms.
+
+Translating `navigation.json` first is recommended, as you will then be able to browse the preview site at https://ac-translation-preview.tdwg.org/.
+
+To avoid conflicts, **edits to translations should only be made in Crowdin**.
+
+### For developers of this website
+
+Translations of term data (labels, definitions, examples, comments) are retrieved from the [rs.tdwg.org repository](https://github.com/tdwg/rs.tdwg.org), see [rs.tdwg.org/TRANSLATIONS.md](https://github.com/tdwg/rs.tdwg.org/blob/master/TRANSLATIONS.md) for details on that process.
+
+Translations of the rest of the Audiovisual Core website (guides, prose sections, navigation menu etc) is managed here.  [crowdin.yml](crowdin.yml) configures files required for translation, and as content is translated Crowdin will create pull requests.  The only manual edits required are for building a new language (configured at the top of [build/build-website.py](build/build-website.py) and, once the translation is ready, adding it to the end of the [navigation menu](docs/_data/navigation.json).
+
+GitHub Actions are configured to rebuild the website automatically as website/prose translations are created and updated.  Changes are automatically deployed to https://ac-translation-preview.tdwg.org/, when the pull request is approved they will appear on https://ac.tdwg.org/.  (Note if the navigation menu hasn't been translated it will be necessary to edit the URL to get to each page.)
 
 ## Repo structure
 

@@ -27,5 +27,25 @@
     "term_deprecated": "This term is deprecated and should no longer be used.",
     "term_replaced_by": "Is replaced by",
     "has_broader_concept": "Has broader concept",
-    "has_exact_match": "Has exact match"
+    "has_exact_match": "Has exact match",
+
+    "management_vocabulary": "Management Vocabulary",
+    "attribution_vocabulary": "Attribution Vocabulary",
+    "agents_vocabulary": "Agents Vocabulary",
+    "content_coverage_vocabulary": "Content Coverage Vocabulary",
+    "geography_vocabulary": "Geography Vocabulary",
+    "temporal_coverage_vocabulary": "Temporal Coverage Vocabulary",
+    "taxonomic_coverage_vocabulary": "Taxonomic Coverage Vocabulary",
+    "resource_creation_vocabulary": "Resource Creation Vocabulary",
+    "related_resources_vocabulary": "Related Resources Vocabulary",
+    "service_access_point_vocabulary": "Service Access Point Vocabulary",
+    "region_of_interest_vocabulary": "Region of Interest Vocabulary",
+
+    "geography_vocabulary_comments": "Note that [dwc:locality](http://rs.tdwg.org/dwc/terms/locality) may be used, but as applied to media this term may be ambiguous as to whether it applies to the location depicted or the location at which the media was created. When disambiguating information is available, it is better to use the terms Location Shown and Location Created. The latter is in the Resource Creation Vocabulary.\n\nLocation Created and Location Shown are separated in the current version of IPTC, and the Metadata Working Group ([Metadata Working Group Guidelines for Handling Image Metadata, Version 2.0, November 2010](https://web.archive.org/web/20180919181934/http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf)) also recommends this. We follow this below in order to support the expected future increase of automatic GPS-based coordinate recording. As a special case, the AC group recommends to change the semantics of Location Shown in the case of biodiversity specimens, where the original location may differ from the current location at which the specimen is held in a collection. In this case, Location Shown should exclusively refer to the location where a specimen was originally collected (gathering or sampling location). Use Location Created to express the location where the resource was created (a specimen was digitized).\n\n",
+    "service_access_point_vocabulary_comments": "These terms are representation-dependent metadata, referring to specific digital representations of a resource (e.g., a specific resolution, quality, or format). They are used within whatever a particular AC implementation assigns to the value of `ac:hasServiceAccessPoint`, whose label is simply “Service Access Point.” Note that it is possible for an implementation to use syntactic conventions that avoid direct use of `ac:hasServiceAccessPoint`, as illustrated in the final example in the section [Multiplicity/Cardinality in the Audiovisual Core Structure document](structure.md#3-multiplicity-and-cardinality).\n\n",
+    "region_of_interest_vocabulary_comments": "Regions of Interest (ROI) designate specific parts of media items. Features within these regions can be taxonomically identified or linked to occurrence records. ROI metadata may also be used to generate annotations of the media item or to facilitate display or highlighting of specific parts. \n\nCurrently spatial ROIs are limited to two dimensions and can only be defined by rectangles or arcs (including circles). The terms in this group are not repeatable within a single ROI instance, although a media item may be linked to more than one ROI by the `ac:hasROI` property.\n\n For examples showing how to use these terms, see the <a href='https://github.com/tdwg/ac/blob/master/roi-recipes.md'>ROI Recipes</a> page.\n\n",
+
+    "concept_schemes": "Concept schemes",
+    "media_types_and_physical_media_concept_scheme": "Media types and physical media concept scheme",
+    "file_extensions_concept_scheme": "File extensions concept scheme"
 }
