@@ -1,7 +1,6 @@
-# Controlled Vocabulary for Dublin Core format: List of Terms
+# Řízený slovník pro formát Dublin Core: seznam termínů
 
-Title
-: Controlled Vocabulary for Dublin Core format: List of Terms
+Název: Řízený slovník pro formát Dublin Core: seznam termínů
 
 IRI jmenného prostoru
 : <http://rs.tdwg.org/acformat/values/>
