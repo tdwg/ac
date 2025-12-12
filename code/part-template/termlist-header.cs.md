@@ -1,7 +1,7 @@
 # Controlled Vocabulary for Audiovisual Core subjectPart: List of Terms
 
-Title
-: Controlled Vocabulary for Audiovisual Core subjectPart: List of Terms
+Název
+: Řízený slovník pro Audiovisual Core subjectPart: Seznam termínů
 
 IRI Jmenného prostoru
 : <http://rs.tdwg.org/acpart/values/>
