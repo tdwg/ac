@@ -1,4 +1,4 @@
-# Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms
+# Řízený slovník pro Audiovisual Core subjectOrientation: Seznam termínů
 
 Title
 : Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms
