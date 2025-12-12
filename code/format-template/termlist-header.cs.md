@@ -26,7 +26,7 @@ Aktuální verze
 {previous_version_slot}
 
 Abstrakt
-: Audiovisual Core přebírá termíny Dublin Core dc:format a dcterms:format, aby poskytoval informace o fyzickém nebo elektronickém formátu mediálního prvku. This controlled vocabulary provides values for those two terms.
+: Audiovisual Core přebírá termíny Dublin Core dc:format a dcterms:format, aby poskytoval informace o fyzickém nebo elektronickém formátu mediálního prvku. Tento řízený slovník poskytuje hodnoty pro tyto dva termíny.
 
 Přispěvatelé
 : {contributors}
