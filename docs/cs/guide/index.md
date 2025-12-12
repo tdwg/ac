@@ -75,10 +75,10 @@ Telecommunications Council (IPTC), Metadata Working Group (MWG)
 schema, Natural Collections Schema (NCD) a další. V případě
 přesné shody s použitím těchto standardů přijímá AC jejich
 identifikátory a definice. Mnohé sbírky multimédií o biologické rozmanitosti
-již obsahují popisy svých médií vyjádřené v DwC nebo DC. By
-using those vocabularies where suitable, AC particularly intends to make
-it easy for such collections to reuse their existing descriptions,
-augmented where necessary by other terms.
+již obsahují popisy svých médií vyjádřené v DwC nebo DC. Použitím
+těchto slovníků tam, kde je to vhodné, chce AC zejména usnadnit
+opětovné použití stávajících popisů v těchto sbírkách,
+v případě potřeby doplněných o další termíny.
 
 This guide accompanies the normative parts of the AC standard,
 which are included in two documents: one that describes the structure of the document <sup id="cit-1">[\[1\]](#fn-1)</sup>
