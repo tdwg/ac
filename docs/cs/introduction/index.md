@@ -35,7 +35,7 @@ Bibliografická citace
 
 ## 1. Úvod
 
-Aububon Core Standard obsahuje čtyři dokumenty.  Tento dokument
+There are four documents included in the Audiovisual Core Standard.  Tento dokument
 poskytuje obecný úvod do standardu Audiovisual Core. Informace
 o struktuře Audiovisual Core naleznete v dokumentu [Audiovisual Core Structure](../structure/).  Podrobnosti o termínech naleznete v dokumentu [Audiovisual Core Terms List](../termlist/).  
 Podrobnější návod k používání Audiovisual Core naleznete v dokumentu
