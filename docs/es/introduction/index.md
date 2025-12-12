@@ -35,7 +35,7 @@ Citación bibliográfica
 
 ## 1 Introducción
 
-Hay cuatro documentos incluidos en el Estándar Audiovisual Core.  Este documento ofrece una introducción general al Estándar Audiovisual Core. Para obtener información sobre la estructura del Audiovisual Core, consulte el documento [Estructura del Audiovisual Core](../structure/).  Para conocer detalles de los términos, consulte el documento [Lista de términos del Audiovisual Core](../termlist/).  
+There are four documents included in the Audiovisual Core Standard.  Este documento ofrece una introducción general al Estándar Audiovisual Core. Para obtener información sobre la estructura del Audiovisual Core, consulte el documento [Estructura del Audiovisual Core](../structure/).  Para conocer detalles de los términos, consulte el documento [Lista de términos del Audiovisual Core](../termlist/).  
 Para obtener una guía más detallada sobre el uso de Audiovisual Core, consulte el documento [Guía de Audiovisual Core](../guide/).
 
 ### 1.1 Estado del contenido de este documento
