@@ -6,7 +6,7 @@ Title
 Datum vydání verze
 : 2023-02-24
 
-Date created
+Datum vytvoření
 : 2013-10-15
 
 Součást TDWG Standardu
@@ -15,10 +15,10 @@ Součást TDWG Standardu
 Tato verze
 : <http://rs.tdwg.org/ac/doc/guide/2023-02-24>
 
-Latest version
+Poslední verze
 : <http://rs.tdwg.org/ac/doc/guide/>
 
-Previous version
+Předchozí verze
 : <http://rs.tdwg.org/ac/doc/guide/2013-10-15>
 
 Abstrakt
