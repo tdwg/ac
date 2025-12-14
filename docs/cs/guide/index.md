@@ -37,8 +37,8 @@ Bibliografická citace
 
 The Audiovisual Core Multimedia Resources Metadata Schema (Audiovisual Core) is a data standard for exchanging data describing biodiversity multimedia
 resources and collections produced by the GBIF/TDWG joint Multimedia
-Resources Metadata Task Group (MRTG).  The standard consists of four documents.  This document is a guide to the aims and uses of the standard. The Audiovisual
-Core Introduction document provides a brief introduction to the Audiovisual Core Standard. For detailed information about the structure of Audiovisual Core, see the [Audiovisual Core Structure](structure) document.  For term details, see the [Audiovisual Core Terms List](terms) document.
+Resources Metadata Task Group (MRTG).  Norma se skládá ze čtyř dokumentů.  Tento dokument je průvodcem po cílech a použití normy. The Audiovisual
+Core Introduction document provides a brief introduction to the Audiovisual Core Standard. Podrobné informace o struktuře Audiovisual Core naleznete v dokumentu [Audiovisual Core Structure](structure).  Podrobnosti o termínech najdete v dokumentu [Seznam termínů Audiovisual Core](terms).
 
 Acronyms and named institutions and projects are listed in a Glossary in
 Appendix I.
@@ -104,15 +104,11 @@ that provides scanned images of legacy literature at a far greater rate
 than it can provide digitized versions based on optical character
 recognition, and these images remain available as sources for any
 subsequent derived products. Thus digitized legacy literature is
-documented by the page images. Most scientific literature of course is
-also illustrated by photographs, graphs, or other artifacts in the
-purview of the Audiovisual Core. Even the providers of “Molecular DNA"
-resources sometimes will offer original data as digital images of
-microarray chips.
+documented by the page images. Většina vědecké literatury je samozřejmě také ilustrována fotografiemi, grafy nebo jinými artefakty, které spadají do působnosti Audiovisual Core. Dokonce i poskytovatelé zdrojů „molekulární DNA“ někdy nabízejí původní data ve formě digitálních obrazů na mikročipech.
 
 ![](assets/images/guide_fig_1.png)
 
-Figure 1. Relationships of Multimedia Resources to primary types of
+Obrázek 1. Relationships of Multimedia Resources to primary types of
 biodiversity resources
 
 ## 3 Audiovisual Core Terms
@@ -174,7 +170,7 @@ below.
 			<td>dcterms:type</td>
 		</tr>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normativní URI:</td>
 			<td><a href="http://purl.org/dc/terms/type" rel="nofollow">http://purl.org/dc/terms/type</a></td>
 		</tr>
 		<tr>
@@ -207,12 +203,12 @@ below.
 			<td>ac:reviewerLiteral</td>
 		</tr>
 		<tr>
-			<td>Normative URI:</td>
+			<td>Normativní URI:</td>
 			<td><a href="http://rs.tdwg.org/ac/terms/reviewerLiteral" rel="nofollow">http://rs.tdwg.org/ac/terms/reviewerLiteral</a></td>
 		</tr>
 		<tr>
 			<td>Štítek</td>
-			<td>Reviewer</td>
+			<td>Recenzent</td>
 		</tr>
 		<tr>
 			<td></td>
@@ -256,7 +252,7 @@ The principal namespace qualifiers for term URIs in this document are
 
 - **exif:** the Camera and Imaging Products Association Exchangeable Image File Format vocabulary with namespace http://ns.adobe.com/exif/1.0/ documented at http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf
 
-## 4 Motivation and Rationale
+## 4 Motivace a odůvodnění
 
 Many valuable multimedia resources exist that have no information stored
 in databases. Some may have a web presence and others not. Even those
