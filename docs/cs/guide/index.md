@@ -254,22 +254,21 @@ The principal namespace qualifiers for term URIs in this document are
 
 ## 4 Motivace a odůvodnění
 
-Many valuable multimedia resources exist that have no information stored
-in databases. Some may have a web presence and others not. Even those
-available online may not be adequately discoverable by search engines,
-or may be lost in the noise of images from unreliable sources. A brief
-descriptive record as defined by the Audiovisual Core standard can act as
-the “business card” for a multimedia resource, providing enough
-information to identify and locate media resources by researchers,
-aggregators, decision makers, educators, or the general public.
+Existuje mnoho cenných multimediálních zdrojů, které neobsahují žádné informace uložené v databázích. Někteří mohou mít webovou prezentaci, jiní nikoli. I ty, které jsou
+dostupné online, nemusí být pro vyhledávače dostatečně zjistitelné,
+nebo se mohou ztratit v záplavě obrázků z nespolehlivých zdrojů. Stručný
+popisný záznam, jak je definován standardem Audiovisual Core, může sloužit jako
+„vizitka“ multimediálního zdroje a poskytovat dostatek
+informací k identifikaci a vyhledání mediálních zdrojů výzkumníky,
+agregátory, rozhodovacími činiteli, pedagogy nebo širokou veřejností.
 
-The standard enables the aggregation of multimedia resource descriptions
-from many sources and facilitates resource discovery, including
-establishing relationships among multimedia resources in several
-locations. AC records can also be used as an aid for multimedia
-resources management processes, allowing an institution to take a step
-back and see which collections are most in need of conservation or would
-benefit from a higher priority for item-level cataloguing.
+Standard umožňuje agregaci popisů multimediálních zdrojů
+z mnoha zdrojů a usnadňuje vyhledávání zdrojů, včetně
+vytváření vztahů mezi multimediálními zdroji na několika
+místech. Záznamy AC lze také použít jako pomůcku pro procesy správy multimediálních
+zdrojů, což umožňuje instituci udělat krok
+zpět a zjistit, které sbírky nejvíce potřebují konzervaci nebo by
+měly vyšší prioritu pro katalogizaci na úrovni jednotlivých položek.
 
 Among important uses identified by the Task Group, which are facilitated
 by the metadata, are:
