@@ -1,7 +1,7 @@
-# Audiovisual Core Guide
+# Příručka Audiovisual Core
 
-Title
-: Audiovisual Core Guide
+Název
+: Příručka Audiovisual Core
 
 Datum vydání verze
 : 2023-02-24
