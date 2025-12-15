@@ -47,7 +47,7 @@ Appendix I.
 
 Všechny části tohoto dokumentu jsou nenormativní.
 
-## 2 Summary
+## 2 Shrnutí
 
 Audiovisual Core Multimedia Resources Metadata schema („schéma AC“ nebo
 jednoduše „AC“) je soubor slovníků metadat pro popis
