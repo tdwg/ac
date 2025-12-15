@@ -99,12 +99,12 @@ we augment with three types not in the main purview of NCD. These are:
 Observations, Ecological Models, and the focus of this work, Multimedia
 Resources. Applications exploiting each kind of these resources find
 utility, or sometimes require the use of multimedia resources to
-document them. For example, the Biological Heritage Library is a project
-that provides scanned images of legacy literature at a far greater rate
-than it can provide digitized versions based on optical character
-recognition, and these images remain available as sources for any
-subsequent derived products. Thus digitized legacy literature is
-documented by the page images. Většina vědecké literatury je samozřejmě také ilustrována fotografiemi, grafy nebo jinými artefakty, které spadají do působnosti Audiovisual Core. Dokonce i poskytovatelé zdrojů „molekulární DNA“ někdy nabízejí původní data ve formě digitálních obrazů na mikročipech.
+document them. Například Biological Heritage Library je projekt,
+který poskytuje naskenované obrázky starší literatury v mnohem větším rozsahu,
+než kolik může poskytnout digitalizovaných verzí založených na optickém rozpoznávání znaků,
+a tyto obrázky zůstávají k dispozici jako zdroje pro jakékoli
+následné odvozené produkty. Digitálně zpracovaná historická literatura je tedy
+dokumentována pomocí obrázků stránek. Většina vědecké literatury je samozřejmě také ilustrována fotografiemi, grafy nebo jinými artefakty, které spadají do působnosti Audiovisual Core. Dokonce i poskytovatelé zdrojů „molekulární DNA“ někdy nabízejí původní data ve formě digitálních obrazů na mikročipech.
 
 ![](assets/images/guide_fig_1.png)
 
@@ -160,13 +160,13 @@ documentation for that external standard. Sometimes it is not precise
 because the documentation is a PDF document and several (different\!)
 URIs might apparently resolve to the same place.
 
-Examples from the Term List are shown
-below.
+Příklady z termínového seznamu jsou uvedeny
+níže.
 
 <table>
 	<tbody>
 		<tr>
-			<td>Term Name:</td>
+			<td>Název termínu:</td>
 			<td>dcterms:type</td>
 		</tr>
 		<tr>
@@ -199,7 +199,7 @@ below.
 <table>
 	<tbody>
 		<tr>
-			<td>Term Name:</td>
+			<td>Název termínu:</td>
 			<td>ac:reviewerLiteral</td>
 		</tr>
 		<tr>
@@ -319,7 +319,7 @@ properties of an Audiovisual Core record are considered to be mandatory:
 In addition it is strongly recommended to provide a concise title of the
 resource, using dcterms:title
 
-## 5 Existing Standards
+## 5 Stávající normy
 
 The Audiovisual Core intends to provide metadata that describe either media
 resources themselves or collections of them. There are several
