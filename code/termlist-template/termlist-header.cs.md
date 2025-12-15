@@ -1,7 +1,7 @@
-# Audiovisual Core List of Terms
+# Seznam termínů Audiovisual Core
 
-Title
-: Audiovisual Core List of Terms
+Název
+: Seznam termínů Audiovisual Core
 
 Datum vydání verze
 : {ratification_date}
@@ -21,7 +21,7 @@ Aktuální verze
 {previous_version_slot}
 
 Abstrakt
-: Audiovisual Core je soubor slovníků určených k reprezentaci metadat pro multimediální zdroje a sbírky týkající se biologické rozmanitosti. It aims to represent information that will help to determine whether a particular resource or collection will be fit for some particular biodiversity science application before acquiring the media. Slovníky se mimo jiné zabývají otázkami, jako je správa médií a sbírek, popisy jejich obsahu, jejich taxonomické, geografické a časové pokrytí a vhodné způsoby jejich vyhledávání, přiřazování a reprodukce. This document contains a list of attributes of each Audiovisual Core term, including a documentation name, a specified URI, a recommended English label for user interfaces, a definition, and some ancillary notes. This document contains normative content that may not be changed without due process.
+: Audiovisual Core je soubor slovníků určených k reprezentaci metadat pro multimediální zdroje a sbírky týkající se biologické rozmanitosti. Jeho cílem je poskytnout informace, které pomohou před pořízením média určit, zda je daný zdroj nebo sbírka vhodná pro konkrétní vědecké účely v oblasti biologické rozmanitosti. Slovníky se mimo jiné zabývají otázkami, jako je správa médií a sbírek, popisy jejich obsahu, jejich taxonomické, geografické a časové pokrytí a vhodné způsoby jejich vyhledávání, přiřazování a reprodukce. Tento dokument obsahuje seznam atributů každého základního audiovizuálního termínu, včetně názvu dokumentace, specifikovaného URI, doporučeného anglického označení pro uživatelská rozhraní, definice a některých doplňujících poznámek. Tento dokument obsahuje normativní obsah, který nelze měnit bez řádného procesu.
 
 Přispěvatelé
 : {contributors}
