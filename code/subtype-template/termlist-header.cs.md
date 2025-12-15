@@ -1,7 +1,7 @@
 # Controlled Vocabulary for Audiovisual Core subtype: List of Terms
 
-Title
-: Controlled Vocabulary for Audiovisual Core subtype: List of Terms
+Název
+: Řízený slovník pro Audiovisual Core subtype: Seznam termínů
 
 IRI Jmenného prostoru
 : <http://rs.tdwg.org/acsubtype/values/>
