@@ -1,7 +1,7 @@
-# Controlled Vocabulary for Audiovisual Core variant: List of Terms
+# Řízený slovník pro Audiovisual Core variant: Seznam termínů
 
-Title
-: Controlled Vocabulary for Audiovisual Core variant: List of Terms
+Název
+: Řízený slovník pro Audiovisual Core variant: Seznam termínů
 
 IRI Jmenného prostoru
 : <http://rs.tdwg.org/acvariant/values/>
@@ -26,8 +26,8 @@ Aktuální verze
 
 {previous_version_slot}
 
-Abstract
-: Audiovisual Core uses the terms ac:variant and ac:variantLiteral to provide information about the size, extent, and availability of the Service Access Point of a media item. This controlled vocabulary provides values for those terms.
+Abstrakt
+: Audiovisual Core používá termíny ac:variant a ac:variantLiteral k poskytování informací o velikosti, rozsahu a dostupnosti přístupového bodu služby pro mediální položku. Tento řízený slovník poskytuje hodnoty pro tyto termíny.
 
 Přispěvatelé
 : {contributors}
