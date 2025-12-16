@@ -1,4 +1,4 @@
-# Controlled Vocabulary for Audiovisual Core subtype: List of Terms
+# Řízený slovník pro Audiovisual Core subtype: Seznam termínů
 
 Název
 : Řízený slovník pro Audiovisual Core subtype: Seznam termínů
@@ -26,8 +26,8 @@ Aktuální verze
 
 {previous_version_slot}
 
-Abstract
-: Audiovisual Core uses the terms ac:subtype and ac:subtypeLiteral to refine the type of a media item to a level more specific than the Dublin Core Type Vocabulary, http://purl.org/dc/dcmitype/. This controlled vocabulary provides values for ac:subtype and ac:subtypeLiteral.
+Abstrakt
+: Audiovisual Core používá termíny ac:subtype a ac:subtypeLiteral k upřesnění typu mediálního prvku na úroveň, která je konkrétnější než slovník Dublin Core Type Vocabulary, http://purl.org/dc/dcmitype/. Tento řízený slovník poskytuje hodnoty pro ac:subtype a ac:subtypeLiteral.
 
 Přispěvatelé
 : {contributors}
