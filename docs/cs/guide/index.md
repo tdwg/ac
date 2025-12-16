@@ -40,8 +40,8 @@ resources and collections produced by the GBIF/TDWG joint Multimedia
 Resources Metadata Task Group (MRTG).  Norma se skládá ze čtyř dokumentů.  Tento dokument je průvodcem po cílech a použití normy. The Audiovisual
 Core Introduction document provides a brief introduction to the Audiovisual Core Standard. Podrobné informace o struktuře Audiovisual Core naleznete v dokumentu [Audiovisual Core Structure](structure).  Podrobnosti o termínech najdete v dokumentu [Seznam termínů Audiovisual Core](terms).
 
-Acronyms and named institutions and projects are listed in a Glossary in
-Appendix I.
+Zkratky a názvy institucí a projektů jsou uvedeny ve slovníku v
+příloze I.
 
 ### 1.1 Status obsahu tohoto dokumentu
 
