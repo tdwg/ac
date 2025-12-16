@@ -80,22 +80,22 @@ v případě potřeby doplněných o další termíny.
 
 This guide accompanies the normative parts of the AC standard,
 which are included in two documents: one that describes the structure of the document <sup id="cit-1">[\[1\]](#fn-1)</sup>
-and a Term List document <sup id="cit-2">[\[2\]](#fn-2)</sup>. The Term List
-documents a series of terms, each of which is identified by a unique
-Uniform Resource Identifier (URI), together with normative definitions.
+and a Term List document <sup id="cit-2">[\[2\]](#fn-2)</sup>. Seznam termínů
+dokumentuje řadu termínů, z nichž každý je identifikován jedinečným
+identifikátorem URI (Uniform Resource Identifier), spolu s normativními definicemi.
 In addition, the Audiovisual Core Maintenance Group may develop recommended representations for AC
 descriptions in several important forms including RDF <sup id="cit-3">[\[3\]](#fn-3)</sup>, XML
 Schema <sup id="cit-4">[\[4\]](#fn-4)</sup>, and Comma Separated Values (CSV) <sup id="cit-5">[\[5\]](#fn-5)</sup>.
 
 Figure 1 below augments a portion of Figure 2 of the non-normative
-portion of the NCD document <sup id="cit-6">[\[6\]](#fn-6)</sup>. It shows a number of kinds of
-biodiversity data-centric resources and illustrates typical user
-communities, data and metadata standards, and network services that
-support the discovery, analysis, and integration of data. We extracted
-from the NCD figure the resources and relationships between them, which
-we augment with three types not in the main purview of NCD. These are:
-Observations, Ecological Models, and the focus of this work, Multimedia
-Resources. Applications exploiting each kind of these resources find
+portion of the NCD document <sup id="cit-6">[\[6\]](#fn-6)</sup>. Ukazuje řadu druhů
+zdrojů zaměřených na data o biologické rozmanitosti a ilustruje typické uživatelské
+komunity, standardy dat a metadat a síťové služby, které
+podporují vyhledávání, analýzu a integraci dat. Z údajů NCD jsme extrahovali
+zdroje a vztahy mezi nimi, které
+jsme doplnili o tři typy, které nespadají do hlavní působnosti NCD. Jedná se o:
+Pozorování, ekologické modely a zaměření této práce, multimediální
+zdroje. Applications exploiting each kind of these resources find
 utility, or sometimes require the use of multimedia resources to
 document them. Například Biological Heritage Library je projekt,
 který poskytuje naskenované obrázky starší literatury v mnohem větším rozsahu,
@@ -106,15 +106,15 @@ dokumentována pomocí obrázků stránek. Většina vědecké literatury je sam
 
 ![](assets/images/guide_fig_1.png)
 
-Obrázek 1. Relationships of Multimedia Resources to primary types of
-biodiversity resources
+Obrázek 1. Vztahy multimediálních zdrojů k primárním typům
+zdrojů biologické rozmanitosti
 
 ## 3 Audiovisual Core Terms
 
 An Audiovisual Core record is a description, using the Audiovisual Core terms,
-of a multimedia resource. Two kinds of terms are specified by AC:
-_record-level terms_ and _access-level terms._ Record-level terms apply
-to the media resource being described. Almost all terms are record-level
+of a multimedia resource. AC specifikuje dva druhy termínů:
+_termíny na úrovni záznamu_ a _termíny na úrovni přístupu._ Termíny na úrovni záznamu se vztahují
+k popisovanému mediálnímu zdroji. Almost all terms are record-level
 terms. One such term, _serviceAccessPoint_ plays a special role in
 helping to retrieve the resource that the record describes. A multimedia
 resource may have more than one serviceAccessPoint, each of which is
