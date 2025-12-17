@@ -148,15 +148,15 @@ list <sup id="cit-7">[\[7\]](#fn-7)</sup>, for borrowed terms, this term name is
 abbreviation for the namespace, whereas for denovo AC terms, no such
 prefix is prepended. It is recommended that implementers who need a
 namespace prefix for the AC namespace use "ac" wherever feasible. The
-result is known as a qualified name. For example the normative wiki
-documentation for the borrowed term dcterms:identifier has URI
-http://purl.org/dc/terms/identifier. In this document we will follow the established
-qualified name convention. In
-fact, most of the URIs for terms borrowed from external vocabularies
-(about half of them) do in fact resolve to something in relevant
-documentation for that external standard. Sometimes it is not precise
-because the documentation is a PDF document and several (different\!)
-URIs might apparently resolve to the same place.
+result is known as a qualified name. Například normativní wiki
+dokumentace pro vypůjčený termín dcterms:identifier má URI
+http://purl.org/dc/terms/identifier. V tomto dokumentu budeme dodržovat zavedenou
+konvenci kvalifikovaných názvů. Ve
+skutečnosti se většina URI pro termíny převzaté z externích slovníků
+(asi polovina z nich) ve skutečnosti odkazuje na něco v příslušné
+dokumentaci pro daný externí standard. Někdy to není přesné,
+protože dokumentace je ve formátu PDF a několik (různých\!)
+URI mohou zřejmě směřovat na stejné místo.
 
 Příklady z termínového seznamu jsou uvedeny
 níže.
@@ -185,7 +185,7 @@ níže.
 		</tr>
 		<tr>
 			<td>Použití:</td>
-			<td>A full URI preferably from among the type URIs specified in the DCMI Type Vocabulary, <a href="http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary" rel="nofollow">http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary</a>. Recommended terms are those URIs whose labels are Collection, StillImage, Sound, MovingImage, InteractiveResource, or Text (e.g. . Also recommended are the full URIs of ac:PanAndZoomImage, ac:3DStillImage, and ac: 3DMovingImage. Values MUST NOT be a string, but a URI with full namespace (e. g. from a controlled vocabulary. Implementers and communities of practice may determine whether specific controlled vocabularies must be used. If the resource is a Collection, this item does not identify what types of objects it may contain. Following the DC recommendations at <a href="http://purl.org/dc/dcmitype/Text" rel="nofollow">http://purl.org/dc/dcmitype/Text</a>, images of text should be with this URI.</td>
+			<td>A full URI preferably from among the type URIs specified in the DCMI Type Vocabulary, <a href="http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary" rel="nofollow">http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary</a>. Doporučené termíny jsou ty URI, jejichž označení jsou Collection, StillImage, Sound, MovingImage, InteractiveResource nebo Text (např. . Doporučujeme také úplné URI adresy ac:PanAndZoomImage, ac:3DStillImage a ac: 3DMovingImage. Hodnoty NESMÍ být řetězcem, ale URI s úplným jmenným prostorem (např. z řízeného slovníku. Implementátoři a komunity praxe mohou určit, zda je nutné používat konkrétní řízené slovníky. Pokud je zdroj sbírkou, tato položka neurčuje, jaké typy objektů může obsahovat. Following the DC recommendations at <a href="http://purl.org/dc/dcmitype/Text" rel="nofollow">http://purl.org/dc/dcmitype/Text</a>, images of text should be with this URI.</td>
 		</tr>
 		<tr>
 			<td>Poznámky:</td>
