@@ -189,7 +189,7 @@ níže.
 		</tr>
 		<tr>
 			<td>Poznámky:</td>
-			<td>V souladu s doporučeními DC pro typ textu <a href="http://purl.org/dc/terms/DCMIType" rel="nofollow">http://purl.org/dc/terms/DCMIType</a> by obrázky textu měly být uvedeny jako http://purl.org/dc/dcmitype/Text, pokud jsou uvedeny jako URI. See also the entry for dc:type in the Audiovisual Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md" rel="nofollow">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails.</td>
+			<td>V souladu s doporučeními DC pro typ textu <a href="http://purl.org/dc/terms/DCMIType" rel="nofollow">http://purl.org/dc/terms/DCMIType</a> by obrázky textu měly být uvedeny jako http://purl.org/dc/dcmitype/Text, pokud jsou uvedeny jako URI. Viz také heslo dc:type v dokumentu Audiovisual Core term list (Seznam základních audiovizuálních termínů) a viz DCMI FAQ on DC and DCTERMS Namespaces (Často kladené otázky týkající se jmenných prostorů DC a DCTERMS), <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md" rel="nofollow">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, kde se diskutuje o důvodech pro použití termínů ve dvou jmenných prostorech. Obvyklým postupem je použít stejný štítek, pokud jsou k dispozici oba. Labels have no effect on information discovery and are only suggestions. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails.</td>
 		</tr>
 	</tbody>
 </table>
@@ -218,7 +218,7 @@ níže.
 		</tr>
 		<tr>
 			<td>Notes:</td>
-			<td>Provider is asserting they accept this review as competent. See also ac:reviewer and the section Namespaces, Prefixes and Term Names in the Audiovisual Core Term List document for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>Provider is asserting they accept this review as competent. See also ac:reviewer and the section Namespaces, Prefixes and Term Names in the Audiovisual Core Term List document for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Obvyklým postupem je použít stejný štítek, pokud jsou k dispozici oba. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
