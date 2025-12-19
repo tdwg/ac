@@ -125,10 +125,10 @@ other vocabularies, this field generally carries a link to the
 originating vocabulary's documentation for that
 term.
 
-## 3 Multiplicity and Cardinality
+## 3 Multiplicita a kardinalita
 
-A number of terms are repeatable. How to implement repeatability in a
-given serialization is not defined by Audiovisual Core. The following
+Řada termínů se opakuje. Způsob implementace opakovatelnosti v
+dané serializaci není definován Audiovisual Core. The following
 section gives advice on some best practices in the context of
 repeatability.
 
@@ -143,7 +143,7 @@ separators to support a list of values within a single element (e.g.
 "`...<dcterms:identifier>http://example.com/123;
 http://example.com/456</dcterms:identifier>...`").
 
-In certain cases pairs or tuples of properties are repeated. In Audiovisual
+V některých případech se páry nebo dvojice vlastností opakují. In Audiovisual
 Core this situation occurs, for example, in the following cases:
 
 - The language-dependent metadata like title, description, etc. need
@@ -320,11 +320,11 @@ vlastnosti v novém jmenném prostoru.
   </tbody>
 </table>
 
-Note: `acf:` (for "Audiovisual Core Flat") is a made-up namespace.  Communities of interest might mint such terms in order to use this kind of structure.
+Poznámka: `acf:` (zkratka pro „Audiovisual Core Flat“) je vymyšlený jmenný prostor.  Zájmové komunity mohou takové termíny vytvářet, aby mohly využívat tento druh struktury.
 
 ## 4 Lists of plain text values
 
-Some AC terms permit values that are lists to be represented as plain
+Některé termíny AC povolují hodnoty, které jsou seznamy, aby byly reprezentovány jako prostý
 text. The choice of how to separate list items is ultimately left to the
 implementers of AC. Typical usage is to choose a punctuation mark such
 as ",", ";", or "|". In these cases a special escape syntax needs to be
