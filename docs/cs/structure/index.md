@@ -275,13 +275,13 @@ as unnecessary.
 </table>
 
 Another approach (Section 3.2.2) also eliminates the need for the `ac:hasServiceAccessPoint` property when
-flattening the ac structure. It is based on introducing new terms
-exploiting values of the [ac:variantLiteral](../termlist#ac_variantLiteral):
-"Thumbnail", "Trailer", "Lower Quality", "Medium Quality", "Good
-Quality", "Best Quality", "Offline", as prefixes for additional
-properties in a new namespace.
+flattening the ac structure. Je založeno na zavedení nových termínů
+využívajících hodnoty [ac:variantLiteral](../termlist#ac_variantLiteral):
+„Thumbnail“, „Trailer“, „Lower Quality“, „Medium Quality“, „Good
+Quality“, „Best Quality“, „Offline“ jako předpony pro další
+vlastnosti v novém jmenném prostoru.
 
-#### 3.2.2 Example of a table with metadata for all service access points in the same row (non-normative)
+#### 3.2.2 Příklad tabulky s metadaty pro všechny přístupové body služby ve stejném řádku (nenormativní)
 
 <table>
   <tbody>
