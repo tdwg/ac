@@ -642,43 +642,43 @@ this standard allows mapping between them.
     </tr>
     <tr>
       <td><a href="http://rs.tdwg.org/dwc/">DwC</a></td>
-      <td>The Darwin Core is a TDWG standard for representation of specimen records. It has been in wide use for several years in a number of nonstandard, sometimes inconsistent, versions. A recently adopted standard version is at <a href="http://rs.tdwg.org/dwc/index.htm">http://rs.tdwg.org/dwc/index.htm</a>.</td>
+      <td>The Darwin Core is a TDWG standard for representation of specimen records. Již několik let se široce používá v řadě nestandardních, někdy nekonzistentních verzí. Nedávno přijatá standardní verze je k dispozici na adrese <a href="http://rs.tdwg.org/dwc/index.htm">http://rs.tdwg.org/dwc/index.htm</a>.</td>
     </tr>
     <tr>
       <td><a href="http://eol.org">EOL</a></td>
-      <td>Encyclopedia of Life. Information about many species.</td>
+      <td>Encyclopedia of Life. Informace o mnoha druzích.</td>
     </tr>
     <tr>
       <td><a href="http://en.wikipedia.org/wiki/Exchangeable_image_file_format">EXIF</a></td>
-      <td>Široce používaný formát značek pro metadata digitálních obrázků, který je často vkládán do obrazových souborů, zejména moderními digitálními fotoaparáty. Mnoho aplikací pro vykreslování obrázků dokáže číst a zobrazovat data EXIF. See <a href="http://en.wikipedia.org/wiki/Exchangeable_image_file_format">http://en.wikipedia.org/wiki/Exchangeable_image_file_format</a> for a history and description.</td>
+      <td>Široce používaný formát značek pro metadata digitálních obrázků, který je často vkládán do obrazových souborů, zejména moderními digitálními fotoaparáty. Mnoho aplikací pro vykreslování obrázků dokáže číst a zobrazovat data EXIF. Historie a popis viz <a href="http://en.wikipedia.org/wiki/Exchangeable_image_file_format">http://en.wikipedia.org/wiki/Exchangeable_image_file_format</a>.</td>
     </tr>
     <tr>
       <td><a href="http://www.gbif.org/">GBIF</a></td>
-      <td>Global Biodiversity Information Facility. Interoperable network of biodiversity databases and information technology tools.</td>
+      <td>Global Biodiversity Information Facility. Interoperabilní síť databází biologické rozmanitosti a nástrojů informačních technologií.</td>
     </tr>
     <tr>
       <td><a href="http://www.iana.org">IANA</a></td>
-      <td>Internet Assigned Names Authority. Specifies the forms of, and registers instances of, names of various protocols in use on the internet. See especially information on the <a href="http://en.wikipedia.org/wiki/URI_scheme">IANA http URI scheme</a>.</td>
+      <td>Internet Assigned Names Authority. Specifikuje formy a registruje instance názvů různých protokolů používaných na internetu. Viz zejména informace o <a href="http://en.wikipedia.org/wiki/URI_scheme">schématu http URI IANA</a>.</td>
     </tr>
     <tr>
       <td><a href="http://www.iptc.org">IPTC</a></td>
-      <td>IPTC is a mature standard from the International Press and Telecommunications Council. Its Intellectual Property Rights support finer-grained controlled vocabularies than DC, providing better machine processing for discovery and fitness-for-use. The current version is a vocabulary for XMP.</td>
+      <td>IPTC je vyspělý standard Mezinárodní rady pro tisk a telekomunikace. Jeho práva duševního vlastnictví podporují jemnější kontrolované slovníky než DC, což zajišťuje lepší strojové zpracování pro vyhledávání a vhodnost pro použití. Aktuální verze je slovník pro XMP.</td>
     </tr>
     <tr>
       <td><a href="http://www.json.org/">JSON</a></td>
-      <td>JavaScript Object Notation. Lightweight data-interchange format.</td>
+      <td>JavaScript Object Notation. Lehký formát pro výměnu dat.</td>
     </tr>
     <tr>
       <td><a href="http://www.morphbank.net/">Morphbank</a></td>
-      <td>A specimen image repository.</td>
+      <td>Úložiště obrázků vzorků.</td>
     </tr>
     <tr>
       <td><a href="http://www.metadataworkinggroup.org/">MWG</a></td>
-      <td>The Metadata Working Group is an industry consortium (Adobe, Apple, Canon, Microsoft, Nokia, and Sony) organized to specify how to exploit the Adobe Extensible Metadata Platform, <a href="http://en.wikipedia.org/wiki/Extensible_Metadata_Platform">XMP</a>, for embedding metadata into common image file formats in several widely used controlled vocabularies. Although MWG's thrust is mainly toward consumer applications, over two dozen open source and commercial software products and platforms support XMP and Adobe has placed a Developers' Toolkit under an open source license.</td>
+      <td>Pracovní skupina pro metadata je průmyslové konsorcium (Adobe, Apple, Canon, Microsoft, Nokia a Sony), které bylo založeno za účelem specifikace způsobu využití platformy Adobe Extensible Metadata Platform, <a href="http://en.wikipedia.org/wiki/Extensible_Metadata_Platform">XMP</a>, pro vkládání metadat do běžných formátů obrazových souborů v několika široce používaných řízených slovnících. Ačkoli se MWG zaměřuje hlavně na spotřebitelské aplikace, více než dvě desítky open source a komerčních softwarových produktů a platforem podporují XMP a společnost Adobe uvolnila sadu nástrojů pro vývojáře pod open source licencí.</td>
     </tr>
     <tr>
       <td><a href="http://images.nbii.gov/">NBII</a></td>
-      <td>The former U.S. National Biological Information Infrastructure. Its image library, the Library of Images From the Environment (LIFE), was at <a href="http://images.nbii.gov/">http://images.nbii.gov/</a> or <a href="http://life.nbii.gov/">http://life.nbii.gov/</a>. If LIFE is reconstituted in any form, there might be a link there.</td>
+      <td>Bývalá americká Národní infrastruktura biologických informací. Jeho obrazová knihovna, Library of Images From the Environment (LIFE), byla k dispozici na adrese <a href="http://images.nbii.gov/">http://images.nbii.gov/</a> nebo <a href="http://life.nbii.gov/">http://life.nbii.gov/</a>. If LIFE is reconstituted in any form, there might be a link there.</td>
     </tr>
     <tr>
       <td><a href="https://www.tdwg.org/standards/ncd/">NCD</a></td>
