@@ -650,7 +650,7 @@ this standard allows mapping between them.
     </tr>
     <tr>
       <td><a href="http://en.wikipedia.org/wiki/Exchangeable_image_file_format">EXIF</a></td>
-      <td>A widely used tagging format for digital image metadata that is often embedded in the image files, particularly by modern digital cameras. Many image rendering applications can read and display EXIF data. See <a href="http://en.wikipedia.org/wiki/Exchangeable_image_file_format">http://en.wikipedia.org/wiki/Exchangeable_image_file_format</a> for a history and description.</td>
+      <td>Široce používaný formát značek pro metadata digitálních obrázků, který je často vkládán do obrazových souborů, zejména moderními digitálními fotoaparáty. Mnoho aplikací pro vykreslování obrázků dokáže číst a zobrazovat data EXIF. See <a href="http://en.wikipedia.org/wiki/Exchangeable_image_file_format">http://en.wikipedia.org/wiki/Exchangeable_image_file_format</a> for a history and description.</td>
     </tr>
     <tr>
       <td><a href="http://www.gbif.org/">GBIF</a></td>
