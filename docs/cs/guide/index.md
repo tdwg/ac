@@ -109,7 +109,7 @@ dokumentována pomocí obrázků stránek. Většina vědecké literatury je sam
 Obrázek 1. Vztahy multimediálních zdrojů k primárním typům
 zdrojů biologické rozmanitosti
 
-## 3 Audiovisual Core Terms
+## 3 termíny Audiovisual Core
 
 An Audiovisual Core record is a description, using the Audiovisual Core terms,
 of a multimedia resource. AC specifikuje dva druhy termínů:
@@ -628,21 +628,21 @@ this standard allows mapping between them.
 
 - Register for the mailing list tdwg-content@lists.tdwg.org at http://lists.tdwg.org/mailman/listinfo/tdwg-content. This email list tracks all discussion about the content of TDWG standards.
 
-## 12 Appendix I: Glossary
+## 12 Příloha I: Slovníček pojmů
 
 <table>
   <tbody>
     <tr>
       <td><a href="http://dublincore.org/documents/dcmi-terms/">DC</a></td>
-      <td>Dublin Core. Metadata element set that is a standard for cross-domain information  resource discovery.</td>
+      <td>Dublin Core. Sada metadatových prvků, která je standardem pro vyhledávání informačních zdrojů napříč doménami.</td>
     </tr>
     <tr>
       <td><a href="http://dublincore.org/">DCMI</a></td>
-      <td>Dublin Core Metadata Initiative. The organization engaged in developing Dublin Core metadata standard.</td>
+      <td>Dublin Core Metadata Initiative. Organizace zabývající se vývojem standardu metadat Dublin Core.</td>
     </tr>
     <tr>
       <td><a href="http://rs.tdwg.org/dwc/">DwC</a></td>
-      <td>The Darwin Core is a TDWG standard for representation of specimen records. Již několik let se široce používá v řadě nestandardních, někdy nekonzistentních verzí. Nedávno přijatá standardní verze je k dispozici na adrese <a href="http://rs.tdwg.org/dwc/index.htm">http://rs.tdwg.org/dwc/index.htm</a>.</td>
+      <td>Darwin Core je standard TDWG pro reprezentaci záznamů o vzorcích. Již několik let se široce používá v řadě nestandardních, někdy nekonzistentních verzí. Nedávno přijatá standardní verze je k dispozici na adrese <a href="http://rs.tdwg.org/dwc/index.htm">http://rs.tdwg.org/dwc/index.htm</a>.</td>
     </tr>
     <tr>
       <td><a href="http://eol.org">EOL</a></td>
@@ -678,27 +678,27 @@ this standard allows mapping between them.
     </tr>
     <tr>
       <td><a href="http://images.nbii.gov/">NBII</a></td>
-      <td>Bývalá americká Národní infrastruktura biologických informací. Jeho obrazová knihovna, Library of Images From the Environment (LIFE), byla k dispozici na adrese <a href="http://images.nbii.gov/">http://images.nbii.gov/</a> nebo <a href="http://life.nbii.gov/">http://life.nbii.gov/</a>. If LIFE is reconstituted in any form, there might be a link there.</td>
+      <td>Bývalá americká Národní infrastruktura biologických informací. Jeho obrazová knihovna, Library of Images From the Environment (LIFE), byla k dispozici na adrese <a href="http://images.nbii.gov/">http://images.nbii.gov/</a> nebo <a href="http://life.nbii.gov/">http://life.nbii.gov/</a>. Pokud se LIFE obnoví v jakékoli formě, mohlo by tam být nějaké spojení.</td>
     </tr>
     <tr>
       <td><a href="https://www.tdwg.org/standards/ncd/">NCD</a></td>
-      <td>Natural Collections Description is a draft data standard designed to describe collections of physical objects such as specimens. It can accommodate collections of media objects, but cannot relate them to descriptions of the objects themselves.</td>
+      <td>Popis přírodních sbírek je návrh datového standardu určený k popisu sbírek fyzických objektů, jako jsou například vzorky. Může pojmout sbírky mediálních objektů, ale nemůže je propojit s popisy samotných objektů.</td>
     </tr>
     <tr>
       <td><a href="http://www.opengeospatial.org/">OGC</a></td>
-      <td>Open Geospatial Consortium. Provides standards for geospatial data representation and exchange.</td>
+      <td>Open Geospatial Consortium. Poskytuje standardy pro reprezentaci a výměnu geoprostorových dat.</td>
     </tr>
     <tr>
       <td><a href="http://en.wikipedia.org/wiki/Resource_Description_Framework">RDF</a></td>
-      <td>Resource Description Framework. Lightweight ontology system to support knowledge exchange online.</td>
+      <td>Resource Description Framework. Lehký ontologický systém na podporu online výměny znalostí.</td>
     </tr>
     <tr>
       <td><a href="http://www.tdwg.org/">TDWG</a></td>
-      <td>Taxonomic Databases Working Group. Now known as the Biodiversity Information Standards (TDWG), it is an international working group that develops standards and protocols for sharing biodiversity data.</td>
+      <td>Taxonomic Databases Working Group. Nyní známá jako Biodiversity Information Standards (TDWG), je to mezinárodní pracovní skupina, která vyvíjí standardy a protokoly pro sdílení dat o biologické rozmanitosti.</td>
     </tr>
     <tr>
       <td><a href="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier">URI</a></td>
-      <td>Unique Resource Identifier. Generic term for linking web resources including URLs.</td>
+      <td>Unique Resource Identifier. Obecný termín pro propojení webových zdrojů včetně URL adres.</td>
     </tr>
     <tr>
       <td><a href="http://www.w3.org/XML/">XML</a></td>
@@ -758,7 +758,7 @@ Encyclopedia of Life for hosting one of the meetings. This document,
 including some narrative is adapted from a corresponding document
 produced by the TDWG Natural Collections Descriptions (NCD) task group.
 
-### 13.1 Timeline
+### 13.1 Časová osa
 
 2006, November TDWG Image Interest Group initiated
 
