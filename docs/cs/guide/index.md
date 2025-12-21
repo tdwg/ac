@@ -218,12 +218,12 @@ níže.
 		</tr>
 		<tr>
 			<td>Poznámky:</td>
-			<td>Poskytovatel tvrdí, že tuto recenzi přijímá jako kompetentní. Viz také ac:reviewer a část Jmenné prostory, předpony a názvy termínů v dokumentu Audiovisual Core Term List, kde se diskutuje o důvodech pro oddělení termínů, které používají hodnoty URI, od termínů, které používají textové hodnoty, pokud jsou možné obě varianty. Obvyklým postupem je použít stejný štítek, pokud jsou k dispozici oba. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>Poskytovatel tvrdí, že tuto recenzi přijímá jako kompetentní. Viz také ac:reviewer a část Jmenné prostory, předpony a názvy termínů v dokumentu Audiovisual Core Term List, kde se diskutuje o důvodech pro oddělení termínů, které používají hodnoty URI, od termínů, které používají textové hodnoty, pokud jsou možné obě varianty. Obvyklým postupem je použít stejný štítek, pokud jsou k dispozici oba. Štítky nemají žádný vliv na vyhledávání informací a slouží pouze jako doporučení.</td>
 		</tr>
 	</tbody>
 </table>
 
-The principal namespace qualifiers for term URIs in this document are
+Hlavní kvalifikátory jmenného prostoru pro termínové URI v tomto dokumentu jsou
 
 - **dcterms:** and **dc:** The DCMI vocabulary documented at
   http://dublincore.org/documents/dcmi-terms
@@ -238,17 +238,17 @@ The principal namespace qualifiers for term URIs in this document are
 - **ac:** Terms in the namespace http://rs.tdwg.org/ac/terms not derived
   from other controlled vocabularies.  The normative definitions of these documents can be found in the [Audiovisual Core Term List document](termlist.md)
 
-- **xmp:** The Adobe XMP vocabularies with namespace
-  http://ns.adobe.com/xap/1.0/ documented in Section 8.4 of
+- **xmp:** Slovníky Adobe XMP s jmenným prostorem
+  http://ns.adobe.com/xap/1.0/, dokumentované v oddíle 8.4 dokumentu
   https://wwwimages2.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2016-08/XMPSpecificationPart1.pdf
 
-- **xmpRights:** The Adobe XMP rights vocabulary with namespace
-  http://ns.adobe.com/xap/1.0/rights documented in Section 8.5 of
+- **xmpRights:** Slovník práv Adobe XMP s jmenným prostorem
+  http://ns.adobe.com/xap/1.0/rights, dokumentovaný v oddíle 8.5 na adrese
   https://wwwimages2.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2016-08/XMPSpecificationPart1.pdf
 
-- **photoshop:** Adobe XMP additional properties with namespace http://ns.adobe.com/photoshop/1.0/ documented at http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2014-12/XMPSpecificationPart2.pdf
+- **photoshop:** Další vlastnosti Adobe XMP s jmenným prostorem http://ns.adobe.com/photoshop/1.0/ jsou dokumentovány na adrese http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/xmp/pdfs/XMP%20SDK%20Release%20cc-2014-12/XMPSpecificationPart2.pdf
 
-- **exif:** the Camera and Imaging Products Association Exchangeable Image File Format vocabulary with namespace http://ns.adobe.com/exif/1.0/ documented at http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf
+- **exif:** slovník formátu Exchangeable Image File Format asociace Camera and Imaging Products Association s jmenným prostorem http://ns.adobe.com/exif/1.0/ zdokumentovaný v http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf
 
 ## 4 Motivace a odůvodnění
 
@@ -268,27 +268,26 @@ zdrojů, což umožňuje instituci udělat krok
 zpět a zjistit, které sbírky nejvíce potřebují konzervaci nebo by
 měly vyšší prioritu pro katalogizaci na úrovni jednotlivých položek.
 
-Among important uses identified by the Task Group, which are facilitated
-by the metadata, are:
+Mezi důležité využití identifikované pracovní skupinou, které jsou usnadněny
+metadaty, patří:
 
 1. Discovery;
 
-2. Evaluation of fitness-for-use prior to fetching a resource
-   (especially relevant for off-line resources);
+2. Hodnocení vhodnosti použití před načtením zdroje
+   (zejména relevantní pro offline zdroje);
 
-3. Use of metadata records as potential taxon occurrence evidence, or
-   other biological inferences such as evidence for species
-   interactions, habitats, and phenotypic variation;
+3. Použití záznamů metadat jako potenciálního důkazu výskytu taxonu nebo
+   jiných biologických závěrů, jako jsou důkazy o interakcích druhů, stanovištích a fenotypových variacích;
 
-4. Identification aids;
+4. Identifikační pomůcky;
 
-5. Easing the burden of multimedia resource providers and producers to
-   gather and serve resources contributed by a wide variety of
-   producers and custodians, particularly those with little or no IT
-   expertise or support.
+5. Snížení zátěže poskytovatelů a producentů multimediálních zdrojů při
+   shromažďování a poskytování zdrojů od široké škály
+   producentů a správců, zejména těch, kteří mají malé nebo žádné znalosti
+   v oblasti IT nebo podpory.
 
-To ensure that the barriers to use are as low as possible, only four
-properties of an Audiovisual Core record are considered to be mandatory:
+Aby byly překážky použití co nejmenší, jsou pouze čtyři
+vlastnosti záznamu Audiovisual Core považovány za povinné:
 
 1. Identifier (dcterms:identifier): An arbitrary code that is unique
    for the resource, with the resource being either a provider,
