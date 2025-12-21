@@ -749,18 +749,18 @@ Participants in drafting the schema (in alphabetical order)
 - Dr. Éamonn Ó Tuama, Global Biodiversity Information Facility,
   Copenhagen, Denmark
 
-The standard was developed by the Joint Task Group to fit with the suite of standards-based data management resources being developed by GBIF.
+Tato norma byla vyvinuta společnou pracovní skupinou tak, aby odpovídala souboru standardizovaných zdrojů pro správu dat, které vyvíjí GBIF.
 
-Funding was provided by the Global Biodiversity Information Facility.
+Finanční prostředky poskytl Global Biodiversity Information Facility.
 
-Grateful thanks go to Woods Hole Marine Biological Laboratory and the
-Encyclopedia of Life for hosting one of the meetings. This document,
-including some narrative is adapted from a corresponding document
-produced by the TDWG Natural Collections Descriptions (NCD) task group.
+Velký dík patří Woods Hole Marine Biological Laboratory a
+Encyclopedia of Life za uspořádání jednoho ze setkání. Tento dokument,
+včetně některých popisů, je upravenou verzí odpovídajícího dokumentu
+vypracovaného pracovní skupinou TDWG Natural Collections Descriptions (NCD).
 
 ### 13.1 Časová osa
 
-2006, November TDWG Image Interest Group initiated
+2006, listopad Založena TDWG Image Interest Group
 
 2008, March GBIF commissions Multimedia Resources Task Group (MRTG)
 
