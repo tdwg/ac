@@ -217,8 +217,8 @@ níže.
 			<td>String providing the name of a reviewer. If present, then resource is peer-reviewed, even if Reviewer Comments is absent or empty. Its presence tells whether an expert in the subject featured in the media has reviewed the media item or collection and approved its metadata description; must display a name or the literal "anonymous" (= anonymously reviewed).</td>
 		</tr>
 		<tr>
-			<td>Notes:</td>
-			<td>Provider is asserting they accept this review as competent. See also ac:reviewer and the section Namespaces, Prefixes and Term Names in the Audiovisual Core Term List document for discussion of the rationale for separate terms taking URI values from those taking Literal values where both are possible. Obvyklým postupem je použít stejný štítek, pokud jsou k dispozici oba. Labels have no effect on information discovery and are only suggestions.</td>
+			<td>Poznámky:</td>
+			<td>Poskytovatel tvrdí, že tuto recenzi přijímá jako kompetentní. Viz také ac:reviewer a část Jmenné prostory, předpony a názvy termínů v dokumentu Audiovisual Core Term List, kde se diskutuje o důvodech pro oddělení termínů, které používají hodnoty URI, od termínů, které používají textové hodnoty, pokud jsou možné obě varianty. Obvyklým postupem je použít stejný štítek, pokud jsou k dispozici oba. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 	</tbody>
 </table>
