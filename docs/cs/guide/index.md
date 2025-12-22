@@ -802,7 +802,7 @@ for permission to have public comment.
 January-November 2012 Further preparation for submission for permission
 to have public comment
 
-### 13.2 Document revision history
+### 13.2 Historie revizí dokumentu
 
 **0.7v1**
 
