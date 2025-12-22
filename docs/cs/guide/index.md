@@ -319,9 +319,9 @@ pomocí dcterms:title
 ## 5 Stávající normy
 
 Audiovisual Core má v úmyslu poskytovat metadata, která popisují buď samotné mediální
-zdroje, nebo jejich sbírky. There are several
-well-known or newly emerging standards that address these concerns, so
-one may ask: why not simply use them? In fact, AC does exactly that in
+zdroje, nebo jejich sbírky. Existuje několik
+známých nebo nově vznikajících standardů, které se těmito otázkami zabývají, takže
+by se dalo položit otázku: proč je prostě nepoužít? In fact, AC does exactly that in
 about half of its 80 elements, almost all of which are optional. Indeed,
 as shown above, most of the mandatory terms come from external
 controlled vocabularies. However, all existing controlled vocabularies,
