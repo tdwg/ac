@@ -166,8 +166,8 @@ Core this situation occurs, for example, in the following cases:
 
 ### 3.1 Structured serializations
 
-Many serialization languages provide sufficiently structured forms to
-deal with repeated terms unambiguously. In XML, we might define
+Mnoho serializačních jazyků poskytuje dostatečně strukturované formy, aby
+jednoznačně zpracovaly opakující se termíny. In XML, we might define
 a container element and use a nesting structure as in Section 3.1.1  Alternatively, in XML we may reference access points by identifier as in Section 3.1.2  Where such structures are impossible or undesirable, an alternative
 solution is to permit only one access point per
 container element, but to repeat the container element for a single media resource, as shown in section 3.1.3 This is similar
