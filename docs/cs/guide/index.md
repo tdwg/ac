@@ -812,7 +812,7 @@ to have public comment
 
 **ACv1.0 docv1.0**
 
-- Harmonized to v1.0: replace “MRTG” with “Audiovisual Core” where used as name of schema. Correct minor typos. Add “dcterms” as prefix.
+- Harmonized to v1.0: replace “MRTG” with “Audiovisual Core” where used as name of schema. Opravy drobných překlepů. Add “dcterms” as prefix.
 
 **ACv1.0 docv1.0**
 
