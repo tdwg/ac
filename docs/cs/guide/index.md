@@ -307,19 +307,19 @@ vlastnosti záznamu Audiovisual Core považovány za povinné:
    other metadata (but not necessarily of the image itself)
 
 4. Copyright Statement (dcterms:rights): Information about rights held
-   in and over the resource. A full-text, readable copyright statement,
-   as required by the national legislation of the copyright holder. On
-   collections, this applies to all contained objects, unless the
-   object itself has a different statement. When available, it is also
-   recommended to provide the Copyright Owner using xmpRights:Owner
+   in and over the resource. Úplné znění čitelného prohlášení o autorských právech,
+   jak vyžadují vnitrostátní právní předpisy držitele autorských práv. U
+   sbírek se to vztahuje na všechny obsažené objekty, pokud
+   objekt sám nemá jiné prohlášení. Pokud je to možné, doporučuje se také
+   uvedení vlastníka autorských práv pomocí xmpRights:Owner
 
-In addition it is strongly recommended to provide a concise title of the
-resource, using dcterms:title
+Kromě toho se důrazně doporučuje uvést stručný název zdroje
+pomocí dcterms:title
 
 ## 5 Stávající normy
 
-The Audiovisual Core intends to provide metadata that describe either media
-resources themselves or collections of them. There are several
+Audiovisual Core má v úmyslu poskytovat metadata, která popisují buď samotné mediální
+zdroje, nebo jejich sbírky. There are several
 well-known or newly emerging standards that address these concerns, so
 one may ask: why not simply use them? In fact, AC does exactly that in
 about half of its 80 elements, almost all of which are optional. Indeed,
