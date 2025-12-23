@@ -35,8 +35,8 @@ Bibliografická citace
 
 ## 1. Úvod
 
-Audiovisual Core Multimedia Resources Metadata Schema (Audiovisual Core) je datový standard pro výměnu dat popisujících multimediální zdroje a sbírky týkající se biologické rozmanitosti, který vytvořila společná pracovní skupina GBIF/TDWG pro metadata multimediálních zdrojů (MRTG).  Norma se skládá ze čtyř dokumentů.  Tento dokument je průvodcem po cílech a použití normy. The Audiovisual
-Core Introduction document provides a brief introduction to the Audiovisual Core Standard. Podrobné informace o struktuře Audiovisual Core naleznete v dokumentu [Audiovisual Core Structure](structure).  Podrobnosti o termínech najdete v dokumentu [Seznam termínů Audiovisual Core](terms).
+Audiovisual Core Multimedia Resources Metadata Schema (Audiovisual Core) je datový standard pro výměnu dat popisujících multimediální zdroje a sbírky týkající se biologické rozmanitosti, který vytvořila společná pracovní skupina GBIF/TDWG pro metadata multimediálních zdrojů (MRTG).  Norma se skládá ze čtyř dokumentů.  Tento dokument je průvodcem po cílech a použití normy. Dokument Úvod do Audiovisual
+Core poskytuje stručný úvod do Audiovisual Core Standard. Podrobné informace o struktuře Audiovisual Core naleznete v dokumentu [Audiovisual Core Structure](structure).  Podrobnosti o termínech najdete v dokumentu [Seznam termínů Audiovisual Core](terms).
 
 Zkratky a názvy institucí a projektů jsou uvedeny ve slovníku v
 příloze I.
