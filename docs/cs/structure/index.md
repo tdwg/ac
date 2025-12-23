@@ -328,7 +328,7 @@ text. The choice of how to separate list items is ultimately left to the
 implementers of AC. Typical usage is to choose a punctuation mark such
 as ",", ";", or "|". In these cases a special escape syntax needs to be
 defined for cases in which the separator is part of the metadata value.
-Unfortunately, even for standard list formats like CSV, different
-software packages choose different escape methods, hindering
-interchange. In the absence of an implementation-specific choice we
-RECOMMEND to use "|" as separator and "\\|" as an escaped vertical bar.
+Bohužel i u standardních formátů seznamů, jako je CSV, používají různé
+softwarové balíčky různé metody únikových znaků, což brání
+výměně dat. V případě, že neexistuje možnost volby specifická pro danou implementaci,
+DOPORUČUJEME použít jako oddělovač znak "|" a jako escapovaný svislý pruh znak "\\|".
