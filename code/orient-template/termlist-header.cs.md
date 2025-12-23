@@ -27,7 +27,7 @@ Aktuální verze
 {previous_version_slot}
 
 Abstrakt
-: Termín subjectOrientation z Audiovisual Core popisuje orientaci pohledu vzhledem k organismu nebo části organismu zobrazenému v mediálním prvku nebo oblasti zájmu. The subjectOrientation Controlled Vocabulary provides terms that should be used as values for ac:subjectOrientation and its literal-valued analog ac:subjectOrientationLiteral.
+: Termín subjectOrientation z Audiovisual Core popisuje orientaci pohledu vzhledem k organismu nebo části organismu zobrazenému v mediálním prvku nebo oblasti zájmu. Řízený slovník termínů subjectOrientation obsahuje termíny, které by měly být použity jako hodnoty pro ac:subjectOrientation a jeho doslovný ekvivalent ac:subjectOrientationLiteral.
 
 Přispěvatelé
 : {contributors}
