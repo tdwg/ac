@@ -64,13 +64,13 @@ Klíčová slova "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 
 ## 2 Terminologie této specifikace
 
-There are many ways to organize metadata specifications, particularly as
-to the nomenclature of the constituents of the metadata. Note the
-following as they apply to the Audiovisual Core:
+Existuje mnoho způsobů, jak organizovat specifikace metadat, zejména pokud jde o
+názvosloví složek metadat. Vezměte na vědomí
+následující informace, které se vztahují k Audiovisual Core:
 
-- A _Multimedia Resource_ is anything that a provider identifies as
-  belonging to one of the possible values of the AC _Type_ term and
-  optionally one or more of the _Subtype_ term values. A mechanism is
+- _Multimediální zdroj_ je cokoli, co poskytovatel identifikuje jako
+  patřící k jedné z možných hodnot termínu AC _Type_ a
+  volitelně k jedné nebo více hodnotám termínu _Subtype_. A mechanism is
   provided by which providers can supply a privately defined subtype
   that will not collide with the AC defined Subtype values.
 - An AC _record_ is a set of terms with any values conforming to this
@@ -227,10 +227,9 @@ Note: In the examples, for human-readability the literal valued terms `dc:format
     <MEDIA_METADATA_CONTAINER>
     ```
 
-### 3.2 Tabular serializations
+### 3.2 Tabulkové serializace
 
-The same data as in examples 3.1.1 through 3.1.3 can be serialized as a "flat" spreadsheet-like
-table.
+Stejná data jako v příkladech 3.1.1 až 3.1.3 lze serializovat jako „plochou“ tabulku podobnou tabulce v tabulkovém procesoru.
 
 In the example of Section 3.2.1, only the required identifier is repeated, but not
 the title field. Whether to repeat all fields or whether to provide all
