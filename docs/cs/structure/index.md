@@ -1,7 +1,7 @@
 # Audiovisual Core Structure
 
-Title
-: Audiovisual Core Structure
+Název
+: Struktura Audiovisual Core
 
 Datum vydání verze
 : 2023-02-24
@@ -21,8 +21,8 @@ Poslední verze
 Předchozí verze
 : <http://rs.tdwg.org/ac/doc/structure/2021-10-05>
 
-Abstract
-: The Audiovisual Core Structure document provides guidance on how multimedia records can be serialized as XML and in tabular form. It also suggests how text list values can be separated.
+Abstrakt
+: Dokument Audiovisual Core Structure poskytuje pokyny, jak lze multimediální záznamy serializovat jako XML a v tabulkové formě. Navrhuje také, jak lze hodnoty textového seznamu oddělit.
 
 Přispěvatelé
 : [Robert A. Morris](https://orcid.org/0000-0002-6992-9446) ([University of Massachusetts at Boston, USA](http://www.wikidata.org/entity/Q15144)), [Vijay Barve](https://orcid.org/0000-0002-4852-2567) (), [Mihail Carausu](https://orcid.org/0000-0002-8234-0599) ([Danish Biodiversity Information Facility (DanBIF), Copenhagen, Denmark](http://www.wikidata.org/entity/Q1531570)), [Vishwas Chavan](https://orcid.org/0000-0002-3425-6499) ([Global Biodiversity Information Facility, Copenhagen, Denmark](http://www.wikidata.org/entity/Q1531570)), [José Cuadra](http://www.wikidata.org/entity/Q51883873) (), [Chris Freeland](https://orcid.org/0000-0002-2541-5822) ([Missouri Botanical Garden, St. Louis, USA](http://www.wikidata.org/entity/Q1852803)), [Gregor Hagedorn](https://orcid.org/0000-0001-7023-7386) ([JKI, Federal Research Institute for Cultivated Plants, Berlin, Germany](http://www.wikidata.org/entity/Q832099)), [Patrick Leary](https://orcid.org/0000-0001-5172-8577) (), [Dimitry Mozzherin](https://orcid.org/0000-0003-1593-1417) ([Encyclopedia of Life, Woods Hole, USA](http://www.wikidata.org/entity/Q82486)), [Annette Olson](https://orcid.org/0000-0002-0772-0022) ([American Association for the Advancement of Science](http://www.wikidata.org/entity/Q40358)), [Greg Riccardi](https://orcid.org/0000-0002-3850-9983) ([Florida State University, Tallahassee, USA](http://www.wikidata.org/entity/Q861548)), [Ivan Teage](https://orcid.org/0000-0003-4176-2274) (), [Steve Baskauf](https://orcid.org/0000-0003-4365-3135) ([Vanderbilt University, Nashville, TN, USA](http://www.wikidata.org/entity/Q29052)), [Steve Baskauf](https://orcid.org/0000-0003-4365-3135) ([Vanderbilt University, Nashville, TN, USA](http://www.wikidata.org/entity/Q29052))
@@ -35,9 +35,9 @@ Bibliografická citace
 
 ## 1. Úvod
 
-This documentation describes the structure of the [TDWG](http://tdwg.org)
-Audiovisual Core Multimedia Resources Metadata Standard (Audiovisual Core, or
-simply AC).
+Tato dokumentace popisuje strukturu standardu [TDWG](http://tdwg.org)
+Audiovisual Core Multimedia Resources Metadata Standard (Audiovisual Core, nebo
+jednoduše AC).
 
 **If you are unfamiliar with the Audiovisual Core, _please_ read the
 [Audiovisual Core Introduction](../introduction) before
@@ -62,7 +62,7 @@ Sections 2 through 4 of this document are normative except for example sections,
 
 Klíčová slova "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY" a "OPTIONAL" v tomto dokumentu je třeba interpretovat podle popisu v [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
-## 2 Terminology of this specification
+## 2 Terminologie této specifikace
 
 There are many ways to organize metadata specifications, particularly as
 to the nomenclature of the constituents of the metadata. Note the
