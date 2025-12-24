@@ -3,7 +3,7 @@
 
 # Date assigned to all versions, usually the date of approval by the Executive Committee.
 # It is appended to all version IRIs. Format: YYYY-MM-DD
-date_issued: '2025-09-09'
+date_issued: '2025-12-24'
 
 # UTC offset for the computer running the script (i.e. the appropriate offset for values produced by the
 # Python method datetime.datime.now() .
@@ -58,14 +58,14 @@ namespaces:
   # Note that there are extra configuration files that must be set up for term lists that are
   # part of new vocabularies. See Section 2.1.2 for details.
   # MUST be set to false if this is an existing term list that has been processed at some time in the past.
-  new_term_list: true
+  new_term_list: false
 
   # Normally set to false except for non-versioned namespaces like decisions.
   utility_namespace: false
 
   # Path to hand-edited changes CSV file. Relative to process directory from which the
   # process.py script is run.
-  modifications_file_path: ac-revisions/ac-revisions-2025-09-15/ac_3d_terms.csv
+  modifications_file_path: ac-revisions/ac-3d-terms-2025-12-24/ac_3d_terms.csv
 
   # For non-borrowed terms where this is the defining term list, SHOULD be the empty string and the termlist
   # IRI will be set to be the same as the namespace IRI. If a value is given for TDWG-minted terms that are being
@@ -88,7 +88,17 @@ namespaces:
   # Description of the term list used in machine-readable metadata.
   description: The terms on this list are intended to be used for 3D resources.
 
+  # # IRI string from List of Terms document URL to be prepended to the term fragment identifier when
+  # # dereferencing terms and an HTML representation is requested.
+  prepend_url: https://ac.tdwg.org/termlist/#
+
   # For existing term lists, MUST be namespace assigned by issuing organization. For TDWG
+  # # Indicates whether the namespace abbreviation is included in the fragment identifier for the term.
+  use_namespace_in_fragment: false
+  
+  # # String that us used to separate the namespace abbreviation from the term name in the fragment identifier.
+  # # If use_nameapace_in_fragment is false, this value is ignored.
+  separator: '_'
 
 # term lists, MUST follow conventional TDWG IRI patterns.
 - namespace_uri: http://ns.adobe.com/exif/1.0/
@@ -109,14 +119,14 @@ namespaces:
   # Note that there are extra configuration files that must be set up for term lists that are
   # part of new vocabularies. See Section 2.1.2 for details.
   # MUST be set to false if this is an existing term list that has been processed at some time in the past.
-  new_term_list: true
+  new_term_list: false
 
   # Normally set to false except for non-versioned namespaces like decisions.
   utility_namespace: false
 
   # Path to hand-edited changes CSV file. Relative to process directory from which the
   # process.py script is run.
-  modifications_file_path: ac-revisions/ac-revisions-2025-09-15/exif_3d_terms.csv
+  modifications_file_path: ac-revisions/ac-3d-terms-2025-12-24/exif_3d_terms.csv
 
   # For non-borrowed terms where this is the defining term list, SHOULD be the empty string and the termlist
   # IRI will be set to be the same as the namespace IRI. If a value is given for TDWG-minted terms that are being
@@ -139,7 +149,18 @@ namespaces:
   # Description of the term list used in machine-readable metadata.
   description: This list includes terms borrowed from the EXIF vocabulary for use with 3D resources in the Audiovisual Core.
 
+  # # IRI string from List of Terms document URL to be prepended to the term fragment identifier when
+  # # dereferencing terms and an HTML representation is requested.
+  prepend_url: https://ac.tdwg.org/termlist/#
+
+  # # Indicates whether the namespace abbreviation is included in the fragment identifier for the term.
+  use_namespace_in_fragment: false
+
   # For existing term lists, MUST be namespace assigned by issuing organization. For TDWG
+  # # String that us used to separate the namespace abbreviation from the term name in the fragment identifier.
+  # # If use_nameapace_in_fragment is false, this value is ignored.
+  separator: '_'
+
 # term lists, MUST follow conventional TDWG IRI patterns.
 - namespace_uri: http://id.loc.gov/ontologies/bibframe/
 
@@ -148,7 +169,7 @@ namespaces:
 
   # Database name for associated directories and files. MUST NOT contain spaces. SHOULD use
   # lowerCamelCase. Borrowed term lists SHOULD use naming convention of Darwin and Audiovisual Cores.
-  database: bf-for-ac
+  database: audubon
 
   # Set to true if namespace not issued by TDWG and in the rs.tdwg.org domain
   # or if the terms are borrowed from another TDWG standard.
@@ -159,14 +180,14 @@ namespaces:
   # Note that there are extra configuration files that must be set up for term lists that are
   # part of new vocabularies. See Section 2.1.2 for details.
   # MUST be set to false if this is an existing term list that has been processed at some time in the past.
-  new_term_list: true
+  new_term_list: false
 
   # Normally set to false except for non-versioned namespaces like decisions.
   utility_namespace: false
 
   # Path to hand-edited changes CSV file. Relative to process directory from which the
   # process.py script is run.
-  modifications_file_path: ac-revisions/ac-revisions-2025-09-15/bf_3d_terms.csv
+  modifications_file_path: ac-revisions/ac-3d-terms-2025-12-24/bf_3d_terms.csv
 
   # For non-borrowed terms where this is the defining term list, SHOULD be the empty string and the termlist
   # IRI will be set to be the same as the namespace IRI. If a value is given for TDWG-minted terms that are being
@@ -193,11 +214,11 @@ namespaces:
 
   # # IRI string from List of Terms document URL to be prepended to the term fragment identifier when
   # # dereferencing terms and an HTML representation is requested.
-  # prepend_url: https://dwc.tdwg.org/list/#
+  prepend_url: https://ac.tdwg.org/termlist/#
 
   # # Indicates whether the namespace abbreviation is included in the fragment identifier for the term.
-  # use_namespace_in_fragment: true
+  use_namespace_in_fragment: false
 
   # # String that us used to separate the namespace abbreviation from the term name in the fragment identifier.
   # # If use_nameapace_in_fragment is false, this value is ignored.
-  # separator: '_'
+  separator: '_'

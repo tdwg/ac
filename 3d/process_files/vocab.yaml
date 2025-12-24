@@ -1,0 +1,19 @@
+# To use this configuration file, it must be in the process directory from which the
+# process.py script is run. Typically, a copy is stored with the modifications CSV file.
+
+# The following values are only required if the vocabulary is new. If they are provided for
+# an existing vocabulary, they will replace the existing values.
+vocabulary_label: Audiovisual Core main vocabulary
+vocabulary_description: This vocabulary contains all Audiovisual Core class and property terms
+
+# Current practice is to use the nane of the Task Group that created it. For vocabularies 
+# that have been heavily modified, the name of the Maintenance Group may be used. 
+dc_creator: TDWG Multimedia Resources Task Group
+
+# TDWG's standard license should be used.
+dcterms_license: http://creativecommons.org/licenses/by/4.0/
+
+# The following values are only required if the standard is new. If they are provided for
+# an existing standard, they will replace the existing values.
+standard_label: Audiovisual Core
+standard_description: The Audiovisual Core (AC) is a set of vocabularies designed to represent metadata for biodiversity multimedia resources and collections. These vocabularies aim to represent information that will help to determine whether a particular resource or collection will be fit for some particular biodiversity science application before acquiring the media. Among others, the vocabularies address such concerns as the management of the media and collections, descriptions of their content, their taxonomic, geographic, and temporal coverage, and the appropriate ways to retrieve, attribute and reproduce them.

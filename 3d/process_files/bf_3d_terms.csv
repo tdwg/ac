@@ -1,4 +1,4 @@
-term_localName,label,rdfs_comment,dcterms_description,examples,rdf_type,tdwgutility_abcdEquivalence,tdwgutility_organizedInClass,tdwgutility_decision,tdwgutility_usageScope
+term_localName,label,rdfs_comment,dcterms_description,examples,rdf_type,tdwgutility_organizedInClass,tdwgutility_decision
 bf:Unit,Unit,Resolution: Units in which a value is expressed,"This term shall be used to specify the units of numbers entered into ac:PixelXSpacing, ac:PixelYSpacing, ac:PixelZSpacing for raster data. 
 For 2D photographs that are part of a photogrammetry deposit, it shall be used to specify units of a scale bar or targets included in the image. 
 When used for mesh files, it shall be used to indicate the units of the coordinate system specifying the position of the vertices of the polygonal mesh.
@@ -6,4 +6,4 @@ When used for mesh files, it shall be used to indicate the units of the coordina
 Use this term in combination with these other AC terms -- i.e., when: 
 - ac:3DResourceType is any
 - and dc:format(s) is any
-- any ac:captureModality(s)",,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,not in ABCD,Service Access Point Vocabulary,https://github.com/tdwg/ac/issues/243,
+- any ac:resourceCreationTechnique(s)",,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,Service Access Point Vocabulary,https://github.com/tdwg/ac/issues/243

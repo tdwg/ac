@@ -1,9 +1,9 @@
-term_localName,label,rdfs_comment,dcterms_description,examples,rdf_type,tdwgutility_abcdEquivalence,tdwgutility_organizedInClass,tdwgutility_decision,tdwgutility_usageScope
-exif:imageWidth,Image Width,"Dimensions: The number of columns of image data, equal to the number of pixels per row. In JPEG compressed data a JPEG marker is used instead of this tag","Use this term in combination with these other AC terms -- i.e., when: 
-- ac:3DResourceType is a subtype that is encoded as a raster format
-- and dc:format(s) is any raster formats
-- and ac:captureModality(s) is any of: CT, MRI, PET, Neutron, Synchotron, confocal microscopy, optical image stacking, photogrammetry",,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,not in ABCD,Service Access Point Vocabulary,https://github.com/tdwg/ac/issues/243,
+term_localName,label,rdfs_comment,dcterms_description,examples,rdf_type,tdwgutility_organizedInClass,tdwgutility_decision
 exif:imageLength,Image Length,Dimensions: The number of rows of image data. In JPEG compressed data a JPEG marker is used,"Use this term in combination with these other AC terms -- i.e., when: 
 - ac:3DResourceType is any subtype that is encoded as a raster format
 - and dc:format(s) is any raster format
-- and ac:captureModality(s) is any of: CT, MRI, PET, Neutron, Synchrotron, confocal microscopy, optical image stacking, photogrammetry",,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,not in ABCD,Service Access Point Vocabulary,https://github.com/tdwg/ac/issues/243,
+- and ac:resourceCreationTechnique(s) is any of: CT, MRI, PET, Neutron, Synchrotron, confocal microscopy, optical image stacking, photogrammetry",,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,Service Access Point Vocabulary,https://github.com/tdwg/ac/issues/243
+exif:imageWidth,Image Width,"Dimensions: The number of columns of image data, equal to the number of pixels per row. In JPEG compressed data a JPEG marker is used instead of this tag","Use this term in combination with these other AC terms -- i.e., when: 
+- ac:3DResourceType is a subtype that is encoded as a raster format
+- and dc:format(s) is any raster formats
+- and ac:resourceCreationTechnique(s) is any of: CT, MRI, PET, Neutron, Synchotron, confocal microscopy, optical image stacking, photogrammetry",,http://www.w3.org/1999/02/22-rdf-syntax-ns#Property,Service Access Point Vocabulary,https://github.com/tdwg/ac/issues/243
