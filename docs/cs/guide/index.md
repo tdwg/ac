@@ -126,12 +126,10 @@ retrieved object, etc.
 An Audiovisual Core record is thus a set of terms that conforms to the
 normative documents, contains at least the four mandatory terms
 described below, and which provides metadata that describes a single
-multimedia resource (possibly including a Collection). It usually
-includes an identifier that may have been assigned to the resource by an
-external authority or by the provider of the metadata record.
+multimedia resource (possibly including a Collection). Obvykle obsahuje identifikátor, který mohl být zdroji přidělen externí autoritou nebo poskytovatelem záznamu metadat.
 
-Every Audiovisual Core term has a plain text Name, a URI, and a plain text
-normative Definition. Termíny mohou také obsahovat pokyny k použití, které vysvětlují, jak se termín používá v kontextu Audiovisual Core, a poznámky, které poskytují další informace a příklady.  URI pro termíny odpovídají schématu http URI.
+Každý termín Audiovisual Core má prostý textový název, URI a prostý textový
+normativní definici. Termíny mohou také obsahovat pokyny k použití, které vysvětlují, jak se termín používá v kontextu Audiovisual Core, a poznámky, které poskytují další informace a příklady.  URI pro termíny odpovídají schématu http URI.
 Neformálně lze toto pochopit takto: http URI má syntaxi
 http URL, ale neočekává se, že jeho zadání do webového
 prohlížeče povede k vrácení jakýchkoli informací do prohlížeče,
