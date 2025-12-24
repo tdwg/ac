@@ -144,8 +144,7 @@ http://rs.tdwg.org/ac/terms/. V tabulce termínů má každý termínový zázna
 list <sup id="cit-7">[\[7\]](#fn-7)</sup>, for borrowed terms, this term name is generally an
 "unqualified name" preceded by a widely accepted prefix designating an
 abbreviation for the namespace, whereas for denovo AC terms, no such
-prefix is prepended. It is recommended that implementers who need a
-namespace prefix for the AC namespace use "ac" wherever feasible. The
+prefix is prepended. Implementátorům, kteří potřebují předponu jmenného prostoru pro jmenný prostor AC, se doporučuje používat "ac", kdykoli je to možné. The
 result is known as a qualified name. Například normativní wiki
 dokumentace pro vypůjčený termín dcterms:identifier má URI
 http://purl.org/dc/terms/identifier. V tomto dokumentu budeme dodržovat zavedenou
@@ -226,15 +225,15 @@ Hlavní kvalifikátory jmenného prostoru pro termínové URI v tomto dokumentu 
 - **dcterms:** and **dc:** The DCMI vocabulary documented at
   http://dublincore.org/documents/dcmi-terms
 
-- **dwc:** The Darwin Core vocabulary described at
+- **dwc:** Slovník Darwin Core popsaný na adrese
   http://rs.tdwg.org/dwc/index.htm
 
-- **Iptc4ampExt:** Geographic extensions to IPTC with namespace
-  http://iptc.org/std/Iptc4xmpExt/2008-02-29/ documented in
+- **Iptc4ampExt:** Geografická rozšíření IPTC s jmenným prostorem
+  http://iptc.org/std/Iptc4xmpExt/2008-02-29/ zdokumentovaná v
   http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf
 
-- **ac:** Terms in the namespace http://rs.tdwg.org/ac/terms not derived
-  from other controlled vocabularies.  The normative definitions of these documents can be found in the [Audiovisual Core Term List document](termlist.md)
+- **ac:** Termíny v jmenném prostoru http://rs.tdwg.org/ac/terms které nepocházejí
+  z jiných řízených slovníků.  Normativní definice těchto dokumentů lze nalézt v [dokumentu Seznam termínů Audiovisual Core](termlist.md)
 
 - **xmp:** Slovníky Adobe XMP s jmenným prostorem
   http://ns.adobe.com/xap/1.0/, dokumentované v oddíle 8.4 dokumentu
@@ -466,14 +465,14 @@ conveniently accessible. Evidence for georeferenced taxon occurrence is
 one such use.
 
 Audiovisual Core metadata also can describe resources less often thought of
-as multimedia objects. These include:
+as multimedia objects. To zahrnuje:
 
-- Interactive software applications, either on the web or available
-  for stand-alone use
+- Interaktivní softwarové aplikace, buď na webu, nebo dostupné
+  pro samostatné použití
 
-- Taxonomic identification keys
+- Taxonomické identifikační klíče
 
-- Collections of multimedia resources
+- Sbírky multimediálních zdrojů
 
 - Web sites not otherwise falling into one of the above categories
 
