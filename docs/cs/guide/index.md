@@ -474,27 +474,27 @@ as multimedia objects. To zahrnuje:
 
 - Sbírky multimediálních zdrojů
 
-- Web sites not otherwise falling into one of the above categories
+- Webové stránky, které nespadají do žádné z výše uvedených kategorií
 
-## 9 Audiovisual Core Records
+## 9 záznamy Audiovisual Core
 
-The normative Audiovisual Core metadata record specification is independent
-of the way in which those records are rendered into electronic form.
-MRTG intends to publish specifications for such rendering represented
-in, represented in XML constrained by an XML-Schema, and represented in
-plain text as comma separated values (CSV). [Sections 4.4 to 4.5 of the TDWG Standards Documentation Specification](https://github.com/tdwg/vocab/blob/master/sds/documentation-specification.md#44-vocabularies-term-lists-and-terms) describe how basic term metadata should be expressed in machine-readable forms such as RDF serializations.  A future task group might develop a more semantically rich machine-readable ontology following the procedures listed in [Section 4 of the TDWG Vocabulary Maintenance Specification](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#4-vocabulary-enhancements).
+Normativní specifikace záznamů audiovizuálních základních metadat je nezávislá
+na způsobu, jakým jsou tyto záznamy převáděny do elektronické podoby.
+MRTG má v úmyslu zveřejnit specifikace pro takové zobrazení reprezentované
+v XML omezeném XML schématem a reprezentované v
+prostém textu jako hodnoty oddělené čárkami (CSV). [Sections 4.4 to 4.5 of the TDWG Standards Documentation Specification](https://github.com/tdwg/vocab/blob/master/sds/documentation-specification.md#44-vocabularies-term-lists-and-terms) describe how basic term metadata should be expressed in machine-readable forms such as RDF serializations.  Budoucí pracovní skupina by mohla vyvinout sémanticky bohatší strojově čitelnou ontologii podle postupů uvedených v [sekci 4 specifikace údržby slovníku TDWG](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#4-vocabulary-enhancements).
 
-The language of the normative Audiovisual Core specification is English, but
-this in no way constrains applications from using labels or content of
-the metadata in local languages. Because its language is English, each
-metadata item in the normative document has an English label (which
-might, for example be part of a user interface), but these, too, are not
-required to be used by applications, although their use is strongly
-encouraged, at least in documentation.
+Jazykem normativní specifikace Audiovisual Core je angličtina, ale
+to nijak neomezuje aplikace v používání štítků nebo obsahu
+metadat v místních jazycích. Protože je jazykem normativního dokumentu angličtina, má každ
+metadatová položka v normativním dokumentu anglický název (který
+může být například součástí uživatelského rozhraní), ale ani tyto názvy
+nemusí být aplikacemi používány, ačkoli se jejich použití důrazně
+doporučuje, alespoň v dokumentaci.
 
-As mentioned earlier, an Audiovisual Core metadata record is a set of terms
-describing the underlying multimedia resource that the record describes.
-Each term is identified by a Uniform Resource Identifier (URI). These
+Jak již bylo zmíněno, záznam metadat Audiovisual Core je soubor termínů
+popisujících základní multimediální zdroj, který záznam popisuje.
+Každý termín je identifikován jednotným identifikátorem zdroje (URI). These
 are URIs of the attribute, not of the underlying resource, and they
 simply specify which term is being provided. There are many URI schemes,
 some of which have been registered with the Internet Assigned Names
