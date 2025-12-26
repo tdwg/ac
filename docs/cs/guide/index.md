@@ -376,9 +376,9 @@ navrhovaném standardu TDWG Natural History Collections (NCD). Pokud
 poskytovatel chce pouze umožnit vyhledávání multimediální sbírky
 bez ohledu na vyhledávání a přístup k jejímu obsahu (kromě
 podsbírek), často nebude mít význam, zda jsou poskytována metadata NCD nebo AC,
-nebo obojí. This is all the more so if the NCD
-CollectionIdentifier and the Audiovisual Core Identifier have the same
-value. While Audiovisual Core Collection types are richer than NCD types, it
+nebo obojí. To platí tím spíše, pokud mají NCD
+CollectionIdentifier a Audiovisual Core Identifier stejnou
+hodnotu. While Audiovisual Core Collection types are richer than NCD types, it
 is an open question whether Audiovisual Core's variety in this case is
 useful.
 
