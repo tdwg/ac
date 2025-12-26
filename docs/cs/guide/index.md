@@ -350,16 +350,16 @@ považovat za obal kolem DwC, DC, XMP a IPTC <sup id="cit-10">[\[10\]](#fn-10)</
 Vzhledem k tomu, že drtivá většina polí metadat AC je volitelná,
 poskytovatel zdrojů, který již může poskytovat metadata Dublin Core, by
 v podstatě nemohl poskytovat nic jiného než to, plus vhodný globálně jedinečný
-identifikátor, který by propojil všechna metadata se stejným objektem. Similarly, a
-provider describing image content entirely with Darwin Core terms might
-have little more to do. However, both such providers would find that
-value-added services such as metadata-indexers and caching aggregators
-and would be less likely to keep references to their media resources and
-metadata than if they had richer metadata. This gives a clear strategy
-for providers to increase the utility of their multimedia resources with
-little or no impact on their IT cyberinfrastructure services. They may
-need only to update mappings between their internal field names and the
-metadata terms specified by AC, as personnel become available to do so.
+identifikátor, který by propojil všechna metadata se stejným objektem. Podobně
+poskytovatel, který popisuje obsah obrázku výhradně pomocí termínů Darwin Core, nemusí
+dělat o moc víc. Oba tito poskytovatelé by však zjistili, že
+služby s přidanou hodnotou, jako jsou indexovače metadat a agregátory mezipaměti,
+by byly méně pravděpodobné, že by uchovávaly odkazy na své mediální zdroje a
+metadata, než kdyby měly bohatší metadata. To poskytovatelům dává jasnou strategii,
+jak zvýšit užitečnost svých multimediálních zdrojů s
+malým nebo žádným dopadem na jejich služby IT kyberinfrastruktury. Možná budou
+potřebovat pouze aktualizovat přiřazení mezi svými interními názvy polí a
+metadatovými termíny specifikovanými AC, jakmile budou mít k dispozici personál, který to provede.
 As more resources become available to record additional metadata, and as
 community annotation mechanisms arise to support this, they can add the
 additional metadata at a pace determined by their own resources. If
