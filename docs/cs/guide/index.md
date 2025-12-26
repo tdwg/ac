@@ -360,23 +360,23 @@ jak zvýšit užitečnost svých multimediálních zdrojů s
 malým nebo žádným dopadem na jejich služby IT kyberinfrastruktury. Možná budou
 potřebovat pouze aktualizovat přiřazení mezi svými interními názvy polí a
 metadatovými termíny specifikovanými AC, jakmile budou mít k dispozici personál, který to provede.
-As more resources become available to record additional metadata, and as
-community annotation mechanisms arise to support this, they can add the
-additional metadata at a pace determined by their own resources. If
-harvesters of the metadata monitor the (optional) Metadata Date property
-(xmp:MetadataDate), the updated metadata can automatically be pulled by
-those value-added services, and more queries will return the provider's
-metadata and references to its media resources.
+Jakmile bude k dispozici více zdrojů pro zaznamenávání dalších metadat a jakmile
+vzniknou mechanismy komunitních anotací, které to podpoří, budou moci přidávat
+další metadata tempem, které si samy určí podle svých zdrojů. Pokud
+sběratelé metadat sledují (volitelnou) vlastnost Metadata Date
+(xmp:MetadataDate), mohou být aktualizovaná metadata automaticky načtena
+těmito službami s přidanou hodnotou a více dotazů vrátí metadata poskytovatele
+a odkazy na jeho mediální zdroje.
 
-## 6 Common Concerns with Other Biodiversity Information Standards
+## 6 Časté obavy týkající se jiných standardů pro informace o biologické rozmanitosti
 
-The Audiovisual Core regards Collections of Multimedia Resources themselves
-as a kind of Resource. Many types of Collections are describable in the
-pending TDWG Natural History Collections (NCD) proposed standard. If a
-provider wishes only to provide for discovery of a multimedia Collection
-without regard to discovery of and access to its contents (other than
-sub Collections), it will often be immaterial whether NCD or AC
-metadata, or both, are served. This is all the more so if the NCD
+Audiovisual Core považuje sbírky multimediálních zdrojů samotné
+za druh zdroje. Mnoho typů sbírek lze popsat v
+navrhovaném standardu TDWG Natural History Collections (NCD). Pokud
+poskytovatel chce pouze umožnit vyhledávání multimediální sbírky
+bez ohledu na vyhledávání a přístup k jejímu obsahu (kromě
+podsbírek), často nebude mít význam, zda jsou poskytována metadata NCD nebo AC,
+nebo obojí. This is all the more so if the NCD
 CollectionIdentifier and the Audiovisual Core Identifier have the same
 value. While Audiovisual Core Collection types are richer than NCD types, it
 is an open question whether Audiovisual Core's variety in this case is
