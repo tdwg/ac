@@ -344,17 +344,13 @@ Where any of these standards suffice, AC metadata terms and definitions
 are those of such standards. In some instances, we find that none of
 these address concerns that our experience suggests are held by a wide
 variety of image contributors, especially those with limited access to
-sophisticated IT staff or to Digital Librarians. The AC schema might be
-regarded as an extension to the union of small subsets of several
-accepted standards (together with a framework to insure that use of
-metadata from these standards can be understood by people and machines
-as referring to the same resource). Put another way, much of AC may be
-viewed as a wrapper around DwC, DC, XMP, and IPTC <sup id="cit-10">[\[10\]](#fn-10)</sup>.
+sophisticated IT staff or to Digital Librarians. Schéma AC lze považovat za rozšíření sjednocení malých podskupin několika přijatých standardů (spolu s rámcem, který zajišťuje, že použití metadat z těchto standardů mohou lidé i stroje chápat jako odkaz na stejný zdroj). Jinými slovy, velkou část AC lze
+považovat za obal kolem DwC, DC, XMP a IPTC <sup id="cit-10">[\[10\]](#fn-10)</sup>.
 
-Since the overwhelming portion of the AC metadata fields are optional, a
-resource provider that can already serve Dublin Core metadata, could
-essentially serve little else but that, plus a suitable globally unique
-identifier to tie all the metadata to the same object. Similarly, a
+Vzhledem k tomu, že drtivá většina polí metadat AC je volitelná,
+poskytovatel zdrojů, který již může poskytovat metadata Dublin Core, by
+v podstatě nemohl poskytovat nic jiného než to, plus vhodný globálně jedinečný
+identifikátor, který by propojil všechna metadata se stejným objektem. Similarly, a
 provider describing image content entirely with Darwin Core terms might
 have little more to do. However, both such providers would find that
 value-added services such as metadata-indexers and caching aggregators
