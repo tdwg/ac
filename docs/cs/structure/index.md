@@ -235,10 +235,10 @@ V příkladu v oddíle 3.2.1 se opakuje pouze požadovaný identifikátor, nikol
 pole názvu. Zda se mají opakovat všechna pole, nebo zda se mají poskytnout všechna
 pole pouze v prvním záznamu, přičemž pozdější záznamy se omezí na
 identifikátor a vlastnosti přístupového bodu služby, je ponecháno na konkrétních
-implementacích. In the example of Section 3.2.1, the `ac:hasServiceAccessPoint` property is suppressed
-as unnecessary.
+implementacích. V příkladu v části 3.2.1 je vlastnost `ac:hasServiceAccessPoint` potlačena
+jako zbytečná.
 
-#### 3.2.1 Example of a table with each service access point in a separate row (non-normative)
+#### 3.2.1 Příklad tabulky, ve které je každý přístupový bod služby uveden v samostatném řádku (nenormativní)
 
 <table>
   <tbody>
@@ -251,7 +251,7 @@ as unnecessary.
     </tr>
     <tr>
       <td>http://example.com/pictures/thePicture.jpg</td>
-      <td>A red beech leaf</td>
+      <td>List červeného buku</td>
       <td>Nejvyšší kvalita</td>
       <td>image/jpeg</td>
       <td>http://example.com/fullres/thePicture.jpg</td>
@@ -273,8 +273,8 @@ as unnecessary.
   </tbody>
 </table>
 
-Another approach (Section 3.2.2) also eliminates the need for the `ac:hasServiceAccessPoint` property when
-flattening the ac structure. Je založeno na zavedení nových termínů
+Další přístup (sekce 3.2.2) také eliminuje potřebu vlastnosti `ac:hasServiceAccessPoint` při
+zploštění struktury ac. Je založeno na zavedení nových termínů
 využívajících hodnoty [ac:variantLiteral](../termlist#ac_variantLiteral):
 „Thumbnail“, „Trailer“, „Lower Quality“, „Medium Quality“, „Good
 Quality“, „Best Quality“, „Offline“ jako předpony pro další
@@ -302,7 +302,7 @@ vlastnosti v novém jmenném prostoru.
     </tr>
     <tr>
       <td>http://ex.com/pictures/thePicture.jpg</td>
-      <td>A red beech leaf</td>
+      <td>List červeného buku</td>
       <td>http://example.com/thumb/thePic.jpg</td>
       <td>image/jpeg</td>
       <td>100</td>
@@ -321,7 +321,7 @@ vlastnosti v novém jmenném prostoru.
 
 Poznámka: `acf:` (zkratka pro „Audiovisual Core Flat“) je vymyšlený jmenný prostor.  Zájmové komunity mohou takové termíny vytvářet, aby mohly využívat tento druh struktury.
 
-## 4 Lists of plain text values
+## 4 Seznamy hodnot v prostém textu
 
 Některé termíny AC povolují hodnoty, které jsou seznamy, aby byly reprezentovány jako prostý
 text. The choice of how to separate list items is ultimately left to the
