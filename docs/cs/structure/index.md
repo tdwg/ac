@@ -146,8 +146,8 @@ http://example.com/456</dcterms:identifier>...`").
 V některých případech se páry nebo dvojice vlastností opakují. In Audiovisual
 Core this situation occurs, for example, in the following cases:
 
-- The language-dependent metadata like title, description, etc. need
-  to be associated with `ac:metadataLanguage`. One approach here is to
+- Metadata závislá na jazyku, jako je název, popis atd., musí
+  být spojena s `ac:metadataLanguage`. One approach here is to
   use complete Audiovisual Core records together with the [Metadata Language](../termlist#ac_metadataLanguage)
   property; see there for further detail.
 - The values of properties about a Service Access Point MUST remain
@@ -164,16 +164,16 @@ Core this situation occurs, for example, in the following cases:
   resource, and the review text itself in [Reviewer Comments](../termlist#ac_reviewerComments)
   are desirable to store as pairs.
 
-### 3.1 Structured serializations
+### 3.1 Strukturované serializace
 
 Mnoho serializačních jazyků poskytuje dostatečně strukturované formy, aby
-jednoznačně zpracovaly opakující se termíny. In XML, we might define
-a container element and use a nesting structure as in Section 3.1.1  Alternatively, in XML we may reference access points by identifier as in Section 3.1.2  Where such structures are impossible or undesirable, an alternative
-solution is to permit only one access point per
-container element, but to repeat the container element for a single media resource, as shown in section 3.1.3 This is similar
-to one of the options discussed for multilingual metadata (see [Metadata Language](../termlist#ac_metadataLanguage)).
+jednoznačně zpracovaly opakující se termíny. V XML můžeme definovat
+kontejnerový prvek a použít vnořenou strukturu, jak je uvedeno v oddíle 3.1.1.  Alternativně můžeme v XML odkazovat na přístupové body pomocí identifikátoru, jak je uvedeno v oddíle 3.1.2.  Pokud takové struktury nejsou možné nebo nejsou žádoucí, alternativním
+řešením je povolit pouze jeden přístupový bod na
+kontejnerový prvek, ale opakovat kontejnerový prvek pro jeden mediální zdroj, jak je uvedeno v části 3.1.3. To je podobné
+jedné z možností diskutovaných pro vícejazyčná metadata (viz [Metadata Language](../termlist#ac_metadataLanguage)).
 
-Note: In the examples, for human-readability the literal valued terms `dc:format` and `ac:variantLiteral` were used. However, it is designated best practice to use the IRI valued terms `dcterms:format` and `ac:variant` with controlled IRI values from the [controlled vocabulary for format](http://rs.tdwg.org/ac/doc/format/) and [controlled vocabulary for variant](http://rs.tdwg.org/ac/doc/variant/).  See the notes on [dc:format](http://rs.tdwg.org/ac/doc/termlist/#dc_format) and [ac:variantLiteral](http://rs.tdwg.org/ac/doc/termlist/#ac_variantLiteral) for more information.
+Poznámka: V příkladech byly pro lepší srozumitelnost použity doslovné výrazy „dc:format“ a „ac:variantLiteral“. Za nejlepší postup se však považuje použití termínů s hodnotou IRI „dcterms:format“ a „ac:variant“ s kontrolovanými hodnotami IRI z [kontrolovaného slovníku pro formát](http://rs.tdwg.org/ac/doc/format/) a [kontrolovaného slovníku pro variantu](http://rs.tdwg.org/ac/doc/variant/).  See the notes on [dc:format](http://rs.tdwg.org/ac/doc/termlist/#dc_format) and [ac:variantLiteral](http://rs.tdwg.org/ac/doc/termlist/#ac_variantLiteral) for more information.
 
 #### 3.1.1 Nested XML structure example (non-normative)
 
