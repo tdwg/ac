@@ -173,9 +173,9 @@ kontejnerový prvek a použít vnořenou strukturu, jak je uvedeno v oddíle 3.1
 kontejnerový prvek, ale opakovat kontejnerový prvek pro jeden mediální zdroj, jak je uvedeno v části 3.1.3. To je podobné
 jedné z možností diskutovaných pro vícejazyčná metadata (viz [Metadata Language](../termlist#ac_metadataLanguage)).
 
-Poznámka: V příkladech byly pro lepší srozumitelnost použity doslovné výrazy „dc:format“ a „ac:variantLiteral“. Za nejlepší postup se však považuje použití termínů s hodnotou IRI „dcterms:format“ a „ac:variant“ s kontrolovanými hodnotami IRI z [kontrolovaného slovníku pro formát](http://rs.tdwg.org/ac/doc/format/) a [kontrolovaného slovníku pro variantu](http://rs.tdwg.org/ac/doc/variant/).  See the notes on [dc:format](http://rs.tdwg.org/ac/doc/termlist/#dc_format) and [ac:variantLiteral](http://rs.tdwg.org/ac/doc/termlist/#ac_variantLiteral) for more information.
+Poznámka: V příkladech byly pro lepší srozumitelnost použity doslovné výrazy „dc:format“ a „ac:variantLiteral“. Za nejlepší postup se však považuje použití termínů s hodnotou IRI „dcterms:format“ a „ac:variant“ s kontrolovanými hodnotami IRI z [kontrolovaného slovníku pro formát](http://rs.tdwg.org/ac/doc/format/) a [kontrolovaného slovníku pro variantu](http://rs.tdwg.org/ac/doc/variant/).  Další informace naleznete v poznámkách k [dc:format](http://rs.tdwg.org/ac/doc/termlist/#dc_format) a [ac:variantLiteral](http://rs.tdwg.org/ac/doc/termlist/#ac_variantLiteral).
 
-#### 3.1.1 Nested XML structure example (non-normative)
+#### 3.1.1 Příklad vnořené struktury XML (nenormativní)
 
     ```
     <MEDIA_METADATA_CONTAINER>
@@ -192,7 +192,7 @@ Poznámka: V příkladech byly pro lepší srozumitelnost použity doslovné vý
     <MEDIA_METADATA_CONTAINER>
     ```
 
-#### 3.1.2 XML reference by identifier example (non-normative)
+#### 3.1.2 Příklad odkazu XML podle identifikátoru (nenormativní)
 
     ```
     <MEDIA_METADATA_CONTAINER>
@@ -209,12 +209,12 @@ Poznámka: V příkladech byly pro lepší srozumitelnost použity doslovné vý
     <MEDIA_METADATA_CONTAINER>
     ```
 
-#### 3.1.3 Repeated container element XML example (non-normative)
+#### 3.1.3 Příklad opakovaného prvku kontejneru XML (nenormativní)
 
     ```
     <MEDIA_METADATA_CONTAINER>
       <dcterms:identifier>http//:example.com/pictures/thePicture.jpg</dcterms:identifier>
-      <dcterms:title>A red beech leaf</dcterms:title>
+      <dcterms:title>List červeného buku</dcterms:title>
       <dct:format>image/jpeg</dc:format>
       <ac:accessURI>http://example.com/fullres/thePicture.jpg</ac:accessURI>
       ...
@@ -231,11 +231,11 @@ Poznámka: V příkladech byly pro lepší srozumitelnost použity doslovné vý
 
 Stejná data jako v příkladech 3.1.1 až 3.1.3 lze serializovat jako „plochou“ tabulku podobnou tabulce v tabulkovém procesoru.
 
-In the example of Section 3.2.1, only the required identifier is repeated, but not
-the title field. Whether to repeat all fields or whether to provide all
-fields only in the first record, limiting later records to the
-identifier and the service access point properties, is left to specific
-implementations. In the example of Section 3.2.1, the `ac:hasServiceAccessPoint` property is suppressed
+V příkladu v oddíle 3.2.1 se opakuje pouze požadovaný identifikátor, nikoli však
+pole názvu. Zda se mají opakovat všechna pole, nebo zda se mají poskytnout všechna
+pole pouze v prvním záznamu, přičemž pozdější záznamy se omezí na
+identifikátor a vlastnosti přístupového bodu služby, je ponecháno na konkrétních
+implementacích. In the example of Section 3.2.1, the `ac:hasServiceAccessPoint` property is suppressed
 as unnecessary.
 
 #### 3.2.1 Example of a table with each service access point in a separate row (non-normative)
