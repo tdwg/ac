@@ -136,12 +136,12 @@ The simplest case is a single repeatable term (e.g.,
 dcterms:identifier). In representations based on an XML Schema that
 permits elements to be repeated such a term may simply be repeated (e.g.
 "`...<dcterms:identifier>http://example.com/123</dcterms:identifier><dcterms:identifier>http://example.com</dcterms:identifier>...`").
-In serializations that do not easily lend themselves to repeatable
-elements (e.g. "flat" schemata with all elements occurring only a single
-time in an otherwise unstructured record) it is possible to define
-separators to support a list of values within a single element (e.g.
-"`...<dcterms:identifier>http://example.com/123;
-http://example.com/456</dcterms:identifier>...`").
+V serializacích, které se nehodí pro opakovatelné
+prvky (např. „plochá“ schémata, kde se všechny prvky vyskytují pouze jednou
+v jinak nestrukturovaném záznamu), je možné definovat
+oddělovače pro podporu seznamu hodnot v rámci jednoho prvku (např.
+„...<dcterms:identifier>http://example.com/123;
+http://example.com/456</dcterms:identifier>...\`").
 
 V některých případech se páry nebo dvojice vlastností opakují. In Audiovisual
 Core this situation occurs, for example, in the following cases:
