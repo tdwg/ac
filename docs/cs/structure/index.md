@@ -1,4 +1,4 @@
-# Audiovisual Core Structure
+# Struktura Audiovisual Core
 
 Název
 : Struktura Audiovisual Core
@@ -325,9 +325,9 @@ Poznámka: `acf:` (zkratka pro „Audiovisual Core Flat“) je vymyšlený jmenn
 
 Některé termíny AC povolují hodnoty, které jsou seznamy, aby byly reprezentovány jako prostý
 text. Volba způsobu oddělení položek seznamu je nakonec ponechána na
-implementátorech AC. Typical usage is to choose a punctuation mark such
-as ",", ";", or "|". In these cases a special escape syntax needs to be
-defined for cases in which the separator is part of the metadata value.
+implementátorech AC. Typickým použitím je volba interpunkčního znaménka, jako je
+„,“, „;“ nebo „|“. V těchto případech je třeba definovat speciální únikovou syntaxi
+pro případy, kdy je oddělovač součástí hodnoty metadat.
 Bohužel i u standardních formátů seznamů, jako je CSV, používají různé
 softwarové balíčky různé metody únikových znaků, což brání
 výměně dat. V případě, že neexistuje možnost volby specifická pro danou implementaci,
