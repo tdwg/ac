@@ -143,20 +143,20 @@ oddělovače pro podporu seznamu hodnot v rámci jednoho prvku (např.
 „...<dcterms:identifier>http://example.com/123;
 http://example.com/456</dcterms:identifier>...\`").
 
-V některých případech se páry nebo dvojice vlastností opakují. In Audiovisual
-Core this situation occurs, for example, in the following cases:
+V některých případech se páry nebo dvojice vlastností opakují. V Audiovisual
+Core k této situaci dochází například v následujících případech:
 
 - Metadata závislá na jazyku, jako je název, popis atd., musí
   být spojena s `ac:metadataLanguage`. One approach here is to
   use complete Audiovisual Core records together with the [Metadata Language](../termlist#ac_metadataLanguage)
   property; see there for further detail.
-- The values of properties about a Service Access Point MUST remain
-  associated with that Service Access Point even if there are multiple
-  Service Access Points. See
+- Hodnoty vlastností týkající se přístupového bodu služby MUSÍ zůstat
+  spojeny s tímto přístupovým bodem služby, i když existuje více
+  přístupových bodů služby. Viz
   [ac:hasServiceAccessPoint](../termlist#ac_hasServiceAccessPoint)
-  for further details.
-- The terms `dwc:scientificName` and `dwc:identificationQualifier` MAY
-  optionally be structured into pairs. (See the notes on
+  pro další podrobnosti.
+- Termíny `dwc:scientificName` a `dwc:identificationQualifier` MOHOU
+  být volitelně strukturovány do párů. (See the notes on
   [dwc:identificationQualifier](../termlist#dwc_identificationQualifier).)
 - The terms
   [Reviewer](../termlist#ac_reviewer),
@@ -324,8 +324,8 @@ Poznámka: `acf:` (zkratka pro „Audiovisual Core Flat“) je vymyšlený jmenn
 ## 4 Seznamy hodnot v prostém textu
 
 Některé termíny AC povolují hodnoty, které jsou seznamy, aby byly reprezentovány jako prostý
-text. The choice of how to separate list items is ultimately left to the
-implementers of AC. Typical usage is to choose a punctuation mark such
+text. Volba způsobu oddělení položek seznamu je nakonec ponechána na
+implementátorech AC. Typical usage is to choose a punctuation mark such
 as ",", ";", or "|". In these cases a special escape syntax needs to be
 defined for cases in which the separator is part of the metadata value.
 Bohužel i u standardních formátů seznamů, jako je CSV, používají různé
