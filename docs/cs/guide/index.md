@@ -892,17 +892,16 @@ The Metadata Working Group (MWG,
 specify how to exploit the Adobe Extensible Metadata Platform, XMP
 ([http://en.wikipedia.org/wiki/Extensible_Metadata_Platform](http://en.wikipedia.org/wiki/Extensible_Metadata_Platform)) for
 embedding into common image file formats metadata in several widely
-used controlled vocabularies. Although MWG's thrust is mainly toward
-consumer applications, over two dozen open source and commercial
-software products and platforms support XMP and Adobe has placed a
-Developers' Toolkit under an open source license. Along with
-proposals for standard serializations of the representation-neutral
-Audiovisual Core schema, MRTG intends to propose a TDWG Best Practice
-for embedding such serializations in multimedia files using XMP.
+used controlled vocabularies. Ačkoli se MWG zaměřuje hlavně na
+spotřebitelské aplikace, více než dvě desítky open source a komerčních
+softwarových produktů a platforem podporují XMP a Adobe umístilo
+Developers' Toolkit pod open source licenci. Spolu s
+návrhy na standardní serializace reprezentace neutrálního
+schématu Audiovisual Core hodlá MRTG navrhnout TDWG Best Practice
+pro vkládání takových serializací do multimediálních souborů pomocí XMP.
 
 <sup id="fn-10">[\[10\]](#cit-10)</sup>
 IPTC is a mature standard from the International Press and
-Telecommunications Council ([http://www.iptc.org](http://www.iptc.org)). Its Intellectual
-Property Rights supports finer grained controlled vocabularies than
-DC, providing better machine processing for discovery and
-fitness-for-use.
+Telecommunications Council ([http://www.iptc.org](http://www.iptc.org)). Jeho práva duševního vlastnictví podporují jemnější řízené slovníky než
+DC, což poskytuje lepší strojové zpracování pro vyhledávání a
+vhodnost pro použití.
