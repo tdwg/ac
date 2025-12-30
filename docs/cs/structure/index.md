@@ -119,8 +119,7 @@ another controlled vocabulary chosen by the user. In this case, those
 values may involve URIs conforming to a scheme given by that external
 vocabulary, and AC is silent on what that scheme is.
 
-The Notes field of a term's documentation points to further information,
-if any exists, about the term. In particular, for terms borrowed from
+Pole Poznámky v dokumentaci k termínu odkazuje na další informace o termínu, pokud existují. In particular, for terms borrowed from
 other vocabularies, this field generally carries a link to the
 originating vocabulary's documentation for that
 term.
