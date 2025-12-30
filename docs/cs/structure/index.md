@@ -119,21 +119,21 @@ another controlled vocabulary chosen by the user. In this case, those
 values may involve URIs conforming to a scheme given by that external
 vocabulary, and AC is silent on what that scheme is.
 
-Pole Poznámky v dokumentaci k termínu odkazuje na další informace o termínu, pokud existují. In particular, for terms borrowed from
-other vocabularies, this field generally carries a link to the
-originating vocabulary's documentation for that
-term.
+Pole Poznámky v dokumentaci k termínu odkazuje na další informace o termínu, pokud existují. Zejména u termínů převzatých z
+jiných slovníků obsahuje toto pole obvykle odkaz na
+dokumentaci původního slovníku pro daný
+termín.
 
 ## 3 Multiplicita a kardinalita
 
 Řada termínů se opakuje. Způsob implementace opakovatelnosti v
-dané serializaci není definován Audiovisual Core. The following
-section gives advice on some best practices in the context of
-repeatability.
+dané serializaci není definován Audiovisual Core. Následující
+část obsahuje rady ohledně osvědčených postupů v kontextu
+opakovatelnosti.
 
-The simplest case is a single repeatable term (e.g.,
-dcterms:identifier). In representations based on an XML Schema that
-permits elements to be repeated such a term may simply be repeated (e.g.
+Nejjednodušším případem je jediný opakovatelný termín (např.
+dcterms:identifier). V reprezentacích založených na schématu XML, které
+umožňuje opakování prvků, lze takový termín jednoduše opakovat (např.
 "`...<dcterms:identifier>http://example.com/123</dcterms:identifier><dcterms:identifier>http://example.com</dcterms:identifier>...`").
 V serializacích, které se nehodí pro opakovatelné
 prvky (např. „plochá“ schémata, kde se všechny prvky vyskytují pouze jednou
@@ -146,9 +146,8 @@ V některých případech se páry nebo dvojice vlastností opakují. V Audiovis
 Core k této situaci dochází například v následujících případech:
 
 - Metadata závislá na jazyku, jako je název, popis atd., musí
-  být spojena s `ac:metadataLanguage`. One approach here is to
-  use complete Audiovisual Core records together with the [Metadata Language](../termlist#ac_metadataLanguage)
-  property; see there for further detail.
+  být spojena s `ac:metadataLanguage`. Jedním z přístupů je
+  použít kompletní záznamy Audiovisual Core společně s vlastností [Metadata Language](../termlist#ac_metadataLanguage); další podrobnosti naleznete tam.
 - Hodnoty vlastností týkající se přístupového bodu služby MUSÍ zůstat
   spojeny s tímto přístupovým bodem služby, i když existuje více
   přístupových bodů služby. Viz
