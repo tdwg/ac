@@ -78,26 +78,25 @@ těchto slovníků tam, kde je to vhodné, chce AC zejména usnadnit
 opětovné použití stávajících popisů v těchto sbírkách,
 v případě potřeby doplněných o další termíny.
 
-This guide accompanies the normative parts of the AC standard,
-which are included in two documents: one that describes the structure of the document <sup id="cit-1">[\[1\]](#fn-1)</sup>
-and a Term List document <sup id="cit-2">[\[2\]](#fn-2)</sup>. Seznam termínů
+Tato příručka doprovází normativní části standardu AC,
+které jsou obsaženy ve dvou dokumentech: v dokumentu popisujícím strukturu dokumentu <sup id="cit-1">[\[1\]](#fn-1)</sup>
+a v dokumentu se seznamem termínů <sup id="cit-2">[\[2\]](#fn-2)</sup>. Seznam termínů
 dokumentuje řadu termínů, z nichž každý je identifikován jedinečným
 identifikátorem URI (Uniform Resource Identifier), spolu s normativními definicemi.
-In addition, the Audiovisual Core Maintenance Group may develop recommended representations for AC
-descriptions in several important forms including RDF <sup id="cit-3">[\[3\]](#fn-3)</sup>, XML
-Schema <sup id="cit-4">[\[4\]](#fn-4)</sup>, and Comma Separated Values (CSV) <sup id="cit-5">[\[5\]](#fn-5)</sup>.
+Kromě toho může skupina Audiovisual Core Maintenance Group vyvinout doporučené reprezentace pro popisy AC v několika důležitých formátech, včetně RDF <sup id="cit-3">[\[3\]](#fn-3)</sup>, XML
+Schema <sup id="cit-4">[\[4\]](#fn-4)</sup> a Comma Separated Values (CSV) <sup id="cit-5">[\[5\]](#fn-5)</sup>.
 
-Figure 1 below augments a portion of Figure 2 of the non-normative
-portion of the NCD document <sup id="cit-6">[\[6\]](#fn-6)</sup>. Ukazuje řadu druhů
+Obrázek 1 níže doplňuje část obrázku 2 nenormativní
+části dokumentu NCD <sup id="cit-6">[\[6\]](#fn-6)</sup>. Ukazuje řadu druhů
 zdrojů zaměřených na data o biologické rozmanitosti a ilustruje typické uživatelské
 komunity, standardy dat a metadat a síťové služby, které
 podporují vyhledávání, analýzu a integraci dat. Z údajů NCD jsme extrahovali
 zdroje a vztahy mezi nimi, které
 jsme doplnili o tři typy, které nespadají do hlavní působnosti NCD. Jedná se o:
 Pozorování, ekologické modely a zaměření této práce, multimediální
-zdroje. Applications exploiting each kind of these resources find
-utility, or sometimes require the use of multimedia resources to
-document them. Například Biological Heritage Library je projekt,
+zdroje. Aplikace využívající každý z těchto druhů zdrojů nacházejí
+uplatnění, nebo někdy vyžadují použití multimediálních zdrojů k
+jejich dokumentaci. Například Biological Heritage Library je projekt,
 který poskytuje naskenované obrázky starší literatury v mnohem větším rozsahu,
 než kolik může poskytnout digitalizovaných verzí založených na optickém rozpoznávání znaků,
 a tyto obrázky zůstávají k dispozici jako zdroje pro jakékoli
@@ -111,22 +110,20 @@ zdrojů biologické rozmanitosti
 
 ## 3 termíny Audiovisual Core
 
-An Audiovisual Core record is a description, using the Audiovisual Core terms,
-of a multimedia resource. AC specifikuje dva druhy termínů:
+Záznam Audiovisual Core je popis multimediálního zdroje pomocí termínů Audiovisual Core. AC specifikuje dva druhy termínů:
 _termíny na úrovni záznamu_ a _termíny na úrovni přístupu._ Termíny na úrovni záznamu se vztahují
-k popisovanému mediálnímu zdroji. Almost all terms are record-level
-terms. One such term, _serviceAccessPoint_ plays a special role in
-helping to retrieve the resource that the record describes. A multimedia
-resource may have more than one serviceAccessPoint, each of which is
-described by values of one or more access-level terms. The access-level
-terms provide such things as a web address at which a digital
-representation of the resource can be retrieved, the size of such a
-retrieved object, etc.
+k popisovanému mediálnímu zdroji. Téměř všechny termíny jsou termíny na úrovni záznamu. Jeden z těchto termínů, _serviceAccessPoint_, hraje zvláštní roli při
+vyhledávání zdroje, který záznam popisuje. Multimediální
+zdroj může mít více než jeden serviceAccessPoint, z nichž každý je
+popsán hodnotami jednoho nebo více termínů přístupové úrovně. Termíny na úrovni přístupu
+poskytují informace, jako je webová adresa, na které lze získat digitální
+zobrazení zdroje, velikost takového
+získaného objektu atd.
 
-An Audiovisual Core record is thus a set of terms that conforms to the
-normative documents, contains at least the four mandatory terms
-described below, and which provides metadata that describes a single
-multimedia resource (possibly including a Collection). Obvykle obsahuje identifikátor, který mohl být zdroji přidělen externí autoritou nebo poskytovatelem záznamu metadat.
+Záznam Audiovisual Core je tedy soubor termínů, který je v souladu s
+normativními dokumenty, obsahuje alespoň čtyři povinné termíny
+popsané níže a poskytuje metadata popisující jeden
+multimediální zdroj (případně včetně sbírky). Obvykle obsahuje identifikátor, který mohl být zdroji přidělen externí autoritou nebo poskytovatelem záznamu metadat.
 
 Každý termín Audiovisual Core má prostý textový název, URI a prostý textový
 normativní definici. Termíny mohou také obsahovat pokyny k použití, které vysvětlují, jak se termín používá v kontextu Audiovisual Core, a poznámky, které poskytují další informace a příklady.  URI pro termíny odpovídají schématu http URI.
