@@ -27,7 +27,7 @@ Aktuální verze
 {previous_version_slot}
 
 Abstrakt
-: Termín subjectPart z Audiovisual Core popisuje část morfologie organismu, chování, prostředí zobrazenou v mediálním obsahu nebo oblasti zájmu. The subjectPart Controlled Vocabulary provides terms that should be used as values for ac:subjectPart and its literal-valued analog ac:subjectPartLiteral.
+: Termín subjectPart z Audiovisual Core popisuje část morfologie organismu, chování, prostředí zobrazenou v mediálním obsahu nebo oblasti zájmu. Předmětová část řízeného slovníku poskytuje termíny, které by měly být použity jako hodnoty pro ac:subjectPart a jeho doslovný ekvivalent ac:subjectPartLiteral.
 
 Přispěvatelé
 : {contributors}
