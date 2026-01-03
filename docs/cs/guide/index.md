@@ -135,13 +135,13 @@ a pokud ano, vrácené informace nemusí mít žádný význam.
 Protože adresy URL jsou poměrně dlouhé, dokumenty AC se řídí standardní
 praxí zavádění krátké předpony sestávající z „kvalifikátoru jmenného prostoru“
 odděleného dvojtečkou od mnemotechnického názvu úzce souvisejícího s
-názvem termínu. Jmenný prostor termínů převzatých z jiných slovníků je stejný jako jmenný prostor původních termínů. The namespace of denovo AC terms is
+názvem termínu. Jmenný prostor termínů převzatých z jiných slovníků je stejný jako jmenný prostor původních termínů. Jmenný prostor termínů denovo AC je
 http://rs.tdwg.org/ac/terms/. V tabulce termínů má každý termínový záznam
-řádek s názvem termínu. Following the practice of the Darwin Core term
-list <sup id="cit-7">[\[7\]](#fn-7)</sup>, for borrowed terms, this term name is generally an
-"unqualified name" preceded by a widely accepted prefix designating an
-abbreviation for the namespace, whereas for denovo AC terms, no such
-prefix is prepended. Implementátorům, kteří potřebují předponu jmenného prostoru pro jmenný prostor AC, se doporučuje používat "ac", kdykoli je to možné. The
+řádek s názvem termínu. V souladu s praxí Darwin Core term
+list <sup id="cit-7">[\[7\]](#fn-7)</sup> je název tohoto termínu v případě vypůjčených termínů obecně
+„nekvalifikovaným názvem“, před kterým je uvedena široce přijímaná předpona označující
+zkratku pro jmenný prostor, zatímco u termínů AC denovo není taková
+předpona před termínem uvedena. Implementátorům, kteří potřebují předponu jmenného prostoru pro jmenný prostor AC, se doporučuje používat "ac", kdykoli je to možné. The
 result is known as a qualified name. Například normativní wiki
 dokumentace pro vypůjčený termín dcterms:identifier má URI
 http://purl.org/dc/terms/identifier. V tomto dokumentu budeme dodržovat zavedenou
