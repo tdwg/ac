@@ -141,8 +141,8 @@ http://rs.tdwg.org/ac/terms/. V tabulce termínů má každý termínový zázna
 list <sup id="cit-7">[\[7\]](#fn-7)</sup> je název tohoto termínu v případě vypůjčených termínů obecně
 „nekvalifikovaným názvem“, před kterým je uvedena široce přijímaná předpona označující
 zkratku pro jmenný prostor, zatímco u termínů AC denovo není taková
-předpona před termínem uvedena. Implementátorům, kteří potřebují předponu jmenného prostoru pro jmenný prostor AC, se doporučuje používat "ac", kdykoli je to možné. The
-result is known as a qualified name. Například normativní wiki
+předpona před termínem uvedena. Implementátorům, kteří potřebují předponu jmenného prostoru pro jmenný prostor AC, se doporučuje používat "ac", kdykoli je to možné. Výsledek
+se nazývá kvalifikovaný název. Například normativní wiki
 dokumentace pro vypůjčený termín dcterms:identifier má URI
 http://purl.org/dc/terms/identifier. V tomto dokumentu budeme dodržovat zavedenou
 konvenci kvalifikovaných názvů. Ve
@@ -171,7 +171,7 @@ níže.
 		</tr>
 		<tr>
 			<td></td>
-			<td>Layer:&nbsp;1 —&nbsp;Required:&nbsp;Yes —&nbsp;Repeatable:&nbsp;No</td>
+			<td>Vrstva:&nbsp;1 —&nbsp;Požadováno:&nbsp;Ano —&nbsp;Opakovatelné:&nbsp;Ne</td>
 		</tr>
 		<tr>
 			<td>Definice:</td>
@@ -179,11 +179,11 @@ níže.
 		</tr>
 		<tr>
 			<td>Použití:</td>
-			<td>A full URI preferably from among the type URIs specified in the DCMI Type Vocabulary, <a href="http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary" rel="nofollow">http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary</a>. Doporučené termíny jsou ty URI, jejichž označení jsou Collection, StillImage, Sound, MovingImage, InteractiveResource nebo Text (např. . Doporučujeme také úplné URI adresy ac:PanAndZoomImage, ac:3DStillImage a ac: 3DMovingImage. Hodnoty NESMÍ být řetězcem, ale URI s úplným jmenným prostorem (např. z řízeného slovníku. Implementátoři a komunity praxe mohou určit, zda je nutné používat konkrétní řízené slovníky. Pokud je zdroj sbírkou, tato položka neurčuje, jaké typy objektů může obsahovat. V souladu s doporučeními DC na adrese <a href="http://purl.org/dc/dcmitype/Text" rel="nofollow">http://purl.org/dc/dcmitype/Text</a> by obrázky textu měly mít tuto URI.</td>
+			<td>Úplný URI, nejlépe z typu URI specifikovaného ve slovníku typů DCMI, <a href="http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary" rel="nofollow">http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary</a>. Doporučené termíny jsou ty URI, jejichž označení jsou Collection, StillImage, Sound, MovingImage, InteractiveResource nebo Text (např. . Doporučujeme také úplné URI adresy ac:PanAndZoomImage, ac:3DStillImage a ac: 3DMovingImage. Hodnoty NESMÍ být řetězcem, ale URI s úplným jmenným prostorem (např. z řízeného slovníku. Implementátoři a komunity praxe mohou určit, zda je nutné používat konkrétní řízené slovníky. Pokud je zdroj sbírkou, tato položka neurčuje, jaké typy objektů může obsahovat. V souladu s doporučeními DC na adrese <a href="http://purl.org/dc/dcmitype/Text" rel="nofollow">http://purl.org/dc/dcmitype/Text</a> by obrázky textu měly mít tuto URI.</td>
 		</tr>
 		<tr>
 			<td>Poznámky:</td>
-			<td>V souladu s doporučeními DC pro typ textu <a href="http://purl.org/dc/terms/DCMIType" rel="nofollow">http://purl.org/dc/terms/DCMIType</a> by obrázky textu měly být uvedeny jako http://purl.org/dc/dcmitype/Text, pokud jsou uvedeny jako URI. Viz také heslo dc:type v dokumentu Audiovisual Core term list (Seznam základních audiovizuálních termínů) a viz DCMI FAQ on DC and DCTERMS Namespaces (Často kladené otázky týkající se jmenných prostorů DC a DCTERMS), <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md" rel="nofollow">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, kde se diskutuje o důvodech pro použití termínů ve dvou jmenných prostorech. Obvyklým postupem je použít stejný štítek, pokud jsou k dispozici oba. Labels have no effect on information discovery and are only suggestions. At least one of dc:type and dcterms:type must be supplied but, when feasible, supplying both may make the metadata more widely useful. The values of each should designate the same type, but in case of ambiguity dcterms:type prevails.</td>
+			<td>V souladu s doporučeními DC pro typ textu <a href="http://purl.org/dc/terms/DCMIType" rel="nofollow">http://purl.org/dc/terms/DCMIType</a> by obrázky textu měly být uvedeny jako http://purl.org/dc/dcmitype/Text, pokud jsou uvedeny jako URI. Viz také heslo dc:type v dokumentu Audiovisual Core term list (Seznam základních audiovizuálních termínů) a viz DCMI FAQ on DC and DCTERMS Namespaces (Často kladené otázky týkající se jmenných prostorů DC a DCTERMS), <a href="https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md" rel="nofollow">https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, kde se diskutuje o důvodech pro použití termínů ve dvou jmenných prostorech. Obvyklým postupem je použít stejný štítek, pokud jsou k dispozici oba. Štítky nemají žádný vliv na vyhledávání informací a slouží pouze jako doporučení. Je nutné zadat alespoň jeden z údajů dc:type a dcterms:type, ale pokud je to možné, zadání obou údajů může zvýšit užitečnost metadat. Hodnoty každého z nich by měly označovat stejný typ, ale v případě nejednoznačnosti má přednost dcterms:type.</td>
 		</tr>
 	</tbody>
 </table>
@@ -204,11 +204,11 @@ níže.
 		</tr>
 		<tr>
 			<td></td>
-			<td>Layer:&nbsp;2 —&nbsp;Required:&nbsp;No —&nbsp;Repeatable:&nbsp;Yes</td>
+			<td>Vrstva:&nbsp;2 —&nbsp;Požadováno:&nbsp;Ne —&nbsp;Opakovatelné:&nbsp;Ano</td>
 		</tr>
 		<tr>
 			<td>Definice:</td>
-			<td>String providing the name of a reviewer. If present, then resource is peer-reviewed, even if Reviewer Comments is absent or empty. Its presence tells whether an expert in the subject featured in the media has reviewed the media item or collection and approved its metadata description; must display a name or the literal "anonymous" (= anonymously reviewed).</td>
+			<td>Řetězec obsahující jméno recenzenta. Pokud je přítomen, pak je zdroj recenzován, i když komentáře recenzenta chybí nebo jsou prázdné. Its presence tells whether an expert in the subject featured in the media has reviewed the media item or collection and approved its metadata description; must display a name or the literal "anonymous" (= anonymously reviewed).</td>
 		</tr>
 		<tr>
 			<td>Poznámky:</td>
