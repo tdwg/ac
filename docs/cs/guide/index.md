@@ -292,16 +292,16 @@ vlastnosti záznamu Audiovisual Core považovány za povinné:
    identifikátor pro mediální položky, ačkoli jej vyžaduje pro
    poskytovatele nebo sbírku.
 
-2. Type (dcterms:type): Any dcmi type term from
-   http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary may be used.
-   Recommended terms are Collection, StillImage, Sound, MovingImage,
-   InteractiveResource, and Text.
+2. Typ (dcterms:type): Lze použít jakýkoli termín typu dcmi z
+   http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary.
+   Doporučené termíny jsou Collection (sbírka), StillImage (statický obrázek), Sound (zvuk), MovingImage (pohyblivý obrázek),
+   InteractiveResource (interaktivní zdroj) a Text.
 
-3. Metadata Language (ac:MetadataLanguage): Language of description and
-   other metadata (but not necessarily of the image itself)
+3. Jazyk metadat (ac:MetadataLanguage): Jazyk popisu a
+   dalších metadat (ale ne nutně samotného obrázku)
 
-4. Copyright Statement (dcterms:rights): Information about rights held
-   in and over the resource. Úplné znění čitelného prohlášení o autorských právech,
+4. Prohlášení o autorských právech (dcterms:rights): Informace o právech držených
+   v rámci daného zdroje a nad ním. Úplné znění čitelného prohlášení o autorských právech,
    jak vyžadují vnitrostátní právní předpisy držitele autorských práv. U
    sbírek se to vztahuje na všechny obsažené objekty, pokud
    objekt sám nemá jiné prohlášení. Pokud je to možné, doporučuje se také
@@ -315,14 +315,14 @@ pomocí dcterms:title
 Audiovisual Core má v úmyslu poskytovat metadata, která popisují buď samotné mediální
 zdroje, nebo jejich sbírky. Existuje několik
 známých nebo nově vznikajících standardů, které se těmito otázkami zabývají, takže
-by se dalo položit otázku: proč je prostě nepoužít? In fact, AC does exactly that in
-about half of its 80 elements, almost all of which are optional. Indeed,
-as shown above, most of the mandatory terms come from external
-controlled vocabularies. However, all existing controlled vocabularies,
-most notably the widely used Dublin Core, present very few opportunities
-to provide media resource content metadata that is specifically
-biologically relevant. Use of the Dublin Core alone would make it
-difficult to do media resource discovery with high precision. Thus, one
+by se dalo položit otázku: proč je prostě nepoužít? Ve skutečnosti AC dělá přesně to v
+přibližně polovině svých 80 prvků, z nichž téměř všechny jsou volitelné. Jak je
+uvedeno výše, většina povinných termínů pochází z externích
+řízených slovníků. Všechny existující řízené slovníky,
+zejména široce používaný Dublin Core, však nabízejí velmi málo možností
+poskytovat metadata obsahu mediálních zdrojů, která jsou specificky
+biologicky relevantní. Použití samotného Dublin Core by
+ztěžovalo vyhledávání mediálních zdrojů s vysokou přesností. Thus, one
 consequence of using Dublin Core alone would be that queries will not be
 selective enough. By contrast the Darwin Core TDWG standard <sup id="cit-8">[\[8\]](#fn-8)</sup> has
 more support for some such concerns, but little about important
