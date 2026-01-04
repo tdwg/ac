@@ -208,7 +208,7 @@ níže.
 		</tr>
 		<tr>
 			<td>Definice:</td>
-			<td>Řetězec obsahující jméno recenzenta. Pokud je přítomen, pak je zdroj recenzován, i když komentáře recenzenta chybí nebo jsou prázdné. Its presence tells whether an expert in the subject featured in the media has reviewed the media item or collection and approved its metadata description; must display a name or the literal "anonymous" (= anonymously reviewed).</td>
+			<td>Řetězec obsahující jméno recenzenta. Pokud je přítomen, pak je zdroj recenzován, i když komentáře recenzenta chybí nebo jsou prázdné. Jeho přítomnost udává, zda odborník na dané téma, o kterém se píše v médiích, recenzoval daný mediální příspěvek nebo sbírku a schválil popis jeho metadat; musí být uvedeno jméno nebo doslovný výraz „anonymní“ (= anonymně recenzováno).</td>
 		</tr>
 		<tr>
 			<td>Poznámky:</td>
@@ -219,7 +219,7 @@ níže.
 
 Hlavní kvalifikátory jmenného prostoru pro termínové URI v tomto dokumentu jsou
 
-- **dcterms:** and **dc:** The DCMI vocabulary documented at
+- **dcterms:** a **dc:** Slovník DCMI dokumentovaný na adrese
   http://dublincore.org/documents/dcmi-terms
 
 - **dwc:** Slovník Darwin Core popsaný na adrese
@@ -265,7 +265,7 @@ měly vyšší prioritu pro katalogizaci na úrovni jednotlivých položek.
 Mezi důležité využití identifikované pracovní skupinou, které jsou usnadněny
 metadaty, patří:
 
-1. Discovery;
+1. Objevování;
 
 2. Hodnocení vhodnosti použití před načtením zdroje
    (zejména relevantní pro offline zdroje);
@@ -283,14 +283,14 @@ metadaty, patří:
 Aby byly překážky použití co nejmenší, jsou pouze čtyři
 vlastnosti záznamu Audiovisual Core považovány za povinné:
 
-1. Identifier (dcterms:identifier): An arbitrary code that is unique
-   for the resource, with the resource being either a provider,
-   collection, or media item. Whereas the identifier must be globally
-   unique for providers and collections (e. g. a URI), identifiers for
-   media items may be unique only within the context of a collection or
-   provider. In fact the standard strongly recommends but does not
-   require an Identifier for media items, though it does so for a
-   provider or collection.
+1. Identifikátor (dcterms:identifier): libovolný kód, který je jedinečný
+   pro daný zdroj, přičemž zdrojem může být poskytovatel,
+   sbírka nebo mediální položka. Zatímco identifikátor musí být globálně
+   jedinečný pro poskytovatele a sbírky (např. URI), identifikátory pro
+   mediální položky mohou být jedinečné pouze v kontextu sbírky nebo
+   poskytovatele. Ve skutečnosti standard důrazně doporučuje, ale nevyžaduje
+   identifikátor pro mediální položky, ačkoli jej vyžaduje pro
+   poskytovatele nebo sbírku.
 
 2. Type (dcterms:type): Any dcmi type term from
    http://dublincore.org/documents/dcmi-type-vocabulary/#section-7-dcmi-type-vocabulary may be used.
