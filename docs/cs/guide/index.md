@@ -322,26 +322,23 @@ uvedeno výše, většina povinných termínů pochází z externích
 zejména široce používaný Dublin Core, však nabízejí velmi málo možností
 poskytovat metadata obsahu mediálních zdrojů, která jsou specificky
 biologicky relevantní. Použití samotného Dublin Core by
-ztěžovalo vyhledávání mediálních zdrojů s vysokou přesností. Thus, one
-consequence of using Dublin Core alone would be that queries will not be
-selective enough. By contrast the Darwin Core TDWG standard <sup id="cit-8">[\[8\]](#fn-8)</sup> has
-more support for some such concerns, but little about important
-intellectual property rights issues, or ways to express relationships
-between alternate versions of media resources (e.g. different resolution
-versions). In turn, neither of these controlled vocabularies has
-mechanisms for capturing technical metadata, such as EXIF, which the
-imaging systems themselves, or metadata embedding tools, such as Adobe
-Photoshop(tm) and the GIMP open source image editor, can insert into
-media files and streams. To address this, and in furtherance of the
-above goals, the Audiovisual Core should be regarded as a synthesis of DC,
-DwC, and, where those are inadequate, some forward looking metadata
-standards that the camera manufacturers are presently planning to
-support within the cameras themselves, much as they now use EXIF <sup id="cit-9">[\[9\]](#fn-9)</sup>.
-Where any of these standards suffice, AC metadata terms and definitions
-are those of such standards. In some instances, we find that none of
-these address concerns that our experience suggests are held by a wide
-variety of image contributors, especially those with limited access to
-sophisticated IT staff or to Digital Librarians. Schéma AC lze považovat za rozšíření sjednocení malých podskupin několika přijatých standardů (spolu s rámcem, který zajišťuje, že použití metadat z těchto standardů mohou lidé i stroje chápat jako odkaz na stejný zdroj). Jinými slovy, velkou část AC lze
+ztěžovalo vyhledávání mediálních zdrojů s vysokou přesností. Jedním z důsledků použití pouze Dublin Core by tedy bylo, že dotazy nebudou dostatečně selektivní. Naproti tomu standard Darwin Core TDWG <sup id="cit-8">[\[8\]](#fn-8)</sup>
+některé z těchto otázek více podporuje, ale málo se zabývá důležitými
+otázkami práv duševního vlastnictví nebo způsoby vyjádření vztahů
+mezi alternativními verzemi mediálních zdrojů (např. verzemi s různým rozlišením). Na druhou stranu ani jeden z těchto kontrolovaných slovníků nemá
+mechanismy pro zachycení technických metadat, jako jsou EXIF, které
+samotné zobrazovací systémy nebo nástroje pro vkládání metadat, jako je Adobe
+Photoshop(tm) a open source editor obrázků GIMP, mohou vkládat do
+mediálních souborů a streamů. Abychom tento problém vyřešili a podpořili výše uvedené cíle,
+mělo by být Audiovisual Core považováno za syntézu DC,
+DwC a, tam kde jsou tyto formáty nedostatečné, některých progresivních standardů metadat,
+které výrobci kamer v současné době plánují
+podporovat v samotných kamerách, podobně jako nyní používají EXIF <sup id="cit-9">[\[9\]](#fn-9)</sup>.
+Pokud některá z těchto norem postačuje, jsou termíny a definice metadat AC
+termíny a definicemi těchto norem. V některých případech jsme zjistili, že žádný z
+těchto návrhů neřeší problémy, které podle našich zkušeností trápí širokou
+škálu přispěvatelů obrázků, zejména těch, kteří mají omezený přístup k
+sofistikovaným IT pracovníkům nebo digitálním knihovníkům. Schéma AC lze považovat za rozšíření sjednocení malých podskupin několika přijatých standardů (spolu s rámcem, který zajišťuje, že použití metadat z těchto standardů mohou lidé i stroje chápat jako odkaz na stejný zdroj). Jinými slovy, velkou část AC lze
 považovat za obal kolem DwC, DC, XMP a IPTC <sup id="cit-10">[\[10\]](#fn-10)</sup>.
 
 Vzhledem k tomu, že drtivá většina polí metadat AC je volitelná,
@@ -375,22 +372,21 @@ bez ohledu na vyhledávání a přístup k jejímu obsahu (kromě
 podsbírek), často nebude mít význam, zda jsou poskytována metadata NCD nebo AC,
 nebo obojí. To platí tím spíše, pokud mají NCD
 CollectionIdentifier a Audiovisual Core Identifier stejnou
-hodnotu. While Audiovisual Core Collection types are richer than NCD types, it
-is an open question whether Audiovisual Core's variety in this case is
-useful.
+hodnotu. Zatímco typy Audiovisual Core Collection jsou bohatší než typy NCD,
+zůstává otevřenou otázkou, zda je rozmanitost Audiovisual Core v tomto případě
+užitečná.
 
-There is substantial overlap with use of Darwin Core terms, notably with
-respect to taxonomic, geographic, and temporal coverage of the data
-being described by the metadata record. We use DwC terms for most of
-those metadata and the entirety of the Darwin Core geolocation vocabulary
-are included by reference. GPS point locations increasingly common in
-image data created by cameras is easily mapped to the 'verbatim'
-locality terms of Darwin Core.
+Existuje značné překrývání s používáním termínů Darwin Core, zejména pokud jde o
+taxonomické, geografické a časové pokrytí dat
+popisovaných záznamem metadat. Pro většinu těchto metadat používáme termíny DwC a celý slovník geolokace Darwin Core
+je zahrnut jako reference. GPS souřadnice, které jsou stále častěji součástí
+obrazových dat pořízených fotoaparáty, lze snadno přiřadit k „doslovným“
+lokálním termínům Darwin Core.
 
-## 7 Concerns Not Emphasized in Other Biodiversity Information Standards
+## 7 Problémy, které nejsou zdůrazněny v jiných standardech pro informace o biologické rozmanitosti
 
-Some of the concerns mentioned here are also those of bibliographic
-metadata such as the Dublin Core. These are, however, not explicitly of
+Některé z zde zmíněných problémů se týkají také bibliografických
+metadat, jako je Dublin Core. These are, however, not explicitly of
 detailed concern in existing TDWG biodiversity standards, and some are
 not adequately addressed by DC. Some such concerns are below.
 
