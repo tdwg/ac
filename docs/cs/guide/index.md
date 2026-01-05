@@ -386,48 +386,30 @@ lokálním termínům Darwin Core.
 ## 7 Problémy, které nejsou zdůrazněny v jiných standardech pro informace o biologické rozmanitosti
 
 Některé z zde zmíněných problémů se týkají také bibliografických
-metadat, jako je Dublin Core. These are, however, not explicitly of
-detailed concern in existing TDWG biodiversity standards, and some are
-not adequately addressed by DC. Some such concerns are below.
+metadat, jako je Dublin Core. Tyto otázky však nejsou výslovně
+podrobně řešeny ve stávajících standardech TDWG pro biologickou rozmanitost a některé z nich
+nejsou dostatečně řešeny ani v DC. Některé z těchto obav jsou uvedeny níže.
 
-**Size**: Individual multimedia resources such as images, and especially
-video and sound are very large compared to specimen records, observation
-data, or species descriptions. The main consequence of this is that
-multimedia metadata must support use cases for which humans or software
-agents can, without fetching the resource, attempt to assess the fitness
-of the underlying media resource for the desired use, typically by use
-of a search based on a fine-grained controlled vocabulary. However,
-without hit-and-miss natural language searches, it is not possible, even
-using both DC and DwC, for a metadata provider to answer a request of
-the form "Supply me with sizes and URL access points for still images of
-_Dictyophora indusiata_ and which have Spanish metatdata available.
+**Velikost**: Jednotlivé multimediální zdroje, jako jsou obrázky a zejména
+videa a zvuky, jsou ve srovnání se záznamy o vzorcích, pozorovacími
+údaji nebo popisy druhů velmi velké. Hlavním důsledkem toho je, že
+multimediální metadata musí podporovat případy použití, ve kterých lidé nebo softwaroví
+agenti mohou, aniž by museli načítat zdroj, pokusit se posoudit vhodnost
+podkladového mediálního zdroje pro požadované použití, obvykle pomocí
+vyhledávání založeného na podrobném kontrolovaném slovníku. Bez
+náhodného vyhledávání v přirozeném jazyce však není možné, ani při
+použití DC a DwC, aby poskytovatel metadat odpověděl na požadavek typu
+„Poskytněte mi velikosti a přístupové body URL pro statické obrázky
+_Dictyophora indusiata_, které mají k dispozici španělská metadata“.
 
-**Intellectual Property Rights**: DwC describes physical objects, whose
-ownership is generally governed by property laws not considered part of
-the Intellectual Property Rights corpus of law. Some impending standards
-about scientific literature address these, but rarely are publication
-reproduction permission issues as varied as for multimedia, which have a
-history of being treated as creative works of art, not necessarily as
-facts.
+**Práva duševního vlastnictví**: DwC popisuje fyzické objekty, jejichž vlastnictví se obecně řídí majetkovými zákony, které nejsou považovány za součást souboru práv duševního vlastnictví. Některé připravované normy týkající se vědecké literatury se těmito otázkami zabývají, ale málokdy jsou otázky týkající se povolení k reprodukci publikací tak rozmanité jako v případě multimédií, která byla v minulosti považována za kreativní umělecká díla, nikoli nutně za fakta.
 
-**Provenance**: For any scientific data, it is clearly important to know
-how and when the data may have been changed from its original gathering.
-This is particularly important for media, which are commonly edited for
-one or another purpose. If carelessly done, this may destroy some if the
-modified object's utility. No TDWG standards or proposed standards seem
-very robust about provenance, including Audiovisual Core, which provides
-only the Derived From property in order to provide a reference to
-another resource. This is somewhat akin to the NCD DerivedCollection
-term, which identifies a Collection record as having been produced by a
-query to another Collection. However, that apparently does not identify
-the source collection or the query. A future version of Audiovisual Core
-will add more provenance terms.
+**Původ**: U všech vědeckých údajů je samozřejmě důležité vědět, jak a kdy mohly být údaje od svého původního shromáždění změněny.
+To je zvláště důležité pro média, která jsou běžně upravována pro ten či onen účel. Pokud se to provede neopatrně, může to zničit část užitečnosti upraveného objektu. Žádné normy TDWG ani navrhované normy se nezdají být velmi robustní, pokud jde o provenienci, včetně Audiovisual Core, který poskytuje pouze vlastnost Derived From (odvozeno z) za účelem poskytnutí odkazu na jiný zdroj. To je do jisté míry podobné termínu NCD DerivedCollection, který identifikuje záznam kolekce jako vytvořený dotazem na jinou kolekci. To však zjevně neidentifikuje zdrojovou sbírku ani dotaz. Budoucí verze Audiovisual Core přidá další termíny týkající se původu.
 
-## 8 Multimedia Resource Descriptions
+## 8 Popisy multimediálních zdrojů
 
-The term Multimedia Resources encompasses a wide variety of objects of
-interest to biologists and the communities with whom they interact for
-research, education, and public service. Some instances of multimedia
+Termín multimediální zdroje zahrnuje širokou škálu objektů, které jsou zajímavé pro biology a komunity, s nimiž spolupracují v oblasti výzkumu, vzdělávání a veřejných služeb. Some instances of multimedia
 are familiar. These include:
 
 - Still images from cameras, scanners, or medical and industrial
