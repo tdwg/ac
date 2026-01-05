@@ -409,8 +409,7 @@ To je zvláště důležité pro média, která jsou běžně upravována pro te
 
 ## 8 Popisy multimediálních zdrojů
 
-Termín multimediální zdroje zahrnuje širokou škálu objektů, které jsou zajímavé pro biology a komunity, s nimiž spolupracují v oblasti výzkumu, vzdělávání a veřejných služeb. Some instances of multimedia
-are familiar. These include:
+Termín multimediální zdroje zahrnuje širokou škálu objektů, které jsou zajímavé pro biology a komunity, s nimiž spolupracují v oblasti výzkumu, vzdělávání a veřejných služeb. Některé příklady multimédií jsou známé. These include:
 
 - Still images from cameras, scanners, or medical and industrial
   imaging devices
