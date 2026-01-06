@@ -448,11 +448,7 @@ doporučuje, alespoň v dokumentaci.
 
 Jak již bylo zmíněno, záznam metadat Audiovisual Core je soubor termínů
 popisujících základní multimediální zdroj, který záznam popisuje.
-Každý termín je identifikován jednotným identifikátorem zdroje (URI). Jedná se o URI atributu, nikoli základního zdroje, a pouze specifikují, který termín je poskytován. There are many URI schemes,
-some of which have been registered with the Internet Assigned Names
-Authority (IANA). All Audiovisual Core term URIs, conform to the http URI
-Scheme. This is chosen because this widely used URI scheme uses the
-familiar internet URL syntax as its URI syntax. But this familiarity
+Každý termín je identifikován jednotným identifikátorem zdroje (URI). Jedná se o URI atributu, nikoli základního zdroje, a pouze specifikují, který termín je poskytován. Existuje mnoho schémat URI, z nichž některá byla zaregistrována u Internet Assigned Names Authority (IANA). Všechny URI Audiovisual Core termínů jsou v souladu se schématem http URI. Toto bylo zvoleno proto, že toto široce používané schéma URI používá jako syntaxi URI známou syntaxi internetových adres URL. But this familiarity
 gives rise to a common misconception, namely that pasting the URI into a
 browser URL line, or providing it to some other application that
 respects the http protocol, should result in the application returning
