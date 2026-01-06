@@ -409,25 +409,15 @@ To je zvláště důležité pro média, která jsou běžně upravována pro te
 
 ## 8 Popisy multimediálních zdrojů
 
-Termín multimediální zdroje zahrnuje širokou škálu objektů, které jsou zajímavé pro biology a komunity, s nimiž spolupracují v oblasti výzkumu, vzdělávání a veřejných služeb. Některé příklady multimédií jsou známé. These include:
+Termín multimediální zdroje zahrnuje širokou škálu objektů, které jsou zajímavé pro biology a komunity, s nimiž spolupracují v oblasti výzkumu, vzdělávání a veřejných služeb. Některé příklady multimédií jsou známé. To zahrnuje:
 
-- Still images from cameras, scanners, or medical and industrial
-  imaging devices
+- Statické snímky z fotoaparátů, skenerů nebo lékařských a průmyslových zobrazovacích zařízení
 
-- Movies with or without sound
+- Filmy se zvukem nebo bez zvuku
 
-- Audio recordings
+- Zvukové nahrávky
 
-In some of the above cases, these resources may exist in electronic or
-non-electronic form or both. The electronic form may be analog or
-digital, the latter being more amenable to storage and exchange with
-computers. The digital form may have been born digital, i.e. originally
-captured as a digital object, or it may have been created from a
-non-digital object. As with biological specimen records, publications,
-field notes, experimental data and other artifacts of the practice of
-science, there is a large quantity of such material that has not yet
-been digitized, yet which may be available, albeit with greater expense
-and inconvenience than digital resources. These analog (including paper)
+V některých z výše uvedených případů mohou tyto zdroje existovat v elektronické nebo neelektronické podobě nebo v obou. Elektronická forma může být analogová nebo digitální, přičemž digitální forma je vhodnější pro ukládání a výměnu s počítači. Digitální forma může být digitální od počátku, tj. původně zachycena jako digitální objekt, nebo může být vytvořena z nedigitálního objektu. Stejně jako v případě záznamů o biologických vzorcích, publikací, terénních poznámek, experimentálních dat a dalších artefaktů vědecké praxe existuje velké množství takového materiálu, který dosud nebyl digitalizován, ale který může být k dispozici, i když s většími náklady a nepohodlím než digitální zdroje. These analog (including paper)
 resources still require descriptive metadata to promote discovery and to
 ascertain fitness-for-use. At least as important, some of the metadata
 is itself of scientific and educational use even if the object is not
