@@ -417,15 +417,9 @@ Termín multimediální zdroje zahrnuje širokou škálu objektů, které jsou z
 
 - Zvukové nahrávky
 
-V některých z výše uvedených případů mohou tyto zdroje existovat v elektronické nebo neelektronické podobě nebo v obou. Elektronická forma může být analogová nebo digitální, přičemž digitální forma je vhodnější pro ukládání a výměnu s počítači. Digitální forma může být digitální od počátku, tj. původně zachycena jako digitální objekt, nebo může být vytvořena z nedigitálního objektu. Stejně jako v případě záznamů o biologických vzorcích, publikací, terénních poznámek, experimentálních dat a dalších artefaktů vědecké praxe existuje velké množství takového materiálu, který dosud nebyl digitalizován, ale který může být k dispozici, i když s většími náklady a nepohodlím než digitální zdroje. These analog (including paper)
-resources still require descriptive metadata to promote discovery and to
-ascertain fitness-for-use. At least as important, some of the metadata
-is itself of scientific and educational use even if the object is not
-conveniently accessible. Evidence for georeferenced taxon occurrence is
-one such use.
+V některých z výše uvedených případů mohou tyto zdroje existovat v elektronické nebo neelektronické podobě nebo v obou. Elektronická forma může být analogová nebo digitální, přičemž digitální forma je vhodnější pro ukládání a výměnu s počítači. Digitální forma může být digitální od počátku, tj. původně zachycena jako digitální objekt, nebo může být vytvořena z nedigitálního objektu. Stejně jako v případě záznamů o biologických vzorcích, publikací, terénních poznámek, experimentálních dat a dalších artefaktů vědecké praxe existuje velké množství takového materiálu, který dosud nebyl digitalizován, ale který může být k dispozici, i když s většími náklady a nepohodlím než digitální zdroje. Tyto analogové (včetně papírových) zdroje stále vyžadují popisná metadata, aby se usnadnilo jejich vyhledávání a ověřila se jejich vhodnost pro použití. Stejně důležité je, že některá metadata mají sama o sobě vědecký a vzdělávací význam, i když daný objekt není snadno přístupný. Jedním z takových použití je důkaz o výskytu georeferencovaného taxonu.
 
-Audiovisual Core metadata also can describe resources less often thought of
-as multimedia objects. To zahrnuje:
+Metadata Audiovisual Core mohou také popisovat zdroje, které nejsou tak často považovány za multimediální objekty. To zahrnuje:
 
 - Interaktivní softwarové aplikace, buď na webu, nebo dostupné
   pro samostatné použití
@@ -442,7 +436,7 @@ Normativní specifikace záznamů audiovizuálních základních metadat je nez�
 na způsobu, jakým jsou tyto záznamy převáděny do elektronické podoby.
 MRTG má v úmyslu zveřejnit specifikace pro takové zobrazení reprezentované
 v XML omezeném XML schématem a reprezentované v
-prostém textu jako hodnoty oddělené čárkami (CSV). [Sections 4.4 to 4.5 of the TDWG Standards Documentation Specification](https://github.com/tdwg/vocab/blob/master/sds/documentation-specification.md#44-vocabularies-term-lists-and-terms) describe how basic term metadata should be expressed in machine-readable forms such as RDF serializations.  Budoucí pracovní skupina by mohla vyvinout sémanticky bohatší strojově čitelnou ontologii podle postupů uvedených v [sekci 4 specifikace údržby slovníku TDWG](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#4-vocabulary-enhancements).
+prostém textu jako hodnoty oddělené čárkami (CSV). [Části 4.4 až 4.5 specifikace dokumentace standardů TDWG](https://github.com/tdwg/vocab/blob/master/sds/documentation-specification.md#44-vocabularies-term-lists-and-terms) popisují, jak by měla být základní metadata termínů vyjádřena ve strojově čitelných formátech, jako jsou serializace RDF.  Budoucí pracovní skupina by mohla vyvinout sémanticky bohatší strojově čitelnou ontologii podle postupů uvedených v [sekci 4 specifikace údržby slovníku TDWG](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#4-vocabulary-enhancements).
 
 Jazykem normativní specifikace Audiovisual Core je angličtina, ale
 to nijak neomezuje aplikace v používání štítků nebo obsahu
@@ -454,9 +448,7 @@ doporučuje, alespoň v dokumentaci.
 
 Jak již bylo zmíněno, záznam metadat Audiovisual Core je soubor termínů
 popisujících základní multimediální zdroj, který záznam popisuje.
-Každý termín je identifikován jednotným identifikátorem zdroje (URI). These
-are URIs of the attribute, not of the underlying resource, and they
-simply specify which term is being provided. There are many URI schemes,
+Každý termín je identifikován jednotným identifikátorem zdroje (URI). Jedná se o URI atributu, nikoli základního zdroje, a pouze specifikují, který termín je poskytován. There are many URI schemes,
 some of which have been registered with the Internet Assigned Names
 Authority (IANA). All Audiovisual Core term URIs, conform to the http URI
 Scheme. This is chosen because this widely used URI scheme uses the
