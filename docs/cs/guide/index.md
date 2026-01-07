@@ -448,26 +448,9 @@ doporučuje, alespoň v dokumentaci.
 
 Jak již bylo zmíněno, záznam metadat Audiovisual Core je soubor termínů
 popisujících základní multimediální zdroj, který záznam popisuje.
-Každý termín je identifikován jednotným identifikátorem zdroje (URI). Jedná se o URI atributu, nikoli základního zdroje, a pouze specifikují, který termín je poskytován. Existuje mnoho schémat URI, z nichž některá byla zaregistrována u Internet Assigned Names Authority (IANA). Všechny URI Audiovisual Core termínů jsou v souladu se schématem http URI. Toto bylo zvoleno proto, že toto široce používané schéma URI používá jako syntaxi URI známou syntaxi internetových adres URL. Tato známost však vede k častému omylu, a to že vložení URI do adresního řádku prohlížeče nebo jeho zadání do jiné aplikace, která respektuje protokol http, by mělo vést k tomu, že aplikace vrátí nějaké informace o objektu identifikovaném URI. Takové chování se obvykle nazývá rozlišení (nebo, technicky řečeno, rozlišení a dereference) URI a není v žádném případě zaručeno pro URI termínů Audiovisual Core. Where possible, we in fact try to make http URIs be
-resolvable, with the information returned being documentation for how
-the metadata attribute identified by that URI is defined or use. To
-reiterate: for Audiovisual Core term URIs, any such resolution will never
-contain information about the underlying multimedia resource being
-described. For this reason, few human-centric Audiovisual Core applications
-should ever present the URIs to users, nor use them as linking
-mechanisms. (One possible exception is an application for assigning
-metadata to multimedia resources, where such a use may provide a
-thesaurus entry aiding the user in the semantics of the metadata
-property. However, the incidental nature of the resolution, and its lack
-of guaranteed long term persistence, makes even this approach one that
-should be considered with extreme caution.) Finally, note that some
-external controlled vocabularies are defined in PDF or other documents
-that do not have URL links directly to each defined term. In these
-cases, any resolution available from the normative document may only
-link to the beginning of the document, leaving it necessary to search in
-the document for the referenced definition.
+Každý termín je identifikován jednotným identifikátorem zdroje (URI). Jedná se o URI atributu, nikoli základního zdroje, a pouze specifikují, který termín je poskytován. Existuje mnoho schémat URI, z nichž některá byla zaregistrována u Internet Assigned Names Authority (IANA). Všechny URI Audiovisual Core termínů jsou v souladu se schématem http URI. Toto bylo zvoleno proto, že toto široce používané schéma URI používá jako syntaxi URI známou syntaxi internetových adres URL. Tato známost však vede k častému omylu, a to že vložení URI do adresního řádku prohlížeče nebo jeho zadání do jiné aplikace, která respektuje protokol http, by mělo vést k tomu, že aplikace vrátí nějaké informace o objektu identifikovaném URI. Takové chování se obvykle nazývá rozlišení (nebo, technicky řečeno, rozlišení a dereference) URI a není v žádném případě zaručeno pro URI termínů Audiovisual Core. Pokud je to možné, snažíme se, aby adresy URI protokolu HTTP byly rozlišitelné a aby vrácené informace obsahovaly dokumentaci o tom, jak je atribut metadat identifikovaný touto adresou URI definován nebo používán. Zopakuji: v případě URI Audiovisual Core termínů takové řešení nikdy nebude obsahovat informace o popsaném multimediálním zdroji. Z tohoto důvodu by jen málo Audiovisual Core aplikací zaměřených na člověka mělo uživatelům vůbec zobrazovat URI, ani je používat jako propojovací mechanismy. (Jednou z možných výjimek je aplikace pro přiřazování metadat k multimediálním zdrojům, kde takové použití může poskytnout heslo v tezauru, které uživateli pomůže v sémantice vlastnosti metadat. Nicméně, vzhledem k náhodné povaze tohoto řešení a jeho nedostatečné dlouhodobé udržitelnosti, je třeba i tento přístup zvažovat s velkou opatrností.) Na závěr je třeba poznamenat, že některé externí řízené slovníky jsou definovány v PDF nebo jiných dokumentech, které neobsahují přímé odkazy URL na jednotlivé definované termíny. V těchto případech může jakékoli usnesení dostupné z normativního dokumentu odkazovat pouze na začátek dokumentu, takže je nutné vyhledat v dokumentu odkazovanou definici.
 
-Associated to each Audiovisual Core property is its value. The datatype of
+S každou vlastností Audiovisual Core je spojena její hodnota. The datatype of
 this value is also specified in the normative document. Datatypes can
 include free text, specific literals taken from a controlled vocabulary
 specified in the normative document, or a number of other datatypes
