@@ -448,10 +448,7 @@ doporučuje, alespoň v dokumentaci.
 
 Jak již bylo zmíněno, záznam metadat Audiovisual Core je soubor termínů
 popisujících základní multimediální zdroj, který záznam popisuje.
-Každý termín je identifikován jednotným identifikátorem zdroje (URI). Jedná se o URI atributu, nikoli základního zdroje, a pouze specifikují, který termín je poskytován. Existuje mnoho schémat URI, z nichž některá byla zaregistrována u Internet Assigned Names Authority (IANA). Všechny URI Audiovisual Core termínů jsou v souladu se schématem http URI. Toto bylo zvoleno proto, že toto široce používané schéma URI používá jako syntaxi URI známou syntaxi internetových adres URL. Tato známost však vede k častému omylu, a to že vložení URI do adresního řádku prohlížeče nebo jeho zadání do jiné aplikace, která respektuje protokol http, by mělo vést k tomu, že aplikace vrátí nějaké informace o objektu identifikovaném URI. Such behavior
-is usually called resolution (or, more technically, resolution and
-dereferencing) of the URI and is in no way guaranteed for Audiovisual Core
-term URIs. Where possible, we in fact try to make http URIs be
+Každý termín je identifikován jednotným identifikátorem zdroje (URI). Jedná se o URI atributu, nikoli základního zdroje, a pouze specifikují, který termín je poskytován. Existuje mnoho schémat URI, z nichž některá byla zaregistrována u Internet Assigned Names Authority (IANA). Všechny URI Audiovisual Core termínů jsou v souladu se schématem http URI. Toto bylo zvoleno proto, že toto široce používané schéma URI používá jako syntaxi URI známou syntaxi internetových adres URL. Tato známost však vede k častému omylu, a to že vložení URI do adresního řádku prohlížeče nebo jeho zadání do jiné aplikace, která respektuje protokol http, by mělo vést k tomu, že aplikace vrátí nějaké informace o objektu identifikovaném URI. Takové chování se obvykle nazývá rozlišení (nebo, technicky řečeno, rozlišení a dereference) URI a není v žádném případě zaručeno pro URI termínů Audiovisual Core. Where possible, we in fact try to make http URIs be
 resolvable, with the information returned being documentation for how
 the metadata attribute identified by that URI is defined or use. To
 reiterate: for Audiovisual Core term URIs, any such resolution will never
