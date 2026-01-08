@@ -457,48 +457,33 @@ Záznam Audiovisual Core se skládá minimálně ze čtyř povinných polí (ide
 V některých případech jsou některé termíny metadat nutně spojeny s jinými (např. různé verze obrázku musí být spojeny s „hlavní“ verzí). Tabulky a jiné ploché zdroje metadat přispěvatelů jsou však považovány za obzvláště důležité a v mnoha z nich je obtížné takové strukturální vztahy znázornit. V důsledku toho je záznam Audiovisual Core sám o sobě převážně plochý, s výjimkou objektu vlastnosti s názvem _hasServiceAccessPoint_. Tento objekt sám o sobě má další vlastnosti, které popisují, jak načíst skutečná média popsaná záznamem AC. Jedním z důsledků toho je, že pro některé účely může být poskytovatel metadat nucen zpřístupnit několik záznamů metadat o stejném základním zdroji, protože specifikace Audiovisual Core, která je neutrální z hlediska reprezentace, ve většině případů neumožňuje „podvlastnosti“ svých vlastností ani vztahy. Důležitý případ se týká vícejazyčných metadat. Protože každý záznam metadat je v pevně daném jazyce specifikovaném vlastností Metadata Language (jedná se o jazyk záznamu, nikoli multimediálního zdroje, pokud nějaký má), může být nutné, aby poskytovatel nabídl několik záznamů metadat o stejném multimediálním zdroji. Hodnoty čtyř povinných termínů musí být uvedeny v každém záznamu metadat, i když se opakují v jiných záznamech metadat popisujících stejný zdroj.
 V době psaní tohoto článku normativní dokument neposkytuje mechanismus pro identifikaci záznamu metadat, který by mohl být zastřešující, v tom smyslu, že jeho volitelné termíny mohou být považovány za výchozí pro všechny termíny, které nejsou specifikovány v jiných záznamech o stejném zdroji. Tento bod je diskutován na MRTG Wiki.
 
-Mnohé položky se mohou v záznamu Audiovisual Core opakovat, ale některé nikoli, jak je uvedeno v normativním dokumentu. Například položka Modified odpovídá datu, kdy byl mediální zdroj upraven, a může se opakovat, aby odrážela historii zdroje. By contrast, Date
-Available is a single date or a single range of dates at which the
-underlying resource became, or will become, available.
+Mnohé položky se mohou v záznamu Audiovisual Core opakovat, ale některé nikoli, jak je uvedeno v normativním dokumentu. Například položka Modified odpovídá datu, kdy byl mediální zdroj upraven, a může se opakovat, aby odrážela historii zdroje. Naproti tomu datum dostupnosti je jedno datum nebo jeden rozsah dat, kdy se podkladový zdroj stal nebo stane dostupným.
 
-## 10 Implementation and Compliance
+## 10 Implementace a soulad s předpisy
 
-Audiovisual Core is defined in a way that is as representation-neutral as
-possible. It provides natural language definitions of classes,
-properties and instances that are identified by URIs and it makes
-recommendations on the use and content of properties from other
-vocabularies.
+Audiovisual Core je definován způsobem, který je co nejvíce neutrální z hlediska reprezentace. Poskytuje definice tříd, vlastností a instancí v přirozeném jazyce, které jsou identifikovány pomocí URI, a vydává doporučení ohledně použití a obsahu vlastností z jiných slovníků.
 
-The URIs defined here may be used across a number of technologies, such
-as namespaces in XML Schema-valid table documents, RDF, and column
-headings in comma delimited text files.
+Zde definované URI mohou být použity v řadě technologií, jako jsou prostory jmen v dokumentech XML Schema-valid table, RDF a záhlaví sloupců v textových souborech oddělených čárkami.
 
-This approach facilitates:
+Tento přístup usnadňuje:
 
-- Embedding of Audiovisual Core data within other standards such as
-  descriptions of specimens or literature.
+- Začlenění Audiovisual Core dat do jiných standardů, jako jsou popisy vzorků nebo literatura.
 
-- The extension of Audiovisual Core records with other data types such as
-  the extensive geographic controlled vocabularies of the Open
-  Geospatial Consortium (OGC)
+- Rozšíření záznamů Audiovisual Core o další typy dat, jako jsou rozsáhlé geografické řízené slovníky Open Geospatial Consortium (OGC)
 
-- Cross walking between technologies such as a Comma Separated Value
-  file, an RDF graph, an XML document and a JSON object.
+- Křížové procházení mezi technologiemi, jako jsou soubory s hodnotami oddělenými čárkami, grafy RDF, dokumenty XML a objekty JSON.
 
-The Audiovisual Core representation-neutral normative standard itself does
-not provide an off-the-shelf, self validating exchange format. Multiple
-such exchange formats meeting different requirements can be defined and
-this standard allows mapping between them.
+Samotný normativní standard Audiovisual Core, který je neutrální z hlediska reprezentace, neposkytuje hotový, samopotvrzující formát pro výměnu. Lze definovat více takových výměnných formátů splňujících různé požadavky a tato norma umožňuje jejich vzájemné mapování.
 
-## 11 Further Information
+## 11 Další informace
 
-- Audiovisual Core Maintenance Group Charter
+- Charta skupiny pro údržbu Audiovisual Core
   https://github.com/tdwg/ac/blob/master/Audiovisual-core_maintenance-group_charter.md
 
-- Discussion of the Audiovisual Core takes place at
+- Diskuse o Audiovisual Core probíhá na
   https://github.com/tdwg/ac/issues
 
-- Register for the mailing list tdwg-content@lists.tdwg.org at http://lists.tdwg.org/mailman/listinfo/tdwg-content. This email list tracks all discussion about the content of TDWG standards.
+- Zaregistrujte se do mailing listu tdwg-content@lists.tdwg.org na adrese http://lists.tdwg.org/mailman/listinfo/tdwg-content. Tato e-mailová konference sleduje veškerou diskusi o obsahu standardů TDWG.
 
 ## 12 Příloha I: Slovníček pojmů
 
@@ -574,29 +559,20 @@ this standard allows mapping between them.
     </tr>
     <tr>
       <td><a href="http://www.w3.org/XML/">XML</a></td>
-      <td>Extensible Markup Language. A simple flexible text format playing an increasingly important role in the exchange of a wide variety of data on the Web.</td>
+      <td>Extensible Markup Language. Jednoduchý flexibilní textový formát, který hraje stále důležitější roli při výměně široké škály dat na webu.</td>
     </tr>
     <tr>
       <td><a href="http://www.adobe.com/devnet/xmp/">XMP</a></td>
-      <td>Adobe Extensible Metadata Platform (XMP) is a framework for embedding metadata into media files. Adobe provides a BSD-licensed open-source XMP developer’s toolkit which includes documentation about how to represent metadata in XMP. The XMP specification itself is licensed by Adobe under a <a href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/xmp_public_patent_license.pdf">&quot;Public Patent License&quot;</a> by which Adobe grants everyone the right to make XMP-compliant components of their applications, but it reserves the right to withdraw the license in case such a compliant component infringes &quot;Essential Claims&quot; of any patent. See <a href="http://www.adobe.com/devnet/xmp/">http://www.adobe.com/devnet/xmp/</a> for download information. See also <a href="http://www.metadataworkinggroup.org/">MWG</a> in this table.</td>
+      <td>Adobe Extensible Metadata Platform (XMP) je rámec pro vkládání metadat do mediálních souborů. Společnost Adobe poskytuje sadu nástrojů pro vývojáře XMP s licencí BSD, která obsahuje dokumentaci o tom, jak reprezentovat metadata v XMP. Specifikace XMP je licencována společností Adobe na základě <a href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/xmp/pdfs/xmp_public_patent_license.pdf">&quot;Public Patent License&quot;</a>, kterou Adobe uděluje všem právo vytvářet komponenty svých aplikací kompatibilní s XMP, ale vyhrazuje si právo licenci odejmout v případě, že taková kompatibilní komponenta poruší &quot;základní nároky&quot; jakéhokoli patentu. Informace o stažení naleznete na <a href="http://www.adobe.com/devnet/xmp/">http://www.adobe.com/devnet/xmp/</a>. Viz také <a href="http://www.metadataworkinggroup.org/">MWG</a> v této tabulce.</td>
     </tr>
   </tbody>
 </table>
 
-## 13 Appendix II: Audiovisual Core Development History
+## 13 Příloha II: Historie vývoje Audiovisual Core
 
-The Audiovisual Core Multimedia Resources Metadata Schema (Audiovisual Core) standard is the culmination of work on multimedia
-resource descriptions carried out by Key to Nature, the NBII Digital
-Image Library, Morphbank, and others, together with input from a number
-of other stakeholder communities including Encyclopedia of Life (EOL),
-the Biodiversity Heritage Library (BHL) and the University of
-Massachusetts-Boston. The Global Biodiversity Information Facility
-(GBIF) commissioned the ‘Multimedia Resources Task Group (MRTG)’ in
-March 2008 and the group was approved in December 2009 by Biodiversity
-Information Standards (TDWG) as the ‘Joint GBIF-TDWG Task Group on
-Multimedia Resources in Biodiversity’.
+Standard Audiovisual Core Multimedia Resources Metadata Schema (Audiovisual Core) je vyvrcholením práce na popisech multimediálních zdrojů, kterou provedly organizace Key to Nature, NBII Digital Image Library, Morphbank a další, spolu s příspěvky řady dalších zainteresovaných komunit, včetně Encyclopedia of Life (EOL), Biodiversity Heritage Library (BHL) a University of Massachusetts-Boston. Globální informační systém o biologické rozmanitosti (GBIF) pověřil v březnu 2008 „Pracovní skupinu pro multimediální zdroje (MRTG)“ a v prosinci 2009 byla tato skupina schválena organizací Biodiversity Information Standards (TDWG) jako „Společná pracovní skupina GBIF-TDWG pro multimediální zdroje v oblasti biologické rozmanitosti“.
 
-Participants in drafting the schema (in alphabetical order)
+Účastníci přípravy schématu (v abecedním pořadí)
 
 - Mr. Mihail-Constantin Carausu, Danish Biodiversity Information
   Facility (DanBIF), Copenhagen, Denmark
@@ -634,22 +610,17 @@ vypracovaného pracovní skupinou TDWG Natural Collections Descriptions (NCD).
 
 2006, listopad Založena TDWG Image Interest Group
 
-2008, March GBIF commissions Multimedia Resources Task Group (MRTG)
+2008, březen GBIF pověřuje pracovní skupinu pro multimediální zdroje (MRTG)
 
-2008, June GBIF Multimedia Resources Task Group met in Copenhagen,
-Denmark
+2008, červen Pracovní skupina GBIF pro multimediální zdroje se sešla v Kodani, Dánsko
 
-2008, August GBIF Multimedia Resources Task Group meeting in Woods Hole,
-USA
+2008, srpen Setkání pracovní skupiny GBIF pro multimediální zdroje ve Woods Hole, USA
 
-2008, October TDWG Image Interest Group met in Fremantle, Australia at
-the ‘TDWG Annual Conference 2008’
+2008, říjen TDWG Image Interest Group se sešla ve Fremantle v Austrálii na ‘TDWG Annual Conference 2008’
 
-2008, December Joint GBIF-TDWG Task Group on Multimedia Resources in
-Biodiversity commissioned
+2008, prosinec Společná pracovní skupina GBIF-TDWG pro multimediální zdroje v oblasti biologické rozmanitosti pověřena
 
-2009, February GBIF Multimedia Resources Task Group met in Copenhagen,
-Denmark to refine the metadata schema
+2009, únor, se v dánské Kodani sešla pracovní skupina GBIF pro multimediální zdroje, aby zdokonalila schéma metadat
 
 2009, March GBIF – TDWG Multimedia Resources Metadata Schema (MRTG) ver.
 0.4414 drafted and opened for informal comment, evolving through v 0.9
