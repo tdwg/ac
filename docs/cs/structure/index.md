@@ -39,12 +39,7 @@ Tato dokumentace popisuje strukturu standardu [TDWG](http://tdwg.org)
 Audiovisual Core Multimedia Resources Metadata Standard (Audiovisual Core, nebo
 jednoduše AC).
 
-**If you are unfamiliar with the Audiovisual Core, _please_ read the
-[Audiovisual Core Introduction](../introduction) before
-reading this document.** The introduction lays out why there is perceived a need for a
-biodiversity media resource metadata schema, and how the standard
-attempts to use existing metadata standards where
-possible.
+**Pokud nejste obeznámeni s Audiovisual Core, _prosím_ přečtěte si [Úvod do Audiovisual Core](../introduction) předtím, než začnete číst tento dokument.** Úvod vysvětluje, proč je vnímána potřeba metadatového schématu pro mediální zdroje týkající se biologické rozmanitosti a jak se standard snaží využívat stávající standardy metadat, kde je to možné.
 
 For term details, see the [Audiovisual Core Terms List](../termlist) document and for a more detailed guide to the use of Audiovisual Core, see the [Audiovisual Core Guide](../guide) document.
 
