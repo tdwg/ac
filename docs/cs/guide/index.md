@@ -665,19 +665,19 @@ Leden–listopad 2012 Další přípravy na podání žádosti o povolení k ve�
 
 **AC v1.0 docv1.3**
 
-- Odstranit požadavek na uvedení vlastníka autorských práv.
+- Odstranění požadavku na uvedení vlastníka autorských práv.
 
 **AC v1.0 docv1.4**
 
-- Clean up citations of six mandatory elements instead of five.
+- Vyčištění citací šesti povinných prvků namísto pěti.
 
 **AC v1.0 docv1.5**
 
-- Replace “keytonature.eu” with “species-id.net” to reflect move of normative wiki. Remove some unused Glossary terms. Update docv to 1.5
+- Nahrazení „keytonature.eu“ za „species-id.net“, aby se zohlednilo přesunutí normativní wiki. Odebrání některých nepoužívaných termínů ze slovníku. Aktualizace docv na verzi 1.5
 
 **AC v1.0docv1.6**
 
-- Remove dcterms:title from mandatory list. Add description of it as strongly recommended. Add mention of xmpRights:Owner in Copyright Statement item in the mandatory list. Change to “four” the references of “five” mandatory elements or remove the count altogether where text becomes unambiguous. Mention acterms namespace. Correct Iptc4xmpExt namespace to http://iptc.org/std/Iptc4xmpExt/2008-02-29/. Update docv to 1.6.
+- Odebrání dcterms:title ze seznamu povinných položek. Přidání popisu je důrazně doporučeno. Přidání zmínky o xmpRights:Owner do položky Prohlášení o autorských právech v povinném seznamu. Změňte počet povinných prvků z „pěti“ na „čtyři“ nebo počet zcela vynechte, pokud je text jednoznačný. Uveďte jmenný prostor acterms. Correct Iptc4xmpExt namespace to http://iptc.org/std/Iptc4xmpExt/2008-02-29/. Update docv to 1.6.
 
 **AC v1docv1.7**
 
