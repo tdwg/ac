@@ -455,16 +455,9 @@ S každou vlastností Audiovisual Core je spojena její hodnota. Datový typ té
 Záznam Audiovisual Core se skládá minimálně ze čtyř povinných polí (identifikátor, typ, jazyk metadat a prohlášení o autorských právech).
 
 V některých případech jsou některé termíny metadat nutně spojeny s jinými (např. různé verze obrázku musí být spojeny s „hlavní“ verzí). Tabulky a jiné ploché zdroje metadat přispěvatelů jsou však považovány za obzvláště důležité a v mnoha z nich je obtížné takové strukturální vztahy znázornit. V důsledku toho je záznam Audiovisual Core sám o sobě převážně plochý, s výjimkou objektu vlastnosti s názvem _hasServiceAccessPoint_. Tento objekt sám o sobě má další vlastnosti, které popisují, jak načíst skutečná média popsaná záznamem AC. Jedním z důsledků toho je, že pro některé účely může být poskytovatel metadat nucen zpřístupnit několik záznamů metadat o stejném základním zdroji, protože specifikace Audiovisual Core, která je neutrální z hlediska reprezentace, ve většině případů neumožňuje „podvlastnosti“ svých vlastností ani vztahy. Důležitý případ se týká vícejazyčných metadat. Protože každý záznam metadat je v pevně daném jazyce specifikovaném vlastností Metadata Language (jedná se o jazyk záznamu, nikoli multimediálního zdroje, pokud nějaký má), může být nutné, aby poskytovatel nabídl několik záznamů metadat o stejném multimediálním zdroji. Hodnoty čtyř povinných termínů musí být uvedeny v každém záznamu metadat, i když se opakují v jiných záznamech metadat popisujících stejný zdroj.
-At the date of this writing, the normative document does not provide a
-mechanism for identifying a metadata record that might be overarching,
-in the sense that its optional terms may be regarded as defaults for any
-not specified in other records about the same resource. This point is
-under discussion on the MRTG Wiki.
+V době psaní tohoto článku normativní dokument neposkytuje mechanismus pro identifikaci záznamu metadat, který by mohl být zastřešující, v tom smyslu, že jeho volitelné termíny mohou být považovány za výchozí pro všechny termíny, které nejsou specifikovány v jiných záznamech o stejném zdroji. Tento bod je diskutován na MRTG Wiki.
 
-Many items may be repeated in an Audiovisual Core record, but some may not,
-as indicated in the normative document. For example the Modified item
-corresponds to a date at which the media resource was modified and may
-be repeated to reflect the history of the resource. By contrast, Date
+Mnohé položky se mohou v záznamu Audiovisual Core opakovat, ale některé nikoli, jak je uvedeno v normativním dokumentu. Například položka Modified odpovídá datu, kdy byl mediální zdroj upraven, a může se opakovat, aby odrážela historii zdroje. By contrast, Date
 Available is a single date or a single range of dates at which the
 underlying resource became, or will become, available.
 
