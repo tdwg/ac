@@ -699,19 +699,19 @@ Leden–listopad 2012 Další přípravy na podání žádosti o povolení k ve�
 
 **AC v1.0docv1.92**
 
-- More minor grammar fixes.
+- Další drobné opravy gramatiky.
 
 **AC v1.0docv1.93**
 
-- Fixed inconsistent internal version references to current version. No substantive or grammatical changes. Note that v1.92 was submitted to TDWG executive committee with request for permission to hold public review.
+- Opraveny nekonzistentní odkazy na interní verzi aktuální verze. Žádné věcné ani gramatické změny. Na vědomí, že verze 1.92 byla předložena výkonnému výboru TDWG s žádostí o povolení k veřejné revizi.
 
 **AC v1.0docv1.94**
 
-- Change references from species-id wiki to gbif terms wiki. Adjust Fig 1
+- Změna odkazů z wiki species-id na wiki gbif terms. Upravení obr. 1
 
 **AC v1.0docv1.95**
 
-- Correct “hasAccentPoint” to “hasAcccessPoint”. Remove text suggesting this is a draft
+- Correct “hasAccentPoint” to “hasAcccessPoint”. Odstranění textu naznačující, že se jedná o návrh
 
 ## 14 Poznámky
 
@@ -732,13 +732,7 @@ Leden–listopad 2012 Další přípravy na podání žádosti o povolení k ve�
 <sup id="fn-8">[\[8\]](#cit-8)</sup> [http://rs.tdwg.org/dwc/index.htm](http://rs.tdwg.org/dwc/index.htm)
 
 <sup id="fn-9">[\[9\]](#cit-9)</sup>
-The Metadata Working Group (MWG,
-[http://www.metadataworkinggroup.org/](http://www.metadataworkinggroup.org/)) is an industry consortium
-(Adobe, Apple, Canon, Microsoft, Nokia, and Sony) organized to
-specify how to exploit the Adobe Extensible Metadata Platform, XMP
-([http://en.wikipedia.org/wiki/Extensible_Metadata_Platform](http://en.wikipedia.org/wiki/Extensible_Metadata_Platform)) for
-embedding into common image file formats metadata in several widely
-used controlled vocabularies. Ačkoli se MWG zaměřuje hlavně na
+Pracovní skupina pro metadata (MWG, [http://www.metadataworkinggroup.org/](http://www.metadataworkinggroup.org/)) je průmyslové konsorcium (Adobe, Apple, Canon, Microsoft, Nokia a Sony) založené za účelem specifikace způsobu využití platformy Adobe Extensible Metadata Platform, XMP ([http://en.wikipedia.org/wiki/Extensible_Metadata_Platform](http://en.wikipedia.org/wiki/Extensible_Metadata_Platform)) pro vkládání metadat do běžných formátů obrazových souborů v několika široce používaných řízených slovnících. Ačkoli se MWG zaměřuje hlavně na
 spotřebitelské aplikace, více než dvě desítky open source a komerčních
 softwarových produktů a platforem podporují XMP a Adobe umístilo
 Developers' Toolkit pod open source licenci. Spolu s
