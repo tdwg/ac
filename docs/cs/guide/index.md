@@ -622,54 +622,50 @@ vypracovaného pracovní skupinou TDWG Natural Collections Descriptions (NCD).
 
 2009, únor, se v dánské Kodani sešla pracovní skupina GBIF pro multimediální zdroje, aby zdokonalila schéma metadat
 
-2009, March GBIF – TDWG Multimedia Resources Metadata Schema (MRTG) ver.
-0.4414 drafted and opened for informal comment, evolving through v 0.9
+2009, březen GBIF – TDWG Multimedia Resources Metadata Schema (MRTG) ver.
+0.4414 vypracováno a otevřeno pro neformální připomínky, vyvíjející se přes verzi 0.9
 
-2010, February Schema v 0.9 submitted to TDWG for internal Review
+2010, únor Schéma v 0.9 předloženo TDWG k internímu hodnocení
 
-2010, July TDWG Internal Review 1 completed
+2010, červenec Dokončeno 1. interní hodnocení TDWG
 
-2010, November v1.0 submitted to TDWG Executive committee with response
-to Internal Review 1. Proposed Standard renamed Audiovisual Core Multimedia
+2010, listopad v1.0 předložena výkonnému výboru TDWG s odpovědí
+na 1. interní hodnocení. Navrhovaná norma přejmenována na Audiovisual Core Multimedia
 Resources Metadata Schema (AC).
 
-2011, June Response to Internal Review 2 under way.
+2011, červen Probíhá reakce na 2. interní hodnocení.
 
-2011, September Responses to Internal Review 2 and 3 completed and
-submitted to TDWG Executive Committee
+2011, září Dokončeny odpovědi na 2 a 3 interní hodnocení a předloženy výkonnému výboru TDWG.
 
-2011, November Prepared responses to “Review g” and “Review h” and to
-some comments of the Review Manager, Steve Baskauf. Prepare submission
-for permission to have public comment.
+2011, listopad Připravené odpovědi na „Hodnocení g“ a „Hodnocení h“ a na některé připomínky vedoucího hodnocení, Stevea Baskaufa. Příprava podání žádosti o povolení k veřejnému připomínkování.
 
-January-November 2012 Further preparation for submission for permission
-to have public comment
+Leden–listopad 2012 Další přípravy na podání žádosti o povolení k veřejnému připomínkování
 
 ### 13.2 Historie revizí dokumentu
 
 **0.7v1**
 
-- Harmonized document to the fact that Subtype is optional in normative v0.7
+- Harmonizovaný dokument k tomu, že podtyp je v normativní verzi v0.7 volitelný
 
-- Fix mismatched parentheses, extra spaces, missing spaces, etc.
-
-**ACv1.0 docv1.0**
-
-- Harmonized to v1.0: replace “MRTG” with “Audiovisual Core” where used as name of schema. Opravy drobných překlepů. Add “dcterms” as prefix.
+- Oprava nesprávně umístěné závorky, nadbytečné mezery, chybějící mezery atd.
 
 **ACv1.0 docv1.0**
 
-- Further replacement of MRTG with “Audiovisual Core” or “AC”.
+- Harmonizováno s verzí 1.0: nahraďte „MRTG“ výrazem „Audiovisual Core“, pokud je použit jako název schématu. Opravy drobných překlepů. Přidána předpona „dcterms“.
+
+**ACv1.0 docv1.0**
+
+- Další nahrazení MRTG termínem „Audiovisual Core“ neboli „AC“.
 
 **AC v1.0 docv 1.2**
 
-- Address Internal Review 2 comments
+- Adresovat komentáře 2. interního hodnocení
 
-- Fix mismatched parentheses, extra spaces, missing spaces, etc.
+- Oprava nesprávně umístěné závorky, nadbytečné mezery, chybějící mezery atd.
 
 **AC v1.0 docv1.3**
 
-- Remove requirement to have Copyright Owner provided.
+- Odstranit požadavek na uvedení vlastníka autorských práv.
 
 **AC v1.0 docv1.4**
 
