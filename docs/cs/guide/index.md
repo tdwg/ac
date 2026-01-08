@@ -454,22 +454,7 @@ S každou vlastností Audiovisual Core je spojena její hodnota. Datový typ té
 
 Záznam Audiovisual Core se skládá minimálně ze čtyř povinných polí (identifikátor, typ, jazyk metadat a prohlášení o autorských právech).
 
-V některých případech jsou některé termíny metadat nutně spojeny s jinými (např. různé verze obrázku musí být spojeny s „hlavní“ verzí). Tabulky a jiné ploché zdroje metadat přispěvatelů jsou však považovány za obzvláště důležité a v mnoha z nich je obtížné takové strukturální vztahy znázornit. Consequently an
-Audiovisual Core record is itself mainly flat, the exception being the
-object of a property named _hasServiceAccessPoint_. This object itself
-has further properties that describe how to fetch the actual media
-described by the AC record. One consequence of this is that, for some
-purposes, a metadata Provider might have to make several metadata
-records available about the same underlying resource, because the
-representation-neutral Audiovisual Core specification does not provide for
-“subproperties” on its properties, or for relations in most cases. An
-important case surrounds multilingual metadata. Because each metadata
-record is in a fixed language specified by the Metadata Language
-property (this is the language of the record, not the multimedia
-resource, in case it should have one), a Provider might have to offer
-several metadata records about the same multimedia resource. The values
-of the four required terms must be provided in every metadata record,
-even if repeated in other metadata records describing the same resource.
+V některých případech jsou některé termíny metadat nutně spojeny s jinými (např. různé verze obrázku musí být spojeny s „hlavní“ verzí). Tabulky a jiné ploché zdroje metadat přispěvatelů jsou však považovány za obzvláště důležité a v mnoha z nich je obtížné takové strukturální vztahy znázornit. V důsledku toho je záznam Audiovisual Core sám o sobě převážně plochý, s výjimkou objektu vlastnosti s názvem _hasServiceAccessPoint_. Tento objekt sám o sobě má další vlastnosti, které popisují, jak načíst skutečná média popsaná záznamem AC. Jedním z důsledků toho je, že pro některé účely může být poskytovatel metadat nucen zpřístupnit několik záznamů metadat o stejném základním zdroji, protože specifikace Audiovisual Core, která je neutrální z hlediska reprezentace, ve většině případů neumožňuje „podvlastnosti“ svých vlastností ani vztahy. Důležitý případ se týká vícejazyčných metadat. Protože každý záznam metadat je v pevně daném jazyce specifikovaném vlastností Metadata Language (jedná se o jazyk záznamu, nikoli multimediálního zdroje, pokud nějaký má), může být nutné, aby poskytovatel nabídl několik záznamů metadat o stejném multimediálním zdroji. Hodnoty čtyř povinných termínů musí být uvedeny v každém záznamu metadat, i když se opakují v jiných záznamech metadat popisujících stejný zdroj.
 At the date of this writing, the normative document does not provide a
 mechanism for identifying a metadata record that might be overarching,
 in the sense that its optional terms may be regarded as defaults for any
