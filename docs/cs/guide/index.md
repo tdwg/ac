@@ -677,17 +677,17 @@ Leden–listopad 2012 Další přípravy na podání žádosti o povolení k ve�
 
 **AC v1.0docv1.6**
 
-- Odebrání dcterms:title ze seznamu povinných položek. Přidání popisu je důrazně doporučeno. Přidání zmínky o xmpRights:Owner do položky Prohlášení o autorských právech v povinném seznamu. Změňte počet povinných prvků z „pěti“ na „čtyři“ nebo počet zcela vynechte, pokud je text jednoznačný. Uveďte jmenný prostor acterms. Correct Iptc4xmpExt namespace to http://iptc.org/std/Iptc4xmpExt/2008-02-29/. Update docv to 1.6.
+- Odebrání dcterms:title ze seznamu povinných položek. Přidání popisu je důrazně doporučeno. Přidání zmínky o xmpRights:Owner do položky Prohlášení o autorských právech v povinném seznamu. Změna počtu povinných prvků z „pěti“ na „čtyři“ nebo počet zcela vynechán, pokud je text jednoznačný. Uveden jmenný prostor acterms. Oprava jmenného prostoru Iptc4xmpExt na http://iptc.org/std/Iptc4xmpExt/2008-02-29/. Aktualizace docv na verzi 1.6.
 
 **AC v1docv1.7**
 
-- Clarify relation of this document to the normative docs. Set major major text to left-align, unjustified.
+- Vyjasnění vztahu tohoto dokumentu k normativním dokumentům. Nastavení hlavního textu na zarovnání vlevo, nevyrovnané.
 
 **AC v1.0docv1.8**
 
-- Remove mention of crosswalks since no longer in normative termlist.
+- Odstranění zmínky o přechodech, protože již nejsou v normativním seznamu termínů.
 
-- On p. 5 force URL of DwC terms into footnote.
+- Na str. 5 vloženo URL termínů DwC do poznámky pod čarou.
 
 - Improved language about use of literals with dcterms.
 
@@ -713,7 +713,7 @@ Leden–listopad 2012 Další přípravy na podání žádosti o povolení k ve�
 
 - Correct “hasAccentPoint” to “hasAcccessPoint”. Remove text suggesting this is a draft
 
-## 14 Endnotes
+## 14 Poznámky
 
 <sup id="fn-1">[\[1\]](#cit-1)</sup> http://rs.tdwg.org/ac/doc/structure/
 
