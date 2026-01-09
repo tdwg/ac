@@ -41,17 +41,13 @@ jednoduše AC).
 
 **Pokud nejste obeznámeni s Audiovisual Core, _prosím_ přečtěte si [Úvod do Audiovisual Core](../introduction) předtím, než začnete číst tento dokument.** Úvod vysvětluje, proč je vnímána potřeba metadatového schématu pro mediální zdroje týkající se biologické rozmanitosti a jak se standard snaží využívat stávající standardy metadat, kde je to možné.
 
-For term details, see the [Audiovisual Core Terms List](../termlist) document and for a more detailed guide to the use of Audiovisual Core, see the [Audiovisual Core Guide](../guide) document.
+Podrobnosti o termínech naleznete v dokumentu [Seznam základních termínů audiovizuální oblasti](../termlist) a podrobnějšího průvodce používáním základních termínů audiovizuální oblasti naleznete v dokumentu [Průvodce základními termíny audiovizuální oblasti](../guide).
 
-During development, Audiovisual core was colloquially known as MRTG, after
-its developers, the GBIF-TDWG Joint Multimedia Resources Metadata Task
-Group. Please see the [Audiovisual Core Guide](../guide) and
-also [MRTG Development History](http://www.keytonature.eu/wiki/MRTG_Development_History) for
-the development history in detail.
+Během vývoje bylo audiovizuální jádro neformálně známé jako MRTG, podle jeho vývojářů, společné pracovní skupiny GBIF-TDWG Joint Multimedia Resources Metadata Task Group. Podrobný popis historie vývoje naleznete v [Průvodci audiovizuálním jádrem](../guide) a také v [Historii vývoje MRTG](http://www.keytonature.eu/wiki/MRTG_Development_History).
 
 ### 1.1 Status obsahu tohoto dokumentu
 
-Sections 2 through 4 of this document are normative except for example sections, which are labeled as non-normative.
+Části 2 až 4 tohoto dokumentu jsou normativní, s výjimkou příkladových částí, které jsou označeny jako nenormativní.
 
 ### 1.2 Klíčová slova RFC 2119
 
@@ -65,14 +61,8 @@ následující informace, které se vztahují k Audiovisual Core:
 
 - _Multimediální zdroj_ je cokoli, co poskytovatel identifikuje jako
   patřící k jedné z možných hodnot termínu AC _Type_ a
-  volitelně k jedné nebo více hodnotám termínu _Subtype_. A mechanism is
-  provided by which providers can supply a privately defined subtype
-  that will not collide with the AC defined Subtype values.
-- An AC _record_ is a set of terms with any values conforming to this
-  document, and which contain at least the four mandatory terms
-  described in the [Audiovisual Core Core Term List](../termlist), and
-  which describes a single multimedia resource (possibly including a
-  Collection). One of these, the value of _Identifier_ is a Globally
+  volitelně k jedné nebo více hodnotám termínu _Subtype_. Je k dispozici mechanismus, pomocí kterého mohou poskytovatelé dodávat soukromě definovaný podtyp, který nebude kolidovat s hodnotami podtypu definovanými AC.
+- AC _záznam_ je soubor termínů s libovolnými hodnotami, které jsou v souladu s tímto dokumentem a které obsahují alespoň čtyři povinné termíny popsané v [Audiovisual Core Core Term List](../termlist) a které popisují jeden multimediální zdroj (případně včetně sbírky). One of these, the value of _Identifier_ is a Globally
   Unique IDentifier (GUID), which may have been assigned to the
   resource by an external authority or by the provider of the metadata
   record.
