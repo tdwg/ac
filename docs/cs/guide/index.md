@@ -689,13 +689,13 @@ Leden–listopad 2012 Další přípravy na podání žádosti o povolení k ve�
 
 - Na str. 5 vloženo URL termínů DwC do poznámky pod čarou.
 
-- Improved language about use of literals with dcterms.
+- Vylepšené formulace týkající se používání literálů s dcterms.
 
 **C v1.0docv1.91**
 
-- Various minor grammar and punctuation corrections.
+- Různé drobné opravy gramatiky a interpunkce.
 
-- Reconciliation to current normative docs.
+- Sladění s aktuálními normativními dokumenty.
 
 **AC v1.0docv1.92**
 
@@ -711,7 +711,7 @@ Leden–listopad 2012 Další přípravy na podání žádosti o povolení k ve�
 
 **AC v1.0docv1.95**
 
-- Correct “hasAccentPoint” to “hasAcccessPoint”. Odstranění textu naznačující, že se jedná o návrh
+- Opraveno „hasAccentPoint“ na „hasAcccessPoint“. Odstranění textu naznačující, že se jedná o návrh
 
 ## 14 Poznámky
 
@@ -741,7 +741,7 @@ schématu Audiovisual Core hodlá MRTG navrhnout TDWG Best Practice
 pro vkládání takových serializací do multimediálních souborů pomocí XMP.
 
 <sup id="fn-10">[\[10\]](#cit-10)</sup>
-IPTC is a mature standard from the International Press and
-Telecommunications Council ([http://www.iptc.org](http://www.iptc.org)). Jeho práva duševního vlastnictví podporují jemnější řízené slovníky než
+IPTC je vyspělý standard Mezinárodní rady pro tisk a telekomunikace
+([http://www.iptc.org](http://www.iptc.org)). Jeho práva duševního vlastnictví podporují jemnější řízené slovníky než
 DC, což poskytuje lepší strojové zpracování pro vyhledávání a
 vhodnost pro použití.
