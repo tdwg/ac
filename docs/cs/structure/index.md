@@ -71,18 +71,7 @@ Metadata AC mohou popisovat buď jednotlivé multimediální zdroje, nebo sbírk
 Názvy termínů převzatých z jiných slovníků jsou ty, které se používají pro odpovídající termín v těchto slovnících. Názvy termínů jsou určeny především pro orientaci v dokumentaci AC. Štítky Term Labels jsou návrhy anglických označení v aplikacích. Jedná se pouze o doporučení, která jsou k dispozici pouze v angličtině, s tím, že by měla objasnit zamýšlené použití daného termínu.
 Komunity mohou chtít vydat doporučení pro štítky v jiných jazycích nebo dokonce alternativní anglické štítky pro specializované publikum, např. školní děti. Štítky MOHOU být použity pro navigaci v rámci seznamu termínů a často se používají v samotném seznamu termínů, když je termín zmíněn v dokumentaci jiného termínu. Seznam termínů poskytuje rejstříky podle názvu i označení.
 
-URI's for terms conform to the http URI scheme (see
-http://en.wikipedia.org/wiki/URI_scheme,
-http://www.w3.org/TR/uri-clarification, or
-http://www.ietf.org/rfc/rfc2396.txt). Informally, one may understand
-this as follows: an http URI has the syntax of an http URL, but there is
-no expectation that putting it in a web browser will result in any
-information being returned to the browser, and if there is, it may have
-no relevance. This conformance requirement applies only to the URIs that
-identify AC terms. A few AC terms permit **values** to be taken from
-another controlled vocabulary chosen by the user. In this case, those
-values may involve URIs conforming to a scheme given by that external
-vocabulary, and AC is silent on what that scheme is.
+URI pro termíny odpovídají schématu http URI (viz http://en.wikipedia.org/wiki/URI_scheme, http://www.w3.org/TR/uri-clarification nebo http://www.ietf.org/rfc/rfc2396.txt). Neformálně lze toto pochopit následovně: http URI má syntaxi http URL, ale nelze očekávat, že jeho zadání do webového prohlížeče povede k vrácení jakýchkoli informací do prohlížeče, a pokud ano, nemusí to mít žádný význam. Tento požadavek na shodu se vztahuje pouze na URI, které identifikují termíny AC. Několik termínů AC umožňuje převzít **hodnoty** z jiného řízeného slovníku vybraného uživatelem. V tomto případě mohou tyto hodnoty zahrnovat URI odpovídající schématu danému tímto externím slovníkem a AC se k tomu, co je tím schématem, nevyjadřuje.
 
 Pole Poznámky v dokumentaci k termínu odkazuje na další informace o termínu, pokud existují. Zejména u termínů převzatých z
 jiných slovníků obsahuje toto pole obvykle odkaz na
@@ -119,13 +108,9 @@ Core k této situaci dochází například v následujících případech:
   [ac:hasServiceAccessPoint](../termlist#ac_hasServiceAccessPoint)
   pro další podrobnosti.
 - Termíny `dwc:scientificName` a `dwc:identificationQualifier` MOHOU
-  být volitelně strukturovány do párů. (See the notes on
+  být volitelně strukturovány do párů. (Viz poznámky k
   [dwc:identificationQualifier](../termlist#dwc_identificationQualifier).)
-- The terms
-  [Reviewer](../termlist#ac_reviewer),
-  being the name of an individual providing some expert review of a
-  resource, and the review text itself in [Reviewer Comments](../termlist#ac_reviewerComments)
-  are desirable to store as pairs.
+- Termíny [Recenzent](../termlist#ac_reviewer),  což je jméno osoby poskytující odbornou recenzi zdroje, a samotný text recenze v [Komentáře recenzenta](../termlist#ac_reviewerComments) je vhodné ukládat jako páry.
 
 ### 3.1 Strukturované serializace
 
