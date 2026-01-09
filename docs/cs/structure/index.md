@@ -62,34 +62,14 @@ následující informace, které se vztahují k Audiovisual Core:
 - _Multimediální zdroj_ je cokoli, co poskytovatel identifikuje jako
   patřící k jedné z možných hodnot termínu AC _Type_ a
   volitelně k jedné nebo více hodnotám termínu _Subtype_. Je k dispozici mechanismus, pomocí kterého mohou poskytovatelé dodávat soukromě definovaný podtyp, který nebude kolidovat s hodnotami podtypu definovanými AC.
-- AC _záznam_ je soubor termínů s libovolnými hodnotami, které jsou v souladu s tímto dokumentem a které obsahují alespoň čtyři povinné termíny popsané v [Audiovisual Core Core Term List](../termlist) a které popisují jeden multimediální zdroj (případně včetně sbírky). One of these, the value of _Identifier_ is a Globally
-  Unique IDentifier (GUID), which may have been assigned to the
-  resource by an external authority or by the provider of the metadata
-  record.
+- AC _záznam_ je soubor termínů s libovolnými hodnotami, které jsou v souladu s tímto dokumentem a které obsahují alespoň čtyři povinné termíny popsané v [Audiovisual Core Core Term List](../termlist) a které popisují jeden multimediální zdroj (případně včetně sbírky). Jednou z nich je hodnota _Identifier_, což je globálně jedinečný identifikátor (GUID), který může být přiřazen zdroji externí autoritou nebo poskytovatelem záznamu metadat.
 
-In the [Audiovisual Core Term List](../termlist), every AC
-term has a _term name_ following a table entry _"Term:"_, a _URI_, a
-plain text normative _Definition_, a recommended English _Label_, an
-optional _Notes_ attribute. In addition, a term has an attribute telling
-whether it is mandatory and one telling whether it is repeatable.
+V [seznamu termínů Audiovisual Core](../termlist) má každý termín AC _název termínu_ následující po položce tabulky _„Termín:“_, _URI_, normativní _definici_ v prostém textu, doporučený anglický _název_ a volitelný atribut _poznámky_. Kromě toho má termín atribut, který udává, zda je povinný, a atribut, který udává, zda je opakovatelný.
 
-AC metadata can describe either individual multimedia resources or
-collections of resources. A few, but not many, of the AC properties have
-different values for collections than for individual media. If no such
-distinction is mentioned, AC does not assume one.
+Metadata AC mohou popisovat buď jednotlivé multimediální zdroje, nebo sbírky zdrojů. Některé, ale ne všechny, vlastnosti AC mají pro sbírky jiné hodnoty než pro jednotlivá média. Pokud není takové rozlišení uvedeno, AC ho nepředpokládá.
 
-Term Names for terms borrowed from other vocabularies are those in use
-for the corresponding term in those vocabularies. Term Names are
-intended principally for navigation in the AC documentation. Term Labels
-are suggestions for English labels in applications. They are
-recommendations only and are offered only in English, with the added
-expectation that they may clarify intended usage of the term.
-Communities may wish to promulgate recommendations for Labels in other
-languages, or even alternative English Labels for specialized audiences,
-e.g. school children. Labels MAY be used for navigation within the
-Term List, and are often used within the Term List itself when a term is
-mentioned within the documentation of another term. The Term List
-provides indices both by name and label.
+Názvy termínů převzatých z jiných slovníků jsou ty, které se používají pro odpovídající termín v těchto slovnících. Názvy termínů jsou určeny především pro orientaci v dokumentaci AC. Štítky Term Labels jsou návrhy anglických označení v aplikacích. Jedná se pouze o doporučení, která jsou k dispozici pouze v angličtině, s tím, že by měla objasnit zamýšlené použití daného termínu.
+Komunity mohou chtít vydat doporučení pro štítky v jiných jazycích nebo dokonce alternativní anglické štítky pro specializované publikum, např. školní děti. Štítky MOHOU být použity pro navigaci v rámci seznamu termínů a často se používají v samotném seznamu termínů, když je termín zmíněn v dokumentaci jiného termínu. Seznam termínů poskytuje rejstříky podle názvu i označení.
 
 URI's for terms conform to the http URI scheme (see
 http://en.wikipedia.org/wiki/URI_scheme,
