@@ -1,12 +1,12 @@
-# {document_title}
+# Řízený slovník pro Audiovisual Core subjectOrientation: Seznam termínů
 
-Title
-: {document_title}
+Název
+:  Řízený slovník pro Audiovisual Core subjectOrientation: Seznam termínů
 
-Namespace IRI
+IRI Jmenného prostoru
 : <http://rs.tdwg.org/acorient/values/>
 
-Preferred namespace abbreviation
+Preferovaná zkratka jmenného prostoru
 : acorient:
 
 Datum vydání verze
@@ -26,8 +26,8 @@ Aktuální verze
 
 {previous_version_slot}
 
-Abstract
-: {abstract}
+Abstrakt
+: Termín subjectOrientation z Audiovisual Core popisuje orientaci pohledu vzhledem k organismu nebo části organismu zobrazenému v mediálním prvku nebo oblasti zájmu. Řízený slovník termínů subjectOrientation obsahuje termíny, které by měly být použity jako hodnoty pro ac:subjectOrientation a jeho doslovný ekvivalent ac:subjectOrientationLiteral.
 
 Přispěvatelé
 : {contributors}
@@ -38,40 +38,40 @@ Tvůrce
 Bibliografická citace
 : {creator}. {year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
 
-## 1 Introduction (informative)
+## 1 Úvod (informativní)
 
-This document includes terms intended to be used as controlled values for the Audiovisual Core terms `ac:subjectOrientation` and `ac:subjectOrientationLiteral`. A [JSON-LD representation](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient.json) (including translations to multiple languages) of this SKOS Concept Scheme is available. For more information about how to use this vocabulary, see the [subjectPart and subjectOrientation Controlled Vocabularies User Guide](https://github.com/tdwg/ac/blob/master/views/views_user_guide.pdf).
+Tento dokument obsahuje termíny, které mají být použity jako řízené hodnoty pro Audiovisual Core termíny `ac:subjectOrientation` a `ac:subjectOrientationLiteral`. K dispozici je [JSON-LD reprezentace](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient.json) (včetně překladů do více jazyků) tohoto schématu pojmů SKOS. Další informace o používání této slovní zásoby naleznete v [uživatelské příručce k řízeným slovníkům subjectPart a subjectOrientation](https://github.com/tdwg/ac/blob/master/views/views_user_guide.pdf).
 
 ### 1.1 Status obsahu tohoto dokumentu
 
-Section 1 is informative (non-normative).
+Oddíl 1 je informativní (nenormativní).
 
-Section 2 is normative except as noted.
+Oddíl 2 je normativní, pokud není uvedeno jinak.
 
-Section 3 is informative.
+Oddíl 3 je informativní.
 
-V oddíle 4 jsou hodnoty `Term IRI`, `Definice` a `Kontrolovaná hodnota` normativní. Hodnota `Použití` (pokud pro daný termín existuje) je normativní.  Hodnota `Má širší pojem` je normativní. Hodnoty `Název termínu` nejsou normativní, ačkoli lze očekávat, že prefix zkratky jmenného prostoru je prefix běžně používaný pro jmenný prostor termínu.  `Label` and the values of all other properties (such as `Examples` or `Notes`) are non-normative.
+V oddíle 4 jsou hodnoty `Term IRI`, `Definice` a `Kontrolovaná hodnota` normativní. Hodnota `Použití` (pokud pro daný termín existuje) je normativní.  Hodnota `Má širší pojem` je normativní. Hodnoty `Název termínu` nejsou normativní, ačkoli lze očekávat, že prefix zkratky jmenného prostoru je prefix běžně používaný pro jmenný prostor termínu.  `Štítek` a hodnoty všech ostatních vlastností (například `Příklady` nebo `Poznámky`) nejsou normativní.
 
 ### 1.2 Klíčová slova RFC 2119
 
 Klíčová slova "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY" a "OPTIONAL" v tomto dokumentu je třeba interpretovat tak, jak je popsáno v [BCP 14](https://www.rfc-editor.org/info/bcp14) [\[RFC 2119\]](https://datatracker.ietf.org/doc/html/rfc2119) a [\[RFC 8174\]](https://datatracker.ietf.org/doc/html/rfc8174), pokud a pouze pokud jsou uvedena velkými písmeny, jak je uvedeno zde.
 
-### 1.3 User feedback reports
+### 1.3 Hodnocení od uživatelů
 
-For perspective on the development of this [vocabulary enhancement](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#4-vocabulary-enhancements), refer to the [final Feature Report](https://github.com/tdwg/ac/blob/master/views/final-requirements.md) used to determine the requirements for the vocabulary. The Implementation Experience Report was published in _Biodiversity Information Science and Standards_ 7:e94188 and is available at <http://doi.org/10.3897/biss.7.94188>
+Pro přehled o vývoji tohoto [rozšíření slovníku](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#4-vocabulary-enhancements) se podívejte na [závěrečnou zprávu o funkcích](https://github.com/tdwg/ac/blob/master/views/ final-requirements.md), která byla použita k určení požadavků na slovník. Zpráva o zkušenostech s implementací byla publikována v časopise _Biodiversity Information Science and Standards_ 7:e94188 a je k dispozici na <http://doi.org/10.3897/biss.7.94188>
 
 ## 2 Použití termínů
 
-### 2.1 Relationship of value types to property terms
+### 2.1 Vztah hodnotových typů k pojmům vlastnictví
 
-In accordance with the [Audiovisual Core Term List](http://rs.tdwg.org/ac/doc/termlist/) document, unabbreviated term IRIs MUST be used as values of the property `ac:subjectOrientation`. Controlled value strings SHOULD be used as values of the property `ac:subjectOrientationLiteral`.
+V souladu s dokumentem [Audiovisual Core Term List](http://rs.tdwg.org/ac/doc/termlist/) MUSÍ být jako hodnoty vlastnosti `ac:subjectOrientation` použity nezkrácené termíny IRI. Jako hodnoty vlastnosti `ac:subjectOrientationLiteral` by se MĚLY používat řízené hodnotové řetězce.
 
-### 2.2 Relationships with other concept schemes and collections (informative)
+### 2.2 Vztahy k jiným koncepčním schématům a sbírkám (informativní)
 
-Particular `ac:subjectOrientation` values are appropriate for some `ac:subjectPart` values. The relationships between concepts in these two schemes are described by a [JSON-LD serialized SKOS Collection for each subject part](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient_collection.json) that designates which subject orientations are appropriate for that part. Similarly, [JSON-LD serialized SKOS Collections have been established for some organism groups](https://tdwg.github.io/rs.tdwg.org/cvJson/acpart_collection.json) to indicate which subject parts exist for members of those groups. These collections are provided to aid application developers in filtering the concepts that should be presented to users and they may also be used for validation.
+Konkrétní hodnoty `ac:subjectOrientation` jsou vhodné pro některé hodnoty `ac:subjectPart`. Vztahy mezi pojmy v těchto dvou schématech jsou popsány pomocí [JSON-LD serializované SKOS kolekce pro každou část předmětu](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient_collection.json), která určuje, které orientace předmětu jsou pro danou část vhodné. Podobně byly [pro některé skupiny organismů vytvořeny serializované SKOS kolekce JSON-LD](https://tdwg.github.io/rs.tdwg.org/cvJson/acpart_collection.json), které označují, které části předmětu existují pro členy těchto skupin. Tyto sbírky jsou poskytovány s cílem pomoci vývojářům aplikací při filtrování pojmů, které by měly být uživatelům prezentovány, a mohou být také použity pro ověřování.
 
-Human-readable collection lists of controlled value strings are available for [subjectPart](https://ac.tdwg.org/part_collections) and [subjectOrientation](https://ac.tdwg.org/orient_collections).
+Seznamy řízených hodnotových řetězců, které jsou čitelné pro člověka, jsou k dispozici pro [subjectPart](https://ac.tdwg.org/part_collections) a [subjectOrientation](https://ac.tdwg.org/orient_collections).
 
-Neither of these Collections are normative and they are maintained outside of the Audiovisual Core standards framework in order to make their development agile.
+Žádná z těchto sbírek není normativní a jsou spravovány mimo rámec standardů Audiovisual Core, aby byl jejich vývoj agilní.
 
 ## 3 Index termínů

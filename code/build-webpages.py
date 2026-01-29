@@ -21,7 +21,7 @@ import dwcterms
 # -----------------
 # Configuration section
 # -----------------
-languages = ['en', 'es', 'pt', 'de', 'fr', 'ko', 'nl', 'ru', 'zh-Hant']
+languages = ['en', 'cs', 'de', 'es', 'fr', 'ja', 'ko', 'nl', 'pt', 'ru', 'zh-Hant']
 
 # -----------------
 # Command line arguments
@@ -322,7 +322,7 @@ class TermList:
                 if self.vocab_type == 1:
                     text += '\t\t<tr>\n'
                     text += '\t\t\t<td></td>\n'
-                    text += '\t\t\t<td><b>%s:</b> %s -- <b>%s:</b> %s</td>\n' % (self.t('required'), self.t_val(row, 'tdwgutility_required', l), self.t('repeatable'), self.t_val(row, 'tdwgutility_repeatable', l))
+                    text += '\t\t\t<td><b>%s:</b> %s – <b>%s:</b> %s</td>\n' % (self.t('required'), self.t_val(row, 'tdwgutility_required', l), self.t('repeatable'), self.t_val(row, 'tdwgutility_repeatable', l))
                     text += '\t\t</tr>\n'
 
                 if row['term_deprecated'] != '':

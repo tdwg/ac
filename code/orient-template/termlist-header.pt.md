@@ -1,7 +1,7 @@
-# {document_title}
+# Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms
 
 Title
-: {document_title}
+: Controlled Vocabulary for Audiovisual Core subjectOrientation: List of Terms
 
 Namespace IRI
 : <http://rs.tdwg.org/acorient/values/>
@@ -27,7 +27,7 @@ Latest version
 {previous_version_slot}
 
 Abstract
-: {abstract}
+: The Audiovisual Core term subjectOrientation describes the viewing orientation relative to an organism or part of an organism depicted in a media item or region of interest. The subjectOrientation Controlled Vocabulary provides terms that should be used as values for ac:subjectOrientation and its literal-valued analog ac:subjectOrientationLiteral.
 
 Contributors
 : {contributors}
@@ -40,7 +40,7 @@ Bibliographic citation
 
 ## 1 Introduction (informative)
 
-This document includes terms intended to be used as controlled values for the Audiovisual Core terms `ac:subjectOrientation` and `ac:subjectOrientationLiteral`. A [JSON-LD representation](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient.json) (including translations to multiple languages) of this SKOS Concept Scheme is available. For more information about how to use this vocabulary, see the [subjectPart and subjectOrientation Controlled Vocabularies User Guide](https://github.com/tdwg/ac/blob/master/views/views_user_guide.pdf).
+This document includes terms intended to be used as controlled values for the Audiovisual Core terms `ac:subjectOrientation` and `ac:subjectOrientationLiteral`. A [JSON-LD representation](https://tdwg.github.io/rs.tdwg.org/cvJson/acorient.json) (including translations to multiple languages) of this SKOS Concept Scheme is available. Para maiores informações sobre como utilizar este vocabulário, veja [o Guia de Usuário para Vocabulários Controlados subjectPart e subjectOrientation](https://github.com/tdwg/ac/blob/master/views/views_user_guide.pdf).
 
 ### 1.1 Status of the content of this document
 

@@ -133,7 +133,6 @@ required values are strings or URIs.
 
 
 ## 6 Vocabulary Indices (non-normative)
-
 ### 6.1 Index By Term Name
 
 (See also 6.2 Index By Label)
@@ -552,7 +551,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -602,7 +601,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -652,7 +651,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -698,7 +697,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -748,7 +747,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -794,7 +793,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> Yes for media collections, No for media resources (but preferred if available) -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> Yes for media collections, No for media resources (but preferred if available) – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -840,7 +839,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -890,7 +889,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> Yes – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -940,7 +939,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> Yes – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -990,7 +989,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1040,7 +1039,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1082,7 +1081,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1132,7 +1131,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1182,7 +1181,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1228,7 +1227,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1278,7 +1277,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1328,7 +1327,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1374,7 +1373,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1424,7 +1423,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> Yes – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1478,7 +1477,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> Yes – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1539,7 +1538,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1585,7 +1584,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1627,7 +1626,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1677,7 +1676,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1719,7 +1718,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1761,7 +1760,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1811,7 +1810,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> Yes – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1865,7 +1864,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> Yes – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1915,7 +1914,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -1965,7 +1964,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2011,7 +2010,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2057,7 +2056,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2110,7 +2109,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2160,7 +2159,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2210,7 +2209,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2256,7 +2255,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2302,7 +2301,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2348,7 +2347,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2394,7 +2393,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2444,7 +2443,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2497,7 +2496,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2539,7 +2538,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2585,7 +2584,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2635,7 +2634,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2689,7 +2688,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2743,7 +2742,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2793,7 +2792,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2843,7 +2842,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2893,7 +2892,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2939,7 +2938,7 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -2988,7 +2987,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3030,7 +3029,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3080,7 +3079,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3122,7 +3121,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3164,7 +3163,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3210,7 +3209,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3260,7 +3259,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3302,7 +3301,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3344,7 +3343,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3394,7 +3393,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3436,7 +3435,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3478,7 +3477,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3524,7 +3523,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3574,7 +3573,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3616,7 +3615,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3666,7 +3665,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3716,7 +3715,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3758,7 +3757,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3804,7 +3803,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3854,7 +3853,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3904,7 +3903,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -3954,7 +3953,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4000,7 +3999,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4046,7 +4045,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4092,7 +4091,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4134,7 +4133,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4176,7 +4175,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4218,7 +4217,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4256,7 +4255,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4298,7 +4297,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4340,7 +4339,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4382,7 +4381,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4424,7 +4423,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4466,7 +4465,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4508,7 +4507,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4550,7 +4549,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4600,7 +4599,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4646,7 +4645,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4688,7 +4687,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4734,7 +4733,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4776,7 +4775,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4818,7 +4817,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4864,7 +4863,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4906,7 +4905,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4948,7 +4947,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -4990,7 +4989,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5032,7 +5031,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5074,7 +5073,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5124,7 +5123,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5166,7 +5165,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5211,7 +5210,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5265,7 +5264,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5315,7 +5314,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5364,7 +5363,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5422,7 +5421,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5476,7 +5475,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5538,7 +5537,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5592,7 +5591,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5646,7 +5645,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5692,7 +5691,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5754,7 +5753,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5812,7 +5811,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5862,7 +5861,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5916,7 +5915,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -5966,7 +5965,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6012,7 +6011,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6062,7 +6061,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6108,7 +6107,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6158,7 +6157,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6204,7 +6203,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6261,7 +6260,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6307,7 +6306,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6357,7 +6356,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6407,7 +6406,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6453,7 +6452,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6499,7 +6498,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6552,7 +6551,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6594,7 +6593,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6640,7 +6639,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6690,7 +6689,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6736,7 +6735,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6782,7 +6781,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6806,7 +6805,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 
 ### 7.10 Service Access Point Vocabulary
 
-These terms are representation-dependent metadata, referring to specific digital representations of a resource (e.g., a specific resolution, quality, or format). They are used within whatever a particular AC implementation assigns to the value of `ac:hasServiceAccessPoint`, whose label is simply "Service Access Point." Note that it is possible for an implementation to use syntactic conventions that avoid direct use of `ac:hasServiceAccessPoint`, as illustrated in the final example in the section [Multiplicity/Cardinality in the Audiovisual Core Structure document](structure.md#3-multiplicity-and-cardinality).
+These terms are representation-dependent metadata, referring to specific digital representations of a resource (e.g., a specific resolution, quality, or format). They are used within whatever a particular AC implementation assigns to the value of `ac:hasServiceAccessPoint`, whose label is simply “Service Access Point.” Note that it is possible for an implementation to use syntactic conventions that avoid direct use of `ac:hasServiceAccessPoint`, as illustrated in the final example in the section [Multiplicity/Cardinality in the Audiovisual Core Structure document](structure.md#3-multiplicity-and-cardinality).
 
 <table>
 	<thead>
@@ -6833,7 +6832,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6883,7 +6882,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6933,7 +6932,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -6983,7 +6982,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7025,7 +7024,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7071,7 +7070,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7117,7 +7116,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7159,7 +7158,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7205,7 +7204,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7255,7 +7254,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> </td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> </td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7305,7 +7304,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7351,7 +7350,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7397,7 +7396,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7443,7 +7442,7 @@ These terms are representation-dependent metadata, referring to specific digital
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7471,7 +7470,7 @@ Regions of Interest (ROI) designate specific parts of media items. Features with
 
 Currently spatial ROIs are limited to two dimensions and can only be defined by rectangles or arcs (including circles). The terms in this group are not repeatable within a single ROI instance, although a media item may be linked to more than one ROI by the `ac:hasROI` property.
 
- For examples showing how to use these terms, see the <a href="https://github.com/tdwg/ac/blob/master/roi-recipes.md">ROI Recipes</a> page.
+ For examples showing how to use these terms, see the <a href='https://github.com/tdwg/ac/blob/master/roi-recipes.md'>ROI Recipes</a> page.
 
 <table>
 	<thead>
@@ -7498,7 +7497,7 @@ Currently spatial ROIs are limited to two dimensions and can only be defined by 
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7544,7 +7543,7 @@ Currently spatial ROIs are limited to two dimensions and can only be defined by 
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7590,7 +7589,7 @@ Currently spatial ROIs are limited to two dimensions and can only be defined by 
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7640,7 +7639,7 @@ Currently spatial ROIs are limited to two dimensions and can only be defined by 
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7690,7 +7689,7 @@ Currently spatial ROIs are limited to two dimensions and can only be defined by 
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7740,7 +7739,7 @@ Currently spatial ROIs are limited to two dimensions and can only be defined by 
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7786,7 +7785,7 @@ Currently spatial ROIs are limited to two dimensions and can only be defined by 
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7836,7 +7835,7 @@ Currently spatial ROIs are limited to two dimensions and can only be defined by 
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7886,7 +7885,7 @@ Currently spatial ROIs are limited to two dimensions and can only be defined by 
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> </td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> </td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7932,7 +7931,7 @@ Currently spatial ROIs are limited to two dimensions and can only be defined by 
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -7978,7 +7977,7 @@ Currently spatial ROIs are limited to two dimensions and can only be defined by 
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -8024,7 +8023,7 @@ Currently spatial ROIs are limited to two dimensions and can only be defined by 
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -8074,7 +8073,7 @@ Currently spatial ROIs are limited to two dimensions and can only be defined by 
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
@@ -8124,7 +8123,7 @@ Currently spatial ROIs are limited to two dimensions and can only be defined by 
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No – <b>Repeatable:</b> No</td>
 		</tr>
 		<tr>
 			<td>Definition</td>

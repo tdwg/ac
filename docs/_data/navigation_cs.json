@@ -4,43 +4,43 @@
     "href": "/cs/"
   },
   {
-    "text": "",
+    "text": "Úvod",
     "href": "/cs/introduction/"
   },
   {
     "text": "Termíny",
     "menu": [
       {
-        "text": ""
+        "text": "Hlavní slovník"
       },
       {
-        "text": "",
+        "text": "Audiovisual Core",
         "href": "/cs/termlist/"
       },
       {
-        "text": ""
+        "text": "---"
       },
       {
-        "text": ""
+        "text": "Řízené slovníky"
       },
       {
-        "text": "",
+        "text": "format",
         "href": "/cs/format/"
       },
       {
-        "text": "",
+        "text": "subjectOrientation",
         "href": "/cs/orient/"
       },
       {
-        "text": "",
+        "text": "subjectPart",
         "href": "/cs/part/"
       },
       {
-        "text": "",
+        "text": "subtype",
         "href": "/cs/subtype/"
       },
       {
-        "text": "",
+        "text": "variant",
         "href": "/cs/variant/"
       }
     ]
@@ -49,18 +49,18 @@
     "text": "Návody",
     "menu": [
       {
-        "text": "",
+        "text": "Uživatelská příručka",
         "href": "/cs/guide/"
       },
       {
-        "text": "",
+        "text": "Struktura",
         "href": "/cs/structure/"
       }
     ]
   },
   {
     "text": "GitHub",
-    "href": ""
+    "href": "https://github.com/tdwg/ac"
   },
   {
     "text": "文A",

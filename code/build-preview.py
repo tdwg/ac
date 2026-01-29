@@ -5,10 +5,12 @@ import os
 
 languages = [
   {'text': 'Čeština', 'href': '/cs/'},
+  {'text': 'Deutsch', 'href': '/de/'},
   {'text': 'Español', 'href': '/es/'},
   {'text': 'Français', 'href': '/fr/'},
   {'text': '日本語', 'href': '/ja/'},
   {'text': '한국어', 'href': '/ko/'},
+  {'text': 'Português', 'href': '/pt/'},
   {'text': 'Русский', 'href': '/ru/'},
   {'text': '繁體中文', 'href': '/zh-Hant/'}
 ]
