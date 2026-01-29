@@ -1,7 +1,7 @@
 # Controlled Vocabulary for Dublin Core format: List of Terms
 
-Title
-: Controlled Vocabulary for Dublin Core format: List of Terms
+Título
+: Vocabulario Controlado para formato Dublin Core: Lista de términos
 
 Espacio de nombres IRI
 : <http://rs.tdwg.org/acformat/values/>
