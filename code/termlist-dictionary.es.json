@@ -27,5 +27,6 @@
     "term_deprecated": "Este término está obsoleto y no debería utilizarse más.",
     "term_replaced_by": "Es reemplazado por",
     "has_broader_concept": "Tiene un concepto más amplio",
-    "has_exact_match": "Tiene coincidencia exacta"
+    "has_exact_match": "Tiene coincidencia exacta",
+    "3d_resources_vocabulary": "Recursos de Vocabulario 3D"
 }
