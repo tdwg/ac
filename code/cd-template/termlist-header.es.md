@@ -60,10 +60,10 @@ Las palabras clave "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD
 
 ### 2.1 Relación de los tipos de valor con los términos de propiedad
 
-In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs SHOULD be used as values of the property `Iptc4xmpExt:CVterm`. Controlled value strings SHOULD be used as values of the property `ac:CVtermLiteral`.
+De acuerdo con el [documento de la Lista de Términos Básicos Audiovisuales](http://rs.tdwg.org/ac/doc/termlist/), los términos IRI no abreviados DEBEN usarse como valores de la propiedad `Iptc4xmpExt:CVterm`. Las cadenas de valores controlados DEBEN usarse como valores de la propiedad `ac:CVtermLiteral`.
 
-### 2.2 Relationship between values of ac:CVtermLiteral and Iptc4xmpExt:CVterm
+### 2.2 Relación entre los valores de ac:CVtermLiteral y Iptc4xmpExt:CVterm
 
-Una IRI para un término en este vocabulario denota la misma clase que la clase denotada por la cadena de valor controlado para el mismo término. Thus a client MAY infer an IRI value for `Iptc4xmpExt:CVterm` given a controlled value string for `ac:CVtermLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `Iptc4xmpExt:CVterm` property in cases where providers only provide values for `ac:CVtermLiteral`.
+Una IRI para un término en este vocabulario denota la misma clase que la clase denotada por la cadena de valor controlado para el mismo término. Por lo tanto, un cliente PUEDE inferir un valor IRI para `Iptc4xmpExt:CVterm` dada una cadena de valor controlado para `ac:CVtermLiteral` incluso si ese IRI no se indica explícitamente. La implicación práctica es que los agregadores de datos PUEDEN materializar valores para la propiedad preferida `Iptc4xmpExt:CVterm` en los casos en que los proveedores solo proporcionan valores para `ac:CVtermLiteral`.
 
 ## 3 Índice de Términos
