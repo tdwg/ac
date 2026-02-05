@@ -306,8 +306,6 @@ required values are strings or URIs.
 [ac:providerID](#ac_providerID) |
 [ac:relatedResourceID](#ac_relatedResourceID)
 
-**3D Resources Vocabulary*
-
 **Service Access Point Vocabulary**
 
 [ac:accessURI](#ac_accessURI) |
@@ -502,8 +500,6 @@ required values are strings or URIs.
 [ID of Containing Collection](#ac_IDofContainingCollection) |
 [Provider ID](#ac_providerID) |
 [Related Resource ID](#ac_relatedResourceID)
-
-**3D Resources Vocabulary*
 
 **Service Access Point Vocabulary**
 
