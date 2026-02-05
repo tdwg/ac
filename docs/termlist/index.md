@@ -4,7 +4,7 @@ Title
 : Audiovisual Core List of Terms
 
 Date version issued
-: 2023-09-05
+: 2026-01-23
 
 Date created
 : 2013-10-23
@@ -13,13 +13,13 @@ Part of TDWG Standard
 : <http://www.tdwg.org/standards/638>
 
 This version
-: <http://rs.tdwg.org/ac/doc/termlist/2023-09-05>
+: <http://rs.tdwg.org/ac/doc/termlist/2026-01-23>
 
 Latest version
 : <http://rs.tdwg.org/ac/doc/termlist/>
 
 Previous version
-: <http://rs.tdwg.org/ac/doc/termlist/2023-02-24>
+: <http://rs.tdwg.org/ac/doc/termlist/2023-09-05>
 
 Abstract
 : The Audiovisual Core is a set of vocabularies designed to represent metadata for biodiversity multimedia resources and collections. It aims to represent information that will help to determine whether a particular resource or collection will be fit for some particular biodiversity science application before acquiring the media. Among others, the vocabularies address such concerns as the management of the media and collections, descriptions of their content, their taxonomic, geographic, and temporal coverage, and the appropriate ways to retrieve, attribute and reproduce them. This document contains a list of attributes of each Audiovisual Core term, including a documentation name, a specified URI, a recommended English label for user interfaces, a definition, and some ancillary notes. This document contains normative content that may not be changed without due process.
@@ -31,11 +31,11 @@ Creator
 : GBIF/TDWG Multimedia Resources Task Group and Audiovisual Core Maintenance Group
 
 Bibliographic citation
-: GBIF/TDWG Multimedia Resources Task Group and Audiovisual Core Maintenance Group. 2023. Audiovisual Core List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/termlist/2023-09-05>
+: GBIF/TDWG Multimedia Resources Task Group and Audiovisual Core Maintenance Group. 2026. Audiovisual Core List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ac/doc/termlist/2026-01-23>
 
 ## 1 Introduction
 
-There are a number of documents included in the Audiovisual Core Standard.  This document provides details about the terms included in the 2023-09-05 version of the Audiovisual Core vocabulary. The [Audiovisual Core Introduction](../introduction/) document provides a brief introduction to the Audiovisual Core Standard. For information about the structure of Audiovisual Core, see the [Audiovisual Core Structure](../structure/) document.  For a more detailed guide to the use of Audiovisual Core, see the [Audiovisual Core Guide](../guide/) document.
+There are a number of documents included in the Audiovisual Core Standard.  This document provides details about the terms included in the 2026-01-23 version of the Audiovisual Core vocabulary. The [Audiovisual Core Introduction](../introduction/) document provides a brief introduction to the Audiovisual Core Standard. For information about the structure of Audiovisual Core, see the [Audiovisual Core Structure](../structure/) document.  For a more detailed guide to the use of Audiovisual Core, see the [Audiovisual Core Guide](../guide/) document.
 
 ### 1.1 Status of the content of this document
 
@@ -133,19 +133,20 @@ required values are strings or URIs.
 
 
 ## 6 Vocabulary Indices (non-normative)
-
 ### 6.1 Index By Term Name
 
 (See also 6.2 Index By Label)
 
 **classes**
 
+[ac:Digital3DResource](#ac_Digital3DResource) |
 [ac:RegionOfInterest](#ac_RegionOfInterest) |
 [ac:ServiceAccessPoint](#ac_ServiceAccessPoint)
 
 **Management Vocabulary**
 
 [dcterms:available](#dcterms_available) |
+[ac:commentDate](#ac_commentDate) |
 [ac:commenter](#ac_commenter) |
 [ac:commenterLiteral](#ac_commenterLiteral) |
 [ac:comments](#ac_comments) |
@@ -174,10 +175,10 @@ required values are strings or URIs.
 [ac:fundingAttribution](#ac_fundingAttribution) |
 [ac:licenseLogoURL](#ac_licenseLogoURL) |
 [xmpRights:Owner](#xmpRights_Owner) |
-[dcterms:rights](#dcterms_rights) |
 [dc:rights](#dc_rights) |
-[dc:source](#dc_source) |
+[dcterms:rights](#dcterms_rights) |
 [dcterms:source](#dcterms_source) |
+[dc:source](#dc_source) |
 [xmpRights:UsageTerms](#xmpRights_UsageTerms) |
 [xmpRights:WebStatement](#xmpRights_WebStatement)
 
@@ -196,6 +197,7 @@ required values are strings or URIs.
 
 [ac:caption](#ac_caption) |
 [Iptc4xmpExt:CVterm](#Iptc4xmpExt_CVterm) |
+[ac:CVtermLiteral](#ac_CVtermLiteral) |
 [dcterms:description](#dcterms_description) |
 [ac:freqHigh](#ac_freqHigh) |
 [ac:freqLow](#ac_freqLow) |
@@ -288,6 +290,8 @@ required values are strings or URIs.
 
 [ac:captureDevice](#ac_captureDevice) |
 [ac:digitizationDate](#ac_digitizationDate) |
+[ac:filterHighPass](#ac_filterHighPass) |
+[ac:filterLowPass](#ac_filterLowPass) |
 [ac:frameRate](#ac_frameRate) |
 [Iptc4xmpExt:LocationCreated](#Iptc4xmpExt_LocationCreated) |
 [ac:resourceCreationTechnique](#ac_resourceCreationTechnique) |
@@ -342,6 +346,7 @@ required values are strings or URIs.
 
 **classes**
 
+[Digital 3D Resource](#ac_Digital3DResource) |
 [Region of Interest Class](#ac_RegionOfInterest) |
 [Service Access Point Class](#ac_ServiceAccessPoint)
 
@@ -349,6 +354,7 @@ required values are strings or URIs.
 
 [Commenter](#ac_commenter) |
 [Comments](#ac_comments) |
+[Date and Time of Comment](#ac_commentDate) |
 [Date Available](#dcterms_available) |
 [Identifier](#dcterms_identifier) |
 [Metadata Date](#xmp_MetadataDate) |
@@ -356,13 +362,13 @@ required values are strings or URIs.
 [Modified](#dcterms_modified) |
 [Provider-managed ID](#ac_providerManagedID) |
 [Rating](#xmp_Rating) |
-[Reviewer](#ac_reviewerLiteral) |
+[Reviewer](#ac_reviewer) |
 [Reviewer Comments](#ac_reviewerComments) |
 [Service Access Point](#ac_hasServiceAccessPoint) |
 [Subtype (IRI)](#ac_subtype) |
 [Subtype (literal)](#ac_subtypeLiteral) |
 [Title](#dcterms_title) |
-[Type](#dc_type)
+[Type](#dcterms_type)
 
 **Attribution Vocabulary**
 
@@ -380,7 +386,7 @@ required values are strings or URIs.
 **Agents Vocabulary**
 
 [Creator](#dc_creator) |
-[Metadata Creator](#ac_metadataCreatorLiteral) |
+[Metadata Creator](#ac_metadataCreator) |
 [Metadata Provider](#ac_metadataProviderLiteral) |
 [Provider](#ac_provider)
 
@@ -388,10 +394,11 @@ required values are strings or URIs.
 
 [Caption](#ac_caption) |
 [Description](#dcterms_description) |
-[Language](#dc_language) |
+[Language](#dcterms_language) |
 [Lower frequency bound](#ac_freqLow) |
 [Physical Setting](#ac_physicalSetting) |
-[Subject Category](#Iptc4xmpExt_CVterm) |
+[Subject Category (IRI)](#Iptc4xmpExt_CVterm) |
+[Subject Category (literal)](#ac_CVtermLiteral) |
 [Subject Category Vocabulary](#ac_subjectCategoryVocabulary) |
 [Tag](#ac_tag) |
 [Upper frequency bound](#ac_freqHigh)
@@ -403,7 +410,7 @@ required values are strings or URIs.
 [Coordinate Precision](#dwc_coordinatePrecision) |
 [Coordinate Uncertainty In Meters](#dwc_coordinateUncertaintyInMeters) |
 [Country](#dwc_country) |
-[Country Code](#Iptc4xmpExt_CountryCode) |
+[Country Code](#dwc_countryCode) |
 [Country Name](#Iptc4xmpExt_CountryName) |
 [County](#dwc_county) |
 [Decimal Latitude](#dwc_decimalLatitude) |
@@ -479,7 +486,9 @@ required values are strings or URIs.
 [Capture Device](#ac_captureDevice) |
 [Date and Time Digitized](#ac_digitizationDate) |
 [Frame Rate](#ac_frameRate) |
+[High-pass Filter Frequency](#ac_filterHighPass) |
 [Location Created](#Iptc4xmpExt_LocationCreated) |
+[Low-pass Filter Frequency](#ac_filterLowPass) |
 [Resource Creation Technique](#ac_resourceCreationTechnique) |
 [Sample Rate](#mo_sample_rate)
 
@@ -573,6 +582,52 @@ required values are strings or URIs.
 		<tr>
 			<td>Executive Committee decision</td>
 			<td><a href="http://rs.tdwg.org/decisions/decision-2019-12-01_19">http://rs.tdwg.org/decisions/decision-2019-12-01_19</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="ac_commentDate"></a>Term Name ac:commentDate</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/commentDate">http://rs.tdwg.org/ac/terms/commentDate</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2026-01-23</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/commentDate-2026-01-23">http://rs.tdwg.org/ac/terms/version/commentDate-2026-01-23</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Date and Time of Comment</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>The date and time that a comment was created.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>The date and time MUST comply with the World Wide Web Consortium (W3C) datetime practice, <a href="https://www.w3.org/TR/NOTE-datetime">https://www.w3.org/TR/NOTE-datetime</a>, which requires that date and time representation correspond to ISO 8601:1998, but with year fields always comprising 4 digits. This makes datetime records compliant with 8601:2004, <a href="https://www.iso.org/standard/40874.html">https://www.iso.org/standard/40874.html</a>. AC datetime values MAY also follow 8601:2004 for ranges by separating two IS0 8601 datetime fields by a solidus ("forward slash", '/').</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Property</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2026-01-23_52">http://rs.tdwg.org/decisions/decision-2026-01-23_52</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1789,6 +1844,56 @@ required values are strings or URIs.
 <table>
 	<thead>
 		<tr>
+			<th colspan="2"><a id="dc_rights"></a>Term Name dc:rights</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://purl.org/dc/elements/1.1/rights">http://purl.org/dc/elements/1.1/rights</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2023-09-05</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://dublincore.org/usage/terms/history/#rights-006">http://dublincore.org/usage/terms/history/#rights-006</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Copyright Statement</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Information about rights held in and over the resource.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>A full-text, readable copyright statement, as required by the national legislation of the copyright holder. On collections, this applies to all contained objects, unless the object itself has a different statement. Do not place just the name of the copyright holder(s) here! That belongs in a list in the xmpRights:Owner field, which SHOULD be supplied if dc:rights is not 'Public Domain', which is appropriate only if the resource is known to be not under copyright. At least one of dcterms:rights and dc:rights MUST be supplied but, when feasible, supplying both might make the metadata more widely useful. They MUST specify the same rights. </td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>This expresses rights over the media resource, not over the metadata text. In case of ambiguity, dcterms:rights prevails. See also the entry for dcterms:rights in the Audiovisual Core Term List document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. Examples: "Copyright XY 2008, all rights reserved", "© 2008 XY Museum", "Public Domain.", "Copyright unknown."</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Property</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2019-12-01_19">http://rs.tdwg.org/decisions/decision-2019-12-01_19</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
 			<th colspan="2"><a id="dcterms_rights"></a>Term Name dcterms:rights</th>
 		</tr>
 	</thead>
@@ -1843,13 +1948,13 @@ required values are strings or URIs.
 <table>
 	<thead>
 		<tr>
-			<th colspan="2"><a id="dc_rights"></a>Term Name dc:rights</th>
+			<th colspan="2"><a id="dcterms_source"></a>Term Name dcterms:source</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Term IRI</td>
-			<td><a href="http://purl.org/dc/elements/1.1/rights">http://purl.org/dc/elements/1.1/rights</a></td>
+			<td><a href="http://purl.org/dc/terms/source">http://purl.org/dc/terms/source</a></td>
 		</tr>
 		<tr>
 			<td>Modified</td>
@@ -1857,27 +1962,27 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://dublincore.org/usage/terms/history/#rights-006">http://dublincore.org/usage/terms/history/#rights-006</a></td>
+			<td><a href="http://dublincore.org/usage/terms/history/#sourceT-001">http://dublincore.org/usage/terms/history/#sourceT-001</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Copyright Statement</td>
+			<td>Published Source</td>
 		</tr>
 		<tr>
 			<td></td>
-			<td><b>Required:</b> Yes -- <b>Repeatable:</b> No</td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Information about rights held in and over the resource.</td>
+			<td>A related resource from which the described resource is derived. </td>
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>A full-text, readable copyright statement, as required by the national legislation of the copyright holder. On collections, this applies to all contained objects, unless the object itself has a different statement. Do not place just the name of the copyright holder(s) here! That belongs in a list in the xmpRights:Owner field, which SHOULD be supplied if dc:rights is not 'Public Domain', which is appropriate only if the resource is known to be not under copyright. At least one of dcterms:rights and dc:rights MUST be supplied but, when feasible, supplying both might make the metadata more widely useful. They MUST specify the same rights. </td>
+			<td>URI for an identifiable source from which the described resources was derived.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>This expresses rights over the media resource, not over the metadata text. In case of ambiguity, dcterms:rights prevails. See also the entry for dcterms:rights in the Audiovisual Core Term List document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions. Examples: "Copyright XY 2008, all rights reserved", "© 2008 XY Museum", "Public Domain.", "Copyright unknown."</td>
+			<td>If the resource was digitized from a non-digital resource, or was also previously published in a digital or printed publication, this describes the original. If a string is required for this, use dc:source. Do not put generally "related" publications in here. A URI that can be resolved and dereferenced to provide a description of the source resource may also be used here. For example, "<a href="http://www.loc.gov/pictures/item/fsa1998021539/PP/">http://www.loc.gov/pictures/item/fsa1998021539/PP/</a>" is the address of a web page that provides a description the original negative of a famous picture by the photographer Dorothea Lange and so would be an appropriate value of dcterms:source. The term may be repeatable if a montage of images. Information about further provenance beyond the ultimate source should be put in the derivedFrom attribute. See also the entry for dc:source in the Audiovisual Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -1928,56 +2033,6 @@ required values are strings or URIs.
 		<tr>
 			<td>Notes</td>
 			<td>If the resource was digitized from a non-digital resource, or was also previously published in a digital or printed publication, this describes the original. Do not put generally "related" publications in here. This field normally contains a free-form text description. If a URI is available it should be provided in dcterms:source. Can be repeatable if a montage of images. Information about further provenance beyond the ultimate source should be put in the derivedFrom attribute. See also the entry for dcterms:source in the Audiovisual Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions</td>
-		</tr>
-		<tr>
-			<td>Type</td>
-			<td>Property</td>
-		</tr>
-		<tr>
-			<td>Executive Committee decision</td>
-			<td><a href="http://rs.tdwg.org/decisions/decision-2019-12-01_19">http://rs.tdwg.org/decisions/decision-2019-12-01_19</a></td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<thead>
-		<tr>
-			<th colspan="2"><a id="dcterms_source"></a>Term Name dcterms:source</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Term IRI</td>
-			<td><a href="http://purl.org/dc/terms/source">http://purl.org/dc/terms/source</a></td>
-		</tr>
-		<tr>
-			<td>Modified</td>
-			<td>2023-09-05</td>
-		</tr>
-		<tr>
-			<td>Term version IRI</td>
-			<td><a href="http://dublincore.org/usage/terms/history/#sourceT-001">http://dublincore.org/usage/terms/history/#sourceT-001</a></td>
-		</tr>
-		<tr>
-			<td>Label</td>
-			<td>Published Source</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
-		</tr>
-		<tr>
-			<td>Definition</td>
-			<td>A related resource from which the described resource is derived. </td>
-		</tr>
-		<tr>
-			<td>Usage</td>
-			<td>URI for an identifiable source from which the described resources was derived.</td>
-		</tr>
-		<tr>
-			<td>Notes</td>
-			<td>If the resource was digitized from a non-digital resource, or was also previously published in a digital or printed publication, this describes the original. If a string is required for this, use dc:source. Do not put generally "related" publications in here. A URI that can be resolved and dereferenced to provide a description of the source resource may also be used here. For example, "<a href="http://www.loc.gov/pictures/item/fsa1998021539/PP/">http://www.loc.gov/pictures/item/fsa1998021539/PP/</a>" is the address of a web page that provides a description the original negative of a famous picture by the photographer Dorothea Lange and so would be an appropriate value of dcterms:source. The term may be repeatable if a montage of images. Information about further provenance beyond the ultimate source should be put in the derivedFrom attribute. See also the entry for dc:source in the Audiovisual Core term list document and see the DCMI FAQ on DC and DCTERMS Namespaces, <a href="https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md">https://web.archive.org/web/20171126043657/https://github.com/dcmi/repository/blob/master/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md</a>, for discussion of the rationale for terms in two namespaces. Normal practice is to use the same Label if both are provided. Labels have no effect on information discovery and are only suggestions.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2531,11 +2586,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-01-27</td>
+			<td>2026-01-23</td>
 		</tr>
 		<tr>
 			<td>Label</td>
-			<td>Subject Category</td>
+			<td>Subject Category (IRI)</td>
 		</tr>
 		<tr>
 			<td></td>
@@ -2547,15 +2602,57 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Usage</td>
-			<td>Controlled vocabulary of subjects to support broad classification of media items. Terms from various controlled vocabularies may be used. AC-recommended vocabularies are preferred and MAY be unqualified literals (not a full URI). For terms from other vocabularies either a precise URI SHOULD be used, or, as long as all unqualified terms in all vocabularies are unique, metadata SHOULD provide the source vocabularies using the Subject Category Vocabulary term. The value SHOULD be a string, whose text can also be in the form of a URL.  These guidelines on value format are less restrictive than is specified by the IPTC guidelines.</td>
-		</tr>
-		<tr>
-			<td>Notes</td>
-			<td>Recommended sets include: the NASA Global Change Master Directory (GCMD; <a href="http://gcmd.nasa.gov/">http://gcmd.nasa.gov/</a>), Subject Categories defined in Key to Nature (K2N; <a href="http://www.keytonature.eu/wiki/Subject_Category">http://www.keytonature.eu/wiki/Subject_Category</a>), the BioComplexity Thesaurus; <a href="https://www2.usgs.gov/core_science_systems/csas/biocomplexity_thesaurus/">https://www2.usgs.gov/core_science_systems/csas/biocomplexity_thesaurus/</a>, the Description Type GBIF Vocabulary; <a href="http://rs.gbif.org/vocabulary/gbif/description_type.xml">http://rs.gbif.org/vocabulary/gbif/description_type.xml</a>, the TDWG Species Profile Model; <a href="http://rs.tdwg.org/ontology/voc/SPMInfoItems.rdf">http://rs.tdwg.org/ontology/voc/SPMInfoItems.rdf</a>, the Plinian Core; <a href="https://github.com/tdwg/PlinianCore/wiki">https://github.com/tdwg/PlinianCore/wiki</a>, the European Environmental Agency GEneral Multilingual Environmental Thesaurus (GEMET; <a href="http://www.eionet.europa.eu/gemet">http://www.eionet.europa.eu/gemet</a>), and the Long Term Ecological Research Network Controlled Vocabulary (LTER; <a href="http://vocab.lternet.edu/">http://vocab.lternet.edu/</a>). The vocabulary may include major taxonomic groups (such as "vertebrates" or "fungi") or ecosystem terms ("savannah", "temperate rain forest", "forest fires", "aquatic vertebrates"). Other formal classifications (published in print or online) such as habitat, fuel, invasive species, agroproductivity, fisheries, migratory species etc. are also suitable.</td>
+			<td>Values MUST be IRIs from a controlled vocabulary of subjects to support broad classification of media items. IRIs from the Audiovisual Core Content Description controlled vocabulary are preferred, but other controlled vocabularies may be used as long as the term is uniquely identified by an IRI. This term MAY be used to describe the content of a region of interest within an media item. These guidelines on value format are less restrictive than is specified by the IPTC guidelines and this property MAY be used with any media type, not only images.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
 			<td>Property</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="ac_CVtermLiteral"></a>Term Name ac:CVtermLiteral</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/CVtermLiteral">http://rs.tdwg.org/ac/terms/CVtermLiteral</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2026-01-23</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/CVtermLiteral-2026-01-23">http://rs.tdwg.org/ac/terms/version/CVtermLiteral-2026-01-23</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Subject Category (literal)</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> Yes</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>A term to describe the content of a image or a region of interest within an image using a controlled value string.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>Values SHOULD be selected from the Audiovisual Core Content Description controlled vocabulary or a vocabulary that can be identified using ac:subjectCategoryVocabulary. If a value is from the Audiovisual Core Content Description controlled vocabulary, it is not necessary to provide a value for ac:subjectCategoryVocabulary. Multiple values MAY be provided and separated by space vertical bar space ( | ), however they MUST be from a single vocabulary. It is best practice to use Iptc4xmpExt:CVterm instead of ac:CVtermLiteral whenever practical.</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Property</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2026-01-23_52">http://rs.tdwg.org/decisions/decision-2026-01-23_52</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2881,11 +2978,11 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Modified</td>
-			<td>2020-01-27</td>
+			<td>2026-01-23</td>
 		</tr>
 		<tr>
 			<td>Term version IRI</td>
-			<td><a href="http://rs.tdwg.org/ac/terms/version/subjectCategoryVocabulary-2020-01-27">http://rs.tdwg.org/ac/terms/version/subjectCategoryVocabulary-2020-01-27</a></td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/subjectCategoryVocabulary-2026-01-23">http://rs.tdwg.org/ac/terms/version/subjectCategoryVocabulary-2026-01-23</a></td>
 		</tr>
 		<tr>
 			<td>Label</td>
@@ -2897,11 +2994,15 @@ required values are strings or URIs.
 		</tr>
 		<tr>
 			<td>Definition</td>
-			<td>Any vocabulary or formal classification from which terms in the Subject Category have been drawn.</td>
+			<td>Any controlled vocabulary from which values for ac:CVtermLiteral have been drawn.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>The value SHOULD be a stable URL for the vocabulary if one is available.</td>
 		</tr>
 		<tr>
 			<td>Notes</td>
-			<td>The AC recommended vocabularies do not need to be cited here. There is no required linkage between individual Subject Category terms and the vocabulary; the mechanism is intended to support discovery of the normative URI for a term, but not guarantee it.</td>
+			<td>If controlled string values for ac:CVtermLiteral are taken from the Audiovisual Core Subject Category controlled vocabulary, it is not necessary to provide a value for this property. If pipe separated strings are used to provide multiple values for ac:CVtermLiteral, this term MUST NOT be repeated. It MAY be repeated if data structuring allows particular ac:CVtermLiteral string values to be associated with particular values for this term.</td>
 		</tr>
 		<tr>
 			<td>Type</td>
@@ -2910,6 +3011,10 @@ required values are strings or URIs.
 		<tr>
 			<td>Executive Committee decision</td>
 			<td><a href="http://rs.tdwg.org/decisions/decision-2019-12-01_19">http://rs.tdwg.org/decisions/decision-2019-12-01_19</a></td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2026-01-23_52">http://rs.tdwg.org/decisions/decision-2026-01-23_52</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -6335,6 +6440,98 @@ Location Created and Location Shown are separated in the current version of IPTC
 <table>
 	<thead>
 		<tr>
+			<th colspan="2"><a id="ac_filterHighPass"></a>Term Name ac:filterHighPass</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/filterHighPass">http://rs.tdwg.org/ac/terms/filterHighPass</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2026-01-23</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/filterHighPass-2026-01-23">http://rs.tdwg.org/ac/terms/version/filterHighPass-2026-01-23</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>High-pass Filter Frequency</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>High-pass filter frequency used in the recording/preprocessing of the multimedia item.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>Numeric value in hertz (Hz)</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Property</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2026-01-23_52">http://rs.tdwg.org/decisions/decision-2026-01-23_52</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="ac_filterLowPass"></a>Term Name ac:filterLowPass</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/filterLowPass">http://rs.tdwg.org/ac/terms/filterLowPass</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2026-01-23</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/filterLowPass-2026-01-23">http://rs.tdwg.org/ac/terms/version/filterLowPass-2026-01-23</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Low-pass Filter Frequency</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> No</td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>Low-pass filter frequency used in the recording/preprocessing of the multimedia item.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>Numeric value in hertz (Hz)</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Property</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2026-01-23_52">http://rs.tdwg.org/decisions/decision-2026-01-23_52</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
 			<th colspan="2"><a id="ac_frameRate"></a>Term Name ac:frameRate</th>
 		</tr>
 	</thead>
@@ -6806,7 +7003,7 @@ Location Created and Location Shown are separated in the current version of IPTC
 
 ### 7.10 Service Access Point Vocabulary
 
-These terms are representation-dependent metadata, referring to specific digital representations of a resource (e.g., a specific resolution, quality, or format). They are used within whatever a particular AC implementation assigns to the value of `ac:hasServiceAccessPoint`, whose label is simply "Service Access Point." Note that it is possible for an implementation to use syntactic conventions that avoid direct use of `ac:hasServiceAccessPoint`, as illustrated in the final example in the section [Multiplicity/Cardinality in the Audiovisual Core Structure document](structure.md#3-multiplicity-and-cardinality).
+These terms are representation-dependent metadata, referring to specific digital representations of a resource (e.g., a specific resolution, quality, or format). They are used within whatever a particular AC implementation assigns to the value of `ac:hasServiceAccessPoint`, whose label is simply “Service Access Point.” Note that it is possible for an implementation to use syntactic conventions that avoid direct use of `ac:hasServiceAccessPoint`, as illustrated in the final example in the section [Multiplicity/Cardinality in the Audiovisual Core Structure document](structure.md#3-multiplicity-and-cardinality).
 
 <table>
 	<thead>
@@ -7471,7 +7668,7 @@ Regions of Interest (ROI) designate specific parts of media items. Features with
 
 Currently spatial ROIs are limited to two dimensions and can only be defined by rectangles or arcs (including circles). The terms in this group are not repeatable within a single ROI instance, although a media item may be linked to more than one ROI by the `ac:hasROI` property.
 
- For examples showing how to use these terms, see the <a href="https://github.com/tdwg/ac/blob/master/roi-recipes.md">ROI Recipes</a> page.
+ For examples showing how to use these terms, see the <a href='https://github.com/tdwg/ac/blob/master/roi-recipes.md'>ROI Recipes</a> page.
 
 <table>
 	<thead>
