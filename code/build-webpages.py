@@ -710,6 +710,7 @@ ac_list = TermList(
                     'http://rs.tdwg.org/dwc/terms/attributes/TaxonomicCoverage',
                     'http://rs.tdwg.org/dwc/terms/attributes/ResourceCreation',
                     'http://rs.tdwg.org/dwc/terms/attributes/RelatedResources',
+                    'http://rs.tdwg.org/ac/terms/Digital3dResource',
                     'http://rs.tdwg.org/ac/terms/ServiceAccessPoint',
                     'http://rs.tdwg.org/ac/terms/RegionOfInterest'
     ],
@@ -723,6 +724,7 @@ ac_list = TermList(
                     'taxonomic_coverage_vocabulary',
                     'resource_creation_vocabulary',
                     'related_resources_vocabulary',
+                    '3d_resources_vocabulary',
                     'service_access_point_vocabulary',
                     'region_of_interest_vocabulary'
     ],
@@ -731,6 +733,7 @@ ac_list = TermList(
                        '',
                        '',
                        'geography_vocabulary_comments',
+                       '',
                        '',
                        '',
                        '',
@@ -747,6 +750,7 @@ ac_list = TermList(
                  'Taxonomic_Coverage_Vocabulary',
                  'Resource_Creation_Vocabulary',
                  'Related_Resources_Vocabulary',
+                 '3d_Resources_Vocabulary',
                  'Service_Access_Point_Vocabulary',
                  'Region_of_Interest_Vocabulary'
     ]
