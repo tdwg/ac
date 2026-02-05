@@ -1,6 +1,6 @@
 # {document_title}
 
-Title
+Título
 : {document_title}
 
 Namespace IRI
