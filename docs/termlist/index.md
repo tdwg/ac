@@ -306,6 +306,8 @@ required values are strings or URIs.
 [ac:providerID](#ac_providerID) |
 [ac:relatedResourceID](#ac_relatedResourceID)
 
+**3D Resources Vocabulary*
+
 **Service Access Point Vocabulary**
 
 [ac:accessURI](#ac_accessURI) |
@@ -500,6 +502,8 @@ required values are strings or URIs.
 [ID of Containing Collection](#ac_IDofContainingCollection) |
 [Provider ID](#ac_providerID) |
 [Related Resource ID](#ac_relatedResourceID)
+
+**3D Resources Vocabulary*
 
 **Service Access Point Vocabulary**
 
@@ -7001,7 +7005,60 @@ Location Created and Location Shown are separated in the current version of IPTC
 </table>
 
 
-### 7.10 Service Access Point Vocabulary
+### 7.10 3D Resources Vocabulary
+
+<table>
+	<thead>
+		<tr>
+			<th colspan="2"><a id="ac_Digital3DResource"></a>Term Name ac:Digital3DResource</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Term IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/Digital3DResource">http://rs.tdwg.org/ac/terms/Digital3DResource</a></td>
+		</tr>
+		<tr>
+			<td>Modified</td>
+			<td>2026-01-23</td>
+		</tr>
+		<tr>
+			<td>Term version IRI</td>
+			<td><a href="http://rs.tdwg.org/ac/terms/version/Digital3DResource-2026-01-23">http://rs.tdwg.org/ac/terms/version/Digital3DResource-2026-01-23</a></td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>Digital 3D Resource</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><b>Required:</b> No -- <b>Repeatable:</b> </td>
+		</tr>
+		<tr>
+			<td>Definition</td>
+			<td>One or more binary files primarily intended to hold information about the three-dimensional geometry (surface or volume) of a real or non-real object, set of objects, or scene.</td>
+		</tr>
+		<tr>
+			<td>Usage</td>
+			<td>The term IRI should be used as a value for dcterms:type (<a href="http://purl.org/dc/terms/type">http://purl.org/dc/terms/type</a>). The controlled value string should be used as a value for dc:type (<a href="http://purl.org/dc/elements/1.1/type">http://purl.org/dc/elements/1.1/type</a>).</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Such files can be used by software to digitally render views of the subject, make measurements, conduct analyses, and create physical 3D replicas. This term includes resources composed of one or more files that are used to compute a 3D geometry (e.g., X-ray projections for computed tomography scans or photograph sets for photogrammetry). For avoidance of doubt, 2D renderings (views) produced from a Digital3DResource should not be included in this class, but stereo image pairs, anaglyphs, and other formats that hold information about 3D geometry may be included.</td>
+		</tr>
+		<tr>
+			<td>Type</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Executive Committee decision</td>
+			<td><a href="http://rs.tdwg.org/decisions/decision-2026-01-23_52">http://rs.tdwg.org/decisions/decision-2026-01-23_52</a></td>
+		</tr>
+	</tbody>
+</table>
+
+
+### 7.11 Service Access Point Vocabulary
 
 These terms are representation-dependent metadata, referring to specific digital representations of a resource (e.g., a specific resolution, quality, or format). They are used within whatever a particular AC implementation assigns to the value of `ac:hasServiceAccessPoint`, whose label is simply “Service Access Point.” Note that it is possible for an implementation to use syntactic conventions that avoid direct use of `ac:hasServiceAccessPoint`, as illustrated in the final example in the section [Multiplicity/Cardinality in the Audiovisual Core Structure document](structure.md#3-multiplicity-and-cardinality).
 
@@ -7662,7 +7719,7 @@ These terms are representation-dependent metadata, referring to specific digital
 </table>
 
 
-### 7.11 Region of Interest Vocabulary
+### 7.12 Region of Interest Vocabulary
 
 Regions of Interest (ROI) designate specific parts of media items. Features within these regions can be taxonomically identified or linked to occurrence records. ROI metadata may also be used to generate annotations of the media item or to facilitate display or highlighting of specific parts. 
 

@@ -268,7 +268,7 @@ class TermList:
         # In Audiovisual Core, traditionally, the terms have been subdivided into categories called "vocabularies".
         # Technically all of these "vocabularies" are actually in one vocabulary: the main AC vocabulary.
         # But to maintain this convention, we apply the following hack. In the controlled vocabularies, they are considered
-        # to be only one "Vocabulary". If there is every a second vocabulary that is not a controlled vocabulary, this hack
+        # to be only one "Vocabulary". If there is ever a second vocabulary that is not a controlled vocabulary, this hack
         # won't work.
         if self.vocab_type==1: # the main vocabulary is a "simple vocabulary"
             text = '## {vocabulary_section_string} %s\n' % self.t('vocabularies')
@@ -710,7 +710,7 @@ ac_list = TermList(
                     'http://rs.tdwg.org/dwc/terms/attributes/TaxonomicCoverage',
                     'http://rs.tdwg.org/dwc/terms/attributes/ResourceCreation',
                     'http://rs.tdwg.org/dwc/terms/attributes/RelatedResources',
-                    'http://rs.tdwg.org/ac/terms/Digital3dResource',
+                    'http://rs.tdwg.org/ac/terms/Digital3DResource',
                     'http://rs.tdwg.org/ac/terms/ServiceAccessPoint',
                     'http://rs.tdwg.org/ac/terms/RegionOfInterest'
     ],
