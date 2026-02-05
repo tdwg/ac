@@ -3,10 +3,10 @@
 Título
 : {document_title}
 
-Namespace IRI
+Espacio de nombres IRI
 : <http://rs.tdwg.org/accd/values/>
 
-Preferred namespace abbreviation
+Abreviatura preferida del namespce
 : accd:
 
 Fecha de publicación de la versión
@@ -26,7 +26,7 @@ Esta versión
 
 {previous_version_slot}
 
-Abstract
+Resumen
 : {abstract}
 
 Colaboradores
