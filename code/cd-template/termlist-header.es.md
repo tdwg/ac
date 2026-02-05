@@ -40,7 +40,7 @@ Cita bibliográfica
 
 ## 1. Introducción (Informativa)
 
-This document includes terms intended to be used as controlled values for Audiovisual Core terms `Iptc4xmpExt:CVterm` and `ac:CVtermLiteral`.
+Este documento incluye términos destinados a ser utilizados como valores controlados para los términos principales de Audiovisual Core `Iptc4xmpExt:CVterm` y `ac:CVtermLiteral`.
 
 ### 1.1 Estado del contenido de este documento
 
