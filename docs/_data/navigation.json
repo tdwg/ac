@@ -24,6 +24,10 @@
         "text": "Controlled vocabularies"
       },
       {
+        "text": "content description",
+        "href": "/cd/"
+      },
+      {
         "text": "format",
         "href": "/format/"
       },
