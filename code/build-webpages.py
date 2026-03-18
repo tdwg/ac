@@ -37,6 +37,11 @@ if '--branch' in opts:
 else:
     github_branch = 'master'
 
+if '--ghuser' in opts:
+    github_user = args[opts.index('--ghuser')]
+else:
+    github_user = 'tdwg'
+
 if '--rspath' in opts:
     local_path_to_rs = args[opts.index('--rspath')]
 else:
@@ -661,7 +666,7 @@ def retrieve_databases_for_vocabulary(vocabulary_iri):
     -------
     List of database names
     """
-    githubBaseUri = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/' + github_branch + '/'
+    githubBaseUri = 'https://raw.githubusercontent.com/' + github_user + '/rs.tdwg.org/' + github_branch + '/'
 
     # Load the table of term lists into a DataFrame with the list IRI as the row label index
     term_lists_df = pd.read_csv(githubBaseUri + 'term-lists/term-lists.csv', na_filter=False)
@@ -696,7 +701,8 @@ ac = dwcterms.DwcTerms(
     termLists = databases,
     docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
-    githubBranch = github_branch)
+    githubBranch = github_branch,
+    githubUser = github_user)
 ac_list = TermList(
     terms = ac,
     vocabType = 1,
@@ -770,7 +776,8 @@ variant = dwcterms.DwcTerms(
     termLists = databases,
     docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
-    githubBranch = github_branch)
+    githubBranch = github_branch,
+    githubUser = github_user)
 variant_list = TermList(
     terms = variant,
     vocabType = 2,
@@ -795,7 +802,8 @@ subtype = dwcterms.DwcTerms(
     termLists = databases,
     docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
-    githubBranch = github_branch)
+    githubBranch = github_branch,
+    githubUser = github_user)
 subtype_list = TermList(
     terms = subtype,
     vocabType = 2,
@@ -820,7 +828,8 @@ format = dwcterms.DwcTerms(
     termLists = databases,
     docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
-    githubBranch = github_branch)
+    githubBranch = github_branch,
+    githubUser = github_user)
 format_list = TermList(
     terms = format,
     vocabType = 3,
@@ -846,7 +855,8 @@ subjectPart = dwcterms.DwcTerms(
     termLists = databases,
     docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
-    githubBranch = github_branch)
+    githubBranch = github_branch,
+    githubUser = github_user)
 subjectPart_list = TermList(
     terms = subjectPart,
     vocabType = 3,
@@ -871,7 +881,8 @@ subjectOrientation = dwcterms.DwcTerms(
     termLists = databases,
     docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
-    githubBranch = github_branch)
+    githubBranch = github_branch,
+    githubUser = github_user)
 subjectOrientation_list = TermList(
     terms = subjectOrientation,
     vocabType = 3,
@@ -896,7 +907,8 @@ cd = dwcterms.DwcTerms(
     termLists = databases,
     docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
-    githubBranch = github_branch)
+    githubBranch = github_branch,
+    githubUser = github_user)
 cd_list = TermList(
     terms = cd,
     vocabType = 2,
