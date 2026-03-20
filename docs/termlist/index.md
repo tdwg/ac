@@ -940,7 +940,8 @@ required values are strings or URIs.
   <li class="list-group-item"><code>dcmi:Sound</code></li>
   <li class="list-group-item"><code>dcmi:StillImage</code></li>
   <li class="list-group-item"><code>dcmi:MovingImage</code></li>
-  <li class="list-group-item"><code>dcmi:InteractiveResource</code>;<code>ac:Digital3DResource</code></li>
+  <li class="list-group-item"><code>dcmi:InteractiveResource</code></li>
+  <li class="list-group-item"><code>ac:Digital3DResource</code></li>
 </ul></td>
 		</tr>
 		<tr>
