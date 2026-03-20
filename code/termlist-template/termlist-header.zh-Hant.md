@@ -79,7 +79,6 @@ Note: URIs for terms in most of these namespaces do not dereference to anything.
 | [International Press and Telecommunications Council Photo Metadata Standard,Extension Schema 1.1](http://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-201007_1.pdf) | IPTC         | `Iptc4xmpExt: = http://iptc.org/std/Iptc4xmpExt/2008-02-29/`                            |
 | [Camera and Imaging Products Association Exchangeable Image File Format](http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf)                                                                         | EXIF         | `exif: = http://ns.adobe.com/exif/1.0/`                                                 |
 | [Music Ontology](http://musicontology.com/specification/)                                                                                                                                              | MO           | `mo: = http://purl.org/ontology/mo/`                                                    |
-| [TDWG Natural Collection Description LSID Ontology](https://github.com/tdwg/ontology/blob/master/ontology/voc/Collection.rdf) (referenced in metadata, but no terms borrowed)       | NCD          | `ncd: = http://rs.tdwg.org/ontology/voc/Collection#`                                    |
 
 ## 3 Namespaces, Prefixes and Term Names
 
