@@ -49,7 +49,7 @@ document_configuration_yaml_file = 'document_configuration.yaml'
 
 class DwcTerms:
 
-    def __init__(self, termLists, docMetadataFilePath, rsPath, githubBranch):
+    def __init__(self, termLists, docMetadataFilePath, rsPath, githubBranch, githubUser):
         """
         Tables of terms.
 
@@ -60,6 +60,7 @@ class DwcTerms:
         rsPath -- local directory path from this directory to the rs.tdwg.org repo directory, 
             e.g. '../../rs.tdwg.org/'. If None data will be retrieved from GitHub via HTTP.
         githubBranch -- the branch at GitHub to use. 'master' for production, something else for testing.
+        githubUser -- the GitHub user account to use. 'tdwg' for production, some other account where there's a fork for testing.
         """
 
         if rsPath is not None:
@@ -68,7 +69,7 @@ class DwcTerms:
                 githubBaseUri += '/'
             localGithub = True
         else:
-            githubBaseUri = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/' + githubBranch + '/'
+            githubBaseUri = 'https://raw.githubusercontent.com/' + githubUser + '/rs.tdwg.org/' + githubBranch + '/'
             localGithub = False
         self.localGithub = localGithub
         self.githubBaseUri = githubBaseUri

@@ -40,13 +40,18 @@ if '--branch' in opts:
 else:
     github_branch = 'master'
 
+if '--ghuser' in opts:
+    github_user = args[opts.index('--ghuser')]
+else:
+    github_user = 'tdwg'
+
 
 # -----------------
 # Configuration section
 # -----------------
 
 # This is the base URL for raw files from the branch of the repo that has been pushed to GitHub
-github_base_url = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/' + github_branch + '/'
+github_base_url = 'https://raw.githubusercontent.com/' + github_user + '/rs.tdwg.org/' + github_branch + '/'
 
 document_template_name = 'index_template.md' # This is the input file into which the header metadata will be inserted.
 out_filename = '../docs/' + document_slug + '/index.md' # This is where the document rendered by GitHub Pages will be created.

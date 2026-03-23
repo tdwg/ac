@@ -37,6 +37,11 @@ if '--branch' in opts:
 else:
     github_branch = 'master'
 
+if '--ghuser' in opts:
+    github_user = args[opts.index('--ghuser')]
+else:
+    github_user = 'tdwg'
+
 if '--rspath' in opts:
     local_path_to_rs = args[opts.index('--rspath')]
 else:
@@ -268,7 +273,7 @@ class TermList:
         # In Audiovisual Core, traditionally, the terms have been subdivided into categories called "vocabularies".
         # Technically all of these "vocabularies" are actually in one vocabulary: the main AC vocabulary.
         # But to maintain this convention, we apply the following hack. In the controlled vocabularies, they are considered
-        # to be only one "Vocabulary". If there is every a second vocabulary that is not a controlled vocabulary, this hack
+        # to be only one "Vocabulary". If there is ever a second vocabulary that is not a controlled vocabulary, this hack
         # won't work.
         if self.vocab_type==1: # the main vocabulary is a "simple vocabulary"
             text = '## {vocabulary_section_string} %s\n' % self.t('vocabularies')
@@ -661,7 +666,7 @@ def retrieve_databases_for_vocabulary(vocabulary_iri):
     -------
     List of database names
     """
-    githubBaseUri = 'https://raw.githubusercontent.com/tdwg/rs.tdwg.org/' + github_branch + '/'
+    githubBaseUri = 'https://raw.githubusercontent.com/' + github_user + '/rs.tdwg.org/' + github_branch + '/'
 
     # Load the table of term lists into a DataFrame with the list IRI as the row label index
     term_lists_df = pd.read_csv(githubBaseUri + 'term-lists/term-lists.csv', na_filter=False)
@@ -696,7 +701,8 @@ ac = dwcterms.DwcTerms(
     termLists = databases,
     docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
-    githubBranch = github_branch)
+    githubBranch = github_branch,
+    githubUser = github_user)
 ac_list = TermList(
     terms = ac,
     vocabType = 1,
@@ -710,6 +716,7 @@ ac_list = TermList(
                     'http://rs.tdwg.org/dwc/terms/attributes/TaxonomicCoverage',
                     'http://rs.tdwg.org/dwc/terms/attributes/ResourceCreation',
                     'http://rs.tdwg.org/dwc/terms/attributes/RelatedResources',
+                    'http://rs.tdwg.org/ac/terms/Digital3DResource',
                     'http://rs.tdwg.org/ac/terms/ServiceAccessPoint',
                     'http://rs.tdwg.org/ac/terms/RegionOfInterest'
     ],
@@ -723,6 +730,7 @@ ac_list = TermList(
                     'taxonomic_coverage_vocabulary',
                     'resource_creation_vocabulary',
                     'related_resources_vocabulary',
+                    '3d_resources_vocabulary',
                     'service_access_point_vocabulary',
                     'region_of_interest_vocabulary'
     ],
@@ -731,6 +739,7 @@ ac_list = TermList(
                        '',
                        '',
                        'geography_vocabulary_comments',
+                       '',
                        '',
                        '',
                        '',
@@ -747,6 +756,7 @@ ac_list = TermList(
                  'Taxonomic_Coverage_Vocabulary',
                  'Resource_Creation_Vocabulary',
                  'Related_Resources_Vocabulary',
+                 '3d_Resources_Vocabulary',
                  'Service_Access_Point_Vocabulary',
                  'Region_of_Interest_Vocabulary'
     ]
@@ -766,7 +776,8 @@ variant = dwcterms.DwcTerms(
     termLists = databases,
     docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
-    githubBranch = github_branch)
+    githubBranch = github_branch,
+    githubUser = github_user)
 variant_list = TermList(
     terms = variant,
     vocabType = 2,
@@ -791,7 +802,8 @@ subtype = dwcterms.DwcTerms(
     termLists = databases,
     docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
-    githubBranch = github_branch)
+    githubBranch = github_branch,
+    githubUser = github_user)
 subtype_list = TermList(
     terms = subtype,
     vocabType = 2,
@@ -816,7 +828,8 @@ format = dwcterms.DwcTerms(
     termLists = databases,
     docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
-    githubBranch = github_branch)
+    githubBranch = github_branch,
+    githubUser = github_user)
 format_list = TermList(
     terms = format,
     vocabType = 3,
@@ -842,7 +855,8 @@ subjectPart = dwcterms.DwcTerms(
     termLists = databases,
     docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
-    githubBranch = github_branch)
+    githubBranch = github_branch,
+    githubUser = github_user)
 subjectPart_list = TermList(
     terms = subjectPart,
     vocabType = 3,
@@ -867,7 +881,8 @@ subjectOrientation = dwcterms.DwcTerms(
     termLists = databases,
     docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
     rsPath = local_path_to_rs,
-    githubBranch = github_branch)
+    githubBranch = github_branch,
+    githubUser = github_user)
 subjectOrientation_list = TermList(
     terms = subjectOrientation,
     vocabType = 3,
@@ -883,3 +898,29 @@ subjectOrientation_list = TermList(
 index_section_number = 3
 # List of Terms HTML. document_iri[19:-1].split('/')[2] gets the page slug
 generate_all_markdown(subjectOrientation_list, document_iri[19:-1].split('/')[2], languages, index_section_number)
+
+
+# Content Description Controlled Vocabulary
+document_iri = 'http://rs.tdwg.org/ac/doc/cd/'
+databases = retrieve_databases_for_vocabulary('http://rs.tdwg.org/accd/')
+cd = dwcterms.DwcTerms(
+    termLists = databases,
+    docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
+    rsPath = local_path_to_rs,
+    githubBranch = github_branch,
+    githubUser = github_user)
+cd_list = TermList(
+    terms = cd,
+    vocabType = 2,
+    organizedInCategories = False,
+    displayOrder = [''],
+    displayLabel = ['vocabulary'],
+    displayComments = [''],
+    displayId = ['Vocabulary']
+)
+
+# Because different docs have a different section number for the indices, indicate it here.
+# The Vocabulary section is assumed to be the next section after the indices.
+index_section_number = 3
+# List of Terms HTML. document_iri[19:-1].split('/')[2] gets the page slug
+generate_all_markdown(cd_list, document_iri[19:-1].split('/')[2], languages, index_section_number)

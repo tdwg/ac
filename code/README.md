@@ -2,13 +2,13 @@
 
 ## Workflow for generating Audiovisual Core List of Terms pages
 
-NOTE: the first step must be done by somebody with write access to the rs.tdwg.org repository of the TDWG Github. Currently (20205-11-10) that includes Steve Baskauf and Matt Blissett. The Maintenance Group needs to provide new or modified `document_configuration.yaml` and `author_configuration.yaml` files if any metadata about the documents or authors has changed (or if it is a new document).
+NOTE: When using this workflow to generate drafts prior to ratification of changes, the first step may be carried out by any Maintenance Group member using a fork of the TDWG `rs.tdwg.org` repository. By carrying out the remaining steps using a branch of the `ac` repository, a draft List of Terms can be generated, then viewed by navigating to the Markdown document on the GitHub website. GitHub renders Markdown as unstyled HTML, so the draft can be reviewed there. When processing ratified changes, the source data files in the forked rs.tdwg.org need to be merged into the TDWG rs.tdwg.org repo via a pull request, where they can be processed by the rs.tdwg.org maintainers (in 2026 that's Steve Baskauf or Matt Blissett). After that processing is complete, the remaining steps of this workflow can be carried out in a branch of the `ac` repo using data in the base rs.tdwg.org repo (rather than the fork). Once the process is completed, the branch can be merged into master, triggering a rebuild of the website and incorporating the changes in the "real" documents.
 
 1. Carry out the steps for updating the underlying metadata in the rs.tdwg.org GitHub repository, outlined [here](https://github.com/tdwg/rs.tdwg.org/blob/master/process/process-vocabulary.md#3-detailed-workflow-steps) in Section 3.
 
 2. It is best to create a branch of the `ac` repo before generating the new pages. The avoids messing up the existing page in the event that something goes wrong and also makes it possible to create drafts that can be viewed prior to ratification, or for proofreading. When ratified changes have been proofread, the branch can be merged into the `master` branch to make the updated page go live on the AC website.
 
-3. For each list of terms to be updated to a new version, the current Markdown file for the current List of Terms document must be renamed to be a dated version, with updated  interversion links. (If the page is just being rewritten to change formatting, etc. this step can be skipped.) Creating the dated version is done using the [update_previous_doc.py](https://github.com/tdwg/ac/blob/master/code/update_previous_doc.py) Python script in the `code` directory of the ac GitHub repo. The script must be run with the following command line arguments:
+3. For each list of terms to be updated to a new version, the current Markdown file for the current List of Terms document must be renamed to be a dated version, with updated inter-version links. (If the page is just being rewritten to change formatting, etc. this step can be skipped.) Creating the dated version is done using the [update_previous_doc.py](https://github.com/tdwg/ac/blob/master/code/update_previous_doc.py) Python script in the `code` directory of the ac GitHub repo. The script must be run with the following command line arguments:
 
 `--dir` followed by the directory name in the [document_metadata_processing](https://github.com/tdwg/rs.tdwg.org/tree/master/process/document_metadata_processing) directory that corresponds to the parts of the document's IRI. For example, `ac_doc_format` is the directory name for <http://rs.tdwg.org/ac/doc/format/>
 
@@ -20,43 +20,49 @@ Here is an example for the main AC vocabulary list of terms:
 python update_previous_doc.py --dir ac_doc_termlist --slug termlist 
 ```
 
-If the data in rs.tdwg.org are provisional and present in a branch other than `master`, the `--branch` argument can be used to specify the branch of rs.tdwg.org to be used as the data source, e.g. 
+If the data in rs.tdwg.org are provisional and present in a fork, the `--ghuser` and `--branch` arguments can be used to specify the account and branch of rs.tdwg.org to be used as the data source. For example, if the fork is in the `baskaufs` GitHub account in a branch called `ac-changes-2026-02-15-derived`, the arguments would be
 
 ```
-python update_previous_doc.py --dir ac_doc_termlist --slug termlist --branch ac-revisions
+python update_previous_doc.py --dir ac_doc_termlist --slug termlist --ghuser baskaufs --branch ac-changes-2026-02-15
 ```
+
+If the `--ghuser` argument is omitted, the account defaults to `tdwg`. If the '--branch` argument is omitted, the branch defaults to `master`.
 
 This script must be run once for each list of terms for which a new version is being created.
 
 4. After running the script, check the diffs to make sure that the new dated version of the file has been added and that the `index.md` version was deleted. It is best to not yet make a commit, so that the changes in the `index.md` files can be seen in the diff after the next script is run.
 
-5. To generate the lists of terms, run the Python script [build-webpages.py](https://github.com/tdwg/ac/blob/master/code/build-webpages.py). This script will build all of the lists of terms for the main vocabulary and all of the controlled vocabularies. (Note: the script [dwcterms.py](https://github.com/tdwg/ac/blob/master/code/dwcterms.py) is called as a module by `build-webpage.py`.) If language translation data are available for a language other than English, the script will also generate language-specific pages for that language. The languages to be generated are indicated in the configuration section of the script by including their two-letter ISO codes in the `languages` list. NOTE: the required data for a language are a `termlist-dictionary` JSON file for the language, e.g. `termlist-dictionary.en.json`, a `termlist-header` Markdown file for the language (e.g. `termlist-header.en.md`) in the appripriate template folder (e.g. [format-template](https://github.com/tdwg/ac/tree/master/code/format-template)), and translated metadata in the `rs.tdwg.org` repository (managed by Crowdin -- see Matt Blissett at GBIF for more on that).
+5. **Important note:** if you are updating multiple lists of terms, you MUST run `update_previous_doc.py` for each List of Terms document included in the update prior to continuing. That is because the build script updates all List of Terms documents and will overwrite previous versions if they have not yet been moved into a previous version file by the `update_previous_doc.py` script. 
 
-For drafts, you can supply a branch of the `rs.tdwg.org` repo other than `master` using the `--branch` argument. If omitted, `master` will be used.
+To regenerate all of the lists of terms, run the Python script [build-webpages.py](https://github.com/tdwg/ac/blob/master/code/build-webpages.py). This script will build all of the lists of terms for the main vocabulary and all of the controlled vocabularies. (Note: the script [dwcterms.py](https://github.com/tdwg/ac/blob/master/code/dwcterms.py) is called as a module by `build-webpage.py`.) If language translation data are available for a language other than English, the script will also generate language-specific pages for that language. The languages to be generated are indicated in the configuration section of the script by including their two-letter ISO codes in the `languages` list. NOTE: the required data for a language are a `termlist-dictionary` JSON file for the language, e.g. `termlist-dictionary.en.json`, a `termlist-header` Markdown file for the language (e.g. `termlist-header.en.md`) in the appripriate template folder (e.g. [format-template](https://github.com/tdwg/ac/tree/master/code/format-template)), and translated metadata in the `rs.tdwg.org` repository (managed by Crowdin -- see Matt Blissett at GBIF for more on that).
+
+For drafts, you can use a fork of rs.tdwg.org as with the `update_previous_doc.py` script. The `--ghuser` and `--branch` arguments have the same meaning and defaults as above. Here is an example of running the script from a branch of a fork:
 
 ```
-python build-webpages.py --branch ac-revisions
+python build-webpages.py --ghuser baskaufs --branch ac-changes-2026-02-15
 ```
 
-Another option (not yet tested as of 2025-11-06) is to supply a path from this local directory to the directory containing the rs.tdwg.org git directory, using the `--rspath` argument. If provided, any `--branch` argument will be ignored, since the local directory will reflect the status of whatever the current branch is on the local machine. If omitted, HTTP will be used to retrieve the data from GitHub.
+Another option (not yet tested as of 2025-11-06) is to supply a path from this local directory to the directory containing the rs.tdwg.org git directory, using the `--rspath` argument. If provided, any `--ghuser` and `--branch` arguments will be ignored, since the local directory will reflect the status of whatever the current branch of the cloned repository is on the local machine. If omitted, HTTP will be used to retrieve the data from GitHub.
 
 ```
 python build-webpages.py --rspath ../../rs.tdwg.org/
 ```
 
-6. After the script has been run, check the diffs for the `index.md` file to make sure that the changes make sense. If they do, commit and push the changes to GitHub. If the changes have been ratified, make a pull request to merge the provisional branch of the ac repo into the `master` branch.
+6. After the script has been run, check the diffs for the `index.md` file to make sure that the changes make sense. If they do, commit and push the changes to GitHub. Drafts can be viewed as unstyled HTML in GitHub by switching to the appropriate branch and navigating to the `index.md` file in the subdirectory of the docs directory that corresponds to the draft document. If the changes have been ratified, make a pull request to merge the provisional branch of the ac repo into the `master` branch. This will trigger a rebuild of the `ac.tdwg.org` website and cause the revised document to go "live".
 
 ## Workflow for generating non-vocabulary web pages
 
+**NOTE:** this workflow has not been tested since the implementation of the CrowdIn system for managing translations. The scripts and workflow may need to be modified as a result.
+
 Documents that are not lists of terms are primarily hand-written and manually maintained Markdown documents. However, as with the list of terms documents, the header section should be generated by script so that its document metadata will match the machine-readable metadata. For this reason, hand edits to the documents should be made to the document templates in the `code` subdirectories and NOT directly to the documents in the `docs` directory that are rendered by Jekyl into web pages. These subdirectories have names that correspond to the document's current IRI, e.g. the subdirectory `ac_doc_structure` is for the Structure Guide's `http://rs.tdwg.org/ac/doc/structure/` IRI. The document template Markdown files are named `index_template.md`.
 
-The first three steps below must be done by someone with write access to the rs.tdwg.org repository of the TDWG Github. Currently this includes Steve Baskauf and Matt Blissett. Eventually, this should be managed by the Infrastructure Functional Subcommittee. The AC Maintenance Group should prepare the three necessary YAML files and provide them to the person who will be writing to rs.tdwg.org .
+As with the workflow for generating List of Terms documents, the first three steps below can be done on a fork of rs.tdwg.org to build a draft of the document. Once the draft has been checked for errors and the changes ratified, a pull request to merge the branch of the fork containing the raw data into the TDWG rs.tdwg.org should be made. Then steps 4 onward should be run again using the TDWG rs.tdwg.org repo as the data source instead of the fork.
 
 1. Make sure that the `document_configuration.yaml` and `author_configuration.yaml` files in the appropriate subdirectory of the [process/document_metadata_processing/](https://github.com/tdwg/rs.tdwg.org/tree/master/process/document_metadata_processing) have been updated with the current metadata.
 
 2. Set the correct values in the [general_configuration.yaml](https://github.com/tdwg/rs.tdwg.org/blob/master/process/document_metadata_processing/general_configuration.yaml) file. The `versionDate` should be the ratification date if the changes necessitated public comment. 
 
-3. Follow steps 10 through 13 of the [Detailed workflow](https://github.com/tdwg/rs.tdwg.org/blob/master/process/process-vocabulary.md#3-detailed-workflow-steps) to update the document metadata at rs.tdwg.org . This must be done before the remaining steps so that the correct dates will be used in the document metadata.
+3. Follow steps 14 onward of the [Detailed workflow](https://github.com/tdwg/rs.tdwg.org/blob/master/process/process-vocabulary.md#3-detailed-workflow-steps) to update the document metadata at rs.tdwg.org . This must be done before the remaining steps so that the correct dates will be used in the document metadata.
 
 4. Follow steps 2 through 4 in the List of Terms instructions above to rename the old current version file to a dated version file.
 
@@ -66,10 +72,14 @@ The first three steps below must be done by someone with write access to the rs.
 python build_other_doc_header.py --slug structure --dir ac_doc_structure
 ```
 
+The `--ghuser` and `--branch` command line options for acquiring the data from a fork rather than the TDWG GitHub account function as they do in the scripts described above.
+
 6. After running the script, check the diffs to make sure that the changes make sense, then push to Github (and merge the branch if necessary to make the changes live).
 
 
 ## Workflow for generating Views controlled vocabularies
+
+**NOTE:** This workflow has not been updated or tested since implementation of the CrowdIn system. So it may need revision.
 
 Past source data files are in subdirectories of `process/ac-revisions/` using the naming pattern `ac-views-cv-yyyy-mm-dd`. The files placed in this directory only include the rows for terms that have been **changed** from what they were before (modified or new). Rows for existing terms that are unmodified are **not** be included. When making a change to the vocabularies, create a new dated directory that includes source data files for the vocabullaries to be changed. Those files should include rows for new terms following the column header patterns of existing files. Changed terms should include the entire row for the term that is to be changed. 
 
@@ -90,4 +100,4 @@ Unless otherwise noted, the location of other files mentioned here are in the `v
 13. The Markdown documents containing the human-readable lists will automatically go into their correct places in the `docs` directory of the AC repo. The JSON-LD documents with the `.json` and `.jsonld` file extensions need to be moved to the `cvJson` directory of the `gh-pages` branch of the `rs.tdwg.org` repo. This allows them to be served with the correct Content-Type header (as with all of the other controlled vocabulary files in that repo).
 
 ---
-Revised 2025-11-06
+Revised 2026-03-20

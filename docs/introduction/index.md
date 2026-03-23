@@ -35,7 +35,7 @@ Bibliographic citation
 
 ## 1 Introduction
 
-There are four documents included in the Aububon Core Standard.  This document
+There are four documents included in the Audiovisual Core Standard.  This document
 provides a general introduction to the Audiovisual Core Standard. For information
 about the structure of Audiovisual Core, see the [Audiovisual Core Structure](../structure/)
 document.  For term details, see the [Audiovisual Core Terms List](../termlist/) document.  
