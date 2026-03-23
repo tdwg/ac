@@ -25,27 +25,27 @@
       },
       {
         "text": "descripción del contenido",
-        "href": "/cd/"
+        "href": "/es/cd/"
       },
       {
         "text": "formato",
-        "href": ""
+        "href": "/es/format/"
       },
       {
         "text": "subjectOrientation",
-        "href": ""
+        "href": "/es/orient/"
       },
       {
         "text": "subjectPart",
-        "href": ""
+        "href": "/es/part/"
       },
       {
         "text": "subtipo",
-        "href": ""
+        "href": "/es/subtype/"
       },
       {
         "text": "variante",
-        "href": ""
+        "href": "/es/variant/"
       }
     ]
   },
