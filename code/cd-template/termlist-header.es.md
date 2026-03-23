@@ -1,68 +1,69 @@
-# {document_title}
+# Controlled Vocabulary for Audiovisual Core Content Description: List of Terms
 
 Title
-: {document_title}
+: Controlled Vocabulary for Audiovisual Core Content Description: List of Terms
 
-Namespace IRI
+Espacio de nombres IRI
 : <http://rs.tdwg.org/accd/values/>
 
-Preferred namespace abbreviation
+Abreviatura preferida del namespce
 : accd:
 
-Date version issued
+Fecha de publicación de la versión
 : {ratification_date}
 
-Date created
+Fecha de creación
 : {created_date}
 
-Part of TDWG Standard
+Parte del Estándar TDWG
 : <{standard_iri}>
 
-This version
+Esta versión
 : <{current_iri}{ratification_date}>
 
-Latest version
+Última versión
 : <{current_iri}>
 
 {previous_version_slot}
 
-Abstract
+Resumen
 : {abstract}
 
-Contributors
+Colaboradores
 : {contributors}
 
-Creator
+Creador
 : {creator}
 
-Bibliographic citation
+Cita bibliográfica
 : {creator}. {year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
 
-## 1 Introduction (informative)
+## 1. Introducción (Informativa)
 
-This document includes terms intended to be used as controlled values for Audiovisual Core terms `Iptc4xmpExt:CVterm` and `ac:CVtermLiteral`.
+Este documento incluye términos destinados a ser utilizados como valores controlados para los términos principales de Audiovisual Core `Iptc4xmpExt:CVterm` y `ac:CVtermLiteral`.
 
-### 1.1 Status of the content of this document
+### 1.1 Estado del contenido de este documento
 
-Section 1 is informative (non-normative).
+La Sección 1 es informativa (no normativa).
 
-Section 2 is normative.
+La sección 2 es normativa.
 
-Section 3 is informative (non-normative).
+La Sección 3 es informativa (no normativa).
 
-In Section 4, the values of the `Term IRI`, `Definition`, and `Controlled value` are normative. The value of `Usage` (if it exists for a given term) is normative. The values of `Term Name` are non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace.  `Label` and the values of all other properties are non-normative.
+En la Sección 4, los valores de `Término IRI`, `Definición` y `Valor controlado` son normativos. El valor de `Uso` (si existe para un término determinado) también es normativo. Los valores del `Nombre del término` no son normativos, aunque se puede esperar que el prefijo del namespace abreviado sea uno comúnmente utilizado para ese namespace.  La `Etiqueta` y los valores de todas las demás propiedades no son normativos.
 
-### 1.2 RFC 2119 key words
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [BCP 14](https://www.rfc-editor.org/info/bcp14) [\[RFC 2119\]](https://datatracker.ietf.org/doc/html/rfc2119) and [\[RFC 8174\]](https://datatracker.ietf.org/doc/html/rfc8174) when, and only when, they appear in all capitals, as shown here.
+### 1.2 Palabras clave RFC 2119
 
-## 2 Use of Terms
+Las palabras clave "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY" y "OPTIONAL" en este documento deben interpretarse como se describe en [BCP 14](https://www.rfc-editor.org/info/bcp14) [\[RFC 2119\]](https://datatracker.ietf.org/doc/html/rfc2119) y [\[RFC 8174\]](https://datatracker.ietf.org/doc/html/rfc8174), únicamente cuando aparezcan en mayúsculas, tal como se muestra aquí.
 
-### 2.1 Relationship of value types to property terms
+## 2 Uso de los Términos
 
-In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs SHOULD be used as values of the property `Iptc4xmpExt:CVterm`. Controlled value strings SHOULD be used as values of the property `ac:CVtermLiteral`.
+### 2.1 Relación de los tipos de valor con los términos de propiedad
 
-### 2.2 Relationship between values of ac:CVtermLiteral and Iptc4xmpExt:CVterm
+De acuerdo con el [documento de la Lista de Términos Básicos Audiovisuales](http://rs.tdwg.org/ac/doc/termlist/), los términos IRI no abreviados DEBEN usarse como valores de la propiedad `Iptc4xmpExt:CVterm`. Las cadenas de valores controlados DEBEN usarse como valores de la propiedad `ac:CVtermLiteral`.
 
-An IRI for a term in this vocabulary denotes the same concept as the concept denoted by the controlled value string for the same term. Thus a client MAY infer an IRI value for `Iptc4xmpExt:CVterm` given a controlled value string for `ac:CVtermLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `Iptc4xmpExt:CVterm` property in cases where providers only provide values for `ac:CVtermLiteral`. 
+### 2.2 Relación entre los valores de ac:CVtermLiteral y Iptc4xmpExt:CVterm
 
-## 3 Term index
+Una IRI para un término en este vocabulario denota la misma clase que la clase denotada por la cadena de valor controlado para el mismo término. Por lo tanto, un cliente PUEDE inferir un valor IRI para `Iptc4xmpExt:CVterm` dada una cadena de valor controlado para `ac:CVtermLiteral` incluso si ese IRI no se indica explícitamente. La implicación práctica es que los agregadores de datos PUEDEN materializar valores para la propiedad preferida `Iptc4xmpExt:CVterm` en los casos en que los proveedores solo proporcionan valores para `ac:CVtermLiteral`.
+
+## 3 Índice de Términos

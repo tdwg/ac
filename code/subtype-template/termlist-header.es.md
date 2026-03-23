@@ -1,13 +1,13 @@
-# {document_title}
+# Controlled Vocabulary for Audiovisual Core subtype: List of Terms
 
 Title
-: {document_title}
+: Controlled Vocabulary for Audiovisual Core subtype: List of Terms
 
-Namespace IRI
+IRI del espacio de nombres
 : <http://rs.tdwg.org/acsubtype/values/>
 
-Preferred namespace abbreviation
-: acsubtype:
+Abreviatura de espacio de nombres preferida
+: acpart:
 
 Fecha de publicación de la versión
 : {ratification_date}
@@ -27,7 +27,7 @@ Esta versión
 {previous_version_slot}
 
 Abstract
-: {abstract}
+: Audiovisual Core uses the terms ac:subtype and ac:subtypeLiteral to refine the type of a media item to a level more specific than the Dublin Core Type Vocabulary, http://purl.org/dc/dcmitype/. This controlled vocabulary provides values for ac:subtype and ac:subtypeLiteral.
 
 Colaboradores
 : {contributors}
@@ -38,19 +38,19 @@ Creador
 Cita bibliográfica
 : {creator}. {year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
 
-## 1 Introduction (informative)
+## 1 Introducción (Informativa)
 
-This document includes terms intended to be used as a controlled value for Audiovisual Core terms `ac:subtype` and `ac:subtypeLiteral`. **Note:** Although this is a controlled vocabulary, the type of its terms is `rdfs:Class` rather than `skos:Concept` as in other controlled vocabularies because it indicates the type of the media item.
+Este documento incluye términos destinados a ser utilizados como valores controlados para los términos del Audiovisual Core `ac:subjectPart` y `ac:subjectPartLiteral`. **Nota:** Aunque este es un vocabulario controlado, el tipo de sus términos es `rdfs:Class` en lugar de `skos:Concept` como en otros vocabularios controlados, porque indica el tipo del elemento multimedia.
 
 ### 1.1 Estado del contenido de este documento
 
-Section 1 is informative (non-normative).
+La Sección 1 es informativa (no normativa).
 
 La sección 2 es normativa.
 
-Section 3 is informative (non-normative).
+La Sección 3 es informativa (no normativa).
 
-En la Sección 4, los valores de `Término IRI`, `Definición` y `Valor controlado` son normativos. El valor de `Uso` (si existe para un término determinado) también es normativo. Los valores del `Nombre del término` no son normativos, aunque se puede esperar que el prefijo del namespace abreviado sea uno comúnmente utilizado para ese namespace.  `Label` and the values of all other properties are non-normative.
+En la Sección 4, los valores de `IRI del Término`, `Definición` y `Valor controlado` son normativos. El valor de `Uso` (si existe para un término determinado) también es normativo. Los valores del `Nombre del término` no son normativos, aunque se puede esperar que el prefijo del namespace abreviado sea uno comúnmente utilizado para ese namespace.  La `Etiqueta` y los valores de todas las demás propiedades no son normativos.
 
 ### 1.2 Palabras clave RFC 2119
 
@@ -58,12 +58,12 @@ Las palabras clave "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD
 
 ## 2 Uso de los Términos
 
-### 2.1 Relationship of value types to property terms
+### 2.1 Relación de los tipos de valor con los términos de propiedad
 
-In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs SHOULD be used as values of the property `ac:subtype`. Controlled value strings SHOULD be used as values of the property `ac:subtypeLiteral`.
+De acuerdo con el [documento de la Lista de términos del Audiovisual Core](http://rs.tdwg.org/ac/doc/termlist/), los términos IRI no abreviados DEBEN usarse como valores de la propiedad `dcterms:format`. Las cadenas de valores controlados DEBEN usarse como valores de la propiedad `ac:subtypeLiteral`.
 
-### 2.2 Relationship between values of ac:subtypeLiteral and ac:subtype
+### 2.2 Relación entre los valores de ac:subtypeLiteral y ac:subtype
 
-An IRI for a term in this vocabulary denotes the same class as the class denoted by the controlled value string for the same term. Thus a client MAY infer an IRI value for `ac:subtype` given a controlled value string for `ac:subtypeLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:subtype` property in cases where providers only provide values for `ac:subtypeLiteral`.
+Una IRI para un término en este vocabulario denota la misma clase que la clase denotada por la cadena de valor controlado para el mismo término. De esta manera, un usuario PUEDE inferir un valor IRI para `ac:subtype` dada una cadena de valor controlado para `ac:subtypeLiteral` incluso si ese IRI no se indica explícitamente. La implicación práctica es que los agregadores de datos PUEDEN materializar valores para la propiedad `ac:subtype` preferida en casos donde los proveedores solo proporcionan valores para `ac:subtypeLiteral`.
 
 ## 3 Índice de Términos

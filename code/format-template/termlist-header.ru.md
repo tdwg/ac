@@ -1,7 +1,7 @@
-# {document_title}
+# Controlled Vocabulary for Dublin Core format: List of Terms
 
 Title
-: {document_title}
+: Controlled Vocabulary for Dublin Core format: List of Terms
 
 Namespace IRI
 : <http://rs.tdwg.org/acformat/values/>
@@ -26,7 +26,7 @@ Preferred namespace abbreviation
 Предыдущая версия {previous_version_slot}
 
 Abstract
-: {abstract}
+: Audiovisual Core borrows the Dublin Core terms dc:format and dcterms:format to provide information about the physical or electronic format of a media item. This controlled vocabulary provides values for those two terms.
 
 Авторы: {contributors}
 

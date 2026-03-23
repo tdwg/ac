@@ -1,12 +1,12 @@
-# {document_title}
+# Controlled Vocabulary for Dublin Core format: List of Terms
 
-Title
-: {document_title}
+Título
+: Vocabulario Controlado para formato Dublin Core: Lista de términos
 
-Namespace IRI
+Espacio de nombres IRI
 : <http://rs.tdwg.org/acformat/values/>
 
-Preferred namespace abbreviation
+Abreviatura preferida del espacio de nombres
 : acformat:
 
 Fecha de publicación de la versión
@@ -27,7 +27,7 @@ Esta versión
 {previous_version_slot}
 
 Abstract
-: {abstract}
+: Audiovisual Core borrows the Dublin Core terms dc:format and dcterms:format to provide information about the physical or electronic format of a media item. This controlled vocabulary provides values for those two terms.
 
 Colaboradores
 : {contributors}
@@ -38,19 +38,19 @@ Creador
 Cita bibliográfica
 : {creator}. {year}. {document_title}. {publisher}. <{current_iri}{ratification_date}>
 
-## 1 Introduction (informative)
+## 1. Introducción (Informativa)
 
-This document includes terms intended to be used as a controlled value for Dublin Core terms `dc:format` and `dcterms:format`, which are borrowed by Audiovisual Core.
+Este documento incluye términos destinados a ser utilizados como un valor controlado para los términos de Dublin Core «dc:format» y «dcterms:format», que son tomados prestados por Audiovisual Core.
 
 ### 1.1 Estado del contenido de este documento
 
-Section 1 is informative (non-normative).
+La Sección 1 es informativa (no normativa).
 
-Section 2 is normative except as noted.
+La Sección 2 es normativa salvo que se indique lo contrario.
 
-Section 3 is informative.
+La Sección 3 es informativa.
 
-En la Sección 4, los valores de `Término IRI`, `Definición` y `Valor controlado` son normativos. El valor de `Uso` (si existe para un término determinado) también es normativo.  The values of `Has broader concept` and `Has exact match` are normative. Los valores del `Nombre del término` no son normativos, aunque se puede esperar que el prefijo del namespace abreviado sea uno comúnmente utilizado para ese namespace.  `Label` and the values of all other properties are non-normative.
+En la Sección 4, los valores de `Término IRI`, `Definición` y `Valor controlado` son normativos. El valor de `Uso` (si existe para un término determinado) también es normativo.  Los valores de `Tiene un concepto más amplio` y `Tiene coincidencia exacta` son normativos. Los valores del `Nombre del término` no son normativos, aunque se puede esperar que el prefijo del namespace abreviado sea uno comúnmente utilizado para ese namespace.  La `Etiqueta` y los valores de todas las demás propiedades no son normativos.
 
 ### 1.2 Palabras clave RFC 2119
 
@@ -58,24 +58,24 @@ Las palabras clave "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD
 
 ## 2 Uso de los Términos
 
-### 2.1 Relationship of value types to property terms
+### 2.1 Relación de los tipos de valor con los términos de propiedad
 
-In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs MUST be used as values of the property `dcterms:format`. Controlled value strings SHOULD be used as values of the property `dc:format`.
+De acuerdo con el [documento de la Lista de términos del Audiovisual Core](http://rs.tdwg.org/ac/doc/termlist/), los términos IRI no abreviados DEBEN usarse como valores de la propiedad `dcterms:format`. Las cadenas de valores controlados DEBEN usarse como valores de la propiedad `dc:format`.
 
-### 2.2 Relationship between concepts and concept schemes
+### 2.2 Relación entre conceptos y esquemas de conceptos
 
-The entry for the property `dc:format` in the [Audiovisual Core term list document](http://rs.tdwg.org/ac/doc/termlist/#dc_format) specifies that three kinds of string values are RECOMMENDED: Internet Media Types (MIME types), special string values for physical media, or commonly used file extensions. This controlled vocabulary defines two SKOS concept schemes, a concept scheme for media types and physical media (the first two kinds of values specified for `dc:type`) and a concept scheme for file extensions (the last recommended kind of value). Because the Internet Assigned Numbers Authority (IANA) maintains a [registry of media types](https://www.iana.org/assignments/media-types/media-types.xhtml) and Audiovisual Core maintains a controlled list of physical media types, using values from the media types and physical media concept scheme is RECOMMENDED over the file extensions concept scheme.
+La entrada para la propiedad `dc:format` en el [documento de lista de términos del núcleo audiovisual](http://rs.tdwg.org/ac/doc/termlist/#dc_format) especifica que se RECOMIENDAN tres tipos de valores de cadena: tipos de medios de Internet (tipos MIME), valores de cadena especiales para medios físicos o extensiones de archivo de uso común. Este vocabulario controlado define dos esquemas de conceptos SKOS: un esquema de conceptos para tipos de medios y medios físicos (los primeros dos tipos de valores especificados para `dc:type`) y un esquema de conceptos para extensiones de archivos (el último tipo de valor recomendado). Debido a que la Autoridad de Números Asignados de Internet (IANA) mantiene un [registro de tipos de medios](https://www.iana.org/assignments/media-types/media-types.xhtml) y Audiovisual Core mantiene una lista controlada de tipos de medios físicos, se RECOMIENDA utilizar valores del esquema de concepto de tipos de medios y medios físicos en lugar del esquema de concepto de extensiones de archivo.
 
-The concept scheme for media types and physical media defines a `skos:broader` relation between each specific media type or physical medium and one of the six [Top-level Media Types defined by RFC 2046](https://tools.ietf.org/html/rfc2046#page-4V) that are related to multimedia: application, audio, image, model, text, and video. This relation MAY be used by clients to infer the general category of the media item format.
+El esquema conceptual para los tipos de medios y medios físicos define una relación `skos:broader` entre cada tipo de medio específico o medio físico y uno de los seis [tipos de medios de nivel superior definidos por RFC 2046](https://tools.ietf.org/html/rfc2046#page-4V) que están relacionados con multimedia: aplicación, audio, imagen, modelo, texto y video. Esta relación PUEDE ser utilizada por usuarios para inferir la categoría general del formato del elemento multimedia.
 
-The concept scheme for file extensions defines concepts for many common file extensions used for digital media files. These concepts are usually related to one of the media types and physical media by a `skos:exactMatch` relation. Metadata creators MAY use a controlled value from the file extensions concept scheme, but because of the asserted `skos:exactMatch` relation aggregators MAY substitute the equivalent value from the media types and physical media concept scheme.
+El esquema conceptual para extensiones de archivos define conceptos para muchas extensiones de archivos comunes utilizadas en archivos multimedia digitales. Estos conceptos generalmente están relacionados con uno de los tipos de medios y medios físicos mediante una relación "skos:exactMatch". Los creadores de metadatos PUEDEN usar un valor controlado del esquema de concepto de extensiones de archivo, pero debido a la relación `skos:exactMatch` declarada, los agregadores PUEDEN sustituir el valor equivalente del esquema de concepto de tipos de medios y medios físicos.
 
-### 2.3 Example workflows (non-normative)
+### 2.3 Ejemplos de flujos de trabajo (no normativos)
 
-Workflow 1: A data provider uses spreadsheets containing a column for literal values for `dc:format`. The spreadsheets are populated with file extensions that are controlled string values from the concept scheme for file extensions. The spreadsheets are provided to an aggregator whose software "looks up" the controlled string values in the concept scheme for file extensions and determines the equivalent concepts from the concept scheme for media types and physical media. The IRIs from the concept scheme for media types and physical media are used as standardized values for `dcterms:format` in the aggregator's database.
+Flujo de trabajo 1: Un proveedor de datos utiliza hojas de cálculo que contienen una columna para valores literales para `dc:format`. Las hojas de cálculo se llenan con extensiones de archivo que son valores de cadena controlados desde el esquema de conceptos para extensiones de archivo. Las hojas de cálculo se proporcionan a un agregador cuyo software "busca" los valores de cadena controlados en el esquema de conceptos para extensiones de archivo y determina los conceptos equivalentes del esquema de conceptos para tipos de medios y medios físicos. Los IRI del esquema conceptual para tipos de medios y medios físicos se utilizan como valores estandarizados para `dcterms:format` en la base de datos del agregador.
 
-Workflow 2: A data aggregator acquires data about multimedia items that includes file names or URLs, but no format information. The aggregator extracts the file extensions from the files or URLs and uses the concept schemes to assign a `dcterms:format` IRI value from the concept scheme for media types and physical media to each item. In cases where an item has a file extension that does not correspond to one of the controlled value strings in the concept scheme for file extensions, the aggregator uses a community-maintained table of alternate file extension values to determine the appropriate format concept for the media item.
+Flujo de trabajo 2: Un agregador de datos adquiere datos sobre elementos multimedia que incluyen nombres de archivos o URL, pero ninguna información de formato. El agregador extrae las extensiones de archivo de los archivos o URL y utiliza los esquemas de concepto para asignar un valor IRI `dcterms:format` del esquema de concepto para tipos de medios y medios físicos a cada elemento. En los casos en que un elemento tiene una extensión de archivo que no corresponde a una de las cadenas de valores controlados en el esquema de conceptos para extensiones de archivo, el agregador utiliza una tabla de valores de extensión de archivo alternativos, mantenida por la comunidad, para determinar el concepto de formato apropiado para el elemento multimedia.
 
-Workflow 3: A data aggregator harvests media items from an open data repository. The remote server provides the media type via a `Content-Type` header and the file extension is determined from the file name. The aggregator cross-checks the media type value against the file extension value and uses the `skos:exactMatch` relations in the SKOS concept schemes to determine whether the values are consistent. Inconsistent pairs of values are flagged for manual checking. Previously unknown file extensions are flagged for additional research and possible inclusion in the community-maintained table of alternate file extension values.
+Flujo de trabajo 3: Un agregador de datos recopila elementos multimedia de un repositorio de datos abierto. El servidor remoto proporciona el tipo de medio a través de un encabezado `Content-Type` y la extensión del archivo se determina a partir del nombre del archivo. El agregador verifica el valor del tipo de medio con el valor de la extensión del archivo y utiliza las relaciones `skos:exactMatch` en los esquemas de conceptos de SKOS para determinar si los valores son consistentes. Los pares de valores inconsistentes se marcan para verificación manual. Las extensiones de archivos previamente desconocidas se marcan para investigación adicional y posible inclusión en la tabla de valores de extensiones de archivos alternativos mantenida por la comunidad.
 
 ## 3 Índice de Términos

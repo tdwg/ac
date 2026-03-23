@@ -4,12 +4,12 @@ layout: home
 
 # Audiovisual Core
 
-<p class="lead">Audiovisual Core is a <a href="https://www.tdwg.org/">TDWG</a> standard maintained by the <a href="https://www.tdwg.org/community/ac/">Audiovisual Core Maintenance Interest Group</a>. It includes a <a href="termlist/">main vocabulary</a> and several controlled vocabularies, as well as several guides that explain how the vocabularies should be used. The purpose of Audiovisual Core is to represent metadata for biodiversity multimedia resources and collections, and to make it possible for users to determine whether those resources would be fit for some biodiversity science application before acquiring the media.</p>
+<p class="lead">Audiovisual Core je standard <a href="https://www.tdwg.org/">TDWG</a> spravovaný skupinou <a href="https://www.tdwg.org/community/ac/">Audiovisual Core Maintenance Interest Group</a>. Zahrnuje <a href="termlist/">hlavní slovník</a> a několik řízených slovníků, stejně jako několik příruček, které vysvětlují, jak by se slovníky měly používat. Účelem Audiovisual Core je reprezentovat metadata pro multimediální zdroje a sbírky týkající se biologické rozmanitosti a umožnit uživatelům před pořízením médií určit, zda jsou tyto zdroje vhodné pro některé aplikace v oblasti vědy o biologické rozmanitosti.</p>
 
 ## Začínáme
 
-- [Introduction to Audiovisual Core](introduction/)
-- [Term list](termlist/): list of all terms included in the main Audiovisual Core vocabulary
-- Usage guides: [detailed guide to aims and uses](guide/) and [guide for structuring records](structure/)
-- Examples: work-in-progress pages to document how Audiovisual Core is used "in the wild" for [still images](https://github.com/tdwg/ac/blob/master/image/examples.md). Pages for sound and video to come...
-- [GitHub repository](https://github.com/tdwg/ac): where Audiovisual Core is maintained. It includes detailed records of the development of the standard and information about the day-to-day operations of the Maintenance Group. This is the place to go if you want to become involved in improving Audiovisual Core.
+- [Úvod do Audiovisual Core](introduction/)
+- [Seznam termínů](termlist/): seznam všech termínů obsažených v hlavním slovníku Audiovisual Core
+- Návody k použití: [podrobný návod k cílům a použití](guide/) a [návod ke strukturování záznamů](structure/)
+- Příklady: stránky ve vývoji, které dokumentují, jak se Audiovisual Core používá „v praxi“ pro [statické obrázky](https://github.com/tdwg/ac/blob/master/image/examples.md). Stránky pro zvuk a video budou brzy k dispozici...
+- [repozitář GitHub](https://github.com/tdwg/ac): kde je udržován Audiovisual Core. Obsahuje podrobné záznamy o vývoji normy a informace o každodenní činnosti skupiny pro údržbu. Toto je místo, kam se můžete obrátit, pokud se chcete zapojit do vylepšování Audiovisual Core.

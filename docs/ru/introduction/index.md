@@ -35,7 +35,7 @@ Bibliographic citation
 
 ## 1. Введение
 
-There are four documents included in the Aububon Core Standard.  This document
+There are four documents included in the Audiovisual Core Standard.  This document
 provides a general introduction to the Audiovisual Core Standard. For information
 about the structure of Audiovisual Core, see the [Audiovisual Core Structure](../structure/)
 document.  For term details, see the [Audiovisual Core Terms List](../termlist/) document.  
@@ -151,11 +151,11 @@ implementations will be listed in ancillary documents not included as part of th
 
 ## 4 References
 
-\|   |  
-\---|---|---
-[\[ACISS\]](https://github.com/tdwg/ac/issues) | https://github.com/tdwg/ac/issues | AC issue tracker
-[\[CHANGE\]](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#3-change-process) | http://rs.tdwg.org/vms/doc/specification/#3-change-process | TDWG vocabulary change policy |
-[\[DCMIU\]](http://wiki.dublincore.org/index.php/User_Guide) | http://wiki.dublincore.org/index.php/User_Guide | Dublin Core User Guide                         |
-[\[GUIDE\]](../guide/) | http://rs.tdwg.org/ac/doc/guide/ | AC User Guide
-[\[STRCT\]](../structure/) | http://rs.tdwg.org/ac/doc/structure/ | Introduction to AC structure
-[\[TERMS\]](../termlist/) | http://rs.tdwg.org/ac/doc/termlist/ | AC Term List                            |
+|                                                                                                                                                                 |                                                                                                                                      |                               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------- |
+| [\[ACISS\]](https://github.com/tdwg/ac/issues)                                                            | https://github.com/tdwg/ac/issues                                                                    | AC issue tracker              |
+| [\[CHANGE\]](https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#3-change-process) | http://rs.tdwg.org/vms/doc/specification/#3-change-process                           | TDWG vocabulary change policy |
+| [\[DCMIU\]](http://wiki.dublincore.org/index.php/User_Guide)                                              | http://wiki.dublincore.org/index.php/User_Guide | Dublin Core User Guide        |
+| [\[GUIDE\]](../guide/)                                                                                    | http://rs.tdwg.org/ac/doc/guide/                                                     | AC User Guide                 |
+| [\[STRCT\]](../structure/)                                                                                | http://rs.tdwg.org/ac/doc/structure/                                                 | Introduction to AC structure  |
+| [\[TERMS\]](../termlist/)                                                                                 | http://rs.tdwg.org/ac/doc/termlist/                                                  | AC Term List                  |
