@@ -1,4 +1,4 @@
-# Controlled Vocabulary for Dublin Core format: List of Terms
+# Vocabulario Controlado para el formato Dublin Core: Lista de términos
 
 Título
 : Vocabulario Controlado para formato Dublin Core: Lista de términos
@@ -26,8 +26,7 @@ Esta versión
 
 {previous_version_slot}
 
-Abstract
-: Audiovisual Core borrows the Dublin Core terms dc:format and dcterms:format to provide information about the physical or electronic format of a media item. This controlled vocabulary provides values for those two terms.
+: Audiovisual Core toma prestados los términos dc:format y dcterms:format para proporcionar información sobre el formato físico o electrónico de un elemento multimedia. Este vocabulario controlado proporciona valores para esos dos términos.
 
 Colaboradores
 : {contributors}
