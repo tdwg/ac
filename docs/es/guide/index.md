@@ -12,13 +12,13 @@ Date created
 Parte del Estándar TDWG
 : <http://www.tdwg.org/standards/638>
 
-This version
+Esta versión
 : <http://rs.tdwg.org/ac/doc/guide/2023-02-24>
 
-Latest version
+Versión más reciente
 : <http://rs.tdwg.org/ac/doc/guide/>
 
-Previous version
+Versión anterior
 : <http://rs.tdwg.org/ac/doc/guide/2013-10-15>
 
 Resumen:
