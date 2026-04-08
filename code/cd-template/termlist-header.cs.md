@@ -6,7 +6,7 @@ Title
 Namespace IRI
 : <http://rs.tdwg.org/accd/values/>
 
-Preferred namespace abbreviation
+Preferovaná zkratka jmenného prostoru
 : accd:
 
 Datum vydání verze
@@ -26,7 +26,7 @@ Aktuální verze
 
 {previous_version_slot}
 
-Abstract
+Abstrakt
 : {abstract}
 
 Přispěvatelé
