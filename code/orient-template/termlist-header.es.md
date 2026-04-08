@@ -25,8 +25,7 @@ Esta versión
 
 {previous_version_slot}
 
-Abstract
-: The Audiovisual Core term subjectOrientation describes the viewing orientation relative to an organism or part of an organism depicted in a media item or region of interest. The subjectOrientation Controlled Vocabulary provides terms that should be used as values for ac:subjectOrientation and its literal-valued analog ac:subjectOrientationLiteral.
+: El término Audiovisual Core subjectorientation describe la orientación visual con respecto a un organismo o parte de un organismo representado en un elemento multimedia o en una región de interés. El vocabulario controlado subjectOrientation proporciona términos que deben utilizarse como valores para ac:subjectOrientation y su análogo de valor literal ac:subjectOrientationLiteral.
 
 Colaboradores
 : {contributors}
