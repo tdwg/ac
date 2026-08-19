@@ -924,3 +924,55 @@ cd_list = TermList(
 index_section_number = 3
 # List of Terms HTML. document_iri[19:-1].split('/')[2] gets the page slug
 generate_all_markdown(cd_list, document_iri[19:-1].split('/')[2], languages, index_section_number)
+
+
+# 3D Modality Controlled Vocabulary
+document_iri = 'http://rs.tdwg.org/ac/doc/3dmodality/'
+databases = retrieve_databases_for_vocabulary('http://rs.tdwg.org/ac3dmodality/')
+ac3dmodality = dwcterms.DwcTerms(
+    termLists = databases,
+    docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
+    rsPath = local_path_to_rs,
+    githubBranch = github_branch,
+    githubUser = github_user)
+cd_list = TermList(
+    terms = ac3dmodality,
+    vocabType = 3,
+    organizedInCategories = False,
+    displayOrder = [''],
+    displayLabel = ['vocabulary'],
+    displayComments = [''],
+    displayId = ['Vocabulary']
+)
+
+# Because different docs have a different section number for the indices, indicate it here.
+# The Vocabulary section is assumed to be the next section after the indices.
+index_section_number = 3
+# List of Terms HTML. document_iri[19:-1].split('/')[2] gets the page slug
+generate_all_markdown(cd_list, document_iri[19:-1].split('/')[2], languages, index_section_number)
+
+
+# 3D Resource Type Vocabulary
+document_iri = 'http://rs.tdwg.org/ac/doc/3dtype/'
+databases = retrieve_databases_for_vocabulary('http://rs.tdwg.org/ac3dtype/')
+ac3dtype = dwcterms.DwcTerms(
+    termLists = databases,
+    docMetadataFilePath = document_iri[19:-1].replace('/','_') + '/',
+    rsPath = local_path_to_rs,
+    githubBranch = github_branch,
+    githubUser = github_user)
+cd_list = TermList(
+    terms = ac3dtype,
+    vocabType = 2,
+    organizedInCategories = False,
+    displayOrder = [''],
+    displayLabel = ['vocabulary'],
+    displayComments = [''],
+    displayId = ['Vocabulary']
+)
+
+# Because different docs have a different section number for the indices, indicate it here.
+# The Vocabulary section is assumed to be the next section after the indices.
+index_section_number = 3
+# List of Terms HTML. document_iri[19:-1].split('/')[2] gets the page slug
+generate_all_markdown(cd_list, document_iri[19:-1].split('/')[2], languages, index_section_number)
