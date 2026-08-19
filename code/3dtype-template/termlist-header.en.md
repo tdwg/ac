@@ -61,7 +61,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 In accordance with [the Audiovisual Core Term List document](http://rs.tdwg.org/ac/doc/termlist/), unabbreviated term IRIs SHOULD be used as values of the property `ac:digital3DResourceType`. Controlled value strings SHOULD be used as values of the property `ac:digital3DResourceTypeLiteral`.
 
-### 2.2 Relationship between values of ac:CVtermLiteral and Iptc4xmpExt:CVterm
+### 2.2 Relationship between values of ac:digital3DResourceType and ac:digital3DResourceTypeLiteral
 
 An IRI for a term in this vocabulary denotes the same concept as the concept denoted by the controlled value string for the same term. Thus a client MAY infer an IRI value for `ac:digital3DResourceType` given a controlled value string for `ac:digital3DResourceTypeLiteral` even if that IRI is not explicitly stated. The practical implication is that data aggregators MAY materialize values for the preferred `ac:digital3DResourceType` property in cases where providers only provide values for `ac:digital3DResourceTypeLiteral`. 
 
