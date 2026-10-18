@@ -125,7 +125,6 @@ Poznámka: V příkladech byly pro lepší srozumitelnost použity doslovné vý
 
 #### 3.1.1 Příklad vnořené struktury XML (nenormativní)
 
-    ```
     <MEDIA_METADATA_CONTAINER>
       <dcterms:identifier>http//:example.com/pictures/thePicture.jpg</dcterms:identifier>
       ...
@@ -138,11 +137,9 @@ Poznámka: V příkladech byly pro lepší srozumitelnost použity doslovné vý
         ...
       </ac:hasServiceAccessPoint>
     <MEDIA_METADATA_CONTAINER>
-    ```
 
 #### 3.1.2 Příklad odkazu XML podle identifikátoru (nenormativní)
 
-    ```
     <MEDIA_METADATA_CONTAINER>
       <dcterms:identifier>http://example.com/pictures/thePicture.jpg</dcterms:identifier>
       ...
@@ -155,11 +152,9 @@ Poznámka: V příkladech byly pro lepší srozumitelnost použity doslovné vý
       </ac:ServiceAccessPoint>
       ...
     <MEDIA_METADATA_CONTAINER>
-    ```
 
 #### 3.1.3 Příklad opakovaného prvku kontejneru XML (nenormativní)
 
-    ```
     <MEDIA_METADATA_CONTAINER>
       <dcterms:identifier>http//:example.com/pictures/thePicture.jpg</dcterms:identifier>
       <dcterms:title>List červeného buku</dcterms:title>
@@ -173,7 +168,6 @@ Poznámka: V příkladech byly pro lepší srozumitelnost použity doslovné vý
       <ac:accessURI>http://example.com/fullres/thePicture-hires.png</ac:accessURI>
       ...
     <MEDIA_METADATA_CONTAINER>
-    ```
 
 ### 3.2 Tabulkové serializace
 

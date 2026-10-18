@@ -1,7 +1,7 @@
-# Controlled Vocabulary for Audiovisual Core Content Description: List of Terms
+# Descripción del Vocabulario Controlado para el Contenido Audiovisual Básico: Lista de Términos
 
-Title
-: Controlled Vocabulary for Audiovisual Core Content Description: List of Terms
+Título
+: Descripción del Vocabulario Controlado para el Contenido Audiovisual Básico: Lista de Términos
 
 Espacio de nombres IRI
 : <http://rs.tdwg.org/accd/values/>

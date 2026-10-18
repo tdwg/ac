@@ -51,7 +51,7 @@ Section 1 is informative (non-normative).
 
 Section 3 is informative (non-normative).
 
-セクション 4 では、`用語のIRI（Term IRI）`、`定義（Definition）`、`制御値（Controlled value）`の値が規範的なものです。 `使用法（Usage）`の値がもし存在する場合、それは規範的なものです。 `用語の名前（Term Name）`の値は非規範的ですが、名前空間の略語の接頭辞はその用語の名前空間で一般的に使われるものであると予想できます。  `Label` and the values of all other properties are non-normative.
+セクション 4 では、`用語のIRI（Term IRI）`、`定義（Definition）`、`制御値（Controlled value）`の値が規範的なものです。`使用法（Usage）`の値がもし存在する場合、それは規範的なものです。`用語の名前（Term Name）`の値は非規範的ですが、名前空間の略語の接頭辞はその用語の名前空間で一般的に使われるものであると予想できます。  `Label` and the values of all other properties are non-normative.
 
 ### 1.2 RFC 2119 キーワード
 
