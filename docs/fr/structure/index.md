@@ -177,7 +177,6 @@ Note: In the examples, for human-readability the literal valued terms `dc:format
 
 #### 3.1.1 Nested XML structure example (non-normative)
 
-    ```
     <MEDIA_METADATA_CONTAINER>
       <dcterms:identifier>http//:example.com/pictures/thePicture.jpg</dcterms:identifier>
       ...
@@ -190,11 +189,9 @@ Note: In the examples, for human-readability the literal valued terms `dc:format
         ...
       </ac:hasServiceAccessPoint>
     <MEDIA_METADATA_CONTAINER>
-    ```
 
 #### 3.1.2 XML reference by identifier example (non-normative)
 
-    ```
     <MEDIA_METADATA_CONTAINER>
       <dcterms:identifier>http://example.com/pictures/thePicture.jpg</dcterms:identifier>
       ...
@@ -207,11 +204,9 @@ Note: In the examples, for human-readability the literal valued terms `dc:format
       </ac:ServiceAccessPoint>
       ...
     <MEDIA_METADATA_CONTAINER>
-    ```
 
 #### 3.1.3 Repeated container element XML example (non-normative)
 
-    ```
     <MEDIA_METADATA_CONTAINER>
       <dcterms:identifier>http//:example.com/pictures/thePicture.jpg</dcterms:identifier>
       <dcterms:title>A red beech leaf</dcterms:title>
@@ -225,7 +220,6 @@ Note: In the examples, for human-readability the literal valued terms `dc:format
       <ac:accessURI>http://example.com/fullres/thePicture-hires.png</ac:accessURI>
       ...
     <MEDIA_METADATA_CONTAINER>
-    ```
 
 ### 3.2 Tabular serializations
 
