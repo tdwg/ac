@@ -26,7 +26,7 @@ Niels Klazenga - Royal Botanic Gardens Victoria - [Niels.Klazenga@rbg.vic.gov.au
 
 Rebecca Snyder - Smithsonian Institution, National Museum of Natural History - [SNYDERR@si.edu](mailto:SNYDERR@si.edu)
 
-Dan Stowell - Tilburg University and Naturalis Biodiversity Centre - [dstowell@tilburguniversity.edu](mailto:dstowell@tilburguniversity.edu)
+Dan Stowell - Leiden Institute of Advanced Computer Science and Naturalis Biodiversity Centre - [dan.stowell@naturalis.nl](mailto:dan.stowell@naturalis.nl)
 
 Jocelyn Triplett - Duke University, MorphoSource.org - [jocelyn.triplett@duke.edu](mailto:jocelyn.triplett@duke.edu)
 
